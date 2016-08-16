@@ -1,9 +1,14 @@
-<h1 class="header">Coming Soon...</h1>
+<h1 class="header">{{currentExpansion}}</h1>
 <div class="content">
   <div ng-show="status">
-    <md-input-container md-no-float>
-      <input type="text" ng-model="search" placeholder="Search..">
-    </md-input-container>
+    <div layout="row">
+      <md-input-container md-no-float flex="30">
+        <input type="text" ng-model="search" placeholder="Search..">
+      </md-input-container>
+      <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40">
+          <md-option ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Karazhan' ? true : false">{{set}}</md-option>
+      </md-select>
+    </div>
     <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards ">
       <div class="card" ng-repeat="card in rows | filter:search" ng-click="displayFlavor(card.flavor)">
         <div class="column">
