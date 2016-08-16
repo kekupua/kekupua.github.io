@@ -2,10 +2,12 @@ kekupua.controller('ContentController', ['$scope', 'globalService' , function($s
   $scope.allCards = [];
 
   $scope.loadCards = function(){
-    $scope.allCards = globalService.getCards();
+    globalService.getCards(null, function(response){
+      $scope.allCards = response;
+      console.log($scope.allCards['Basic']);
+    });
   }
 
-  console.log("Hello");
   $scope.loadCards();
 
 }]);

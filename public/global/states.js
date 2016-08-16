@@ -3,7 +3,7 @@ kekupua.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise("/");
   // Now set up the states
   $stateProvider
-    .state('test', {
+    .state('home', {
       url: "/",
       templateUrl: "public/global/views/home.html",
       controller: "ContentController"

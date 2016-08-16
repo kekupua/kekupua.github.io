@@ -1,4 +1,20 @@
-<h1 class="header">Volunteering</h1>
+<h1 class="header">Coming Soon...</h1>
 <div class="content">
-  <img height="500px" width="500px" src="public/resources/images/datahouseVolunteer.JPG">
+  <md-input-container md-no-float>
+    <input type="text" ng-model="search" placeholder="Search..">
+  </md-input-container>
+  <div class="cardTable" layout="row" layout-align="space-around center">
+    <div class="card" ng-repeat="card in allCards['Basic'] | filter:search" >
+      <div class="column">
+        <img ng-src={{card.img}}>
+        <div class="hiddenProperties" ng-hide="true">
+          {{card.attack}}
+          {{card.health}}
+          {{card.name}}
+          {{card.text}}
+          {{card.mechanics}}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
