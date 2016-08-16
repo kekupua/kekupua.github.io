@@ -1,11 +1,11 @@
-kekupua.controller('ContentController', ['$scope', 'globalService' , function($scope, globalService){
+kekupua.controller('ContentController', ['$scope', '$mdDialog', 'globalService' , function($scope, $mdDialog, globalService){
   $scope.allCards = [];
   $scope.status = null;
 
   $scope.loadCards = function(){
     globalService.getCards(null, function(response){
       $scope.allCards = response;
-      $scope.chunkedCards = $scope.chunk($scope.allCards['Basic'], 8);
+      $scope.chunkedCards = $scope.chunk($scope.allCards['Whispers of the Old Gods'], 8);
       $scope.status = 1;
     });
   }
@@ -22,7 +22,14 @@ kekupua.controller('ContentController', ['$scope', 'globalService' , function($s
     if(!flavorText){
       return;
     }
-    alert(flavorText);
+    alert = $mdDialog.alert()
+      .title(flavorText)
+      .ok('Close');
+    $mdDialog
+        .show( alert )
+        .finally(function() {
+          alert = undefined;
+        });
   }
 
   $scope.loadCards();
