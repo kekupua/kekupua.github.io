@@ -5,7 +5,6 @@ kekupua.factory('globalService', function($http){
         "X-Mashape-Authorization" : "6YdwHuHc8lmshKhC5pDFaaR1rZtQp11TQj9jsnEpV5IqezCqL7"
       },
       params:{
-        'attack': '2',
         'collectible' : '1'
       }
     }
