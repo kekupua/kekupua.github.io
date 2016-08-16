@@ -1,3 +1,4 @@
-kekupua.controller('ContentController', ['$scope' , function($scope){
+kekupua.controller('ContentController', ['$scope', 'globalService' , function($scope, globalService){
   console.log("Hello");
+
 }]);

@@ -1,7 +1,12 @@
 /* Custom CSS */
 .main {
-  margin: 50px;
+  padding-top: 50px;
   text-align: center;
+}
+
+.main img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Banner */
