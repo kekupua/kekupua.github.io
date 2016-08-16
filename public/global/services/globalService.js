@@ -3,7 +3,7 @@ kekupua.factory('globalService', function($http){
     return $http.get('public/resources/cards.json').then(
       function(response){
         console.log(response);
-        return response;
+        return response.data;
       },
       function(error){
         console.log(error);

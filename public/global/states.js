@@ -5,15 +5,8 @@ kekupua.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('test', {
       url: "/",
-      templateUrl: "public/global/views/test.html",
+      templateUrl: "public/global/views/home.html",
       controller: "ContentController"
-    })
-    .state('state1.list', {
-      url: "/list",
-      templateUrl: "partials/state1.list.html",
-      controller: function($scope) {
-        $scope.items = ["A", "List", "Of", "Items"];
-      }
     })
     .state('state2', {
       url: "/state2",
@@ -21,9 +14,6 @@ kekupua.config(function($stateProvider, $urlRouterProvider) {
     })
     .state('state2.list', {
       url: "/list",
-      templateUrl: "partials/state2.list.html",
-      controller: function($scope) {
-        $scope.things = ["A", "Set", "Of", "Things"];
-      }
+      templateUrl: "partials/state2.list.html"
     });
 });
