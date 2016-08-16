@@ -1,13 +1,12 @@
 kekupua.config(function($stateProvider, $urlRouterProvider) {
-  //
-  // For any unmatched url, redirect to /state1
+  // For any unmatched url, redirect to /
   $urlRouterProvider.otherwise("/");
-  //
   // Now set up the states
   $stateProvider
     .state('test', {
       url: "/",
-      templateUrl: "./global/test.html"
+      templateUrl: "public/global/views/test.html",
+      controller: "ContentController"
     })
     .state('state1.list', {
       url: "/list",
