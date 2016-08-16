@@ -2,14 +2,22 @@
 <div class="content">
   <div ng-show="status">
     <div layout="row">
+      <div flex="30">
+        <h1 class="md-title">Search...</h1>
+      </div>
+      <div flex="30" flex-offset="40">
+        <h1 class="md-title">Select an Expansion</h1>
+      </div>
+    </div>
+    <div layout="row">
       <md-input-container md-no-float flex="30">
         <input type="text" ng-model="search" placeholder="Search..">
       </md-input-container>
-      <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40">
-          <md-option ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Karazhan' ? true : false">{{set}}</md-option>
+      <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40" style="margin-top: 18px; margin-bottom:45px;">
+          <md-option  ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Karazhan' ? true : false">{{set}}</md-option>
       </md-select>
     </div>
-    <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards ">
+    <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards">
       <div class="card" ng-repeat="card in rows | filter:search" ng-click="displayFlavor(card.flavor)">
         <div class="column">
           <img ng-src={{card.img}}>

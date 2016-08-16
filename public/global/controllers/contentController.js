@@ -23,7 +23,7 @@ kekupua.controller('ContentController', ['$scope', '$mdDialog', 'globalService' 
     $scope.status = null;
     globalService.getCards(null, function(response){
       $scope.allCards = response;
-      $scope.chunkedCards = $scope.chunk($scope.allCards[cardSet], 8);
+      $scope.chunkedCards = $scope.chunk($scope.allCards[cardSet], 6);
       $scope.status = 1;
     });
   }
