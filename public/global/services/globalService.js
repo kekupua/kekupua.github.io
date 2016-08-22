@@ -8,6 +8,7 @@ kekupua.factory('globalService', function($http){
         'collectible' : '1'
       }
     }
+    
     return $http.get("https://omgvamp-hearthstone-v1.p.mashape.com/cards", config).then(
       function(response){
         callback(response.data);
