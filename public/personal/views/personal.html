@@ -1,8 +1,12 @@
-<h1 class="header">Memories</h1>
-<div class="content">
-  <h1> Coming Soon... </h1>
-  <!-- <img src="public/resources/images/instagram.PNG">
-  <img src="public/resources/images/datahouseVolunteer.JPG">
-  <img src="public/resources/images/withKoffing.PNG">
-  <img src="public/resources/images/withTerry.PNG"> -->
+<h1 class="header"  style="background:white">Memories</h1>
+<div class="content" ng-controller="PersonalController">
+  <div class="mainSlider">
+    <slick variableWidth=true centerMode=true dots=true>
+      <div ng-repeat="image in carouselImages">
+        <img ng-src="{{image.src}}">
+      </div>
+    </slick>
+  </div>
+  <div class="otherStuff">
+  </div>
 </div>

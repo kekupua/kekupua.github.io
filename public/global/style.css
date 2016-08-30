@@ -8,12 +8,37 @@
   height: auto;
 }
 
+md-progress-circular svg {
+  position:static !important;
+}
+
+/* Splash */
+.splashScreen {
+  position:absolute;;
+  top:50%;
+  left:50%;
+  text-align: center;
+}
+
 /* Content */
 .content {
   margin: 0px 20%;
 }
 
 /* Personal */
-.personalTab img{
+.personalBack {
+  background: black;
+}
+
+.personalTab img {
   padding: 25px;
+}
+
+.mainSlider {
+  text-align: center;
+}
+
+.mainSlider img {
+  margin: auto;
+  max-height:600px;
 }
