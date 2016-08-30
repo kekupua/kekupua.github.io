@@ -1,6 +1,6 @@
 kekupua.config(function($stateProvider, $urlRouterProvider) {
   // For any unmatched url, redirect to /
-  $urlRouterProvider.otherwise("/test");
+  $urlRouterProvider.otherwise("/");
   // Now set up the states
   $stateProvider
     .state('home', {
