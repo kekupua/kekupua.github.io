@@ -1,6 +1,110 @@
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+body{
+	color: #5e5b64;
+	text-align:center;
+}
+
+a, a:visited {
+	outline:none;
+	color:#389dc1;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header, aside, nav{
+	display: block;
+}
+
+
+/*-------------------------
+	The menu
+--------------------------*/
+
+
+nav{
+	display:inline-block;
+	margin:0px;
+	background-color:#79b3ea;
+	box-shadow:0 1px 1px #ccc;
+	border-radius:2px;
+  width:100%;
+}
+
+nav a{
+	display:inline-block;
+	padding: 18px 30px;
+	color:#fff !important;
+	font-weight:bold;
+	font-size:16px;
+	text-decoration:none !important;
+	line-height:1;
+	text-transform: uppercase;
+	background-color:transparent;
+  margin: 0 10px;
+
+	-webkit-transition:background-color 0.25s;
+	-moz-transition:background-color 0.25s;
+	transition:background-color 0.25s;
+}
+
+nav a:first-child{
+	border-radius:2px 0 0 2px;
+}
+
+nav a:last-child{
+	border-radius:0 2px 2px 0;
+}
+
+nav.home .home,
+nav.team.team,
+nav.about .about,
+nav.contact .contact{
+	background-color:#088efb;
+}
+
+p{
+	color:#7d9098;
+}
+
+p b{
+	color:#ffffff;
+	display:inline-block;
+	padding:5px 10px;
+	background-color:#DC64C6;
+	border-radius:2px;ize:22px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:18px;
+}
+
 /* Custom CSS */
-.main {
+html,
+body{
+ background:white;
+}
+
+h1, h2, h3, h4 , h5{
+  margin: 0px;
+}
+
+.header{
   text-align: center;
+}
+
+.header.hearthstone{
+  padding:20px 0px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.header.portfolio{
+  padding:20px 0px;
+  border-bottom: 1px solid #c3c3c3;
 }
 
 .main img {
@@ -12,17 +116,40 @@ md-progress-circular svg {
   position:static !important;
 }
 
-/* Splash */
-.splashScreen {
-  position:absolute;;
-  top:50%;
-  left:50%;
-  text-align: center;
+/* Project Listings */
+.projectListing {
+  margin: 0px 15%;
+}
+
+project-card md-card {
+  background: #fff3dc;
 }
 
 /* Content */
 .content {
   margin: 0px 20%;
+  text-align: center;
+}
+
+/* Hearthstone */
+.search, .expansion {
+  padding-top: 20px;
+}
+.fade.ng-hide {
+  opacity: 0;
+}
+
+.fade.ng-hide-remove,
+.fade.ng-hide-add {
+  display: block !important;
+}
+
+.fade.ng-hide-remove {
+  transition: all linear 350ms;
+}
+
+.fade.ng-hide-add {
+  transition: all linear 200ms;
 }
 
 /* Personal */

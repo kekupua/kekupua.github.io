@@ -1,4 +1,4 @@
-var kekupua = angular.module('main', ['ngMaterial', 'ui.router', 'slick']).config(function($mdThemingProvider) {
+var kekupua = angular.module('main', ['ngMaterial', 'ngAnimate', 'ui.router', 'slick']).config(function($mdThemingProvider) {
   $mdThemingProvider.theme('default')
     .primaryPalette('blue-grey', {
       'default': '400', // by default use shade 400 from the pink palette for primary intentions

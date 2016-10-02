@@ -1,39 +1,37 @@
-<h1 class="header">{{currentExpansion}}</h1>
-<div class="content">
-  <div ng-show="status">
-    <div layout="row">
-      <div flex="30">
-        <h1 class="md-title">Search...</h1>
-      </div>
-      <div flex="30" flex-offset="40">
-        <h1 class="md-title">Select an Expansion</h1>
-      </div>
-    </div>
-    <div layout="row">
-      <md-input-container md-no-float flex="30">
-        <input type="text" ng-model="search" placeholder="Search..">
-      </md-input-container>
-      <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40" style="margin-top: 18px; margin-bottom:45px;">
-          <md-option  ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Karazhan' ? true : false">{{set}}</md-option>
-      </md-select>
-    </div>
-    <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards">
-      <div class="card" ng-repeat="card in rows | filter:search" ng-click="displayFlavor(card.flavor)">
-        <div class="column">
-          <img ng-src={{card.img}}>
-          <div class="hiddenProperties" ng-hide="true">
-            {{card.attack}}
-            {{card.health}}
-            {{card.name}}
-            {{card.text}}
-            {{card.mechanics}}
-            {{card.flavor}}
+<div class="main">
+  <md-content>
+    <div ng-controller="HearthstoneController">
+      <div class="content">
+        <h1 class="header hearthstone">{{currentExpansion}}</h1>
+        <div ng-show="queryStatus" class="fade">
+          <div layout="row">
+            <div flex="30">
+              <h3 class="md-title search">Search...</h3>
+            </div>
+            <div flex="30" flex-offset="40">
+              <h3 class="md-title expansion">Select an Expansion</h3>
+            </div>
           </div>
+          <div layout="row">
+            <md-input-container md-no-float flex="30">
+              <input type="text" ng-model="search" placeholder="Search..">
+            </md-input-container>
+            <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40" style="margin-top: 18px; margin-bottom:45px;">
+                <md-option  ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Karazhan' ? true : false">{{set}}</md-option>
+            </md-select>
+          </div>
+          <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards">
+            <div class="card" ng-repeat="card in rows | filter:search" ng-click="displayFlavor(card.flavor)">
+              <div class="column">
+                <img ng-src={{card.img}}>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div ng-hide="queryStatus" style="padding-top:10%;" class="md-primary">
+          <md-progress-circular md-mode="indeterminate"></md-progress-circular>
         </div>
       </div>
     </div>
-  </div>
-  <div ng-hide="status" style="padding-bottom:20px;" class="md-primary">
-    <md-content><md-progress-circular md-mode="indeterminate"></md-progress-circular></md-content>
-  </div>
+  </md-content>
 </div>

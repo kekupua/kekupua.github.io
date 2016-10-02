@@ -1,0 +1,10 @@
+<div class="projectListing" ng-controller="PortfolioController">
+  <div class="header portfolio">
+    <h1>Projects</h1>
+  </div>
+  <div layout="row" layout-align="space-around center">
+    <div ng-repeat="project in projectList">
+      <project-card></project-card>
+    </div>
+  </div>
+</div>

@@ -6,7 +6,8 @@
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body ng-app="main">
+<body ng-app="main" ng-controller="ContentController as contentCtrl">
+  <banner></banner>
   <div ui-view></div>
 
   <!-- jQuery Scripts -->
@@ -30,8 +31,12 @@
   <script type="text/javascript" src="public/global/app.js"></script>
   <script type="text/javascript" src="public/global/states.js"></script>
   <script type="text/javascript" src="public/global/controllers/contentController.js"></script>
+  <script type="text/javascript" src="public/portfolio/controllers/portfolioController.js"></script>
+  <script type="text/javascript" src="public/hearthstone/controllers/hearthstoneController.js"></script>
   <script type="text/javascript" src="public/personal/controllers/personalController.js"></script>
   <script type="text/javascript" src="public/global/services/globalService.js"></script>
+  <script type="text/javascript" src="public/global/directives/projectCard.js"></script>
+  <script type="text/javascript" src="public/global/directives/banner.js"></script>
   <link rel="stylesheet" href="public/global/style.css" type="text/css">
 
   <script>

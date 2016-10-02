@@ -5,12 +5,11 @@ kekupua.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url: "/",
-      templateUrl: "public/global/views/home.html",
-      controller: "ContentController"
+      templateUrl: "public/portfolio/views/portfolio.html"
     })
-    .state('test', {
-      url: "/test",
-      templateUrl: "public/global/views/test.html"
+    .state('hearthstone', {
+      url: "/hearthstoneCards",
+      templateUrl: "public/hearthstone/views/hearthstone.html"
     })
     .state('state2.list', {
       url: "/list",
