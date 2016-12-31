@@ -9,7 +9,6 @@ kekupua.controller('ContentController', ['$scope', '$mdDialog', '$state', 'globa
       link: "hearthstone"
     }
   ]
-  console.log($state);
 
 
 }]);

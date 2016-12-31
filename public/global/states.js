@@ -11,8 +11,8 @@ kekupua.config(function($stateProvider, $urlRouterProvider) {
       url: "/hearthstoneCards",
       templateUrl: "public/hearthstone/views/hearthstone.html"
     })
-    .state('personal', {
-      url: "/list",
-      templateUrl: "public/personal/views/personal.html"
-    });
+    // .state('profile', {
+    //   url: "/profile",
+    //   templateUrl: "public/personal/views/personal.html"
+    // });
 });

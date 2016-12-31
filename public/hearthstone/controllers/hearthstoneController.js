@@ -1,9 +1,10 @@
 kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalService', function($scope, $mdDialog, globalService){
   $scope.allCards = [];
-  $scope.currentExpansion = 'Karazhan';
-  $scope.cardSet = 'Karazhan';
+  $scope.currentExpansion = 'Mean Streets of Gadgetzan';
+  $scope.cardSet = 'Mean Streets of Gadgetzan';
   $scope.cardsPerRow = 5;
   $scope.queryStatus = null;
+  console.log($scope.cardSet);
 
   $scope.expansions = {
     "Basic": 0,
@@ -11,10 +12,11 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
     "Classic": 2,
     "Goblins vs Gnomes": 5,
     "Karazhan": 7,
-    "Naxxramas": 9,
-    "The Grand Tournament": 14,
-    "The League of Explorers": 15,
-    "Whispers of the Old Gods": 16,
+    "Mean Streets of Gadgetzan": 8,
+    "Naxxramas": 10,
+    "The Grand Tournament": 15,
+    "The League of Explorers": 16,
+    "Whispers of the Old Gods": 17,
   }
 
   $scope.loadCards = function(cardSet){
@@ -51,6 +53,6 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
         });
   }
 
-  $scope.loadCards('Karazhan');
+  $scope.loadCards('Mean Streets of Gadgetzan');
 
 }])

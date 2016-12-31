@@ -4,12 +4,12 @@ kekupua.controller('PortfolioController', ['$scope', function($scope){
       projectName: "Hearthstone Cards",
       description: "A handy tool for viewing collectable Hearthstone cards",
       state: "hearthstone"
-    },
-    {
-      projectName: "Personal Life",
-      description: "A recap of some personal moments",
-      state: "personal"
     }
+    // {
+    //   projectName: "About",
+    //   description: "A recap of some personal moment",
+    //   state: "profile"
+    // }
   ]
 
 }])

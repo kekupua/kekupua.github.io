@@ -4,7 +4,7 @@
 
 
 body{
-	color: #5e5b64;
+	color: black;
 }
 
 a, a:visited {
@@ -22,7 +22,7 @@ section, footer, header, aside, nav{
 
 
 /*-------------------------
-	The menu
+	The Menu
 --------------------------*/
 
 
@@ -32,6 +32,7 @@ nav{
 	background-color:#79b3ea;
 	box-shadow:0 1px 1px #ccc;
   width:100%;
+
 }
 
 nav a{
@@ -39,7 +40,7 @@ nav a{
 	padding: 18px 30px;
 	color:#fff !important;
 	font-weight:bold;
-	font-size:16px;
+	font-size:14px;
 	text-decoration:none !important;
 	line-height:1;
 	text-transform: uppercase;
@@ -66,8 +67,16 @@ nav.contact .contact{
 	background-color:#088efb;
 }
 
-p{
-	color:#7d9098;
+.navigationTabs a{
+	font-weight: 500;
+}
+
+.navigationTabs i{
+	vertical-align: text-bottom;;
+}
+
+i.material-icons {
+	font-size:16px;
 }
 
 p b{
@@ -81,7 +90,9 @@ p b{
 	font-size:18px;
 }
 
-/* Custom CSS */
+/*-------------------------
+	Custom CSS
+-------------------------*/
 html,
 body{
  background:white;
@@ -114,22 +125,27 @@ md-progress-circular svg {
   position:static !important;
 }
 
-/* Project Listings */
-.projectListing {
-  margin: 0px 15%;
-}
-
+/*-------------------------
+	Project Listings
+-------------------------*/
 project-card md-card {
   background: #fff3dc;
 }
 
-/* Content */
+/*-------------------------
+	Content
+-------------------------*/
 .content {
+	padding-top: 20px;
   margin: 0px 20%;
   text-align: center;
+	background: white;
+	height:100vh;
 }
 
-/* Hearthstone */
+/*-------------------------
+	Hearthstone
+-------------------------*/
 .search, .expansion {
   padding-top: 20px;
 }
@@ -150,7 +166,45 @@ project-card md-card {
   transition: all linear 200ms;
 }
 
-/* Personal */
+/*-------------------------
+	Profile
+-------------------------*/
+.bioImage img {
+	height:175px;
+	border-radius: 100px;
+}
+
+.bioHeader {
+	padding: 10px;
+}
+
+#bioName p{
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+#bioDetail{
+	font-size: 12px;
+	padding:15px;
+}
+
+.content.bio i{
+	font-size:100px;
+}
+
+.bioEducation {
+	margin-top:20px;
+}
+
+hr.vertical
+{
+   width: 0px;
+   height: 12%; /* or height in PX */
+	 margin-top: 2%;
+	 margin-left: 0px;
+	 margin-right: 0px;
+}
+
 .personalBack {
   background: black;
 }

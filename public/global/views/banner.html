@@ -1,8 +1,8 @@
-<nav class="{{active}}">
-
-  <!-- When a link in the menu is clicked, we set the active variable -->
-
-  <a ui-sref="home" class="home" style="text-align:left !important"><i class="material-icons">home</i></a>
+<nav layout="row" layout-align="space-around center" layout-wrap>
+  <div flex="66" flex-offset="15" class="navigationTabs">
+    <a ui-sref="home" class="home" ><i class="material-icons">home</i></a>
+    <!-- <a ui-sref="profile" class="profile">About</a> -->
+  </div>
   <!-- <a ui-sref="hearthstone" class="about" ng-click="active='about'">About</a>
   <a href="contact" class="contact" ng-click="active='contact'">Contact</a> -->
 </nav>
