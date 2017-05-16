@@ -1,7 +1,7 @@
 kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalService', function($scope, $mdDialog, globalService){
   $scope.allCards = [];
-  $scope.currentExpansion = 'Mean Streets of Gadgetzan';
-  $scope.cardSet = 'Mean Streets of Gadgetzan';
+  $scope.currentExpansion = "Journey to Un'Goro";
+  $scope.cardSet = $scope.currentExpansion;
   $scope.cardsPerRow = 5;
   $scope.queryStatus = null;
   console.log($scope.cardSet);
@@ -11,12 +11,13 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
     "Blackrock Mountain": 1,
     "Classic": 2,
     "Goblins vs Gnomes": 5,
-    "Karazhan": 7,
-    "Mean Streets of Gadgetzan": 8,
-    "Naxxramas": 10,
-    "The Grand Tournament": 15,
-    "The League of Explorers": 16,
-    "Whispers of the Old Gods": 17,
+    "Journey to Un'Goro" : 8,
+    "Mean Streets of Gadgetzan": 9,
+    "Naxxramas": 11,
+    "One Night in Karazhan" : 12,
+    "The Grand Tournament": 16,
+    "The League of Explorers": 17,
+    "Whispers of the Old Gods": 18,
   }
 
   $scope.loadCards = function(cardSet){
@@ -26,6 +27,7 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
     $scope.queryStatus = null;
     globalService.getCards(null, function(response){
       $scope.allCards = response;
+      console.log($scope.allCards);
       $scope.chunkedCards = $scope.chunk($scope.allCards[cardSet], $scope.cardsPerRow);
       $scope.queryStatus = 1;
     });
@@ -53,6 +55,6 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
         });
   }
 
-  $scope.loadCards('Mean Streets of Gadgetzan');
+  $scope.loadCards($scope.currentExpansion);
 
 }])

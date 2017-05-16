@@ -16,7 +16,7 @@
               <input type="text" ng-model="search" placeholder="Search..">
             </md-input-container>
             <md-select ng-model="cardSet" md-on-close="loadCards(cardSet)" flex="30" flex-offset="40" style="margin-top: 18px; margin-bottom:45px;">
-                <md-option  ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Mean Streets of Gadgetzan' ? true : false">{{set}}</md-option>
+                <md-option  ng-repeat="(set, index) in expansions" value="{{set}}" ng-selected="set === 'Journey to Un&#39;Goro' ? true : false">{{set}}</md-option>
             </md-select>
           </div>
           <div class="cardTable"layout="row"layout-align="space-around center"ng-repeat="rows in chunkedCards">
