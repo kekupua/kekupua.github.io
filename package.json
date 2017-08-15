@@ -1,12 +1,17 @@
 {
   "Name": "kekupua",
   "Version": "1.0.0",
+  "description": "Package for personal website",
+  "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kekupua/kekupua.github.io.git"
   },
   "dependencies": {
-    "angular-ui-router": "0.3.1"
+    "eslint": "^4.4.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "3.1.0",
+    "react": "^15.6.1"
   }
 }
