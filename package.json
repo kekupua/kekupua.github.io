@@ -9,9 +9,13 @@
     "url": "https://github.com/kekupua/kekupua.github.io.git"
   },
   "dependencies": {
-    "eslint": "^4.4.1",
     "gulp": "^3.9.1",
     "gulp-sass": "3.1.0",
     "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.2.1"
   }
 }
