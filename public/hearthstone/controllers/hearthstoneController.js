@@ -1,10 +1,9 @@
 kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalService', function($scope, $mdDialog, globalService){
   $scope.allCards = [];
-  $scope.currentExpansion = "Journey to Un'Goro";
+  $scope.currentExpansion = "Knights of the Frozen Throne";
   $scope.cardSet = $scope.currentExpansion;
   $scope.cardsPerRow = 5;
   $scope.queryStatus = null;
-  console.log($scope.cardSet);
 
   $scope.expansions = {
     "Basic": 0,
@@ -12,13 +11,14 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
     "Classic": 2,
     "Goblins vs Gnomes": 5,
     "Journey to Un'Goro" : 8,
-    "Mean Streets of Gadgetzan": 9,
-    "Naxxramas": 11,
-    "One Night in Karazhan" : 12,
-    "The Grand Tournament": 16,
-    "The League of Explorers": 17,
-    "Whispers of the Old Gods": 18,
-  }
+    "Knights of the Frozen Throne" : 9,
+    "Mean Streets of Gadgetzan": 10,
+    "Naxxramas": 12,
+    "One Night in Karazhan" : 13,
+    "The Grand Tournament": 17,
+    "The League of Explorers": 18,
+    "Whispers of the Old Gods": 19
+  };
 
   $scope.loadCards = function(cardSet){
     if(cardSet == null) return;
@@ -31,7 +31,7 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
       $scope.chunkedCards = $scope.chunk($scope.allCards[cardSet], $scope.cardsPerRow);
       $scope.queryStatus = 1;
     });
-  }
+  };
 
   $scope.chunk = function(arr, size) {
     var newArr = [];
@@ -39,7 +39,7 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
       newArr.push(arr.slice(i, i+size));
     }
     return newArr;
-  }
+  };
 
   $scope.displayFlavor = function(flavorText){
     if(!flavorText){
@@ -53,8 +53,8 @@ kekupua.controller('HearthstoneController', ['$scope', '$mdDialog', 'globalServi
         .finally(function() {
           alert = undefined;
         });
-  }
+  };
 
   $scope.loadCards($scope.currentExpansion);
 
-}])
+}]);

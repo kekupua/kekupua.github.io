@@ -12,4 +12,4 @@ kekupua.controller('PortfolioController', ['$scope', function($scope){
     // }
   ]
 
-}])
+}]);
