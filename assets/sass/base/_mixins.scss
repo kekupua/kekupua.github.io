@@ -1,0 +1,51 @@
+@mixin bp($point) {
+  @if $point == xl { // 1260px
+    @media (max-width: 78.75rem) { @content; }
+  }
+  @else if $point == lg { // 900px
+    @media (max-width: 56.25rem) { @content; }
+  }
+  @else if $point == md { // 768px
+    @media (max-width: 48rem)  { @content; }
+  }
+  @else if $point == sm { // 600px
+    @media (max-width: 37.5rem)  { @content; }
+  }
+  @else if $point == xs { // 400px
+    @media (max-width: 25rem)  { @content; }
+  }
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
