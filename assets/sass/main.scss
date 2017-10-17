@@ -1,2 +1,98 @@
 @import 'base/_mixins.scss';
 @import 'base/_vars.scss';
+
+.u-show-sm {
+  display: none;
+  @include bp(sm){
+    display: block;
+  }
+}
+
+.u-text-align-center {
+  text-align: center;
+}
+
+.u-text-align-right {
+  text-align: right;
+}
+
+.Column--half {
+  float: left;
+  width: 50%;
+  padding: 20px 0;
+}
+
+html {
+  font-family: Roboto;
+  body {
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+}
+
+.Navbar {
+  background: #2a2a2a;
+  a {
+    color: white;
+    &:hover {
+      color: orange;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    margin: 10px;
+  }
+}
+
+.Navbar-header {
+  width: 80%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CoverPhoto {
+  background: url("../../assets/images/sm/cover.jpg") center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  box-shadow: inset 0 0 100px #000;
+  height: 400px;
+  @include bp(sm){
+    background: url("../../assets/images/md/cover.jpg") center center;
+    height: 550px;
+  }
+  @include bp(xl){
+    background: url("../../assets/images/lg/cover.jpg") center center;
+    height: 700px;
+  }
+}
+
+.CoverPhoto-title {
+  position: relative;
+  top: 25%;
+  width: 70%;
+  margin: auto;
+  font-size: 48px;
+  text-shadow: 2px 2px black;
+  color: white;
+  @include keyframes(fadeIn){
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  animation-duration: 2s;
+  animation-name: fadeIn;
+}
