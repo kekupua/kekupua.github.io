@@ -22,15 +22,15 @@ function getCards(opts) {
         }
     };
 
-    // return request('https://omgvamp-hearthstone-v1.p.mashape.com/cards', config)
-    //     .on('error', function(err) {
-    //         console.log(err)
-    //     })
-    //     .pipe((response) => {
-    //         console.log(response);
-    //         console.log('hello');
-    //         return response.data;
-    //     })
+    return request('https://omgvamp-hearthstone-v1.p.mashape.com/cards', config)
+        .on('error', function(err) {
+            console.log(err)
+        })
+        .pipe((response) => {
+            console.log(response);
+            console.log('hello');
+            return response.data;
+        })
 }
 
 class App extends React.Component {
@@ -51,7 +51,6 @@ class App extends React.Component {
     render () {
         return (
             <p> Hello React!</p>
-
         );
     }
 }
