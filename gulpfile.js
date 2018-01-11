@@ -4,9 +4,16 @@
 'use strict';
 
 const gulp = require('gulp');
+const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 
-gulp.task ('default', ['sass', 'watch']);
+gulp.task ('default', ['sass', 'pug', 'watch']);
+
+gulp.task('pug', function buildHTML() {
+  return gulp.src('./templates/*.pug')
+        .pipe(pug())
+        .pipe(gulp.dest('./build/pug'));
+});
 
 gulp.task('sass', function () {
     return gulp.src('./assets/sass/**/*.scss')
@@ -15,5 +22,5 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('./assets/sass/**/*.scss', ['sass']);
+    gulp.watch('./assets/sass/**/*.scss', ['sass'], ['pug']);
 });
