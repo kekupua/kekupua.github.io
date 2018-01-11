@@ -1,4 +1,6 @@
-node_modules
-.DS_STORE
-.git
-.idea
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+*.iml
+_site/
+.sass-cache/

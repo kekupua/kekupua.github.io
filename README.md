@@ -1,4 +1,7 @@
-# About Me
-Hello, my name is Sean Teramae. I am currently a student at the Univeristy of Hawai'i at Manoa with a major in Computer Engineering.
+# Technical Portfolio
 
-# Website can be found @ https://kekupua.github.io
+This repository hosts a technical portfolio built using [TechFolio](https://kekupua.github.io). 
+
+See the quick start guide for instructions on how to tailor the template to your own needs.
+
+
