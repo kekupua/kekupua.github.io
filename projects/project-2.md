@@ -1,25 +1,23 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/tensorflow.png
+title: Rooms
+permalink: projects/rooms
 # All dates must be YYYY-MM-DD format!
 date: 2015-12-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Android Studio
+  - Java
+  - Tensorflow
+  - Machine Learning
+summary: A machine learning application built on the Inception v3 Convolutional Neural Network for image recognition to gather classroom data.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/rooms_1.png">
+<img class="ui medium right floated rounded image" src="../images/rooms_2.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Rooms is an Android application built to help students and teachers learn the availability of rooms around the University of Hawaii at Manoa campus. By using the image recognition neural network, Rooms returns a confidence rating for what it believes the rooms is and data about the room. The data returned contains the schedule of registered classes from the [UH Website](https://www.sis.hawaii.edu/uhdad/avail.classes?i=MAN).
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/kekupua/EE396/tree/master/tensorflow-for-poets-2"><i class="large github icon"></i>Rooms</a>

@@ -14,9 +14,9 @@ summary: My team developed a tamagotchi game for our Final Project in EE 205.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/tamagotchi_1.png">
-  <img class="ui image" src="../images/tamagotchi_2.png">
-  <img class="ui image" src="../images/tamagotchi_3.png">
+  <img class="ui image" src="../images/tamagotchi_1.PNG">
+  <img class="ui image" src="../images/tamagotchi_2.PNG">
+  <img class="ui image" src="../images/tamagotchi_3.PNG">
 </div>
 
 This project was a Final Project for our course in Object Oriented Programming, EE 205. This game follows the player as they try to care for a digital pet known as a tamagotchi. The tamagotchi has stats that the player must maintain in order for the tamagotchi to evolve into new stages and therefore progress through its life cycle.
