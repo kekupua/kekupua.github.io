@@ -29,15 +29,31 @@
   },
   "interests": [
     {
-      "name": "Internet of Things",
+      "name": "Artificial Intelligence",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Machine Learning",
+        "Tensorflow"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Automation",
       "keywords": [
+      ]
+    },
+    {
+      "name": "Front-End Development",
+      "keywords": [
+        "React",
+        "Vue",
+        "Angular",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Blizzard",
+        "Hearthstone"
       ]
     }
   ],
@@ -49,6 +65,15 @@
         "C",
         "C++",
         "Javascript",
+        "HTML5",
+        "CSS3",
+        "Python",
+        "SQL",
+        "Verilog",
+        "Node.js",
+        "AngularJS",
+        "React",
+        "Pug"
       ]
     },
     {
@@ -56,9 +81,13 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
+        "Windows",
         "Git/GitHub",
-        "g++"
+        "Bash",
+        "Gulp",
+        "ESLint",
+        "Jira",
+        "Confluence"
       ]
     }
   ],
@@ -69,34 +98,48 @@
       "studyType": "B.S.",
       "startDate": "2015-08-24",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.95",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Blizzard Entertainment",
+      "position": "Software Engineering Intern: Game Sites 3",
+      "website": "https://www.blizzard.com/",
+      "startDate": "2017-05-01",
+      "endDate": "2017-08-01",
+      "summary": "Front-end engineer for Hearthstone and Diablo franchise websites",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Collaborated with other engineers as a front-end engineer for the Diablo and Hearthstone franchise websites.",
+        "Responsible for creating new (and improving existing) applications in a high-load, high-availability environment. Heavy focus on front-end web development with cohesive server-side integration.",
+        "Extensive use of industry standard technologies such as React and Node.js to develop premium web experiences that drive online sales. Development work includes promotional Diablo Necromancer material and a redesigned Hearthstone eSports page."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "University of Hawai'i at Manoa, College of Engineering",
+      "position": "EE grader",
+      "website": "http://ee.hawaii.edu/",
+      "startDate": "2017-01-01",
+      "endDate": "2017-05-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Corrected and provided critique on Digital Design homework for forty students.",
+        "Arranged with instructor to provide sufficient feedback for students on a bi-weekly basis."
+      ]
+    },
+    {
+      "company": "Datahouse",
+      "position": "Intern",
+      "website": "http://www.datahouse.com/",
+      "startDate": "2014-05-01",
+      "endDate": "2016-08-01",
+      "summary": "",
+      "highlights": [
+        "Managed clients’ websites using popular CMS software (Wordpress/Joomla) to facilitate online marketing.",
+        "Optimized automated script in Node.js for archiving legacy data in preparation for server migrations.",
+        "Implemented open-source scheduling software for company-wide use to replace previous scheduling system. Enhanced office efficiency by visualizing available resources and rooms at a glance."
       ]
     }
   ],
