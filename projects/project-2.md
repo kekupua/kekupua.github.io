@@ -14,9 +14,10 @@ labels:
 summary: A machine learning application built on the Inception v3 Convolutional Neural Network for image recognition to gather classroom data.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/rooms_1.png">
-<img class="ui medium right floated rounded image" src="../images/rooms_2.png">
-
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/rooms_1.png">
+  <img class="ui image" src="../images/rooms_2.png">
+</div>
 
 Rooms is an Android application built to help students and teachers learn the availability of rooms around the University of Hawaii at Manoa campus. By using the image recognition neural network, Rooms returns a confidence rating for what it believes the rooms is and data about the room. The data returned contains the schedule of registered classes from the [UH Website](https://www.sis.hawaii.edu/uhdad/avail.classes?i=MAN).
 
