@@ -5,7 +5,7 @@ image: images/tensorflow.png
 title: Rooms
 permalink: projects/rooms
 # All dates must be YYYY-MM-DD format!
-date: 2017-8-01
+date: 2017-08-01
 labels:
   - Android Studio
   - Java
