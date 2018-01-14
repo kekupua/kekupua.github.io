@@ -105,6 +105,17 @@
   ],
   "work": [
     {
+      "company": "University of Hawai'i at Manoa, College of Engineering",
+      "position": "EE Teaching Assistant, EE 160",
+      "website": "http://ee.hawaii.edu/",
+      "startDate": "2018-01-01",
+      "endDate": "2017-05-01",
+      "summary": "Teaching Assistant for one section of EE 160 (Programming for Engineers)",
+      "highlights": [
+        "Responsible for educating ~25 students about standard programming practices in the C programming language"
+      ]
+    },
+    {
       "company": "Blizzard Entertainment",
       "position": "Software Engineering Intern: Game Sites 3",
       "website": "https://www.blizzard.com/",
@@ -119,7 +130,7 @@
     },
     {
       "company": "University of Hawai'i at Manoa, College of Engineering",
-      "position": "EE grader",
+      "position": "EE Grader",
       "website": "http://ee.hawaii.edu/",
       "startDate": "2017-01-01",
       "endDate": "2017-05-01",
@@ -145,43 +156,29 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "organization": "Eta Kappa Nu (HKN)",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
+      "position": "National Electrical Engineering Honor Society",
+      "startDate": "2017-08-01",
       "endDate": "",
-      "summary": "",
+      "summary": "National honor society for electrical engineering. Events include volunteering for various engineering events and weekly tutoring sessions.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Pledge, 2017-Present"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "College of Engineering Dean's List",
+      "date": "Fall 2015-Present",
+      "awarder": "University of Hawai'i",
+      "summary": "Awarded to high acheiving students who receive a GPA of 3.5 or higher with no W, I, F, or NC for that semester."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Chancellor's Scholarship",
+      "date": "Fall 2015-Present",
+      "awarder": "University of Hawai'i",
+      "summary": "Scholarship awarded to outstanding incoming freshman for $10,000 a year."
     }
   ],
   "references": [
