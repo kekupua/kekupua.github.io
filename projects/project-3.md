@@ -5,7 +5,7 @@ image: images/diabloIcon.png
 title: Diablo III Website
 permalink: projects/diabloIII
 # All dates must be YYYY-MM-DD format!
-date: 2017-05-1
+date: 2017-05-01
 labels:
   - Web
   - Front-end
