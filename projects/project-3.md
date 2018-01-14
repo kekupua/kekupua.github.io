@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/diabloIcon.png
+image: images/diabloIcon.jpg
 title: Diablo III Website
 permalink: projects/diabloIII
 # All dates must be YYYY-MM-DD format!
