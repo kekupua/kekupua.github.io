@@ -37,6 +37,7 @@ html {
 
 .Navbar {
   background: #2a2a2a;
+  border-bottom: 1px solid black;
   a {
     color: white;
     &:hover {
@@ -65,7 +66,7 @@ html {
   background: url("../../assets/images/sm/cover.jpg") center center;
   -webkit-background-size: cover;
   background-size: cover;
-  box-shadow: inset 0 0 100px #000;
+  box-shadow: inset 0 0 300px #000;
   height: 400px;
   @include bp(sm){
     background: url("../../assets/images/md/cover.jpg") center center;
@@ -76,13 +77,15 @@ html {
     height: 700px;
   }
 }
-
-.CoverPhoto-title {
+.CoverPhoto-container {
   position: relative;
   top: 25%;
+}
+
+.CoverPhoto-title {
   width: 70%;
   margin: auto;
-  font-size: 48px;
+  font-size: 2.25em;
   text-shadow: 2px 2px black;
   color: white;
   @include keyframes(fadeIn){
@@ -95,4 +98,11 @@ html {
   }
   animation-duration: 2s;
   animation-name: fadeIn;
+}
+
+.CtaMain {
+  padding: 10px 50px;
+  background: black;
+  border: none;
+  color: white;
 }
