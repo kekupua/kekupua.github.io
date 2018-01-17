@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Goals for my career
+title: Carving my path to fulfillment
 # All dates must be YYYY-MM-DD format!
 date: 2018-01-14
 labels:
