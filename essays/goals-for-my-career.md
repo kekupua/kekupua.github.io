@@ -9,7 +9,7 @@ labels:
   - Career
 ---
 
-## Create a technical essay (approximately 3-4 paragraphs) that discusses your interests in software engineering and what kinds of skills and experiences you hope to develop in future.
+### Create a technical essay (approximately 3-4 paragraphs) that discusses your interests in software engineering and what kinds of skills and experiences you hope to develop in future.
 
 First of all, I hope to use my education in computer science to improve the lives of as many people as possible. I've seen the value in giving back to the community and I know the impact computer science can have. Software engineering is a tool that I plan to use often to improve as many sectors of industry as possible. Whether it be in education, health, research, or even gaming, I want to be able to better the world we live in.
 
