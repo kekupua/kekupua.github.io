@@ -13,7 +13,7 @@ labels:
 summary: During the Summer of 2017, I worked as a Front-end Engineer on the Diablo III franchise website.
 ---
 
-<img class="ui center floated image" src="../images/diabloHeader.PNG" alt="Diablo Header">
+<img class="ui image" src="../images/diabloHeader.PNG" alt="Diablo Header" style="margin:0 auto; display: block">
 
 For the Summer of 2017, I was assigned to work on the Diablo III franchise website. This project had me working with a mentor who guided me as I completed tasks to support the launch of new content for Diablo III. During this time, Diablo III was in the process of releasing new game content in the form of Downloadable Content (DLC). My job was to create new web content to release alongside the new game content to drive sales and improve player retention. 
 
