@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Project: Kekoa's List
+title: Kekoa's List
 # All dates must be YYYY-MM-DD format!
 date: 2018-03-20
 labels:
