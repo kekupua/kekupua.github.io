@@ -73,7 +73,9 @@
         "Node.js",
         "AngularJS",
         "React",
-        "Pug"
+        "Semantic UI",
+        "Pug",
+        "Meteor"
       ]
     },
     {
@@ -163,7 +165,8 @@
       "endDate": "",
       "summary": "National honor society for electrical engineering. Events include volunteering for various engineering events and weekly tutoring sessions.",
       "highlights": [
-        "Pledge, 2017-Present"
+        "Pledge, 2017-2018",
+        "Webmaster, 2018-2019"
       ]
     }
   ],
