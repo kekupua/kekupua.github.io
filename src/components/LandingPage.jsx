@@ -17,7 +17,7 @@ let LandingPage = ({sections = [], ...props}) => {
             </FullPage>
             {sections.map((section, index) => {
                 return (
-                    <Section index={index} type={section}/>
+                    <Section key={`section-${index}`}index={index} type={section}/>
                 )
             })}
         </React.Fragment>

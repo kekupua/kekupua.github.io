@@ -8,7 +8,8 @@ const Wrapper = styled.div(props => ({
     height: getScaledSize(SECTION_SCALE),
     width: '100%',
     background: props.index % 2 === 0 ? 'grey' : 'white'
-}))
+}));
+
 const Section = ({index, type, ...props}) => {
     return (
         <Wrapper index={index}>
