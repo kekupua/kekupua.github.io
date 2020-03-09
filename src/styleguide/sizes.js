@@ -18,6 +18,7 @@ export let sizes = {
     _700: `${BASE_VALUE * 7}px`,
     _800: `${BASE_VALUE * 8}px`,
     _900: `${BASE_VALUE * 9}px`,
+    getScaledSize: getScaledSize
 };
 
 export default sizes;

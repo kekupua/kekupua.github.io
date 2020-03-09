@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navigation from './components/Navigation';
+import Navigation from './components/ui/Navigation';
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
 import Essays from './components/Essays'; 
