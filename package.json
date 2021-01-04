@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@fluidnext-polymer/paper-grid": "^3.0.4",
-    "@kekupua/web-components": "^1.0.0",
+    "@kekupua/web-components": "^1.1.0",
     "@silverlinkz/sl-gallery": "^2.3.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
