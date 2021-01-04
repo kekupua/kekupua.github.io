@@ -11,6 +11,8 @@ let LandingPage = () => {
                     <st-header id="name-header" heading="Sean Teramae" description="Software Engineer"></st-header>
                 </div>
             </div>
+            <st-text class="skills" type="p">Javascript • Node • React • Web Components</st-text>
+            <st-button type="secondary" icon="mail" trailing-icon label="Email Me!" href="mailto:seteramae@gmail.com?Subject=Hi!"></st-button>
         </st-section>
 
         <st-section id="about">
@@ -31,17 +33,7 @@ let LandingPage = () => {
                         <li><st-text>Outdoors (Sometimes)</st-text></li>
                     </ul>
                 </div>
-                
-                <sl-gallery>
-                    {data.photos.map(project => {
-                        return <sl-gallery-image
-                            key={project.title}
-                            src={project.src}
-                            title={project.title}
-                            caption={project.caption}>
-                        </sl-gallery-image>
-                    })}
-                </sl-gallery>
+                <st-image src={data.photos[7].src} title={data.photos[7].title} caption={data.photos[7].caption} aspect-ratio="16:9" frame></st-image>
             </div>
         </st-section>
         <st-section id="projects">

@@ -1,6 +1,12 @@
-#masthead::part(container),
+#masthead::part(container) {
+    background-color: var(--colors-theme-4);
+    color: white;
+}
 #projects::part(container)  {
     background: var(--section-bg-1);
+}
+.skills {
+    margin-bottom: var(--size-200);
 }
 .projects-list {
     display: grid;
@@ -25,6 +31,9 @@
 }
 .intro {
     white-space: pre-line;
+    font-size: 1.25em;
+    color: var(--colors-gray-100);
+    margin-bottom: var(--size-100);
 }
 
 .about-grid {
@@ -69,7 +78,7 @@
         height: 400px;
     }
     .about-grid {
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 50% 50%;
     }
 }
 @media screen and (min-width: 1200px) {

@@ -1,7 +1,6 @@
 import React from 'react';
 import "@kekupua/web-components"; 
 import "@silverlinkz/sl-gallery";
-import "@fluidnext-polymer/paper-grid";
 import './styles/App.css';
 import LandingPage from './components/LandingPage';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
