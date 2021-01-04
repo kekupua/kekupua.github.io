@@ -1,25 +1,22 @@
 import React from 'react';
-import "@kekupua/web-components/assets/index";
-import './App.css';
-import Navigation from './components/ui/Navigation';
-import Projects from './components/Projects';
-import Essays from './components/Essays'; 
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import "@kekupua/web-components"; 
+import "@silverlinkz/sl-gallery";
+import "@fluidnext-polymer/paper-grid";
+import './styles/App.css';
+import LandingPage from './components/LandingPage';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App" style={{width: '100%', overflowX: 'hidden'}}>
+    <div className="App" style={{width: '100%'}}>
+      <st-nav></st-nav>
       <Router>
-        <Navigation/>
-        <Route exact path="/" >
-          <s-home></s-home>
-        </Route>
-        <Route path="/projects" >
-          <Projects/>
-        </Route>
-        <Route path="/essays" >
-          <Essays/>
-        </Route>
+        <Switch>
+          <Route exact path="/" >
+            <LandingPage/>
+          </Route>
+        </Switch>
+        <st-footer></st-footer>
       </Router>
     </div>
   );

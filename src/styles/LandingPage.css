@@ -1,0 +1,85 @@
+#masthead::part(container),
+#projects::part(container)  {
+    background: var(--section-bg-1);
+}
+.projects-list {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
+    gap: var(--size-400);
+}
+.projects-list st-card {
+    width: 100%;
+}
+#about::part(container) {
+    background: var(--section-bg-2);
+}
+#about::part(content) {
+    width: 100%;
+}
+#masthead::part(container) {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.intro {
+    white-space: pre-line;
+}
+
+.about-grid {
+    display: grid;
+    gap: var(--size-200);
+}
+#name-header::part(heading) {
+    font-size: 2em;
+}
+#category-header::part(heading) {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--colors-theme-4);
+}
+#main-text {
+    display: grid;
+    column-gap: var(--spacer-400);
+}
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories ion-icon {
+    font-size: 128px;
+}
+.category ion-icon {
+    display: block;
+}
+@media screen and (min-width: 600px) {
+    #name-header::part(heading) {
+        font-size: 3em;
+    }
+    #masthead::part(container) {
+        height: 300px;
+    }
+}
+@media screen and (min-width: 900px) {
+    #name-header::part(heading) {
+        font-size: 4em;
+    }
+    #masthead::part(container) {
+        height: 400px;
+    }
+    .about-grid {
+        grid-template-columns: 30% 70%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #name-header::part(heading) {
+        font-size: 6em;
+    }
+    #name-header::part(description) {
+        font-size: 1.5em;
+    }
+    #masthead::part(container) {
+        height: 500px;
+    }
+}

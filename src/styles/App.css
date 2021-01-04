@@ -1,7 +1,3 @@
-body {
-  font-family: 'Quicksand';
-}
-
 .App {
   text-align: center;
 }
@@ -18,7 +14,6 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,4 +34,20 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* @kekupua/web-components */ 
+st-text[type="h3"]::part(container) {
+  font-size: 1.4em;
+  font-style: italic;
+  color: var(--colors-theme-4);
+}
+st-text[type="p"]::part(container) {
+  font-size: 1.25em;
+  color: var(--colors-gray-100);
+  margin-bottom: var(--size-100);
+}
+/* Other Web Components */
+sl-gallery-slideshow {
+  z-index: 51;
 }
