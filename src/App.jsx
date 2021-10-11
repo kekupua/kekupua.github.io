@@ -1,5 +1,5 @@
 import React from 'react';
-import * as WebComponents from "@kekupua/web-components"; 
+import "@kekupua/web-components"; 
 import "@silverlinkz/sl-gallery";
 import './styles/App.css';
 import LandingPage from './components/LandingPage';
