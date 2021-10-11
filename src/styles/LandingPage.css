@@ -1,94 +1,97 @@
-#masthead::part(container) {
-    background-color: var(--colors-theme-4);
-    color: white;
+#masthead {
+  background-color: var(--color-theme-4);
+  color: white;
 }
-#projects::part(container)  {
-    background: var(--section-bg-1);
+#projects  {
+  background: var(--section-bg-1);
 }
 .skills {
-    margin-bottom: var(--size-200);
+  margin-bottom: var(--size-200);
 }
 .projects-list {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
-    gap: var(--size-400);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
+  gap: var(--size-400);
 }
 .projects-list st-card {
-    width: 100%;
+  width: 100%;
 }
-#about::part(container) {
-    background: var(--section-bg-2);
+#about {
+  background: var(--section-bg-2);
 }
 #about::part(content) {
-    width: 100%;
+  width: 100%;
 }
 #masthead::part(container) {
-    height: 200px;
-    display: flex;
-    align-items: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
 }
 .intro {
-    white-space: pre-line;
-    font-size: 1.25em;
-    color: var(--colors-gray-100);
-    margin-bottom: var(--size-100);
+  white-space: pre-line;
+  font-size: var(--font-size-200);
+  color: var(--color-gray-100);
+  margin-bottom: var(--size-100);
 }
-
 .about-grid {
-    display: grid;
-    gap: var(--size-200);
+  display: grid;
+  gap: var(--size-200);
+}
+.about-grid img {
+  max-width: 100%;
+  border: 2px solid grey;
 }
 #name-header::part(heading) {
-    font-size: 2em;
+  font-size: 2em;
 }
 #category-header::part(heading) {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: var(--colors-theme-4);
+  font-size: 1.5em;
+  text-decoration: none;
+  color: var(--color-theme-4);
 }
 #main-text {
-    display: grid;
-    column-gap: var(--spacer-400);
+  display: grid;
+  column-gap: var(--spacer-400);
 }
 .categories {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 .categories ion-icon {
-    font-size: 128px;
+  font-size: 128px;
 }
 .category ion-icon {
-    display: block;
+  display: block;
 }
 @media screen and (min-width: 600px) {
-    #name-header::part(heading) {
-        font-size: 3em;
-    }
-    #masthead::part(container) {
-        height: 300px;
-    }
+  #name-header::part(heading) {
+    font-size: 3em;
+  }
+  #masthead::part(container) {
+    height: 300px;
+  }
 }
 @media screen and (min-width: 900px) {
-    #name-header::part(heading) {
-        font-size: 4em;
-    }
-    #masthead::part(container) {
-        height: 400px;
-    }
-    .about-grid {
-        grid-template-columns: 50% 50%;
-    }
+  #name-header::part(heading) {
+    font-size: 4em;
+  }
+  #masthead::part(container) {
+    height: 400px;
+  }
+  .about-grid {
+    grid-template-columns: 50% 50%;
+  }
 }
 @media screen and (min-width: 1200px) {
-    #name-header::part(heading) {
-        font-size: 6em;
-    }
-    #name-header::part(description) {
-        font-size: 1.5em;
-    }
-    #masthead::part(container) {
-        height: 500px;
-    }
+  #name-header::part(heading) {
+    font-size: 6em;
+  }
+  #name-header::part(description) {
+    font-size: 1.5em;
+  }
+  #masthead::part(container) {
+    height: 500px;
+  }
 }

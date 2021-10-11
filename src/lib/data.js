@@ -46,7 +46,7 @@ export default {
         caption: "My girlfriend and I out to dinner (pre-pandemic)"
     }],
     projects: [{
-        image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.gamespot.com%2Fuploads%2Fscreen_kubrick%2F1574%2F15746725%2F3458804-trailer_diabloimmortal_cinimatic_2018112.jpg&f=1&nofb=1",
+        image: "https://bnetcmsus-a.akamaihd.net/cms/blog_header/0v/0VK49FWI9ERR1607483275276.jpg",
         href: "https://diabloimmortal.com/en-us/",
         heading: "Diablo Immortal",
         subheading: "2020",
