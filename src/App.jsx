@@ -2,12 +2,12 @@ import React from 'react';
 import "@kekupua/web-components"; 
 import "@silverlinkz/sl-gallery";
 import './styles/App.css';
-import LandingPage from './components/LandingPage';
+import LandingPage from './pages/LandingPage';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App" style={{width: '100%'}}>
+    <div className="App">
       <st-nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>

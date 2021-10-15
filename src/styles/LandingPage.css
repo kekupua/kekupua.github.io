@@ -24,11 +24,6 @@
 #about::part(content) {
   width: 100%;
 }
-#masthead::part(container) {
-  height: 200px;
-  display: flex;
-  align-items: center;
-}
 .intro {
   white-space: pre-line;
   font-size: var(--font-size-200);
@@ -69,16 +64,10 @@
   #name-header::part(heading) {
     font-size: 3em;
   }
-  #masthead::part(container) {
-    height: 300px;
-  }
 }
 @media screen and (min-width: 900px) {
   #name-header::part(heading) {
     font-size: 4em;
-  }
-  #masthead::part(container) {
-    height: 400px;
   }
   .about-grid {
     grid-template-columns: 50% 50%;
@@ -90,8 +79,5 @@
   }
   #name-header::part(description) {
     font-size: 1.5em;
-  }
-  #masthead::part(container) {
-    height: 500px;
   }
 }

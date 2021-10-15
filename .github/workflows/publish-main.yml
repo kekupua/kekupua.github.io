@@ -13,8 +13,4 @@ jobs:
         with:
           node-version: 10
       - run: npm install
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          publish_dir: ./public
+      - name: npm run deploy
