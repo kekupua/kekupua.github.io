@@ -8,8 +8,13 @@ let LandingPage = () => {
     <st-section id="masthead" alignment="center">
       <st-header slot="header" id="category-header" layout="center">
         <h2 class="st-text-700" slot='heading'>Sean Teramae</h2>
-        <p class="st-text-200" slot='description'>Software Engineer</p>
-        <p class="st-text-200" slot='description'>Javascript • Node • React • Web Components</p>
+        <p class="st-text-200" slot='description'>Software Engineer / Blizzard Entertainment</p>
+        <p class="st-text-200" id="skills-list" slot='description'>
+          Javascript • 
+          Web Components •
+          Node.js • 
+          React 
+        </p>
       </st-header>
       <st-button type="secondary" icon="mail" trailing-icon label="Email Me!" href="mailto:seteramae@gmail.com?Subject=Hi!"></st-button>
     </st-section>
@@ -59,4 +64,4 @@ let LandingPage = () => {
   </React.Fragment>
 }
 
-export default LandingPage
+export default LandingPage;

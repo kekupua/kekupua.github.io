@@ -1,0 +1,1100 @@
+{
+  "cards": [
+    {
+      "id": 63347,
+      "collectible": 1,
+      "slug": "63347-against-all-odds",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Zoltan Boros",
+      "manaCost": 5,
+      "name": "Against All Odds",
+      "text": "Destroy ALL odd-Attack minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6c9ffb527bf269e30d5c5e7cf86c9cea6e36f297a3ba27bb073b3b48f543b25.png",
+      "imageGold": "",
+      "flavorText": "Time to EVEN out the playing field.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/357812123c2ec833019e40ea492b4f566cede187ada760d17dd92d7d2b650180.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63211,
+      "collectible": 1,
+      "slug": "63211-altar-of-fire",
+      "classId": 9,
+      "multiClassIds": [],
+      "spellSchoolId": 2,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Evgeniy Dlinnov",
+      "manaCost": 1,
+      "name": "Altar of Fire",
+      "text": "Destroy the top 3 cards of each deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bea9ab69a1299cafb6a34c652e2a18f46fc139c5df8992ddc5b8e7931d6cf320.png",
+      "imageGold": "",
+      "flavorText": "\"I now pronounce you, Crispy and Fried.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/259adbe3df7f138b0908d067d371c477ec521fecf385b24eae643dc89abf552d.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62895,
+      "collectible": 1,
+      "slug": "62895-apothecary-helbrim",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Mike Sass",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Apothecary Helbrim",
+      "text": "<b>Battlecry and Deathrattle:</b> Add a random Poison to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7c54067a2cbefa674c4cca2172f647490c9cc10dbaf023440ea7dad70461108.png",
+      "imageGold": "",
+      "flavorText": "The best way to maintain your health is to poison everyone else.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af9523ae22f274f3d6df5a74ab0bdb5674622739315980eeede5fa390fc46cd5.png",
+      "keywordIds": [
+        8,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63193,
+      "collectible": 1,
+      "slug": "63193-apothecarys-caravan",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Vladimir Kafanov",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Apothecary's Caravan",
+      "text": "At the start of your turn, summon a 1-Cost minion from your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e20b6b37455ee580f4d2a194f2e79032afc23c4d1f29f48ca3bb91538d5785da.png",
+      "imageGold": "",
+      "flavorText": "If you won't bring out your dead, we'll bring the dead to you.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c95cff237a6b1cc979ad863989ff52026907aa697f8775843db635f8d2bb34b.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63060,
+      "collectible": 1,
+      "slug": "63060-arcane-luminary",
+      "classId": 4,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Maria Trepalina",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 3,
+      "name": "Arcane Luminary",
+      "text": "Cards that didn't start in your deck cost (2) less, but not less than (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a50060e1812ee2b1b293d3c860e8173eeac9588f5689709819836ea6476fd7d4.png",
+      "imageGold": "",
+      "flavorText": "They say true value is the cards you find along the way.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f65ee5fde6c77f86c370bbe1c848c1c2b4043843f89a9140737568a5521f285.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63432,
+      "collectible": 1,
+      "slug": "63432-archdruid-naralex",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Arthur Bozonnet",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Archdruid Naralex",
+      "text": "<b>Dormant</b> for 2 turns. While <b>Dormant</b>, add a Dream card to your hand at the end of your turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52542b88bd0b6e7baedbc0fd63f12575e41335c3f5f4f90c72c7bf28163222b0.png",
+      "imageGold": "",
+      "flavorText": "\"Dormant? I think you mean naptime.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/51c8138c8c610a3cad98adaa643f687076e4a3efd5c7bb9a6cd8fe48b397062d.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63072,
+      "collectible": 1,
+      "slug": "63072-arid-stormer",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Jakub Kasper",
+      "health": 5,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Arid Stormer",
+      "text": "<b>Battlecry:</b> If you played an Elemental last turn, gain <b>Rush</b> and <b>Windfury</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/258df0496e3acace938c4e41072573fe872732a6bc2082511628848e3d29f1ee.png",
+      "imageGold": "",
+      "flavorText": "Some people chase storms, some storms chase elementals.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/845984c7939e64529ebaf29452a5bffe2ff62bce42a2a1fb63b05962a768d840.png",
+      "keywordIds": [
+        8,
+        11,
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63461,
+      "collectible": 1,
+      "slug": "63461-barak-kodobane",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Ivan Fomin",
+      "health": 5,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Barak Kodobane",
+      "text": "<b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ba9d814a0003bad143a0d0f687ece7a19b464baa4414fae3c6410bb86cece84.png",
+      "imageGold": "",
+      "flavorText": "They say he's a pro at horseback archery.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9180d68a6244cb641f7db62e477d60f70223ae722db75d3ec1ebb86e26f880d9.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62582,
+      "collectible": 1,
+      "slug": "62582-barrens-blacksmith",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Ursula Dorada",
+      "health": 5,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Barrens Blacksmith",
+      "text": "<b>Frenzy:</b> Give your other minions +2/+2.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/383ee9800000dbe8c06807444077c96ab44ac8ea9d1f769e65c7e1bc2cbb5f45.png",
+      "imageGold": "",
+      "flavorText": "\"Maybe someday you’ll make it to Gadgetzan, kid.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/586691024b7b9a72effe5c95e47f5bba0d66f2ee96b7863ec78a8e6e5df74c5f.png",
+      "keywordIds": [
+        99
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63217,
+      "collectible": 1,
+      "slug": "63217-barrens-scavenger",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Dave Allsop",
+      "health": 6,
+      "attack": 6,
+      "manaCost": 6,
+      "name": "Barrens Scavenger",
+      "text": "<b>Taunt</b> Costs (1) while your deck has 10 or fewer cards.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe54f3a14dcd693d90ad67c7585179e75dc46483721053559540db17d5e8fac5.png",
+      "imageGold": "",
+      "flavorText": "When the hundredth centaur dropped, so did her bracers.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72dea01c9cfbe24327df4a8d0956745e1f27704dd04be495ff3de18c495ff5be.png",
+      "keywordIds": [
+        1
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63381,
+      "collectible": 1,
+      "slug": "63381-barrens-trapper",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Vladimir Kafanov",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Barrens Trapper",
+      "text": "Your <b>Deathrattle</b> cards cost (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ac354ba4df72e31d7ec85949651467459399c0522bffcc4bd64781a5cf00364.png",
+      "imageGold": "",
+      "flavorText": "Just add a bit of murloc meat for bait. Beasts can’t resist that special seasoning…",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41b78ed10083dc8a2ac9c34c1ad31bfcf5050974e61a8c4d475ce6e1c5737b1d.png",
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62587,
+      "collectible": 1,
+      "slug": "62587-blademaster-samuro",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "A.J. Nazzaro",
+      "health": 6,
+      "attack": 1,
+      "manaCost": 4,
+      "name": "Blademaster Samuro",
+      "text": "<b>Rush</b> <b>Frenzy:</b> Deal damage equal to this minion's Attack to all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4d4a85f3addd14115f39c4f0a7aa05e85a1dda3c993927b988980536aef59b3.png",
+      "imageGold": "",
+      "flavorText": "Artists paint their visions meticulously on canvas. Blademasters paint with, uh, broader strokes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30375d2ad324f6887ac2e2b6f5ce406cef81689673e694a4f93b87be427072e8.png",
+      "keywordIds": [
+        53,
+        99
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63216,
+      "collectible": 1,
+      "slug": "63216-blood-shard-bristleback",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 43,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "David Kegg",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Blood Shard Bristleback",
+      "text": "<b>Lifesteal</b>. <b>Battlecry:</b> If your deck contains 10 or fewer cards, deal 6 damage to a minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a46e94eec69fbbe14eeb106f3fef6fd290f76969cb4120917641e2855b71c727.png",
+      "imageGold": "",
+      "flavorText": "I'm bringin' bristle back (Yeah) Those other minions don't know how to act (Yeah) I think it's special how these crystals crack (Yeah) So turn around and I'll give you a smack (Yeah) (Take 'em to the Barrens)",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/42001fe23a732f4d62d50722dbf2cbe0c58f4ca5d323a7774990df73b0a117d3.png",
+      "keywordIds": [
+        8,
+        38
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63074,
+      "collectible": 1,
+      "slug": "63074-brukan",
+      "classId": 8,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Alex Horley Orlandelli",
+      "health": 4,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Bru'kan",
+      "text": "<b>Nature Spell Damage +3</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e66b0184c48aaa16e65da7bbe987d38b9f9a55dcc524ea2fb642d77dd002b64.png",
+      "imageGold": "",
+      "flavorText": "Bru'kan, his body weathered and weary, felt his time nearing its end. Teaching brave champions like Rokara gives him hope for a greater future.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/758a31d765b0202d53e767756da33e0f3b2964dc4e0aeb56d66fd33dc4a5b40c.png",
+      "keywordIds": [
+        104
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63130,
+      "collectible": 1,
+      "slug": "63130-bulk-up",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Matt Dixon",
+      "manaCost": 2,
+      "name": "Bulk Up",
+      "text": "Give a random <b>Taunt</b> minion in your hand +1/+1 and copy it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87f63c1efc4042fe6f014533b5e6319c258f8395475d7fc96282b30f6bd11a7c.png",
+      "imageGold": "",
+      "flavorText": "\"For breakfast I usually go for a couple of kodo steaks, 5 Plainstrider eggs and an ice-cold milk to wash it down… all raw.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00ad81935636ad9bb64f6a42c9b3de82b1f1698451ce1f9682264e0abed6043b.png",
+      "keywordIds": [
+        1
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62581,
+      "collectible": 1,
+      "slug": "62581-burning-blade-acolyte",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Mauricio Herrera",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 5,
+      "name": "Burning Blade Acolyte",
+      "text": "<b>Deathrattle:</b> Summon a 5/8 Demonspawn with <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fc3bd2685a616ed206207ff0498b5759b6786cad60d9fd478b01fbbe2e26e19.png",
+      "imageGold": "",
+      "flavorText": "Wields a disappointingly normal looking blade.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7731651595de6f70f5c09b2cc6b67736a66e1c3858faec23f7d8dd154a699b45.png",
+      "childIds": [
+        62589
+      ],
+      "keywordIds": [
+        1,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62976,
+      "collectible": 1,
+      "slug": "62976-cannonmaster-smythe",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Arthur Bozonnet",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Cannonmaster Smythe",
+      "text": "<b>Battlecry:</b> Transform your <b>Secrets</b> into 3/3 Soldiers. They transform back when they die.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90aec674b4c836e73860306fd9ad57af1fa0870895cb724f06eaaa633aefc890.png",
+      "imageGold": "",
+      "flavorText": "\"Smythe, it's been a real blast serving the Alliance with you.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e28cebcb0f64f5f7859083b53b1fed1f678a9633014c2dc6e185336ac3991ebe.png",
+      "childIds": [
+        63327
+      ],
+      "keywordIds": [
+        5,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62993,
+      "collectible": 1,
+      "slug": "62993-cariel-roame",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Ursula Dorada",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Cariel Roame",
+      "text": "<b>Rush</b>, <b>Divine Shield</b> Whenever this attacks, reduce the Cost of Holy spells in your hand by (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12328be5907ae7a4fe553f8fa75a7b63c547c9a3408afe6d38c391dca053d28c.png",
+      "imageGold": "",
+      "flavorText": "Cariel had pledged her honor to the Alliance, but when someone matching her long-lost sister's description was sighted at the Crossroads, Cariel did the unthinkable: she abandoned her post and set out across the Barrens.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43bb393ad8ecd829fc277bcfe119bda95d7782ac5a5fd2da5eab631cdbf98b59.png",
+      "keywordIds": [
+        3,
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63040,
+      "collectible": 1,
+      "slug": "63040-celestial-alignment",
+      "classId": 2,
+      "multiClassIds": [],
+      "spellSchoolId": 1,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Gustav Schmidt",
+      "manaCost": 7,
+      "name": "Celestial Alignment",
+      "text": "Set each player to 0 Mana Crystals. Set the Cost of cards in all hands and decks to (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5576249cf9ae0c5cfaa90784aad1cf522ecfff25f91a962f9f1c591a4458bbeb.png",
+      "imageGold": "",
+      "flavorText": "\"Is my deck any good?\" \"I mean, if the stars align.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0560395964811129e0b7f253ec08a27c776834f04dfa86a0a952057d4e45aeee.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63065,
+      "collectible": 1,
+      "slug": "63065-chain-lightning-rank-1",
+      "classId": 8,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Hideaki Takamura",
+      "manaCost": 2,
+      "name": "Chain Lightning (Rank 1)",
+      "text": "Deal 2 damage to a minion and a random adjacent one. <i>(Upgrades when you have 5 Mana.)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb35ba2467f943d4a696b3e2b7161b924327ae9bfc8ca22d4bbcb961c5a4c6ac.png",
+      "imageGold": "",
+      "flavorText": "Still better than receiving a chain letter.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5418a01c768f183688673c0a8b8ad5a7478bdee34835653a75fc1924cf9f12f6.png",
+      "childIds": [
+        63066,
+        63067
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63464,
+      "collectible": 1,
+      "slug": "63464-cleric-of-anshe",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Maria Trepalina",
+      "health": 2,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Cleric of An'she",
+      "text": "<b>Battlecry:</b> If you've restored Health this turn, <b>Discover</b> a spell from your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb6310028f0fb8a0b727d83e4d7e56b05a34e93f2ec47f29e7d88068598156cd.png",
+      "imageGold": "",
+      "flavorText": "When it's her turn to cook, she'll always go for a Light sear.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efdae27a55700897ba409074f891c19324b12d0cfc102caa375b61b00295e724.png",
+      "keywordIds": [
+        8,
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62878,
+      "collectible": 1,
+      "slug": "62878-condemn-rank-1",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "James Ryman",
+      "manaCost": 2,
+      "name": "Condemn (Rank 1)",
+      "text": "Deal 1 damage to all enemy minions. <i>(Upgrades when you have 5 Mana.)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1097e581558a60048a5a044e2cdfe27f5846dd424505232d0ac7f0478d5bbf2.png",
+      "imageGold": "",
+      "flavorText": "\"I wished you no harm, but for your cruelty, by the light, I condemn you all!\" Xyrella shouted, unaware that irony was not her strong suit.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abc8422c17ff217cbba2866aae90267c03cc9862c0630d734cf63b7a4f19647e.png",
+      "childIds": [
+        62883,
+        62884
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63128,
+      "collectible": 1,
+      "slug": "63128-conditioning-rank-1",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Hideaki Takamura",
+      "manaCost": 2,
+      "name": "Conditioning (Rank 1)",
+      "text": "Give minions in your hand +1/+1. <i>(Upgrades when you have 5 Mana.)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b700d0161efc61dda18d706ca9ffed8f08f3f9df4e2401daca9b2e43a4426f9b.png",
+      "imageGold": "",
+      "flavorText": "Now drop and give me 5 Mana.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/199a0f2878b78d4554cc2bc9921b643975f4e6e0dcef0cf2c9396f730c265642.png",
+      "childIds": [
+        63608,
+        63609
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62947,
+      "collectible": 1,
+      "slug": "62947-conviction-rank-1",
+      "classId": 5,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Ursula Dorada",
+      "manaCost": 2,
+      "name": "Conviction (Rank 1)",
+      "text": "Give a random friendly minion +3 Attack. <i>(Upgrades when you have 5 Mana.)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c1ff45bb8e5032b8c338792a75abc3a26b4e26d8916ae10542e66d8ce9f21a5.png",
+      "imageGold": "",
+      "flavorText": "It was the strength of Cariel's faith that emboldened the defenders of Northwatch that day. Although the strength of her giant hammer didn’t exactly hurt either.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2516711a8ea6c38ce2ef6797515013b0769c16204dc5f74845a460f5e16c3b8.png",
+      "childIds": [
+        62948,
+        62949
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63019,
+      "collectible": 1,
+      "slug": "63019-crossroads-gossiper",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Matt Dixon",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 3,
+      "name": "Crossroads Gossiper",
+      "text": "After a friendly <b>Secret</b> is revealed, gain +2/+2.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5c73a2fcf0865434f13845af4a68add358eb7a29bfb185c2d8580649546c48d.png",
+      "imageGold": "",
+      "flavorText": "Not afraid to spill the tea.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1fb7dacdc4ac2eccadc371535771af3bb51a6dbcd59fdd792970cd3d4215ff9e.png",
+      "keywordIds": [
+        5
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62584,
+      "collectible": 1,
+      "slug": "62584-crossroads-watch-post",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Konstantin Turovec",
+      "health": 6,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Crossroads Watch Post",
+      "text": "Can't attack. Whenever your opponent casts a spell, give your minions +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43b3be73a596dc6f4e1c0179e4f241c56a482afbd8d498ca0d17065f9e6e42aa.png",
+      "imageGold": "",
+      "flavorText": "All of Barrens Chat is recorded and kept on thousands of scrolls stored beneath this tower.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9beca4c6438e203949bf4e618895157a7c943510687ab22fd824199a1c144e4a.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62745,
+      "collectible": 1,
+      "slug": "62745-darkspear-berserker",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Mauricio Herrera",
+      "health": 7,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Darkspear Berserker",
+      "text": "<b>Deathrattle:</b> Deal 5 damage to your hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0cd0a3a4aac2e86a73ad0791fa566ca475c5c2bfd069f284b7501ef31a3ee7b.png",
+      "imageGold": "",
+      "flavorText": "\"If I die, I'm taking my hero down with me.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2cac6269b8ccf80c85aa185fde0c70deb67224feb3a4b038f04eaaa53390b76.png",
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63167,
+      "collectible": 1,
+      "slug": "63167-death-speaker-blackthorn",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 43,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 5,
+      "artistName": "Samwise Didier",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 7,
+      "name": "Death Speaker Blackthorn",
+      "text": "<b>Battlecry:</b> Summon 3 <b>Deathrattle</b> minions that cost (5) or less from your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16541f3652b251e1c19633d7a68147b8582c25262bb204088e0dec8d89e3afc9.png",
+      "imageGold": "",
+      "flavorText": "He can speak death but has a hard time reading it.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aad98ccb3f46d94e0a28ea7bc9dc3a313e7c643bac7c073aec44c44e896bb6ff.png",
+      "keywordIds": [
+        8,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62744,
+      "collectible": 1,
+      "slug": "62744-deaths-head-cultist",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 43,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "James Ryman",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Death's Head Cultist",
+      "text": "<b>Taunt</b> <b>Deathrattle:</b> Restore 4 Health to your hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3f3b65619b4a75d7d86ad9379820ac0d450be62dfb9244558f446ae29f28b6f.png",
+      "imageGold": "",
+      "flavorText": "Nothing can stop death. Except a Taunt. With Healing.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a70d3b4de90e3cf50b54877195049a2c73e5d26eb5ed7ec3cb44d669beb667e.png",
+      "keywordIds": [
+        1,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62873,
+      "collectible": 1,
+      "slug": "62873-desperate-prayer",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Maria Trepalina",
+      "manaCost": 0,
+      "name": "Desperate Prayer",
+      "text": "Restore 5 Health to each hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d663593477c56290decab983fa4570b912b8566e6f619120e0857511a684ae51.png",
+      "imageGold": "",
+      "flavorText": "Woah, we're halfway there, woah oh...",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/068a12581be1d40a822755c6b8887c856a972b0dd3d474cdc7afb98a13c0ac49.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63502,
+      "collectible": 1,
+      "slug": "63502-deviate-dreadfang",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Mauricio Herrera",
+      "health": 9,
+      "attack": 4,
+      "manaCost": 8,
+      "name": "Deviate Dreadfang",
+      "text": "After you cast a Nature spell, summon a 4/2 Viper with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67c7050682af1a6fe0f9a2e59af44c966a1566121392e8c2e652e1449a1ea7be.png",
+      "imageGold": "",
+      "flavorText": "Even with wings, snakes STILL don't have legs.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53b3dd31c1c97d5c22210fb8d76737680bd6514b23003a28226913ea762f8039.png",
+      "childIds": [
+        63503
+      ],
+      "keywordIds": [
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63400,
+      "collectible": 1,
+      "slug": "63400-devouring-ectoplasm",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Jakub Kasper",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Devouring Ectoplasm",
+      "text": "<b>Deathrattle:</b> Summon a 2/2 Adventurer with a random bonus effect.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d00546ae0ce605a1450fd505f54014448332d772dc2330d17536b31b79a79be4.png",
+      "imageGold": "",
+      "flavorText": "When it's on keto, it only devours tauren.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/914eb26deb6fdec880f8d8ced7d14180a38dea6d4fbcf540579fc386e1e88aeb.png",
+      "childIds": [
+        63103,
+        63104,
+        63105,
+        63106,
+        63107,
+        63108,
+        63109,
+        63110
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62875,
+      "collectible": 1,
+      "slug": "62875-devouring-plague",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Konstantin Turovec",
+      "manaCost": 3,
+      "name": "Devouring Plague",
+      "text": "<b>Lifesteal</b>. Deal 4 damage randomly split among all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d343222848675f40c82cc16f8ec500274fa6d178c3005c164cea2fb56a8eccf9.png",
+      "imageGold": "",
+      "flavorText": "\"How’d we miss this one in Uldum?\" —Rafaam",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/192cb3ad519b9e16ff31b44222258fe853833302833b318a1b5af22e3d1d288f.png",
+      "keywordIds": [
+        38
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63346,
+      "collectible": 1,
+      "slug": "63346-devout-dungeoneer",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Konstantin Turovec",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Devout Dungeoneer",
+      "text": "<b>Battlecry:</b> Draw a spell. If it's a Holy spell, reduce its Cost by (2).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85eca3eae31bb7cf251e3f2e6bfc9c587a2c570f7742f901c94afa963c848f68.png",
+      "imageGold": "",
+      "flavorText": "\"Please do smaller pulls, this is my first time healing.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df57d6c048372773e9da98dbadc2ece24dc7ca00ebbc9d4db69c7270995c5dd9.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63038,
+      "collectible": 1,
+      "slug": "63038-druid-of-the-plains",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 4,
+      "artistName": "Patrik Bjorkstrom",
+      "health": 6,
+      "attack": 7,
+      "manaCost": 7,
+      "name": "Druid of the Plains",
+      "text": "<b>Rush</b> <b>Frenzy:</b> Transform into a 6/7 Kodo with <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fc9336e560c676945b09c38a9a085702bfc7f2f78eeb17e5bcd52812b3a87ac.png",
+      "imageGold": "",
+      "flavorText": "Not to be confused with the aeronautically advanced Druid of the Planes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c56a370e4ded212d0d83e705c5986dbd42efe78909f2b57cbe8d4ec6fca0c19.png",
+      "childIds": [
+        63039
+      ],
+      "keywordIds": [
+        1,
+        53,
+        99
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63508,
+      "collectible": 1,
+      "slug": "63508-earth-revenant",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 3,
+      "artistName": "Jakub Kasper",
+      "health": 6,
+      "attack": 2,
+      "manaCost": 4,
+      "name": "Earth Revenant",
+      "text": "<b>Taunt</b> <b>Battlecry:</b> Deal 1 damage to all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b27a0257a9bd65a236d0ddb596bad1e8621ef2fe5957ccc0793098763c5514d.png",
+      "imageGold": "",
+      "flavorText": "Have you guys seen a pair of rock legs lying around anywhere?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0841c4d6e2f4a379386946125fb0c81b8b4a2958daff56bbc12bcb276cc80cc5.png",
+      "keywordIds": [
+        1,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62891,
+      "collectible": 1,
+      "slug": "62891-efficient-octo-bot",
+      "classId": 7,
+      "multiClassIds": [],
+      "minionTypeId": 17,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Konstantin Turovec",
+      "health": 4,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Efficient Octo-bot",
+      "text": "<b>Frenzy:</b> Reduce the cost of cards in your hand by (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02ab2d6c714390f0560a14aef09ce5c97dcb57f603cf52c89f873530c2097f73.png",
+      "imageGold": "",
+      "flavorText": "Pull the lever, Octo-bot... Wrong leverrrrr!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b69be93d68da246377add758787431a42b9d6c6a7b289106364c4f31bf777c3d.png",
+      "keywordIds": [
+        99
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63329,
+      "collectible": 1,
+      "slug": "63329-fangbound-druid",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Andrew Hou",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 3,
+      "name": "Fangbound Druid",
+      "text": "<b>Taunt</b> <b>Deathrattle:</b> Reduce the Cost of a Beast in your hand by (2).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1ced2b83a6fa65fb34f3bd14e4fbf5ed5d79e33abfdaa55c7a2f2035b22f55c.png",
+      "imageGold": "",
+      "flavorText": "Bound by the law of the fang, these druid floss their teeth twice a day.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/018f598b29fbb2b414af007aa5dc0d0b2ff2e6fc11037d02f989840f134be1fa.png",
+      "keywordIds": [
+        1,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 62583,
+      "collectible": 1,
+      "slug": "62583-far-watch-post",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Jason Kang",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Far Watch Post",
+      "text": "Can't attack. After your opponent draws a card, it costs (1) more <i>(up to 10)</i>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ee6d03c44ad3c7aedb06585c0d57f94056791e494bd05dffe7cdeb0d3758254.png",
+      "imageGold": "",
+      "flavorText": "Dabu, man. Like, far out.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29038c26a041074f44a5041f5147795570e1c98ee20571876a227c3add652ecf.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 63407,
+      "collectible": 1,
+      "slug": "63407-felrattler",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1525,
+      "rarityId": 1,
+      "artistName": "Melvin Chan",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Felrattler",
+      "text": "<b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e6514ed067205cd776e72446e7f44ed6c8d7175d7eaa55dd7e265b75581151c.png",
+      "imageGold": "",
+      "flavorText": "It only rattles when YOU'RE in danger.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5491249703e4d0cd83542ff5dfae70ea476dccfcd807797e0dac709552d53a57.png",
+      "keywordIds": [
+        12,
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 170,
+  "pageCount": 5,
+  "page": 1
+}

@@ -3,6 +3,7 @@ import "@kekupua/web-components";
 import "@silverlinkz/sl-gallery";
 import './styles/App.css';
 import LandingPage from './pages/LandingPage';
+import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,7 +17,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" >
-            <LandingPage className="st-text"/>
+            <LandingPage/>
+          </Route>
+          <Route exact path="/hearthstone" >
+            <HearthstoneRandomCard />
           </Route>
         </Switch>
       </Router>

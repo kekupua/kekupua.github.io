@@ -1,0 +1,525 @@
+{
+  "cards": [
+    {
+      "id": 56652,
+      "collectible": 1,
+      "slug": "56652-altruis-the-outcast",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 5,
+      "artistName": "Jerry Mascho",
+      "health": 2,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Altruis the Outcast",
+      "text": "After you play the left- or right-most card in your hand, deal 1 damage to all enemies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc3f61cee023ec55ec62ea55388a9e7e776cfa2445ae736a283ee5b2a4525442.png",
+      "imageGold": "",
+      "flavorText": "Altruis betrayed Illidan to forge his own way in Outland. With Blackjack. And Netherdrakes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b91e59e624ef40371cdec995146c293e8708e3bc1ce9b66a20f5d20ccdd3c3f3.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58487,
+      "collectible": 1,
+      "slug": "58487-battlefiend",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Andrew Hou",
+      "health": 2,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Battlefiend",
+      "text": "After your hero attacks, gain +1 Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afcd811e07af8f34e7156739151d09dd8c2bfa76e25fd46f637b8e621b340409.png",
+      "imageGold": "",
+      "flavorText": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/465fca2734fdbc0e5039098359bf8e1cdcf35935754bc4949c4d4b9ff773db6f.png",
+      "copyOfCardId": 69586,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58492,
+      "collectible": 1,
+      "slug": "58492-blade-dance",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "manaCost": 3,
+      "name": "Blade Dance",
+      "text": "Deal damage equal to your hero's Attack to 3 random enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9e7e41f4ba32bfaf85b953d629fdef55ba3e76e4c11e6f4f44062c02b17bea2.png",
+      "imageGold": "",
+      "flavorText": "The surest way to clear the dance floor.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ae66e1586d38f180b7521d0f16312478c1aedb5ea3dd73c16c3cd8abe6eaeaf.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58607,
+      "collectible": 1,
+      "slug": "58607-blur",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Zoltan Boros",
+      "manaCost": 0,
+      "name": "Blur",
+      "text": "Your hero can't take damage this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3550f4a62e7452f83ad789cd14f899cd5c8fed3090631326ff882c995c1324f.png",
+      "imageGold": "",
+      "flavorText": "\"What are you trying to tell me? That I can dodge axes?\" \"I’m trying to tell you that when you’re a Demon Hunter, you won’t have to.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c49a59d861fd6fb9a1c8d8f97f7936303033269e75a46bd5487ae5eb5140834a.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56841,
+      "collectible": 1,
+      "slug": "56841-command-the-illidari",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "L. Lullabi & K. Turovec",
+      "manaCost": 5,
+      "name": "Command the Illidari",
+      "text": "Summon six 1/1 Illidari with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb2636227737916d8fa14f9e0bc6a40a7b004de9d6d32e86156f267b5a7698c0.png",
+      "imageGold": "",
+      "flavorText": "Give me an R! Give me a U! Give me an S! Give me an H! You two, you’re exclamation points!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c101ad276c141e8e73d5d1c5d3831e4e01d7a5a4ecb9190633ccd5c8934ff3e1.png",
+      "childIds": [
+        56927
+      ],
+      "keywordIds": [
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58452,
+      "collectible": 1,
+      "slug": "58452-consume-magic",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Ludo Lullabi",
+      "manaCost": 1,
+      "name": "Consume Magic",
+      "text": "<b>Silence</b> an enemy minion. <b>Outcast:</b> Draw a card.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8f90f8a9fa8de26ec688a27aecfaf6e3327213d7534f046e7a6ef7793132206.png",
+      "imageGold": "",
+      "flavorText": "Please be mindful when consuming raw or undercooked magic.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a75cc1d65fca59eadd684f9b526df2502105990712d7afa004b92bc25d1cf60f.png",
+      "keywordIds": [
+        15,
+        86
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58183,
+      "collectible": 1,
+      "slug": "58183-eye-beam",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 7,
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 4,
+      "artistName": "Arthur Gimaldinov",
+      "manaCost": 3,
+      "name": "Eye Beam",
+      "text": "<b>Lifesteal</b>. Deal 3 damage to a minion. <b>Outcast:</b> This costs (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da394a4dffe85e4dbd47f4a9e125d3f869da887fff1012612be8c3f0ca83a6a5.png",
+      "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/600ad59b67bc0bfb52c89e37ffb73ed790f2aac6bbdee9bc11efe8c4108d0723.png",
+      "flavorText": "Sometimes looks CAN kill.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69454a91cb3b5055131a93fe7a9d79d5d66ca0fdbf1e6fff1be11355ec5b9dd6.png",
+      "keywordIds": [
+        38,
+        86
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56873,
+      "collectible": 1,
+      "slug": "56873-feast-of-souls",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Anton Zemskov",
+      "manaCost": 2,
+      "name": "Feast of Souls",
+      "text": "Draw a card for each friendly minion that died this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/807b0988ca658e65b1447a8bc495fe066f09c7f9a03745362567cb77a061e991.png",
+      "imageGold": "",
+      "flavorText": "Nothing fills you up like soul food!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cbfd1bbba5dcca5d5deb19f98b7eff09afde75cca5a7a276f49eb356850c9c9b.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56905,
+      "collectible": 1,
+      "slug": "56905-flamereaper",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1463,
+      "rarityId": 4,
+      "artistName": "Akkapoj T.",
+      "attack": 4,
+      "manaCost": 7,
+      "durability": 3,
+      "name": "Flamereaper",
+      "text": "Also damages the minions next to whomever your hero attacks.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b95751036cafbff3f2326acd143c27fbfd9a431e2c582da7ebe1a5bd3e5c79fb.png",
+      "imageGold": "",
+      "flavorText": "Honestly it sows more flame than it reaps.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e09854365b871c5b88f91379961c8dac91ab220264f81f72ec156081ebc137ea.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58244,
+      "collectible": 1,
+      "slug": "58244-hulking-overfiend",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Bayard Wu",
+      "health": 10,
+      "attack": 5,
+      "manaCost": 8,
+      "name": "Hulking Overfiend",
+      "text": "<b>Rush</b>. After this attacks and kills a minion, it may attack again.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d98dcd626bccd8fefaa64426ee66198427600b2a59c16d7732d3586ceabfe256.png",
+      "imageGold": "",
+      "flavorText": "To hulk, perhaps, to fiend: ay, there's the rub.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b6e519cf37e644230daf2e380575513b6197b68462406a1aa8eb1269012f960.png",
+      "keywordIds": [
+        53
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58524,
+      "collectible": 1,
+      "slug": "58524-illidari-felblade",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Angelica Alieva",
+      "health": 3,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Illidari Felblade",
+      "text": "<b>Rush</b> <b>Outcast:</b> Gain <b>Immune</b> this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f236d8d9eb78e63eaca36f54e45086da7b6f2dde5ab557237aa4cbf5522f255a.png",
+      "imageGold": "",
+      "flavorText": "A whirling dervish of demonic devastation.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0585df4cc1e2c41c29fdff66c249ec1ef1ef550451c65060a71e659d6f801c64.png",
+      "keywordIds": [
+        17,
+        53,
+        86
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58610,
+      "collectible": 1,
+      "slug": "58610-mana-burn",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 7,
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Hideaki Takamura",
+      "manaCost": 1,
+      "name": "Mana Burn",
+      "text": "Your opponent has 2 fewer Mana Crystals next turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a13ba71c11c2f2fe4fd339a1c4fa9269beda5622702134347e748f81e1ef9d16.png",
+      "imageGold": "",
+      "flavorText": "One way to ensure that they are not prepared.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01bd597571edfa3815343637e7c9cfd35613a6c4d498a31aa8f1ab220288f30b.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58172,
+      "collectible": 1,
+      "slug": "58172-nethrandamus",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 24,
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 5,
+      "artistName": "Rafael Zanchetin",
+      "health": 8,
+      "attack": 8,
+      "manaCost": 9,
+      "name": "Nethrandamus",
+      "text": "<b>Battlecry:</b> Summon two random -Cost minions. <i>(Upgrades each time a friendly minion dies!)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f271ebdcedf2e9ad02817b9221e8fecab68bbe7aa19a4d0415b9eec4c534a8c1.png",
+      "imageGold": "",
+      "flavorText": "Missed the big descent with the other dragons. But better late and nether!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/480886d26217e3005e0779554835a20ba67d65b41a9c3c63b8d5cc7fc3dc8d44.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56765,
+      "collectible": 1,
+      "slug": "56765-raging-felscreamer",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Slawomir Maniak",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Raging Felscreamer",
+      "text": "<b>Battlecry:</b> The next Demon you play costs (2) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/feef97dcde4f64950c5d6db79af5f1636db4443c36e9454ba1e5136b854c1f3a.png",
+      "imageGold": "",
+      "flavorText": "Screaming loudly will not reduce the cost of non-demonic goods.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bdcf5634ebe9d5ee1027fc32831b38f276d60a33e811f91fcea206c2dd270716.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58246,
+      "collectible": 1,
+      "slug": "58246-soul-split",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 3,
+      "artistName": "Slawomir Maniak",
+      "manaCost": 4,
+      "name": "Soul Split",
+      "text": "Choose a friendly Demon. Summon a copy of it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2219e24c607b90f298cec1611242613fa5e5209358d8b03064393571d7ace5e9.png",
+      "imageGold": "",
+      "flavorText": "Spoiler: they're both the evil twin.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a536745855c8ebcb26d1cd97455f33d00a19a20da7e9a88677b9ec1e4b41791c.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56928,
+      "collectible": 1,
+      "slug": "56928-twin-slice",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Maria Trepalina",
+      "manaCost": 1,
+      "name": "Twin Slice",
+      "text": "Give your hero +2 Attack this turn. Add 'Second Slice' to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59c4b1061db2a9b7309751d0fe72a0bfb82f6526b134993de8b0d19c4649d7e3.png",
+      "imageGold": "",
+      "flavorText": "The slice so nice, it'll cut you twice.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d883be7f211a09d91245130d5ca9a211c122b866f7642ea73542a96501f97331.png",
+      "childIds": [
+        56935
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56587,
+      "collectible": 1,
+      "slug": "56587-umberwing",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "Kagi",
+      "attack": 1,
+      "manaCost": 2,
+      "durability": 2,
+      "name": "Umberwing",
+      "text": "<b>Battlecry:</b> Summon two 1/1 Felwings.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/432e58df8e02749393fd02ca9e0bee4d5691051cac5a08dc4c2f4b6f2876968f.png",
+      "imageGold": "",
+      "flavorText": "Demon Hunters refer to these glaives as \"the ol’ flappy-attackys.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4e0779c31c98f3162e2d352f7f21f34308e1f5af3fcb15a8d659f75e3e110f8.png",
+      "childIds": [
+        56592
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 56739,
+      "collectible": 1,
+      "slug": "56739-urzul-horror",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 1,
+      "artistName": "James Ryman",
+      "health": 1,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Ur'zul Horror",
+      "text": "<b>Deathrattle:</b> Add a 2/1 Lost Soul to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16fb289a59bd16aeca7d7e9d5ce698e533ab884c4ba52b861973674185f1765a.png",
+      "imageGold": "",
+      "flavorText": "You face face face face face Jaraxxus!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/614417f5ed6420bed781d90e98d6c607b6868c12a6d06fc5de754db2912623a9.png",
+      "childIds": [
+        59518
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59710,
+      "collectible": 1,
+      "slug": "59710-wrathscale-naga",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 4,
+      "artistName": "Ware Lee",
+      "health": 1,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Wrathscale Naga",
+      "text": "After a friendly minion dies, deal 3 damage to a random enemy.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06a6deaf03cb9cb33442140ca4d2fef11c7288eeb31ea744034a127d6c21d833.png",
+      "imageGold": "",
+      "flavorText": "If throwing glaives is what you crave; summon tokens and make 'em broken.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd2ce30b235eac9fe09b1ca642d2cc5d434350a25e9b52c9e812ce312d745821.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59865,
+      "collectible": 1,
+      "slug": "59865-wrathspike-brute",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1463,
+      "rarityId": 4,
+      "artistName": "Vladimir Kafanov",
+      "health": 6,
+      "attack": 2,
+      "manaCost": 5,
+      "name": "Wrathspike Brute",
+      "text": "<b>Taunt</b> After this is attacked, deal 1 damage to all enemies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4671db3c9af5b5df670bc4a81d595368e41f21392d0b850d8df3a896a393a20f.png",
+      "imageGold": "",
+      "flavorText": "You scratch her back, her back scratches back.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/099b74a62190aa1574e6dd9496d192f9fc78426a2f8dfb27c29c7304a1ce9261.png",
+      "keywordIds": [
+        1
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 20,
+  "pageCount": 1,
+  "page": 1
+}

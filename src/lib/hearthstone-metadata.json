@@ -1,0 +1,276 @@
+[
+  {
+    "id": 1637,
+    "name": "Core",
+    "slug": "core",
+    "type": "",
+    "collectibleCount": 235,
+    "collectibleRevealedCount": 235,
+    "nonCollectibleCount": 14,
+    "nonCollectibleRevealedCount": 4
+  },
+  {
+    "id": 1635,
+    "name": "Legacy",
+    "slug": "legacy",
+    "aliasSetIds": [
+      3,
+      4
+    ],
+    "type": "",
+    "collectibleCount": 418,
+    "collectibleRevealedCount": 418,
+    "nonCollectibleCount": 132,
+    "nonCollectibleRevealedCount": 132
+  },
+  {
+    "id": 1578,
+    "name": "United in Stormwind",
+    "slug": "united-in-stormwind",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 173,
+    "nonCollectibleRevealedCount": 64
+  },
+  {
+    "id": 1525,
+    "name": "Forged in the Barrens",
+    "slug": "forged-in-the-barrens",
+    "type": "expansion",
+    "collectibleCount": 170,
+    "collectibleRevealedCount": 170,
+    "nonCollectibleCount": 661,
+    "nonCollectibleRevealedCount": 94
+  },
+  {
+    "id": 1646,
+    "name": "Classic Cards",
+    "slug": "classic-cards",
+    "type": "",
+    "collectibleCount": 383,
+    "collectibleRevealedCount": 382,
+    "nonCollectibleCount": 92,
+    "nonCollectibleRevealedCount": 81
+  },
+  {
+    "id": 1466,
+    "name": "Madness at the Darkmoon Faire",
+    "slug": "madness-at-the-darkmoon-faire",
+    "type": "expansion",
+    "collectibleCount": 170,
+    "collectibleRevealedCount": 170,
+    "nonCollectibleCount": 354,
+    "nonCollectibleRevealedCount": 135
+  },
+  {
+    "id": 1443,
+    "name": "Scholomance Academy",
+    "slug": "scholomance-academy",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 189,
+    "nonCollectibleRevealedCount": 36
+  },
+  {
+    "id": 1463,
+    "name": "Demon Hunter Initiate",
+    "slug": "demonhunter-initiate",
+    "type": "base",
+    "collectibleCount": 20,
+    "collectibleRevealedCount": 20,
+    "nonCollectibleCount": 3,
+    "nonCollectibleRevealedCount": 3
+  },
+  {
+    "id": 1414,
+    "name": "Ashes of Outland",
+    "slug": "ashes-of-outland",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 75,
+    "nonCollectibleRevealedCount": 56
+  },
+  {
+    "id": 1403,
+    "name": "Galakrond’s Awakening",
+    "slug": "galakronds-awakening",
+    "type": "adventure",
+    "collectibleCount": 35,
+    "collectibleRevealedCount": 35,
+    "nonCollectibleCount": 10,
+    "nonCollectibleRevealedCount": 5
+  },
+  {
+    "id": 1347,
+    "name": "Descent of Dragons",
+    "slug": "descent-of-dragons",
+    "type": "expansion",
+    "collectibleCount": 140,
+    "collectibleRevealedCount": 140,
+    "nonCollectibleCount": 60,
+    "nonCollectibleRevealedCount": 55
+  },
+  {
+    "id": 1158,
+    "name": "Saviors of Uldum",
+    "slug": "saviors-of-uldum",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 53,
+    "nonCollectibleRevealedCount": 47
+  },
+  {
+    "id": 1130,
+    "name": "Rise of Shadows",
+    "slug": "rise-of-shadows",
+    "type": "expansion",
+    "collectibleCount": 136,
+    "collectibleRevealedCount": 136,
+    "nonCollectibleCount": 59,
+    "nonCollectibleRevealedCount": 51
+  },
+  {
+    "id": 1129,
+    "name": "Rastakhan’s Rumble",
+    "slug": "rastakhans-rumble",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 31,
+    "nonCollectibleRevealedCount": 29
+  },
+  {
+    "id": 1127,
+    "name": "The Boomsday Project",
+    "slug": "the-boomsday-project",
+    "type": "expansion",
+    "collectibleCount": 136,
+    "collectibleRevealedCount": 136,
+    "nonCollectibleCount": 21,
+    "nonCollectibleRevealedCount": 20
+  },
+  {
+    "id": 1125,
+    "name": "The Witchwood",
+    "slug": "the-witchwood",
+    "type": "expansion",
+    "collectibleCount": 129,
+    "collectibleRevealedCount": 129,
+    "nonCollectibleCount": 36,
+    "nonCollectibleRevealedCount": 34
+  },
+  {
+    "id": 1004,
+    "name": "Kobolds and Catacombs",
+    "slug": "kobolds-and-catacombs",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 100,
+    "nonCollectibleRevealedCount": 94
+  },
+  {
+    "id": 1001,
+    "name": "Knights of the Frozen Throne",
+    "slug": "knights-of-the-frozen-throne",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 111,
+    "nonCollectibleRevealedCount": 49
+  },
+  {
+    "id": 27,
+    "name": "Journey to Un’Goro",
+    "slug": "journey-to-ungoro",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 53,
+    "nonCollectibleRevealedCount": 52
+  },
+  {
+    "id": 25,
+    "name": "Mean Streets of Gadgetzan",
+    "slug": "mean-streets-of-gadgetzan",
+    "type": "expansion",
+    "collectibleCount": 132,
+    "collectibleRevealedCount": 132,
+    "nonCollectibleCount": 85,
+    "nonCollectibleRevealedCount": 82
+  },
+  {
+    "id": 23,
+    "name": "One Night in Karazhan",
+    "slug": "one-night-in-karazhan",
+    "type": "adventure",
+    "collectibleCount": 45,
+    "collectibleRevealedCount": 45,
+    "nonCollectibleCount": 55,
+    "nonCollectibleRevealedCount": 53
+  },
+  {
+    "id": 21,
+    "name": "Whispers of the Old Gods",
+    "slug": "whispers-of-the-old-gods",
+    "type": "expansion",
+    "collectibleCount": 134,
+    "collectibleRevealedCount": 134,
+    "nonCollectibleCount": 30,
+    "nonCollectibleRevealedCount": 30
+  },
+  {
+    "id": 20,
+    "name": "League of Explorers",
+    "slug": "league-of-explorers",
+    "type": "adventure",
+    "collectibleCount": 45,
+    "collectibleRevealedCount": 45,
+    "nonCollectibleCount": 184,
+    "nonCollectibleRevealedCount": 16
+  },
+  {
+    "id": 15,
+    "name": "The Grand Tournament",
+    "slug": "the-grand-tournament",
+    "type": "expansion",
+    "collectibleCount": 132,
+    "collectibleRevealedCount": 132,
+    "nonCollectibleCount": 20,
+    "nonCollectibleRevealedCount": 18
+  },
+  {
+    "id": 14,
+    "name": "Blackrock Mountain",
+    "slug": "blackrock-mountain",
+    "type": "adventure",
+    "collectibleCount": 31,
+    "collectibleRevealedCount": 31,
+    "nonCollectibleCount": 173,
+    "nonCollectibleRevealedCount": 12
+  },
+  {
+    "id": 13,
+    "name": "Goblins vs Gnomes",
+    "slug": "goblins-vs-gnomes",
+    "type": "expansion",
+    "collectibleCount": 123,
+    "collectibleRevealedCount": 123,
+    "nonCollectibleCount": 21,
+    "nonCollectibleRevealedCount": 20
+  },
+  {
+    "id": 12,
+    "name": "Curse of Naxxramas",
+    "slug": "naxxramas",
+    "type": "adventure",
+    "collectibleCount": 30,
+    "collectibleRevealedCount": 30,
+    "nonCollectibleCount": 114,
+    "nonCollectibleRevealedCount": 113
+  }
+]

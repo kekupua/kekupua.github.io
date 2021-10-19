@@ -1,0 +1,1114 @@
+{
+  "cards": [
+    {
+      "id": 41944,
+      "collectible": 1,
+      "slug": "41944-adaptation",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Hideaki Takamura",
+      "manaCost": 1,
+      "name": "Adaptation",
+      "text": "<b>Adapt</b> a friendly minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3a42c1e397a73d0a7d13ab02e376f7b17c5c3798924d611c601f677811fe3ef.png",
+      "imageGold": "",
+      "flavorText": "Pray for salvation. If that fails, pray for extra horns or bigger teeth.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/906e54c3da2228f909f651387dbe8206a95e4b48b9b2a89ff061f518213767d5.jpg",
+      "keywordIds": [
+        34
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41152,
+      "collectible": 1,
+      "slug": "41152-air-elemental",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Evgeniy Dlinnov",
+      "health": 1,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Air Elemental",
+      "text": "Can't be targeted by spells or Hero Powers.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb09a65514b05a495b119c87287580da7fe6b4f9b457e7d20a9f3b208c468ceb.png",
+      "imageGold": "",
+      "flavorText": "Makes a mean puff pastry.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6196d5ab1eb5f3b32199f642954c52e20aebf6a3ad5ad3c583fc0ad8ad5287f0.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41153,
+      "collectible": 1,
+      "slug": "41153-arcanologist",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Eva Widermann",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Arcanologist",
+      "text": "<b>Battlecry:</b> Draw a <b>Secret</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d9d8bff807dd37dd2436c274f8f5ccb54ac626fafc11d94b55a6febb12751af.png",
+      "imageGold": "",
+      "flavorText": "What did you draw? Shhhh… it’s a secret.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/862a9f96d450423de817570a7599eb5f2f518fd990e399777272687b941a6bfb.png",
+      "keywordIds": [
+        5,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41494,
+      "collectible": 1,
+      "slug": "41494-awaken-the-makers",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 5,
+      "artistName": "Konstantin Turovec",
+      "manaCost": 1,
+      "name": "Awaken the Makers",
+      "text": "<b>Quest:</b> Summon 7 <b>Deathrattle</b> minions.<b> Reward:</b> Amara, Warden of Hope.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bb25c609349248fa4a93fc1f630121dbbf23950d2ddb788d9605864800abf59.png",
+      "imageGold": "",
+      "flavorText": "They keep hitting the Snooze button.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e99629cbe2d7fdcaac3858ccb9155ae7759524e334b47fe3f8c7596211f6fad5.jpg",
+      "childIds": [
+        41950
+      ],
+      "keywordIds": [
+        12,
+        31
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41170,
+      "collectible": 1,
+      "slug": "41170-binding-heal",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Tyler Walpole",
+      "manaCost": 1,
+      "name": "Binding Heal",
+      "text": "Restore 5 Health to a minion and your hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a61916686bb8f182fbb617c6ce5594e8a29e5193b7106467c00f702688624e95.png",
+      "imageGold": "",
+      "flavorText": "By accepting this healing, you agree to the following terms…",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/54ae5135a72c42b8e9a138861648da9dedeb0503183b5e92a01672bca625a798.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41216,
+      "collectible": 1,
+      "slug": "41216-biteweed",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Craig Elliott",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Biteweed",
+      "text": "<b>Combo:</b> Gain +1/+1 for each other card you've played this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26c27da66601541c64809f4e762ece9746b2efcb0db31462049e01a8d3f0ce4b.png",
+      "imageGold": "",
+      "flavorText": "AKA Edwin VanLeaf.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2eeabac5cb9c1c449d457f301af6d7b38e4690bd80f040d7b72c9ba91ac563b.jpg",
+      "keywordIds": [
+        13
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41263,
+      "collectible": 1,
+      "slug": "41263-bittertide-hydra",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Mark Gibbons",
+      "health": 8,
+      "attack": 8,
+      "manaCost": 5,
+      "name": "Bittertide Hydra",
+      "text": "Whenever this minion takes damage, deal 3 damage to your hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8a9d29601e782968d9e1ca0e5dc8adb439f963599119a35d7809c0449de51c0.png",
+      "imageGold": "",
+      "flavorText": "It's actually only the middle head that's bitter. The others are sweet and spicy.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccb5b0df9d966108d64bcf37bd73cd67fb384008caa06f0be67b971ce8d74942.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41928,
+      "collectible": 1,
+      "slug": "41928-blazecaller",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Dave Allsop",
+      "health": 6,
+      "attack": 6,
+      "manaCost": 7,
+      "name": "Blazecaller",
+      "text": "<b>Battlecry:</b> If you played an Elemental last turn, deal 5 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0e2ef0f165d9cbce15ba43d7ba00e38c67675c66f0a242a1b5f4539b7bbde64.png",
+      "imageGold": "",
+      "flavorText": "For when a flamecaller just won't do.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd30b4050642034976d075e3a8c83a14dd934dc1f1e06ac7cdc9c2bb96f07227.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41872,
+      "collectible": 1,
+      "slug": "41872-bloodbloom",
+      "classId": 9,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Tyler Walpole",
+      "manaCost": 4,
+      "name": "Bloodbloom",
+      "text": "The next spell you cast this turn costs Health instead of Mana.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c087f910e52871f67d11e367e7ba6349643e3845a15846e7709cfd92a7e449b6.png",
+      "imageGold": "",
+      "flavorText": "Help save mana. Donate blood today!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3a31ec0397798d140b2d27766f7351c35ffb0ab28583d29da73a5801c7b3056.png",
+      "childIds": [
+        41054,
+        41057,
+        41058,
+        41059,
+        41060,
+        41061,
+        41062,
+        41063,
+        41211,
+        41691
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41096,
+      "collectible": 1,
+      "slug": "41096-bright-eyed-scout",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Trent Kaniuga",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Bright-Eyed Scout",
+      "text": "<b>Battlecry:</b> Draw a card. Change its Cost to (5).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c02331b18887f4a156189ea6dfe12df7289f371fbec03fdf14fc602c57c743b2.png",
+      "imageGold": "",
+      "flavorText": "Also inordinately excited for cupcakes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09d01a58b31ae606a8e4c950a439f4dbcec9b06aa5bf1e9b99ddbad5620236e1.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41286,
+      "collectible": 1,
+      "slug": "41286-charged-devilsaur",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Luke Mancini",
+      "health": 7,
+      "attack": 7,
+      "manaCost": 8,
+      "name": "Charged Devilsaur",
+      "text": "<b>Charge</b> <b>Battlecry:</b> Can't attack heroes this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/42c1371fe68a8d33e1ce26bfbb8f6e60b0274a915ed84b9bd7c6fdc43832c271.png",
+      "imageGold": "",
+      "flavorText": "What happens when a dinosaur mixes soda and pop rocks.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8de2fdc58eb4347475fe78a0c252dc0c1950068accfe5b95e12284cbe96d10de.jpg",
+      "keywordIds": [
+        4,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41875,
+      "collectible": 1,
+      "slug": "41875-chittering-tunneler",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Slawomir Maniak",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Chittering Tunneler",
+      "text": "<b>Battlecry:</b> <b>Discover</b> a spell. Deal damage to your hero equal to its Cost.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9dfef1b8077547a460100583ad7f85337fdf331f16dc64b79b34373758858f3f.png",
+      "imageGold": "",
+      "flavorText": "Ear to the ground, he carefully interpreted the chittering noises: “You wanna cast a spell? I wanna cast a spell!”",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0b266ea7d6172cbee2201f35e096bb40d3799582d29f9ca4a735de23325dad3.jpg",
+      "keywordIds": [
+        8,
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41876,
+      "collectible": 1,
+      "slug": "41876-clutchmother-zavas",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 5,
+      "artistName": "Anton Zemskov",
+      "health": 2,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Clutchmother Zavas",
+      "text": "Whenever you discard this, give it +2/+2 and return it to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/241edaef379e2461310f2a442c575a165df6a6a1e13f7d260c97333c60e9e26b.png",
+      "imageGold": "",
+      "flavorText": "A bit of a snob: still refuses to drive anything with automatic transmission.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fcbf865601ea7ad4e2ccd2901495bb5292d9abf9d08bb62ec89be46973fc946.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41406,
+      "collectible": 1,
+      "slug": "41406-cornered-sentry",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Jomaro Kindred",
+      "health": 6,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Cornered Sentry",
+      "text": "<b>Taunt</b>. <b>Battlecry:</b> Summon three 1/1 Raptors for your opponent.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d14be2c06e5dd07d972783223810ea4bcbd4fcf68cba880b5b8304a1d0e3675f.png",
+      "imageGold": "",
+      "flavorText": "The Draenei are seriously considering cancelling \"Bring Your Murderous Pet to Work Day.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0886fd7d08061fa4b258ab22fecc40c3745de88ed0d56b5ecdc1e9d11439e8d4.png",
+      "childIds": [
+        41248
+      ],
+      "keywordIds": [
+        1,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41871,
+      "collectible": 1,
+      "slug": "41871-corrupting-mist",
+      "classId": 9,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "manaCost": 2,
+      "name": "Corrupting Mist",
+      "text": "Curse all minions. Destroy them at the start of your next turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18a39d281706725165c0404a3e931b66e1321d781ec7581c9586170b9276aff1.png",
+      "imageGold": "",
+      "flavorText": "The most terrifying of Un’goro magics is both silent… AND deadly.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6895db70ea518317a41264eb47faf097182c27af54ea85d911a353843399794.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41358,
+      "collectible": 1,
+      "slug": "41358-crackling-razormaw",
+      "classId": 3,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "L. Lullabi & K. Turovec",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 2,
+      "name": "Crackling Razormaw",
+      "text": "<b>Battlecry:</b> <b>Adapt</b> a friendly Beast.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/471d7206ede828bd1873850ed4c4ff3577f06a2c6b65933086324978fa434432.png",
+      "imageGold": "",
+      "flavorText": "Wasn't clever enough to go AROUND the electric fence.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/087c1645a0843dcb9639771f0d26f095b5f53cfa84ed14582124cad094f72691.jpg",
+      "keywordIds": [
+        8,
+        34
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41869,
+      "collectible": 1,
+      "slug": "41869-cruel-dinomancer",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Dany Orizio",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 6,
+      "name": "Cruel Dinomancer",
+      "text": "<b>Deathrattle:</b> Summon a random minion you discarded this game.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c02bf95c7bd2d1bcc0b738d304b051149908105057f15faffddbd86a5157e1c1.png",
+      "imageGold": "",
+      "flavorText": "As that old saying goes: \"you don't get into dinomancing to make friends.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a2bbe3bab07425b5bd90471b3b49ae9a18dcf9c0ae93474b8c7735c81ec1613.png",
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41173,
+      "collectible": 1,
+      "slug": "41173-crystalline-oracle",
+      "classId": 6,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Arthur Bozonnet",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Crystalline Oracle",
+      "text": "<b>Deathrattle:</b> Copy a card from your opponent's deck and add it to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa7e8abcd8b9bffff70ff51e36a56d47b9b808ce1781c3d79ddea14ca1b7bd71.png",
+      "imageGold": "",
+      "flavorText": "Being made of light has its disadvantages, but at least it's always looking on the bright side.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee9cb01d140104c3531b18b7b06235cef23a86eab49823dba6320735f9cc349a.jpg",
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41177,
+      "collectible": 1,
+      "slug": "41177-curious-glimmerroot",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Servando Lupini",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Curious Glimmerroot",
+      "text": "<b>Battlecry:</b> Look at 3 cards. Guess which one started in your opponent's deck to get a copy of it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a20227b29cfb6a051e72b75a099df30a04dde54bb8c07017c3b90dc86b1a4790.png",
+      "imageGold": "",
+      "flavorText": "George promised to be good. But it's easy for little Glimmerroots to forget.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7538bed2e3d8f94ce9663a449c27d690ca24f1501ac843804916c450668793ee.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41259,
+      "collectible": 1,
+      "slug": "41259-devilsaur-egg",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Arthur Bozonnet",
+      "health": 3,
+      "attack": 0,
+      "manaCost": 3,
+      "name": "Devilsaur Egg",
+      "text": "<b>Deathrattle:</b> Summon a 5/5 Devilsaur.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/943a4c0fec1f8f32054a74f24600d95a9a7af0dfe7e1f0583af20799e4d2e9d4.png",
+      "imageGold": "",
+      "flavorText": "A key ingredient in all discerning Funnel Cake recipes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/832b0b59ec54c73114d6a21cbdeece91fe979241b4636e691c7f013691c1eb5a.jpg",
+      "childIds": [
+        41258
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41363,
+      "collectible": 1,
+      "slug": "41363-dinomancy",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Arthur Bozonnet",
+      "manaCost": 2,
+      "name": "Dinomancy",
+      "text": "Your Hero Power becomes 'Give a Beast +2/+2.'",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe6cbe1ca0c30fc0fb7667c78f9f630769e356f7e02d612240269b43a5bdf5c1.png",
+      "imageGold": "",
+      "flavorText": "Anyone can dinomance. Just put your lips together and RAAWWWAARGGGH.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7385cce64e5ce3839189d2e26a1527dbcb398730bcdf44f4a781c89f45b386b.jpg",
+      "childIds": [
+        41362
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41130,
+      "collectible": 1,
+      "slug": "41130-dinosize",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Andrew Hou",
+      "manaCost": 8,
+      "name": "Dinosize",
+      "text": "Set a minion's Attack and Health to 10.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1afea1f2109a9dd95ac3fda23ff19b152045a37606fb505a36d5f754251fa7c0.png",
+      "imageGold": "",
+      "flavorText": "Comes with fries and a drink.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d98a13429c715fa46869f85332b9dfcda668eb20bad872a57b865b4ca05269b.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41890,
+      "collectible": 1,
+      "slug": "41890-direhorn-hatchling",
+      "classId": 10,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Peter Stapleton",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Direhorn Hatchling",
+      "text": "<b>Taunt</b> <b>Deathrattle:</b> Shuffle a 6/9 Direhorn with <b>Taunt</b> into your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40ec1966bcbc5fcffb98294a9c793b40091e85963bb5139ef410e151a14ee267.png",
+      "imageGold": "",
+      "flavorText": "His mom could beat up your mom.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa5a23264d66614e7578b035c83ea0b56ff710c940d929d78545903ef6228c1e.jpg",
+      "childIds": [
+        41889
+      ],
+      "keywordIds": [
+        1,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41081,
+      "collectible": 1,
+      "slug": "41081-earthen-scales",
+      "classId": 2,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Mike Azevedo",
+      "manaCost": 1,
+      "name": "Earthen Scales",
+      "text": "Give a friendly minion +1/+1, then gain Armor equal to its Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50818ce38cffba314f17bc4aa2519dbcf197fb3fc897a1065b1e64e75f7805ca.png",
+      "imageGold": "",
+      "flavorText": "You can make your own Earthen Scales at home. Step 1: Roll around in the dirt. Step 2: Magic.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a72806bb38e42aa0c45bf9df95bf464bb0a3158e371f9283591e16ac20239789.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41249,
+      "collectible": 1,
+      "slug": "41249-eggnapper",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Anton Zemskov",
+      "health": 1,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Eggnapper",
+      "text": "<b>Deathrattle:</b> Summon two 1/1 Raptors.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/486d54adeea8c85f72a45997ca88f7c6bde957159155b9244da738baf182b290.png",
+      "imageGold": "",
+      "flavorText": "Often misunderstood, it's just that he likes to use the eggs as pillows.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3592fc46f4d1ef01eb0caa848971d8070e185c3a54a3b3aaf6df2eecf58e6328.jpg",
+      "childIds": [
+        41248
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41086,
+      "collectible": 1,
+      "slug": "41086-elder-longneck",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Trent Kaniuga",
+      "health": 1,
+      "attack": 5,
+      "manaCost": 3,
+      "name": "Elder Longneck",
+      "text": "<b>Battlecry:</b> If you're holding a minion with 5 or more Attack, <b>Adapt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/938eaab67b8b6ff0e1b29dcdf9339a3736758a31ad263d56781c056d7721a6ed.png",
+      "imageGold": "",
+      "flavorText": "And so the bartender says, “Why the long neck?”",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6edcfd970bc8b20c3b2a13c7922dd332da21b1b22485b2b48e87aafd4ab21a90.jpg",
+      "childIds": [
+        41054,
+        41057,
+        41058,
+        41059,
+        41060,
+        41061,
+        41062,
+        41063,
+        41211,
+        41691
+      ],
+      "keywordIds": [
+        8,
+        34
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41935,
+      "collectible": 1,
+      "slug": "41935-elise-the-trailblazer",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 5,
+      "artistName": "Luke Mancini",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 5,
+      "name": "Elise the Trailblazer",
+      "text": "<b>Battlecry:</b> Shuffle a sealed <b>Un'Goro</b> pack into your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/892039550b7af45c2080e186178b32f722b409ad9158ed793fc1268705fb94c0.png",
+      "imageGold": "",
+      "flavorText": "Reno taught her that blazing her own trail is a lot more fun than following someone else's map.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9923dec3e86ce8ac70d809e6fb23d95b00b75bccc52344a3a34428c58260a9f7.jpg",
+      "childIds": [
+        41491
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41261,
+      "collectible": 1,
+      "slug": "41261-emerald-hive-queen",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Rafael Zanchetin",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Emerald Hive Queen",
+      "text": "Your minions cost (2) more.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07f0785b1a5b8490a5d11d9693e8b8c8741d7e6c09e95c5f70e49ddf82420951.png",
+      "imageGold": "",
+      "flavorText": "She rules the emerald hive at the end of the yellow brick trail.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b651962c1992cc8ea6d8b56072701fe19add937015ea3b5fc8f987691a3f019d.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41309,
+      "collectible": 1,
+      "slug": "41309-emerald-reaver",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Rafael Zanchetin",
+      "health": 1,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Emerald Reaver",
+      "text": "<b>Battlecry:</b> Deal 1 damage to each hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/adf7c752efed82b680631aff4af32949f1ad3a25788cd0e2c83be5dcba79d5a6.png",
+      "imageGold": "",
+      "flavorText": "Not to be confused with clubbing enthusiast Emerald Raver.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8929ef53146c101317d5da288202aa21b4db06ef618f22c5684e8b10fb078b21.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41834,
+      "collectible": 1,
+      "slug": "41834-envenom-weapon",
+      "classId": 7,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Mauricio Herrera",
+      "manaCost": 3,
+      "name": "Envenom Weapon",
+      "text": "Give your weapon <b>Poisonous</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2339f0e8d1f1779ef8ea15427743bf60d6d695d8f68d8657f0590f34b7744f81.png",
+      "imageGold": "",
+      "flavorText": "Like Deadly Poison, but deadlier.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d05c63c3b9d7f413f3c4a29fa81653640afa14d7640eebd46522d1238d6fb04.png",
+      "keywordIds": [
+        32
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 40991,
+      "collectible": 1,
+      "slug": "40991-evolving-spores",
+      "classId": 2,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Grace Liu",
+      "manaCost": 4,
+      "name": "Evolving Spores",
+      "text": "<b>Adapt</b> your minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78599f423146f242b0c3d0699459e20e1c2b67e866ff817c5e2ce24a6e7751cc.png",
+      "imageGold": "",
+      "flavorText": "The most powerful mushrooms are commonly found in boxes marked with \"?\".",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7b8e8c5d129f504b4d973e6e52b01a708afea17399346ec11f0cdfb62e2fd39.png",
+      "keywordIds": [
+        34
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41400,
+      "collectible": 1,
+      "slug": "41400-explore-ungoro",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 4,
+      "artistName": "Jerry Mascho",
+      "manaCost": 2,
+      "name": "Explore Un'Goro",
+      "text": "Replace your deck with copies of \"<b>Discover</b> a card.\"",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/153e520c2a596ec47ee969e463234eaa78b5972fd29765013f8a74b8dd63e496.png",
+      "imageGold": "",
+      "flavorText": "It turns out cards DO grow on trees!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e06ba801701196a74d6565287c02842bee58cee246c3df940036118288d701f0.jpg",
+      "childIds": [
+        42881
+      ],
+      "keywordIds": [
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41874,
+      "collectible": 1,
+      "slug": "41874-feeding-time",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Jaemin Kim",
+      "manaCost": 5,
+      "name": "Feeding Time",
+      "text": "Deal 3 damage to a minion. Summon three 1/1 Pterrordaxes.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10d55c3c0d106c2e29da92bcda7300196e2598c17b4b6e938db954bc233c98c4.png",
+      "imageGold": "",
+      "flavorText": "True, they're only 1/1s, but they eat as much as most 4/4s!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e042bd28ec7fa771a0039b6335a23a3371b8d4ef4e83eeb11c818135bf64e75.jpg",
+      "childIds": [
+        41943
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41323,
+      "collectible": 1,
+      "slug": "41323-fire-fly",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Evgeniy Dlinnov",
+      "health": 2,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Fire Fly",
+      "text": "<b>Battlecry</b>: Add a 1/2 Elemental to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/727f48febd7f6b0d5463ce53ba18f1043ab26f1010e9161c631a74c335352642.png",
+      "imageGold": "",
+      "flavorText": "Archnemeses: small children with glass jars.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e32f1511a188843fb6a29386f74593f34c6eff7ba588ee2162a21076113c5238.jpg",
+      "childIds": [
+        42044
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41107,
+      "collectible": 1,
+      "slug": "41107-fire-plume-harbinger",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Mike Azevedo",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Fire Plume Harbinger",
+      "text": "<b>Battlecry:</b> Reduce the Cost of Elementals in your hand by (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1055551255dfe46726f1d5dee2c960947709ab66143861c662d7c162150bc70.png",
+      "imageGold": "",
+      "flavorText": "Good for summoning elementals. Great for making s'mores.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a9e8bbf33f23ab908d94dc9a92e1073287b61efeaeb788372d693bb2adea58ae.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41260,
+      "collectible": 1,
+      "slug": "41260-fire-plume-phoenix",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Dan Scott",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Fire Plume Phoenix",
+      "text": "<b>Battlecry:</b> Deal 2 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc1d3a0dfac154022f47e3ff5fadcdace31436f0bb4c7e294a0b88eab921b346.png",
+      "imageGold": "",
+      "flavorText": "This is what happens when you use a volcano as a bird bath.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c18af7866d08955d4be8bbc38789a0a99034b53c3a9d2280c1ef79d6599a09c5.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41427,
+      "collectible": 1,
+      "slug": "41427-fire-plumes-heart",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 5,
+      "artistName": "Nate Bowden",
+      "manaCost": 1,
+      "name": "Fire Plume's Heart",
+      "text": "<b>Quest:</b> Play 7 <b>Taunt</b> minions. <b>Reward:</b> Sulfuras.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e94db72e275f81bfd00e39080d8e174fb1143516e86a1f1246da3c7f80cf1e4.png",
+      "imageGold": "",
+      "flavorText": "Why does an active volcano need to be defended? To save its ash.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b416ab82b13c268dcc5c37e2dd8a7e0800c215dccde9d249a141d75e017c2491.jpg",
+      "childIds": [
+        41426,
+        41940
+      ],
+      "keywordIds": [
+        1,
+        31
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41151,
+      "collectible": 1,
+      "slug": "41151-flame-geyser",
+      "classId": 4,
+      "multiClassIds": [],
+      "spellSchoolId": 2,
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 1,
+      "artistName": "Chris Seaman",
+      "manaCost": 2,
+      "name": "Flame Geyser",
+      "text": "Deal 2 damage. Add a 1/2 Elemental to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69f20cd5fa504bb98a4246d21493b89380625be998eaa3f11f1ab2fae3b767a2.png",
+      "imageGold": "",
+      "flavorText": "Oh, a wise geyser eh?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf0abfffdffe25fc1d2750ab696f7b0de87a9567bca8b4f3633b115ac3959c79.png",
+      "childIds": [
+        42044
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 42009,
+      "collectible": 1,
+      "slug": "42009-free-from-amber",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Anton Kagounkina",
+      "manaCost": 8,
+      "name": "Free From Amber",
+      "text": "<b>Discover</b> a minion that costs (8) or more. Summon it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2958b7c964e8786ca57469db6c546b607c720d6df5dcf0c3b8f5dc25e0650357.png",
+      "imageGold": "",
+      "flavorText": "Bingo! Minion DNA!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac85d563d5d136daaf152d152f92b41e569d72c1f58154f60d45cb85cfe84ad0.jpg",
+      "keywordIds": [
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 41253,
+      "collectible": 1,
+      "slug": "41253-frozen-crusher",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 27,
+      "rarityId": 3,
+      "artistName": "Konstantin Turovec",
+      "health": 8,
+      "attack": 8,
+      "manaCost": 6,
+      "name": "Frozen Crusher",
+      "text": "After this minion attacks, <b>Freeze</b> it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ba651ef13d4e98e96039141edfc73ab3fb975dafff0c4245034fa02b380f699.png",
+      "imageGold": "",
+      "flavorText": "Goes by the online handle \"KoolKrusher99.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19c819cd6b115221cb7c6751eb3b4e7931d666f17ec84defbc3d0790b9aef00e.jpg",
+      "keywordIds": [
+        10
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 135,
+  "pageCount": 4,
+  "page": 1
+}
