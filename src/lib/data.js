@@ -47,7 +47,7 @@ export default {
     }],
     projects: [{
       image: process.env.PUBLIC_URL + "images/randomHearthstoneLogo.jpg",
-      href: "/random-hearthstone",
+      routerLink: "/random-hearthstone",
       heading: "Random Hearthstone Card",
       subheading: "2021",
       description: "Designed a service for fetching random Hearthstone cards.",
