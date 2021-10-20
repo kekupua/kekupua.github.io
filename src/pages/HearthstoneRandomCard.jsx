@@ -33,6 +33,10 @@ const HearthstoneRandomCard = () => {
   }
   useEffect(() => {
     mountCard();
+    document.querySelector('.App').classList.add('isHearthstone');
+    return () => {
+      document.querySelector('.App').classList.remove('isHearthstone');
+    }
   }, []);
 
   return <st-section id="main-section">

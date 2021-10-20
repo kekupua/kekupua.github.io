@@ -4,18 +4,18 @@ import "@silverlinkz/sl-gallery";
 import './styles/App.css';
 import LandingPage from './pages/LandingPage';
 import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <st-nav>
-        <a href="/#about">About</a>
-        <a href="/#projects">Projects</a>
-        <a href="/#contact">Contact</a>
-        <a href="/random-hearthstone">HRC</a>
-      </st-nav>
       <Router>
+        <st-nav>
+          <a href="/#about">About</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#contact">Contact</a>
+          <Link to={'/random-hearthstone'}>HRC</Link>
+        </st-nav>
         <Switch>
           <Route exact path="/" >
             <LandingPage/>
