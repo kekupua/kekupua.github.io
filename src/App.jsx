@@ -10,16 +10,17 @@ function App() {
   return (
     <div className="App">
       <st-nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="/#about">About</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#contact">Contact</a>
+        <a href="/random-hearthstone">HRC</a>
       </st-nav>
       <Router>
         <Switch>
           <Route exact path="/" >
             <LandingPage/>
           </Route>
-          <Route exact path="/hearthstone" >
+          <Route exact path="/random-hearthstone" >
             <HearthstoneRandomCard />
           </Route>
         </Switch>

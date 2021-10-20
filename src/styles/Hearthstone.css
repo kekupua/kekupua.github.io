@@ -1,0 +1,71 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-section {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+/**
+ * Use the ::before and ::after pseudo elements for 
+ * your two gradients 
+ */
+#main-section::before,
+#main-section::after {
+  /* Store filters we'll apply to both gradients */
+  --base-filters: saturate(300%) brightness(110%) opacity(20%);
+  --illustration-color: brown;
+
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /**
+  * Add a gradient transitioning from the illustration color 
+  * to complete transparency
+  */
+  background: linear-gradient(
+    /* Rotate it 30 degrees so it feels less rigid */ -30deg,
+    var(--illustration-color),
+    rgba(255, 255, 255, 0)
+  );
+}
+#main-section::before {
+  /* Apply your first filter to your ::before pseudo-element */
+  filter: hue-rotate(220deg) var(--base-filters);
+}
+#main-section::after {
+  /* Apply your second filter to your ::after pseudo-element */
+  filter: hue-rotate(140deg) var(--base-filters);
+  /**
+  * Rotate the second gradient 180 degrees so it comes from 
+  * the opposite side 
+  */
+  transform: rotate(180deg);
+}
+
+#card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--size-300);
+}
+
+#card-section st-button {
+  position: absolute;
+  top: var(--size-200);
+}
+
+#card-section st-button::part(container) {
+  --icon-size: var(--size-300);
+
+  padding: var(--size-100);
+}
