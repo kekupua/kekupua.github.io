@@ -95,10 +95,10 @@
       "manaCost": 3,
       "name": "Dancing Swords",
       "text": "<b>Deathrattle:</b> Your opponent draws a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8456ac4ec65360822467407627c0136114aa78b48bcdd6168e68677ec7e9edc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4ba8f5218b9942c4667af0d87f82ef6c111395dc1a50b79adcef0f86a2ace99.png",
       "imageGold": "",
       "flavorText": "They like to dance to reggae.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d86a0ebd3980ae48ec736576470cacdbaf853aea0a0b745b4cd62dc16414823.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4bf81bfc465fe3ef5e65ae4a18b1afed5b8017615448cbae0ae05654eb163d4.png",
       "keywordIds": [
         12
       ],
@@ -122,10 +122,10 @@
       "manaCost": 3,
       "name": "Dark Cultist",
       "text": "<b>Deathrattle:</b> Give a random friendly minion +3 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0537a1c53e82c5e7d204c98b9efae9bc1a6f4ec5240599baa31b239d939b8c3d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07a69d042a4c94020777e2fafe826d2a127d67064ed6ff6d9a533cd8360de7e5.png",
       "imageGold": "",
       "flavorText": "The Cult of the Damned has found it's best not to mention their name when recruiting new cultists.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1c80d0ca991bea2ef9f7fbbce9f3e76cfcd85e6409ef0aabbc2cae55bfc4421.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e06012e1c9eac55842d2a389fe42a199a848ecac16f8054a973d9a3e0cc2412.png",
       "keywordIds": [
         12
       ],
@@ -257,10 +257,10 @@
       "manaCost": 5,
       "name": "Feugen",
       "text": "<b>Deathrattle:</b> If Stalagg also died this game, summon Thaddius.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95a5ffe9494d3b109b90aa667ab514a8d8283f14db7388376151d6725238dfb4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba0ecc311192919d0ad1e66e85be1c5762192be61a0357270f4d0b44a612add1.png",
       "imageGold": "",
       "flavorText": "Feugen is sad because everyone likes Stalagg better.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7994c107ac7aa2e3254e2f6ef5d4f7b1423a54719ae043c00a5f86be1d6e7a7a.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc33fec94486f4839c5337338b48efd3699727c12c2dc8a1eb41c80e53e2b525.png",
       "childIds": [
         1798
       ],
@@ -342,10 +342,10 @@
       "manaCost": 5,
       "name": "Loatheb",
       "text": "<b>Battlecry:</b> Enemy spells cost (5) more next turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a247ebb99125277e4bcb9bb2c913af664fd2f2f64f305ef094ff861a9c801576.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0003cf516632085560aff84fc89d36f45cbb74613b30d1217c42d81143915672.png",
       "imageGold": "",
       "flavorText": "Loatheb used to be a simple Bog Beast. This is why we need stricter regulations on mining and agriculture.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6309d7362f4e2639535e46493487e58905e8bb457f9f8cfd7c913ebf6c665a3f.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efa6be92f3a9dfb16e0a04ae96b1f4ab02c7ac3bc259535cadb276f60407c6dc.png",
       "keywordIds": [
         8
       ],
@@ -369,10 +369,10 @@
       "manaCost": 2,
       "name": "Mad Scientist",
       "text": "<b>Deathrattle:</b> Put a <b>Secret</b> from your deck into the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2ea0c41a516e7e6c5487e623e7efcb5cd0e10d6c6e9b44840b2b9e0f389530c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec8caeceec3d8af6c371d175cd9814227bad10cf5b094abb32825557a5f66521.png",
       "imageGold": "",
       "flavorText": "His mother wanted him to be a mage or a warlock, but noooooooo, he had to go and be a scientist like his father.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb1d821fd8fd3d2f5bb1fcd6c9900e40bd42722dbd15432d67d714f1731b5246.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e27e744899416f5534171854ae32796ac9a8e9327d67f2465eed2ca20ba17a6c.png",
       "keywordIds": [
         5,
         12
@@ -613,10 +613,10 @@
       "manaCost": 5,
       "name": "Stalagg",
       "text": "<b>Deathrattle:</b> If Feugen also died this game, summon Thaddius.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d5d05bcf6207b75248bd0209d94e43e1c21b79618f2477f3526ca89a297351d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a7556af8f7b237208a1367c8d708fac74d2d2d7b28a6be9e51404c0f7329c00.png",
       "imageGold": "",
       "flavorText": "Stalagg want to write own flavor text. \"STALAGG AWESOME!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/254bbd9bb68001a7ff1784ef2ae4f6f93e6de84d3fa2158a1d869f3fa9525427.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/968e23083363b93632f15c996c3077a2c5244f6aba11d124976680b80f5cb1ef.png",
       "childIds": [
         1798
       ],
@@ -723,10 +723,10 @@
       "manaCost": 4,
       "name": "Voidcaller",
       "text": "<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9035ad061e76ef3fa48e4421f862439fb1ab73ebfc502e959320166741954255.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af7ea9ddef99d6d4332e9496534b04d0abd1e0c399b31058edea485091cc5e14.png",
       "imageGold": "",
       "flavorText": "\"Void! Here, void! Here, buddy!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ed7c7a6cb85e737824e7af9ea8c1ada25fa25078ee917dec62b1e51255e41b1.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c38c865cb6437b5855309f980e0ffae6053aee34b6457e97c070054f54fdf480.png",
       "keywordIds": [
         12
       ],
@@ -779,10 +779,10 @@
       "manaCost": 1,
       "name": "Webspinner",
       "text": "<b>Deathrattle:</b> Add a random Beast card to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f7c2713772d6ff808cef506028fa2c11d3bc1a0b9e24535be8f61661f4fd0fd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df9c1e0b3b314ee1ae7fa265bec31003482d6107b90d3bcc5b8177da1e27c299.png",
       "imageGold": "",
       "flavorText": "Spider cocoons are like little piñatas!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d524e861b2a5c75bd833059de0361bf6ae04a8b911331386bbe94c0a0ff011ec.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ea51c37d314e97321f72777ad346ddebe0a8f71bb5dea36312e936464a53e86.png",
       "keywordIds": [
         12
       ],
@@ -806,10 +806,10 @@
       "manaCost": 1,
       "name": "Zombie Chow",
       "text": "<b>Deathrattle:</b> Restore 5 Health to the enemy hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00af8216639bb065889cf68026a20744de7775ea1b9ac482bd30834afd5bc8d2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc7c02debee0ee795df7c425be6f370ba3398865d2f8a161d9fd925de5b975d2.png",
       "imageGold": "",
       "flavorText": "Zombie. It's what's for dinner.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d528b04172e5fed2db032213bb4d50e9b6b6344cc28a63a1708281e2bd182b4.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc3b4a472fd8b8b63dac0b955253f23d7b62899f0e77439c079d074904754fd5.png",
       "keywordIds": [
         12
       ],

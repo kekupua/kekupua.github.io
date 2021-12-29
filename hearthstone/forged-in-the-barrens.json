@@ -471,10 +471,10 @@
       "manaCost": 4,
       "name": "Cariel Roame",
       "text": "<b>Rush</b>, <b>Divine Shield</b> Whenever this attacks, reduce the Cost of Holy spells in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12328be5907ae7a4fe553f8fa75a7b63c547c9a3408afe6d38c391dca053d28c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77d1dbc15e5831c17a2d778d28316b7ce864384c80a6da3fb85f40516011ddf1.png",
       "imageGold": "",
       "flavorText": "Cariel had pledged her honor to the Alliance, but when someone matching her long-lost sister's description was sighted at the Crossroads, Cariel did the unthinkable: she abandoned her post and set out across the Barrens.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43bb393ad8ecd829fc277bcfe119bda95d7782ac5a5fd2da5eab631cdbf98b59.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2f3b975b072812cc7b8723a8f133853be2bd466de242ca224f654a2d69895ab.png",
       "keywordIds": [
         3,
         53
@@ -495,13 +495,13 @@
       "cardSetId": 1525,
       "rarityId": 4,
       "artistName": "Gustav Schmidt",
-      "manaCost": 7,
+      "manaCost": 8,
       "name": "Celestial Alignment",
       "text": "Set each player to 0 Mana Crystals. Set the Cost of cards in all hands and decks to (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5576249cf9ae0c5cfaa90784aad1cf522ecfff25f91a962f9f1c591a4458bbeb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3bce426848b8d39d2fe6ab26af2b68a1d53993118d94770a9baa7bf26542e344.png",
       "imageGold": "",
       "flavorText": "\"Is my deck any good?\" \"I mean, if the stars align.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0560395964811129e0b7f253ec08a27c776834f04dfa86a0a952057d4e45aeee.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6ea9a5ec8348562c6f0c7c240a83c1a5a150a25368c9c2ff18c99853c113776.png",
       "duels": {
         "relevant": true,
         "constructed": true
@@ -521,10 +521,10 @@
       "manaCost": 2,
       "name": "Chain Lightning (Rank 1)",
       "text": "Deal 2 damage to a minion and a random adjacent one. <i>(Upgrades when you have 5 Mana.)</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb35ba2467f943d4a696b3e2b7161b924327ae9bfc8ca22d4bbcb961c5a4c6ac.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/842795fbdec3b0edef5e66d8a039d9795e8ba107519dcd348e3af1fb823f72a9.png",
       "imageGold": "",
       "flavorText": "Still better than receiving a chain letter.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5418a01c768f183688673c0a8b8ad5a7478bdee34835653a75fc1924cf9f12f6.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c58409324e42fd812c845c6ac43ec06d088ac5976e6349ae0f1f6b9b6268c21.png",
       "childIds": [
         63066,
         63067
@@ -997,13 +997,13 @@
       "artistName": "Konstantin Turovec",
       "health": 4,
       "attack": 1,
-      "manaCost": 2,
+      "manaCost": 3,
       "name": "Efficient Octo-bot",
       "text": "<b>Frenzy:</b> Reduce the cost of cards in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02ab2d6c714390f0560a14aef09ce5c97dcb57f603cf52c89f873530c2097f73.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd51ad2c9d3011750c6531e1221c2b4d69f624dd486a4c30f9a97924f048a688.png",
       "imageGold": "",
       "flavorText": "Pull the lever, Octo-bot... Wrong leverrrrr!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b69be93d68da246377add758787431a42b9d6c6a7b289106364c4f31bf777c3d.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4078d0219c8314b4a5a66d76958b40cfb0fc7c3733afe270ee4c1d65008d3b9.png",
       "keywordIds": [
         99
       ],
