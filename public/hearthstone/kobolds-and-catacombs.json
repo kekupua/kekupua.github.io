@@ -164,10 +164,10 @@
       "durability": 2,
       "name": "Bladed Gauntlet",
       "text": "Has Attack equal to your Armor. Can't attack heroes.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1609aa03a9831580c3890a6f5f2ffae31da9a66d85585dec054c0bb2124eda10.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fca7a308164ac6a74332c7310d211747064522ab607406ee788443c7d85a7e6a.png",
       "imageGold": "",
       "flavorText": "CAUTION: DO NOT SCRATCH NOSE.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a40b1369560851642a89deb2fb30f7bf0a859f9fc0c361d1db8a67ab7d47d15.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49c540d23979b5f0f2e08bd763cfe1816df252dea05dfb36633c2557574a3b86.png",
       "duels": {
         "relevant": true,
         "constructed": true
@@ -240,10 +240,10 @@
       "manaCost": 4,
       "name": "Call to Arms",
       "text": "<b>Recruit</b> 3 minions that cost (2) or less.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e64b0b420e65ca190512ef018a4bcdd0d9431a645597664b96cb80733b4f044e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5b33153a9f49cb070bb7fcc6e53c79351a4053df693b4eb5298a6b5dce55c6c.png",
       "imageGold": "",
       "flavorText": "More personal than a text to arms.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d61d16a1d3e5db8a40c2b19e6117a11a0ca88382f5dbec446cfa554066853b97.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c89d88fa13055a89e701005e0c2d09fc83abaa0a065c81abb58e9da147a23d8.png",
       "keywordIds": [
         39
       ],
@@ -368,13 +368,12 @@
       "health": 1,
       "attack": 3,
       "manaCost": 2,
-      "durability": 0,
       "name": "Cavern Shinyfinder",
       "text": "<b>Battlecry:</b> Draw a weapon from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d1b329cd93401821166d1328160823d11590017b8c2f540f4c467591fe64fd0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/420101eb9a138cb43ae1f7b7ede037ea458dff66ad2793fe5d4827b38ee0a5d0.png",
       "imageGold": "",
       "flavorText": "They call her the candled vandal.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3961165ba97dd02004d52e1fcb3032dce56a765c000f5ac080f172b6aa075b7f.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5a10a4177b143b48821889f4ef532c1ed332e5fe7a31f18a3b5b6a79da8db78.png",
       "keywordIds": [
         8
       ],

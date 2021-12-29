@@ -20,18 +20,28 @@
     "type": "",
     "collectibleCount": 418,
     "collectibleRevealedCount": 418,
-    "nonCollectibleCount": 132,
+    "nonCollectibleCount": 133,
     "nonCollectibleRevealedCount": 132
+  },
+  {
+    "id": 1626,
+    "name": "Fractured in Alterac Valley",
+    "slug": "fractured-in-alterac-valley",
+    "type": "expansion",
+    "collectibleCount": 135,
+    "collectibleRevealedCount": 135,
+    "nonCollectibleCount": 65,
+    "nonCollectibleRevealedCount": 65
   },
   {
     "id": 1578,
     "name": "United in Stormwind",
     "slug": "united-in-stormwind",
     "type": "expansion",
-    "collectibleCount": 135,
-    "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 173,
-    "nonCollectibleRevealedCount": 64
+    "collectibleCount": 170,
+    "collectibleRevealedCount": 170,
+    "nonCollectibleCount": 310,
+    "nonCollectibleRevealedCount": 71
   },
   {
     "id": 1525,
@@ -70,7 +80,7 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 189,
+    "nonCollectibleCount": 190,
     "nonCollectibleRevealedCount": 36
   },
   {
@@ -90,7 +100,7 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 75,
+    "nonCollectibleCount": 76,
     "nonCollectibleRevealedCount": 56
   },
   {
@@ -110,7 +120,7 @@
     "type": "expansion",
     "collectibleCount": 140,
     "collectibleRevealedCount": 140,
-    "nonCollectibleCount": 60,
+    "nonCollectibleCount": 61,
     "nonCollectibleRevealedCount": 55
   },
   {
@@ -120,7 +130,7 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 53,
+    "nonCollectibleCount": 54,
     "nonCollectibleRevealedCount": 47
   },
   {
@@ -131,7 +141,7 @@
     "collectibleCount": 136,
     "collectibleRevealedCount": 136,
     "nonCollectibleCount": 59,
-    "nonCollectibleRevealedCount": 51
+    "nonCollectibleRevealedCount": 49
   },
   {
     "id": 1129,
@@ -160,8 +170,8 @@
     "type": "expansion",
     "collectibleCount": 129,
     "collectibleRevealedCount": 129,
-    "nonCollectibleCount": 36,
-    "nonCollectibleRevealedCount": 34
+    "nonCollectibleCount": 35,
+    "nonCollectibleRevealedCount": 33
   },
   {
     "id": 1004,

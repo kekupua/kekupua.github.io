@@ -331,10 +331,10 @@
       "manaCost": 4,
       "name": "Fireguard Destroyer",
       "text": "<b>Battlecry:</b> Gain 1-4 Attack. <b>Overload:</b> (1)",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbf70f508d64b07e29d518c4a64e677842b10c96408a6e92b249baac9083e979.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e43981cf35b943958e2c3b0bbace16704c00d9a6d87b4dc5f2f2c1f3a6f5dac.png",
       "imageGold": "",
       "flavorText": "Ragnaros interviews hundreds of Fire Elementals for the position of \"Destroyer\" but very few have what it takes.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47ccdd1819683e46e744f93308616e986f9cba990a8a39d5a444a65427b0ba0b.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/68df0d307f97ab5187df08248f49e94cbe09036b7ed5cf127a8623c6251ff4bd.png",
       "keywordIds": [
         8,
         14
@@ -355,10 +355,10 @@
       "manaCost": 3,
       "name": "Flamewaker",
       "text": "After you cast a spell, deal 2 damage randomly split among all enemies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abeca76f3931d1b1b663164f62a6e8260f6c318ffe8400b2467f608815594a02.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e406a07d5abfafdf9abe893fef8fba3051f794e0f947fd06402f097094c5a3a1.png",
       "imageGold": "",
       "flavorText": "Flamewakers HATE being confused for Flamewalkers. They just wake up fire, they don’t walk on it. Walking on fire is CRAZY.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60eddb604df90a1e545e6a5de36bc5d1e2f3464b49677378750030ddf987cf06.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afa260f1bccce78830014bf7d0347d9c32cf3151ba0c900472d2548bed752df1.png"
     },
     {
       "id": 2304,

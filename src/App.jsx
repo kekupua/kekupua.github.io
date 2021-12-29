@@ -4,7 +4,7 @@ import "@silverlinkz/sl-gallery";
 import './styles/App.css';
 import LandingPage from './pages/LandingPage';
 import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
-import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
+import { Route, HashRouter as Router, Switch, Link } from 'react-router-dom';
 
 function App() {
   return (

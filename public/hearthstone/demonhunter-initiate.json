@@ -135,10 +135,10 @@
       "manaCost": 1,
       "name": "Consume Magic",
       "text": "<b>Silence</b> an enemy minion. <b>Outcast:</b> Draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8f90f8a9fa8de26ec688a27aecfaf6e3327213d7534f046e7a6ef7793132206.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b04c7b8d253c210926133e459c900e7ae3546bdf4467505cd299c4e052f20ec3.png",
       "imageGold": "",
       "flavorText": "Please be mindful when consuming raw or undercooked magic.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a75cc1d65fca59eadd684f9b526df2502105990712d7afa004b92bc25d1cf60f.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4140fcccc29923ee6850f7e796b7a12d0bdcfa7233277785ccdd26dbc1804d63.png",
       "keywordIds": [
         15,
         86
@@ -318,10 +318,10 @@
       "manaCost": 9,
       "name": "Nethrandamus",
       "text": "<b>Battlecry:</b> Summon two random -Cost minions. <i>(Upgrades each time a friendly minion dies!)</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f271ebdcedf2e9ad02817b9221e8fecab68bbe7aa19a4d0415b9eec4c534a8c1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afe038a10c235e89ad22d1e43b4ae655f7ae61049abacb4313f6fbcb70dd8c96.png",
       "imageGold": "",
       "flavorText": "Missed the big descent with the other dragons. But better late and nether!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/480886d26217e3005e0779554835a20ba67d65b41a9c3c63b8d5cc7fc3dc8d44.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34f440fd1921649681b7d0f56f55c5f645fed6489990b6e9e3f7a3d584983a81.png",
       "keywordIds": [
         8
       ],
