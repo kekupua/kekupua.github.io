@@ -42,7 +42,3 @@ st-text[type="h3"]::part(container) {
   font-style: italic;
   color: var(--colors-theme-4);
 }
-/* Other Web Components */
-sl-gallery-slideshow {
-  z-index: 51;
-}
