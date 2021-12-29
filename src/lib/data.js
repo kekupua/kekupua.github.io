@@ -46,6 +46,13 @@ export default {
         caption: "My girlfriend and I out to dinner (pre-pandemic)"
     }],
     projects: [{
+      image: process.env.PUBLIC_URL + "images/randomHearthstoneLogo.jpg",
+      routerLink: "/random-hearthstone",
+      heading: "Random Hearthstone Card",
+      subheading: "2021",
+      description: "Designed a service for fetching random Hearthstone cards.",
+      tags: ["web", "react", "design", "javascript", "web components", "API", "cache"]
+    },{
         image: "https://bnetcmsus-a.akamaihd.net/cms/blog_header/0v/0VK49FWI9ERR1607483275276.jpg",
         href: "https://diabloimmortal.com/en-us/",
         heading: "Diablo Immortal",

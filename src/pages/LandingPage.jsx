@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../lib/data.js';
+import { Link } from 'react-router-dom';
 import '../styles/LandingPage.css';
 
 
@@ -7,9 +8,14 @@ let LandingPage = () => {
   return <React.Fragment>
     <st-section id="masthead" alignment="center">
       <st-header slot="header" id="category-header" layout="center">
-        <h2 class="st-text-700" slot='heading'>Sean Teramae</h2>
-        <p class="st-text-200" slot='description'>Software Engineer</p>
-        <p class="st-text-200" slot='description'>Javascript • Node • React • Web Components</p>
+        <h2 className="st-text-700" slot='heading'>Sean Teramae</h2>
+        <p className="st-text-200" slot='description'>Software Engineer / Blizzard Entertainment</p>
+        <p className="st-text-200" id="skills-list" slot='description'>
+          Javascript • 
+          Web Components •
+          Node.js • 
+          React 
+        </p>
       </st-header>
       <st-button type="secondary" icon="mail" trailing-icon label="Email Me!" href="mailto:seteramae@gmail.com?Subject=Hi!"></st-button>
     </st-section>
@@ -43,20 +49,27 @@ let LandingPage = () => {
       </st-header>
       <div className="projects-list">
         {data.projects.map(project => {
-          return <st-card
-            key={project.heading}
+          const card = <st-card
             image={project.image}
-            href={project.href}
             contain={project.contain}
           >
             <h3 slot="heading">{project.heading}</h3>
             <h4 slot="subheading">{project.subheading}</h4>
             <p slot="description">{project.description}</p>
           </st-card>
+          
+          if (project.routerLink) {
+            return <Link key={project.heading} to={project.routerLink}>{card}</Link>
+          } else {
+            return React.cloneElement(
+              card,
+              {key: project.heading, href: project.href}
+            )
+          }
         })}
       </div>
     </st-section>
   </React.Fragment>
 }
 
-export default LandingPage
+export default LandingPage;

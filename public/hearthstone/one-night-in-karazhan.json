@@ -1,0 +1,1084 @@
+{
+  "cards": [
+    {
+      "id": 39215,
+      "collectible": 1,
+      "slug": "39215-arcane-anomaly",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Alex Alexandrov",
+      "health": 1,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Arcane Anomaly",
+      "text": "After you cast a spell, give this minion +1 Health.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/530cf29df1958fd4205280ce2550e109fa9c58cade1a982911a4c8e2d3bf49f9.png",
+      "imageGold": "",
+      "flavorText": "He used to get work as a Spatial Anomaly, but he got tired of having his polarity reversed.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d04ddae9313a1d450af998ffe08689ecf12ec49ee9b435aac896fe9aec6d1fb.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39426,
+      "collectible": 1,
+      "slug": "39426-arcane-giant",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 4,
+      "artistName": "Dan Scott",
+      "health": 8,
+      "attack": 8,
+      "manaCost": 12,
+      "name": "Arcane Giant",
+      "text": "Costs (1) less for each spell you've cast this game.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7533b3eb3d71e02b7a7f279cf3bfc6c3cb012370ecac0101c8d0f4317b916cd.png",
+      "imageGold": "",
+      "flavorText": "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes’ cooking.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09245cf0e68b9bc6615e44d8515a2ccb1b7a46c31662002119caabdf599cf467.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39491,
+      "collectible": 1,
+      "slug": "39491-arcanosmith",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Anton Zemskov",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Arcanosmith",
+      "text": "<b>Battlecry:</b> Summon a 0/5 minion with <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3296bcbb3c125b2cf14994ec497ded94a9994c10c103805c14eceae11f23092b.png",
+      "imageGold": "",
+      "flavorText": "He’s really just a Blacksmith, but he thought the fancy title would bring in more business.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7ba7a043ac610c720af221d61d19e5da89033996c352e029f6e03f606761101.jpg",
+      "childIds": [
+        39308
+      ],
+      "keywordIds": [
+        1,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39489,
+      "collectible": 1,
+      "slug": "39489-avian-watcher",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Jim Nelson",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Avian Watcher",
+      "text": "<b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1 and <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a46e0d31bc12b44bebed7cc29ffb550ca44a00ac77a423adcb06ea748bc4f89.png",
+      "imageGold": "",
+      "flavorText": "He mostly watches light romantic comedies.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcf2e24004aafb47528883b2c59948eb712ef55b092c93ddb6667a799c0fd521.jpg",
+      "keywordIds": [
+        1,
+        5,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39169,
+      "collectible": 1,
+      "slug": "39169-babbling-book",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "A. J. Nazzaro",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Babbling Book",
+      "text": "<b>Battlecry:</b> Add a random Mage spell to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e45998ade3905e05f6736983e410b069c8c5a422bdad6503081d954ebcb009c2.png",
+      "imageGold": "",
+      "flavorText": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30d509190831228e18073085ee4e374baf5430e6361840c55495851e924ca470.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39941,
+      "collectible": 1,
+      "slug": "39941-barnes",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 5,
+      "artistName": "Garrett Hanna",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Barnes",
+      "text": "<b>Battlecry:</b> Summon a 1/1 copy of a random minion in your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/56cd06965e5e6e3321c17a49b143ce591b8bb512834b531c5eff7ed12eff23c7.png",
+      "imageGold": "",
+      "flavorText": "He used to play every part, until Moroes confiscated his Orb of Deception.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e31d429be5e170345fbe8c68b9e0a10aa57408c1d1fa65cb8c03853996fb3bd.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39210,
+      "collectible": 1,
+      "slug": "39210-book-wyrm",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 24,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Dave Allsop",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 6,
+      "name": "Book Wyrm",
+      "text": "<b>Battlecry:</b> If you're holding a Dragon, destroy an enemy minion with 3 or less Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3999ea72746165fdaf0b395eaac42c0cf9afaedcac18a5065d9fe72b315aae3f.png",
+      "imageGold": "",
+      "flavorText": "His favorites are classic tragedies like \"The Hobbit\" and \"Grendel\".",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30a0e9575261f729d3f17786b2ceacbffc13d4af814f69805c1f0320c30f7663.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39160,
+      "collectible": 1,
+      "slug": "39160-cat-trick",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Mike Sass",
+      "manaCost": 2,
+      "name": "Cat Trick",
+      "text": "<b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/399f3467e92e28ac275d198d3008d00be5fa389310c68f5d88ebb0f53bc7fe2b.png",
+      "imageGold": "",
+      "flavorText": "\"I know some new tricks, a lot of good tricks. I will show them to you. Medivh will not mind at all if I do.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc103d45bf96a407b8dd4731a937c392807077f874bd9b09046c93c311aa9bb5.png",
+      "childIds": [
+        39173
+      ],
+      "keywordIds": [
+        5,
+        6
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39492,
+      "collectible": 1,
+      "slug": "39492-cloaked-huntress",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Arthur Bozonnet",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Cloaked Huntress",
+      "text": "Your <b>Secrets</b> cost (0).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/587f19f971cf320b44537d674b918bce57ab291191ab161830e48a28fcf6dfa8.png",
+      "imageGold": "",
+      "flavorText": "She's practically GIVING your secrets away!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/695ecea2c971c7259248f4c84ed672d929cdc703aee8ef211e8abdc079af28d3.png",
+      "keywordIds": [
+        5
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39822,
+      "collectible": 1,
+      "slug": "39822-deadly-fork",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Konstantin Turovec",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Deadly Fork",
+      "text": "<b>Deathrattle:</b> Add a 3/2 weapon to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/943e0b669c5e775c7678de77ca871660f91de08eb2ddfd0e898f75ab5fb3eed2.png",
+      "imageGold": "",
+      "flavorText": "For a proper setting, place the deadly fork <i>after</i> the salad fork, but <i>before</i> the dinner fork.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e90a6985082da34de3879e009eb39f7ccfb375f8c5c291018fbbb99ecd2a0fb8.jpg",
+      "childIds": [
+        39821
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39350,
+      "collectible": 1,
+      "slug": "39350-enchanted-raven",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Daria Tuzova",
+      "health": 2,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Enchanted Raven",
+      "text": "",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf5857c2ab2646a6d85bd82eed4889e6b88f2d97bf5c65edd775bbe8e32761f8.png",
+      "imageGold": "",
+      "flavorText": "Once upon a midnight restive, Medivh pondered, feeling festive!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/573b17580501e62cc6ae71461e607a6fce630f170fc264946df82a99d93135f8.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39700,
+      "collectible": 1,
+      "slug": "39700-ethereal-peddler",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Alex Horley Orlandelli",
+      "health": 6,
+      "attack": 5,
+      "manaCost": 5,
+      "name": "Ethereal Peddler",
+      "text": "<b>Battlecry:</b> If you're holding any cards from another class, reduce their Cost by (2).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a32b3995ea8a4c5da3f5d4e0df15b3d60ee4959ce725a6285bb95b96ecb13fc0.png",
+      "imageGold": "",
+      "flavorText": "Yeah, sure. That Ragnaros \"fell off the back of a truck\".",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e081b2f508bfcda76e80c2d38fd395bf3fdf4882e2795b62a8d176ab41664193.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39715,
+      "collectible": 1,
+      "slug": "39715-firelands-portal",
+      "classId": 4,
+      "multiClassIds": [],
+      "spellSchoolId": 2,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Gustav Schmidt",
+      "manaCost": 7,
+      "name": "Firelands Portal",
+      "text": "Deal 5 damage. Summon a random 5-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18ae24c5a94c780ee1946386fac2e09df17510f929d2ff9a2b02ec3bdd5687ae.png",
+      "imageGold": "",
+      "flavorText": "Come to beautiful Firelands! Where it's <i>\"Way nicer than the Abyssal Maw!\"</i>",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7136155f1d8c9e731351de0128c59afd2d8ab58f5cc9e3cd7f84ba8b63b16873.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39417,
+      "collectible": 1,
+      "slug": "39417-fools-bane",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Anton Zemskov",
+      "attack": 3,
+      "manaCost": 5,
+      "durability": 4,
+      "name": "Fool's Bane",
+      "text": "Unlimited attacks each turn. Can't attack heroes.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/064dc5c20b1141ec90aa483105de012639d16ada84e6a0b1e604572a4bfdd621.png",
+      "imageGold": "",
+      "flavorText": "A fool and his bane are soon parted.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76d29ae24efa3a62d44b0b28715c30857c2d1b7206250ece71f3e4c5d64124af.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39747,
+      "collectible": 1,
+      "slug": "39747-ironforge-portal",
+      "classId": 10,
+      "multiClassIds": [],
+      "spellSchoolId": 2,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Nate Bowden",
+      "manaCost": 5,
+      "name": "Ironforge Portal",
+      "text": "Gain 4 Armor. Summon a random 4-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f41a1d0a32d09519200a74194028ddcae2a724ffcbee484559c5cda72daf7e8.png",
+      "imageGold": "",
+      "flavorText": "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f9c3ef09d6e00fba16c1a7ee5e92c1aa7ff217f87087e61ca211b1e5fbce6de.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39439,
+      "collectible": 1,
+      "slug": "39439-ivory-knight",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 6,
+      "name": "Ivory Knight",
+      "text": "<b>Battlecry:</b> <b>Discover</b> a spell. Restore Health to your hero equal to its Cost.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85be90bfd0b14eb794d692c44e2230a3243b2c73d5d8b4ae4c2f68c550de8b5a.png",
+      "imageGold": "",
+      "flavorText": "Do <i>NOT</i> call it a \"horse\".",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4175583193ee7df6f8bb268cc1acfda1a343d4706eedce39d63f7c8771bc537.jpg",
+      "keywordIds": [
+        8,
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39197,
+      "collectible": 1,
+      "slug": "39197-kara-kazham",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Jakub Kasper",
+      "manaCost": 5,
+      "name": "Kara Kazham!",
+      "text": "Summon a 1/1 Candle, 2/2 Broom, and 3/3 Teapot.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/560038c5bdbd3517ae5c4d9ad4385439b393e65e23ba744be1dab1aa37bfdccc.png",
+      "imageGold": "",
+      "flavorText": "This is what happens when you tell Khadgar to set the table.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8241d674ab2f4ea01e812d1fbe4c238df42e3d35dfb8f435076e9f80820b7ff.png",
+      "childIds": [
+        39198,
+        39199,
+        39200
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39481,
+      "collectible": 1,
+      "slug": "39481-kindly-grandmother",
+      "classId": 3,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Matt Dixon",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Kindly Grandmother",
+      "text": "<b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ea22b90f151f7eeb84b760a27c505d2332ab882b1283f807b555bb727199c5.png",
+      "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0e33e39922e2e450d03f923c7b5b327ec0e760ad7b820df81a6381988a928fc.png",
+      "flavorText": "\"Goodness! What… abundant drool you have.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/081e4d016c9b58d48be73a0ef77fc10e2b26b39621719cbedd9f416fc644f801.jpg",
+      "childIds": [
+        39161
+      ],
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39712,
+      "collectible": 1,
+      "slug": "39712-maelstrom-portal",
+      "classId": 8,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Daria Tuzova",
+      "manaCost": 2,
+      "name": "Maelstrom Portal",
+      "text": "Deal 1 damage to all enemy minions. Summon a random 1-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8acab443e52fcaa40a4f0c0fe28f606755e0a4b166bf5cbd13b7958905234e4.png",
+      "imageGold": "",
+      "flavorText": "They bill this as a popular resort attraction, but they try and get your money up front.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/762711bf0195759afb0cb75d73dc3e2d372ecd1f648fd471641ed301fbd8f3d0.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39740,
+      "collectible": 1,
+      "slug": "39740-malchezaars-imp",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Peter Stapleton",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Malchezaar's Imp",
+      "text": "Whenever you discard a card, draw a card.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3286f130bd3072de690ad7d279b17bc9b07087730222f6b69813ad3e1d8650db.png",
+      "imageGold": "",
+      "flavorText": "Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0314852d75cbdbf8acde25afc807b5b90d822da53b0ab609ca021d19c52b3da0.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39767,
+      "collectible": 1,
+      "slug": "39767-medivhs-valet",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Sean McNally",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Medivh's Valet",
+      "text": "<b>Battlecry:</b> If you control a <b>Secret</b>, deal 3 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c34bd9cb0dcdc04695fe50f1ecefb56b2f818d31ef0723b99336fad98d025a63.png",
+      "imageGold": "",
+      "flavorText": "\"Magus Medivh sir, I've brought the flaming balloons, as you requested.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/110df6a9f264e0e8e330fb5d9e819ced92e6ebf14b44e75dec03668439930e24.png",
+      "keywordIds": [
+        5,
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39841,
+      "collectible": 1,
+      "slug": "39841-medivh-the-guardian",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 5,
+      "artistName": "James Ryman",
+      "health": 7,
+      "attack": 7,
+      "manaCost": 8,
+      "name": "Medivh, the Guardian",
+      "text": "<b>Battlecry:</b> Equip Atiesh, Greatstaff of the Guardian.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7de5febc881472117546733c45cf307ea9f3f6d3e0f77b0985dda82806523978.png",
+      "imageGold": "",
+      "flavorText": "If you think the party's great now, just wait 'til he invites the orcs over!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f9ce84c0b2e810f81e14e7310bc5b7ee725753090618ba1e836d4e250d415d5.jpg",
+      "childIds": [
+        40360
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39269,
+      "collectible": 1,
+      "slug": "39269-menagerie-magician",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Garrett Hanna",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Menagerie Magician",
+      "text": "<b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a752cd42539e7e8825f0491b71700a92c2ea641f353cf2d14a10b5804c4b9ea7.png",
+      "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dcb87a86e07faa74a3b6465588f306442d259f49d28ab9a6c566910773b287fb.png",
+      "flavorText": "Just between us, if things get tight the Menagerie Magician position will probably be the first to go.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb46520ea62b7e43542c44d1c3206fef3eb32de26ac16138a724dc801b804ccb.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39696,
+      "collectible": 1,
+      "slug": "39696-menagerie-warden",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Alex Horley Orlandelli",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Menagerie Warden",
+      "text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd018bfae401132cb4b162f37ba053e4c76f667ebe014c386b70ca3cc6a290e0.png",
+      "imageGold": "",
+      "flavorText": "Please? Can I keep him? I promise to clean his cage <i>every day</i>.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b655696d9e12ad9ca82b9aea902cd278c4210f87e8b11bae9f204098e3507231.png",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39465,
+      "collectible": 1,
+      "slug": "39465-moat-lurker",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Jerry Mascho",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 6,
+      "name": "Moat Lurker",
+      "text": "<b>Battlecry:</b> Destroy a minion. <b>Deathrattle:</b> Resummon it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d8be7ed125046030ca2780be35ecb08b745fafff176ab83005d4cc5d58d87eb.png",
+      "imageGold": "",
+      "flavorText": "He really enjoys lurking and gets a lot of job satisfaction out of it.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4a7ac83e7ce0753c825bfa3ea31f721f1b0a4c0a30c83f013a1b21b0f03d325.jpg",
+      "keywordIds": [
+        8,
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39714,
+      "collectible": 1,
+      "slug": "39714-moonglade-portal",
+      "classId": 2,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Evgeniy Zaqumyennyy",
+      "manaCost": 6,
+      "name": "Moonglade Portal",
+      "text": "Restore 6 Health. Summon a random 6-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ed73ca30a9a678cbf2cb2f34be30055c731c980c5f8d174466ff80ba328ab45.png",
+      "imageGold": "",
+      "flavorText": "Ain't no party like a Moonglade party ‘cause a Moonglade party got bears.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e39b4cd9418d3773da1bb4d8bee6e91da192b8438b49472747bdebd4b968ca4e.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39453,
+      "collectible": 1,
+      "slug": "39453-moroes",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 5,
+      "artistName": "Sean McNally",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 3,
+      "name": "Moroes",
+      "text": "<b>Stealth</b> At the end of your turn, summon a 1/1 Steward.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a38878491b813fe754f2e7e9e1ff28d8fe7b7f4c68f1a31567e1a6051e46a01.png",
+      "imageGold": "",
+      "flavorText": "Moroes runs an army of stewards, but still ends up inflating the balloons himself.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a4cf69fee5556747abca28e6c01912d55b450fc39ccaf4fdd1c776287d42bb9.jpg",
+      "childIds": [
+        39232
+      ],
+      "keywordIds": [
+        6
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39554,
+      "collectible": 1,
+      "slug": "39554-netherspite-historian",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Ralph Horsley",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Netherspite Historian",
+      "text": "<b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a70791a11455ee088012f7d40228d0bf9241c047778d687b1427755e19ed86e7.png",
+      "imageGold": "",
+      "flavorText": "She can tell you all about the history of people not STANDING IN THE GREEN BEAM!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ff0dc15d7bd18fa86b8aae25a7755da823c904039103736b9eb1bafe2e864bb.jpg",
+      "keywordIds": [
+        8,
+        21
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39477,
+      "collectible": 1,
+      "slug": "39477-nightbane-templar",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Luke Mancini",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Nightbane Templar",
+      "text": "<b>Battlecry:</b> If you're holding a Dragon, summon two 1/1 Whelps.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53ea95564ef0285da4ac6c7001140f113d2570df32f7ed6e5154674b4efa2f69.png",
+      "imageGold": "",
+      "flavorText": "Originally joined to be Arcanagos’ Templar, but has to admit that ordering pizza has become waaaay easier.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2115fcecd037fe42f8eed92e533af3ec0c6d7e66fc0e697d19b53307bc79e86.png",
+      "childIds": [
+        39692
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39374,
+      "collectible": 1,
+      "slug": "39374-onyx-bishop",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Arthur Gimaldinov",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 5,
+      "name": "Onyx Bishop",
+      "text": "<b>Battlecry:</b> Summon a friendly minion that died this game.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef1f0547826684c72ad625c21294a17dea1b5c1f1cfd46c01cceff62077963c0.png",
+      "imageGold": "",
+      "flavorText": "B4 is a nice place to visit, but he wouldn't want to live there.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/850bc4e9d6f73ea7365202b1166926da98efaa854c811f1bf2fbbf27b6237afd.jpg",
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39207,
+      "collectible": 1,
+      "slug": "39207-pantry-spider",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Dave Allsop",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 3,
+      "name": "Pantry Spider",
+      "text": "<b>Battlecry:</b> Summon a 1/3 Spider.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65ecc00ff572617ac1249ce8e295cbfbc7e4088013ca57763de33fd9f4cdbc30.png",
+      "imageGold": "",
+      "flavorText": "You have to admit, they make a cute couple.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee28bff26f93a79b17bace2a95530dd6f9292d10996b0c0be704954fd1d9f3b7.jpg",
+      "parentId": 39206,
+      "childIds": [
+        39206
+      ],
+      "keywordIds": [
+        8
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39476,
+      "collectible": 1,
+      "slug": "39476-pompous-thespian",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Matt Dixon",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 2,
+      "name": "Pompous Thespian",
+      "text": "<b>Taunt</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e79aa46d3c049939a0d683053d8436a56b1ceb04b597f8c8bae7c0043e7d19f8.png",
+      "imageGold": "",
+      "flavorText": "Alas poor Annoy-o-Tron! A fellow of infinite jest, of most excellent fancy!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/86f2de77c43ed70f113f0c23ad2b8114b7af22cba5d728ca2668cf0a00829f8d.jpg",
+      "keywordIds": [
+        1
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39442,
+      "collectible": 1,
+      "slug": "39442-priest-of-the-feast",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Paul Mafayon",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Priest of the Feast",
+      "text": "Whenever you cast a spell, restore 3 Health to your hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1060f3df3b75e26ee507eba7f73eec25e49433b6d938f1854904750eae54c487.png",
+      "imageGold": "",
+      "flavorText": "Now that's a world champion cheesecake!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d241d9179736f184434dc64aaa3ddeb5c8bdd029c9815c877177edb1afd73a65.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39840,
+      "collectible": 1,
+      "slug": "39840-prince-malchezaar",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 5,
+      "artistName": "Joe Madureira & Grace Liu",
+      "health": 6,
+      "attack": 5,
+      "manaCost": 5,
+      "name": "Prince Malchezaar",
+      "text": "<b>Start of Game:</b> Add 5 extra <b>Legendary</b> minions to your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a5518efddbfc498be5f7fa1d84e1197b1c1a806c9e5b2aa76ae35dee32f7217.png",
+      "imageGold": "",
+      "flavorText": "He was super excited to acquire Gorehowl at a garage sale! Then super disappointed to find out it was a foam reproduction.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/924f691fead40aa8042ace92de8b8eab8b38f37d475e91d472ff10a1730e7c62.jpg",
+      "keywordIds": [
+        64
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39495,
+      "collectible": 1,
+      "slug": "39495-protect-the-king",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Jim Nelson",
+      "manaCost": 3,
+      "name": "Protect the King!",
+      "text": "For each enemy minion, summon a 1/1 Pawn with <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b62d65d063e943ac951fb05c5456c18d239bbf6d17e412b0a2c445867c29b9f4.png",
+      "imageGold": "",
+      "flavorText": "Form ranks! Everyone into the King's Tuskarr Defense!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a8c18d2c818cc49030efd0dfb42828e63183b18e93f40d68f07ae0eaae6e362.png",
+      "childIds": [
+        40501
+      ],
+      "keywordIds": [
+        1
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39468,
+      "collectible": 1,
+      "slug": "39468-purify",
+      "classId": 6,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Rafael Zanchetin",
+      "manaCost": 2,
+      "name": "Purify",
+      "text": "<b>Silence</b> a friendly minion. Draw a card.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c12088c74d209b759c700967ee43148e723ab91fac9b0a68a480e9f210cfe9c3.png",
+      "imageGold": "",
+      "flavorText": "Even better than a hot shower with vigorous scrubbing!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/79150677cc7c465e1bf532ba463c39ee40103ae1c8b4ebd3bdfddc3526b05c50.png",
+      "keywordIds": [
+        15
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39433,
+      "collectible": 1,
+      "slug": "39433-runic-egg",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "A. J. Nazzaro",
+      "health": 2,
+      "attack": 0,
+      "manaCost": 1,
+      "name": "Runic Egg",
+      "text": "<b>Deathrattle:</b> Draw a card.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9053d3eda4d3d76c56817eea7d786061727e803dc9d7648f59c894c5a3d9191.png",
+      "imageGold": "",
+      "flavorText": "Oh man! Runic omelettes are the best!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14e0288a6d6d01c97b24ccb08a5c33daafc4b77ab8987bc1211e0483dbf0b210.jpg",
+      "keywordIds": [
+        12
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39716,
+      "collectible": 1,
+      "slug": "39716-silvermoon-portal",
+      "classId": 5,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Jimmy Lo",
+      "manaCost": 4,
+      "name": "Silvermoon Portal",
+      "text": "Give a minion +2/+2. Summon a random 2-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/760d9a0f76b7bde3ec777d7b3d848328445bbd4321c61ad0124e411c6bbd89bf.png",
+      "imageGold": "",
+      "flavorText": "What's Millhouse Manastorm doing in Silvermoon?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dab9208524787ae1885f2939150fc87cccff3a6d696dac617cbe2c740cbedab0.png",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39380,
+      "collectible": 1,
+      "slug": "39380-silverware-golem",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 23,
+      "rarityId": 3,
+      "artistName": "Daren Bader",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Silverware Golem",
+      "text": "If you discard this minion, summon it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acf682a8f96ea07bed68c31d68a9508bd47cee9e269d142c4deaeece4923f1ca.png",
+      "imageGold": "",
+      "flavorText": "From the secret research labs of the Swiss Army.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ded674e57710f30aea4dd12a1fbac5d328d7a48bb77331ba7dc28e280f629e20.jpg",
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 39694,
+      "collectible": 1,
+      "slug": "39694-spirit-claws",
+      "classId": 8,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 23,
+      "rarityId": 1,
+      "artistName": "Ralph Horsley",
+      "attack": 1,
+      "manaCost": 1,
+      "durability": 3,
+      "name": "Spirit Claws",
+      "text": "Has +2 Attack while you have <b>Spell Damage</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/888a6330aef4d1a8fb77bec7f21b04394a497fa716d11d7644e4a8e67390250b.png",
+      "imageGold": "",
+      "flavorText": "They'll be MUCH easier to use once they add the spirit<i>thumb</i>.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8d395cd5d3764ce1f308397da6bc3bd733f0afe32188b1e50cbe3ad88c07a88.png",
+      "keywordIds": [
+        2
+      ],
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 45,
+  "pageCount": 2,
+  "page": 1
+}

@@ -8,14 +8,19 @@
 .skills {
   margin-bottom: var(--size-200);
 }
+#skills-list {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
 .projects-list {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr) );
   gap: var(--size-400);
 }
-.projects-list st-card {
+.projects-list * {
   width: 100%;
 }
 #about {
