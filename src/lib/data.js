@@ -8,7 +8,7 @@ import mom from '../images/mom.jpg';
 import sophie from '../images/sophie.jpg';
 import sue_sean from '../images/sue_sean.jpg';
 
-export default {
+const data = {
     intro: `Hi! My name is Sean Teramae. I'm originally from Honolulu, Hawaii and I graduated from the University of Hawaii at Manoa.\n
     I currently am employed in Irvine, CA working on exciting web technologies at Blizzard Entertainment.
     `,
@@ -114,3 +114,5 @@ export default {
         tags: ["Web", "Front-end", "Blizzard"]
     }]
 }
+
+export default data;

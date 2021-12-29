@@ -4,15 +4,16 @@ import './styles/App.css';
 import LandingPage from './pages/LandingPage';
 import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
 import { Route, HashRouter as Router, Switch, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <st-nav>
-          <a href="/#about">About</a>
-          <a href="/#projects">Projects</a>
-          <a href="/#contact">Contact</a>
+          <HashLink to="/#about">About</HashLink>
+          <HashLink to="/#projects">Projects</HashLink>
+          <HashLink to="/#contact">Contact</HashLink>
           <Link to={'/random-hearthstone'}>HRC</Link>
         </st-nav>
         <Switch>
