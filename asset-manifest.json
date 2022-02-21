@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.331ecef4.css",
-    "main.js": "/static/js/main.0120f1fa.js",
+    "main.css": "/static/css/main.9c21926a.css",
+    "main.js": "/static/js/main.fcae2d20.js",
     "static/media/korea.jpg": "/static/media/korea.60f985c050cba0c4e312.jpg",
     "static/media/sophie.jpg": "/static/media/sophie.c82feb5fe7025669d00f.jpg",
     "static/media/sue_sean.jpg": "/static/media/sue_sean.a8ddc875a161317be1e5.jpg",
@@ -11,12 +11,14 @@
     "static/media/family_christmas.jpg": "/static/media/family_christmas.e8e7549aaf9c500243dd.jpg",
     "static/media/questboardsHome.PNG": "/static/media/questboardsHome.361a0a5de1e9d35c9de0.PNG",
     "static/media/bond.jpg": "/static/media/bond.6f2a56a623322a1bbc70.jpg",
+    "static/media/wild.svg": "/static/media/wild.95f791681426b5b34c0acc2ea0832618.svg",
+    "static/media/standard.svg": "/static/media/standard.168d0049c41708f0647e9075550aea44.svg",
     "index.html": "/index.html",
-    "main.331ecef4.css.map": "/static/css/main.331ecef4.css.map",
-    "main.0120f1fa.js.map": "/static/js/main.0120f1fa.js.map"
+    "main.9c21926a.css.map": "/static/css/main.9c21926a.css.map",
+    "main.fcae2d20.js.map": "/static/js/main.fcae2d20.js.map"
   },
   "entrypoints": [
-    "static/css/main.331ecef4.css",
-    "static/js/main.0120f1fa.js"
+    "static/css/main.9c21926a.css",
+    "static/js/main.fcae2d20.js"
   ]
 }

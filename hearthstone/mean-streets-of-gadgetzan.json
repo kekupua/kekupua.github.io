@@ -63,10 +63,10 @@
       "manaCost": 1,
       "name": "Alleycat",
       "text": "<b>Battlecry:</b> Summon a 1/1 Cat.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a382ae9ecf11c5dc328ece2a52253d8a082b7e7d5fb3c53f59a2b7bb8363988d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eff60f48b4a97991b7bde8560f8fa1652a8213b7ea6cd805883fbb99d8a2dcb8.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e8d0d48dfef6fd9334126bb8116702e7004860345a9e256714f486b75234568.png",
       "flavorText": "To be a cool cat in Gadgetzan, you gotta have bling.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3044140bd15f8c0aa94cd5efd1ae944434d414081b4c1c86058f0ed340e5f639.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/733c6f4e78bd7467e4261507232a0628a2ddd82900a142d535cd61c5cf5fbc9b.png",
       "childIds": [
         40425
       ],

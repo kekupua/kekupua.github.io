@@ -338,10 +338,10 @@
       "manaCost": 3,
       "name": "Bloodsworn Mercenary",
       "text": "<b>Battlecry</b>: Choose a damaged friendly minion. Summon a copy of it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d36de0deef45055ca6ba4ce2413f28292fa42747d5318e89353759a0f2f4a654.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f897a985df13149b18655e3d944aeb1df79688a59d7de2dc76fe2a4fed704cbb.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6578817ea7fe31a9f40cb9d3d8ab240e8e3882e3a661e49d64a4782f3f609507.png",
       "flavorText": "You look really hurt. You could use a friend!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abba6dc61fcb47225169d8d2757c4941d12701aaa97c7b445578cde6e1733f95.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89546535dd7de7c843e078eb73540a0b52d039d83cb3b409a2b5632535071f0e.png",
       "keywordIds": [
         8
       ]
