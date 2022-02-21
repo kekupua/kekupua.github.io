@@ -43,10 +43,10 @@
       "manaCost": 5,
       "name": "Al'ar",
       "text": "<b>Deathrattle</b>: Summon a 0/3 Ashes of Al'ar that resurrects this minion on your next turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c771dffe1ba50a6a3b4fb0124df4910d24e645bac473e216e87a6a1a8d5fe00.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8214dcdd9b7d7e463bea187ca6e1afb20f828786c31359d6741497391f5f68ac.png",
       "imageGold": "",
       "flavorText": "Week 679: Still no mount...",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25e52cb87f730908220027deeef696b0cba18697498781c4b3b23a1630b76b14.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/539d999ddd72bb1bd748081d787a204c55f9baf73d195e7210da2d9b05f547fa.png",
       "childIds": [
         57982
       ],
@@ -328,10 +328,10 @@
       "manaCost": 3,
       "name": "Augmented Porcupine",
       "text": "<b>Deathrattle</b>: Deal this minion's Attack damage randomly split among all enemies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efd1e954c769d479d733d2e5d08c1b13116563fae72e2c72eae523408a94e8a7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a152b99c1d5526ace808e0921cb06527dbc6550396910c9e29a0bbd0f916305a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/946760437fb7215c9a707b8418c6174d0a3fedcf001b7b1b9d7ae816266223df.png",
       "flavorText": "Pokey-man. Gotta spike 'em all!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/672ca82c602e244228a1c02ff8fc708b93957ad06e4585cd9e59083b8673df05.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/431a833fcd9ac63286a204db45155dd3c9204f5b8b0c8a23d03e255e6d0dd36a.png",
       "keywordIds": [
         12
       ]

@@ -629,13 +629,13 @@
       "cardSetId": 1466,
       "rarityId": 4,
       "artistName": "Cheng Hao",
-      "manaCost": 3,
+      "manaCost": 4,
       "name": "Cloak of Shadows",
       "text": "Give your hero <b>Stealth</b> for 1 turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a44133a0fa110d2334abb99c8902dd22966a7dcc59c2615fa0e4e0e79ed52c22.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d68fc0bfc50eacf47133b9e2a079f53f311c861df7c6ab9d6dad4993f96f3056.png",
       "imageGold": "",
       "flavorText": "Only worthy emperors can see the cloak.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7d272fd6440046e4eda766233d57042a01fadc1c650bca0fbfcef63f6c18802.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5744680dae1f038319b22aaf51618de3213994faf6183652fc513025965d888.png",
       "keywordIds": [
         6
       ],

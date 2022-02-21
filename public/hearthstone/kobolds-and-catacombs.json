@@ -346,10 +346,10 @@
       "manaCost": 3,
       "name": "Cave Hydra",
       "text": "Also damages the minions next to whomever this attacks.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d90ae051eb870434babce2aec9923c50966b8cb89acd056845c48dedaeebf6a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4743202ec080041177e0d54219c68e4985d866fb13f4d1adedad98071e32393d.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aacae2c82eacc578bfb88ae0a12b7b222fde4338b83331818d36657216b70f1e.png",
       "flavorText": "Can be upgraded into a Cave Lurker.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7022ba4899ae193227229b56c498ab5024f25b279e78eecae1f826354d6316cb.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a63f7d1512de0b53be1d51ea816743d7853f7dccab096e26cbda8f17490baf4.png",
       "duels": {
         "relevant": true,
         "constructed": true

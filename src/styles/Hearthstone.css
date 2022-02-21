@@ -59,9 +59,32 @@
   margin-top: var(--size-300);
 }
 
-#card-section st-button {
+.hs-controls {
   position: absolute;
   top: var(--size-200);
+  display: flex;
+  gap: var(--size-100);
+  align-items: center;
+  flex-direction: column;
+}
+
+.hs-sets {
+  display: flex;
+  gap: var(--size-300);
+}
+
+.hs-sets button {
+  border: none;
+  background: transparent;
+}
+
+.hs-sets svg {
+  width: var(--size-500);
+  cursor: pointer;
+}
+
+.hs-sets svg.active {
+  fill: rgb(252, 209, 68);
 }
 
 #card-section st-button::part(container) {

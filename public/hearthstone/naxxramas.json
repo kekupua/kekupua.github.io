@@ -68,10 +68,10 @@
       "manaCost": 4,
       "name": "Baron Rivendare",
       "text": "Your minions trigger their <b>Deathrattles</b> twice.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/621782f9d5163fc71e2df21c11021f36c4409c24df85f270c24b0d9357177787.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23e882aa9bf5a6740e07ec5e0363a21e464f92af0a26294440c3334b8d455851.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abf5ff2bffa6c80d2a689f74dbf6dfe8ec986116c65bca0c99d739f5c1e85d0b.png",
       "flavorText": "There used to be five Horsemen but one of them left because a job opened up in the deadmines and the benefits were better.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7856b3d616516185f99b9f25194506d5227a513d01f9e1a9c07d984c484eb51a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb917111e7d5db515f3b66f8bc6d3f6220791805883bb7c0259147d4d38bd2e2.png",
       "keywordIds": [
         12
       ],
@@ -176,10 +176,10 @@
       "manaCost": 3,
       "name": "Deathlord",
       "text": "<b>Taunt. Deathrattle:</b> Your opponent puts a minion from their deck into the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf7e14a87c02d5f5eb68f0597fad447308be8883e17199bb67d6e2087994d546.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc7fd21e8ad9d5f72fcb35fd853465e8c75fb81a5296217e2b6d50507cf7d46c.png",
       "imageGold": "",
       "flavorText": "\"Rise from your grave!\" - Kel'Thuzad",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e310e3f15fc4957317c97ed93990f145e8e6bc3bc4b97b9e77aa2940552f09f.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b13d429136a35a857f47537ab660cd9e47274f749c648403ed98f57e868e8c2.png",
       "keywordIds": [
         1,
         12
@@ -203,10 +203,10 @@
       "manaCost": 3,
       "name": "Duplicate",
       "text": "<b>Secret:</b> When a friendly minion dies, put 2 copies of it into your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4975bcd3f6fff1406636040631bc38054c19e70c0b7116c72afde5ba0ce4d75.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/334d83cd12b9f975431d9e9f0b018317c64c563cb5c643f4e5e18e541f494eff.png",
       "imageGold": "",
       "flavorText": "The one time when duping cards won't get your account banned!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb6287b17169e8253ac04d9b0a3940ec42567b4177953fafe3228e3fbcbb3ddc.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/553e5a59bfe83ed6c9a49be06997f9f24cfc10469ee309a6e470041d37fd14ce.png",
       "keywordIds": [
         5
       ],
@@ -318,10 +318,10 @@
       "manaCost": 8,
       "name": "Kel'Thuzad",
       "text": "At the end of each turn, summon all friendly minions that died this turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd21500cf59ac99c2a5eab2047421e03a6f668cbdd0d1100c7951ee71f23990c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01200940853cefe85fb66f4889037b29c85242d0ec0a856528ec563358866044.png",
       "imageGold": "",
       "flavorText": "Kel'Thuzad could not resist the call of the Lich King. Even when it's just a robo-call extolling the Lich King's virtues.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37110dddd9e2fd08ccb8bcf7f22fb8e9282b4b4c7a8e9d2264581acd6d6c7240.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/586344a5c3cd9e2e91c30ad68d6e8fd71e89318eb5733618e4fb20eee9d7ec58.png",
       "duels": {
         "relevant": true,
         "constructed": true
@@ -398,10 +398,10 @@
       "manaCost": 6,
       "name": "Maexxna",
       "text": "<b>Poisonous</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e39c8d1528374a1fc1cc2d717c93caefb19e784c784e0fe9d38ea254e4f3ccd0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2ac465a607d2adb5edcbce2c0f38928b404c201f1495dcd18715f5043fa7f06.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a67754f06b01d00c6c3aa1429e8603710a21bdaf6e9dc5a66b8506abe658d29d.png",
       "flavorText": "Maexxna gets super mad when people introduce her as \"Maxina\" or \"Maxxy\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f9ead9baa41803bdf5128fdbc5d21a9b6a1d1f8d08c49da90cedcbd7713df58.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/004d94549301f1e1d6d4dc1ea257e96247c83a26d936448bb565f695dbd6d2c1.png",
       "keywordIds": [
         32
       ],
@@ -481,10 +481,10 @@
       "manaCost": 4,
       "name": "Poison Seeds",
       "text": "Destroy all minions and summon 2/2 Treants to replace them.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/616d8421e31862ec6d0bc14137d248bed1833225c9a181409842fe3e09cfc450.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62170e2c028b1c906c133bca9d143fc954b0f53371f8e0d9e4fa3a9f90f7af60.png",
       "imageGold": "",
       "flavorText": "\"Poisonseed Bagel\" is the least popular bagel at McTiggin's Druidic Bagel Emporium.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e1c71b7cc3e74cc0897adbfa40b45b595ac08cc9ccd5b456313b3d27ee28241.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57e68a0a5de662901e1e6e24a3f8e24276a8021a3a25b867ea86e59475021750.png",
       "childIds": [
         1803
       ],
@@ -531,10 +531,10 @@
       "manaCost": 3,
       "name": "Shade of Naxxramas",
       "text": "<b>Stealth.</b> At the start of your turn, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eabfa6fedea911697e638a560168bee94f951037fcf16969dadf3ef713f62ad2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd033047bfdf4da1b4c4251137fe3cf7b6de04b8b2c56d45e7da1ea4c50afe13.png",
       "imageGold": "",
       "flavorText": "The Shades of Naxxramas <i>hate</i> the living. They even have a slur they use to refer them: <i>Livers</i>.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1cd1423fae68d31d31930c535f077cccb0d859964beea73645df371ec8897a56.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b48ef8094a8947be50e94bd2a5da82b60c98f2ea7f67da3e92ae0c98efacda83.png",
       "keywordIds": [
         6
       ],
@@ -667,10 +667,10 @@
       "manaCost": 1,
       "name": "Undertaker",
       "text": "Whenever you summon a minion with <b>Deathrattle</b>, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9893709d69f08cee14cc67316f1b84768a5632b9c455993609176e99ef1c8bcf.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d0845c2a2d5f82a8cf4674c64a74083c5923f5f3143b87c1668c69b9c26dce3.png",
       "imageGold": "",
       "flavorText": "In a world where you can run to a spirit healer and resurrect yourself, Undertakers do pretty light business.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ab4778fc2fd9287caa99129d4667adf424c40e557c0651da5be9fcf25e682bf.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a483118eef42852365d24824f26ac0e2a273bd2f308d67085c655ace27d95cb8.png",
       "keywordIds": [
         12
       ],
@@ -694,10 +694,10 @@
       "manaCost": 2,
       "name": "Unstable Ghoul",
       "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/826185d09781f834db43cfb9c69d1ca9090606039eb3bce0e3199e7d72cf8573.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d3605713abe87f67448e96785855d6df15d29ba51ef8d56b4142030f49dd09b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99787a0a6c1bea2d7a52f8139f7390da078fa6ea66f655d193bd79bd421792c7.png",
       "flavorText": "Filling your Ghouls with Rocket Fuel is all the rage at Necromancer school.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/093c9cc02145ce47ec54c0a3b86ebe28cd7df376abbbee63f7ad20fb4c35114e.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a332ea65366b5df56a419e8ac735548e25768c4035b99ff5213a1eeb34749cf3.png",
       "keywordIds": [
         1,
         12

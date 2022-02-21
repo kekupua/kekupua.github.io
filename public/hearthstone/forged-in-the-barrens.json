@@ -113,11 +113,11 @@
       "attack": 4,
       "manaCost": 3,
       "name": "Arcane Luminary",
-      "text": "Cards that didn't start in your deck cost (2) less, but not less than (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a50060e1812ee2b1b293d3c860e8173eeac9588f5689709819836ea6476fd7d4.png",
+      "text": "Cards that didn't start in your deck cost (2) less <i>(but not less than 1)</i>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8eab1f2fbd8a19c60d902c100382b104f8a62309da9212d37cd616906941eb3c.png",
       "imageGold": "",
       "flavorText": "They say true value is the cards you find along the way.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f65ee5fde6c77f86c370bbe1c848c1c2b4043843f89a9140737568a5521f285.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45d5d3c219506d676bed6c02d34ba560d01f18da5d81cc82ac4fd930041042dc.png",
       "duels": {
         "relevant": true,
         "constructed": true
@@ -138,10 +138,10 @@
       "manaCost": 3,
       "name": "Archdruid Naralex",
       "text": "<b>Dormant</b> for 2 turns. While <b>Dormant</b>, add a Dream card to your hand at the end of your turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52542b88bd0b6e7baedbc0fd63f12575e41335c3f5f4f90c72c7bf28163222b0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c7fef67480416ae6af209dcf36ffbaaeb8f58f7dfa1582b092bd418a7b08e0e.png",
       "imageGold": "",
       "flavorText": "\"Dormant? I think you mean naptime.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/51c8138c8c610a3cad98adaa643f687076e4a3efd5c7bb9a6cd8fe48b397062d.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/caa83260682587d64c43f92914bdb55c2938f2ef4ec5bb895bb19219fb0ad5f3.png",
       "duels": {
         "relevant": true,
         "constructed": true
@@ -498,7 +498,7 @@
       "manaCost": 8,
       "name": "Celestial Alignment",
       "text": "Set each player to 0 Mana Crystals. Set the Cost of cards in all hands and decks to (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3bce426848b8d39d2fe6ab26af2b68a1d53993118d94770a9baa7bf26542e344.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7588146f0a636d0db90815808af4ce0cf11ae3ae7fc12832f59ac9e10ef1a51.png",
       "imageGold": "",
       "flavorText": "\"Is my deck any good?\" \"I mean, if the stars align.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6ea9a5ec8348562c6f0c7c240a83c1a5a150a25368c9c2ff18c99853c113776.png",
