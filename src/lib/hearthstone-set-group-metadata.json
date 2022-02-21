@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "gryphon",
+    "year": 2021,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/bltd467577e4baabcf1/600740743e8106106f1bc575/year_icon_gryphon.svg",
+    "cardSets": [
+      "fractured-in-alterac-valley",
+      "united-in-stormwind",
+      "forged-in-the-barrens"
+    ],
+    "name": "Year of the Gryphon",
+    "standard": true,
+    "icon": "icon_cardset_yearofthegryphon"
+  },
+  {
+    "slug": "phoenix",
+    "year": 2020,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt213931027a138c86/602700575e4a6c4d10dea67e/icon_year_phoenix.svg",
+    "cardSets": [
+      "madness-at-the-darkmoon-faire",
+      "scholomance-academy",
+      "ashes-of-outland"
+    ],
+    "name": "Year of the Phoenix",
+    "standard": true,
+    "icon": "icon_cardset_yearofthephoenix"
+  },
+  {
+    "slug": "dragon",
+    "year": 2019,
+    "svg": null,
+    "cardSets": [
+      "galakronds-awakening",
+      "descent-of-dragons",
+      "saviors-of-uldum",
+      "rise-of-shadows"
+    ],
+    "name": "Year of the Dragon",
+    "standard": false,
+    "icon": "icon_cardset_yearofthedragon"
+  },
+  {
+    "slug": "raven",
+    "year": 2018,
+    "svg": null,
+    "cardSets": [
+      "rastakhans-rumble",
+      "the-boomsday-project",
+      "the-witchwood"
+    ],
+    "name": "Year of the Raven",
+    "standard": false,
+    "icon": "icon_cardset_yearoftheraven"
+  },
+  {
+    "slug": "mammoth",
+    "year": 2017,
+    "svg": null,
+    "cardSets": [
+      "kobolds-and-catacombs",
+      "knights-of-the-frozen-throne",
+      "journey-to-ungoro"
+    ],
+    "name": "Year of the Mammoth",
+    "standard": false,
+    "icon": "icon_cardset_yearofthemammoth"
+  },
+  {
+    "slug": "kraken",
+    "year": 2016,
+    "svg": null,
+    "cardSets": [
+      "mean-streets-of-gadgetzan",
+      "one-night-in-karazhan",
+      "whispers-of-the-old-gods"
+    ],
+    "name": "Year of the Kraken",
+    "standard": false,
+    "icon": "icon_cardset_yearofthekraken"
+  },
+  {
+    "slug": "classic",
+    "year": 2015,
+    "svg": null,
+    "cardSets": [
+      "league-of-explorers",
+      "the-grand-tournament",
+      "blackrock-mountain",
+      "goblins-vs-gnomes",
+      "naxxramas"
+    ],
+    "name": "Years 1 & 2",
+    "standard": false,
+    "yearRange": "2014-2015",
+    "icon": "icon_cardset_classic"
+  },
+  {
+    "slug": "standard",
+    "cardSets": [
+      "core",
+      "fractured-in-alterac-valley",
+      "united-in-stormwind",
+      "forged-in-the-barrens",
+      "madness-at-the-darkmoon-faire",
+      "scholomance-academy",
+      "ashes-of-outland"
+    ],
+    "name": "Standard Cards"
+  },
+  {
+    "slug": "wild",
+    "cardSets": [
+      "core",
+      "legacy",
+      "fractured-in-alterac-valley",
+      "united-in-stormwind",
+      "forged-in-the-barrens",
+      "madness-at-the-darkmoon-faire",
+      "scholomance-academy",
+      "demonhunter-initiate",
+      "ashes-of-outland",
+      "galakronds-awakening",
+      "descent-of-dragons",
+      "saviors-of-uldum",
+      "rise-of-shadows",
+      "rastakhans-rumble",
+      "the-boomsday-project",
+      "the-witchwood",
+      "kobolds-and-catacombs",
+      "knights-of-the-frozen-throne",
+      "journey-to-ungoro",
+      "mean-streets-of-gadgetzan",
+      "one-night-in-karazhan",
+      "whispers-of-the-old-gods",
+      "league-of-explorers",
+      "the-grand-tournament",
+      "blackrock-mountain",
+      "goblins-vs-gnomes",
+      "naxxramas"
+    ],
+    "name": "Wild Cards"
+  }
+]

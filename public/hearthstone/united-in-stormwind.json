@@ -37,7 +37,7 @@
       "manaCost": 3,
       "name": "Alliance Bannerman",
       "text": "<b>Battlecry:</b> Draw a minion. Give minions in your hand +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/231760276135d92bc7b9578f2de33d53750c3a72070c3a2a10611b6210a44e9c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c8f293efc558f70a60c45657d7dc99f9f4119b5eae7cfa0d4c1541721b2f76f.png",
       "imageGold": "",
       "flavorText": "Back in my day, we had to carry our inspiration uphill both ways to war.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73c0d5e909191172543a614eac9a48c2751d2366d8e8a3cb07b4b91b9aa24a2a.png",
@@ -115,10 +115,10 @@
       "manaCost": 5,
       "name": "Arcane Overflow",
       "text": "Deal 8 damage to an enemy minion. Summon a Remnant with stats equal to the excess damage.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/942a780f3b616f6b63915be956175f69ba4d826eb2ad385b7938f5def3c68dc9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb0c3cc8b933010c349e6409b3e10475966d1c75d5971f79aa066abfddcb37bb.png",
       "imageGold": "",
       "flavorText": "On this ship, when you can’t use an int, learn how to float.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cfd0591a7d7e14f8ad37c50a07d6ec944d5c5562761cc22ac9865a2c9b12673e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f8997097cc7b7ecfdac0c6b7b3fe28aed30110e725a4245e56a5c866d7c300a.png",
       "childIds": [
         69499
       ],

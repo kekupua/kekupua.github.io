@@ -7,7 +7,7 @@
     "collectibleCount": 235,
     "collectibleRevealedCount": 235,
     "nonCollectibleCount": 14,
-    "nonCollectibleRevealedCount": 4
+    "nonCollectibleRevealedCount": 3
   },
   {
     "id": 1635,
@@ -28,10 +28,10 @@
     "name": "Fractured in Alterac Valley",
     "slug": "fractured-in-alterac-valley",
     "type": "expansion",
-    "collectibleCount": 135,
-    "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 65,
-    "nonCollectibleRevealedCount": 65
+    "collectibleCount": 170,
+    "collectibleRevealedCount": 170,
+    "nonCollectibleCount": 297,
+    "nonCollectibleRevealedCount": 71
   },
   {
     "id": 1578,
@@ -50,7 +50,7 @@
     "type": "expansion",
     "collectibleCount": 170,
     "collectibleRevealedCount": 170,
-    "nonCollectibleCount": 661,
+    "nonCollectibleCount": 662,
     "nonCollectibleRevealedCount": 94
   },
   {
@@ -58,9 +58,9 @@
     "name": "Classic Cards",
     "slug": "classic-cards",
     "type": "",
-    "collectibleCount": 383,
+    "collectibleCount": 382,
     "collectibleRevealedCount": 382,
-    "nonCollectibleCount": 92,
+    "nonCollectibleCount": 93,
     "nonCollectibleRevealedCount": 81
   },
   {
@@ -130,8 +130,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 54,
-    "nonCollectibleRevealedCount": 47
+    "nonCollectibleCount": 53,
+    "nonCollectibleRevealedCount": 45
   },
   {
     "id": 1130,
