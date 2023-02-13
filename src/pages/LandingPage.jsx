@@ -9,7 +9,7 @@ let LandingPage = () => {
     <st-section id="masthead" alignment="center">
       <st-header slot="header" id="category-header" layout="center">
         <h2 className="st-text-700" slot='heading'>Sean Teramae</h2>
-        <p className="st-text-200" slot='description'>Software Engineer / Blizzard Entertainment</p>
+        <p className="st-text-200" slot='description'>Software Engineer</p>
         <p className="st-text-200" id="skills-list" slot='description'>
           Javascript • 
           Web Components •
