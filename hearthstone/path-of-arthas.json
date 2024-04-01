@@ -1,0 +1,861 @@
+{
+  "cards": [
+    {
+      "id": 79503,
+      "collectible": 1,
+      "slug": "79503-asphyxiate",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Konstantin Porubov",
+      "manaCost": 3,
+      "name": "Asphyxiate",
+      "text": "Destroy the highest Attack enemy minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04d7aa159c34e8a2ff0166968ee1b09f6858dffd6de44729b84ddbe225b84f78.png",
+      "imageGold": "",
+      "flavorText": "I find your abundance of Attack disturbing.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6842c6fa2a5684e669af77353faeec4bd82bba896c64d379aa0cc9d9cb437be.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 81206,
+      "collectible": 1,
+      "slug": "81206-blood-boil",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 4,
+      "artistName": "Mauricio Herrera",
+      "manaCost": 5,
+      "name": "Blood Boil",
+      "text": "<b>Lifesteal</b> Infect all enemy minions. At the end of your turns, they take 2 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39666b1ca1261808a0b6c20eed6eb7b6dc4c42eaed0eb7bc48e414364ab4d239.png",
+      "imageGold": "",
+      "flavorText": "And once your blood is at a boil, throw in the plaguetti.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15955f27128eafde26c7dc3616fed2fc8538e21f734c8d77c46a3699ef682021.png",
+      "keywordIds": [
+        38
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 2,
+        "frost": 0,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 80664,
+      "collectible": 1,
+      "slug": "80664-blood-tap",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Ivan Fomin",
+      "manaCost": 2,
+      "name": "Blood Tap",
+      "text": "Give all minions in your hand +1/+1. Spend 2 <b>Corpses</b> to give them +1/+1 more.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2ab1998e355d8efec7442032ae5f7b38a39746659676d1be9a1307163e31e96.png",
+      "imageGold": "",
+      "flavorText": "Come join us in the tavern! We have whatever you're drinking on tap. Yes, even that.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73f56684c42bc55cb6b69e15de00e19dd7bb2371a2c382e99034ba6d2381b29f.png",
+      "keywordIds": [
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 1,
+        "frost": 0,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 82067,
+      "collectible": 1,
+      "slug": "82067-bone-breaker",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Konstantin Turovec",
+      "attack": 2,
+      "manaCost": 1,
+      "durability": 2,
+      "name": "Bone Breaker",
+      "text": "After your hero attacks a minion, deal 2 damage to the enemy hero.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8539fe3f82e707b231065bb51a8a8b6e00b0ee142c1aa86b9480d57b934599e7.png",
+      "imageGold": "",
+      "flavorText": "Many weapons are bone breakers if you swing hard enough.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0749b8b00b44403fe9e09c25595f0cef609ad0240926c7d5fa4b58f1d0b6b757.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 1,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 80820,
+      "collectible": 1,
+      "slug": "80820-corpse-bride",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Angelina Chernyak",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Corpse Bride",
+      "text": "<b>Battlecry:</b> Spend up to 10 <b>Corpses</b> to summon a Risen Groom with <b>Taunt</b> and that much Attack and Health.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e036d163a42aa8e4a23ca74a09a74aca45718592a121a734f41ee24bc33bffa.png",
+      "imageGold": "",
+      "flavorText": "Until undeath do us part.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e532bd4738316cb03233c163b1194cd25489a8f0471be7df012b854cb8d2fea.png",
+      "childIds": [
+        80831
+      ],
+      "keywordIds": [
+        1,
+        8,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 78349,
+      "collectible": 1,
+      "slug": "78349-dark-transformation",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Arthur Gimaldinov",
+      "manaCost": 2,
+      "name": "Dark Transformation",
+      "text": "Transform an Undead into a 4/5 Undead Monstrosity with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/792c9495aa5dffca88fd8b4d9f51e41f2f54480c9beb3b5ac3bb6abda88eac7f.png",
+      "imageGold": "",
+      "flavorText": "The Northrend Arm Wrestling Championship just found its new champion.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e29ba42b12704a3981739e24932aa0f20461c110f82f8e1aa3f7be7b5c418f3.png",
+      "childIds": [
+        78572
+      ],
+      "keywordIds": [
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 0,
+        "unholy": 1
+      }
+    },
+    {
+      "id": 81849,
+      "collectible": 1,
+      "slug": "81849-darkfallen-neophyte",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Angelina Chernyak",
+      "health": 5,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Darkfallen Neophyte",
+      "text": "<b>Battlecry:</b> Spend 2 <b>Corpses</b> to give all minions in your hand +2 Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ecbdcd08c28df760d92245015d2a46f2f707849fc309540989e2ebc96348360.png",
+      "imageGold": "",
+      "flavorText": "It's actually a hairball.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/200c7dc62e1eb61ea16e35611a267c3d916f747ce235c286c2c942e8c4ea5004.png",
+      "keywordIds": [
+        8,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 1,
+        "frost": 0,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78649,
+      "collectible": 1,
+      "slug": "78649-deathchiller",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Ramzy Kamen",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Deathchiller",
+      "text": "After you cast a spell, deal 1 damage to two random enemies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60563298ca02c5824a02423caabdbd4e9349e2c5f6a5a6fdf621e7882d376f5c.png",
+      "imageGold": "",
+      "flavorText": "Man, death is like the most chill state... you've got nothing to do but relax.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00d7f3eda15b269f7355e66181a25825d84cfd14cc0ea53038c9d5131459ca12.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 2,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78169,
+      "collectible": 1,
+      "slug": "78169-frostmourne",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1869,
+      "rarityId": 5,
+      "artistName": "James Ryman",
+      "attack": 4,
+      "manaCost": 6,
+      "durability": 3,
+      "name": "Frostmourne",
+      "text": "<b>Deathrattle:</b> Summon every minion killed by this weapon.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/700ab76c53158d423ac3b465fb64c09e66ca50d72fd7acea191752570f0ece34.png",
+      "imageGold": "",
+      "flavorText": "Death Nights, Frost Morn, what's next - Blood Noon?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/231fcbea55ad43bc262f10e3d8b5c7b6aa750b533d69fa34b619ba001da1658a.png",
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 78355,
+      "collectible": 1,
+      "slug": "78355-frostwyrms-fury",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 4,
+      "artistName": "Grafit ",
+      "manaCost": 7,
+      "name": "Frostwyrm's Fury",
+      "text": "Deal 5 damage. <b>Freeze</b> all enemy minions. Summon a 5/5 Frostwyrm.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb83f038eb282ef430b917721c799527ad7cb55eade35a6df15914719f86d77f.png",
+      "imageGold": "",
+      "flavorText": "Terrible destruction, but minty fresh breath!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62bf3d3500e004bd0d4106d7b0148e77747c86b63d36f380ce1f026a360de149.png",
+      "childIds": [
+        87085
+      ],
+      "keywordIds": [
+        10
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 3,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 81973,
+      "collectible": 1,
+      "slug": "81973-glacial-advance",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Konstantin Turovec",
+      "manaCost": 3,
+      "name": "Glacial Advance",
+      "text": "Deal 4 damage. Your next spell this turn costs (2) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1683a2426cdae327e1fc52ed99b6fbcf956d62933eb29331e412b0b88481dd2.png",
+      "imageGold": "",
+      "flavorText": "You just wait, I'll get there in 10 years and then you'll be sorry.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/558c82d070ffb441823db3ff46fb2e3b10591d0ce690fdd782dd4482bc20f2f8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 1,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78356,
+      "collectible": 1,
+      "slug": "78356-hematurge",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Dez Bencosme",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Hematurge",
+      "text": "<b>Battlecry:</b> Spend a <b>Corpse</b> to <b>Discover</b> a Blood Rune card.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e320d6cc6a4780c5478c743782f471c6d3464e0fd6c12f2e19ed6bac5ede3d73.png",
+      "imageGold": "",
+      "flavorText": "She's here to PUMP! YOU UP!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b7130c4f7a84d789815893723d77b55911b17f61e0ab62e4fddf10316df59af.png",
+      "keywordIds": [
+        8,
+        21,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 1,
+        "frost": 0,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78338,
+      "collectible": 1,
+      "slug": "78338-horn-of-winter",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Rutherford Gong",
+      "manaCost": 0,
+      "name": "Horn of Winter",
+      "text": "Refresh 2 Mana Crystals.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee2e355e689f8c074216ba922616fed718e5d55211816bf58d95b1f37e7cbf8c.png",
+      "imageGold": "",
+      "flavorText": "Much better than the Horn of Loseter.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc1fd3d21c1f50f23c8df30a741d8f0c8f01cf65a6acb871231049a16e65ec8b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 2,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78317,
+      "collectible": 1,
+      "slug": "78317-howling-blast",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Zoltan Boros",
+      "manaCost": 3,
+      "name": "Howling Blast",
+      "text": "Deal 3 damage to an enemy and <b>Freeze</b> it. Deal 1 damage to all other enemies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ded8fa1c08070ab20d6e060514a0074e1a8b2e28a7adfa908b6e6f28f1537e7.png",
+      "imageGold": "",
+      "flavorText": "For Death Knights, yelling really loudly is a valid attack strategy.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe705099d5f04662d9ba853ccf8f138655eebe1358927373e01148c0a7d46e6a.png",
+      "keywordIds": [
+        10
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 1,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78334,
+      "collectible": 1,
+      "slug": "78334-icy-touch",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "James Ryman",
+      "manaCost": 1,
+      "name": "Icy Touch",
+      "text": "Deal 2 damage to an enemy and <b>Freeze</b> it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43782bd8c115e046fd4234929ef320b9125024807873633a1823c11e346cc4e4.png",
+      "imageGold": "",
+      "flavorText": "Vibe check.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7d7d455925515e811d6fead25bebda2b0ba220a922ddef9df5385ae54d29f25.png",
+      "keywordIds": [
+        10
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 80708,
+      "collectible": 1,
+      "slug": "80708-lady-deathwhisper",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 5,
+      "artistName": "Jay Axer",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Lady Deathwhisper",
+      "text": "<b>Deathrattle:</b> Copy all Frost spells in your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53ff283851a4d0c5b7be173e7792bee182fd94395ec50b6bd8c42abca74bc9f2.png",
+      "imageGold": "",
+      "flavorText": "\"Psst... Omelette death fromage.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c146dfae4ecbcf116d6e09d53d859f2db65dab7c367a61adb27f3e3b8401d1c.png",
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 3,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 82073,
+      "collectible": 1,
+      "slug": "82073-malignant-horror",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Richie Marella",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 4,
+      "name": "Malignant Horror",
+      "text": "<b>Reborn</b> At the end of your turn, spend 4 <b>Corpses</b> to summon a copy of this minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecd8d08c0f602134504b9186dca7434505989c1d316ef9beaf135484e8fd8411.png",
+      "imageGold": "",
+      "flavorText": "Pop goes the pustule.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc63273d1488661544c4859b42f09d7013f21abc65e3686c9880f9e3027738ba.png",
+      "keywordIds": [
+        78,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 80822,
+      "collectible": 1,
+      "slug": "80822-marrow-manipulator",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Anzka Nguyen",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 6,
+      "name": "Marrow Manipulator",
+      "text": "<b>Battlecry:</b> Spend up to 5 <b>Corpses</b>. Deal 2 damage to a random enemy for each.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd060c3ca65e31f63d7e918d30b9a01ac75f04fb85587c1d006d24c9266fb5c8.png",
+      "imageGold": "",
+      "flavorText": "Also buffs your Calcium by 1000mg.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1cb6a1ad87552fc40ff23d77b7431a873c8f58b7299ce5035b21fe2f3f0e4cc4.png",
+      "keywordIds": [
+        8,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 2,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 81961,
+      "collectible": 1,
+      "slug": "81961-might-of-menethil",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1869,
+      "rarityId": 4,
+      "artistName": "BOSi Studio",
+      "attack": 4,
+      "manaCost": 4,
+      "durability": 2,
+      "name": "Might of Menethil",
+      "text": "<b>Battlecry:</b> Spend up to 3 <b>Corpses</b>. <b>Freeze</b> that many enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/881721dbf67a2c1c76e874d331db73b96b3d81f1a2bf14872fae696d0f7d477b.png",
+      "imageGold": "",
+      "flavorText": "Menethil's Might, at night, fights the light, not quite the blight, right?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a62bb0b61ee343e20c077a0894ea3c7da4bd0debdcc3be6eb7a648a9d876bc6.png",
+      "keywordIds": [
+        8,
+        10,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 2,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 78354,
+      "collectible": 1,
+      "slug": "78354-nerubian-swarmguard",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Mauricio Herrera",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 4,
+      "name": "Nerubian Swarmguard",
+      "text": "<b>Taunt</b> <b>Battlecry:</b> Summon two copies of this minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95e34159f7d86ac27241729208efe97fb2e561f0663fc1efd5b3860544a22fb0.png",
+      "imageGold": "",
+      "flavorText": "How long can this go on? Apparently even in death.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f432d43c5350376174ac9e9f686db23107417c5e085ae3eb4c73dcea763a336.png",
+      "keywordIds": [
+        1,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 78320,
+      "collectible": 1,
+      "slug": "78320-plague-strike",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Arthur Gimaldinov",
+      "manaCost": 2,
+      "name": "Plague Strike",
+      "text": "Deal 3 damage to a minion. If that kills it, summon a 2/2 Zombie with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83b3bf6038ce37762a9ee7e95f713bd4fbf9ec111158dd0e45c4e7546bbd5177.png",
+      "imageGold": "",
+      "flavorText": "Not wanting to infect anyone with his cold, the Death Knight politely coughed into his shoulder.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca3fe6f5dc144e9a39d85425398ddda439a9d05d41222de11d65e575e19f01f.png",
+      "childIds": [
+        94902
+      ],
+      "keywordIds": [
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 0,
+        "unholy": 1
+      }
+    },
+    {
+      "id": 80090,
+      "collectible": 1,
+      "slug": "80090-the-scourge",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 5,
+      "artistName": "Alex Horley Orlandelli",
+      "manaCost": 9,
+      "name": "The Scourge",
+      "text": "Fill your board with random Undead.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98ebce2e0692bb6e4d8838fa12f96665bd07713ed3ef3019aea2342a07db9d0a.png",
+      "imageGold": "",
+      "flavorText": "“You speak of justice? Of cowardice? I will show you the justice of the grave and the true meaning of fear.”",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5220853c65796053e10c4dc2ee9ec3e0eaef8b437bea3308dcf965ba7a195511.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 0,
+        "unholy": 2
+      }
+    },
+    {
+      "id": 80085,
+      "collectible": 1,
+      "slug": "80085-tomb-guardians",
+      "classId": 1,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Matt Dixon",
+      "manaCost": 4,
+      "name": "Tomb Guardians",
+      "text": "Summon two 2/2 Zombies with <b>Taunt</b>. Spend 4 <b>Corpses</b> to give them <b>Reborn</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a53036ee15ad6503c4986cb0545c0fc4c98de78ddf2937a9e561c447cf009357.png",
+      "imageGold": "",
+      "flavorText": "An absolute thriller.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/279fc6f64da0d18026da1bc06eb114cfecdf2b702c5f7af9f0a21015a6586f37.png",
+      "childIds": [
+        91712
+      ],
+      "keywordIds": [
+        1,
+        78,
+        247
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 0,
+        "unholy": 2
+      }
+    },
+    {
+      "id": 78348,
+      "collectible": 1,
+      "slug": "78348-unholy-frenzy",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "Ian Ameling",
+      "manaCost": 2,
+      "name": "Unholy Frenzy",
+      "text": "Choose an enemy minion. Your minions attack it. Resummon any that die.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc15477387462d02916cc426cd0c2239ad67dbdf468f91018454a4a465d0d369.png",
+      "imageGold": "",
+      "flavorText": "GROUP HUG!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b9266ed33409fe79f5163ea2558b5e71ca657051cbf1a655f50e9f2322bf92b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 0,
+        "unholy": 1
+      }
+    },
+    {
+      "id": 80663,
+      "collectible": 1,
+      "slug": "80663-vicious-bloodworm",
+      "classId": 1,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 3,
+      "artistName": "BOSi Studio",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 2,
+      "name": "Vicious Bloodworm",
+      "text": "<b>Battlecry:</b> Give a minion in your hand Attack equal to this minion's Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7eb0aae805c36a15ddc538cd5129b9af9831e06e29526d0af353aca74bfebec7.png",
+      "imageGold": "",
+      "flavorText": "Not to be confused with the Viscous Bloodworm.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/20c899bc16c65169b4c6fb793544648956032fec64e5215286105958b4687473.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 1,
+        "frost": 0,
+        "unholy": 0
+      }
+    },
+    {
+      "id": 80014,
+      "collectible": 1,
+      "slug": "80014-ymirjar-frostbreaker",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1869,
+      "rarityId": 1,
+      "artistName": "Paul Mafayon",
+      "health": 2,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Ymirjar Frostbreaker",
+      "text": "<b>Battlecry:</b> Gain +1 Attack for each Frost spell in your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45dabf70ff200e4bb2e22f3bfeee7ed4024d99e3b39d1a96efc9d466fa04d2d4.png",
+      "imageGold": "",
+      "flavorText": "Also gains +1 Attack for each time your opponent mispronounces his name.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d06cf0e81dd46b0696d6aa1a3e03050b70a4cc3061176b8bf89dfb455144e8da.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      },
+      "runeCost": {
+        "blood": 0,
+        "frost": 1,
+        "unholy": 0
+      }
+    }
+  ],
+  "cardCount": 26,
+  "pageCount": 1,
+  "page": 1
+}

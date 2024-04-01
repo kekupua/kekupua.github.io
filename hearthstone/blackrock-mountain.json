@@ -10,15 +10,17 @@
       "cardSetId": 14,
       "rarityId": 1,
       "artistName": "Efrem Palacios",
-      "health": 5,
+      "health": 6,
       "attack": 2,
       "manaCost": 4,
       "name": "Axe Flinger",
       "text": "Whenever this minion takes damage, deal 2 damage to the enemy hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06a712c9b351810323c194dfa18c5a820c2a9a495b8e36f6c8128682e4155be7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/092cb60c13ff92ba0ab4e31fc4b449380cfe922c365da26f2b2cad745c9e10a3.png",
       "imageGold": "",
       "flavorText": "Once a lowly \"Stick Flinger\", he's been relentless on the path to his ultimate dream: \"Tauren Flinger\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f39b926079edc82cfbfba939c061ef2b7f03f694cb229dc4e1d4cbb7913a552.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9571771612d4997d8ba698c16466b5109bfe2455ba0d2c353576cd5f7c6cd1e.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2409,
@@ -34,14 +36,16 @@
       "attack": 5,
       "manaCost": 5,
       "name": "Blackwing Corruptor",
-      "text": "<b>Battlecry:</b> If you're holding a Dragon, deal 3 damage.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7182816b47cfbf0d4beb08ae845f7098f6eebb4fd196e3105d7a9c2f89f9ce0.png",
+      "text": "<b>Battlecry:</b> If you're holding a Dragon, deal 5 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b32c36c2277d2f8764586db67d1950aaf61541dcccaa86d230b3ae5c0acb115.png",
       "imageGold": "",
       "flavorText": "He got his name when he gave Blackwing some comic books and rock & roll records.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a4ff8ef9fceb54e9b3eb0a8fbcde741f174cf2550cb8596ced7d6c7622ff57c.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c36ae844634c88fa8d3e3a8e012c0b5f95f38e807b5982f35d0d062f5cf319d.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2408,
@@ -64,7 +68,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/524e06f93270953b7fd332c9bfff30af0316d9a71eac68a9896f98d4dcabeb79.jpg",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2280,
@@ -85,7 +91,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9fbff0339f5721a8b0b17c660537ef8e1fb751468ef5d50853453863d6b3871.png",
       "imageGold": "",
       "flavorText": "Left head and right head can never agree about what to eat for dinner, so they always end up just eating ramen again.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f68735512f9c1e5ef36cdffd01cae52a19c5612f17dab43a03e7b12eff1a056e.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f68735512f9c1e5ef36cdffd01cae52a19c5612f17dab43a03e7b12eff1a056e.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2263,
@@ -109,7 +117,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a493198e7f5610536683bbe934d3dc48db2c979fbb934fd62b42c0452ce4b77.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2291,
@@ -123,20 +133,22 @@
       "artistName": "Eric Braddock",
       "health": 3,
       "attack": 4,
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Dark Iron Skulker",
       "text": "<b>Battlecry:</b> Deal 2 damage to all undamaged enemy minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2dea704e9007df2ba99c944fb3528f83d3f5dad1681f132a3bcd9a4f992fc1d0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa9f2b5634971618ad2567e8264b5b80ab78afefc51c6113919f80f9e070ca98.png",
       "imageGold": "",
       "flavorText": "He loves skulking. He skulks after hours just for the joy of it, but his friends are pretty worried he'll get burnt out.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf313d2d3a2b37ab4108c504855758be2e2008dfe29e8dfefd71d55ff72579a0.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a724d015a63194ffbd2922ecd3542314b05c6c39628a1b171e26fb04baea2623.png",
       "childIds": [
-        180,
-        573
+        573,
+        180
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2301,
@@ -155,7 +167,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be93992e6b12aea2e65a35b74dbb7c47b03990c4684f7c65d0d11b8df483c2f8.png",
       "imageGold": "",
       "flavorText": "Demons are not angry most of the time. You have to play this card in order to really bring it out of them.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25a595df2d20ce7afa84b4022d4d0f78f4c056f72c328335509365a2405bd462.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25a595df2d20ce7afa84b4022d4d0f78f4c056f72c328335509365a2405bd462.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2299,
@@ -179,7 +193,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4488f0204ed5fead03a78a3584984e0f7c3e7efb21566ff80368e20fa2cef2a4.jpg",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2278,
@@ -202,7 +218,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c5d4599327c7f2c83aa54290703b0be71377bdcb18139ebfdebfa49f421ae25.jpg",
       "childIds": [
         2436
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2284,
@@ -221,7 +239,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f79025169475b49c61166cf6ce7d28e16d7860264e4c7f7466cb7c72e8861cf0.png",
       "imageGold": "",
       "flavorText": "Dragons breathe fire, sure, but did you know they can also breathe Cotton Candy? It's harder to give them a reason to do that, though.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/711afc6095b63b7bdc13318068ae2c2ec0c078890ee518150fcc76a9628e5c02.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/711afc6095b63b7bdc13318068ae2c2ec0c078890ee518150fcc76a9628e5c02.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2306,
@@ -239,10 +259,12 @@
       "manaCost": 4,
       "name": "Dragonkin Sorcerer",
       "text": "Whenever <b>you</b> target this minion with a spell, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/387af6ce0e3729a23630f674ea0688bd760f3e6befeaa2e8332a3cd3cf736b6e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0f384ec59a863823d02426d469774e5f83f1dd2e26988c20625100d5872667f.png",
       "imageGold": "",
       "flavorText": "Dragonkin Sorcerers be all \"I'm a wizard\" and everyone else be all \"daaaaang\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da4060274dda8adb7e0db1a0e82f1a72c4ff1e32df081bd0e4b66fa64ac8ec0b.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da4060274dda8adb7e0db1a0e82f1a72c4ff1e32df081bd0e4b66fa64ac8ec0b.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2257,
@@ -266,7 +288,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ef7a68f2a0d48c59c086a2b8d69c763621d41b92ca2815087d223a680a00c15.jpg",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2292,
@@ -288,12 +312,11 @@
       "flavorText": "Druids who fought too long in Northrend were easily seduced by Ragnaros; a mug of hot chocolate was generally all it took.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e742273c53da018ea547b5cfbf33828547f6a20f7ac49f5b0191afed4cc535fb.png",
       "childIds": [
-        2293,
-        2294,
         2310,
-        2311,
-        38320
-      ]
+        2311
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2262,
@@ -305,15 +328,17 @@
       "cardSetId": 14,
       "rarityId": 5,
       "artistName": "Wayne Reynolds",
-      "health": 5,
-      "attack": 5,
-      "manaCost": 6,
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
       "name": "Emperor Thaurissan",
       "text": "At the end of your turn, reduce the Cost of cards in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4f754ee10aa13d003e0970680bbbef9929a4424520448bc031c3fcdd24cc6ca.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3b31204563077ea850bafda44df128431d9caff1fbb06146409a01281e4814c.png",
       "imageGold": "",
       "flavorText": "His second greatest regret is summoning an evil Firelord who enslaved his entire people.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/728b2aa1236c485cfe0e0d77bf013eaa84e28cffd65eb56ac9839dbc2910ea22.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e89828421e1a864137e37f9d0b1c163f46f6c4a241ecb2cfd4587e587e647a99.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2290,
@@ -338,7 +363,9 @@
       "keywordIds": [
         8,
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2275,
@@ -358,7 +385,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e406a07d5abfafdf9abe893fef8fba3051f794e0f947fd06402f097094c5a3a1.png",
       "imageGold": "",
       "flavorText": "Flamewakers HATE being confused for Flamewalkers. They just wake up fire, they don’t walk on it. Walking on fire is CRAZY.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afa260f1bccce78830014bf7d0347d9c32cf3151ba0c900472d2548bed752df1.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afa260f1bccce78830014bf7d0347d9c32cf3151ba0c900472d2548bed752df1.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2304,
@@ -376,7 +405,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c89d59bc5908658bd3468e0ebf80c5dada5ea10c568ca2249601f22bd615cf1.png",
       "imageGold": "",
       "flavorText": "If you are thinking about visiting Moonbrook, you better roll deep.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9aeef96b65eb99352c2e30588c9c3aca23c30e1126ffd62016bffc5911345e50.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9aeef96b65eb99352c2e30588c9c3aca23c30e1126ffd62016bffc5911345e50.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2279,
@@ -396,7 +427,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18265da093b81ab148960d79e83f47832577d41823f9980d3f063a7fd2f2b5c7.png",
       "imageGold": "",
       "flavorText": "If you love getting your face punched, come to the Grim Guzzler!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98a80425c4f1d2ff9d2dd42432e9a1a9fde121477214596a9db97a0db5e677cd.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98a80425c4f1d2ff9d2dd42432e9a1a9fde121477214596a9db97a0db5e677cd.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2283,
@@ -414,13 +447,15 @@
       "manaCost": 4,
       "name": "Hungry Dragon",
       "text": "<b>Battlecry:</b> Summon a random 1-Cost minion for your opponent.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ad4b481ebd66597099cc874747a70c380310b313f10fdc8397a26cdf30d71e9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4657d7a4018a6f03617702eeef633d1d1d2a4a486f01f07765a9cf3b5577c5a1.png",
       "imageGold": "",
       "flavorText": "Hungry Hungry Dragon is NOT a fun game.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f2196f292e585a76d95d45bc233d47dfe4c9efef3cf0b7e37796db65d499596.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8b928ba714b24cdea6551f195ae897356cde37c7f37b8f7d594aa5d9f1d1194.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2288,
@@ -444,7 +479,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0fd66f61e8a395a82d07653d195e5751110b17a92301ee4574d8760558db510.jpg",
       "childIds": [
         2779
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2289,
@@ -466,7 +503,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e39f3484559f737402bd72b35ae2dda1d0b5867055b03c98ac84da0bf1cdc03.png",
       "keywordIds": [
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2281,
@@ -489,11 +528,14 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77b2bd1529b50c2bfe4209ed7f8d460aef6baec311d101de58d2299667c11927.jpg",
       "childIds": [
         2318,
-        2319
+        2319,
+        2448
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2261,
@@ -520,7 +562,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2260,
@@ -538,7 +582,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7de612349d0d5f6406bb3391aa8174d5bb7bdfa06858b2306605934730e362b4.png",
       "imageGold": "",
       "flavorText": "Han shot first.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4a5f9e09e9946df263a6be45ac14c446159e0efe8f80b986c9bce16d9e5912b.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4a5f9e09e9946df263a6be45ac14c446159e0efe8f80b986c9bce16d9e5912b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2308,
@@ -561,7 +607,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af887e5c1f5e82dc72479779f6fdad0a3f6c76ce8ef96cadd1ad5375d942e880.jpg",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2298,
@@ -577,10 +625,12 @@
       "manaCost": 2,
       "name": "Resurrect",
       "text": "Summon a random friendly minion that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94b697d7718dc659dec8c9f69072c7cb35ecdef2c7b08179afc17f12f2511380.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6ba7cfb1d06e389660c48fd438a95590ba25254dcedf196d86aa6c9388b820a.png",
       "imageGold": "",
       "flavorText": "I walked into the dungeon and noticed a slain adventurer. In his final moments, he had scrawled out a message in the dust on the wall beside him. Two words: \"rez plz\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b3a5c81459866a81b3665a60848aca3474993e154ee6581af1b6c815a623e81.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b3a5c81459866a81b3665a60848aca3474993e154ee6581af1b6c815a623e81.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2296,
@@ -598,7 +648,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fef7fb17452708c736bea3faa00c3cec3ff187d36f81fe5621b5fdb07da67bc1.png",
       "imageGold": "",
       "flavorText": "This is better than Arcane Explosion, so I guess warriors are finally getting revenge on mages for Mortal Strike being worse than Fireball.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cd188dfb665c97d809afc61ad5d5fee370369a7c0d4e576e961551d6aee0a19.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cd188dfb665c97d809afc61ad5d5fee370369a7c0d4e576e961551d6aee0a19.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2274,
@@ -616,7 +668,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22c864ce1470bc3bd8085e74119e10c3073474feccd74d16c4b2a1347ddb74c5.png",
       "imageGold": "",
       "flavorText": "Each year, folk gather in front of Blackrock Mountain to mourn those who were mind-controlled into the lava.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf9ba4c504baba1b733f927ea59f2abb20b3a9b57bbd360c9974b3a49de3393f.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf9ba4c504baba1b733f927ea59f2abb20b3a9b57bbd360c9974b3a49de3393f.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2286,
@@ -643,7 +697,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2258,
@@ -664,7 +720,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44c15a0c991ebe0a6e7c68fd7bb94161b66d700da519f610a3a8b764b23b7845.png",
       "imageGold": "",
       "flavorText": "Volcanic Drakes breathe lava instead of fire. The antacid vendor at Thorium Point does a brisk business with them.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/778b350330da1aecd94415ea8fa2b255414086134c5a1cbabe5b7e49ea8d3d04.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/778b350330da1aecd94415ea8fa2b255414086134c5a1cbabe5b7e49ea8d3d04.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2295,
@@ -687,7 +745,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/341c77767926c145d58604bbbb4f78e24be866b112af91f96279947607341ed2.jpg",
       "keywordIds": [
         1
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 31,

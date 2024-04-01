@@ -16,10 +16,12 @@
       "manaCost": 1,
       "name": "Arcane Anomaly",
       "text": "After you cast a spell, give this minion +1 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/530cf29df1958fd4205280ce2550e109fa9c58cade1a982911a4c8e2d3bf49f9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30dfca1a58ce34928aed4f3c1eec57aa5d92a6c331bd6506e5c4c15f291e740c.png",
       "imageGold": "",
       "flavorText": "He used to get work as a Spatial Anomaly, but he got tired of having his polarity reversed.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d04ddae9313a1d450af998ffe08689ecf12ec49ee9b435aac896fe9aec6d1fb.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -40,10 +42,12 @@
       "manaCost": 12,
       "name": "Arcane Giant",
       "text": "Costs (1) less for each spell you've cast this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7533b3eb3d71e02b7a7f279cf3bfc6c3cb012370ecac0101c8d0f4317b916cd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f84e948d20a153833ef51b2b5c924712647a7aaf9798d05e2936df1f93f72d5.png",
       "imageGold": "",
       "flavorText": "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes’ cooking.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09245cf0e68b9bc6615e44d8515a2ccb1b7a46c31662002119caabdf599cf467.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -75,6 +79,8 @@
         1,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -104,6 +110,8 @@
         5,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -119,18 +127,20 @@
       "cardSetId": 23,
       "rarityId": 3,
       "artistName": "A. J. Nazzaro",
-      "health": 1,
+      "health": 2,
       "attack": 1,
       "manaCost": 1,
       "name": "Babbling Book",
       "text": "<b>Battlecry:</b> Add a random Mage spell to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e45998ade3905e05f6736983e410b069c8c5a422bdad6503081d954ebcb009c2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f37d46c1a0e83c19ddc271750d8c00ea08d8789ebed082206d92ac82735d5239.png",
       "imageGold": "",
       "flavorText": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30d509190831228e18073085ee4e374baf5430e6361840c55495851e924ca470.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea0e216c08ed2fb57a0e4f566896b1783b869ab717a7b29c4e60b33384cea74e.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -158,6 +168,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -186,6 +198,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -204,7 +218,7 @@
       "manaCost": 2,
       "name": "Cat Trick",
       "text": "<b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/399f3467e92e28ac275d198d3008d00be5fa389310c68f5d88ebb0f53bc7fe2b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ea41a3fb31a15f39f89d577600371bcc253f49d91f72f9128f29c3958839a8f.png",
       "imageGold": "",
       "flavorText": "\"I know some new tricks, a lot of good tricks. I will show them to you. Medivh will not mind at all if I do.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc103d45bf96a407b8dd4731a937c392807077f874bd9b09046c93c311aa9bb5.png",
@@ -215,6 +229,8 @@
         5,
         6
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -235,13 +251,15 @@
       "manaCost": 3,
       "name": "Cloaked Huntress",
       "text": "Your <b>Secrets</b> cost (0).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/587f19f971cf320b44537d674b918bce57ab291191ab161830e48a28fcf6dfa8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a74391f5892e2cb47b9e5d75e8e2a8138e5feef235944b4c7b7dea5f8869b85.png",
       "imageGold": "",
       "flavorText": "She's practically GIVING your secrets away!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/695ecea2c971c7259248f4c84ed672d929cdc703aee8ef211e8abdc079af28d3.png",
       "keywordIds": [
         5
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -272,6 +290,8 @@
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -297,6 +317,8 @@
       "imageGold": "",
       "flavorText": "Once upon a midnight restive, Medivh pondered, feeling festive!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/573b17580501e62cc6ae71461e607a6fce630f170fc264946df82a99d93135f8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -317,13 +339,15 @@
       "manaCost": 5,
       "name": "Ethereal Peddler",
       "text": "<b>Battlecry:</b> If you're holding any cards from another class, reduce their Cost by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a32b3995ea8a4c5da3f5d4e0df15b3d60ee4959ce725a6285bb95b96ecb13fc0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2867cd49a09f3249d52046bc72342ceb8807e6fd26781a4692ad54de5ea89c4.png",
       "imageGold": "",
       "flavorText": "Yeah, sure. That Ragnaros \"fell off the back of a truck\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e081b2f508bfcda76e80c2d38fd395bf3fdf4882e2795b62a8d176ab41664193.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/065585712d27d183bd2cc49f18cd4a749696f98335016beab21480f0bc471fd4.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -342,11 +366,13 @@
       "artistName": "Gustav Schmidt",
       "manaCost": 7,
       "name": "Firelands Portal",
-      "text": "Deal 5 damage. Summon a random 5-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18ae24c5a94c780ee1946386fac2e09df17510f929d2ff9a2b02ec3bdd5687ae.png",
+      "text": "Deal 6 damage. Summon a random 6-Cost minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc69f8caecb1d2a311e4a1c0ada01998ca21283ee44a3d96106c7e74e9775c2f.png",
       "imageGold": "",
       "flavorText": "Come to beautiful Firelands! Where it's <i>\"Way nicer than the Abyssal Maw!\"</i>",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7136155f1d8c9e731351de0128c59afd2d8ab58f5cc9e3cd7f84ba8b63b16873.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/127fa9d18bbe7cf42b11e81177b6165f9ae7ec221451698566d7d85172aa75a9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -371,6 +397,8 @@
       "imageGold": "",
       "flavorText": "A fool and his bane are soon parted.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76d29ae24efa3a62d44b0b28715c30857c2d1b7206250ece71f3e4c5d64124af.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -387,13 +415,15 @@
       "cardSetId": 23,
       "rarityId": 1,
       "artistName": "Nate Bowden",
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Ironforge Portal",
       "text": "Gain 4 Armor. Summon a random 4-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f41a1d0a32d09519200a74194028ddcae2a724ffcbee484559c5cda72daf7e8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ff2b45ca444a8c7c3f8984e8455342b42a0556061c5a7af366ea2aada2411cd.png",
       "imageGold": "",
       "flavorText": "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f9c3ef09d6e00fba16c1a7ee5e92c1aa7ff217f87087e61ca211b1e5fbce6de.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/314d8b7f525279f6b1098fb7a50ca2aa64999a0d0ba76375ea9f6c1b9c6015d5.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -411,17 +441,19 @@
       "artistName": "Zoltan Boros",
       "health": 4,
       "attack": 4,
-      "manaCost": 6,
+      "manaCost": 4,
       "name": "Ivory Knight",
       "text": "<b>Battlecry:</b> <b>Discover</b> a spell. Restore Health to your hero equal to its Cost.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85be90bfd0b14eb794d692c44e2230a3243b2c73d5d8b4ae4c2f68c550de8b5a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/173a2fdd0f9f7a86b8eda16c6386e320143a88943880d42186d25cf1ff8e6e52.png",
       "imageGold": "",
       "flavorText": "Do <i>NOT</i> call it a \"horse\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4175583193ee7df6f8bb268cc1acfda1a343d4706eedce39d63f7c8771bc537.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c28a4aebd461abbe3eea0ce43482796a5b444d0786008e7a9b9bed76937811e4.png",
       "keywordIds": [
         8,
         21
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -445,10 +477,12 @@
       "flavorText": "This is what happens when you tell Khadgar to set the table.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8241d674ab2f4ea01e812d1fbe4c238df42e3d35dfb8f435076e9f80820b7ff.png",
       "childIds": [
-        39198,
         39199,
+        39198,
         39200
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -480,6 +514,8 @@
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -499,10 +535,12 @@
       "manaCost": 2,
       "name": "Maelstrom Portal",
       "text": "Deal 1 damage to all enemy minions. Summon a random 1-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8acab443e52fcaa40a4f0c0fe28f606755e0a4b166bf5cbd13b7958905234e4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e8efada08e1259f6fdc2bc61799dc6d6d0a5260cc7a57b62fd65f60982eefe8.png",
       "imageGold": "",
       "flavorText": "They bill this as a popular resort attraction, but they try and get your money up front.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/762711bf0195759afb0cb75d73dc3e2d372ecd1f648fd471641ed301fbd8f3d0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1f9e3c95c94871ef6a0323d1142c43bfd348916694d89a80b8f7e830e99274d.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -528,6 +566,8 @@
       "imageGold": "",
       "flavorText": "Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0314852d75cbdbf8acde25afc807b5b90d822da53b0ab609ca021d19c52b3da0.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -556,6 +596,8 @@
         5,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -586,6 +628,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -613,6 +657,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -629,17 +675,19 @@
       "rarityId": 1,
       "artistName": "Alex Horley Orlandelli",
       "health": 4,
-      "attack": 4,
+      "attack": 5,
       "manaCost": 5,
       "name": "Menagerie Warden",
       "text": "<b>Battlecry:</b> Choose a friendly Beast. Summon a copy of it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd018bfae401132cb4b162f37ba053e4c76f667ebe014c386b70ca3cc6a290e0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b11446949b60ca820c4da98de39c422707cecbdaf38d8155947a670334f1ffa.png",
       "imageGold": "",
       "flavorText": "Please? Can I keep him? I promise to clean his cage <i>every day</i>.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b655696d9e12ad9ca82b9aea902cd278c4210f87e8b11bae9f204098e3507231.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16e635eca18a5ef6558e06a6131df1f4c5fdd32980bc021f3e2bf4c3a9d26e7a.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -668,6 +716,8 @@
         8,
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -687,10 +737,12 @@
       "manaCost": 6,
       "name": "Moonglade Portal",
       "text": "Restore 6 Health. Summon a random 6-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ed73ca30a9a678cbf2cb2f34be30055c731c980c5f8d174466ff80ba328ab45.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b38a6bd6243a02c59ce4b8825261673417b19edbdd1a18683c8ca9f60d206c4b.png",
       "imageGold": "",
       "flavorText": "Ain't no party like a Moonglade party ‘cause a Moonglade party got bears.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e39b4cd9418d3773da1bb4d8bee6e91da192b8438b49472747bdebd4b968ca4e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4e35e17514fd36fe45d6426682f30aed07b3ca054e52c793b1bfdf52d254b4f.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -721,6 +773,8 @@
       "keywordIds": [
         6
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -749,6 +803,8 @@
         8,
         21
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -779,6 +835,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -796,16 +854,18 @@
       "artistName": "Arthur Gimaldinov",
       "health": 4,
       "attack": 3,
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Onyx Bishop",
-      "text": "<b>Battlecry:</b> Summon a friendly minion that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef1f0547826684c72ad625c21294a17dea1b5c1f1cfd46c01cceff62077963c0.png",
+      "text": "<b>Battlecry:</b> Summon a random friendly minion that died this game.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/889a654728c5d518440015d0f5f8f861ad90ba152365d87f03e0466e531d9f3e.png",
       "imageGold": "",
       "flavorText": "B4 is a nice place to visit, but he wouldn't want to live there.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/850bc4e9d6f73ea7365202b1166926da98efaa854c811f1bf2fbbf27b6237afd.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/394bf788dc7235a3c66689f78f038b5ff02d25a446d39171c7ebcef078d2d6c9.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -838,6 +898,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -865,6 +927,8 @@
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -889,6 +953,8 @@
       "imageGold": "",
       "flavorText": "Now that's a world champion cheesecake!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d241d9179736f184434dc64aaa3ddeb5c8bdd029c9815c877177edb1afd73a65.jpg",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -917,6 +983,9 @@
       "keywordIds": [
         64
       ],
+      "bannedFromSideboard": 1,
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -945,6 +1014,8 @@
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -971,6 +1042,8 @@
       "keywordIds": [
         15
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -998,6 +1071,8 @@
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -1014,13 +1089,15 @@
       "cardSetId": 23,
       "rarityId": 1,
       "artistName": "Jimmy Lo",
-      "manaCost": 4,
+      "manaCost": 3,
       "name": "Silvermoon Portal",
       "text": "Give a minion +2/+2. Summon a random 2-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/760d9a0f76b7bde3ec777d7b3d848328445bbd4321c61ad0124e411c6bbd89bf.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d115c99747deea0d381c4617477f86124df2cebb29c6a8107ffc6e6c6259a690.png",
       "imageGold": "",
       "flavorText": "What's Millhouse Manastorm doing in Silvermoon?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dab9208524787ae1885f2939150fc87cccff3a6d696dac617cbe2c740cbedab0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e0d3bf82ee4c2510200c74f9faff4bb4fad63d6c11e5575ba21476d267598d.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -1036,15 +1113,17 @@
       "cardSetId": 23,
       "rarityId": 3,
       "artistName": "Daren Bader",
-      "health": 3,
+      "health": 4,
       "attack": 3,
       "manaCost": 3,
       "name": "Silverware Golem",
       "text": "If you discard this minion, summon it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acf682a8f96ea07bed68c31d68a9508bd47cee9e269d142c4deaeece4923f1ca.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec7255ec5b9fb074d40485207567a0b54b4d1ad1029c81b3d8a28d6295fca419.png",
       "imageGold": "",
       "flavorText": "From the secret research labs of the Swiss Army.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ded674e57710f30aea4dd12a1fbac5d328d7a48bb77331ba7dc28e280f629e20.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89aa46d678ff466abe171088caabe32479cfad1f08ae68b4f84a5aa20c9bb6b8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -1072,6 +1151,8 @@
       "keywordIds": [
         2
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true

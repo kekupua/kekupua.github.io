@@ -13,16 +13,18 @@
       "artistName": "Andrew Hou",
       "health": 2,
       "attack": 4,
-      "manaCost": 7,
+      "manaCost": 3,
       "name": "Acidmaw",
-      "text": "Whenever another minion takes damage, destroy it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce66aee683eec55113a47aa7869e67d6c9b6019053edae34edc60615fd185f09.png",
+      "text": "Whenever an enemy minion takes damage, destroy it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee4bfdcae954c153b4a74135ede29d0b80788236daf4d0677e1b68c432132da8.png",
       "imageGold": "",
       "flavorText": "With the help of his trusty sidekick Dreadscale, the giant jormungar Acidmaw is ready to face any knight!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f32269145ed1c93b486070e709da22264c53cbfb05e313f0996320bac483789f.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23eec5da78fcfe901b5c66c10e162ab49ccea114b4201377f14d4005b32d914b.png",
       "childIds": [
         2634
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2758,
@@ -39,14 +41,16 @@
       "manaCost": 2,
       "name": "Alexstrasza's Champion",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Charge</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f85c5ca792d6d33ef31d3be6a35cef2dd433b542caac5b8236e6624a81439015.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/56f3001f324aef02a1bffba94375f3cf893ece0ac40c52b0e9cadeca8af182d7.png",
       "imageGold": "",
       "flavorText": "\"Put more spikes on her. No, more spikes. What part of 'more spikes' do you not understand? MORE SPIKES!\" - Alexstrasza",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/313039a069a2290d526d34a2abda4392a30f74c2dae42267a4c0e74b8f44ce90.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b3788ee5a6637bcdbcb026051f38eb2a96526f81954bd6532a15ecbd8cb9f58.png",
       "keywordIds": [
         4,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2514,
@@ -60,14 +64,16 @@
       "artistName": "Zoltan & Gabor",
       "manaCost": 2,
       "name": "Ancestral Knowledge",
-      "text": "Draw 2 cards. <b>Overload:</b> (2)",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e1a1b15bbabfd3ea86e7c84d65599a5c4f96d4cca632a806f623a232d55b82c.png",
+      "text": "Draw 2 cards. <b>Overload:</b> (1)",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2568ec49c4fe14efbc86cdf95807141ab25b1df62ca7aed861a0031f3d283818.png",
       "imageGold": "",
       "flavorText": "MOMMMMMYYYYYYYYY!!!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94fb67516261da11f3369024a248225cf3077722228ce6cb0dd627c2c29f005d.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5cb56dd44c92ebb5bf20aec568ad76a276e209bb514930d5dae0d49901847bd.png",
       "keywordIds": [
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2586,
@@ -75,25 +81,30 @@
       "slug": "2586-anubarak",
       "classId": 7,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 15,
       "rarityId": 5,
       "artistName": "Eric Braddock",
       "health": 4,
       "attack": 8,
-      "manaCost": 9,
+      "manaCost": 8,
       "name": "Anub'arak",
-      "text": "<b>Deathrattle:</b> Return this to your hand and summon a 4/4 Nerubian.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e14205bd5e0760263c649b32eb4fbcd2a0b03dd287554e609a44cca5da05f1d.png",
+      "text": "<b>Deathrattle:</b> Summon a 4/4 Nerubian with \"<b>Deathrattle:</b> Summon Anub'arak.\"",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9af1500af7ac8be6da06ec63b08aac09405417fd34d35fe752f8428816eb753f.png",
       "imageGold": "",
       "flavorText": "Was actually a pretty nice guy before, you know, the whole Lich King thing.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1dd570f87afea2d04de811bd52367c37f26e0020c36fb233967c97b2ff05be2d.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3556579fc22cbfdda5691acd68796b8a973922a951be95bea1584b4c23a9049a.png",
       "childIds": [
-        3010
+        102751,
+        3010,
+        102612
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2572,
@@ -109,13 +120,15 @@
       "manaCost": 1,
       "name": "Arcane Blast",
       "text": "Deal 2 damage to a minion. This spell gets double bonus from <b>Spell Damage</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3274bbb546c496071030c2a8e6132f0409b02b1e845c2d3eacb3fba6221ddcb4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cbce34a2566ca06f8a4e66f178cd7ff60bf50402a55ee5cb651266e46830901.png",
       "imageGold": "",
       "flavorText": "Now with 100% more blast!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/68b85ebc4aa93b178f9716dd6d06a5a40f0de405277c21be4d20420e582b2510.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1b28a5c2f476027a8366f9b39e8126b825b35de4ae15c9299b06c50babfc9e0.png",
       "keywordIds": [
         2
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2490,
@@ -132,14 +145,16 @@
       "manaCost": 3,
       "name": "Argent Horserider",
       "text": "<b>Charge</b> <b>Divine Shield</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0697c7e70507763afe6e5e477a90208e295417b9ed9fb6ebc18a82e50072d16.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6852f9c2d1861f48562e221ac041d8e2a15acbd7912142f45ee82d35693c66fd.png",
       "imageGold": "",
       "flavorText": "His horse's name is Betsy.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/204510c40600e5091156d77a75160a83e4db73a489ea5b7ec08f04ca12a6b767.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3bf87eb20fd67cf04eff025b0a3a1456b38a7c120ef6e796fb9f81cc3877bfa2.png",
       "keywordIds": [
         3,
         4
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2720,
@@ -156,13 +171,15 @@
       "durability": 2,
       "name": "Argent Lance",
       "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, +1 Durability.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59b6f06f8a6f063c9c751082c5ea31b811b1055d2b39f51f89117d6ba8d3c238.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a56762f1ce9496a72134a4ce9133ffce455aa0848d5109e435b445bc63783c19.png",
       "imageGold": "",
       "flavorText": "The stripes make it look like a candy cane, but we recommend against licking it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5628780ec74904992b72471f8bc20ea3ffbbbed6779345334a6f47c56cdd24dd.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74ea0e1e082da044a83ce15d4d336dfd0fcc95959a7e91cc282c6805f12ebb3e.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2505,
@@ -179,13 +196,15 @@
       "manaCost": 2,
       "name": "Argent Watchman",
       "text": "Can't attack. <b>Inspire:</b> Can attack as normal this turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbd2359daf77a024e010f4fde230c355bbc15fdbe73048fec398d8b348398b1b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac460494ec84f727909f5ba973f0b07d0d5cc77a7c0d539014018a9e029055e6.png",
       "imageGold": "",
       "flavorText": "Who argent watches the Argent Watchman?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6cda32b8f4f0bee827d8aa495409d50f2ea157cc88116910e3ddb4007890be4.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce4d557ba61dc56a82de5e877f63523c87488cbece512d4147974dfa08d05715.png",
       "keywordIds": [
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2627,
@@ -203,14 +222,16 @@
       "manaCost": 4,
       "name": "Armored Warhorse",
       "text": "<b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, gain <b>Charge</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f3a4c78e5f946967d6f7660005cab0d3be0fabdf4e64d63fd5ccb286e4e6d43.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd397f718d236126c3e7a4586e3ed07a10b5279284238ae0377d2a90a4a880f5.png",
       "imageGold": "",
       "flavorText": "Yep. It's a horse... wearing armor... going to war.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83632adbd1c166f134eb96f0234cb89fe1c1d3a6055383f62e7726fd68bc1b98.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25c96acdcd4f7b53d45eb31bc3ef3604686620f564b12bb476cea382e0817602.png",
       "keywordIds": [
         4,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2785,
@@ -226,13 +247,15 @@
       "manaCost": 4,
       "name": "Astral Communion",
       "text": "Gain 10 Mana Crystals. Discard your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/817ea7e1c480e7f8aac3cd37d7cec0a55cb96a17d428d67bb30b668cc8e6bf4b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e20fe0894c758dbe5c05b5ed07d6c6d22cb5e6cd595854d6a86f0e156227870.png",
       "imageGold": "",
       "flavorText": "Hey! Moon! Can I have some mana crystals?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ffb0c5a821baf2063ed490a2cafdb691381f65acf9c1eb1bfe25bc6000a8b0c.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed0e570ee9ec82aa38c28e9c21ddba93ebbc3388f6e068a2291e221229412c6d.png",
       "childIds": [
         1725
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2796,
@@ -246,13 +269,15 @@
       "artistName": "Velvet Engine",
       "health": 5,
       "attack": 5,
-      "manaCost": 10,
+      "manaCost": 9,
       "name": "Aviana",
       "text": "Your minions cost (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec19b45df958cf9a967045b1b3e327cc18fd146949813bcc5e9ded2c4960b5c4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f6cd47611eae525c46c5d0b293696b7c30549d33c47ff32d4c5a15f3c840d3b.png",
       "imageGold": "",
       "flavorText": "Call her \"Tweety\". She'll find it real funny. I PROMISE.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d36407803c5168ea8fd051265b4fa0fbcc06787d6b31bdd7049c49f38465b17.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb7b8760cfda608af72a162045fd54b3e95814e71c09fae13593635e2e9a38bf.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2483,
@@ -264,16 +289,21 @@
       "cardSetId": 15,
       "rarityId": 3,
       "artistName": "Skan Srisuwan",
-      "manaCost": 6,
+      "manaCost": 3,
       "name": "Ball of Spiders",
-      "text": "Summon three 1/1 Webspinners.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ce547a1cb9880bb9744297c1dd098a5a561f2a15abe1b333a203feeb938ef73.png",
+      "text": "Summon three 1/1 Webspinners with \"<b>Deathrattle:</b> Get a random Beast.\"",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/340fd71e6d382d42c74b99653b544d6e6f43f3bffa4cbbfffa39d4a2a5dd48eb.png",
       "imageGold": "",
       "flavorText": "\"THEY'RE EVERYWHERE GET THEM OFF!!!\" - Everyone",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b0cf164f6a3ff04e569cfee85461f9d98666dfbf628653aad814fce39d60c40.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41720f23d81af6ce05831070bd2e789616bb6dcd5c4f667865e2191865165087.png",
       "childIds": [
         1860
-      ]
+      ],
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2729,
@@ -285,13 +315,15 @@
       "cardSetId": 15,
       "rarityId": 1,
       "artistName": "Dany Orizio",
-      "manaCost": 3,
+      "manaCost": 2,
       "name": "Bash",
       "text": "Deal 3 damage. Gain 3 Armor.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6ff3ee49cafffe103af9411326e4b5a2f4179164365e24cd8422182725bbab5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b637263e9f59dba57f3f4618e139b4bfd4e9546f8a65dc232edb6383a41c86b6.png",
       "imageGold": "",
       "flavorText": "You might think bashing doesn't take a lot of practice. It doesn't.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d242be7ef1caaf213c05957daafda45f95be6006fd6cc7fa15dd9a980dc84af6.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cc1d54a84aa2c2b313ef59a4560725432e4d762bc2f070b1f4ec4bab0198573.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2641,
@@ -306,17 +338,19 @@
       "manaCost": 2,
       "name": "Bear Trap",
       "text": "<b>Secret:</b> After your hero is attacked, summon a 3/3 Bear with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a54817968202cba0902d4e1472a03321c924f1c96d03a64185dc7ace88f65889.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b08151823953448fee72a1847eb2b258f495c95460784e12b851705b8c557296.png",
       "imageGold": "",
       "flavorText": "You'll never guess what's in that conveniently bear-sized, bear-smelling box.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/384b84825bdf4ce81eef8db90508661027b5079942e40986f60e19b3a6ab3aac.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f00a53fe471c0d6f42b7dcac5ff3174601306a42363e59dc96845999786913b.png",
       "childIds": [
         1182
       ],
       "keywordIds": [
         1,
         5
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2587,
@@ -331,14 +365,16 @@
       "manaCost": 3,
       "name": "Beneath the Grounds",
       "text": "Shuffle 3 Ambushes into your opponent's deck. When drawn, you summon a 4/4 Nerubian.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6524f2af039cd7d3c7f26277c6da3caefd491cd8c1d30344b5165c98b301ee5b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75775b6d48ae7f67eca1ced6cec96f218bf49e3ff4a04ce2d1b7f6e95cc0b043.png",
       "imageGold": "",
       "flavorText": "Can you hold these eggs for just a second? I promise they're not full of giant enraged undead spider things.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/68853eff8dcd5f5bbe6b7883537e3a1e7deaaf3cf3fa66245d297d30250757e4.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dab336a13263851d11a5065279282212a02f48abcac1ddad0b98e5ad3bcaaee8.png",
       "childIds": [
         2847,
-        3010
-      ]
+        1787
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2595,
@@ -355,10 +391,12 @@
       "manaCost": 6,
       "name": "Bolf Ramshield",
       "text": "Whenever your hero takes damage, this minion takes it instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c72f20815c67d2752ea5c7ef69b5c46c51cb7e996987d98f13fb6ddf906193c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0aa53c4c44a3852166a4be537b9f38a5322a8ec04dc072ac2d89c471fe97df25.png",
       "imageGold": "",
       "flavorText": "Bolf keeps coming in 2nd at the Grand Tournament. It might be his year this year, if Lebron doesn't enter.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b81e109beb391be389ab31d6fcc0f631d50fb0d0284659d08c5806a251720ba.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd9b6a66a048903111d2f120e6ca0760cc88305b2e258488a55c279ac9b37186.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2754,
@@ -373,13 +411,15 @@
       "manaCost": 2,
       "name": "Bolster",
       "text": "Give your <b>Taunt</b> minions +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b99ac4394be54d9a43f359c73baff1b2e3d67055632a956ee27627194b857aa.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac128a14434714c03c04bbb50d03f244f720879d6d940c092698087c23d574ac.png",
       "imageGold": "",
       "flavorText": "The best offense is a good defense.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37a09fd34ddbbfbc5fe2d1048c587a1a4010e5f0572cf395dfb9e759dfe245c0.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45cfcbfbc3875b28e61361a85d69e907c637bdef777b50260084eaed3eee4d0d.png",
       "keywordIds": [
         1
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2495,
@@ -387,6 +427,7 @@
       "slug": "2495-boneguard-lieutenant",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 15,
       "rarityId": 1,
@@ -396,13 +437,15 @@
       "manaCost": 2,
       "name": "Boneguard Lieutenant",
       "text": "<b>Inspire:</b> Gain +1 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a392fbb2dcb9b4da642cfcaaee74cde6bdafb4cac393ecdb2b40c5c99c1646a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1832f32672c10c6882c19e8a3aa258d0f9a3783c19b21964ea3217bd1a8c4d2.png",
       "imageGold": "",
       "flavorText": "Underneath all that impressive armor, he's just skin and bones. Okay, maybe just bones.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7b8c02fcf194f7ce45dca0a4ff519f38f6c2cd1dcf63f98fa97078e0ebe2488.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ad7f555bf7b4be9d6297b24ec9e3b26686d3c8f88093aa5f8b86ba86766a8ca.png",
       "keywordIds": [
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2642,
@@ -419,13 +462,15 @@
       "manaCost": 1,
       "name": "Brave Archer",
       "text": "<b>Inspire:</b> If your hand is empty, deal 2 damage to the enemy hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb9c2071ae7882c0ae8d8f412927611e4c9080e77075c4b3d65ae84b11349d5a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6c51b8b6ca8f575756f342caf5843dcb5195f1be34fbded885e109be1ae1a10.png",
       "imageGold": "",
       "flavorText": "This is a \"bearly\" concealed reference.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b6bcae7128be45a84e0e3d5ea7ebc0ee60ea735a1f6e585660e25ba7ad7b8dd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e358c644f9a30336ccfea4d3e7414e973ce1c0c29042118facc9b8c57568375.png",
       "keywordIds": [
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2715,
@@ -443,10 +488,12 @@
       "manaCost": 1,
       "name": "Buccaneer",
       "text": "Whenever you equip a weapon, give it +1 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ea10c5479c5350159715f75baee074a2acb1c6a08b0df041e4b2a7efea2b180.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0e04ae5ab3affc9b45c4d6d74aa89917db7e09f1c2d610c58d62a86a7384c9f.png",
       "imageGold": "",
       "flavorText": "The best part of buccaneering is the pants.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7ee3ec3ef0187a8094c47a2e976bd8cfb363fc4d9c700ec7be162847403611b.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7ee3ec3ef0187a8094c47a2e976bd8cfb363fc4d9c700ec7be162847403611b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2770,
@@ -460,11 +507,13 @@
       "artistName": "Matt Dixon",
       "manaCost": 3,
       "name": "Burgle",
-      "text": "Add 2 random cards to your hand <i>(from your opponent's class)</i>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7bc7f96380e89e40326b89c319529e118460e77c2f17f4ca01e311e5458d873f.png",
+      "text": "Get 3 random cards <i>(from your opponent's class)</i>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a8d86a701d2ea97f95f60587ec717c34b0fc7e4c519726993cba2011b38f2f3.png",
       "imageGold": "",
       "flavorText": "Yoink!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87bd9177e98d3f41e858f8accd4084220efa0be315f146b9cf2c09c245ae91e5.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2205802dfca0a78ced3e6ac60791ad3036a4712feec591812df47db384776f5f.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2522,
@@ -482,10 +531,12 @@
       "manaCost": 7,
       "name": "Captured Jormungar",
       "text": "",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6cb9184bcd2efca782c2e43efd583df5690674df3ae6b4176ee9969547aa9f6.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5bd4ee984ad63f3c925f36ac84fdca2465b51c7d7fe1517f7685c962b692c180.png",
       "imageGold": "",
       "flavorText": "You can keep him, but you have to promise to feed him and clean out his tank every day!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ba7aae1950c1ef97a92afdd1c833bc045f7fea4576573d63de71fac5ca5700a.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd7edc4bf1a5ecb930d9a09f27d486293b4b6a4b9e2a4bd76a3f2ec062751b9b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2617,
@@ -498,20 +549,22 @@
       "rarityId": 4,
       "artistName": "Peet Cooper",
       "attack": 2,
-      "manaCost": 4,
-      "durability": 4,
+      "manaCost": 3,
+      "durability": 3,
       "name": "Charged Hammer",
       "text": "<b>Deathrattle:</b> Your Hero Power becomes 'Deal 2 damage.'",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e23e644492b80680ef5370bb5bcc185df858d36394d4f014f40befa0ea525d8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59f7ec6bd19ba3b19f5f55c1385e1326ed4cdcefdde8a3c536fc0307aaa4ce67.png",
       "imageGold": "",
       "flavorText": "You can only pick it up if you are worthy.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca5009232a4e99c328ba0bb5e29ec214d6599893a8370c29d6903e5d525eb9a9.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/79379fbe2f7be6e83c5898a1c6978c51d42e685bfa7d3340867fc1c39abca744.png",
       "childIds": [
         2803
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2682,
@@ -520,6 +573,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 24,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 15,
       "rarityId": 5,
@@ -529,14 +585,16 @@
       "manaCost": 7,
       "name": "Chillmaw",
       "text": "<b>Taunt</b> <b>Deathrattle:</b> If you're holding a Dragon, deal 3 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/576016bcd2976d78e095b512e0ccf079a85973c0814ba7bbdb77076160edc789.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d73cfa052acfd15d2cbbe72203399e85e056de7c9acf92e50a1e68bdf671186.png",
       "imageGold": "",
       "flavorText": "Chillmaw keeps trying to ruin the Grand Tournament, and she would've done it too, if it weren't for those dang kids!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b7502367e43e754625f12bcd24961c2ad1d9ad11905b99754ea968d6f87e399.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8bd18aeb8935eb693246f3ea667b90e6846fab76c248b5a977d94312977cbae.png",
       "keywordIds": [
         1,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2500,
@@ -554,13 +612,15 @@
       "manaCost": 5,
       "name": "Clockwork Knight",
       "text": "<b>Battlecry:</b> Give a friendly Mech +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3f5b6dbc77d5582643d5f7458cb36166bf064b1034a16c95c5472a515b57683.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06619b39fe3a168e0c5e810631dc545b25e7e39c1eb1342ac0db2bd0025d7029.png",
       "imageGold": "",
       "flavorText": "It takes a lot to wind him up.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aba422c6b53b6567a605c2a183faa108bbb2b8736bc27c9214d0053bc7a28172.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2544,
@@ -578,10 +638,12 @@
       "manaCost": 6,
       "name": "Coldarra Drake",
       "text": "You can use your Hero Power any number of times.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/110a2cb9a3d71d2db0abe15b061a8be598905867665cb19c4630fac9ad7946f1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e61481896c7deaddb42e1a6521afe77cbd4487aea23218c06672cee7ce50699.png",
       "imageGold": "",
       "flavorText": "The Grand Tournament has a \"No dragons allowed\" policy, but it's rarely enforced.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6eed4c019533ff710736136afed37e154bdf3082c1bd04d49303e548a36c0ea9.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d7fdd7c2a2e87a9c8ef572fffd1b6f4f3cfeb92d67d7d2269ad0badb106ff55.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2585,
@@ -598,13 +660,15 @@
       "manaCost": 3,
       "name": "Coliseum Manager",
       "text": "<b>Inspire:</b> Return this minion to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9d91b8671fe99eb22aaef52df2fef085e7d13a1f4bc6c2399a13eac7c1f8a4c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76f97d341963b749d8152b68957de7219feeaba41090847049887170674b6495.png",
       "imageGold": "",
       "flavorText": "Meets monthly with the gladiators to discuss career goals.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aaabbf2f72b5dfd7d2d07a7cb4dc9d1ed7f9f11f4b8321408de7b0c6e70460c7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3f07d2aea908e3aa44a5374d1b6c7425d65b31ad56248af8cf472fb041a0141.png",
       "keywordIds": [
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2648,
@@ -619,13 +683,15 @@
       "manaCost": 1,
       "name": "Competitive Spirit",
       "text": "<b>Secret:</b> When your turn starts, give your minions +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e99db2682069dbb9004670e1ca182202f1d10304b1d4a27fd1ff8297ed00980.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1df6bc9070e4104dfe953430d21ba4ff3f20a41fcae95acab326fa513f02d648.png",
       "imageGold": "",
       "flavorText": "Competition can be an inspiration to improve oneself. Or kill all the competitors.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d38debc9bc08399f28da9e1e7eaa1939314f44b1601aecbc28875dc05b821bb3.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55616c2c40a977e61748bae54560175465c7ead9e09b6a784246c11613b4d322.png",
       "keywordIds": [
         5
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2556,
@@ -641,14 +707,17 @@
       "attack": 5,
       "manaCost": 7,
       "name": "Confessor Paletress",
-      "text": "<b>Inspire:</b> Summon a random <b>Legendary</b> minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18ae198874126d7cad97fab95300319c3dc7138e41d4fb00feab49d9cc4be5db.png",
+      "text": "<b>Battlecry and Inspire:</b> Summon a random <b>Legendary</b> minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e4c46cc50eb4672e3d029a36a463a4a6dcda81e7243776c31088d935a2f9185.png",
       "imageGold": "",
       "flavorText": "She sees into your past and makes you face your fears. Most common fear: Getting Majordomo out of Sneed's Old Shredder.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1fef883b012b7b221833cb004e8236eb31a90a7fc8f4a13988240315df9248d6.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b9b640a53d1fe45e48cb3f9b9237e30e0af17d16c6855cb1fdd64aae2004c94.png",
       "keywordIds": [
+        8,
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2564,
@@ -664,10 +733,12 @@
       "manaCost": 2,
       "name": "Confuse",
       "text": "Swap the Attack and Health of all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b1e2c7011fe6122fdc4389fdd75e5bd08306bcabc0aff413fbafd76643dfb68.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e2a0b2b29ac8b2d720c0d08c229b9650ee1c3e80c0cf99111f1c6bfb798fbbd.png",
       "imageGold": "",
       "flavorText": "This minion is really powerful!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbf922f71698e6b502ab2cf9d405c3fce485a2fe9e838934ca87933aabcaf78b.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8f0a2212e7c904a10ad6e574fa1bc143659880c35dd0a89d2a78a19eacd689a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2563,
@@ -679,13 +750,15 @@
       "cardSetId": 15,
       "rarityId": 3,
       "artistName": "Dan Dos Santos",
-      "manaCost": 2,
+      "manaCost": 3,
       "name": "Convert",
-      "text": "Put a copy of an enemy minion into your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/166271c88e11a228a16a4ad275a66e66328f9fcc5fd92f90b1948880f8004d56.png",
+      "text": "Put a copy of an enemy minion into your hand. It costs (1).",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b62ce52ab09a229096b1922f0fec821ea999f19114e89b069c1cc10a073817a6.png",
       "imageGold": "",
       "flavorText": "\"Are you interested in... HEALTH benefits?!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd1cf2dd92b272c352643063f90618e18f1923083618cc5ceea85080e97a6053.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a725f904f3dbe81718c3aab59804485a0e2b4c3a017502402f3499d5313672a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2518,
@@ -702,13 +775,15 @@
       "manaCost": 4,
       "name": "Crowd Favorite",
       "text": "Whenever you play a card with <b>Battlecry</b>, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c6eb6e179297b67d21003dd5632779f95e508c5acbeb4c6720f71c953c4bf59.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed0b918dcd19171c49b648bec889feb37cb379866fb03ec3d6b37dabb1dc375f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d629b86efe97312a7867670c48443d71c37b423be403362d79ddaa23dc429d8.png",
       "flavorText": "The crowd ALWAYS yells lethal.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d773c0817c5cda8175ea8c92da3ad1374eaa0fba48e6d1538c0d6b0025c4bac.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78fd119bc88763788b240e36d3e319c29353b17fa709bac7e46a5cb8b7b5d070.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2766,
@@ -716,6 +791,7 @@
       "slug": "2766-cutpurse",
       "classId": 7,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 15,
       "rarityId": 3,
@@ -725,10 +801,12 @@
       "manaCost": 2,
       "name": "Cutpurse",
       "text": "Whenever this minion attacks a hero, add the Coin to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb44daf0602bcc1242f397d1fdb45c136354ee0fe57a51a66cc665a92ba71c96.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5627c4e3ec7abbcea4b98f9fc577d60a26635d4987a2a0bb868c9960d9f0346d.png",
       "imageGold": "",
       "flavorText": "He has a giant collection of purses now. One for every outfit!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b30726e9886bb77ccfd880bc0744f7e79585bdfd2edfe0b0f0f86dfd5181c1cb.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d679dcbe10fcdfcddb4fbbd12f0f8fe99cfba18409c51d77d3aa9c4057246be.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2549,
@@ -744,15 +822,17 @@
       "attack": 3,
       "manaCost": 4,
       "name": "Dalaran Aspirant",
-      "text": "<b>Inspire:</b> Gain <b>Spell Damage +1</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1a759603be774ab378a60992cd9b82b5a17492657fd118581c9f5d318e93fc3.png",
+      "text": "<b>Spell Damage +1</b> <b>Inspire:</b> Gain <b>Spell Damage +1</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3349923aa0987f5cc48674cb44e3af0e97e2bddcb12081dd909baca260e0ad32.png",
       "imageGold": "",
       "flavorText": "Is he aspiring or inspiring? Make up your mind!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb627c1bd8e4fc86beb9f911d463e6df8b333e234563faa01a9ff7f02cebda72.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67291cc503ae271f7e9ab86b60197a553dbc84eea2fa406ff4f82d3ad36d6c7f.png",
       "keywordIds": [
         2,
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2632,
@@ -765,13 +845,15 @@
       "cardSetId": 15,
       "rarityId": 4,
       "artistName": "Paul Mafayon",
-      "manaCost": 6,
+      "manaCost": 4,
       "name": "Dark Bargain",
       "text": "Destroy 2 random enemy minions. Discard 2 random cards.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9672adccfe489a00c678d78f11ed390443233fa017abb0cac7f983bf4a71a921.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ceb2b5be5defaf75b81879ff2af89cf98670bc59e6069db597659948ea74c23b.png",
       "imageGold": "",
       "flavorText": "A prime example of lose-lose negotiating.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a80fd81e42aa50af0d87840075f8b865f2b4321c989ebb6bf3805052aa9a17ee.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa6e01f47c9c39e886e226ac50cec3a287595e6230c0e524bcd81d201bca1eca.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2782,
@@ -788,14 +870,16 @@
       "manaCost": 2,
       "name": "Darnassus Aspirant",
       "text": "<b>Battlecry:</b> Gain an empty Mana Crystal. <b>Deathrattle:</b> Lose a Mana Crystal.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9993d096d0c2b8b549d2fb5991cfeaf4e61a7d6e37d118209e7dc49cb925e033.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2788ac3f7cfb6ec8011defc8516101787054b4c7a2f2074de9a816d361da1e57.png",
       "imageGold": "",
       "flavorText": "She loves mana crystals, she hates mana crystals. So fickle!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62f97a70b27f8126da2e87f87ad7a200439a855236f3bd1ccb9f08e93c9f4f4a.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8edab73ab3824916e3341949dfad71ff16c2c273005932478046c5d11ebfb3dd.png",
       "keywordIds": [
         8,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2535,
@@ -803,18 +887,20 @@
       "slug": "2535-demonfuse",
       "classId": 9,
       "multiClassIds": [],
-      "spellSchoolId": 7,
+      "spellSchoolId": 6,
       "cardTypeId": 5,
       "cardSetId": 15,
       "rarityId": 1,
       "artistName": "Kevin Chen",
       "manaCost": 2,
       "name": "Demonfuse",
-      "text": "Give a Demon +3/+3. Give your opponent a Mana Crystal.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66280f7c7ca3615ef5de95c8748967fe321e3b2b3eb0cf9414cf4933c9198d9e.png",
+      "text": "Give a Demon +3/+3.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18db1ebb3a5b5ba7ff2b70de677174512bf6fcb821c5922ec64e7ac3588be9ca.png",
       "imageGold": "",
       "flavorText": "Very dangerous when attached to a demonbomb.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ee8dfe2aa0d8281f8ca72059513490a5a876e63137e92658794a5060d2fe97c.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/995d3d712b69786bb3b12a8cecf0da9c42466f3550972ea9b6897e53ba69dcf9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2613,
@@ -831,13 +917,15 @@
       "manaCost": 4,
       "name": "Draenei Totemcarver",
       "text": "<b>Battlecry:</b> Gain +1/+1 for each friendly Totem.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc1c421af8d8c49f03211be7dfaaf0e8cb84419c26a2b87741fe22da07c7ffce.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2167494956b3c65e35793c27e42d4eee149b6466ec1cb5432445f6226bdcdb6.png",
       "imageGold": "",
       "flavorText": "It's nice to find a real craftsman in this day and age of mass-produced totems.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d38c3b9eac0866c55eb86265148cd4cf7f5946951f4ccd5cf2ef4d0376418aa.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f4c4e6c8d72c23d20ca9279aab3e4c5d3a2ba6c428d397f5a8898319772cbea.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2533,
@@ -854,14 +942,16 @@
       "manaCost": 3,
       "name": "Dragonhawk Rider",
       "text": "<b>Inspire:</b> Gain <b>Windfury</b> this turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d692229c6366c806b01abe70b7d7ce5d1dd1997498b56013506d9fbcbe9d5748.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d4644b244970acd959dfb7f3616968194a9a6709b40e2662a89cc6538faefbb.png",
       "imageGold": "",
       "flavorText": "Check it out. You can do barrel rolls on this thing.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39d97fc43c9ea2b0ea851cb318a83bd30354a8b8b4801d9fa9f8764ac185addd.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca9d58154570828b5de1467e41957c5a7712cfcb373924f0be9fb8ea05ec915a.png",
       "keywordIds": [
         11,
         20
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2634,
@@ -878,12 +968,14 @@
       "attack": 4,
       "manaCost": 3,
       "name": "Dreadscale",
-      "text": "At the end of your turn, deal 1 damage to all other minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c6dc0a34e7ff50c04f06c7ed531905810e2eef31d159391bac5e7310f958460.png",
+      "text": "At the end of your turn, deal 1 damage to all enemies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b202bc360d10b4f526c4483c60c33dc514a3b4c496c9605654510a732fed4d9.png",
       "imageGold": "",
       "flavorText": "Let's be clear about this: ACIDMAW is the sidekick.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e11a34b5cfc37933103e153e1282c9b9fdea1d69de380a5aa2b11dc251260ee.png",
-      "parentId": 2633
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1597ed6167140996916084c4dd7f683149993fcf13620507a6b165a2971db69.png",
+      "parentId": 2633,
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 132,
