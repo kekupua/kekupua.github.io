@@ -6,6 +6,7 @@
       "slug": "440-abomination",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 3,
       "rarityId": 3,
@@ -15,14 +16,16 @@
       "manaCost": 5,
       "name": "Abomination",
       "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to ALL characters.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93bad2aa55fe75495b5015ef2c1a11e4bd3fc20fa9000140a218eefcc9244d56.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8062a60fb1399e9935dc5b6bc69cc0c1443e0c2f11f0eadb0ed4c3d599d37cd7.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f6a92813416241989dc7a5962253623c0996f4c3f2e557512b50f24dc7f9b87.png",
       "flavorText": "Abominations enjoy Fresh Meat and long walks on the beach.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/420c91e8e3be024141e1f196f34297e0fc28c58dc2949ad679b4303ad4e013d5.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3070696d8da42bb3fdcc3b54eeeafaa0448f4ad0a1b609d5fc478ddce728374.png",
       "keywordIds": [
         1,
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -50,6 +53,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -70,13 +75,15 @@
       "manaCost": 2,
       "name": "Acidic Swamp Ooze",
       "text": "<b>Battlecry:</b> Destroy your opponent's weapon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1040f33ba563da93e79a836f5e54ad92d3e2ed6a12d040ae9593828503a40f2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c28a40a2f879e5eb990ab1d386c7a4f72258fb2a8dbccf919f660df77b946c0.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e8d6b8219f24c9d99ab79c4aeea2cb67a93b03d920d9d20dc99b5a8465644c8.png",
       "flavorText": "Oozes love Flamenco. Don't ask.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5fb6aa536272119249e5ef25ecc1338e838115d5bedcf7f443895c5a0522d51.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b592ba9e4ddbb0c22b03b66114382e4027f063069a3472910ea7b9d68c0f9266.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -89,18 +96,55 @@
       "classId": 12,
       "multiClassIds": [],
       "cardTypeId": 4,
-      "cardSetId": 4,
+      "cardSetId": 3,
       "rarityId": 1,
       "artistName": "Dave Kendall",
-      "health": 3,
+      "health": 4,
       "attack": 1,
       "manaCost": 3,
       "name": "Acolyte of Pain",
       "text": "Whenever this minion takes damage, draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebc18100fa84ca9670e9fd13f07cfe59ab9441d0b77bc285676aa8714b98aa4a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa933f8d51f7e0621cfa1befe1ffcbbc87952b41947dc7efb323b8f26b079dc8.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f6ff493f564bcd1268c93fda6438403e7e48937bba5ab737fe3eef8b45e637b.png",
       "flavorText": "He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/976dd43b2eb899a651adeca507417d06af5b81e86049ec518f81331cf980451e.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83ceae1ae6bf463ad0baf1d9a2d4e05db364470500c607e943e217d24ea9096c.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 113180,
+      "collectible": 1,
+      "slug": "113180-aegwynn-the-guardian",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1635,
+      "rarityId": 5,
+      "artistName": "Luke Mancini",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 5,
+      "name": "Aegwynn, the Guardian",
+      "text": "<b>Spell Damage +2</b> <b>Deathrattle:</b> The next minion you draw inherits these powers.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6ac5580b63611926a1f7c1de79036a45e977bb9f5ee87a99373d75ddc448251.png",
+      "imageGold": "",
+      "flavorText": "With Medivh as her son, nothing YOU do could ever disappoint her.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e63f767cc590dc8bbf7a9826aba0545ab10f9f0767b6614318358d444430ce99.png",
+      "keywordIds": [
+        2,
+        12
+      ],
+      "copyOfCardId": 62347,
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 32,
@@ -128,6 +172,8 @@
         4,
         11
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -153,6 +199,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ea51bc252f56f9f270a19ee033e4fed71de1248e0be6819a7ed84f5faebde97.png",
       "flavorText": "WARNING. WARNING. WARNING.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3539e8d1b6a1c1e9d3c82487330df7221a10890eeb55797b1874ad985958bc36.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -180,6 +228,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -200,13 +250,15 @@
       "durability": 2,
       "name": "Aldrachi Warblades",
       "text": "<b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d598a086f0ddbd01e1cb525dc8c86a0edc95c438d4685782596fdf00bed6539.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63f92e75bcfc7707869f2b486bedd0c46582dea35848ece66c0c8b3b1aec7e1a.png",
       "imageGold": "",
       "flavorText": "The ancient Aldrachi were the greatest warriors in the universe. Imagine their power if they'd put the handle at the END of the blade.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7f1196c89e05eb6b60b079491a9874d16717b4fd2a15b97f1bb96288628d72c.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cf4c3cb0619698a57f24fd88258fad238c12276634e800e679bb7a8f13ae9dd.png",
       "keywordIds": [
         38
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -235,6 +287,39 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 113183,
+      "collectible": 1,
+      "slug": "113183-alexstrasza-the-life-binder",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 24,
+      "cardTypeId": 4,
+      "cardSetId": 1635,
+      "rarityId": 5,
+      "artistName": "Zoltan Boros",
+      "health": 8,
+      "attack": 8,
+      "manaCost": 9,
+      "name": "Alexstrasza the Life-Binder",
+      "text": "<b>Battlecry</b>: Choose a character. If it's friendly, restore 8 Health. If it's an enemy, deal 8 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f5b57baa9cc5c02ad09bf123ba4ad5843d5d399ee6c72b26db42c388b24b5ec.png",
+      "imageGold": "",
+      "flavorText": "Friendly Fire: Off",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cf21f73274426bc64625c029ba7be092c912bab9c8c5ba61ef1357ce28253b5.png",
+      "keywordIds": [
+        8
+      ],
+      "copyOfCardId": 66864,
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -259,6 +344,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d234c375c56a8bd6169492b38f4af07beb96720e7f27e956bd6576f92429c55a.png",
       "flavorText": "If an Amani berserker asks \"Joo lookin' at me?!\", the correct response is \"Nah, mon\".",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d4b5ff41f2f28beb154b58a100530e8bb5f724622a151150646f4c4d4d513a2.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -278,13 +365,15 @@
       "manaCost": 0,
       "name": "Ancestral Healing",
       "text": "Restore a minion to full Health and give it <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d990312f062c013d1439d6cd1f67cb43ecaad91bab0e2fceb738d6f6229f767.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5babab6024e4bc3c2650902f9e143cb017139fc21f489e805165bd4634123475.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad39c6857f66728187e4ef974dac035ce9c896d792aa4b7ef82753b92b00519e.png",
       "flavorText": "I personally prefer some non-ancestral right-the-heck-now healing, but maybe that is just me.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f7e350d4af250ea4058c1ac61fa57f9e2e39409e3c34c24267fcbedfaca263d.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ab68f48881584415514734e8ba733b99cf616ebea1c8e3f5f726fd331703870.png",
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -310,6 +399,8 @@
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -337,6 +428,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -365,6 +458,8 @@
         2,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -389,6 +484,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7cea4e352c230c4d6d41b0434a6d290b46faadece718fac44a6fb2d9a61ca43.png",
       "flavorText": "Why do its eyes seem to follow you as you walk by?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e80cb2d535e98acf3645023a661f1a7bba360c825eae7c7b1b3300305348a9ef.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -404,19 +501,17 @@
       "cardSetId": 3,
       "rarityId": 4,
       "artistName": "Patrik Hjelm",
-      "health": 5,
-      "attack": 5,
+      "health": 7,
+      "attack": 7,
       "manaCost": 7,
       "name": "Ancient of Lore",
-      "text": "<b>Choose One -</b> Draw 2 cards; or Restore 5 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4a299448e4f02d67b3d13dd6255918b4d0883c69e6b5e9f95ad00a5fdd0cb66.png",
+      "text": "<b>Choose One -</b> Draw 2 cards; or Restore 7 Health.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76ff352f691a37aca7dae19ecc32074fec00eca2f1f9aee0273714ef29e0b982.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4140dff3c95d6261ff2f9532404fdae37975d54a6f0d008c69ee85873d4a1a4f.png",
       "flavorText": "Go ahead, carve your initials in him.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/446f96fece1b45fc1b9ae08f6340759aa279a45b4315c16077438ae680167e87.png",
-      "childIds": [
-        209,
-        313
-      ],
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d9fbdf7f82803708d1eec63851c77a704e756262b2ee0c5826ab181277a0878.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -441,13 +536,11 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d187eff733ac46860cb2e3fd7738636f3d7da3aa6235cc42d96a77567b47602b.png",
       "flavorText": "Young Night Elves love to play \"Who can get the Ancient of War to Uproot?\" You lose if you get crushed to death.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7721a0264ddc3d862432d48c20683332fe30acb2a91bb9ad6bf0e03c0052883.png",
-      "childIds": [
-        182,
-        578
-      ],
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -473,6 +566,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69de2cea9ca06fd0f8d09f26d76275d1a0e7f14da17c9addcdb53ad0831706f1.png",
       "flavorText": "There is no beast more frightening (or ridiculous) than a fully enraged chicken.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e29c1530a1443ace74d5a3033544ba37bbbbf6df5d01b3bd72bc73846e19a61.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -491,16 +586,17 @@
       "manaCost": 3,
       "name": "Animal Companion",
       "text": "Summon a random Beast Companion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0bbbcf5333c11c2df6e37c7b59d13a1e06aa3cd532c3c0bebbea539a66ed62d7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4abdfc6e3e0d9b6494839cc576b6e5b3b70fe97496ac1986fae3d15b4609f94f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21b68f587dfe3bfa54d5aa5815665f6e543454147992eea94605e8e3c20f907d.png",
       "flavorText": "You could summon Misha, Leokk, or Huffer! Huffer is more trouble than he's worth.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9b98a386920e7d04c19d57db1f826a43eb58f45b8167945280415f43d99934b.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22fc73c7151722277cb0a691116bcec0f8010a40faab859c0d1bc1c4aa0d0053.png",
       "childIds": [
         100,
         226,
-        959,
-        2157
+        959
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -531,6 +627,8 @@
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -552,10 +650,12 @@
       "manaCost": 8,
       "name": "Arcane Devourer",
       "text": "Whenever you cast a spell, gain +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/058280922d1a8018c9f93c51ceb5e96e1a0bf213eddcd56551cbe87411333f9d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a3e70049991ea14dda4e56f72405413f2f15946944901f2ed7e97a0b74f4dde.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1375cd378b2f318be67868811ffd9352cbb823d6e15fdd0ff223ef9ab9abbbed.png",
       "flavorText": "Likes her magic with a pinch of salt.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8845081f7e769cf76f533323729d0ebbfe0b746c561ebe5c7ec95a9704ac12cd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7857d487368b42b7bf8b35839868aad3af82e8dba0a9cd4707e4e0a1b4f56520.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -575,10 +675,12 @@
       "manaCost": 2,
       "name": "Arcane Explosion",
       "text": "Deal 1 damage to all enemy minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7898da8bdb126f401edcd4245ca1e156174f94a8a5d4bcebe8731c5b0811dee2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b025450ead7971b09e61d21ef26dcd100d5c64ee6cc3df472ccce7f2e326fbbb.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b17a8f15c2b868d4a8e7b1ee4e62ae941c7ef00dd0a524b7fbfac450c6a91d1.png",
       "flavorText": "This spell is much better than Arcane Implosion.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99fb12925a8ced9784ee3f9d0e15d9b11858ee3df2f37fcd5a1d70e694183e9a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12b147a129bb7fe11fd300abdba22a0a0ae7da3e6777bae56d49121d16af2ef0.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -607,6 +709,8 @@
         4,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -626,10 +730,12 @@
       "manaCost": 3,
       "name": "Arcane Intellect",
       "text": "Draw 2 cards.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81e594f2768ea4aef21d4f0f86044edfed2df7d8adbd75fd062d44842ddad931.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abb372c879aa12421824cf3a1125e218c80311613545ba10b43b44c99f6c5256.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24ae4612e5f97902559f92167c9abb39079387907dcc5fec5b5d35f3014da676.png",
       "flavorText": "Playing this card makes you SMARTER. And let's face it: we could all stand to be a little smarter.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07e2144f36b8ce0df97c8bbf05fcf25bec4e0ef9806e444e35e1ff6cd6f7d71b.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85a8ede320262f60c650638a154107206f9ec6f99aa771e8df710f191ff16088.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -649,10 +755,12 @@
       "manaCost": 1,
       "name": "Arcane Missiles",
       "text": "Deal 3 damage randomly split among all enemies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cc339b9a038b5f706c458872ede599c37a044a51cd685c04825835bcd2ad2a4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4b5c9d24981537be224742266ce9352537f4e563202433ad1eb3e357194a887.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6f0e2ef6cc826bc3df7c9ff1ebe3c61db9931bda03db54a5d7274a0285ec101.png",
       "flavorText": "You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae68c45426f1b15f49b67ac2e89f99018b2a9ce51cf52f0472d39c468e7c1cbd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c768bd053be169d72620df64b1d56baede2c579b8747850d1fd287c153340cd2.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -672,10 +780,12 @@
       "manaCost": 1,
       "name": "Arcane Shot",
       "text": "Deal 2 damage.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d046e987cb11c8b98e3277e8ebf8f8d593344d32ffbe38be319d206a96d39f8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01b0a4f8a9bfaf6dca14d293123b3faacbb88f5c3927df23fa92b374ac8899d3.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d075d43b38cd2b7c5edc26ff0ee5017a9fbf2a31bf9e25c53fcdeb55d378b617.png",
       "flavorText": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves. The resulting loss of jobs sent Stormwind into a minor recession.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca2611fb767276564bb3f040b4ae701359b5769760e010b10124e8651022a603.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62fcb73d4604263c722b2c3e23643d9a096e98fd29fb549d09d2ae793a6ae9b1.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -696,10 +806,12 @@
       "durability": 2,
       "name": "Arcanite Reaper",
       "text": "",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4046328c50c03e4d8e167d2bddd4d7a3b1d59c009e5bf2e45b1a2c50f1913643.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f50e89342748ca3b0d9d134e0c45e2ee0b03d7ac09154ef62049d829b92659e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2844ea3fda344acac193ca9b1b1e82f44d9b1c56ea6b4ca23d9be7404717b58.png",
       "flavorText": "No… actually you should fear the Reaper.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a33906b009940ce8b08cd4b65ef584ce844df5fa4c6aaf1ec0b18df4699877cf.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b32e1619bcd8320820a46c528678c96d09a556e7189ac38415d639ed97267b5.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -720,13 +832,15 @@
       "manaCost": 6,
       "name": "Archmage",
       "text": "<b>Spell Damage +1</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23c921aa54f513cab15eff4981836228fc58409524c2ebf944fec66f82a3e724.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b79a28683f7857bce0305cf4fdd5d4fb56674f7ee0f8fcaa4b8c5b064d630a4c.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39a8756fdd1a8ee5f1fde6acfd6e1439573ea9c742db2226e37b16e32d9f797c.png",
       "flavorText": "You earn the title of Archmage when you can destroy anyone who calls you on it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/beb01b86dc76b5909a2ec643f7a4df5272676498f77d7505b509242763c96653.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80b425a0001a10efa79102db5df5e696598690f3b6f58f77d94e77e933434d66.png",
       "keywordIds": [
         2
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -754,6 +868,8 @@
       "childIds": [
         315
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -782,6 +898,8 @@
         3,
         4
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -810,6 +928,8 @@
         3,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -837,6 +957,8 @@
       "keywordIds": [
         3
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -861,6 +983,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e782ccc602bdd99b4bd65a21b88d0b10d874f0c7987691b49d7af07c4d9d402.png",
       "flavorText": "She accepts guild funds for repairs!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a165b7374d54f0c381a7bd0591cace8b2f39ce174547b61bd1c32ca9f9b3829a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -881,10 +1005,12 @@
       "durability": 5,
       "name": "Assassin's Blade",
       "text": "",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b87dc8eb63ada7fa3f67ebf33fd5956f8cc625226e97b362cc31aa14fbd8ecb5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b28bd43c4bd7ce75cf18a7d7a901f3b596a155ed8f7be8ea7a1233a94bd35ae.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a83e4059a4eddbd04acfe4ecc2a17b1840cbb8832d43d5ad6465fd7d71e426a8.png",
       "flavorText": "Guaranteed to have been owned by a real assassin. Certificate of authenticity included.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6716079053d9fcb879993ed45294fe1b523e9f99784aa6498c709db8f0217d9e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95efc843fafbbf75b4a77becec516d44c18d4a772d753ac859f361c201562803.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -903,10 +1029,12 @@
       "manaCost": 4,
       "name": "Assassinate",
       "text": "Destroy an enemy minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8a8a224d000318b21bc7e52650dfbca7cc136bc51ddb09d72f5fc7bbd53ed05.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1930fa0ae9207228438ccfcb6227dfc524782005d47682137905c4fbb40f40e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d121a20bad76190bae012feb37e6c2df9a919b19b875e7241cbb8c0cb2669afd.png",
       "flavorText": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b69fe4f725fcce73f1db9b54422d6a8a6606ca064ee4023cfda38c6ecc330a6.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91b0da729f9c6d5cbd5b9df1012809d5e3131c9b15ceaad41f36b5145a7071a6.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -919,7 +1047,7 @@
       "classId": 6,
       "multiClassIds": [],
       "cardTypeId": 4,
-      "cardSetId": 4,
+      "cardSetId": 3,
       "rarityId": 3,
       "artistName": "Doug Alexander",
       "health": 5,
@@ -930,7 +1058,13 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b16ab97c5bec394a47c5788fabe3aa14a086af0843bddd519eb35275afc31ea.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/406de3f02683e7632c2ccfe750dc83a123992ff4200ffb6bfd8149e20db9a459.png",
       "flavorText": "The Auchenai know the end is coming, but they're not sure when.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b74c153ec6968662ce7fddb4e4abbc8b07d01f51eae1d62cdeda125358869d0.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b74c153ec6968662ce7fddb4e4abbc8b07d01f51eae1d62cdeda125358869d0.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 1174,
@@ -950,6 +1084,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/431044b14c0b09af53d5e06d6df586a008ce8d369fe45f0ff7eb5d1d7e166b20.png",
       "flavorText": "Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb7370829ec0399b45ea6e99c9d5c6bc5d94ace50b21894394a5af4f9036ebac.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -963,71 +1099,31 @@
       "multiClassIds": [],
       "minionTypeId": 24,
       "cardTypeId": 4,
-      "cardSetId": 4,
+      "cardSetId": 3,
       "rarityId": 3,
       "artistName": "Ben Zhang",
-      "health": 4,
+      "health": 5,
       "attack": 4,
       "manaCost": 5,
       "name": "Azure Drake",
       "text": "<b>Spell Damage +1</b> <b>Battlecry:</b> Draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87218cd44f8f5a056f5020897fdc8bb6ddeaa18d0a3f52927f6d3f4b03838b5e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc153d0f3ae2c922faa2601cc509b99dddbc30952bf376e56200ff2be2b6bc79.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a29c699be12645cbf35faa63dd5d7c5090eb23c70222439f1dac229e0905975b.png",
       "flavorText": "They initially planned to be the Beryl or Cerulean drakes, but those felt a tad too pretentious.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b75e5ac680b2d1b874e5b91075c3a8b3acf5f90c4bdf89769884baf91867e667.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7a4760b45037e6784a0b07f2c0bcf73aa5cf1d7f638b0e14da99ffb6f1f5b88.png",
       "keywordIds": [
         2,
         8
-      ]
-    },
-    {
-      "id": 180,
-      "collectible": 1,
-      "slug": "180-backstab",
-      "classId": 7,
-      "multiClassIds": [],
-      "cardTypeId": 5,
-      "cardSetId": 1635,
-      "rarityId": 2,
-      "artistName": "Michael Sutfin",
-      "manaCost": 0,
-      "name": "Backstab",
-      "text": "Deal 2 damage to an undamaged minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10d1f140250fd8a01175e181e8ba6a4ff989e4ebf9f9c6ccb2fd49786734fc7d.png",
-      "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bda9d8d5ea6ffb14a6bfcf24e3d1215f5c27ea1dcf0544461ac866122ded9e56.png",
-      "flavorText": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/42b9307705362b24fa4d4944836df09857cebc9289ad8c468cc4fd7314aa5e03.png",
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
       }
-    },
-    {
-      "id": 48158,
-      "collectible": 1,
-      "slug": "48158-baku-the-mooneater",
-      "classId": 12,
-      "multiClassIds": [],
-      "minionTypeId": 20,
-      "cardTypeId": 4,
-      "cardSetId": 4,
-      "rarityId": 5,
-      "artistName": "James Ryman",
-      "health": 8,
-      "attack": 7,
-      "manaCost": 9,
-      "name": "Baku the Mooneater",
-      "text": "<b>Start of Game:</b> If your deck has only odd- Cost cards, upgrade your Hero Power.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e63075d295df616bef919cd55586d044f6d15df592ae23436feafd28d5318324.png",
-      "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33560b88e57d51948fe9edc645d0d694b9132e21de1d07fa5115173b4910ea84.png",
-      "flavorText": "In her defense, it did look like a cookie.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2f35488bbf6029e9edbc9613712a3c9f7d59e2854290840d4a186fc88df8d13.png",
-      "keywordIds": [
-        64
-      ]
     }
   ],
-  "cardCount": 418,
-  "pageCount": 11,
+  "cardCount": 445,
+  "pageCount": 12,
   "page": 1
 }

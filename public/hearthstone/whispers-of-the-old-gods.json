@@ -13,14 +13,16 @@
       "artistName": "Zoltan Boros",
       "manaCost": 2,
       "name": "A Light in the Darkness",
-      "text": "<b>Discover</b> a minion. Give it +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e52c45971994b62bd90cf71adb97e583146760a45a2e283ba67a9557746c61a.png",
+      "text": "<b>Discover</b> a Paladin minion. Give it +2/+2.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31ecaa43a60412c589d972e0e095aa2b5d7597d3de0f200f0f5c4e441565c028.png",
       "imageGold": "",
       "flavorText": "Wait, how can you have a light in the dark? If you turn on a light while it’s dark, doesn’t that mean it’s no longer dark?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/289b8a4599a7119ddbe3abc1d767e12efbda64db3631936cda76dd8c8f651126.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0951d3b90ff25ee03e29f6c17913c4470f369654ed003dfe6d87f57295405c7.png",
       "keywordIds": [
         21
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -41,10 +43,12 @@
       "manaCost": 4,
       "name": "Aberrant Berserker",
       "text": "Has +2 Attack while damaged.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44c6579a1b01e1263c26734b75b87d264145af18899888cc620117282d7b4914.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/61e52886abaa3059e05851304c5ce1f07148a861b1a09acfb1ca3efe05c8ea16.png",
       "imageGold": "",
       "flavorText": "I berserk, therefore I am.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0c1afd053196a49feb1bb24f2baf5cbc6af8aecb62c5695aca4591bb3823fe9.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/daf542e71b3b3315fcc833c8b7bda5da991468860753af9eb1ddaf4e97bb77ce.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -61,15 +65,17 @@
       "cardSetId": 21,
       "rarityId": 3,
       "artistName": "Andrew Hou",
-      "health": 2,
+      "health": 3,
       "attack": 2,
-      "manaCost": 3,
+      "manaCost": 2,
       "name": "Addled Grizzly",
-      "text": "After you summon a minion, give it +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c15181fb7db37b4b4638e7bc639b6f0d272996adf44fd46a589b272113aa5585.png",
+      "text": "After you summon a Beast, give it +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebc8b36e12c46169198bf0419e4a272767d1227a21e93550006c00b81911906f.png",
       "imageGold": "",
       "flavorText": "Druids who spend too long in bear form are more susceptible to the whispers of the Old Gods. Right now they are whispering the lyrics to \"La Bamba\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b0d5a7c06963f47ace4bdaf785fb0d14d4088639aa3ae2cfb425ab798f761e7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4daec5db464da4ba8cd77d911d6deff30232d6e039657f87e4fdbde21b4f0797.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -81,6 +87,7 @@
       "slug": "38782-amgam-rager",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 21,
       "rarityId": 1,
@@ -90,10 +97,12 @@
       "manaCost": 3,
       "name": "Am'gam Rager",
       "text": "",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8942b2de88b8cb8dfb556edb153fd828b08ae920d4a2d7ef2034c3fae21a3ec5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6501e1de58e4595ed96df3f5b180279fcaf61aeeff143d532e73e1d96e8aca6a.png",
       "imageGold": "",
       "flavorText": "peerc rewop",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc01d518132f9905b681c5ede1c760cadffb538c4cd83356edb06d621add0378.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/48af97dfb07a40b62ad9baa514c892e500ca9ca5bf32b818fdf487eea9d22118.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -114,10 +123,12 @@
       "manaCost": 6,
       "name": "Ancient Harbinger",
       "text": "At the start of your turn, put a 10-Cost minion from your deck into your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5df53e8f71173cb273bb646c8366016f801f01cd7082e7e61cf267f7d498116.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad441b05edca975bfafde0e0a84bd23bc71132b909303e65d86187ff510cd4db.png",
       "imageGold": "",
       "flavorText": "\"honey, can u run down to the store and pick up some 10 cost minions? thx\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/263d79e63a472529f039941b4ee1397e316cb91172a8881977bd78d6f4f79ddd.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2cad986ce05a711af1ffdbc1a18d2e74735a454b814c5a2cae506280a5c2a6cb.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -135,16 +146,18 @@
       "artistName": "Alex Konstad",
       "health": 6,
       "attack": 6,
-      "manaCost": 7,
+      "manaCost": 6,
       "name": "Ancient Shieldbearer",
       "text": "<b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2af54bc39dd391694ad2bb51ae3f5f169f4fcfd1a708cecde368747be3ba1632.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d94b0afcc3982847798471bef44cebce526f044d8892e9123a1dd41242b9e893.png",
       "imageGold": "",
       "flavorText": "Back in her day, each shield weighed two tons and she had to carry four of them on each arm!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d8ad980352243021e37295b6a967f0c608cb2f8565596a4e5b93c4fec9335f1.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/744318e8d43bd84c7bf61eaed22ab3b48468c5e7b5f27cbda419a8c66361c5f3.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -166,13 +179,15 @@
       "manaCost": 8,
       "name": "Anomalus",
       "text": "<b>Deathrattle:</b> Deal 8 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3bcf6da62690b669ef2a5680a1527c76ee7c6f16b0eac2b27970c46c42db5d1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/897a7b828531833f324257884cf256f0eaae3143fa59861ccaf120010accc2be.png",
       "imageGold": "",
       "flavorText": "That's short for \"Anomnomnomnomalus\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c8e5c6897fbf2137cd0238edb44348e975fdc1545b769291d238159d091dc1a.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2fc47f300d7fb62c7eb6ee4b2be7b11a5fb87a36dd470c9b8facfa6bf3d1abf6.png",
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -193,13 +208,18 @@
       "manaCost": 2,
       "name": "Beckoner of Evil",
       "text": "<b>Battlecry:</b> Give your C'Thun +2/+2 <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d441ad7b6356464cffc6c7d35f404791943b1d0d407b70c2eb4071992da323b9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce03b0c53ca4a9d69e6a46b2917da7fc9aa54414de8c12d822c8eaa06c54faef.png",
       "imageGold": "",
       "flavorText": "Here, Evil! C'mon boy!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab2b888f0e52cf36353d86b8783e9f7c3ee2e69933bd24b89e06160d4b121aa2.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a45e3b69f06bf3cf5aed89d48b0340d070f8cbbc855b68a6893fd0de494c4a8.png",
+      "childIds": [
+        38857
+      ],
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -221,10 +241,10 @@
       "manaCost": 2,
       "name": "Bilefin Tidehunter",
       "text": "<b>Battlecry:</b> Summon a 1/1 Ooze with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fce623e64b71335ff906c5249cd65b23d0292b09550b3f31791e75b0f85f7867.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/043a6d037c3a344f215b3f72d11c21cfb8f2a0d3d5139b490fc051da329e61ac.png",
       "imageGold": "",
       "flavorText": "Bile actually makes for surprisingly sturdy fins.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d802653d4f490b46cbeced5a4432b7d391416df8bcb85b33422cf88b024d2a10.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d108173f11847908681f55f53ac8c6d070e15ecade78573444e47dd10e4baab.png",
       "childIds": [
         38537
       ],
@@ -232,6 +252,8 @@
         1,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -253,10 +275,12 @@
       "manaCost": 4,
       "name": "Blackwater Pirate",
       "text": "Your weapons cost (2) less.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/074638ffec3de710ca92760baf8054b7b0b4af15528d893321d1d4ac27e476d3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0218341fc29a744ab8d8607a267e00260cf57499e004bd1ded872cc77b046646.png",
       "imageGold": "",
       "flavorText": "\"Look, they fell off the back of a ship, do you want them or not? I have a meeting with Y'Shaarj in like ten minutes.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/060464189c62af2aa8400b70db6dc25b7c1c0d3836357e3c8dde2bdacd684e2e.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1c9e6cb0fc56f49755bac1c2636b1e9310253179c751c084e403c4a6c4c3ad9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -274,16 +298,18 @@
       "artistName": "Steve Prescott",
       "health": 4,
       "attack": 4,
-      "manaCost": 9,
+      "manaCost": 7,
       "name": "Blade of C'Thun",
       "text": "<b>Battlecry:</b> Destroy a minion. Add its Attack and Health to your C'Thun's <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8514abbcacc24d3261b5e0239876da16b88a4f3524cb5d6ccc1eea24d624ffcc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99b7e7f0973e2ba4ebae9131c83fe47f8458518277842f19accd64d7e1c73138.png",
       "imageGold": "",
       "flavorText": "C'Thun demands a sacrifice! Preferably a Deathwing.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67375c9fd8f98359c7ad9ef86bcfa561142541c0c6fbe5744fcbeba3d9667f6e.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ace7b58900e328ec6cfde42ee94dcdbeef1207131d14d3561cf27805e1a7a03d.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -304,13 +330,15 @@
       "manaCost": 1,
       "name": "Bladed Cultist",
       "text": "<b>Combo:</b> Gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b1c7988a9f6038a1dde842b9205417d3ffc3c68e5191c86accb9ee0a8b5f412.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/706b5bd49d175b56ded5b6bd520c24520f1bd63651941f394c1712dbe8721c01.png",
       "imageGold": "",
       "flavorText": "He has a poor understanding of the law of diminishing returns.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/245f4b52fcec9d832c4cefcf8c820f2c6946f79cafc486688bee5f1eed6f233a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf7d0d7c901d4f5f90c8fe9e4af39887dd796c8c0aa969d959795fec2084b755.png",
       "keywordIds": [
         13
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -329,13 +357,15 @@
       "manaCost": 1,
       "name": "Blood To Ichor",
       "text": "Deal 1 damage to a minion. If it survives, summon a 2/2 Slime.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c344ff0850d4ab0dc2efb395452f55b8128db2371cb918548385dd837ba3546.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c4e0d4929c1528b4217f5da4d9e974bc89655dc244bfd06edd57d37ba738c64.png",
       "imageGold": "",
       "flavorText": "For his next trick, he turns the ichor back to blood and stuffs it back in you.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7505736f63e8b5d27ad26c98e50ac33096593cedc3d05bc9648e56ddd0854674.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/997d5d993fe7da06069c74fcf6201b9f3e0b0011a2d8bd363ef8a1eebf84e0ad.png",
       "childIds": [
         38968
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -354,10 +384,12 @@
       "manaCost": 3,
       "name": "Blood Warriors",
       "text": "Add a copy of each damaged friendly minion to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/887bd7b194ffaf01beca9f3d4dfda47c9ebf5b15b167c2dfb721f935e06fa9d6.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67f3daeb171ea3db58b9269d8531d861aa6b0600546df5a1f07f73616fd49ea4.png",
       "imageGold": "",
       "flavorText": "They have an uneasy rivalry with the Blood Paladins.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3496495d78218825eb785b0081dd2e4634c25d61789c9136609695580c0a7a5c.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/79b79bf9a2a696609176d17960f977566cb4c553249c69112b064233274fe21d.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -378,13 +410,15 @@
       "manaCost": 9,
       "name": "Blood of The Ancient One",
       "text": "If you control two of these at the end of your turn, merge them into 'The Ancient One'.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/51db24e3dfc52d3bf9ac54b85caeb47bfd5fb893e7a69bc03afc21bbaa94e5a2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84130bb31c7fe32aa77bd23e0e4c66a437fd6fba0bbd13aad6d530e1a6767893.png",
       "imageGold": "",
       "flavorText": "Add two cups of Blood of the Ancient One to one cup of lemon juice. Add just a dash of sugar and stir. Delicious!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e273bd850256a183ca2909195de9fb4bf639958fee0c360ab02ee46e243aded.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de4a743029cdf2cf9605a97a6383dd8a7823a5afd819cfa63e50fc1c7c87abc6.png",
       "childIds": [
         38566
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -405,13 +439,15 @@
       "manaCost": 4,
       "name": "Bloodhoof Brave",
       "text": "<b>Taunt</b> Has +3 Attack while damaged.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6dfcf90b7db3d1bc4ee633ce894c33d62425fe8dcc0303c9fd179d8bbd388b01.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f47eee21ed10c7e7282158ce91182fac63b13ebe0b3bb101d3e6c2a66299bc8d.png",
       "imageGold": "",
       "flavorText": "He thought the set was called \"Flippers of the Old Cods\" and hungrily volunteered to be in it. He is definitely going to get his hearing checked.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/100825ea5b23a9a0a8fb652e9a1eb75b5ea150b9a630c17c42c7be54a3539be0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06adeaab421a56471bdedb4ec99419164a4ade07bda319462111a46cc75e8a1d.png",
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -433,13 +469,15 @@
       "manaCost": 3,
       "name": "Bloodsail Cultist",
       "text": "<b>Battlecry:</b> If you control another Pirate, give your weapon +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e745ec2ef6fd4b171774264cb723232f8c6427f12b774464b6717293a6e5e116.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fabccd4c592271c70234d6a73a9709d54e303da70f6b95b1296d74aed8676198.png",
       "imageGold": "",
       "flavorText": "They're really just in it for the Blood Parrot.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10a3156013c92a945c429327a5c0a2fcadc0ef0c7ac3777a4464a399e37b300d.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3685165bb6c5b2070158f4840aa86142a88d503231aa5d568d4cddb61756cec0.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -460,13 +498,15 @@
       "manaCost": 7,
       "name": "Bog Creeper",
       "text": "<b>Taunt</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/336bf7e49468a5de3412cb10df57ee780f87b130b1dc1e7057dc8e252ef867fe.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2b61c4bd7956628f78d76232fc3106c78e07e0a7be7f21b6dcdb1dc4e0993f4.png",
       "imageGold": "",
       "flavorText": "He's tried other things, but bog sidling, bog ambling, and bog trundling just aren't as effective as bog creeping.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bca8024f6803f996769b859da5e8e80d7c43a36b75c5902b9adc810aa392faa7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb11e305cc8ced91f48f9f462dd7be321fe8fa55457a7a12edf72839bae0c892.png",
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -484,19 +524,18 @@
       "artistName": "James Ryman",
       "health": 6,
       "attack": 6,
-      "manaCost": 10,
+      "manaCost": 8,
       "name": "C'Thun",
       "text": "<b>Battlecry:</b> Deal damage equal to this minion's Attack randomly split among all enemies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/135fb0d8c041795279cb9e3d669e58fc50901824d3804897254c8578e31da935.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0a80eb5606e786b5ec44399de8994360e7ee3e3dd377f2f62ebaa4ece071445.png",
       "imageGold": "",
       "flavorText": "C'Thun's least favorite Hearthstone card: Eye for an Eye.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de3f8e216c04875b7678c6003eaa201bfdd39164ba527b236c41581ed69be9d9.jpg",
-      "childIds": [
-        38856
-      ],
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fafcdad03e716cd631a9bb6065781457e21a0b94121e65e808280248eec29e21.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -508,6 +547,7 @@
       "slug": "38863-cthuns-chosen",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 21,
       "rarityId": 1,
@@ -516,15 +556,17 @@
       "attack": 4,
       "manaCost": 4,
       "name": "C'Thun's Chosen",
-      "text": "<b>Divine Shield</b> <b>Battlecry:</b> Give your C'Thun +2/+2 <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb39108e70cb24a97fc04d3760bc8acf3e7e905eeb896d27f737da366e708297.png",
+      "text": "<b>Divine Shield</b> <b>Battlecry:</b> Give your C'Thun +3/+3 <i>(wherever it is).</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e5c1958fc7fcfdfb9582deceb1d389803d5042807bde9d46d77a6bbf291e1f9.png",
       "imageGold": "",
       "flavorText": "He gave her a promise ring and everything.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed503d3a4c7cbd5d3c07c11f3528f2b31e093d2008c6921d019c1e10a980fa82.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6fa9dc3d4696d2444f3af285823651bce7bf792348d1f345de2783d1a379b5b.png",
       "keywordIds": [
         3,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -541,13 +583,15 @@
       "cardSetId": 21,
       "rarityId": 4,
       "artistName": "Milivoj Ceran",
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Cabalist's Tome",
-      "text": "Add 3 random Mage spells to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d32e33eda33ca3bcba270ade34ae2a5c8d1446a214ba618d9167b2f78f229f1.png",
+      "text": "Get 3 random Mage spells.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc580018631430e098ac39452f2a295c2069d95fb84905ac8836f8d475ae12b8.png",
       "imageGold": "",
       "flavorText": "What's in there? I bet it's cookie recipes!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9179cca66c517ac0dfb311ca7629043e5fa15a267d9ba2bae0877669c23c2c22.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/269f3cbf14b43acc9e6d45d0515f75f7e6a9bb7c05d0076fcfce527ce2166c30.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -566,16 +610,17 @@
       "manaCost": 8,
       "name": "Call of the Wild",
       "text": "Summon all three Animal Companions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/956940ec7d81391bda316626a4c0540c5bbaa36ad19c5d941558781f48844e42.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aea22b1f3f8fde6b588e2b7490714a609379d2dbe9104fddbe50a23db2f3b45e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6bfe339ad7659b21df08e93e1830e8e68fda3217d6735d7427e9eb6180653bdd.png",
       "flavorText": "\"Hello. Misha, Leokk and Huffer aren't here right now, but if you leave a message we'll get back to you right away.\" BEEP.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2712fb059ac3cccee3519777a9b40dc6f40458c978835ca279676b15d494cf78.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19876ab09cd369c0cff23032ff96db6c7dc88f1ae924adad699fa50f48d6b9a4.png",
       "childIds": [
         100,
         226,
-        959,
-        2157
+        959
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -597,10 +642,12 @@
       "manaCost": 3,
       "name": "Carrion Grub",
       "text": "",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c844b378229d8c8e8eae3ebb3e5ad8ff0f14cbdee7b36b310ec0284a8889d624.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f366c67f3e66be34d19de003c27d6d1f88fcb19f803558b065084dca08f2fbf.png",
       "imageGold": "",
       "flavorText": "Carrion, my wayward grub.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9f188393aca512aa6c5545ec3a2b0dba695597b555cd2f82b234f176d95c44c.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5c1149ae51802d7f0fc4f34926ef33088d0bbe1db6038c1914b3eab320cbec0.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -616,18 +663,20 @@
       "cardSetId": 21,
       "rarityId": 5,
       "artistName": "James Ryman",
-      "health": 7,
-      "attack": 7,
-      "manaCost": 7,
+      "health": 8,
+      "attack": 8,
+      "manaCost": 8,
       "name": "Cho'gall",
-      "text": "<b>Battlecry:</b> The next spell you cast this turn costs Health instead of Mana.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee84243a81cec937d5f69ab835592e6170880e903535bb3234c2aaab1c82d82e.png",
+      "text": "<b>Battlecry:</b> Return all cards you discarded this game to your hand. They cost Health instead of Mana.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45ada6454881be00aaf981ae605ca92840d823b01d1d741ce23386e42a9c7df1.png",
       "imageGold": "",
       "flavorText": "Even after all this time, Gul'dan still makes Cho'gall go get donuts and coffee.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d76cc8689492a9c01e83154446be1f38e933ee21776faf67f42610761244843.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/898613957ef88a491b0c0b8689c3f13635613ab4bd3db4d257c5ce8e3ec55473.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -649,13 +698,15 @@
       "manaCost": 5,
       "name": "Corrupted Healbot",
       "text": "<b>Deathrattle:</b> Restore 8 Health to the enemy hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2084f7842e0f9da43c9bac20566f2e78e42aa7048b9cd548b986ee827c9b5909.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfed2a4cb6044e934f371946d8800d0366475b55c7e77c978bbc4bf7f6d3ef1b.png",
       "imageGold": "",
       "flavorText": "Not so much \"corrupted\" as \"has terrible aim\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf66e5662b1d46c1931beb95592fd4002ccd3e9b87f1e272027bb9f691eafb3e.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eee598a996f9631d6e6230d7d9e4da550f2c7c6d3317406f7022fe291f64dbfe.png",
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -677,13 +728,15 @@
       "manaCost": 6,
       "name": "Corrupted Seer",
       "text": "<b>Battlecry:</b> Deal 2 damage to all non-Murloc minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62c504818a67c6af284011e1667453db6ab9708ac03db177854e0ed5e86ae67d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2e40342528ce4135578d98705e6e899a844a3d5efb51181d1251ec475b11431.png",
       "imageGold": "",
       "flavorText": "For seers, it's very handy to have your crystal ball hanging right in front of your face.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2b2547be19545521a2d9ccf331d82d112937c359e6ba1e4bee56b11c673b695.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a710e65843005a8a9802041e5944b55684e0cdd0987ce7fea9821ad323a2a0d2.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -701,16 +754,18 @@
       "artistName": "Gonzalo Ordonez",
       "health": 6,
       "attack": 3,
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Crazed Worshipper",
-      "text": "<b>Taunt.</b> Whenever this minion takes damage, give your C'Thun +1/+1 <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3784b058682db062696cd2f290f1b24e58e83e3fb131911283d3c16786285e2.png",
+      "text": "<b>Taunt</b> Whenever this minion takes damage, give your C'Thun +1/+1 <i>(wherever it is).</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/864472ec7400c5fbe81638c53b5040b60bb9bb0745d6c6d7c615674671b3282e.png",
       "imageGold": "",
       "flavorText": "Every month they share a pancake breakfast with the Perfectly Rational Worshippers.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/021e6279f9f7e4b07c212a766eb8aa5c17861dc2e676a1386352430f2afe9a6b.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b000228d8f684d3be69dca51e1492ddf594b4d5f81832e05137797de8e7cf01d.png",
       "keywordIds": [
         1
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -728,16 +783,18 @@
       "artistName": "Paul Mafayon",
       "health": 4,
       "attack": 4,
-      "manaCost": 5,
+      "manaCost": 4,
       "name": "Cult Apothecary",
       "text": "<b>Battlecry:</b> For each enemy minion, restore 2 Health to your hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/999ef7d6333fa9da3bb615d85a8321e0b7f672a1f0b1d7673d951632d6b93fb1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e554e9492d3978f42aec162a4f6714dd8ef60a9342dd14018b2aa8cb3688227f.png",
       "imageGold": "",
       "flavorText": "Cults need pharmacists too.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69c293a0ec7001e6fd63f2e82937c39e4bb04cca96412087e81e67346ed36660.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70598a51e178bf4d428ef115c0db31b53cae23647f908da7056ad948f7c1a150.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -758,13 +815,15 @@
       "manaCost": 2,
       "name": "Cult Sorcerer",
       "text": "<b><b>Spell Damage</b> +1</b> After you cast a spell, give your C'Thun +1/+1 <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc30e8333f2b7989279375fd936c48b5e3b442a5f5b31d90ee50d18fa9d12979.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3662f0c4f8cec3a517dd2bf5a618dccaae659d9428e32a1afb6eda8ee9921da0.png",
       "imageGold": "",
       "flavorText": "No matter how many times we tell her not to, she keeps feeding C'Thun scraps under the table.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2fa26f986ca61029e162eaab728f8d418011fff6d5df60147faa285604cb819.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1294a11690fc097a8872f5f99ef5bb7aa7f711de6c312009c82e3042dd8480ba.png",
       "keywordIds": [
         2
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -785,14 +844,16 @@
       "manaCost": 4,
       "name": "Cyclopian Horror",
       "text": "<b>Taunt</b>. <b>Battlecry:</b> Gain +1 Health for each enemy minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66f48499bf928e41f1551d69e9ab2ef1d02a90ac421470e30a3b7db00a23a856.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5284da988b28aa7077742ad6cd897f5e2b590a7001e640688e1cf70e9f720086.png",
       "imageGold": "",
       "flavorText": "What are the qualifications for being a 'Horror?' Just how horrible do you have to be?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd7f05c414be9c71f36d3ad33ddac68fa71cc2b168dbf2e178b14d1071bb58e7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7bd53ce64028f7f934b4e798e1bf378372bdead97b81bd8cde1b40e11af038fa.png",
       "keywordIds": [
         1,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -812,10 +873,12 @@
       "manaCost": 10,
       "name": "DOOM!",
       "text": "Destroy all minions. Draw a card for each.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/685e38483b9b24af120af9fc48c056740b2d52dde51bd2e9a840e08af553c163.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4afdf4c32cde1a87d434fb8959a9bceea884a2b6c0cec9438dd693b196567f7.png",
       "imageGold": "",
       "flavorText": "We ran out of space for \"DOOOOOOOOOOOM!!!!!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e95d6686f665d2713756688c5056cabd86b22abf0f7a1bdff971283d0a791fef.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c07031ef212c2d4fd8a99f5ff5625baff7d728daeeaa0081f544aece228ed3e2.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -835,15 +898,17 @@
       "attack": 5,
       "manaCost": 6,
       "name": "Dark Arakkoa",
-      "text": "<b>Taunt</b> <b>Battlecry:</b> Give your C'Thun +3/+3 <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccaeffe54a670c72df41cd460b65f4a1974bb16669815cef86ff74a2de7761a9.png",
+      "text": "<b>Taunt</b> <b>Battlecry:</b> Give your C'Thun +4/+4 <i>(wherever it is).</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/296a35bdd8543e560f3afd52a1638e70e6ae166f8085cbc4fbbbf68950cd624c.png",
       "imageGold": "",
       "flavorText": "There's a whole gradient of Arakkoa! This one is on the darker side.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/185bfe653e264655d08856d1e1ae936b18142865a781e6d2309fbd60fbb45974.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9b28ed39ee30ea0ffcabb94746931f76c8b5f31dcff8399c0044bb5bbdcbf32.png",
       "keywordIds": [
         1,
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -860,17 +925,19 @@
       "rarityId": 1,
       "artistName": "Chris Seaman",
       "health": 5,
-      "attack": 4,
+      "attack": 5,
       "manaCost": 5,
       "name": "Darkshire Alchemist",
       "text": "<b>Battlecry:</b> Restore 5 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49c575e3cc8ebd27849f24d79a9c77789426b6d22d613ed3b96e0ffcad1791a6.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/819b66fc1f31265a65d171ce7b561e6221d486ac89ecb5c01d67255968e987b9.png",
       "imageGold": "",
       "flavorText": "The secret ingredient: liquified funnel cake.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e52ae6794ccafe25dcf122717c0b4dedadd905db40a40ed9b989dd74c5ae56cf.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0988175e7b2b42425f8f557a524fed2338da6087b15a6903cf953ba809c42a0.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -891,10 +958,12 @@
       "manaCost": 3,
       "name": "Darkshire Councilman",
       "text": "After you summon a minion, gain +1 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15c7a97aec46c94b8c66a27ac0c09ec46d091387b4643eaec31483cbf89cc745.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/586bbffbb00fab7db15cad4edea8f2458f0b2d2772407fe1156b31f03b1b1f2d.png",
       "imageGold": "",
       "flavorText": "Democracy in action!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75ab5330231ca16c52b4658b30a1029a55c2cfa742017b148e0053ee1f28983a.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5c9ff033723d2fee994a711c1c1ae98546a5c2c66268970d75d979f92328aab.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -915,14 +984,16 @@
       "manaCost": 2,
       "name": "Darkshire Librarian",
       "text": "<b>Battlecry:</b> Discard a random card. <b>Deathrattle:</b> Draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7baddf659b78d53df71d7355663e82fe8627bad1de1acc58992ed38cd94c5f1d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2beba07d71881a2b53d5d1965da79e4bdf672bae79d41de4eb69b556c2e531d9.png",
       "imageGold": "",
       "flavorText": "Do NOT be late with your overdue fines.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bff6c713b8484f7ccb660ecf2dd0610ca87d575553606bd5ef7479041fcb1d0b.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58328d41b19ad5bceda6becff313fc6fe44884b8a3cf91d38a932907b546706a.png",
       "keywordIds": [
         8,
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -943,13 +1014,15 @@
       "manaCost": 5,
       "name": "Darkspeaker",
       "text": "<b>Battlecry:</b> Swap stats with a friendly minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db15faa1b8b1580a5011022614b358f4591159fd94ca2d1b312e7c1c117da246.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9254dfc1a881904c6b53dfcda8c4ace5a15a7a4ff0cdcf6c4311012b9f996b4b.png",
       "imageGold": "",
       "flavorText": "People often think that Darkspeaker is the arch nemesis of Lightspeaker, but that title actually belongs to Heavyspeaker.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b8b1b598233fe153630866410d5059d36828b966c73eae9dbd2fac14e282c14.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6df6fb80f8db0424a3093f513b59f2377551170cd7a29bfef38b8bac575d9eb6.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -971,13 +1044,15 @@
       "manaCost": 10,
       "name": "Deathwing, Dragonlord",
       "text": "<b>Deathrattle:</b> Put all Dragons from your hand into the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f6801c638a4fe4eec83e05d21ebcb8a83891f4250ea54f7f16c6b0aa3c08382.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3d95fdf574dc2f50ac236353e2d27f0577bca6e7a1c5978da910b348fe509ff.png",
       "imageGold": "",
       "flavorText": "To his credit, Deathwing really took to heart the feedback he was receiving that he needed to be \"more of a team player\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cba0b02f565d1933707dbd2338e4b325282dcb5cad6b7151398301b49b373d9a.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d3503e24b48289b1cc6e8cf267ed5ecd0fe389497bcc776fd3650c8c8355621.png",
       "keywordIds": [
         12
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -998,13 +1073,15 @@
       "manaCost": 4,
       "name": "Demented Frostcaller",
       "text": "After you cast a spell, <b>Freeze</b> a random enemy.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cacd95e7c62d0d4dfc2314fbf3800876eb1e5437df3229d9b34996b694135a13.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0edb275d9eea5a00b4758a0db4bf135d4fc021c9bb8ff61de2f8e6e96e21b5e.png",
       "imageGold": "",
       "flavorText": "He prefers that you refer to him by his nickname: 'Frostwaker.'",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3df40e50cc71b90b8b0b68a9eec698dc72988b1dfdec6af7afa39854991a4f6.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc48ecd5cc30af101d37fd0cd4417332f21de42cfd4cab212dd130e001a934a1.png",
       "keywordIds": [
         10
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -1020,18 +1097,20 @@
       "cardSetId": 21,
       "rarityId": 3,
       "artistName": "Dan Scott",
-      "health": 1,
+      "health": 2,
       "attack": 2,
       "manaCost": 3,
       "name": "Disciple of C'Thun",
       "text": "<b>Battlecry:</b> Deal 2 damage. Give your C'Thun +2/+2 <i>(wherever it is)</i>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/257a3ab589e055e94ffdb365c794ce3e7d295add1ad0c8f8c43fe53edd34d730.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8779dc729d497080791277eee226f1909b2a4a11dec3abede3bf98e2fa76d3d.png",
       "imageGold": "",
       "flavorText": "C’Thun’s recruiting pitch involves cookies, which is why it’s the most popular Old God.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c73607a274e90b0dd6a0888b92b44acd464eb87b186c3e2a12c786becb3297bf.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cf4d4b632ff864d0cf4cd5ecba58228184271df9cc8c29cade9ab20eb46f8f1.png",
       "keywordIds": [
         8
       ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true
@@ -1051,10 +1130,12 @@
       "manaCost": 1,
       "name": "Divine Strength",
       "text": "Give a minion +1/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4512a86a3e08e256da3f3b2f07482146b7d81f31f11adf095191a31aa67baced.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5af32874ccb89afc67cdd0174c4be555d997125b700730616e70b5c1f2c8cd6c.png",
       "imageGold": "",
       "flavorText": "Every year a few paladins get disqualified from the Westfall weight lifting championship for using Divine Strength.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7120977c059430e37168501d2bdb26e7878c170326afa9de88a6919beb74cf3a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a5b1e0212724f67a2694394268fd3a8d05f30dd61904f129cd14240d5b6ca98.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
       "duels": {
         "relevant": true,
         "constructed": true

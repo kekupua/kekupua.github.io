@@ -6,6 +6,7 @@
       "slug": "43245-abominable-bowman",
       "classId": 3,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 4,
@@ -15,13 +16,19 @@
       "manaCost": 7,
       "name": "Abominable Bowman",
       "text": "<b>Deathrattle:</b> Summon a random friendly Beast that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fcd482e3e6b9f4c6aedfa3c312fd980277971d5a33032e906cb4d2a5ee9c8af.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77bbdd24dc2f7f8a790284fc0ef610338dddd2007de7f8348648492d6224594a.png",
       "imageGold": "",
       "flavorText": "Frosty the Bowman... was an angry hateful soul... with a fresh hewn bow and a missing nose...",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4f52c0c91b04b771b403474a1fd8319c60bda4e3ee043ef04001f4fed513cb7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db994bfca272fcd7f4eea16dcadfc9b678081f00b73e88c2d026e4a16df37033.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42773,
@@ -29,6 +36,7 @@
       "slug": "42773-acherus-veteran",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -38,13 +46,19 @@
       "manaCost": 1,
       "name": "Acherus Veteran",
       "text": "<b>Battlecry:</b> Give a friendly minion +1 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37ff03644c5c31fea5343fbdfaf45f60ba23bc66e0e2b9d35f885efa34724eb8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37d9e0a759daa8321ef9d98e8c60d02e57abd33d53090d1eced7e1b5a868d9bc.png",
       "imageGold": "",
       "flavorText": "This is my Runeblade. There are many like it but this one is mine.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec122fb992b50012af5abb63e12c0ce04f25ceb70e7ef9c5dd85a802156cdd6f.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27c367d387ece3595093dc59e590fa3a8047679423f621f053c7b0fb88aa45fe.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42596,
@@ -52,6 +66,7 @@
       "slug": "42596-acolyte-of-agony",
       "classId": 6,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -61,13 +76,19 @@
       "manaCost": 3,
       "name": "Acolyte of Agony",
       "text": "<b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/268151d3e455a81c2d7693f3a2ca46093f6b7b170e82d613a609f751aa7f4023.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c5f160035b8285ae6090cd5194098115062fa5ff71d09c1adb6a21f54deddd9.png",
       "imageGold": "",
       "flavorText": "It takes many years of practiced study in order to fully master agony.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2de37a7b68cd00c01ccd0cc68bb8950ed70493794278ab24540ab574b432384.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e341db43b444b9bc80d45a24c5c9acf8aa739d2924874de15860a1f31e0196f.png",
       "keywordIds": [
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42810,
@@ -84,10 +105,16 @@
       "manaCost": 1,
       "name": "Animated Berserker",
       "text": "After you play a minion, deal 1 damage to it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11df8a5fd52ca2b29285e059acab18210954ad432f9b2d3ca0b6c6e5818dc277.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01c89f8c8c256f271869060c8fd333a09f418e419ffb871b9300b88758182f90.png",
       "imageGold": "",
       "flavorText": "He'd be a lot easier to animate if he would just stand still.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31959d130e062011339979d0ee887bbbd3ef9b7e010fa3ed5336caa5fbdbec38.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b87aa148cf1aab82f58bb2c25e961d13b8c3d0d3b2c61e2685eb90287eeb4c0.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42633,
@@ -104,13 +131,19 @@
       "manaCost": 7,
       "name": "Archbishop Benedictus",
       "text": "<b>Battlecry:</b> Shuffle a copy of your opponent's deck into your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ffb61c91ce9e8edf52b64caa25310bccdab664fc470722737ccc0fc7b37b5e04.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22dba56c980ba78884485dee24073b919271acf495b26134d376e01766bddda5.png",
       "imageGold": "",
       "flavorText": "Nobody expects the Archbishop's Benediction!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57a4d9fcb9c59360ee3ef7856a7f8eb64856987adeea2ffac57f41ec22d90fb6.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a85f038be32e196339984b20601b4fc9c45f10e045eff7685cc66470d3da46e.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 45366,
@@ -119,6 +152,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 20,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 5,
@@ -127,24 +163,30 @@
       "attack": 2,
       "manaCost": 4,
       "name": "Arfus",
-      "text": "<b>Deathrattle:</b> Add a random <b>Death Knight</b> card to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58bd6701b50c243baf628ebf249a391a9be7a0a88e9c13d8edc37f8e57614691.png",
+      "text": "<b>Deathrattle:</b> Add a random <b>Lich King</b> card to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac3070c12f5e96a6198de4f2564818e47e9a966ffc71eb62f6cc762eea030cf2.png",
       "imageGold": "",
       "flavorText": "There must always be a Lick King.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0876d949bde01923b6f2b77c053c7934f27a8b73a430dec9e13018b6a6cf9f17.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d63555006d8e9f48b55965215fddec64cb6eeb34fce206ca183595bc661db330.png",
       "childIds": [
-        42586,
-        42587,
-        42590,
-        43012,
-        43120,
         45384,
+        42590,
+        43120,
+        46194,
         45387,
-        46194
+        42587,
+        42586,
+        43012
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42462,
@@ -152,6 +194,7 @@
       "slug": "42462-arrogant-crusader",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 3,
@@ -161,16 +204,22 @@
       "manaCost": 4,
       "name": "Arrogant Crusader",
       "text": "<b>Deathrattle:</b> If it's your opponent's turn, summon a 2/2 Ghoul.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e935b8d4f7149e1a7c11472addbe34929b308fd3c68c467e4783a1b6e70356c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d3b931c8fa424e5ad904e36d74615466b18c1d27eb5e24f97ba1839dad71409.png",
       "imageGold": "",
       "flavorText": "To be honest, he was kind of a jerk even BEFORE he was bitten by that ghoul.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/582b79b1eb78c397f707bc909989aa552f0e275dfcf1f560b0d401bce43cf1e9.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8162d13295d7f1bf70dc14f7c3f49025faa314c1b4ab79027d0e041851226ee7.png",
       "childIds": [
         45305
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42747,
@@ -186,13 +235,19 @@
       "manaCost": 4,
       "name": "Avalanche",
       "text": "<b>Freeze</b> a minion and deal 3 damage to adjacent ones.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16d6dffd0be28a753911b04b43b7b7cd1dac35afbdd09b7fc0d327fc729c1d68.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf29e7bcbb3a9f498cf384e45b78ee0558f6cdeff7dc2570d6ec3942756e95ac.png",
       "imageGold": "",
       "flavorText": "One of our more snowbally cards.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62fec8e3a70ee97c8f561f73b2e8f57a4d975f3f88376b5c80739d78a26da26a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2498c7ce727ae61c4d38fc2c3101d3a87d836d040e9cf257afb2cabdfdd7273.png",
       "keywordIds": [
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42711,
@@ -201,6 +256,9 @@
       "classId": 3,
       "multiClassIds": [],
       "minionTypeId": 20,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -209,11 +267,20 @@
       "attack": 4,
       "manaCost": 3,
       "name": "Bearshark",
-      "text": "Can't be targeted by spells or Hero Powers.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0b3a15caab10c3ba4e56276bb8368f33427077840b3b1b8912a0ad2bf10012c.png",
+      "text": "<b>Elusive</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47bcf4acc6b70c6382811a88da66a8ea13e3607e63d6783e1d68acdceed2407f.png",
       "imageGold": "",
       "flavorText": "\"Candygram.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ac9db57a9e1789a7f4aec66dba582894514dd471e3194b1af7b8e88697cf559.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39ba88102427aa5642090510fb43029161cc992680ac93725a28d73600ce0e9c.png",
+      "keywordIds": [
+        265
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42825,
@@ -221,6 +288,7 @@
       "slug": "42825-blackguard",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 4,
@@ -230,10 +298,16 @@
       "manaCost": 6,
       "name": "Blackguard",
       "text": "Whenever your hero is healed, deal that much damage to a random enemy minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c57a91f64f6f4e1f21fa31d01a7ba01339866f1a4dbe43bd3895fd7405edcccb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14881078c6d38251aa652f7e9eb19f1316d353a7b8c3d87778ac18c67222969d.png",
       "imageGold": "",
       "flavorText": "\"Did I ever tell you the story of when I single-handedly took down a 29/29 C'thun?\" - Reno Jackson",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db9331d3985f5dc98ba4627c8c0d4baf87235deeca75139b4746f5c14f9891ff.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7081bdf04c5ff57fd0d2d4feaefc86f5003f325457dc5dfeeb36c1cc2a74a7a6.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42700,
@@ -250,14 +324,20 @@
       "durability": 2,
       "name": "Blood Razor",
       "text": "<b>Battlecry and Deathrattle:</b> Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/48d14fee39e69c0b56ca2c3099a2c55e0c7321b503c8c1d8aa137b7e3a96f753.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/606d33764331bea4c112cec4157a808aa5bf45dad4b10953c4dc73db148937f3.png",
       "imageGold": "",
       "flavorText": "For the close shave that you've always wanted. Caution: Very sharp.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/887586fba3515f2f82cf07ace88429672e72ad11acbd6280fa80ee88ee27d4ad.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b98f4da801a7f18179a57ab39ffd9638840fc625deb8dd7b0e114d6b2f48b3a3.png",
       "keywordIds": [
         8,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43064,
@@ -265,6 +345,7 @@
       "slug": "43064-blood-queen-lanathel",
       "classId": 9,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 5,
@@ -274,13 +355,19 @@
       "manaCost": 5,
       "name": "Blood-Queen Lana'thel",
       "text": "<b>Lifesteal</b> Has +1 Attack for each card you've discarded this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b639eac7f8b7ed9cca8c83358fe59eac772366256b1c322307fe834f62f8af6c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4441f6d05fd93fffb68c58b248aa0d83e022051b95522b518c5582a13f434f2.png",
       "imageGold": "",
       "flavorText": "As a young blood-princess she learned the proper way for a lady to curtsy, how to address fellow members of royalty, and how to bite them.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/511e092d7295d0faa681cc61504caa84fbd7bdda42d604d7aa42eadc36a926e7.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af689b3cc749ba8a85fdc824506abe11c066530e76bb48927bcc8d7766d6bbfc.png",
       "keywordIds": [
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43415,
@@ -297,16 +384,22 @@
       "armor": 5,
       "name": "Bloodreaver Gul'dan",
       "text": "<b>Battlecry:</b> Summon all friendly Demons that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb36bab65f8d35529bd471f1cabcc7fea78f28aa130243978b1cff63c86df0d7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b2d721830fd51bef4624089a5b1becd41e94fba898e110243de49cee728703b.png",
       "imageGold": "",
       "flavorText": "\"Still you refuse to bend your knee? None can escape death, you old fool. And in death… all will serve me…\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed62e4b657404d9eb1c1705528cb9248ad7d9aeb5a57e160ca958ea64857f1b6.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3cd330c70d7f5d6401ea2b7c8dee3d5eea76b1120783fa8b904fdca661943ab.png",
       "childIds": [
         43181
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 45329,
@@ -324,13 +417,19 @@
       "manaCost": 5,
       "name": "Bloodworm",
       "text": "<b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e69ac7bbb2c6f19918dc25846805fa71ad57faf74fd6d85b2038b83550e29b63.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44e0bfd72ad56fcf7f721351c50d068b4d557ebb0c06494a322a03706bab8604.png",
       "imageGold": "",
       "flavorText": "Queen Lana'thel insists on one of these, fried, every morning for breakfast.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d75a6184dd145c684522f305373e69571eee941179e5c373594848855f470055.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96a9b79a4df4d61c783b03f1c8297d75bfdb831ea8a8f88cfb8a2236b7314fc7.png",
       "keywordIds": [
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 45392,
@@ -338,6 +437,7 @@
       "slug": "45392-bolvar-fireblood",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 5,
@@ -347,13 +447,19 @@
       "manaCost": 5,
       "name": "Bolvar, Fireblood",
       "text": "<b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, gain +2 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d8db2bb5c1c06880bba2e81fd9a03e6a74fe13c5c4e53d759cb1f2a936ad86e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c6e123c904eca5140537563f8cc2ad032102d00086d782ef72e2f96bd032b04.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31d7308c141f6ee11327be5fc9d1443400e9b335b747b665d93066b1eccdbf93.png",
       "flavorText": "He's so hot right now.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e39d5bb8c55ef380cd738e3d2ec73efa16ef9e738a55200ce0318e8ad8323d57.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebf58ad0f5c22825c9f88f998b62e97d1cd48fd18bc2807d182ec27af332e61c.png",
       "keywordIds": [
         3
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42712,
@@ -361,6 +467,7 @@
       "slug": "42712-bone-baron",
       "classId": 7,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -370,16 +477,22 @@
       "manaCost": 5,
       "name": "Bone Baron",
       "text": "<b>Deathrattle:</b> Add two 1/1 Skeletons to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7823f6f428117f97afcf4786f1c00de9d79fb12ce59daf223b06525c975041f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55fd6c4bb5f1de1405d953da99cfb1fa4f3ef4df54ab00955d35d0dc4e658a9a.png",
       "imageGold": "",
       "flavorText": "\"Oil,\" \"Rail,\" and \"Blubber\" were already taken.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5049b3c8dc4191c61433e5405074f2b0978232e69dd978432de23e8efb52ba70.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/822e42326f555955853efe3cba252c045687e0558f2736fc1d9163551cf1f3e7.png",
       "childIds": [
         43052
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42439,
@@ -388,6 +501,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 24,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 3,
@@ -397,13 +513,19 @@
       "manaCost": 6,
       "name": "Bone Drake",
       "text": "<b>Deathrattle:</b> Add a random Dragon to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9305ab704ea314be144786a7a2e4bf14a6b7104b6a4ae1539b2986cb254ad59c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8464f7ce116aede5d5a2d08ed1fd548b43d43aaea2340b3bd3211d9da6df2d5.png",
       "imageGold": "",
       "flavorText": "The bone drake brings all the dragons to the yard. He would teach you, but you have no cards.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abaf0852ad17f866c329e77ca4300d1200232e453b830c1a0d654282e8cb054d.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cb9482939c6092c657b56618f89cf34c11318123a2ee321950c5bed0c29d0c6.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42790,
@@ -411,6 +533,10 @@
       "slug": "42790-bonemare",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
+      "multiTypeIds": [
+        20
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -420,14 +546,20 @@
       "manaCost": 7,
       "name": "Bonemare",
       "text": "<b>Battlecry:</b> Give a friendly minion +4/+4 and <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76705c0b9c3eaaca4c950a9287eeca9077eb0243b3ffb3f7d990966d0a15cff6.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/909368a232cba2119edd11d00d49298c29e727bd987e692cfe5e6f617f834617.png",
       "imageGold": "",
       "flavorText": "Attacks her job with unbridled enthusiasm.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1afed403fb4b3638daef0a3bef66c475ff734c41c886078653aa8d3c1f72a78a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69bfb53af79fd35964dd7637730910553ba23a3fe1dacecde1d237c4947d1c4b.png",
       "keywordIds": [
         1,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43502,
@@ -443,13 +575,19 @@
       "manaCost": 1,
       "name": "Breath of Sindragosa",
       "text": "Deal 2 damage to a random enemy minion and <b>Freeze</b> it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f10e56c6b1426cbbf6aaf85b4f3de9c79e9f0ceeb553c721639c38540da64597.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/97d9e43496fa26f38f99a8172acd29de22a1250243506136ab7cd79aca74f7f3.png",
       "imageGold": "",
       "flavorText": "Is it cold in here or is it just Sindragosa?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a65850de7f43f5a9dfa98bbf36e8991425783c3c38cd62fa04db2b7203c4a9e2.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d0160497ac966e14a0be9824d549aad975793f9bfaf1a3b2ae735274eb0ba41.png",
       "keywordIds": [
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43505,
@@ -464,10 +602,16 @@
       "manaCost": 2,
       "name": "Bring It On!",
       "text": "Gain 10 Armor. Reduce the Cost of minions in your opponent's hand by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62b5bdff509ebf336240a3071cf1413881765505b6be6dc572ec4247f4d56c42.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/999328f6d9367713889026ee6934ebad83fb1ad3b8b40c778d04903b3f9c0441.png",
       "imageGold": "",
       "flavorText": "Brrr, it's cold in here. Let's hope she doesn't have an Auctioneer!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/615c506328593bc31aff9b6bfbd7ba8f5d54b05340f6ebe81f1aecd56e88bcbe.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fefc835ae0bc33d1a17254f7e50b46c61b6bafa32665b57b1bdeaeb0727ed4df.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42678,
@@ -476,6 +620,9 @@
       "classId": 8,
       "multiClassIds": [],
       "minionTypeId": 14,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -485,14 +632,20 @@
       "manaCost": 2,
       "name": "Brrrloc",
       "text": "<b>Battlecry:</b> <b>Freeze</b> an enemy.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/050f6779c2b1d812b22c82bf8f8ff937169d90dec2dc1e9b837964e3d98e715c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d99c2a56194e6bacd5d9bfb7e404a9db167d4e90f18c646782a542e6db4370fb.png",
       "imageGold": "",
       "flavorText": "He may be frozen fish, but he fights fresh!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/096d1897cf830d00d0ef68bbe89f2942758ad647ba54ee0a6cbcf2b92f9ef774.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/13c5f342e54a4618d4658a88922ed9e511e097cda8280a112ae92f2ebf748a26.png",
       "keywordIds": [
         8,
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43127,
@@ -500,6 +653,7 @@
       "slug": "43127-chillblade-champion",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -509,14 +663,20 @@
       "manaCost": 4,
       "name": "Chillblade Champion",
       "text": "<b>Charge</b> <b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7d250b8f1789a7a778d3d44a94c7483deea6c5e15cffd67b0550d95f3952878.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06c6a6ed509685e5ae9eca859020faeaddae42a016302605e7fa7cc00d0288b5.png",
       "imageGold": "",
       "flavorText": "It slices, it dices, it vaporizes! The Chillblade will make a Champion out of even the lowliest gnome.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ccf6e2754d285befece9394a9870f96ae6c7b2f224f48910dd08594a858df27.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/087093fa436b98505262fdf9ccd0ecdbb7f1eea1c783fbc60f10e63a8eaa05a4.png",
       "keywordIds": [
         4,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42442,
@@ -534,10 +694,16 @@
       "manaCost": 5,
       "name": "Cobalt Scalebane",
       "text": "At the end of your turn, give another random friendly minion +3 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd4d906f046fd5a6d3d7947fbb260448d4b5295a95e70d1731e641aa160cb876.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7655b1aa7b45ac7a5f7d75e7e1f7f0af6242504e70bbf92a3e8d4b673de20a52.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/947104e7aacf6c15304d0987d39b9269e282b70a126751d572fd27031d6f9d02.png",
       "flavorText": "You get a sword! And you get a sword! Everybody gets a sword!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39819747d5a7274fbe86f39b204fe21960f6f7ecc1b60ab9e06f97cbd3650f9e.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39819747d5a7274fbe86f39b204fe21960f6f7ecc1b60ab9e06f97cbd3650f9e.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42836,
@@ -545,6 +711,7 @@
       "slug": "42836-coldwraith",
       "classId": 4,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -554,14 +721,20 @@
       "manaCost": 3,
       "name": "Coldwraith",
       "text": "<b>Battlecry:</b> If an enemy is <b>Frozen</b>, draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1949600a1e2671c17e37129c1980bc0f3b63e68a1a22acd1c29695a1efebb82.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21faee87c00283e529d251141f6d2e802706142c335e8ebea04b2919301cd5c9.png",
       "imageGold": "",
       "flavorText": "He's freezing his bones off!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ae0b7b056e8fc88073f8bc2583952b0e91c32c1de2db3849d59592080fc1f49.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b81e97737d327aa361e733f10a8fe5eba823eb219d45d6c12b880037f50cef8b.png",
       "keywordIds": [
         8,
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42909,
@@ -578,14 +751,20 @@
       "manaCost": 5,
       "name": "Corpse Raiser",
       "text": "<b>Battlecry:</b> Give a friendly minion \"<b>Deathrattle:</b> Resummon this minion.\"",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5be800626236a69af5ce2f3d39b858839b4e01911586d43594d6293c32bd6d33.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8d042298e9e6623eb92cdf5d89c67e89fc281a01799b4a1c89d7cc473349235.png",
       "imageGold": "",
       "flavorText": "He was just minding his business, farming corpses, when you meddling adventurers came along.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/177674f63b4d213d71a46a26973ccd60126c7a6921f8dd339a970dc13791cafc.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/699ab551df1a7a5255c8e940211ba1e758ede8d6e9bc29343ed156e80e38fcac.png",
       "keywordIds": [
         8,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42822,
@@ -594,6 +773,9 @@
       "classId": 3,
       "multiClassIds": [],
       "minionTypeId": 20,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 3,
@@ -603,13 +785,19 @@
       "manaCost": 5,
       "name": "Corpse Widow",
       "text": "Your <b>Deathrattle</b> cards cost (2) less.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0fb08b8e4689922986436a099a87bf33ae095dc88890cff5583d4a6bc70a9017.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/79672ae3a510b5e7f525a0884dc11e4246fdfe3e1ab32601081d71e3a302396b.png",
       "imageGold": "",
       "flavorText": "Her marriage survived death, but it decayed pretty quickly after that.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a675a26f0cfb5065d236ecc1bf67b4d056cca2f8ae336bc703af48b2f6c60870.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/070c7347f9f986dfd251598185973b3bba5b9ac5e56e64089dd34418630af9fd.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 46102,
@@ -617,6 +805,7 @@
       "slug": "46102-corpsetaker",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 4,
@@ -626,17 +815,23 @@
       "manaCost": 4,
       "name": "Corpsetaker",
       "text": "<b>Battlecry:</b> Gain <b>Taunt</b> if your deck has a <b>Taunt</b> minion. Repeat for <b>Divine Shield</b>, <b>Lifesteal</b>, <b>Windfury</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a54e8ffbfda60b4eb8c0b9c612d3849b5736f3f0b45f1a3608e44342bef32a59.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72d0c0b99b86156feae3c884e7348f8edfedebbdfb990cf481013bfd51077510.png",
       "imageGold": "",
       "flavorText": "Her extensive collection of corpses includes one of nearly every type. She'd love for you to join it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25b661f704c2e9713b07f1312a3ca125d71d3f06b66595ecdf5edf45fd0aaf59.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7550aee8eac034268072e19f3e152fef000d041be7d2ab136d10aa018d01e89a.png",
       "keywordIds": [
         1,
         3,
         8,
         11,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42676,
@@ -652,13 +847,19 @@
       "manaCost": 2,
       "name": "Cryostasis",
       "text": "Give a minion +3/+3 and <b>Freeze</b> it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd3664fd86a0f02534567e2389ae3b36107f2e3ed4796d9837d425daceb4eec2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/110bdbb6f9123d94aab47aafc19567b51440bbb9055819198c8eb94dd7321dda.png",
       "imageGold": "",
       "flavorText": "We'll thaw you out when we find a cure!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/174c563102c89ee736b530967095746167f466212de202ff14804b3341e1c6b0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d7fd2b5843a73861357aa6f3371cd84d73b80a5594e1eae2045062639ad707e.png",
       "keywordIds": [
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43025,
@@ -666,6 +867,7 @@
       "slug": "43025-crypt-lord",
       "classId": 2,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -675,13 +877,19 @@
       "manaCost": 3,
       "name": "Crypt Lord",
       "text": "<b>Taunt</b> After you summon a minion, gain +1 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b0ef51460ddf2c19208001869fd0a2c356877a31e862a6b1fde9724e5008884.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83ce214f2e558428f4b1013f36fcc75a66f4c7fe59c929bb52bc467c85b1e871.png",
       "imageGold": "",
       "flavorText": "The original fifth beetle!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4a3dcb764ff60a8694bf66107b1037af3d55bef7a33c63934eb245c95bfcdc5.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2bf522140da10f52baac2df63bff09c72773106bc7751743ab58673de15b429.png",
       "keywordIds": [
         1
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42469,
@@ -697,10 +905,16 @@
       "manaCost": 2,
       "name": "Dark Conviction",
       "text": "Set a minion's Attack and Health to 3.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b88def14d129c32c830df37b519855ecb79d797712620ced28e12147cc6752a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc0145f0f4b6160816b1af057231bde7cb2b1722a62fe81858359415cdcc254e.png",
       "imageGold": "",
       "flavorText": "In his court, Uther is judge, jury, AND executioner…",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11c5c74c7de2269c4a9d6ea1ded769851c8bdb808699f0892ed16474b0c8e44c.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/043b1e74fd28d3073b5bb77c6c06393f974563e13880521ad470e5ac03a0db63.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42766,
@@ -715,10 +929,16 @@
       "manaCost": 2,
       "name": "Dead Man's Hand",
       "text": "Shuffle a copy of your hand into your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ca551cdb736afd2f20071e01133ae6552735d5a9a9ab828a9f5ed7cad3b8e9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fdaedf74cc2156a0da4662cd7905bddac117e23530515dc61fd8f2219632594d.png",
       "imageGold": "",
       "flavorText": "I got two pair, Rags and Armorsmiths. What you got?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/882784dcb6d410204016a6dfd600a6e0916052f924a6c5a15b5a2685ea686f08.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe298bed4e4196db24fc215a89c67f2c1fa183296e52881bb5ad47216aeeeaa8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42663,
@@ -727,6 +947,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 14,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -736,13 +959,19 @@
       "manaCost": 1,
       "name": "Deadscale Knight",
       "text": "<b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94c78e9f17a887f32996cdebc989d987e3d44c7cd0412c0de277b46641ab3812.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef3994d6e96f06695ebea3fcd70370a09dc07d69c9ae667c5308aba35f8a559e.png",
       "imageGold": "",
       "flavorText": "His favorite spell is Chum Explosion.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcfb68a487cc571dcbb1da047cd19a14522095697f9a587fb7b0e1326fd79afd.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23f72660f5eab800d23c0189790df5fad93fc2da36b2969fd7687342ea345fb6.png",
       "keywordIds": [
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42392,
@@ -750,6 +979,7 @@
       "slug": "42392-death-revenant",
       "classId": 10,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 3,
@@ -759,13 +989,19 @@
       "manaCost": 5,
       "name": "Death Revenant",
       "text": "<b>Battlecry:</b> Gain +1/+1 for each damaged minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0d4da0cd0b351468f8bddd0c7db2deffe9a6f002354d63aaf0a1873e0367192.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a11430934e8a2f06321ff9f6b387cddff1fbfc0387dbb9b0c005d59a4e3671c8.png",
       "imageGold": "",
       "flavorText": "How's everyone doing? Hurt? Bleeding? Wounded? ... Excellent.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e85b523bc424ce3c5b03accebff11f54059b8108d69a410b078126d7dde46db.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/354a84905c309a7cc39db9c094fa98a3947945146605758ff9a98a84c5e37385.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43029,
@@ -773,6 +1009,7 @@
       "slug": "43029-deathaxe-punisher",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 4,
@@ -782,14 +1019,20 @@
       "manaCost": 4,
       "name": "Deathaxe Punisher",
       "text": "<b>Battlecry:</b> Give a random <b>Lifesteal</b> minion in your hand +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6920425f972f312b45400c14dc67cf2c8d65ee21bcba4c8fd6ac0795f58d62a8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/981a1ab8d6c8e261a2311328929ab21c4c02be60a68185eadf085a04b83b67fb.png",
       "imageGold": "",
       "flavorText": "Don't fear the Arcanite Reaper.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b1dfd8566f7313dbce14160c8c8a95f9db19c8c32c2708324f1d9b20394e472.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3946ad3c43d5a0218832742218b4dbbb5f039c810240dc3612844e1ee304ee00.png",
       "keywordIds": [
         8,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42394,
@@ -797,6 +1040,7 @@
       "slug": "42394-deathspeaker",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 1,
@@ -806,14 +1050,20 @@
       "manaCost": 3,
       "name": "Deathspeaker",
       "text": "<b>Battlecry:</b> Give a friendly minion <b>Immune</b> this turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/651e6056fcdaf5ad2baec735e84e56a921a551631584ab1166648f00f29a77b7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac08d083f54e684a145a988eb17ca767301dc89ef6ee31271c22100340b2881d.png",
       "imageGold": "",
       "flavorText": "It helps to speak really, really loud.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/92b353eea2f0d8fc44a65ed22a548911ad344e6219a4b99b19b5ec93b2c4639b.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c761d992df020ca8bd73db785c1b43f1f68cd6a7ebc7f32daa6e15ccbbda3ec.png",
       "keywordIds": [
         8,
         17
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 43398,
@@ -830,17 +1080,29 @@
       "armor": 5,
       "name": "Deathstalker Rexxar",
       "text": "<b>Battlecry:</b> Deal 2 damage to all enemy minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95b7094d4714b3708bef2247743b717becf36c462111273fe034c09e8e0b9a7c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53d1527d12cff1388c52b00556bc52aea5d3a8e0d3e37e7214533803485f06bc.png",
       "imageGold": "",
       "flavorText": "\"You were too slow, old friend. The hunt began long ago. And now... it will never end.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f9b5558a16e391c41bc91a634ae9ae48d444127e709202046845e116269a935.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa19a2ab360d1be90f7ef134e5878190bf55b8f31a133ea63ba94bdd4be15229.png",
       "childIds": [
         43183,
-        46119
+        46119,
+        46204,
+        46672,
+        50141,
+        50142,
+        50143,
+        50144
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42471,
@@ -856,10 +1118,16 @@
       "manaCost": 2,
       "name": "Defile",
       "text": "Deal 1 damage to all minions. If any die, cast this again.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5feccdd3339069d9926b7d0f90a186c194ec6fc5fd51aa8489c3a3f653b8ce5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f93e5b74a990c5f0870a658b1bae2280e3bec02ca0ca7d1d0abb35dd0c62c711.png",
       "imageGold": "",
       "flavorText": "This spell was originally designed to help warlocks clean up their hard drives.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00944df6b46561eee9c308bf1529faea32ad5237b64e0cc21daa6e8024cafca5.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2805fbb1581c53ed5561cb881dcd86b841cabcf0b1995a5f3312b0884fef203d.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42824,
@@ -875,13 +1143,19 @@
       "manaCost": 2,
       "name": "Desperate Stand",
       "text": "Give a minion \"<b>Deathrattle:</b> Return this to life with 1 Health.\"",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a55a690978dd114b90d066dfb66030b3c4b65f22aab76c9c3bd08732bd789b2c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/88b38a63d8122dd593e40ce0541521536c1a32f757224bdce290d67945287672.png",
       "imageGold": "",
       "flavorText": "They're grateful for the help, but most minions would prefer not dying in the first place.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e102f92f1fc3a46a815b5befee899da9dbaa30b7cd311a34087132c2b3bde8e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f301fa2dd84f4ade1ad3ceacc49c95916a6c7d387b2815334611e0d56d89ee84.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42743,
@@ -899,10 +1173,16 @@
       "manaCost": 5,
       "name": "Despicable Dreadlord",
       "text": "At the end of your turn, deal 1 damage to all enemy minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4620cc9f8219bab8a46acfac95aadbde515e9212556b102a1bd6e53c39e128bd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a701988572fe9612668df893dce2b54b4d556e3cfd9022e1a5f995f017686303.png",
       "imageGold": "",
       "flavorText": "He's deathspicable.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4735e06dc0db1cb09fb9b7f88e9c638b3d247b19b61175535096c67c7efcb108.jpg"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5334f725e2bc88c2e05e711c82569693541058d94ed9101a94e11de6c197cc4.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     },
     {
       "id": 42566,
@@ -918,10 +1198,16 @@
       "manaCost": 5,
       "name": "Devour Mind",
       "text": "Copy 3 cards in your opponent's deck and add them to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ec95fe6fd32edcf354a9aa43398c5c6efe66fdf22707d8eed7356043e1354d4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55a7f759de89af0bcf477ecdbfde6a43796bd8c545bf36bfb343f676afff8fd2.png",
       "imageGold": "",
       "flavorText": "A mind is a terrible thing to waste. Seconds, anyone?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d24ffba94c80b4514556f69b847e4e69cf6801dc1cd3564f14ed9a1a4fe23cc.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/981fc3f78838918d73c096e27ec3117dcd19af48a244ffb9528ed73b245b7c6e.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
     }
   ],
   "cardCount": 135,

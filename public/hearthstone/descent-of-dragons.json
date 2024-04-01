@@ -25,7 +25,9 @@
       "keywordIds": [
         1,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55036,
@@ -45,11 +47,8 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d5b6a778da1439c038dd223c7ca593e5ec1a2e63e3387c6839d767ca48736e5.png",
       "flavorText": "Good seeds can go far.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01f1348a5ac3a2fa59b84524f548c82963a3ac003936bf8065f7d62e24202730.png",
-      "childIds": [
-        678,
-        41432,
-        59552
-      ]
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55048,
@@ -73,7 +72,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/272ce3f7aea1d5d07fc2fed11f886f04a00296d25869466e852e0fb386e47707.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55006,
@@ -93,7 +94,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7b7c7941b1001b8e92a07c11f95dddc5847099bc5d698b9249e0e02ed0d09b3.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b9284fee26b0e46bceed85257250760ad7d9a15251f202462126f987afa409d.png",
       "flavorText": "The problem with anchors is they often end up sinking to the bottom of your deck.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90e49dc6ef9d919d83606d247ae0a8086344d27193cc578cc1b92fed11ee7875.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90e49dc6ef9d919d83606d247ae0a8086344d27193cc578cc1b92fed11ee7875.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54906,
@@ -115,7 +118,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36814217ebf7a4b8e99dc2602964ef033ebcc7495cf8c6d52d331939fce26dcc.png",
       "keywordIds": [
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55250,
@@ -123,6 +128,7 @@
       "slug": "55250-awaken",
       "classId": 10,
       "multiClassIds": [],
+      "spellSchoolId": 2,
       "cardTypeId": 5,
       "cardSetId": 1347,
       "rarityId": 1,
@@ -130,13 +136,22 @@
       "manaCost": 3,
       "name": "Awaken!",
       "text": "<b>Invoke</b> Galakrond. Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/349efb8d6a76e19440d4b3a7215be79f9d544059768cde410dd3bfe6948c7924.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12f6a6337e1c4aa21d110f3885ba9226314f8da864dfc03ba91be25aeceacf84.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ff9c79c5eed7de4b95c67fdf402dadd89b597bc5e49f8d0a66e446b85b25949.png",
       "flavorText": "This is an alarm clock you can't ignore.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/072157fa7801a258eff4fcdf9abab3d713e818dc8b80769f029227d7f7361999.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/debb04bf0563fa609c93ad5408a89c754157291e247f832e6f073e12e0ebffbf.png",
+      "childIds": [
+        55805,
+        57413,
+        57414,
+        57415,
+        55819
+      ],
       "keywordIds": [
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54901,
@@ -162,7 +177,9 @@
         2,
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55421,
@@ -189,7 +206,9 @@
       ],
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55643,
@@ -209,7 +228,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1354380f2128eed9a03805fd9ccc6d158f6899b7ac484759e5aaeeaaabc103f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57d151b7327ddedde825f0f4c1a664e02a3d02591d9bc84a3a5ed8408ed8cd47.png",
       "flavorText": "The Shudderwock finds him particularly frumious.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dae6848a6bdb21e6933a34cdb9c29e1ac9987e63b97dc348aeeae8a3b5d37205.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dae6848a6bdb21e6933a34cdb9c29e1ac9987e63b97dc348aeeae8a3b5d37205.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55399,
@@ -233,7 +254,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/090f3be3193b0b3e6adf6130e1abdddde7e418ee456867a1882e48da99d60e16.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55161,
@@ -253,7 +276,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/448b479759c81c347904b7a1d007215d5c727deee40804b51ad142d821bee999.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f9e484311bb62198b969078a7751c040ef04a2616e39d9263ee7ca80aa51830.png",
       "flavorText": "Weaponized an ancient technique once used to slice cold butter.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18e3f08127f9934b06d0cabf6a0d6c9811285442ec440a4cc9385e7ac644337b.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18e3f08127f9934b06d0cabf6a0d6c9811285442ec440a4cc9385e7ac644337b.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55103,
@@ -280,7 +305,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56226,
@@ -303,7 +330,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f62e162fb5ff4b7ed4b0ec55d1a8ab9bcc7ebed40ea7517cfe01a952d8bc5e60.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55052,
@@ -322,7 +351,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc6b55f1946ac749d5ec51bea85760c549b75091ddfbb5a2a028df72b0a24a76.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da02fa9a5073c41b3917af8a9a89896632975862f28f0702a8fb5d367118cd01.png",
       "flavorText": "Ysera has the worst morning breath.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d3b4b5035364545c33a486074703bba339ef5e7426b8216a036029fee83f74f.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d3b4b5035364545c33a486074703bba339ef5e7426b8216a036029fee83f74f.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54898,
@@ -340,7 +371,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c605d9028e6ae759bed8d91d0814af9f21b4cffa6afb25dfd5ca78db3945621.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c01514d8a5c21236efc577d2055f24ab422dcf2e4e82c6c7a9079080fe1c5d7a.png",
       "flavorText": "It's called \"circular breathing.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40334189a9c0e67e2ddcf9956c7648eeafa3805d16671e252e91f3a7cabd66b9.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40334189a9c0e67e2ddcf9956c7648eeafa3805d16671e252e91f3a7cabd66b9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55056,
@@ -354,19 +387,21 @@
       "rarityId": 1,
       "artistName": "Max Grecke",
       "health": 3,
-      "attack": 2,
+      "attack": 3,
       "manaCost": 3,
       "name": "Bronze Explorer",
       "text": "<b>Lifesteal</b> <b>Battlecry:</b> <b>Discover</b> a Dragon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/466cee91eb5100bc94bf1287642811f488173ee7d0d3f9813ae4d92239829cb9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d51e8906cd1b4a4b125189f05bb0c8784809f70a5b7d08177cdaffd4aa942b2b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72f3f710797f5643e5dd4d1242cf42fa335c292d8d7b99e02d2e3ef6cf05af11.png",
       "flavorText": "Always ready to explore new friendships! Except with Deathwing.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/418e72ffdb99c6432811a65ff581032234590e017edfaffe5578e38551624ce1.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf1d533755266182bdc90818ba8fa45f45743696e02b56bb7ee49b194f99e988.png",
       "keywordIds": [
         8,
         21,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55424,
@@ -391,7 +426,9 @@
       "keywordIds": [
         6,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55101,
@@ -410,7 +447,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e3973c5a68683ba7f6013f1c2016ddf9e84cca78c9656819ef7318d2d08df3a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e74755b768ef1e72bcaa196019cd65c957f7862d9168947d8288a778f11a914.png",
       "flavorText": "\"And Waxadred shall light their fires, with roaring breath hotter than pyres! Come before him, scamp and vandal, pledge your faith and lift your candle!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3628882497fdad09e7ba718f2469d4d0b2abfe20cffcc7487b95a2c83e0f46f7.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3628882497fdad09e7ba718f2469d4d0b2abfe20cffcc7487b95a2c83e0f46f7.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54904,
@@ -434,7 +473,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d4adae87f1aad4acd700ecd9e5482263ed55c8ce4c70377995c90a73e4f4063.png",
       "childIds": [
         55314
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55454,
@@ -459,7 +500,9 @@
         8,
         12,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54876,
@@ -483,7 +526,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6218c5311d76207d433d5875793bfcf653b2c698fe935722bdf0306962c838cc.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55288,
@@ -508,7 +553,9 @@
       "keywordIds": [
         53,
         89
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55425,
@@ -526,13 +573,15 @@
       "manaCost": 5,
       "name": "Cobalt Spellkin",
       "text": "<b>Battlecry:</b> Add two 1-Cost spells from your class to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a0f5822789e54fdec06d30a5b58ca5fa513bb9412bc76d870c0b2367b609345.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df129a8d0290f6d724839a259f765f0060eff45aacc789b40ba250c60213757c.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1adf335b7108a32844c21513dbf1e54ed580d21e549cd393802940346a8abf41.png",
       "flavorText": "Spews more spells than a sleep-talking wizard.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16462789cbd28388f690229ccfb966c1511836e231ac885abaebd880bf55d40e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1dab27ec3ffc80402d627a26410eb43aa39d03760a8a1810f503a3da325270d.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54922,
@@ -551,7 +600,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a72b6411e147d6415667f09db0619b5609f774a04fdd657e621eb57dbc086be7.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ec43a0c42df25d3863c13ae0872afc4faa977bc284e75f1ed48e295f75b117b.png",
       "flavorText": "It's a breath of fresh terror!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/413287ea5ce1effd3f1fd4dad67e43ca8f4dcae1525db7002142b11f5f94787e.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/413287ea5ce1effd3f1fd4dad67e43ca8f4dcae1525db7002142b11f5f94787e.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54969,
@@ -572,10 +623,23 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40b00ad5dde92293213abeb498ad9465469732ab8848e7b73885c242e12e6ed5.png",
       "flavorText": "Her element is \"Horns.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fea1ac4760f788d9c17a209cd457b917f98fd0b7f08fa0f64a90539ebfa057a0.png",
+      "childIds": [
+        55808,
+        57427,
+        55809,
+        57432,
+        57433,
+        55819,
+        57434,
+        57435,
+        57436
+      ],
       "keywordIds": [
         8,
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54885,
@@ -599,7 +663,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/505b2d44dea299d0e7cde26051e228c5de0a58682cf52f53cb4e262cb9f69b3f.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55021,
@@ -624,7 +690,9 @@
       "keywordIds": [
         8,
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54891,
@@ -643,7 +711,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac84d1f0918a708e35bc539d7af677017d229dee7c43a8f9b654631dd576502f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31cd50268616784252be91b9c8f617803dd5f2ce6e426e2b8cae67eed46c0f96.png",
       "flavorText": "\"It's a drizzle of fire. A fine mist, really.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f55c5323c192325158c91020e5c5bb9359cf553c910edfda87ec0e1e7d5e38b9.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f55c5323c192325158c91020e5c5bb9359cf553c910edfda87ec0e1e7d5e38b9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55007,
@@ -667,7 +737,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2ae75ad9a24ebfb5aceb785a8b86e308169df8b11af7b7de21740df96981181.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55428,
@@ -687,7 +759,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d557ab3decaf8f180724353b6ba8ce48b0622c0abc5b37267be3f0f8e27c8955.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96451582bfcabad52b431e0b29d3d8b26d4cb99969d4393d64545bf257a752c5.png",
       "flavorText": "* Does not have <b>Charge</b>.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95ecac27c55678a55490adc0d0a08d99d58391dea6376ecc37b1506ee36e6070.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95ecac27c55678a55490adc0d0a08d99d58391dea6376ecc37b1506ee36e6070.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55210,
@@ -708,11 +782,48 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/526157e5c1c75e2cd2e6f12e44a706ae0123af783f1834c080d71ba94205379d.png",
       "flavorText": "There are plenty of apathetic maniacs, but they couldn't be bothered.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/64bc0ec98c7d05aa39187afbc9bcff75ff2ea7a300b16237fed9083a12d9b9da.png",
+      "childIds": [
+        57416,
+        55810,
+        57419,
+        55806,
+        57427,
+        55808,
+        57329,
+        55807,
+        57413,
+        55805,
+        57417,
+        57418,
+        55819,
+        57421,
+        57420,
+        53160,
+        53161,
+        53162,
+        52897,
+        52900,
+        53163,
+        55378,
+        57432,
+        57433,
+        55809,
+        57434,
+        57435,
+        57436,
+        57330,
+        57331,
+        55366,
+        57414,
+        57415
+      ],
       "keywordIds": [
         8,
         53,
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54874,
@@ -733,10 +844,19 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/782b90b9d4883b1173f53762051bcc2bc9ae845209aa452a7da725192b03fe60.png",
       "flavorText": "Raising Galakrond will cause thurible, thurible damage.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c6373f78043f25b8411f90edaba31bc77f04b48a6bb18c575db7012e42003d2.png",
+      "childIds": [
+        55810,
+        57416,
+        57417,
+        57418,
+        55819
+      ],
       "keywordIds": [
         8,
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54926,
@@ -761,7 +881,9 @@
       "keywordIds": [
         8,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55420,
@@ -784,7 +906,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1380151b12df9fdc9a3d182a1765c8e6eb5a24b616732828cd4823042e433344.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55095,
@@ -805,7 +929,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5522a9ba2f06f18b178c4c91ee76dd1469941dee3e4564d9c9ff65e30d1b3973.png",
       "keywordIds": [
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54967,
@@ -830,7 +956,9 @@
       "keywordIds": [
         1,
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55303,
@@ -851,7 +979,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b34b8f7486ea496aacae994d714e215a7d9e485406e81d7144c0b687344aef9.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2989a48d7ea26bc71fd4030e9bdd9b5737c91bca86d1172403844969fa1860a1.png",
       "flavorText": "*Thunk* \"That wasn’t a dragon!\" *Thunk* \"THAT wasn’t a dragon!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c7adc862a59debd29099d4aac7ba9b500f696b641224ae6eaef4819eb45d00a.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c7adc862a59debd29099d4aac7ba9b500f696b641224ae6eaef4819eb45d00a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54888,
@@ -872,10 +1002,20 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/076751f7c9adc034ab99ec55e4e4111452c38804b1042f1341a6eea88dbf9595.png",
       "flavorText": "Galakrond would be extra mad if he was resurrected with gnaw marks on his bones.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0dae3549759b7f1c97770d3cf6874cfcc0dd55f52ad79e9b3ebb682751ace783.png",
+      "childIds": [
+        55807,
+        57329,
+        55366,
+        57330,
+        57331,
+        55819
+      ],
       "keywordIds": [
         8,
         79
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55280,
@@ -892,13 +1032,15 @@
       "manaCost": 6,
       "name": "Dragoncaster",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, your next spell this turn costs (0).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a9c6c3f406d159154590c213178dc4d72558a6ced16ff9e4d24d558bdb704683.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b36ca69bd416623f5a0fac9cf407267a3554547b405f2b0eb9a615e3dde6388d.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/71301a4f04ebb245851746e145ec03680c6c735dbb2913bf96560930006240c1.png",
       "flavorText": "It’s challenging to perform magic on dragonback. It’s so easy to drop the rabbit.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69d7d767288938a15259d947c62798474b82b3323729ec759047ca2a587e4c6a.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 55408,
@@ -922,7 +1064,9 @@
       "keywordIds": [
         8,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 140,

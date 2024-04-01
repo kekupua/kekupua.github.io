@@ -16,7 +16,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89b664b84f5e37175fc02bbfcda4d46caf397dc1672a5c6f03f99caef31558a3.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f97341fca6f862c44fb5945b9e6a8a64ceb74b91a9927eb2e9fe515d44d64ef.png",
       "flavorText": "The tenth Pyroblast really felt like overkill.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50966e7b031ea2c40dcf62cfea7306cd93d799878c88830523fb0219ce7b40e8.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50966e7b031ea2c40dcf62cfea7306cd93d799878c88830523fb0219ce7b40e8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48993,
@@ -34,7 +36,7 @@
       "manaCost": 4,
       "name": "Annoy-o-Module",
       "text": "<b>Magnetic</b> <b>Divine Shield</b> <b>Taunt</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f22e77adbdfc6d5458cfedfb598b7ff0f9fa541b3f8ada0bfe079d26b861ae3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0ead20f1f2b71e1acbbe3d443e99b8199d271ba2d5c23f93c18390dff2a22e8.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0687f52b32ba5664a3da1b3b1b04110323e0a98833ea2b2c1f2be6cd53b3358e.png",
       "flavorText": "Every ten seconds it asks if you want to update.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6475fde8b711e88dab740632afccd18a3ff30ba2766ece74271527574337f2fc.png",
@@ -42,7 +44,9 @@
         1,
         3,
         66
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49171,
@@ -66,7 +70,9 @@
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 47978,
@@ -85,7 +91,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58bc146aa063622c50280496e7b4d91479cd9571859192ecd9c9ca9f31b2322a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/20a958eb0441b7ee78f089ebc708df176e60ce57b9b90b87bdc3b28f5e192993.png",
       "flavorText": "Let's see what's behind rift number one!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82bab61f8c90d1837c271b35717936d2472d12c8f88842df975f15a6bca644f8.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82bab61f8c90d1837c271b35717936d2472d12c8f88842df975f15a6bca644f8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48195,
@@ -102,13 +110,15 @@
       "manaCost": 7,
       "name": "Astromancer",
       "text": "<b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161aea11ba8a2f74e0abc1a04ad3dbd431e244f9c16a04f37be84bda8195981b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ac9c28485e967c0e4d42cced9b26d74f3e3ffec8d4a1b3be5a27ba06d43f5a0.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbc0457513fbfad43506aae23212c8b45d57140c933c983a49764b36222988a9.png",
       "flavorText": "All signs point to Antonidas.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b99dd32aa89db8416814d504e27126830b7569de5a863ab91d6fe12c9b12c9c.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b743556ced955a1699ea17422adec0c9895c1594139c10808495ec8cde1a8cc.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49269,
@@ -117,6 +127,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 20,
+      "multiTypeIds": [
+        17
+      ],
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 4,
@@ -126,10 +139,12 @@
       "manaCost": 3,
       "name": "Augmented Elekk",
       "text": "Whenever you shuffle a card into a deck, shuffle in an extra copy.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19678153cdc09aa1d3ab56f12c0721e648802f2e27993616630fe11772279a3f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/811c27144147c05bd048181bcc1ecb670753e77a0201b52c66c1e24baa5bf807.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/528ee38422e04c814a2ed5dc8974b205897c2211a51a080011952b10179d204f.png",
       "flavorText": "Her friends call her \"Shuffleupugus\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fe15b1cd2007a7124ce44bb88390f7d71dc37d328c4af3faa17d2b64020dc4b.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8b2864541dcd431962e51ba837ada2ce9a7d9c6dd60d1bd4f42fdb57fb0f7c3.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48984,
@@ -151,7 +166,9 @@
       "keywordIds": [
         3,
         5
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48798,
@@ -173,7 +190,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/88b3f1e46edf1090fc5dbe969b38e29efb4b14c1ebd7901181f8a8a41e1c459f.png",
       "keywordIds": [
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48142,
@@ -190,14 +209,17 @@
       "attack": 4,
       "manaCost": 7,
       "name": "Beryllium Nullifier",
-      "text": "<b>Magnetic</b> Can't be targeted by spells or Hero Powers.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8014e0229fba6f4061e83e216a3f723f3ff43aecae2e00199b621792540e1c21.png",
+      "text": "<b>Magnetic</b> <b>Elusive</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/efe85b3ef3a63ad20d0acae36708b98bfdee220b75d4243ca5b1254bb2536515.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91e12fe11730283659863364c8ef8d58dac6c92cb657a767246a2fee9ecb489e.png",
       "flavorText": "Why Beryllium? Because it's hard to spell.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6340c972eb00ecee0b51cb5711d86077a7c887ba5beeb6e906bd3e5984d25d57.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2178e3928d9fb5fc44e8a0e4d3434ab9eac121e74a7f2d3ea65f5aa775dc40e.png",
       "keywordIds": [
-        66
-      ]
+        66,
+        265
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 47887,
@@ -216,7 +238,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/618a1345fc082f793558403061bf87cc7667474ba859f85c019e29df4c89953d.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/773da3e56ba7750392c24d1fa098c0f235a78acf1c6cccb8eaac7245a6270c72.png",
       "flavorText": "Step 1: Grow giant evil strawberry. Step 2: ???? Step 3: Rule Azeroth!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a29b41d3dd0148af8a5abadd47655b8e217bd9bf5c0c4eeaf5c7ad7364cc3c1.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a29b41d3dd0148af8a5abadd47655b8e217bd9bf5c0c4eeaf5c7ad7364cc3c1.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49361,
@@ -245,7 +269,9 @@
         12,
         32,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 47840,
@@ -266,7 +292,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a5c7da174421a45980ec8d362c20612c8ff8436ca7bd2fc16f79e8c722b4d40.png",
       "childIds": [
         47837
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 47841,
@@ -292,7 +320,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48544,
@@ -315,7 +345,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9321662603d3f6383c210bea15f8a49ac9ab08f748f179e13f663f2d39dff73.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 47781,
@@ -329,18 +361,20 @@
       "rarityId": 1,
       "artistName": "Ursula Dorada",
       "health": 5,
-      "attack": 1,
+      "attack": 2,
       "manaCost": 3,
       "name": "Bronze Gatekeeper",
       "text": "<b>Magnetic</b> <b>Taunt</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2da36d657a3d66c5fad3d9d4d11c4cd29ad882e9ea32a8147e6f6ec464fcf1b4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fdab2f6e1a5d1cda755ea5f2c0efae1bcb0659ad8de7954d7b106a5bfd9d2033.png",
       "imageGold": "",
       "flavorText": "\"You have my shield! And the rest of me too.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be1d1403635fac6a1bd3a5d28d295efdd6fd63767ef84ffe3d520295fc61afe5.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c13ca20edc05bb4d1f617d6de46e7be34b21e780f81a44a6fdf33030016f0fa.png",
       "keywordIds": [
         1,
         66
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49163,
@@ -349,6 +383,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 17,
+      "multiTypeIds": [
+        20
+      ],
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 1,
@@ -364,7 +401,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2cff8d918d5d4633fba8fb6bbbf4e1f510a7adc22bf996b9dd40a4d04ebcc924.png",
       "keywordIds": [
         3
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49263,
@@ -382,14 +421,16 @@
       "manaCost": 2,
       "name": "Celestial Emissary",
       "text": "<b>Battlecry:</b> Your next spell this turn has <b>Spell Damage +2</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/307cfc50c82c198250a120bc4c876e6db6c07f23e5047018dd40e59912104d0c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb004b17f28745a172cbb1cb8343ed8027d43cd5d8c794b7e748469404102eb6.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d6d8f276a5d95b7dce3472b31b2ac5ac94ac7363282851e6a2482a63961fb3e.png",
       "flavorText": "Casting with the stars.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1fa2ccbbc14961b4877b1c58bc86a1d315fa8f68f07730e52016f10ca39e0196.png",
       "keywordIds": [
         2,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48566,
@@ -413,7 +454,9 @@
       "keywordIds": [
         3,
         6
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48759,
@@ -434,7 +477,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f53b2566fadde527cce9b8b6ee261b5d449e035b36bf1d1f1fbf52bd8ff7ad35.png",
       "keywordIds": [
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49233,
@@ -443,6 +488,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 17,
+      "multiTypeIds": [
+        20
+      ],
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 1,
@@ -452,14 +500,16 @@
       "manaCost": 4,
       "name": "Coppertail Imposter",
       "text": "<b>Battlecry:</b> Gain <b>Stealth</b> until your next turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6ab1d0d189cf2c79bd5de47fcdeea5732cce41a80bdb915ec98e8fc61fa5f5a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/761bffbaa87e85e84fa7c533841767ea08f556d6fbc52b952c0f977fb85426e2.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b86d3eca9a0790964ef21688c73952282115a75ed7759c394436e62bc15027c4.png",
       "flavorText": "It was fitting in fine until it gathered nuts <i>and</i> bolts.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d43e045d7c6b503cf43bfa5697e83c6bf7961f7de6b100328504b96e8bf1f0eb.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80132f7ed52f51f84879561021a9197f85296ef4e554a1c013d688b1d610fabe.png",
       "keywordIds": [
         6,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49045,
@@ -483,7 +533,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66a74f34c9ebef002ec21d0b8fbe6c1683fab67cbaa7816247d442ed3f201113.png",
       "keywordIds": [
         2
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49494,
@@ -506,7 +558,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35633a9c862a2b5d63cd1597ce9cf9d9d3abcd1f5460ebc592b4007f8f88767e.png",
       "keywordIds": [
         13
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49018,
@@ -523,13 +577,15 @@
       "manaCost": 1,
       "name": "Crystallizer",
       "text": "<b>Battlecry:</b> Deal 5 damage to your hero. Gain 5 Armor.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8550909f67532d83914ced60ce9281fb63921a08a9d973abfa58865704be4afb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fed97d2bf814d912ff9b6e7030379bcefba1fd52e509eabcc02747140e96a9f2.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2efbf45b7d84cc89abe23e03f3d3f4977d00bb0d05e01bd63d3ebf27093cebdf.png",
       "flavorText": "This elf's winning the arms race.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07b4a035c7e65ab24e61999db39317b6d159fa8c5e4b58a2164181483d1785d0.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48637,
@@ -553,7 +609,9 @@
       "keywordIds": [
         3,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48985,
@@ -571,7 +629,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/209489ef89ab4e4073b23ae128696013d18d248e07f5602ec01e8662a1238061.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26ee6c4d76859a584944c6af885bd642c0d3705593cfdf9bc1000084b67c6c95.png",
       "flavorText": "\"The Light is neither a particle nor a wave. It's more of a juice, really.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3987f3b910376a603a5e9b729e56f0a00aa075da43847f2f93cab0e239d88b49.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3987f3b910376a603a5e9b729e56f0a00aa075da43847f2f93cab0e239d88b49.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48772,
@@ -592,7 +652,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f6db85de0bc29f30483e2292bf59cedd102ec3ade1df6c999c6e08ff3338e18.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49019,
@@ -601,6 +663,9 @@
       "classId": 12,
       "multiClassIds": [],
       "minionTypeId": 17,
+      "multiTypeIds": [
+        20
+      ],
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 1,
@@ -617,7 +682,9 @@
       "keywordIds": [
         1,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48929,
@@ -626,6 +693,9 @@
       "classId": 6,
       "multiClassIds": [],
       "minionTypeId": 17,
+      "multiTypeIds": [
+        11
+      ],
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 1,
@@ -635,13 +705,15 @@
       "manaCost": 2,
       "name": "Dead Ringer",
       "text": "<b>Deathrattle:</b> Draw a <b>Deathrattle</b> minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3752888be8834833694c1de6a28b7633cec0962549adbe89fd39b41fe584642a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aaa597c08e17f56794b4668d86fd85c07d661dfa04708b27bccdce7aaab5003.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab02c4bf9d1eeadb17659369942fcb338cba1348211ca18b16aac6419d1182d4.png",
       "flavorText": "Shortstop on N'zoth's softball team.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81083754d538a46ba3707d37d77909b1b5cdbf9316b25533704823294d92443b.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59c022b2b85380004bb8890438411ec838263823c3fba291fc214567528e43c9.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50432,
@@ -660,7 +732,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94d24b09bfabb5a26c097d093be84e116c74228cd160c79d8510d6b9df537c2a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90cafa64fdeab7c945e712862efccf646f43a102717ba8f9130192173b96c154.png",
       "flavorText": "Another group project where Jaraxxus doesn't do any work.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/094d4d1e1d64573176e806888d342943d9d8446aa996638163af9039f3a49a32.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/094d4d1e1d64573176e806888d342943d9d8446aa996638163af9039f3a49a32.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49621,
@@ -681,15 +755,12 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf6894abd2b77a1f56c96d026f6643fb3ee0931f594d47fcde093274b8096a09.png",
       "flavorText": "He's teaching his little buddy to talk, but all it says is, \"I am Gloop.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca5d98f54e4936d9ba150deef291f69e02567df9ddcfed723750f271659ae8f2.png",
-      "childIds": [
-        678,
-        41432,
-        59552
-      ],
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48116,
@@ -713,7 +784,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1388af1c9dc4704b8a08ba95cfbb18095b1435652925e54a936967c0e9771920.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48146,
@@ -736,17 +809,19 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/186ce6ac9716fa06c75f8af8c317b6a6dcd2b0756e7ba9f93c5f4051a265ad73.png",
       "childIds": [
         48145,
-        48842,
         49364,
         49365,
         49366,
         49367,
-        49370
+        49370,
+        48842
       ],
       "keywordIds": [
         8,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48717,
@@ -754,6 +829,7 @@
       "slug": "48717-dr-morrigan",
       "classId": 9,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1127,
       "rarityId": 5,
@@ -763,13 +839,15 @@
       "manaCost": 6,
       "name": "Dr. Morrigan",
       "text": "<b>Deathrattle:</b> Swap this with a minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0e5b9e1eb39aee57ad5a08f38e2202db871507da075614ca1d8f735accd677c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/664340cd14e2307a6f00fb3cc392782c37a87e6100d77db8a721c7318400b61c.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf0c638adc29fdb638480c0ced108d5e4a324dd4e4d407fcbaf58ff4e75e9b82.png",
       "flavorText": "She will NOT STOP until she gets tenure.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aadd4c40fe0e27347518fe7de04e6c19928704aeddfe35312318f12c235d7318.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2ac0fd47821708bdf59853165dc47c312d0ec04a3c623c5a9e03353f081de3c.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48612,
@@ -786,10 +864,12 @@
       "manaCost": 7,
       "name": "Dreampetal Florist",
       "text": "At the end of your turn, reduce the Cost of a random minion in your hand by (7).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d206938e707966e9955042f8ed5cfc28ed979711c6f3cd807a1492d7442d7c7b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cab040600207b0759fccb1fa7e14fbb7070907058693f7023ffbd2e231c49cc2.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/594a155d3c98627b7757e0ac0a0f75a1ccb42ab8bcbf43eedd1e87a9f310073e.png",
       "flavorText": "Unlike gnomes, dreampetals grow more than 3 feet tall.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0d75207c6d890e6387e98e9c15949782af5a37fdfb5eaf6aa4744dcad8e8aea.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17822ab1a1ec3aaf36f11f3f458dd1927e8b6885eb12bc93e76da3ac31cb9fc9.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48542,
@@ -813,7 +893,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf4bc56675de3252c928d50d6b8732e122e62672979082775db63ccae93254eb.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49172,
@@ -836,7 +918,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bb8455d1be572a08a0d10fc5d4d1049fbcc35047e385ea9bbc651cef287c148.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48823,
@@ -855,7 +939,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b81ecb11b490e84dd4f2b9516e2421df61003ddaa602880ad63a469c0d8175e.png",
       "imageGold": "",
       "flavorText": "\"Zerek! Stay out of my lab!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd5281187ef27dd1f9f787d9250a3d6a9ef49d81d2b722717f7e86fd54166233.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd5281187ef27dd1f9f787d9250a3d6a9ef49d81d2b722717f7e86fd54166233.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48537,
@@ -879,7 +965,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b005573dc21030406d15520e1c09de6d54dfcfdd2e185dccc2afe72d504aef7.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49188,
@@ -902,7 +990,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd2abcf03196f64b103eee3164052c252d0e9fe28eade1ceb803938a9b028099.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 48051,
@@ -921,7 +1011,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57d2fd46bcaaf2a4d13ffa4e25cc5702cb48c91f19a50a175a419425f2838d60.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb983c5b8c62a66199e3c2db4cf90d659bf7ed74fdf60438dd684021ed6722e3.png",
       "flavorText": "It's just a Tempest Tantrum.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4d5d5ad036d1bd651e716db5a744812b67768737439a5fb37202e41539f10aa.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4d5d5ad036d1bd651e716db5a744812b67768737439a5fb37202e41539f10aa.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 136,

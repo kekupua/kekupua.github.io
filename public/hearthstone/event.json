@@ -1,0 +1,339 @@
+{
+  "cards": [
+    {
+      "id": 103665,
+      "collectible": 1,
+      "slug": "103665-anduins-gift",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Vlad Botos",
+      "manaCost": 1,
+      "name": "Anduin's Gift",
+      "text": "<b>Discover</b> a temporary Power Word: Shield, Shadow Word: Pain, or Mind Control.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e60e354d302a8534e36edb56daec2057fd4574e504f94714299a90c67f8c7792.png",
+      "imageGold": "",
+      "flavorText": "\"My council assures me this is the perfect gift! Not that they needed to tell me. I know what's in there.\" -Anduin",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12b252beca0dedd94f1e946aacbc108c2fcd6649ca4ac919e8162b419ae15a24.png",
+      "childIds": [
+        613,
+        1367,
+        8,
+        62917
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103657,
+      "collectible": 1,
+      "slug": "103657-arthass-gift",
+      "classId": 1,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Juan Calle",
+      "manaCost": 1,
+      "name": "Arthas's Gift",
+      "text": "<b>Discover</b> a temporary Dark Transformation, Howling Blast, or Death Strike.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc767e4fb136300c9fe3b10c4cc737aef3da333e620142bd9f2b127fdf699acb.png",
+      "imageGold": "",
+      "flavorText": "\"Now try it on.\" -Arthas",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a888b741d7089fed2f1017b50b11d2e0441cee5b0350b39e6a81f6cf4d346374.png",
+      "childIds": [
+        78349,
+        78317,
+        78324,
+        78572
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103660,
+      "collectible": 1,
+      "slug": "103660-garroshs-gift",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Vlad Botos",
+      "manaCost": 1,
+      "name": "Garrosh's Gift",
+      "text": "<b>Discover</b> a temporary Execute, Shield Block, or Brawl.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18a487e516e5646dbde60d4fb400d7dd0eac16a2a8d9d024b3d01bc5025ca956.png",
+      "imageGold": "",
+      "flavorText": "\"FROM THE HORDE! AND ESPECIALLY ME!\" -Garrosh",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec342aa2686ea60031c7450aea71d59625c91152283276b1fe45aaec8ad31baf.png",
+      "childIds": [
+        69535,
+        76302,
+        69640
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103664,
+      "collectible": 1,
+      "slug": "103664-guldans-gift",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Alex Stone",
+      "manaCost": 1,
+      "name": "Gul'dan's Gift",
+      "text": "<b>Discover</b> a temporary Mortal Coil, Siphon Soul, or Twisting Nether.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b12aa92be91ee10988f38ab49307c2f2d84af46908d4c029bc37370ba49179d.png",
+      "imageGold": "",
+      "flavorText": "\"This won't be like last time...\" -Gul'dan",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/230ac7b86c4417f75e45dcba573385923465e8e0566d289f97496126a261c861.png",
+      "childIds": [
+        69553,
+        69634,
+        69635
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103654,
+      "collectible": 1,
+      "slug": "103654-harth-stonebrew",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1941,
+      "rarityId": 5,
+      "artistName": "Arthur Gimaldinov",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 6,
+      "name": "Harth Stonebrew",
+      "text": "<b>Battlecry:</b> Replace your hand with an iconic one from Hearthstone's past. <i>(Once per game)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4529dcdf70c0f9dd5a52ed2619735c3465a5cecd4e32b1036e588e28a6fdbb94.png",
+      "imageGold": "",
+      "flavorText": "\"Grab a slice by the hearth and enjoy the festivities. This celebration is for all of us!\" -Harth",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2c8cd22fb08395f09ade9ceda90d29c0c09bb414a91bb0210ac2cdbc2857908.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103661,
+      "collectible": 1,
+      "slug": "103661-illidans-gift",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Slawomir Maniak",
+      "manaCost": 1,
+      "name": "Illidan's Gift",
+      "text": "<b>Discover</b> a temporary Fel Barrage, Chaos Strike, or Chaos Nova.<b></b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/953042c262ad108e6f8a9b94d585119b50d67199872b698a2ea6388a5f05c7db.png",
+      "imageGold": "",
+      "flavorText": "\"This gift's burden will always be yours to bear... I lost the receipt.\" -Illidan",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18db5e9fb651491bf8bdbf58a00a875b300cb335ef3877cc02a01ea23c67b04e.png",
+      "childIds": [
+        64393,
+        69558
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103655,
+      "collectible": 1,
+      "slug": "103655-jainas-gift",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Melvin Chan",
+      "manaCost": 1,
+      "name": "Jaina's Gift",
+      "text": "<b>Discover</b> a temporary Frostbolt, Arcane Intellect, or Fireball.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8736fd6d93b0411be07586e3428b4fbcaf8c9ddde4a34d16c6ce5fd93edf16c4.png",
+      "imageGold": "",
+      "flavorText": "\"On this day, my magic will bring us together.\" -Jaina",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/86ea2364ae413bf7c8b29fad2429e2c59ac0ab48a677535e7f866dd53f87d7cb.png",
+      "childIds": [
+        662,
+        69500,
+        69501
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103663,
+      "collectible": 1,
+      "slug": "103663-malfurions-gift",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Arthur Bozonnet",
+      "manaCost": 1,
+      "name": "Malfurion's Gift",
+      "text": "<b>Discover</b> a temporary Feral Rage, Wild Growth, or Swipe.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23cc33d6b7804765d0eaba8216d4e9b002fea6ff4cf7b869321dda3477cb2148.png",
+      "imageGold": "",
+      "flavorText": "\"May this imbue you with the life of the party!\" -Malfurion",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65bf00dffd34f162bc39cc1c250222b0032ce960babff16de60d29717d7db4b2.png",
+      "childIds": [
+        69688,
+        64
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103656,
+      "collectible": 1,
+      "slug": "103656-rexxars-gift",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Ivo Campelo da Silva",
+      "manaCost": 1,
+      "name": "Rexxar's Gift",
+      "text": "<b>Discover</b> a temporary Quick Shot, Deadly Shot, or Explosive Shot.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/967ae54de9a8412bf2ed2470d1048102f86cafa5720d35ec22cf88bbb6c9f7d0.png",
+      "imageGold": "",
+      "flavorText": "\"I shop alone.\" -Rexxar",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ec37a3a637a6b98bf60f8294fef1c7c43e9273ad09bc89285573130fb1ab3be.png",
+      "childIds": [
+        69691,
+        69605,
+        394
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103659,
+      "collectible": 1,
+      "slug": "103659-thralls-gift",
+      "classId": 8,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Ramzy Kamen",
+      "manaCost": 1,
+      "name": "Thrall's Gift",
+      "text": "<b>Discover</b> a temporary Lightning Storm, Hex, or Bloodlust.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d62ecb17d4f5d93e1969fe82c530f6dfb034aa2c506b7a2d12b7dbc8cfa0dd92.png",
+      "imageGold": "",
+      "flavorText": "\"I wrapped it myself!\" -Thrall",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ada565e015994a303ef86b277efba59eb5595719c689d4034cf79cff6d058db.png",
+      "childIds": [
+        69625,
+        69551,
+        548
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103658,
+      "collectible": 1,
+      "slug": "103658-uthers-gift",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": "Timur Shevtsov",
+      "manaCost": 1,
+      "name": "Uther's Gift",
+      "text": "<b>Discover</b> a temporary Equality, Consecration, or Blessing of Kings.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6bc793c5f2417727df0994bc32036b2e157a012002f9ea62052bad978db1433b.png",
+      "imageGold": "",
+      "flavorText": "\"I hope you enjoy light reading!\" -Uther",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1cbac3a10dc2b6f5b0736a91248715a0b2a8d3a55bd4167bec7fd2e02adda3f6.png",
+      "childIds": [
+        69614,
+        69532
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 103662,
+      "collectible": 1,
+      "slug": "103662-valeeras-gift",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1941,
+      "rarityId": 3,
+      "artistName": " Mooncolony",
+      "manaCost": 1,
+      "name": "Valeera's Gift",
+      "text": "<b>Discover</b> a temporary Backstab, Deadly Poison, or Fan of Knives.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9cd57d13462ca65792aa1b8bfc6565d01a32167f1a791809ce5d672fb09e1d77.png",
+      "imageGold": "",
+      "flavorText": "\"Here. You. Go.\" -Valeera",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b45875b3b5fd916852cbbc29b87932ad20319d26b0fa86fd333794f0373e2e75.png",
+      "childIds": [
+        69521,
+        69522,
+        102745
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    }
+  ],
+  "cardCount": 12,
+  "pageCount": 1,
+  "page": 1
+}

@@ -22,7 +22,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db27d1718d3cc4f4e7e0264fd0ac7ed48741a5856acea3b0785ff443d0f0a53f.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56086,
@@ -41,13 +43,12 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09155b6c62edb77bacf530fe2e12e31d792610226aff1c647c7ab274add54a15.png",
       "flavorText": "It's difficult to get an air raid together. You have to get twenty-five people, and they all want to play a paladin!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e7ba8ba86036ad1b98ab203d712192f60fc2cd59508c117db2e464a20abeb53.png",
-      "childIds": [
-        1652
-      ],
       "keywordIds": [
         1,
         76
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56071,
@@ -71,7 +72,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/283b8e41aeb65bf921d23fced10a25db0fbf86f79d1572327db511fb5d675a8e.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56072,
@@ -92,7 +95,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1e8be57fb2d256ec9633f677e6f4147526275a8e2d822f091866ecd307c6c96.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f48181e2bfe428f131d66fc0bf5936e5fd93abb87f2fdabc7b73862fee021b9.png",
       "flavorText": "Not on good terms with warlocks.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa3e99269f59e9bd2c9ac3aa372f4c1a7351f854d8c04196618e917326238dfc.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa3e99269f59e9bd2c9ac3aa372f4c1a7351f854d8c04196618e917326238dfc.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56107,
@@ -115,7 +120,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0dac7abd1df5d2b1fe84b8e40eff53620905c094b8fe7371c88bb30211dda55a.png",
       "childIds": [
         2235
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56101,
@@ -135,18 +142,21 @@
       "flavorText": "Discover the meaning of squad goals.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6976353bd95e1415eeaa2769c2e2ba54a871184eb387ffe81389768632df5ced.png",
       "childIds": [
-        52897,
-        52900,
         53160,
         53161,
         53162,
+        52897,
+        52900,
         53163,
-        55378
+        55378,
+        60588
       ],
       "keywordIds": [
         21,
         71
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56131,
@@ -169,7 +179,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c3b46b42d5608811c5b8b12acd9fb72d10e6e6267a15315f6402cde001286d22.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56114,
@@ -193,7 +205,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3253fefa704ea41adad0c2294c342baf8849328fb8312e740b615999e9a5f54e.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56064,
@@ -214,7 +228,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/920b8b6018e3ab2f3572a5b85c983419cad40f11447ec235637e38cc66427a2f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbaa20d2c456fa4c41bb03188020ed78d69654893805091f87a84c6417d58dc1.png",
       "flavorText": "Invention is the mother of entropy.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b6d42e4e87c95fe0f91dd9267c3579e5a053455ec8758bf4d39ef78dffcd5e8.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b6d42e4e87c95fe0f91dd9267c3579e5a053455ec8758bf4d39ef78dffcd5e8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56088,
@@ -238,7 +254,9 @@
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56090,
@@ -254,13 +272,15 @@
       "manaCost": 3,
       "name": "Dark Prophecy",
       "text": "<b>Discover</b> a 2-Cost minion. Summon it and give it +3 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f87b3cfcc0e8946a28f20518fbe1f75b94c45d62c14e20ead2ce699200ed994.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/088672897ab785bb4004b99b7122ea9c74dd0669dfaee67546d6df9e98f33d41.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a0a0ebaf4f61d55cc13c263f06ea966d51e74b450975f384d6fce3d35ca0e6f.png",
       "flavorText": "It's always a dark prophecy with Madame Lazul. Where's my happy, fluffy prophecy?!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31b23ce3a023974af03440537622ba6245c3eca372d4509e1fb27684092847e8.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9ba2f65c758462f077d3d0fa32b3e5db4dea3b7547140e6fd231b6c9bd1238d.png",
       "keywordIds": [
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56068,
@@ -284,7 +304,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b19e98ce111b6fe00f89a230d2686ac3272f67a152c319b97d7c8213b67acb9c.png",
       "keywordIds": [
         6
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56098,
@@ -303,7 +325,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18155bae12a0b35fe1d245ddc108a030d1e92be187ae33db274165914b4e78ad.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/13167175f04aea1bf9d814155400fc22025152f12e651e17da7f1c546a895fd2.png",
       "flavorText": "Let's give a big hand for goblin experimentation!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd08a9a5d6b556f6987f530976265d5b98d99da46382981d457db59ca0bd130c.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd08a9a5d6b556f6987f530976265d5b98d99da46382981d457db59ca0bd130c.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56292,
@@ -329,7 +353,9 @@
       "keywordIds": [
         1,
         14
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56112,
@@ -353,7 +379,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11b9ef4b03e6e801075e1f25c273808097bec78a506e53c6b594b16a1914d116.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56122,
@@ -374,7 +402,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5dc0bc7458d026a5227bce2320ab814ff0d54b7c23e86789cf291e78fde250ef.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f84c387d6e614a9854f3ab1e79f61e6a206277c1a95cf297fe1a260cc4370ec.png",
       "flavorText": "Not to be confused with the \"friendsy” felwing.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76a23ac6eefadfba84d414d1fa9821fcb855a9ff6b8205338ed6a050b6e2bd99.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76a23ac6eefadfba84d414d1fa9821fcb855a9ff6b8205338ed6a050b6e2bd99.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56067,
@@ -395,7 +425,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edca0ff3159ab1b4ac9bff366cca983cb84db29574cb5016255b36cd524f3900.png",
       "keywordIds": [
         76
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56135,
@@ -417,17 +449,20 @@
       "flavorText": "Esteemed leader of Rafaam's Inhuman Resources department.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d226bfd50922fbd2a99c0fa6621da9300204d7f14cd656e6504481c119dd2dc.png",
       "childIds": [
-        52897,
-        52900,
         53160,
         53161,
         53162,
+        52897,
+        52900,
         53163,
-        55378
+        55378,
+        60588
       ],
       "keywordIds": [
         71
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56118,
@@ -455,7 +490,9 @@
       "keywordIds": [
         8,
         10
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56120,
@@ -475,11 +512,13 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f73b2b5d971e85d4b5f8208d9eff5eb3a0f72dc84b8312d5cf28257f12d2cd7.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0403ea4a2b0347cec39d553cba34d0979d403fc267b6dbba4ea4ba654820f3d.png",
       "flavorText": "\"Just point me in the vague direction of the things you want smashed, and you got yourself a deal!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d5782748df86eaf3c84870acc015351ef8fba49d28a35e140c5da5922e1d1bc.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c47705fe67b15ff015f76ce544f939d3a605acc9b12bdcf4663983afc37dfc5a.png",
       "keywordIds": [
         8,
         31
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56057,
@@ -503,7 +542,9 @@
       ],
       "keywordIds": [
         76
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56100,
@@ -524,7 +565,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f2b8321d0d9826b269f1e65b3410e9a2135254a9299be20e1ce6e126b6c5679.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5604d9d8a7ce5899dc36a7bc3d625e82df01dcda6031635693390f56ca540dc.png",
       "flavorText": "Sworn enemy of the Safety Matey.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9866e6a053dc40a4df927e79f93c320ef6fb96628eee013642e3b60634b9405.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9866e6a053dc40a4df927e79f93c320ef6fb96628eee013642e3b60634b9405.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56239,
@@ -548,7 +591,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e8ede25c2a6deeca2965085078db1af7ea6d30d2268ab13908dd63a101df8d1.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56438,
@@ -573,7 +618,9 @@
       "keywordIds": [
         3,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56093,
@@ -596,7 +643,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19ea7fda4c17831027fa872cad655604ab04acf484339cfb3456d4536a12dd71.png",
       "keywordIds": [
         13
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56077,
@@ -620,7 +669,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32d69b5649aab4429390a901ba6ed42b636b883013fc0e8b8511b05c6f96502a.png",
       "keywordIds": [
         78
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56307,
@@ -650,7 +701,9 @@
         8,
         31,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56116,
@@ -667,13 +720,15 @@
       "manaCost": 3,
       "name": "Skydiving Instructor",
       "text": "<b>Battlecry:</b> Summon a 1-Cost minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31d9b2028d6a5d18444212e6b12e537cabe8317a1a152f5ed6f71c99f09a4068.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a00ea88c4d74a73bcedc53e7e350172df9d58e0b6dcab70686b3955a62116ee.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d00ab17a340192632cc2b5d4f16d68de302e9a1eee95e5e4b58284da07bc2c0.png",
       "flavorText": "\"Is it dangerous?\" \"For me? Not at all. Now jump!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b426f7898e92878e6810b531db4449b84abf2b4baff3caaf6bead6880c7b35ee.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9772cd0459f98ef6355294efb6c5ca586e12ab921de4944027099aa30354547e.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56091,
@@ -698,7 +753,9 @@
       "keywordIds": [
         6,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56262,
@@ -722,7 +779,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ccf6e4d2b011c5974c35b3af096acacf9e2595ec1e5fa1f2f8bd95843a95e8a.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56076,
@@ -748,7 +807,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56294,
@@ -765,10 +826,12 @@
       "durability": 4,
       "name": "The Fist of Ra-den",
       "text": "After you cast a spell, summon a <b>Legendary</b> minion of that Cost. Lose 1 Durability.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/653c850d404ebe9a7b73b63f72b8d8532ccf8be1d70a986bcd20cdec9dfa8eec.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6db8bac45704ed99591fac9e0b0e9d07b1d4db43bab431a389ca1771db06081f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7473e4aebd169b554b5d8610c1a85fe06738388df4928ad845309711169ea5d1.png",
       "flavorText": "The mighty Ra-den was known as the Keeper of Storms. Unfortunately, he could not keep his fist.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca1372d399e3e268c746aaf7cfb51003c9418863f715f95fd152bd79041597c.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed4dbe8118c6d24f3766617c1f96824e042d28d343f9b1f08418cfddbe0204e7.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56109,
@@ -790,7 +853,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f406d67f228b75fe913b8b6dc6bb906cbee9c6dbfb08bdf12ed3b1006266540.png",
       "keywordIds": [
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56094,
@@ -805,14 +870,16 @@
       "manaCost": 2,
       "name": "Waxmancy",
       "text": "<b>Discover</b> a <b>Battlecry</b> minion. Reduce its Cost by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b513cd9205fb4652f779a8ec71883feff9186d9bd9560855e1002934e3d0c73b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9aa6e4c3f2a24dba89f1aa635bb377cef9cad3e6b2f9cfdc73950fe3858ddaf3.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1f8207f5912b387d6fdc3a53361811851ad563e986182ebc6e6eaa76efb2980.png",
       "flavorText": "The waxmancer works with flame and form, giving shape to figures warm. Some think he's a crazy creeper, but crafting minions is simply cheaper.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcb41f3203365beb934b740a2810b2325af9cfdaae986b852aeb5e6031eef72e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ae56a084f911d31023a34145b487a1ce0a52b0e540429385a446f5c414a9900.png",
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56063,
@@ -829,15 +896,18 @@
       "attack": 6,
       "manaCost": 7,
       "name": "Winged Guardian",
-      "text": "<b><b>Taunt</b>,</b> <b>Reborn</b> Can't be targeted by spells or Hero Powers.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1d3b54a6580bc0bdc075043841259306c0e027c1097cf2bf95eda2179377d83.png",
+      "text": "<b>Taunt</b> <b>Reborn</b> <b>Elusive</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37c8650fc47ef2b4e2167fac6ecfeec203fb9412fe1d666222be8f0228566cd2.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b9fbf5a85f02bafba4701f6be8624e181bc1c95722c04e4b72ab6c28bbd9607.png",
       "flavorText": "Take these broken wings, be reborn, and learn to fly again.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91ab8aa1d8f9ae7a544bdab1c1545e47eace61cc1d7e9616a821bebb6c2f9acc.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9489b43908311c86de12224002e0e162fbb035235b41bc3b9fb5142714b2bc20.png",
       "keywordIds": [
         1,
-        78
-      ]
+        78,
+        265
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 35,

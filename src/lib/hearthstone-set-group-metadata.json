@@ -1,5 +1,34 @@
 [
   {
+    "slug": "Pegasus",
+    "year": 2024,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt0136a847fd5a5b74/65c55bcddc7247cae3e8f320/PegasusSVG.svg",
+    "cardSets": [],
+    "name": "Year of the Pegasus",
+    "standard": true,
+    "icon": "icon_cardset_yearofthePegasus"
+  },
+  {
+    "slug": "Wolf",
+    "year": 2023,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt436c5e93bf8faf2c/64079268ad9e38554653fb6b/YotW_SetIcon_Colored.svg",
+    "cardSets": [],
+    "name": "Year of the Wolf",
+    "standard": true,
+    "icon": "icon_cardset_yearoftheWolf"
+  },
+  {
+    "slug": "hydra",
+    "year": 2022,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt63ce92e33c79ee7f/622902fe04503350d255bca6/YotH_SVG-01-01.svg",
+    "cardSets": [
+      "voyage-to-the-sunken-city"
+    ],
+    "name": "Year of the Hydra",
+    "standard": true,
+    "icon": "icon_cardset_yearofthehydra"
+  },
+  {
     "slug": "gryphon",
     "year": 2021,
     "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/bltd467577e4baabcf1/600740743e8106106f1bc575/year_icon_gryphon.svg",
@@ -9,7 +38,7 @@
       "forged-in-the-barrens"
     ],
     "name": "Year of the Gryphon",
-    "standard": true,
+    "standard": false,
     "icon": "icon_cardset_yearofthegryphon"
   },
   {
@@ -22,7 +51,7 @@
       "ashes-of-outland"
     ],
     "name": "Year of the Phoenix",
-    "standard": true,
+    "standard": false,
     "icon": "icon_cardset_yearofthephoenix"
   },
   {
@@ -97,19 +126,28 @@
   {
     "slug": "standard",
     "cardSets": [
-      "core",
-      "fractured-in-alterac-valley",
-      "united-in-stormwind",
-      "forged-in-the-barrens",
-      "madness-at-the-darkmoon-faire",
-      "scholomance-academy",
-      "ashes-of-outland"
+      "event",
+      "whizbangs-workshop",
+      "showdown-in-the-badlands",
+      "titans",
+      "festival-of-legends",
+      "core"
     ],
     "name": "Standard Cards"
   },
   {
     "slug": "wild",
     "cardSets": [
+      "event",
+      "caverns-of-time",
+      "whizbangs-workshop",
+      "showdown-in-the-badlands",
+      "path-of-arthas",
+      "titans",
+      "festival-of-legends",
+      "march-of-the-lich-king",
+      "murder-at-castle-nathria",
+      "voyage-to-the-sunken-city",
       "core",
       "legacy",
       "fractured-in-alterac-valley",

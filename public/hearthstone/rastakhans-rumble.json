@@ -13,15 +13,17 @@
       "manaCost": 7,
       "name": "A New Challenger...",
       "text": "<b>Discover</b> a 6-Cost minion. Summon it with <b>Taunt</b> and <b>Divine Shield</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd8521e4b251f81882c031c2f2620c0d9791309b490349269a6c8b783fab9de5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5f62832e57418fd63316211dbb38bd1556ad650582037f8a84686260ef46473.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a76dd7384eb97550f52418c72a8aea5c9ce5a780826f417e006d17db7228fb8.png",
       "flavorText": "… Arrives? Approaches? TELL US ALREADY!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ade781a6845577e9348c56afcf0bde19c8efda321965351b411a3ea17ca4fcd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a177c6c7bfff0c8290bb40bfe3158cdfff247d78f7dd065b401196c64e891aa0.png",
       "keywordIds": [
         1,
         3,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50074,
@@ -46,7 +48,9 @@
       "keywordIds": [
         53,
         61
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50776,
@@ -71,7 +75,9 @@
       "keywordIds": [
         1,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50121,
@@ -80,6 +86,9 @@
       "classId": 4,
       "multiClassIds": [],
       "minionTypeId": 18,
+      "multiTypeIds": [
+        20
+      ],
       "cardTypeId": 4,
       "cardSetId": 1129,
       "rarityId": 1,
@@ -89,13 +98,15 @@
       "manaCost": 6,
       "name": "Arcanosaur",
       "text": "<b>Battlecry:</b> If you played an Elemental last turn, deal 3 damage to all other minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10f966b99e32fcca1ca95267ec9932af60d8f6e2a1794526647e5c7108696ecc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8154216ada9273dcea6509a3948d819f47a53782b0e1ba66b51dd44fb6cdc113.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63b94ba5d48da45a4d5920f139b13cad20b246f08c94aa0501d536db39ae6e8f.png",
       "flavorText": "Arcane energy… finds a way.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93b477b31b6af88068bccb9b5c67c9ec9f941220f25ab52aee00efd88f4520d2.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/124412f1397b3cc86ef296177de8e2fa9d1ebf1ca2bb7fe6da1479b78f9ac35f.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50397,
@@ -118,7 +129,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/499341c38763f3726b4d62a97598a75dd6c9dbcb3f717c316865eeb47bc57f06.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50403,
@@ -141,7 +154,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b0eadba0caf0a58f7737acb3777f2a274f46bd1981b43bb2d8183b3b10bfb93.png",
       "keywordIds": [
         61
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50411,
@@ -164,7 +179,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab7be37b57510738f11c75d1ab42db36566f5dea71d7b704769d2d747c04bcc7.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50283,
@@ -172,6 +189,7 @@
       "slug": "50283-auchenai-phantasm",
       "classId": 6,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1129,
       "rarityId": 4,
@@ -181,13 +199,15 @@
       "manaCost": 2,
       "name": "Auchenai Phantasm",
       "text": "<b>Battlecry:</b> This turn, your healing effects deal damage instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a82d6cc5ac8d3b5cf24ea72cf0d70909a753d71bf6734742c87983d3f8db0d6d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6dcc81b053267d804f5e91fa3b8f44b0a356c0435ebfd25717d7ff6c6c707ceb.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e31f3a79556a507b6cb4c77fef830f84519452cd41fd355ba47c8eaa69099a.png",
       "flavorText": "“Okay kids did everyone remember to heal before we left?”",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfc56734beb342b04c2031cc27341c931ed7f9c81d08a27722e9c64e8660d074.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f8f126e7965b826e91252a6ca5d454a03465e3511d9ec4d101007eeb7a973d0.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50466,
@@ -211,7 +231,9 @@
       ],
       "keywordIds": [
         61
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50386,
@@ -237,7 +259,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50393,
@@ -261,7 +285,9 @@
       "keywordIds": [
         1,
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49853,
@@ -283,7 +309,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/080e00a7bf1c3efb51ab5a924ea900ec01166387f1b1b70dc01ea4962bf2ac4d.png",
       "keywordIds": [
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50086,
@@ -299,13 +327,15 @@
       "manaCost": 5,
       "name": "Blast Wave",
       "text": "Deal 2 damage to all minions. <b>Overkill</b>: Add a random Mage spell to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3a7fb47400d72bba4e790eb44d7fc2ba70bed3e127c86603cea1294e92295f5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2726017711419ec1c7fa998d8a562d362bedc94b66f28c5c04859b1d101876aa.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84f36d0a8603633e5418bc56a4f91bdc0a14d2ad2940f371d08857a7bdab441b.png",
       "flavorText": "If you’re burning and you know it, wave your hands!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3aa1b948d2df20c4791ceb5ae43d93059a0fe252fa999295956da7df6c1f7b9.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9521f26b99189080bf92bb3f9d3b8458f5810d84012e01941b2ba1058f03dbba.png",
       "keywordIds": [
         61
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50070,
@@ -325,7 +355,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c73530dca96355aa5e8add456ad25b76140391df58cadb82096f01312fdf2048.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11e7a891018dbe19b88125abed002be09c93094ed60d59f552eeeb3de839e63c.png",
       "flavorText": "Main supplier of Blood Troll Syrup to the Intercontinental Hut of Funnel Cakes.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1974405931d5b936aaf06870919e700a10de3deeb9e83840605a5c4e92dc5281.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1974405931d5b936aaf06870919e700a10de3deeb9e83840605a5c4e92dc5281.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50512,
@@ -348,7 +380,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a4e748cc55a0f6536047727ac0a6d0159f8dda3442b1f5b81a8d64071236f26.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49838,
@@ -374,7 +408,9 @@
       "keywordIds": [
         8,
         53
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50471,
@@ -398,7 +434,9 @@
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49803,
@@ -422,7 +460,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2b71c3ee3b3da615d8c7871971472b85fae80b10bcf9e7cabbaa3761cdb32a2.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50374,
@@ -442,10 +482,12 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/006edd84dac844be14a2aea3b63f85c88e5eea84effcc2519be8f1ac688650c0.png",
       "imageGold": "",
       "flavorText": "Also makes a great librarian. She's really good at fixing books!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91c18ac057a83725bd17b27b165cc1ff0123e73dc10c72d88a6eab6a47f8ed9e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/419c5f06523ea49d27dc6ec6b32024ecb248bd0c83922eb57cb271e032d6b273.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50087,
@@ -453,6 +495,7 @@
       "slug": "50087-bwonsamdi-the-dead",
       "classId": 6,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1129,
       "rarityId": 5,
@@ -462,13 +505,15 @@
       "manaCost": 7,
       "name": "Bwonsamdi, the Dead",
       "text": "<b>Battlecry:</b> Draw 1-Cost minions from your deck until your hand is full.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70c83341862a1220e2a8dbd4a3420921cb088fe078baf86e40a702d2f8253d91.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d77eeb2d01e2f560cc940eb210bc66c0715e9b08f0139633659273317db6293.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cfd2c386108792277eae111c19cb4b2fbf90cecf66fd22294651ef50dd4d676.png",
       "flavorText": "Everyone's dying to meet him.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8628de042e1d8a33596644dd04452a0f2c111d8052eda895b6cdc7e185cc50dd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f620fc23730d9d85de1353c30eec2cfd120cb34ff5121e4d902a34a3ad9bb9d3.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50779,
@@ -486,7 +531,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd76168c604134d4c31401c27e8b099f741f783cefe31c472ef9999a5c661dde.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89065419c61101a96966fbb55c9aa970736c728d9745a5d5b440e1a16ed8c917.png",
       "flavorText": "Why fire your cannons strategically when you can fire them all at once?",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c17cf5480596cd4b055c3f164c99d3b2daf0347d85d61e61e0d7b999fef45398.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c17cf5480596cd4b055c3f164c99d3b2daf0347d85d61e61e0d7b999fef45398.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50774,
@@ -510,7 +557,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/141e96fc284f5197a599c8cb0590b17e6529ae94b4363ab2acb8c96bfb1a257a.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50391,
@@ -534,7 +583,9 @@
       "keywordIds": [
         8,
         38
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 51816,
@@ -558,7 +609,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a54bb346099c076174e5621812af259a6f88ba1ce98a9d435aa6c521e9c8f8ae.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50443,
@@ -566,6 +619,7 @@
       "slug": "50443-da-undatakah",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 11,
       "cardTypeId": 4,
       "cardSetId": 1129,
       "rarityId": 5,
@@ -575,14 +629,16 @@
       "manaCost": 8,
       "name": "Da Undatakah",
       "text": "<b>Battlecry:</b> Gain the <b>Deathrattle</b> effects of 3 friendly minions that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec1566489cd46d350a74840221d1e350ee139fc99dd9d6ce39b1da428fc9b84d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ec6998c354084c794369f817e3ff4542f4250004461b62cd1a278bc9db37b97.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cbc26a1f23d76370f899b29bd590a1413d35cdfbf129b70d79f79db281047897.png",
       "flavorText": "First Deathrattle: Draw a card. Second: Draw 2 cards. Third: Throw Mon'kind off a steel cage and plummet sixteen feet through an announcer’s table.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/131f3d4c8e26454dc94cf4a446fdd3f58e0efe41243730eba24dac5c4791b1c0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16d8043a424c0dd15fd6a41277dff327c10d2f0acddbd08f26782863f871a1b0.png",
       "keywordIds": [
         8,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50381,
@@ -605,7 +661,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b3d89a9bb86cc81fd64dcb0ffcb5c00d7ad5a0ecce4d77cb8bbacf51c85d00a.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50991,
@@ -624,7 +682,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e33ef966d891bcea505713dd966deddb522a442d082ecf59ef7c36678fdfa919.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf2a44927e875f6f0382ecf1232dceabd1fcc023df14deec6f7a196f85dc61ef.png",
       "flavorText": "Or as it’s known in troll, “De bolt, mon.”",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2229cbc1b0121d6a25d0d34e3ec48c13db36c9f189c1bef13cdb9792d71be824.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2229cbc1b0121d6a25d0d34e3ec48c13db36c9f189c1bef13cdb9792d71be824.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50040,
@@ -642,7 +702,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/421b099c8600ada26516820068e2b7e3300f47ee8f640fb13c75283b72638058.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bae3fddb00d64a5b15f8c4cc369893311ae47fa0528e8d5ba1f69cffdffc5112.png",
       "flavorText": "No thanks, I already devast-ate.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75eb1478829dc02953ea9616a3dabd01b8b7dca5edec7d525ec28d5dd03e95b6.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75eb1478829dc02953ea9616a3dabd01b8b7dca5edec7d525ec28d5dd03e95b6.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50493,
@@ -662,7 +724,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30c2795eca111ffbebb5a41fa522fd3b617bd7e665b215da2c3981f1ff0bb2d5.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b753d0484fe56d20efb487e90bf9474123676bcd3de3c1db919cf78d22b1705.png",
       "flavorText": "It's the sleeper of the set.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc44971d75dcd7d7efdd404c3a9d3b75e153b838b7ba4b5ec45ebd7c854c4bef.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc44971d75dcd7d7efdd404c3a9d3b75e153b838b7ba4b5ec45ebd7c854c4bef.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50602,
@@ -680,7 +744,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/643f45d08b9b61ba0b1370b2c93a2130a9a5eca98831731b009f38ee4d8e2210.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f686580d30d2baa174b03274e0ba799b70ec620b8340f6049957de7421d4dbdf.png",
       "flavorText": "Not to be confused with Dragon Yodel.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7461debcd1074145a5c1452b74b3e9543175bd70e860766cdff880dc0e9e43e3.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7461debcd1074145a5c1452b74b3e9543175bd70e860766cdff880dc0e9e43e3.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50412,
@@ -704,7 +770,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/960a5cfef65fce77bea1fe2d8c680cc06190caf8e7d3c3f4c3703601d357d1b5.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50414,
@@ -727,7 +795,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c5124e001a179958b15bbcface70352b58c25d8054d8498191c0cfa64919ee9.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50120,
@@ -746,7 +816,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a5e46c05f7ed16ceb93091d7e8c049a1c2b23d0b62420909bf73c6e1f6f1546.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3878aeb81ce011f77d531bcce0ebc02277d77de4db48df658b9783ee5ab5ea34.png",
       "flavorText": "It's just lighter fluid.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7459aed8f258da1e53d6e5e838739b8fa3845a0d3f803d5b6f5a438d01d22066.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7459aed8f258da1e53d6e5e838739b8fa3845a0d3f803d5b6f5a438d01d22066.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50049,
@@ -770,7 +842,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82ad23c217446a05f7940edf85f70526ad37e6062e915a8a1e6b52d525ca995b.png",
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50014,
@@ -793,7 +867,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36a1e2885ecbad160b83be198f151538787f1ca7453c9323fe19ab6b39f96a83.png",
       "keywordIds": [
         61
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50408,
@@ -817,7 +893,9 @@
       "keywordIds": [
         8,
         21
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50028,
@@ -836,7 +914,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcd9796d2432b1d3cb9ea6910e182ecdd98cdae5c6218677a9366e4fb30c3d80.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e558c1b5c443689efd56e4fcd441104bba766c7b426d2c05c52cf10de7a89cc8.png",
       "flavorText": "Hey! No cameras allowed!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d35ad78f51137d941f51a188f77da4a25eac5c09bffac864199543aadf46d78.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d35ad78f51137d941f51a188f77da4a25eac5c09bffac864199543aadf46d78.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50731,
@@ -862,7 +942,9 @@
       ],
       "keywordIds": [
         8
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 49985,
@@ -883,7 +965,9 @@
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23778a88ea915ba70dbfe69181ee9eb32cc5c81f827d17134800722abdd92839.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29980a1582b131ad2a2a9daaf562961ca3968b1530609ea99eb5b14b5ad2c4c2.png",
       "flavorText": "There’s a word for Zandalari druids who refuse to pledge loyalty to Gonk: “Delicious.”",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cff0153d6ee75d2ea4825529f0f16ec48711678c791fe50533adc7767812dd7.png"
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cff0153d6ee75d2ea4825529f0f16ec48711678c791fe50533adc7767812dd7.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 50775,
@@ -908,7 +992,9 @@
       "keywordIds": [
         8,
         12
-      ]
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 135,
