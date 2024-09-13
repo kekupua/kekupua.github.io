@@ -10,7 +10,7 @@ import sue_sean from '../images/sue_sean.jpg';
 
 const data = {
   intro: `Hi! My name is Sean Teramae. I'm originally from Honolulu, Hawaii and I graduated from the University of Hawaii at Manoa.\n
-    I currently am employed in Irvine, CA working on exciting web technologies at Blizzard Entertainment.
+    I currently am employed in Irvine, CA working on exciting web technologies at NVIDIA.
     `,
   photos: [
     {
@@ -56,7 +56,7 @@ const data = {
   ],
   projects: [
     {
-      image: process.env.PUBLIC_URL + 'images/snapchatLogo.png',
+      image: '/images/snapchatLogo.png',
       routerLink: 'https://business.snapchat.com/',
       heading: 'Snapchat BizX',
       subheading: '2022 - Present',
@@ -74,7 +74,7 @@ const data = {
       ],
     },
     {
-      image: process.env.PUBLIC_URL + 'images/randomHearthstoneLogo.jpg',
+      image: '/images/randomHearthstoneLogo.jpg',
       routerLink: '/random-hearthstone',
       heading: 'Random Hearthstone Card',
       subheading: '2021',

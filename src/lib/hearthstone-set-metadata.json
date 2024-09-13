@@ -1,14 +1,25 @@
 [
   {
+    "id": 1905,
+    "name": "Perils in Paradise",
+    "slug": "perils-in-paradise",
+    "hyped": true,
+    "type": "expansion",
+    "collectibleCount": 145,
+    "collectibleRevealedCount": 145,
+    "nonCollectibleCount": 117,
+    "nonCollectibleRevealedCount": 112
+  },
+  {
     "id": 1897,
     "name": "Whizbang's Workshop",
     "slug": "whizbangs-workshop",
     "hyped": false,
     "type": "expansion",
-    "collectibleCount": 145,
-    "collectibleRevealedCount": 145,
-    "nonCollectibleCount": 86,
-    "nonCollectibleRevealedCount": 60
+    "collectibleCount": 183,
+    "collectibleRevealedCount": 183,
+    "nonCollectibleCount": 97,
+    "nonCollectibleRevealedCount": 82
   },
   {
     "id": 1941,
@@ -29,8 +40,8 @@
     "type": "expansion",
     "collectibleCount": 183,
     "collectibleRevealedCount": 183,
-    "nonCollectibleCount": 88,
-    "nonCollectibleRevealedCount": 85
+    "nonCollectibleCount": 90,
+    "nonCollectibleRevealedCount": 87
   },
   {
     "id": 1858,
@@ -128,7 +139,7 @@
     "type": "expansion",
     "collectibleCount": 170,
     "collectibleRevealedCount": 170,
-    "nonCollectibleCount": 378,
+    "nonCollectibleCount": 380,
     "nonCollectibleRevealedCount": 107
   },
   {
@@ -172,8 +183,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 201,
-    "nonCollectibleRevealedCount": 63
+    "nonCollectibleCount": 200,
+    "nonCollectibleRevealedCount": 62
   },
   {
     "id": 1414,
@@ -183,8 +194,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 92,
-    "nonCollectibleRevealedCount": 56
+    "nonCollectibleCount": 91,
+    "nonCollectibleRevealedCount": 55
   },
   {
     "id": 1463,
@@ -227,8 +238,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 60,
-    "nonCollectibleRevealedCount": 39
+    "nonCollectibleCount": 50,
+    "nonCollectibleRevealedCount": 28
   },
   {
     "id": 1130,
@@ -238,8 +249,8 @@
     "type": "expansion",
     "collectibleCount": 136,
     "collectibleRevealedCount": 136,
-    "nonCollectibleCount": 68,
-    "nonCollectibleRevealedCount": 53
+    "nonCollectibleCount": 55,
+    "nonCollectibleRevealedCount": 40
   },
   {
     "id": 1129,
@@ -271,8 +282,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 41,
-    "nonCollectibleRevealedCount": 35
+    "nonCollectibleCount": 32,
+    "nonCollectibleRevealedCount": 26
   },
   {
     "id": 1004,
@@ -282,8 +293,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 106,
-    "nonCollectibleRevealedCount": 96
+    "nonCollectibleCount": 85,
+    "nonCollectibleRevealedCount": 75
   },
   {
     "id": 1001,
@@ -293,7 +304,7 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 128,
+    "nonCollectibleCount": 127,
     "nonCollectibleRevealedCount": 53
   },
   {
@@ -304,8 +315,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 58,
-    "nonCollectibleRevealedCount": 58
+    "nonCollectibleCount": 57,
+    "nonCollectibleRevealedCount": 57
   },
   {
     "id": 25,
@@ -326,8 +337,8 @@
     "type": "adventure",
     "collectibleCount": 45,
     "collectibleRevealedCount": 45,
-    "nonCollectibleCount": 55,
-    "nonCollectibleRevealedCount": 53
+    "nonCollectibleCount": 57,
+    "nonCollectibleRevealedCount": 55
   },
   {
     "id": 21,
@@ -349,7 +360,7 @@
     "collectibleCount": 45,
     "collectibleRevealedCount": 45,
     "nonCollectibleCount": 188,
-    "nonCollectibleRevealedCount": 16
+    "nonCollectibleRevealedCount": 15
   },
   {
     "id": 15,
@@ -381,8 +392,8 @@
     "type": "expansion",
     "collectibleCount": 123,
     "collectibleRevealedCount": 123,
-    "nonCollectibleCount": 34,
-    "nonCollectibleRevealedCount": 21
+    "nonCollectibleCount": 33,
+    "nonCollectibleRevealedCount": 20
   },
   {
     "id": 12,
@@ -407,8 +418,8 @@
     "type": "",
     "collectibleCount": 450,
     "collectibleRevealedCount": 445,
-    "nonCollectibleCount": 173,
-    "nonCollectibleRevealedCount": 126
+    "nonCollectibleCount": 174,
+    "nonCollectibleRevealedCount": 127
   },
   {
     "id": 1637,
@@ -416,8 +427,8 @@
     "slug": "core",
     "hyped": false,
     "type": "",
-    "collectibleCount": 290,
-    "collectibleRevealedCount": 290,
+    "collectibleCount": 291,
+    "collectibleRevealedCount": 291,
     "nonCollectibleCount": 59,
     "nonCollectibleRevealedCount": 12
   }

@@ -22,7 +22,7 @@
   --illustration-color: brown;
 
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   left: 0;
@@ -78,13 +78,14 @@
   background: transparent;
 }
 
-.hs-sets svg {
+.hs-sets img {
   width: var(--size-500);
   cursor: pointer;
 }
 
-.hs-sets svg.active {
-  fill: rgb(252, 209, 68);
+.hs-sets img.active {
+  filter: invert(97%) sepia(44%) saturate(5869%) hue-rotate(321deg)
+    brightness(103%) contrast(98%);
 }
 
 #card-section st-button::part(container) {
