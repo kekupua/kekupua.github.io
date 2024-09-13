@@ -2,25 +2,25 @@
   "name": "sean-teramae-portfolio",
   "version": "0.2.0",
   "private": true,
+  "type": "module",
   "dependencies": {
+    "@emotion/react": "^11.13.3",
     "@kekupua/web-components": "^1.3.5",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^9.4.1",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^5.1.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.0.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "vite": "^5.3.4",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build:hearthstone": "node tools/hearthstone/getCardSets.mjs"
   },
   "eslintConfig": {
@@ -39,9 +39,17 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-hash-link": "^2.4.9",
     "blizzard.js": "^4.5.0",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.4"
   },
   "homepage": "https://seanteramae.com"
 }

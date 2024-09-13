@@ -127,6 +127,7 @@
     "slug": "standard",
     "cardSets": [
       "event",
+      "perils-in-paradise",
       "whizbangs-workshop",
       "showdown-in-the-badlands",
       "titans",
@@ -139,6 +140,7 @@
     "slug": "wild",
     "cardSets": [
       "event",
+      "perils-in-paradise",
       "caverns-of-time",
       "whizbangs-workshop",
       "showdown-in-the-badlands",

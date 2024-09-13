@@ -1,9 +1,8 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useRef, useState } from 'react';
 import Metadata from '../lib/hearthstone-set-metadata.json';
 import Groups from '../lib/hearthstone-set-group-metadata.json';
-import { ReactComponent as Standard } from '../svgs/standard.svg';
-import { ReactComponent as Wild } from '../svgs/wild.svg';
+import Standard from '../svgs/standard.svg';
+import Wild from '../svgs/wild.svg';
 import '../styles/Hearthstone.css';
 
 const getRandomSet = (sets) => {
@@ -14,32 +13,38 @@ const getRandomSet = (sets) => {
 const getRandomCard = async (set, cache, updateCache) => {
   let setCards;
   if (updateCache) {
-    const res = await fetch(process.env.PUBLIC_URL + `/hearthstone/${set.slug}.json`);
+    const res = await fetch(`/hearthstone/${set.slug}.json`);
     setCards = await res.json();
-    updateCache({...cache, [set.slug]: setCards});
+    updateCache({ ...cache, [set.slug]: setCards });
   } else {
     setCards = cache[set.slug];
   }
   return setCards.cards[Math.floor(Math.random() * setCards.cards.length)];
-}
+};
 
 const HearthstoneRandomCard = () => {
   const [cachedSets, updateCachedSets] = useState({});
   const [chosenSet, updateChosenSet] = useState('');
   const [chosenCard, updateChosenCard] = useState({});
-  const [mode, setMode] = useState(window.localStorage.getItem('hrc-mode') || 'wild');
-  const [sets, updateSets] = useState(Groups.find((group) => group.slug === mode).cardSets);
+  const [mode, setMode] = useState(
+    window.localStorage.getItem('hrc-mode') || 'wild'
+  );
+  const [sets, updateSets] = useState(
+    Groups.find((group) => group.slug === mode).cardSets
+  );
   const cardSectionRef = useRef(null);
 
   const mountCard = async () => {
     const randomSet = getRandomSet(sets);
     updateChosenSet(randomSet);
     if (!cachedSets[randomSet.slug]) {
-      updateChosenCard(await getRandomCard(randomSet, cachedSets, updateCachedSets));
+      updateChosenCard(
+        await getRandomCard(randomSet, cachedSets, updateCachedSets)
+      );
     } else {
       updateChosenCard(await getRandomCard(randomSet, cachedSets));
     }
-  }
+  };
 
   const changeSet = (setName) => {
     return (e) => {
@@ -49,40 +54,58 @@ const HearthstoneRandomCard = () => {
         setMode(setName);
         window.localStorage.setItem('hrc-mode', setName);
       }
-    }
-  }
+    };
+  };
 
   useEffect(() => {
     mountCard();
     document.querySelector('.App').classList.add('isHearthstone');
     return () => {
       document.querySelector('.App').classList.remove('isHearthstone');
-    }
+    };
   }, []);
 
   useEffect(() => {
     mountCard();
   }, [mode]);
-
-  return <st-section id="main-section">
-    <div id="card-section" ref={cardSectionRef}>
-      <div className="hs-controls">
-        <st-button icon="refresh" onClick={mountCard}></st-button>
-        <div className="hs-sets">
-          <button onClick={changeSet('wild')}>
-            <Wild className={`wild-set ${mode === 'wild' ? 'active' : null}`}/>
-          </button>
-          <button onClick={changeSet('standard')}>
-            <Standard className={`standard-set ${mode === 'standard' ? 'active' : null}`}/>
-          </button>
+  console.log(Wild);
+  return (
+    <st-section id='main-section'>
+      <div id='card-section' ref={cardSectionRef}>
+        <div className='hs-controls'>
+          <st-button icon='refresh' onClick={mountCard}></st-button>
+          <div className='hs-sets'>
+            <button onClick={changeSet('wild')}>
+              <img
+                src={Wild}
+                className={`wild-set ${mode === 'wild' ? 'active' : ''}`}
+              />
+            </button>
+            <button onClick={changeSet('standard')}>
+              <img
+                src={Standard}
+                className={`standard-set ${
+                  mode === 'standard' ? 'active' : ''
+                }`}
+              />
+            </button>
+          </div>
         </div>
+        <img
+          src={chosenCard.image}
+          alt={chosenCard.name}
+          style={{ maxWidth: '100%' }}
+        />
+        <st-header layout='center' style={{ margin: 'var(--size-300) auto' }}>
+          <h2 className='st-text-400' slot='heading'>
+            {chosenSet.name}
+          </h2>
+          <p className='st-text-200' slot='description'>
+            <em>{chosenCard.flavorText}</em>
+          </p>
+        </st-header>
       </div>
-      <img src={chosenCard.image} alt={chosenCard.name} style={{maxWidth: '100%'}}/>
-      <st-header layout='center' style={{margin: 'var(--size-300) auto'}}>
-        <h2 className="st-text-400" slot="heading">{chosenSet.name}</h2>
-        <p className="st-text-200" slot="description"><em>{chosenCard.flavorText}</em></p>
-      </st-header>
-    </div>
-  </st-section>;
-}
+    </st-section>
+  );
+};
 export default HearthstoneRandomCard;
