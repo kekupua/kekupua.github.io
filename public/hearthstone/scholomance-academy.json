@@ -1,0 +1,1194 @@
+{
+  "cards": [
+    {
+      "id": 60003,
+      "collectible": 1,
+      "slug": "60003-ace-hunter-kreen",
+      "classId": 14,
+      "multiClassIds": [
+        3,
+        14
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 5,
+      "artistName": "James Ryman",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Ace Hunter Kreen",
+      "text": "Your other characters are <b>Immune</b> while attacking.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b44e0c076cfe2f16d2a681ba87559dcb301117b4467eb1d7c87ed647b0cf7f59.png",
+      "imageGold": "",
+      "flavorText": "This grandmaster marksman loves winning tournaments and eating a bit of ice cream.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad2ca7ebbbfbae7dc2681284bf59d433927a2110de40f4a3e21430a53faf41e6.png",
+      "keywordIds": [
+        17
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59705,
+      "collectible": 1,
+      "slug": "59705-adorable-infestation",
+      "classId": 3,
+      "multiClassIds": [
+        2,
+        3
+      ],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Ivan Fomin",
+      "manaCost": 1,
+      "name": "Adorable Infestation",
+      "text": "Give a minion +1/+1. Summon a 1/1 Cub. Add a Cub to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4a94fa220f0a59dfc197c1f5f20cc90e8b405da006e9954e81984ccf9e35880.png",
+      "imageGold": "",
+      "flavorText": "Some cards are strong by sheer power; others draw strength from love.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb54d513c99e58788d3b551fa231d691746f1625d638fe4d8e3da1f15b27c834.png",
+      "childIds": [
+        59706
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 60143,
+      "collectible": 1,
+      "slug": "60143-ancient-void-hound",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Jaemin Kim",
+      "health": 10,
+      "attack": 10,
+      "manaCost": 9,
+      "name": "Ancient Void Hound",
+      "text": "At the end of your turn, steal 1 Attack and Health from all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3054373d33873e6c5ee710032d60869fefb8554064d6e015a649a6f19de6935.png",
+      "imageGold": "",
+      "flavorText": "What happened to my 1/1 Void Pup? And the glee club?!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b728b073b2c12c466134487bd567079a7eae35890041b6936d8c4a258f806bc.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59029,
+      "collectible": 1,
+      "slug": "59029-animated-broomstick",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Jim Nelson",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Animated Broomstick",
+      "text": "<b>Rush</b> <b>Battlecry:</b> Give your other minions <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/853525963db9f0d66b5cde60e5a496acfa451d0cca645cf9e7b214a44372d078.png",
+      "imageGold": "",
+      "flavorText": "\"Blimey, that's a Stratocumulus 1000!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5535724a6e9afa29f38bb190bbb1f354d9c6b5ba58aea974ad97ebd1bf0882fb.png",
+      "keywordIds": [
+        8,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59252,
+      "collectible": 1,
+      "slug": "59252-archwitch-willow",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 5,
+      "artistName": "Alex Horley Orlandelli",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 8,
+      "name": "Archwitch Willow",
+      "text": "<b>Battlecry:</b> Summon a random Demon from your hand and deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b9e5375ba16c7ff6f75292df82007be65f670c34c1f62bce77d4321f6e48705.png",
+      "imageGold": "",
+      "flavorText": "One of the demons will do all the work while the other gets the same grade.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b88ace4b4d5a687fc5196cdcd9ce2b657d445ac9ecc1c638ee2f1c4f42e19c1.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59616,
+      "collectible": 1,
+      "slug": "59616-argent-braggart",
+      "classId": 5,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Matt Dixon",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 2,
+      "name": "Argent Braggart",
+      "text": "<b>Battlecry:</b> Set this minion's Attack and Health to the highest in the battlefield.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12ee443436ec70887f20d3149d75aa2ba25ad5428fb6e0da9becf143a6cbb197.png",
+      "imageGold": "",
+      "flavorText": "Not sure why he's bragging, he's got the same stats as the next guy.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3540bbfda6987ecb3eed9939df0059ccd3e02848c5ade55ca300dce1cf1beba5.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58978,
+      "collectible": 1,
+      "slug": "58978-athletic-studies",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Akkapoj T.",
+      "manaCost": 1,
+      "name": "Athletic Studies",
+      "text": "<b>Discover</b> a <b>Rush</b> minion. Your next one costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfeb7b482ab224c7fd96c3a299756cf49e05dd2bcd5ba88c4b13c17cadb5e2ea.png",
+      "imageGold": "",
+      "flavorText": "It's a quick read.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95433f0c42f8d82ca31786c8ff7927273013ae5b6093a626c6cad28039d86397.png",
+      "keywordIds": [
+        21,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59583,
+      "collectible": 1,
+      "slug": "59583-blessing-of-authority",
+      "classId": 5,
+      "multiClassIds": [],
+      "spellSchoolId": 5,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Jim Nelson",
+      "manaCost": 5,
+      "name": "Blessing of Authority",
+      "text": "Give a minion +8/+8. It can't attack heroes this turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0df8fc520b3d62a2feb1666105e14b0e97ca912c8a4e0bf9f980e18ba67aa8f1.png",
+      "imageGold": "",
+      "flavorText": "A paladin fights with honor! We don't go face... until next turn!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e0ba67baf5dbce332da125270ccdc5245adeb4da2bf312285d2723f4e35d798.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59188,
+      "collectible": 1,
+      "slug": "59188-bloated-python",
+      "classId": 3,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Arthur Bozonnet",
+      "health": 2,
+      "attack": 1,
+      "manaCost": 3,
+      "name": "Bloated Python",
+      "text": "<b>Deathrattle:</b> Summon a 4/4 Hapless Handler.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/546aed40141159a29ed90d94a548a7340fdccab9574e01fb53c0d326374b06ad.png",
+      "imageGold": "",
+      "flavorText": "This is why Scholomance engineering students prefer C++.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a320fe93d378eb154b6ef3155be40e35380627266d4e74e594b3698c8aadfbb.png",
+      "childIds": [
+        61173
+      ],
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59720,
+      "collectible": 1,
+      "slug": "59720-blood-herald",
+      "classId": 14,
+      "multiClassIds": [
+        3,
+        14
+      ],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Ivan Fomin",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 5,
+      "name": "Blood Herald",
+      "text": "Whenever a friendly minion dies while this is in your hand, gain +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d178c986ba8216ba25c4cbeec78034b296c1ed78bc052508ba08dda5d2783d7.png",
+      "imageGold": "",
+      "flavorText": "\"Red Blood, it gives you wings.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a79e319d75761d5b0caf656b8832dc436136956c2a2731919eccb125b8a7e237.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59605,
+      "collectible": 1,
+      "slug": "59605-boneweb-egg",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Mauricio Herrera",
+      "health": 2,
+      "attack": 0,
+      "manaCost": 2,
+      "name": "Boneweb Egg",
+      "text": "<b>Deathrattle:</b> Summon two 2/1 Spiders. If you discard this, trigger its <b>Deathrattle</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a22f360d4aaf47ebf3bec2d4fe54e0d2791b0c58d7c18b756407735e901d8170.png",
+      "imageGold": "",
+      "flavorText": "Noblegarden is going to be really exciting this year!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14b4413e995d511cdb6520a18d20227a1fcc9cc75257f903df007f934e876292.png",
+      "childIds": [
+        60256
+      ],
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59207,
+      "collectible": 1,
+      "slug": "59207-brain-freeze",
+      "classId": 12,
+      "multiClassIds": [
+        4,
+        7
+      ],
+      "spellSchoolId": 3,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Peter Stapleton",
+      "manaCost": 1,
+      "name": "Brain Freeze",
+      "text": "<b>Freeze</b> a minion. <b>Combo:</b> Also deal 3 damage to it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06d35a158bcc1fc34371ff8f6e1e329cb2ae337f2fe4346943b9966c8a5207e1.png",
+      "imageGold": "",
+      "flavorText": "\"The professor called on me, and I totally froze!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9456b41cffd5c6ef929d2a93c0e292b0dec1e8a650d305066ef2d0400a669d87.png",
+      "keywordIds": [
+        10,
+        13
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59222,
+      "collectible": 1,
+      "slug": "59222-brittlebone-destroyer",
+      "classId": 6,
+      "multiClassIds": [
+        6,
+        9
+      ],
+      "minionTypeId": 11,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Dave Allsop",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Brittlebone Destroyer",
+      "text": "<b>Battlecry:</b> If your hero's Health changed this turn, destroy a minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c587c0338e430a5dddb07e0bc2523a5f173255b50f709a06e2b9675ca397ac53.png",
+      "imageGold": "",
+      "flavorText": "Broke many a leg in drama class.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f12ed99084c28a69effe58f27f529dc85c65d202ead528b5c81a045d4576859.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59619,
+      "collectible": 1,
+      "slug": "59619-cabal-acolyte",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Slawomir Maniak",
+      "health": 6,
+      "attack": 2,
+      "manaCost": 4,
+      "name": "Cabal Acolyte",
+      "text": "<b>Taunt</b> <b>Spellburst:</b> Gain control of a random enemy minion with 2 or less Attack.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52b3fe78cdf2ca944bd210b7116521ca0aec36b41a1348786169abf9ce882e4e.png",
+      "imageGold": "",
+      "flavorText": "How did he get to the top of his class? He pulled a few strings!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3dd4451c93fec928b9a0835f561254c42a6fcd73e8b630018b250711023f00a.png",
+      "keywordIds": [
+        1,
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58782,
+      "collectible": 1,
+      "slug": "58782-carrion-studies",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Akkapoj T.",
+      "manaCost": 1,
+      "name": "Carrion Studies",
+      "text": "<b>Discover</b> a <b>Deathrattle</b> minion. Your next one costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7369910624aa21786940f6438890f51fbb9e3620c95f67b6e8ff365d3a4e0d96.png",
+      "imageGold": "",
+      "flavorText": "A good read but a little too much fluff.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4310a61d1c5e7babbd2f2d630001b22cafcecea46ce4a9efa6c84e228f513ad.png",
+      "keywordIds": [
+        12,
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59408,
+      "collectible": 1,
+      "slug": "59408-ceremonial-maul",
+      "classId": 5,
+      "multiClassIds": [
+        5,
+        10
+      ],
+      "cardTypeId": 7,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "MAR Studio",
+      "attack": 2,
+      "manaCost": 3,
+      "durability": 2,
+      "name": "Ceremonial Maul",
+      "text": "<b>Spellburst</b>: Summon a Student with <b>Taunt</b> and stats equal to the spell's Cost.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cfe80ae024110137d6264b0fb253ab5b6c38aab4ae679ac0dd040b0d77ed7c31.png",
+      "imageGold": "",
+      "flavorText": "For the most discerning of hall monitors.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de0cdca7dbcb7cb128dc9e740f09a16621971f3b76e03c8403d97aa75ed4c5c0.png",
+      "childIds": [
+        59954
+      ],
+      "keywordIds": [
+        1,
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59402,
+      "collectible": 1,
+      "slug": "59402-coerce",
+      "classId": 12,
+      "multiClassIds": [
+        7,
+        10
+      ],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Vladimir Kafanov",
+      "manaCost": 3,
+      "name": "Coerce",
+      "text": "Destroy a damaged minion. <b>Combo:</b> Destroy any minion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c8d77a05b77e8fb7114057e0c3d5d2bd85f5ed38e1b71e4e739bca8dfb388e2.png",
+      "imageGold": "",
+      "flavorText": "\"Give me your lunch money, or the sandwich gets it!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/473fa370099b1eba1fb3b0651239d58d7b4b6b329638d3362b0de45eddb6da0f.png",
+      "keywordIds": [
+        13
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59540,
+      "collectible": 1,
+      "slug": "59540-combustion",
+      "classId": 4,
+      "multiClassIds": [],
+      "spellSchoolId": 2,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "L. Lullabi & A. Zemskov",
+      "manaCost": 3,
+      "name": "Combustion",
+      "text": "Deal 4 damage to a minion. Any excess damages both neighbors.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5090064b43f84589fe9051399c7a793838d5a75a680d533941d36224fb5bc6c.png",
+      "imageGold": "",
+      "flavorText": "Sally is friends with three Silverhand Recruits conveniently standing in a line. After casting this spell, how many friends does she have left? (Show your work.)",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d3910cb1b9bcb8f4e6aaf8387e238c1da1ab08dfbc473e10449433624aa1a3c.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59602,
+      "collectible": 1,
+      "slug": "59602-commencement",
+      "classId": 5,
+      "multiClassIds": [
+        5,
+        10
+      ],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "manaCost": 7,
+      "name": "Commencement",
+      "text": "Summon a minion from your deck. Give it <b>Taunt</b> and <b>Divine Shield</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/352f68529eff9e571edb6f76f72cab83ea3a2750d3829ca356810ba78db87f8a.png",
+      "imageGold": "",
+      "flavorText": "\"Remember, graduates—you carry a heavy weight on your shoulders now.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10ee0cb6f8e8068ca9a279e8ef7efa4405dc77cd211376f652688212213c4b31.png",
+      "keywordIds": [
+        1,
+        3
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59639,
+      "collectible": 1,
+      "slug": "59639-cram-session",
+      "classId": 4,
+      "multiClassIds": [],
+      "spellSchoolId": 1,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Arthur Gimaldinov",
+      "manaCost": 2,
+      "name": "Cram Session",
+      "text": "Draw 1 (card, cards) <i>(improved by <b>Spell Damage</b>)</i>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e15a23418f9788a6109d642e743e889432ad6ce0d01ac827f5a23ab5d04257a.png",
+      "imageGold": "",
+      "flavorText": "The font of the arcane gives nearly limitless access to power and energy! But it can't keep you awake, for that we still use coffee.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a791682ed7c89abc26eb4c26137dd5966449d79e6dcbbea4b6bef7e3d1f51122.png",
+      "keywordIds": [
+        2
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58973,
+      "collectible": 1,
+      "slug": "58973-crimson-hothead",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 24,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Mauricio Herrera",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Crimson Hothead",
+      "text": "<b>Spellburst:</b> Gain +1 Attack and <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7778c5465e558bf82683fc21260cf842b515bc60fc7ba427052add21285dddc.png",
+      "imageGold": "",
+      "flavorText": "Has a real passion for spelling.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c581b3492567635503620f67799be2ba44c75f1ec10b55da3fab548cc83fcd37.png",
+      "keywordIds": [
+        1,
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 60043,
+      "collectible": 1,
+      "slug": "60043-cult-neophyte",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Matt Dixon",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 2,
+      "name": "Cult Neophyte",
+      "text": "<b>Battlecry:</b> Your opponent's spells cost (1) more next turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a4d9f1d5989c7f92d7adb111f560e2780142df62b9cfee298ed73a4d6978a7c.png",
+      "imageGold": "",
+      "flavorText": "Make a new recruit's deficiencies your efficiencies.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eab0ac49339a921ee0fd2fbd5f338bb29ad3f97dde5d93c25e2ae5e80fd91244.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 60023,
+      "collectible": 1,
+      "slug": "60023-cutting-class",
+      "classId": 12,
+      "multiClassIds": [
+        7,
+        10
+      ],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "L. Lullabi & K. Turovec",
+      "manaCost": 5,
+      "name": "Cutting Class",
+      "text": "Draw 2 cards. Costs (1) less per Attack of your weapon.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ba512c7296d7025d6f428e1c16380b20cb0a5714163ebacaede32b5c520bebe.png",
+      "imageGold": "",
+      "flavorText": "When you actually are the sharpest tool in the shed.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d0000014c3ca1ca5d7ebbf2883b2e556ae3da212e35ebd69a00f731b785cd1a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59092,
+      "collectible": 1,
+      "slug": "59092-cycle-of-hatred",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Anton Zemskov",
+      "manaCost": 7,
+      "name": "Cycle of Hatred",
+      "text": "Deal 3 damage to all minions. Summon a 3/3 Spirit for every minion killed.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8305b7bc28568cebccd11652e8f3b8c6ad9b2f71efc6c48ea9f246cc81e7482.png",
+      "imageGold": "",
+      "flavorText": "If you run 2 of these, would that make it the bi-cycle of hatred?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e246ac1e7a66f82f5c7c833edc05e22cba3e47abd4a63861e11f7831225ca1b.png",
+      "childIds": [
+        60279
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59394,
+      "collectible": 1,
+      "slug": "59394-demon-companion",
+      "classId": 14,
+      "multiClassIds": [
+        3,
+        14
+      ],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "manaCost": 1,
+      "name": "Demon Companion",
+      "text": "Summon a random Demon Companion.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43c8be6400f83f4f8c9f25bff44a30e6ab5c77dc4bcbe68ca57fe30d7b5ad08c.png",
+      "imageGold": "",
+      "flavorText": "Owning a pet can be real hell at times.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5e763f688f561f8daaa84bccc589c8d74bf07e7c3b9de6e19ca51cebd7f66f4.png",
+      "childIds": [
+        59391,
+        59393,
+        59392
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59628,
+      "collectible": 1,
+      "slug": "59628-demonic-studies",
+      "classId": 9,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Kagi",
+      "manaCost": 1,
+      "name": "Demonic Studies",
+      "text": "<b>Discover</b> a Demon. Your next one costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e1dbac0b354b1c622930599e39a3ac2cabfda6db98ad45dc1a8d53b5faea866.png",
+      "imageGold": "",
+      "flavorText": "\"Do you wanna summon a demon? I wanna summon a demon!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58f853b53cc1c178178edfc74dc7f7c71f3c09a3e63841879db298f28a002799.png",
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59599,
+      "collectible": 1,
+      "slug": "59599-desk-imp",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 15,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Alex Horley Orlandelli",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 0,
+      "name": "Desk Imp",
+      "text": "",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c54039ee2e3e69f6639d5a52958aba2e787ab78fa23f93b60d9aff3119ccdeec.png",
+      "imageGold": "",
+      "flavorText": "\"I feel inky!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d80fc397543fabfc0de302fffddadcbfc546cdaeb618c249e4138df44b4d4f24.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58976,
+      "collectible": 1,
+      "slug": "58976-devolving-missiles",
+      "classId": 12,
+      "multiClassIds": [
+        4,
+        8
+      ],
+      "spellSchoolId": 1,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Matt Dixon",
+      "manaCost": 1,
+      "name": "Devolving Missiles",
+      "text": "Shoot three missiles at random enemy minions that transform them into ones that cost (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/332f6ad0cdac74a1107cb0c27a92a04aa71a0db0a072adce01a0670f2f77bb19.png",
+      "imageGold": "",
+      "flavorText": "Most intermural spell-dueling contests end with a field of wisps.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b3989ed81ea484a6867766276d895f2e92e3530114eddb059657609bed24b4a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59584,
+      "collectible": 1,
+      "slug": "59584-devout-pupil",
+      "classId": 5,
+      "multiClassIds": [
+        5,
+        6
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Anton Zemskov",
+      "health": 5,
+      "attack": 4,
+      "manaCost": 6,
+      "name": "Devout Pupil",
+      "text": "<b>Divine Shield, Taunt</b> Costs (1) less for each spell you've cast on friendly characters this game.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5ccd6923353b4b3712af0ade2b6cf40b663eaca9072501cacd9b314b3bbeea6.png",
+      "imageGold": "",
+      "flavorText": "He considers textbooks Light reading.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c35fdf5adca77af8691f7c175164ee237df6400da2510fcfac333310b1b5c4b3.png",
+      "keywordIds": [
+        1,
+        3
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58977,
+      "collectible": 1,
+      "slug": "58977-diligent-notetaker",
+      "classId": 8,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 3,
+      "artistName": "Peter Stapleton",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Diligent Notetaker",
+      "text": "<b>Spellburst:</b> Return the spell to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c365262196c388e9bc7ca98712901a3816bc7d58e755c726bfefa77a5dec21a.png",
+      "imageGold": "",
+      "flavorText": "You never know what cards are going to be on the test.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f54c70a60a9be8c4a08b9003f9e43e28a416477655022fc327e97a4440d6757b.png",
+      "keywordIds": [
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59623,
+      "collectible": 1,
+      "slug": "59623-disciplinarian-gandling",
+      "classId": 6,
+      "multiClassIds": [
+        6,
+        9
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 5,
+      "artistName": "Zoltan Boros",
+      "health": 6,
+      "attack": 3,
+      "manaCost": 4,
+      "name": "Disciplinarian Gandling",
+      "text": "After you play a minion, destroy it and summon a 4/4 Failed Student.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d14e19dd82f83782305ea1285067917b6c275f64a546178cc8decc074dae5ed.png",
+      "imageGold": "",
+      "flavorText": "\"He doesn’t grade on a curve, but on a sharp spike instead.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3936d8410c5eb4e93ab4340a9594a7d1c2de911898b7f96b23379e466dfa1ea1.png",
+      "childIds": [
+        61092
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59595,
+      "collectible": 1,
+      "slug": "59595-divine-rager",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Patrik Bjorkstrom",
+      "health": 1,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Divine Rager",
+      "text": "<b>Divine Shield</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/543fa58dc986902fc47fa0ffeca5a87681d2080e16f8161b997957f8aa427fd9.png",
+      "imageGold": "",
+      "flavorText": "For when you need to rage, rage against the dying of the Light.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d272f30bbbec1e7f0259d7622567e1c6662e6327a0d17a3e974b67cab54500f0.png",
+      "keywordIds": [
+        3
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59690,
+      "collectible": 1,
+      "slug": "59690-doctor-krastinov",
+      "classId": 12,
+      "multiClassIds": [
+        7,
+        10
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 5,
+      "artistName": "L. Lullabi & K. Turovec",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Doctor Krastinov",
+      "text": "<b>Rush</b> Whenever this attacks, give your weapon +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60794db6e4c5f7fbe51cbad1810ff3e53485ece3629d76a160a3faa01e309791.png",
+      "imageGold": "",
+      "flavorText": "He is not a medical doctor.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d82663dca7d1a5daffc0061ec9f7a62a9778d9c0807e35fffc1fbbc8d722dbc7.png",
+      "keywordIds": [
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59606,
+      "collectible": 1,
+      "slug": "59606-double-jump",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "A.J. Nazzaro",
+      "manaCost": 1,
+      "name": "Double Jump",
+      "text": "Draw an <b>Outcast</b> card from your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/490c76af133c47a0f80e5c23cd4442ab412eefb4022c2c42fa8e910d8640349f.png",
+      "imageGold": "",
+      "flavorText": "The key to every speed run.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f8718de84772b188c84de6b005317a08b82d5c48721ac44bae2c3f279befea0.png",
+      "keywordIds": [
+        86
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 58974,
+      "collectible": 1,
+      "slug": "58974-draconic-studies",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Kagi",
+      "manaCost": 1,
+      "name": "Draconic Studies",
+      "text": "<b>Discover</b> a Dragon. Your next one costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d42e0fc1bb651e29f1890b80187a939634006bd0e60683875b17bc630b17e5ee.png",
+      "imageGold": "",
+      "flavorText": "Our Draconic Studies program has a high rate of burnout.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/290bc279e1a05e962e387a23eee4da01fc94e004c9207df0f045d0136749e158.png",
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 60090,
+      "collectible": 1,
+      "slug": "60090-educated-elekk",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Cheng Hao",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Educated Elekk",
+      "text": "Whenever a spell is played, this minion remembers it. <b>Deathrattle:</b> Shuffle the spells into your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2fbd5637a49c0d12553e204d40ca0533a74cdb8f35c26769da88f324f7738ed.png",
+      "imageGold": "",
+      "flavorText": "\"This reminds me of a saying. 'An elekk never…' something. I can't remember.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15852169a0cc6d3412d257d9d5f00a2522fb672eae8da6787a157d8f5280d8fb.png",
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59627,
+      "collectible": 1,
+      "slug": "59627-enchanted-cauldron",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Matt O'Connor",
+      "health": 6,
+      "attack": 1,
+      "manaCost": 3,
+      "name": "Enchanted Cauldron",
+      "text": "<b><b>Spellburst</b>:</b> Cast a random spell of the same Cost.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc5c2f4d9155b0b4a4c1ccca7c2b28d3bfbacec4bb10b6afa0914946aaf1e192.png",
+      "imageGold": "",
+      "flavorText": "Do you smell what the cauldron is cooking? If so, we apologize.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a9ce2548081acbc60407b2d7a4bfd8e197db54187fc5fc68c30e641c0d49ca0.png",
+      "keywordIds": [
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 60164,
+      "collectible": 1,
+      "slug": "60164-fel-guardians",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 7,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Anton Zemskov",
+      "manaCost": 7,
+      "name": "Fel Guardians",
+      "text": "Summon three 1/2 Demons with <b>Taunt</b>. Costs (1) less whenever a friendly minion dies.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aed825e408d8ece8dfb9251595423319519d1ac1598daaa887c4fb2bd8e227bb.png",
+      "imageGold": "",
+      "flavorText": "What happened after the guardians tripped? They Fel.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f956188f8d60c935054c4e24019d60d7b6f634606b2874f88a715e92c37e28c.png",
+      "childIds": [
+        60165
+      ],
+      "keywordIds": [
+        1
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59726,
+      "collectible": 1,
+      "slug": "59726-felosophy",
+      "classId": 9,
+      "multiClassIds": [
+        9,
+        14
+      ],
+      "spellSchoolId": 7,
+      "cardTypeId": 5,
+      "cardSetId": 1443,
+      "rarityId": 4,
+      "artistName": "Adam Byrne",
+      "manaCost": 1,
+      "name": "Felosophy",
+      "text": "Copy the lowest Cost Demon in your hand. <b>Outcast:</b> Give both +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3eea7cc6d4f5568281063eb1d5f0bc8640cca008ef5bf45149c6861156259cd5.png",
+      "imageGold": "",
+      "flavorText": "\"Like, isn't evil subjective man?\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d1f6bfa0da1b42461f93c22be98d50a18399006df9ee9a75f078028fdd25b34.png",
+      "keywordIds": [
+        86
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 59000,
+      "collectible": 1,
+      "slug": "59000-firebrand",
+      "classId": 4,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1443,
+      "rarityId": 1,
+      "artistName": "Mike Sass",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Firebrand",
+      "text": "<b><b>Spellburst</b>:</b> Deal 4 damage randomly split among all enemy minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5795a9e94d7c240dee702ffa8805d49dffaa99af2adcf1ad6299834d0fff5552.png",
+      "imageGold": "",
+      "flavorText": "Too cool for school, too hot for thought.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8795afeb52b6246c84529549d3674fed12348d6b2428a91075ee9ed8f0e3422b.png",
+      "keywordIds": [
+        88
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 135,
+  "pageCount": 4,
+  "page": 1
+}

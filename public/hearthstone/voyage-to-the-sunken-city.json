@@ -1,0 +1,1227 @@
+{
+  "cards": [
+    {
+      "id": 71922,
+      "collectible": 1,
+      "slug": "71922-abyssal-depths",
+      "classId": 14,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "BOSi Studio",
+      "manaCost": 3,
+      "name": "Abyssal Depths",
+      "text": "Draw your two lowest Cost minions.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4fb34d3319764907659372f3e94c5ab43c28be96b7f207b8a0a8ac1f04b8ea4a.png",
+      "imageGold": "",
+      "flavorText": "*Happy Wisp noises*",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1a6966ec76e3705ebd0514f0af645a71e791da181da34e86d0eaefd15889de8.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72318,
+      "collectible": 1,
+      "slug": "72318-abyssal-wave",
+      "classId": 9,
+      "multiClassIds": [],
+      "spellSchoolId": 6,
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "L. Lullabi & K. Turovec",
+      "manaCost": 6,
+      "name": "Abyssal Wave",
+      "text": "Deal 4 damage to all minions. Give your opponent an Abyssal Curse.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a174e8e0fef206861e45c35d8ed87a83b235d25471a8626af07ecbfa7f7b29fe.png",
+      "imageGold": "",
+      "flavorText": "Often followed up with a chasmic handshake.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43a4bbba61d02fab259b756363a3311337e7e39f99fa9fed6df4adb891f606ae.png",
+      "childIds": [
+        74927
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 73906,
+      "collectible": 1,
+      "slug": "73906-amalgam-of-the-deep",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 26,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Andrew Hou",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Amalgam of the Deep",
+      "text": "<b>Battlecry:</b> Choose a friendly minion. <b>Discover</b> a minion of the same minion type.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78e6b04f8e13c6b184c23a40c842b0a1ec5a357e91250c2ea76244d9dd8833d1.png",
+      "imageGold": "",
+      "flavorText": "Most explorers call it a success to find just one new species. Imagine Finley's excitement when he identified ten at once!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c95513f77eb61bff3a28c95fd966e31dc9eadcebcb9d43459675c6aa69e5b08b.png",
+      "keywordIds": [
+        8,
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 74907,
+      "collectible": 1,
+      "slug": "74907-ambassador-faelin",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 5,
+      "artistName": "Anton Zemskov",
+      "health": 5,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Ambassador Faelin",
+      "text": "<b>Battlecry:</b> Put 3 <b>Colossal</b> minions on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/20f765686cff7e8ef674c6d3be312b91dd814eab29b767785d607babd5d9d83b.png",
+      "imageGold": "",
+      "flavorText": "For thousands of years, Faelin has longed to return to his homeland. Will Zin-Azshari be as he hopes, or are the secrets of the deep better left forgotten?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6baae54ca71c3e77d9f6096c81d5e42493af88dcd0ca38b26af3f7f89aac45a4.png",
+      "keywordIds": [
+        8,
+        231
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72314,
+      "collectible": 1,
+      "slug": "72314-anchored-totem",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 21,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Studio Hive ",
+      "health": 3,
+      "attack": 0,
+      "manaCost": 2,
+      "name": "Anchored Totem",
+      "text": "After you summon a 1-Cost minion, give it +2/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c09df34ce2775fe8022673746b81dd636f0b041945e01955afa0c186453c139.png",
+      "imageGold": "",
+      "flavorText": "The Naga devised the perfect retaliation to any pirates dropping anchor in their domain: vandalism.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf8d62aaa9ed39a81ac83a16294ee1f012437599409ade77dc18670643b87577.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 76224,
+      "collectible": 1,
+      "slug": "76224-ancient-krakenbane",
+      "classId": 3,
+      "multiClassIds": [],
+      "minionTypeId": 92,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Zoltan Boros",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Ancient Krakenbane",
+      "text": "<b>Battlecry:</b> If you've cast three spells while holding this, deal 5 damage. <i>( left!)</i> <i>(Ready!)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a302dbb415ddbdb3932f3e6e0b6fbee401728d3f4166f285dd7036c7cbe4d74.png",
+      "imageGold": "",
+      "flavorText": "\"Call me Fishmael.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7f1d738b26b153209e9ea4baea6ff30967e31bf8face8c1ee23a16e46e44171.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 73774,
+      "collectible": 1,
+      "slug": "73774-aquatic-form",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "BOSi Studio",
+      "manaCost": 0,
+      "name": "Aquatic Form",
+      "text": "<b>Dredge</b>. If you have the Mana to play the card this turn, draw it.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63346e7426dc831333e192d3f9ecba841e420aea47e19a6c50e9c24b0468013a.png",
+      "imageGold": "",
+      "flavorText": "How long can YOU hold your breath underwater?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62e25bb16126fe1f47a652cd46f70b733c7be4c48873b152a2c4df1c3632ab2b.png",
+      "keywordIds": [
+        232
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72657,
+      "collectible": 1,
+      "slug": "72657-azsharan-defector",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Vlad Botos",
+      "health": 3,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Azsharan Defector",
+      "text": "<b>Rush</b>. <b>Deathrattle:</b> Put a 'Sunken Defector' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4321d69106e9359d2afd62e68286bfd5ae2563d56ea78f83def7baf472132d2d.png",
+      "imageGold": "",
+      "flavorText": "\"I've got a sinking feeling about this evil Queen.\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b964d9c4c3e697856a88a64a3c328a0d3f98803392d44686de1d743d44d40a88.png",
+      "childIds": [
+        75064
+      ],
+      "keywordIds": [
+        12,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72336,
+      "collectible": 1,
+      "slug": "72336-azsharan-gardens",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Zoltan Boros",
+      "manaCost": 1,
+      "name": "Azsharan Gardens",
+      "text": "Give all minions in your hand +1/+1. Put a 'Sunken Gardens' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27ec0af8ce30b920a102db2634628801874ca97b4ce9104dbd68ccf40d538133.png",
+      "imageGold": "",
+      "flavorText": "That's not what I meant when I asked you to water the garden.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3f2dfee8d7501b59189f37cfccb8557e38a5506463ad15a07d2b141899aece5.png",
+      "childIds": [
+        72337
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72926,
+      "collectible": 1,
+      "slug": "72926-azsharan-mooncatcher",
+      "classId": 5,
+      "multiClassIds": [],
+      "minionTypeId": 17,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Evgeniy Dlinnov",
+      "health": 2,
+      "attack": 4,
+      "manaCost": 3,
+      "name": "Azsharan Mooncatcher",
+      "text": "<b>Divine Shield</b>. <b>Battlecry:</b> Put a 'Sunken Mooncatcher' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dda95629c40e257f396304e5769e9c54eb8fdaf230067a03f38aa63a19f4a821.png",
+      "imageGold": "",
+      "flavorText": "The light of Elune faded from the ruins of Zin-Azshari, but not its treasures.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a62ebdc76613d8fd2a9e37f7029d71d08a2ca4357c688492d15a92b7d21a3b8.png",
+      "childIds": [
+        74957
+      ],
+      "keywordIds": [
+        3,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 77374,
+      "collectible": 1,
+      "slug": "77374-azsharan-ritual",
+      "classId": 6,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Maria Trepalina",
+      "manaCost": 4,
+      "name": "Azsharan Ritual",
+      "text": "<b>Silence</b> a minion and summon a copy of it. Put a 'Sunken Ritual' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3efc85185cd81bb4c0b0909a860b9a464aa4e757e1d615a6406451debdc85065.png",
+      "imageGold": "",
+      "flavorText": "The harmonious silence surrounding the ritual was unceremoniously <i>BROKEN</i> when <i>HAROLD</i> began eating stale potato chips.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f48898a9cfc467348f4a0c8b825a48e5a51fb9fe68d9778871d165fc021eb53c.png",
+      "childIds": [
+        77378
+      ],
+      "keywordIds": [
+        15
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72896,
+      "collectible": 1,
+      "slug": "72896-azsharan-saber",
+      "classId": 3,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Mike Sass",
+      "health": 3,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Azsharan Saber",
+      "text": "<b><b>Rush</b>.</b> <b>Deathrattle:</b> Put a 'Sunken Saber' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50ed04f6e56516f7f1710f772de43aadff62b38b72ef2aa63103ee8ad0aa7686.png",
+      "imageGold": "",
+      "flavorText": "Even in ancient times, the Night Elves were committed cat people.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f9994c8a9781483ebe8e17e563af7d2d980017066a674506e628b62d8f5c437.png",
+      "childIds": [
+        78159
+      ],
+      "keywordIds": [
+        12,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72254,
+      "collectible": 1,
+      "slug": "72254-azsharan-scavenger",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 14,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Ivan Fomin",
+      "health": 3,
+      "attack": 2,
+      "manaCost": 2,
+      "name": "Azsharan Scavenger",
+      "text": "<b>Battlecry:</b> Put a 'Sunken Scavenger' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec1e0f4331cce01ab419e32327fe8e391f8befb1cd110ad151601d571653e3cf.png",
+      "imageGold": "",
+      "flavorText": "Some local Murloc populations have adapted to survive in the harsh conditions of the ruins, much to the fascination of Sir Finley.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/179cb645ff5ca7e24a7fd60a096b551c3c08fce33ac91985bc40775ad7db28e1.png",
+      "childIds": [
+        78672
+      ],
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 77209,
+      "collectible": 1,
+      "slug": "77209-azsharan-scroll",
+      "classId": 8,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Angelina Chernyak",
+      "manaCost": 1,
+      "name": "Azsharan Scroll",
+      "text": "<b>Discover</b> a Fire, Frost or Nature spell. Put a 'Sunken Scroll' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d810106f1ada1e915a226fab77b4581c2c8137c4770f4071ab477d7c9822ec0c.png",
+      "imageGold": "",
+      "flavorText": "Kids these days are always scrolling on their tomes.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a62f3fcc6fa8909d785da805111ca9a24d6a986f45acd0a7d5ae00083cee960.png",
+      "childIds": [
+        77211
+      ],
+      "keywordIds": [
+        21
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72212,
+      "collectible": 1,
+      "slug": "72212-azsharan-sentinel",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Patrik Bjorkstrom",
+      "health": 6,
+      "attack": 5,
+      "manaCost": 5,
+      "name": "Azsharan Sentinel",
+      "text": "<b>Taunt</b>. <b>Deathrattle:</b> Put a 'Sunken Sentinel' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad6629e6d36fdbf4d65f55f797eeef98e49b9f95909e589d49da4ecd4e31cb5e.png",
+      "imageGold": "",
+      "flavorText": "For some, the Sundering was the collapse of civilization. For others, it was a great core workout.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d32cb475d599e07e29e038df12185de166fdddc33e1280be226a88949a6e33a.png",
+      "childIds": [
+        72213
+      ],
+      "keywordIds": [
+        1,
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 77016,
+      "collectible": 1,
+      "slug": "77016-azsharan-sweeper",
+      "classId": 4,
+      "multiClassIds": [],
+      "minionTypeId": 17,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Anton Zemskov",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Azsharan Sweeper",
+      "text": "<b>Battlecry:</b> Put a 'Sunken Sweeper' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abb2f5095d2ca5d4afd608ed80178eeedf6d400e4f26584fa6bc4099a9088a09.png",
+      "imageGold": "",
+      "flavorText": "The enchanted objects of Zin-Azshari have extremely long warranties.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34b63196cf72cd00dcd8140ef923db4ef314dac16be4deb22e4b49afeda85f80.png",
+      "childIds": [
+        77017
+      ],
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72113,
+      "collectible": 1,
+      "slug": "72113-azsharan-trident",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Tanamaes Leejiarasaes",
+      "attack": 3,
+      "manaCost": 3,
+      "durability": 2,
+      "name": "Azsharan Trident",
+      "text": "<b>Deathrattle:</b> Put a 'Sunken Trident' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7b00183bcc1087a65af7c9664c69abe687385eefafe7e9cf27d8751bf2b3ae8.png",
+      "imageGold": "",
+      "flavorText": "Nevermind the barnacles! A well-crafted weapon is eternally useful.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6827753e6b506947acb4f5125c268ee83d00ffe4fc02a1d4ad01e07f56b69e3f.png",
+      "childIds": [
+        72114
+      ],
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72111,
+      "collectible": 1,
+      "slug": "72111-azsharan-vessel",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Jakub Kasper",
+      "manaCost": 5,
+      "name": "Azsharan Vessel",
+      "text": "Summon two 3/3 Pirates with <b>Stealth</b>. Put a 'Sunken Vessel' on the bottom of your deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f4372c33f73e2fc764bdb56f48b1d03ab56486c1f3c2b06f2b64c30fccc6316.png",
+      "imageGold": "",
+      "flavorText": "Not even the sturdiest Highborne ship could survive the churning waters of the Sundering.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6315589bdc1052474fae8ada4a04da34e9742b39f69bb1e5b1d98602da5a3e64.png",
+      "childIds": [
+        72112,
+        72579,
+        72118
+      ],
+      "keywordIds": [
+        6
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71701,
+      "collectible": 1,
+      "slug": "71701-baba-naga",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 92,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Moon Colony",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Baba Naga",
+      "text": "<b>Battlecry:</b> If you've cast a spell while holding this, deal 3 damage.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e360a1450cd639727dceeb4f790e335d3f0b1783d6ffa1e191500ed46bad0076.png",
+      "imageGold": "",
+      "flavorText": "A folktale told to Naga children to scare them from swimming too close to the surface.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77c632a073fa1f1468f513e4821507af1321a11b9fba98f84ae7ed32d60651c2.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71705,
+      "collectible": 1,
+      "slug": "71705-barbaric-sorceress",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 92,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "L. Lullabi & K. Turovec",
+      "health": 7,
+      "attack": 3,
+      "manaCost": 6,
+      "name": "Barbaric Sorceress",
+      "text": "<b>Taunt</b>. <b>Battlecry:</b> Swap the Cost of a random spell in each player's hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c453c4834e9f039f93323dff4b6fff6cc721188ff1d84affaa21e1e04dd7d053.png",
+      "imageGold": "",
+      "flavorText": "Her four arms are for casting, and her forearms are for crushing.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a52b5c7bb33c4126cbdf070871e611e61769ab2484ff4bf9d9b4d06ef3d7d12f.png",
+      "keywordIds": [
+        1,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71709,
+      "collectible": 1,
+      "slug": "71709-barbed-nets",
+      "classId": 3,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Hideaki Takamura",
+      "manaCost": 1,
+      "name": "Barbed Nets",
+      "text": "Deal 2 damage to an enemy. If you played a Naga while holding this, choose a second target.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/532f953efdcaa538a8132bdb82dbc3bb39b94c5d95bde476abbe8beade5a52b0.png",
+      "imageGold": "",
+      "flavorText": "I caught'ya a dollar.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06e5ea7b00c45c4810f1213a9ed0bac52fb9cea5247a82aaaac1d66aaad057ff.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72316,
+      "collectible": 1,
+      "slug": "72316-bioluminescence",
+      "classId": 8,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Grace Liu",
+      "manaCost": 4,
+      "name": "Bioluminescence",
+      "text": "Give your minions <b>Spell Damage +1</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba93735d5193ed382ffcbcec24d581881f4a04d45ec2398b74effa181ea52195.png",
+      "imageGold": "",
+      "flavorText": "The perfect card for Spell Damage Shaman and Spelling Bee Shaman.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc0c8eb6604a11f08a3de0ed8f125c47bdea737f7d67357f4ff9b17aaab4bbb2.png",
+      "keywordIds": [
+        2
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72120,
+      "collectible": 1,
+      "slug": "72120-blackscale-brute",
+      "classId": 10,
+      "multiClassIds": [],
+      "minionTypeId": 92,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Konstantin Turovec",
+      "health": 6,
+      "attack": 5,
+      "manaCost": 7,
+      "name": "Blackscale Brute",
+      "text": "<b>Taunt</b>. <b>Battlecry:</b> If you have a weapon equipped, summon a 5/6 Naga with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90ea1b18854fad9f06dfb3c04cd44958000ce65c7b216b53ce4acdb7b83ea972.png",
+      "imageGold": "",
+      "flavorText": "Black, the scales of angry Naga! Red, the flames of Azshari's past!",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb5ba5be1b61c781b48f290d672ca1f8f71d1248f22f0bfeda58fb69f5fd5321.png",
+      "childIds": [
+        87697
+      ],
+      "keywordIds": [
+        1,
+        8,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72488,
+      "collectible": 1,
+      "slug": "72488-blackwater-behemoth",
+      "classId": 6,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 5,
+      "artistName": "Zoltan Boros",
+      "health": 10,
+      "attack": 8,
+      "manaCost": 7,
+      "name": "Blackwater Behemoth",
+      "text": "<b>Colossal +1</b> <b>Lifesteal</b>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4823e71a3c0e3bbb4f930489609b9e209d860602f0a064721776aab28c035de6.png",
+      "imageGold": "",
+      "flavorText": "What's a Blackwater Behemoth's favorite meal? Fish n' Ships.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0358854fd12a5acc03ea8cf68f55d05c64613e25e00e38dfc014129dc3731270.png",
+      "childIds": [
+        72489
+      ],
+      "keywordIds": [
+        38,
+        231
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72007,
+      "collectible": 1,
+      "slug": "72007-blademaster-okani",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 5,
+      "artistName": "Hideaki Takamura",
+      "health": 6,
+      "attack": 2,
+      "manaCost": 4,
+      "name": "Blademaster Okani",
+      "text": "<b>Battlecry:</b> <b>Secretly</b> choose to <b>Counter</b> the next minion or spell your opponent plays while this is alive.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/260f2bb6978e1ebc02208ec8b47f436fc9472ee5a4d22faafd14f9f4a72a592b.png",
+      "imageGold": "",
+      "flavorText": "Yet ANOTHER sword fighter that spams counters.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec522e09a9fce2aff9e92513c6721c5f917d6f3eee8c62b6264ec2a2898f7ab4.png",
+      "childIds": [
+        72001,
+        72003
+      ],
+      "keywordIds": [
+        8,
+        16
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72473,
+      "collectible": 1,
+      "slug": "72473-blood-in-the-water",
+      "classId": 7,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Kleston Marques",
+      "manaCost": 6,
+      "name": "Blood in the Water",
+      "text": "Deal 3 damage to an enemy. Summon a 5/5 Shark with <b>Rush</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1af65c7ec337e2b6ae160778e53e8fc268b9fcf9298fea2b387d0f8121b20cf5.png",
+      "imageGold": "",
+      "flavorText": "Fish are friends, not food! Gilgoblins on the other hand…",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/561edcc33fc2623151fd104b56635037f8f0ee878e4531432d728ad64f9f4538.png",
+      "childIds": [
+        72532
+      ],
+      "keywordIds": [
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 76926,
+      "collectible": 1,
+      "slug": "76926-bloodscent-vilefin",
+      "classId": 9,
+      "multiClassIds": [],
+      "minionTypeId": 14,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Alex Stone",
+      "health": 4,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Bloodscent Vilefin",
+      "text": "<b>Battlecry:</b> <b>Dredge</b>. If it's a Murloc, change its Cost to Health instead of Mana.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebd00ed2a238a526b375bbce10ddf3439c6838ed751ae73701de0002b51aff25.png",
+      "imageGold": "",
+      "flavorText": "Tired of eating Jellyfish and Peanut Butter fish, it’s moved on to more gruesome meals.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6fee7b085f88e9f7966ea51949f58dc725b81a8c67e9a299b8526b6706360be.png",
+      "keywordIds": [
+        8,
+        232
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72117,
+      "collectible": 1,
+      "slug": "72117-bone-glaive",
+      "classId": 14,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Studio Hive ",
+      "attack": 5,
+      "manaCost": 5,
+      "durability": 2,
+      "name": "Bone Glaive",
+      "text": "<b>Battlecry:</b> <b>Dredge</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b9ba197900b0b9358fb8b62ed45ed76bd5d75f56b05ffc77ac46c1bbfe52a7f.png",
+      "imageGold": "",
+      "flavorText": "Resourceful Demon Hunters find a use for every part of the Demon.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49a0f7331975bfae98cf0b060b98bfed9457dabb4f899efc670e2c9c1dd95356.png",
+      "keywordIds": [
+        8,
+        232
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72480,
+      "collectible": 1,
+      "slug": "72480-bootstrap-sunkeneer",
+      "classId": 7,
+      "multiClassIds": [],
+      "minionTypeId": 23,
+      "multiTypeIds": [
+        11
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Dave Allsop",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 5,
+      "name": "Bootstrap Sunkeneer",
+      "text": "<b>Combo:</b> Put an enemy minion on the bottom of your opponent's deck.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21833898d7c49840eb6f8fc0c2e6335035710854f2ab160ac2e68e9b050489a4.png",
+      "imageGold": "",
+      "flavorText": "Part of the deck, part of the crew.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0effeaf43a1aad726591d6eb2a2d367b8ef72a55e015a8ef25fa2005853004c9.png",
+      "keywordIds": [
+        13
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 73466,
+      "collectible": 1,
+      "slug": "73466-bottomfeeder",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Sergey Tsvelykh",
+      "health": 3,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Bottomfeeder",
+      "text": "<b>Deathrattle:</b> Add a Bottomfeeder to the bottom of your deck with permanent +2/+2.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ea3285f775e8cfcf1f8d56e5920b51ce2865ce9178d320bcebad28ce7a61562.png",
+      "imageGold": "",
+      "flavorText": "Someone keeps adding fish to my deck, and I'm going to get to the bottom of it.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5f240a5c65a7f7a0c80a8adb6a3ccffd91ccc04798cd3eaeb58dd970ba2017b.png",
+      "keywordIds": [
+        12
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 73428,
+      "collectible": 1,
+      "slug": "73428-bubblebot",
+      "classId": 5,
+      "multiClassIds": [],
+      "minionTypeId": 17,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Daniil Kudriavtsev",
+      "health": 4,
+      "attack": 4,
+      "manaCost": 4,
+      "name": "Bubblebot",
+      "text": "<b>Battlecry:</b> Give your other Mechs <b>Divine Shield</b> and <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb240661a5cb48c9b298fd28f33ae4a6741ab9788e7399e5cbbab5564785ced5.png",
+      "imageGold": "",
+      "flavorText": "Bubblebot, bubble bubble bubblebot.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f24bca11b6ffd72c27a2bca363ba3988b04bf600901bb2f3ded3a23c5eac8967.png",
+      "keywordIds": [
+        1,
+        3,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71646,
+      "collectible": 1,
+      "slug": "71646-bubbler",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 18,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "BOSi Studio",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 1,
+      "name": "Bubbler",
+      "text": "After this minion takes exactly one damage, destroy it. <i>(Pop!)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd132b91b670b24c8bef4f98b51151375c8ff25b736324d3b2b8dda9a068e889.png",
+      "imageGold": "",
+      "flavorText": "Prefers regular over diet shampoo.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/922f13cc813ebf1ba3569f42d97e1339636073c129b89242adb593e53c85329a.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 73443,
+      "collectible": 1,
+      "slug": "73443-chum-bucket",
+      "classId": 9,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Arthur Bozonnet",
+      "manaCost": 2,
+      "name": "Chum Bucket",
+      "text": "Give all Murlocs in your hand +1/+1. Repeat for each Murloc you control.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cda3b6a3e07826cb68237b0f71c6d17ef53b242eb95d4a5cc3b6e1af2f2ee43.png",
+      "imageGold": "",
+      "flavorText": "Time to go in for the krill.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff0a91761b918616055458a45ee4f549fcbb128cd39be8cd03bf1905a643851f.png",
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 75633,
+      "collectible": 1,
+      "slug": "75633-clash-of-the-colossals",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Anton Zemskov",
+      "manaCost": 3,
+      "name": "Clash of the Colossals",
+      "text": "Add a random <b>Colossal</b> minion to both players' hands. Yours costs (2) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae81c021c793ae883fceb162dc3c88fb437df018cdfa677b2b90f806507f9d29.png",
+      "imageGold": "",
+      "flavorText": "Don’t let this distract you from the fact that in 1998, Ozumat threw Neptulon off Shell in a Cell, and plummeted 16 fathoms through an announcer’s table.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/708ef35772d96004d5ba321f824700d88f1ad19cff8e512a529e49c8a0d55088.png",
+      "keywordIds": [
+        231
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 72417,
+      "collectible": 1,
+      "slug": "72417-click-clocker",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 17,
+      "multiTypeIds": [
+        20
+      ],
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Melvin Chan",
+      "health": 1,
+      "attack": 1,
+      "manaCost": 1,
+      "name": "Click-Clocker",
+      "text": "<b>Divine Shield</b>. <b>Battlecry:</b> Give a random Mech in your hand +1/+1.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47f052f0613bfb229ebc15ab5b98b784447e847962aaddf45898a65c3810b3a2.png",
+      "imageGold": "",
+      "flavorText": "Allan please add details",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8dd989cbf14f1cccdadf720516987aab836433a9f89a2d3d8147f4ec6005175.png",
+      "keywordIds": [
+        3,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 75589,
+      "collectible": 1,
+      "slug": "75589-clownfish",
+      "classId": 8,
+      "multiClassIds": [],
+      "minionTypeId": 14,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 1,
+      "artistName": "Ursula Dorada",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Clownfish",
+      "text": "<b>Battlecry:</b> Your next two Murlocs cost (2) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bca562fc8a401dbdbbf2af5f7f55221ee2c6e704a242c50e0c085e02317880f4.png",
+      "imageGold": "",
+      "flavorText": "His jokes are hilarious if you know Nerglish.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b17de69e6e7571e30d5b4290bf5e32231dddadceccc2f7a86c4919a82718b6a2.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 85810,
+      "collectible": 1,
+      "slug": "85810-coilfang-constrictor",
+      "classId": 12,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "Patrik Bjorkstrom",
+      "health": 4,
+      "attack": 5,
+      "manaCost": 4,
+      "name": "Coilfang Constrictor",
+      "text": "<b>Battlecry:</b> Look at 3 cards in your opponent's hand and choose one. It can't be played next turn.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57892aae8b8303fb400c405804829f9d857619fa084b26d948cb7107ec5952e6.png",
+      "imageGold": "",
+      "flavorText": "How do you know when someone has a crush on you? They take your breath away.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8eec9c5df2c4d35bf959d69dadf304acf85620d6f24c28d39d4a315acbc8123.png",
+      "keywordIds": [
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71921,
+      "collectible": 1,
+      "slug": "71921-coilskar-commander",
+      "classId": 14,
+      "multiClassIds": [],
+      "minionTypeId": 92,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 4,
+      "artistName": "Trent Kaniuga",
+      "health": 7,
+      "attack": 3,
+      "manaCost": 6,
+      "name": "Coilskar Commander",
+      "text": "<b>Taunt</b>. <b>Battlecry:</b> If you've cast three spells while holding this, summon two copies of this. <i>( left!)</i> <i>(Ready!)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e196f993eb178ec1724a23f48a7612f7075bb1e7aecf2799db75b37fdef0a516.png",
+      "imageGold": "",
+      "flavorText": "Then thou shalt count to three, no more, no less. Three shall be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, neither count thou two, excepting that thou then proceed to three. Five is right out.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78b654fbc62259f82b4a8e537f1e769ad89b77f292136ac96ac0f83715d064d7.png",
+      "keywordIds": [
+        1,
+        8
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 71712,
+      "collectible": 1,
+      "slug": "71712-colaque",
+      "classId": 2,
+      "multiClassIds": [],
+      "minionTypeId": 20,
+      "cardTypeId": 4,
+      "cardSetId": 1658,
+      "rarityId": 5,
+      "artistName": "Zoltan Boros",
+      "health": 5,
+      "attack": 6,
+      "manaCost": 7,
+      "name": "Colaque",
+      "text": "<b>Colossal +1</b> <b>Immune</b> while you control Colaque's Shell.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/92d8832d36df47e922237ccef1f41d9141e2514e9419647b7645268cb8038e43.png",
+      "imageGold": "",
+      "flavorText": "Ten thousand years ago, the city of Zin-Azshari fell to the bottom of the sea... and partially onto Colaque's shell.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd0dc37d387e9a661f29236f9897dbedf7f351977abb11925fee24f699d95f59.png",
+      "childIds": [
+        71828
+      ],
+      "keywordIds": [
+        17,
+        231
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    },
+    {
+      "id": 75590,
+      "collectible": 1,
+      "slug": "75590-command-of-neptulon",
+      "classId": 8,
+      "multiClassIds": [],
+      "spellSchoolId": 4,
+      "cardTypeId": 5,
+      "cardSetId": 1658,
+      "rarityId": 3,
+      "artistName": "BOSi Studio",
+      "manaCost": 5,
+      "name": "Command of Neptulon",
+      "text": "Summon two 5/4 Elementals with <b>Rush</b>. <b>Overload:</b> (1)",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161649652ade039213240932f7765973d5f165d92b4bc612dc6d9464bb6ce182.png",
+      "imageGold": "",
+      "flavorText": "\"REVENANT TO F6. CHECKMATE, OZUMAT!\"",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36de290bd7ef28f004523b6d4d82e5705f9dc8ccba1967d0cd974c483803a7b6.png",
+      "childIds": [
+        75591
+      ],
+      "keywordIds": [
+        14,
+        53
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false,
+      "duels": {
+        "relevant": true,
+        "constructed": true
+      }
+    }
+  ],
+  "cardCount": 170,
+  "pageCount": 5,
+  "page": 1
+}
