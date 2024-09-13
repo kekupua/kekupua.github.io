@@ -20,11 +20,7 @@
       "flavorText": "Altruis betrayed Illidan to forge his own way in Outland. With Blackjack. And Netherdrakes.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d8d9aec8915f539f3346057b895ba3860a54fcc0c154685628740e2944d8a03.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58487,
@@ -46,13 +42,8 @@
       "imageGold": "",
       "flavorText": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/921e1e77be3cf8747e3350503fbb01cd84e2c2a00bbb50ae6196b07a9dcf6c1f.png",
-      "copyOfCardId": 69586,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58492,
@@ -72,11 +63,7 @@
       "flavorText": "The surest way to clear the dance floor.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a1296016c04c33141b2cff4bbb1ecefdead21d3dd60a6b4671583f44e52bf5e.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58607,
@@ -96,11 +83,7 @@
       "flavorText": "\"What are you trying to tell me? That I can dodge axes?\" \"I’m trying to tell you that when you’re a Demon Hunter, you won’t have to.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7057c391637160e2e29c75caa78f218597b64637dcdae694cbe2e40d91e2225a.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56841,
@@ -126,11 +109,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58452,
@@ -155,11 +134,7 @@
         86
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58183,
@@ -184,11 +159,7 @@
         86
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56873,
@@ -209,11 +180,7 @@
       "flavorText": "Nothing fills you up like soul food!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63c1456b344c49138d63083d688636aa623c24c0efa6916acf9a522938921fa0.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56905,
@@ -235,11 +202,7 @@
       "flavorText": "Honestly it sows more flame than it reaps.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fed24703c1dfcf27cb78999aae5d02172013e2eff71c6c21938beb62b5df226.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58244,
@@ -265,11 +228,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58524,
@@ -296,11 +255,7 @@
         86
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58610,
@@ -321,11 +276,7 @@
       "flavorText": "One way to ensure that they are not prepared.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1926a036175f6d04fb94579a38692b1583d836fe3d8088c69f4323b128324563.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58172,
@@ -343,7 +294,7 @@
       "manaCost": 9,
       "name": "Nethrandamus",
       "text": "<b>Battlecry:</b> Summon two random -Cost minions. <i>(Upgrades each time a friendly minion dies!)</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/637e6a31c303d17f5f81e64784381f14dde3f8d16d6d17876955c61b9b793b0d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44ae1838ed4aa0a1eac80157132fd0b6a1bcffa5d5771dce81bdbb46c7c67220.png",
       "imageGold": "",
       "flavorText": "Missed the big descent with the other dragons. But better late and nether!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34f440fd1921649681b7d0f56f55c5f645fed6489990b6e9e3f7a3d584983a81.png",
@@ -351,11 +302,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56765,
@@ -380,11 +327,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 58246,
@@ -405,11 +348,7 @@
       "flavorText": "Spoiler: they're both the evil twin.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7bdc3b5741131a0113f9f2c60d4563eaece81f23a1d41af6feed5ec5a5ada1a7.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56928,
@@ -432,11 +371,7 @@
         56935
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56587,
@@ -464,11 +399,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 56739,
@@ -497,11 +428,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 59710,
@@ -524,11 +451,7 @@
       "flavorText": "If throwing glaives is what you crave; summon tokens and make 'em broken.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca8d41b80bf72b8b0f056d711a9f2e0e10a14ccb45def1a182fe64df82927d2.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 59865,
@@ -554,11 +477,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 20,

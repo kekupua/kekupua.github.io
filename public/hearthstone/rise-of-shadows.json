@@ -49,7 +49,8 @@
       "flavorText": "She's got a big brood and a big mood.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5594a11cbe50bb96374cfbb0badab8970df6dc7b8884c54f62f5485919fb7ae.png",
       "keywordIds": [
-        1
+        1,
+        72
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -69,7 +70,7 @@
       "manaCost": 4,
       "name": "Arcane Fletcher",
       "text": "Whenever you play a 1-Cost minion, draw a spell from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6aeb778e552b38ee878ceaf50d4cb941c1478e053a75dd7b2d13bb654c6185e8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00484a0c22e465db8f2c71b6a5b33d5fe871a354c9f9362e2582b374bef9cf53.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a968a8e8e2f4c9c0bd1a859a9bdea38d8255919be6e8330749ed9fd80f8b2a06.png",
       "flavorText": "Stop trying to make fletch happen. It's not going to happen.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e6166bbad87295b694a1e9ef7640a92a97e52236a13f3785cdaade8745758ef.png",
@@ -498,7 +499,8 @@
       "flavorText": "They always wind up bombing.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7102e985c3edbb14367e0a23edb310d7a93d8024594346e1a9a7a8e506c5c340.png",
       "childIds": [
-        48752
+        48752,
+        2235
       ],
       "keywordIds": [
         8

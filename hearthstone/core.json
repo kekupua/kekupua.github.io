@@ -22,13 +22,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 242,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111318,
@@ -49,13 +44,8 @@
       "imageGold": "",
       "flavorText": "\"I see dead people. A LOT of dead people.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/238a315587d9dacdcdd1141c1b1e9234d0318b9d92b12ac3066760494766862d.png",
-      "copyOfCardId": 80089,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76316,
@@ -76,13 +66,8 @@
       "imageGold": "",
       "flavorText": "He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83ceae1ae6bf463ad0baf1d9a2d4e05db364470500c607e943e217d24ea9096c.png",
-      "copyOfCardId": 1659,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 113108,
@@ -107,13 +92,8 @@
       "keywordIds": [
         265
       ],
-      "copyOfCardId": 41152,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69632,
@@ -141,13 +121,8 @@
         4,
         11
       ],
-      "copyOfCardId": 32,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69507,
@@ -171,13 +146,8 @@
       "keywordIds": [
         38
       ],
-      "copyOfCardId": 56583,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111467,
@@ -202,13 +172,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 581,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 102246,
@@ -230,13 +195,8 @@
       "keywordIds": [
         14
       ],
-      "copyOfCardId": 2514,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76291,
@@ -257,13 +217,8 @@
       "imageGold": "",
       "flavorText": "Go ahead, carve your initials in him.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d9fbdf7f82803708d1eec63851c77a704e756262b2ee0c5826ab181277a0878.png",
-      "copyOfCardId": 920,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76297,
@@ -287,13 +242,8 @@
         226,
         959
       ],
-      "copyOfCardId": 437,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69718,
@@ -319,13 +269,8 @@
         1,
         3
       ],
-      "copyOfCardId": 2053,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 78342,
@@ -350,10 +295,6 @@
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      },
       "runeCost": {
         "blood": 0,
         "frost": 0,
@@ -376,17 +317,12 @@
       "manaCost": 1,
       "name": "Arcane Artificer",
       "text": "Whenever you cast a spell, gain Armor equal to its Cost.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0201bc386bc15e45a4f4268b53abb90886a4f9f2a00f37b8b9dfd912b5b9b5f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80965705057a8836d88f98fb5a0e24c5a9084a251ebf5fee819474c339551b09.png",
       "imageGold": "",
       "flavorText": "Ethereal armor dissipates in 6 hours which can cause extreme awkwardness for first time buyers.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a35cbd10417f211bdc94348c3104422381d4f5b0b828371d3814abf831eaae5.png",
-      "copyOfCardId": 45590,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69500,
@@ -406,13 +342,8 @@
       "imageGold": "",
       "flavorText": "Playing this card makes you SMARTER. And let's face it: we could all stand to be a little smarter.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85a8ede320262f60c650638a154107206f9ec6f99aa771e8df710f191ff16088.png",
-      "copyOfCardId": 555,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69546,
@@ -432,13 +363,8 @@
       "imageGold": "",
       "flavorText": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves. The resulting loss of jobs sent Stormwind into a minor recession.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62fcb73d4604263c722b2c3e23643d9a096e98fd29fb549d09d2ae793a6ae9b1.png",
-      "copyOfCardId": 877,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69702,
@@ -463,13 +389,8 @@
         5,
         8
       ],
-      "copyOfCardId": 41153,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111455,
@@ -494,13 +415,8 @@
         1,
         8
       ],
-      "copyOfCardId": 52119,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69611,
@@ -525,13 +441,8 @@
         3,
         8
       ],
-      "copyOfCardId": 1022,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 102223,
@@ -555,13 +466,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 61970,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 78352,
@@ -577,7 +483,7 @@
       "manaCost": 5,
       "name": "Army of the Dead",
       "text": "Raise up to 5 <b>Corpses</b> as 2/2 Risen Ghouls with <b>Rush</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2459941c5b1dcabd591b5e0527a91dfe728ad00018715cd4c09f30631df81b8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebec39896b9c2144f4beccdba3a8fd1d856bad6111f900bae7cc86360ac29871.png",
       "imageGold": "",
       "flavorText": "Yesterday's army, today.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8895bffdb5f2b12549341a88e9c9bb28f187a59e4208dc8b339908dcd6ba10a4.png",
@@ -590,10 +496,6 @@
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      },
       "runeCost": {
         "blood": 0,
         "frost": 0,
@@ -618,13 +520,8 @@
       "imageGold": "",
       "flavorText": "I find your abundance of Attack disturbing.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6842c6fa2a5684e669af77353faeec4bd82bba896c64d379aa0cc9d9cb437be.png",
-      "copyOfCardId": 79503,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69525,
@@ -643,13 +540,8 @@
       "imageGold": "",
       "flavorText": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91b0da729f9c6d5cbd5b9df1012809d5e3131c9b15ceaad41f36b5145a7071a6.png",
-      "copyOfCardId": 345,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69700,
@@ -673,13 +565,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 39169,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69521,
@@ -698,13 +585,8 @@
       "imageGold": "",
       "flavorText": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f3b84c7f6b752034eda6a3a968fbf86aee0e86c919c6d249a7b233498ee6199.png",
-      "copyOfCardId": 180,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111364,
@@ -729,13 +611,8 @@
       "keywordIds": [
         12
       ],
-      "copyOfCardId": 2483,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111357,
@@ -752,20 +629,15 @@
       "manaCost": 5,
       "name": "Barak Kodobane",
       "text": "<b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1648002a395ef3931e7d2882939615538bd2a357f385ec9dfe4ed7c24bd14d12.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57b854dc0b6ce2b8029c9e50f89cc377fe3a1d3e53e36aae00f38b309a95e0e9.png",
       "imageGold": "",
       "flavorText": "They say he's a pro at horseback archery.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4aba6d20e4d466bcc80518d2dc16e2214f0793c129dff00a8f4972b2290a5571.png",
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 63461,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69674,
@@ -787,13 +659,8 @@
       "imageGold": "",
       "flavorText": "Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94a59f0dda79c84946d15842b4cc05e39c30488e3659f164f60c56a9f2c25193.png",
-      "copyOfCardId": 336,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76304,
@@ -812,13 +679,8 @@
       "imageGold": "",
       "flavorText": "You might think bashing doesn't take a lot of practice. It doesn't.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cc1d54a84aa2c2b313ef59a4560725432e4d762bc2f070b1f4ec4bab0198573.png",
-      "copyOfCardId": 2729,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 78353,
@@ -835,7 +697,7 @@
       "manaCost": 2,
       "name": "Battlefield Necromancer",
       "text": "At the end of your turn, raise a <b>Corpse</b> as a 1/3 Risen Footman with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a83de60225c0c03fc0d42997b5d55d07cfe4af82d0726d1e4868e575b94b2f2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9871177d1048c74a705c4d4da984b5200dbec2564897a024b143cde9349137c0.png",
       "imageGold": "",
       "flavorText": "Coming soon: the Hand Necromancer and the Deck Necromancer.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e72fab6c4ff1341386613d8a6be6aee506a68972b9b7faa406697f275a8a4634.png",
@@ -848,10 +710,6 @@
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      },
       "runeCost": {
         "blood": 0,
         "frost": 0,
@@ -878,13 +736,8 @@
       "imageGold": "",
       "flavorText": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/921e1e77be3cf8747e3350503fbb01cd84e2c2a00bbb50ae6196b07a9dcf6c1f.png",
-      "copyOfCardId": 58487,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76318,
@@ -908,13 +761,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 54269,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69652,
@@ -939,13 +787,8 @@
         8,
         97
       ],
-      "copyOfCardId": 1657,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 97332,
@@ -964,13 +807,8 @@
       "imageGold": "",
       "flavorText": "Dear minions: Woosh, woosh, woosh, woosh, woosh. Best regards, Bladestorm",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a59ca433d16c8b81ce82e87f66a2475ec6f52eabebe112e69f712c77f04c458.png",
-      "copyOfCardId": 56504,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76273,
@@ -993,13 +831,8 @@
       "keywordIds": [
         10
       ],
-      "copyOfCardId": 457,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 111321,
@@ -1022,13 +855,8 @@
       "keywordIds": [
         247
       ],
-      "copyOfCardId": 80664,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      },
       "runeCost": {
         "blood": 1,
         "frost": 0,
@@ -1055,13 +883,8 @@
       "imageGold": "",
       "flavorText": "ALWAYS read the terms and conditions.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a63e307f06ccb49612b5a5aa8c7303f372a7bf7b1d1c228cf155fd6e49611446.png",
-      "copyOfCardId": 64893,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69655,
@@ -1087,13 +910,8 @@
         2,
         12
       ],
-      "copyOfCardId": 749,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 69677,
@@ -1118,13 +936,8 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 999,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 80818,
@@ -1142,7 +955,7 @@
       "manaCost": 1,
       "name": "Body Bagger",
       "text": "<b>Battlecry</b>: Gain a <b>Corpse</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1659ff22118830f74a6f3543a61b4ca45317e520a057f45b6335ad6bd2a0048b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/976deb814af94af02426e32f96f82f4b19d07a5601b2f86372dc5bc58cdccea2.png",
       "imageGold": "",
       "flavorText": "Gotta get that bag.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1bb5bd5e01528e95933da96a3425cc6668c43de2ccd8ffc8a3ebc9984a2db7f6.png",
@@ -1151,11 +964,7 @@
         247
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 112924,
@@ -1176,16 +985,11 @@
       "imageGold": "",
       "flavorText": "\"ME HAVE GOOD STATS FOR THE COST\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b94b842a231f6b70bd15f339513f699994b7ee5ba6bbf6d6363ede6f6376c702.png",
-      "copyOfCardId": 1686,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
-  "cardCount": 290,
+  "cardCount": 291,
   "pageCount": 8,
   "page": 1
 }

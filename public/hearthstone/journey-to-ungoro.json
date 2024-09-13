@@ -34,11 +34,7 @@
         34
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41152,
@@ -56,7 +52,7 @@
       "manaCost": 1,
       "name": "Air Elemental",
       "text": "<b>Elusive</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f99dd5c397682495af4bd18045db2f5b7790f879588725c70750993ab578669d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/878e8cc35e4d54337981a0534d516c3448b7a49c6fd8ce21c4779b0f7de80578.png",
       "imageGold": "",
       "flavorText": "Makes a mean puff pastry.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de56e5d7dfeed4d517901f5299ff3aef42266b5f160dde5f50254efecb7ebe37.png",
@@ -64,11 +60,7 @@
         265
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41153,
@@ -94,11 +86,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41494,
@@ -125,11 +113,7 @@
         31
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41170,
@@ -150,11 +134,7 @@
       "flavorText": "By accepting this healing, you agree to the following terms…",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b345744cdde0e47f34622703099fc208fbbbb49e909f5779d6a26e6dcf42bf8f.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41216,
@@ -179,11 +159,7 @@
         13
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41263,
@@ -206,11 +182,7 @@
       "flavorText": "It's actually only the middle head that's bitter. The others are sweet and spicy.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/000ffe1b78228cd96966c41ed77089f5615c5fcd1bbc65ac7e1503b3a16c858b.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41928,
@@ -236,11 +208,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41872,
@@ -273,11 +241,7 @@
         41691
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41096,
@@ -294,7 +258,7 @@
       "manaCost": 3,
       "name": "Bright-Eyed Scout",
       "text": "<b>Battlecry:</b> Draw a card. Change its Cost to (5).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7dcc9318895795571bdefd1647231fd11a7c538ef5786f93c07aaa4a0ef9c3d4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c63102692ff2c9b2f2cded7af29c022876f5006518099286af8564a6070dcdb.png",
       "imageGold": "",
       "flavorText": "Also inordinately excited for cupcakes.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c8b60ae3c868384727f5417f3360e701bc8987a925d81013073bd1a7ae0bacd.png",
@@ -302,11 +266,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41286,
@@ -336,11 +296,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41875,
@@ -358,7 +314,7 @@
       "manaCost": 2,
       "name": "Chittering Tunneler",
       "text": "<b>Battlecry:</b> <b>Discover</b> a spell. Deal damage to your hero equal to its Cost.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb36cb6035ee5f0ac0e2806ca5fea5db5b3119682c0ed2f57a7b72567c928bd7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3727d9bfd85a3b54a15695d77fdb01ebca2a0d04d6bcdd4a2192342117f8cb72.png",
       "imageGold": "",
       "flavorText": "Ear to the ground, he carefully interpreted the chittering noises: “You wanna cast a spell? I wanna cast a spell!”",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4830e4a56ab5162a77372b7e598abe27ff289a11003455e44df833f691b3de3a.png",
@@ -367,11 +323,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41876,
@@ -394,11 +346,7 @@
       "flavorText": "A bit of a snob: still refuses to drive anything with automatic transmission.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9ae12d51d116e6687738b86f31d4ec9fb3147132d25345102195669d222440c.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41406,
@@ -427,11 +375,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41871,
@@ -452,11 +396,7 @@
       "flavorText": "The most terrifying of Un’goro magics is both silent… AND deadly.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8da27a37cf8420ede8d0fdaf76773b0851b752e14c46bed8aceb4e4778177c6.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41358,
@@ -496,11 +436,7 @@
         34
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41869,
@@ -525,11 +461,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41173,
@@ -555,11 +487,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41177,
@@ -584,11 +512,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41259,
@@ -616,11 +540,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41363,
@@ -643,11 +563,7 @@
         41362
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41130,
@@ -667,11 +583,7 @@
       "flavorText": "Comes with fries and a drink.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5498ebcbb495ba45cbcc3c46c8fbfbb46410ae19d3a9364b6e36e992853c9e2c.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41890,
@@ -701,11 +613,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41081,
@@ -726,11 +634,7 @@
       "flavorText": "You can make your own Earthen Scales at home. Step 1: Roll around in the dirt. Step 2: Magic.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6775f42baf569ad67667f36229be1fc0499d39112e97cf0264f90588c2cbf16f.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41249,
@@ -758,11 +662,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41086,
@@ -802,11 +702,7 @@
         34
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41935,
@@ -823,7 +719,7 @@
       "manaCost": 5,
       "name": "Elise the Trailblazer",
       "text": "<b>Battlecry:</b> Shuffle a sealed <b>Un'Goro</b> pack into your deck. If your deck has no duplicates, draw it.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83c931d2569af2d30c8e623cb145b5cc4aa0cb2a4edfffc863228f0a61d94ecf.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/adfd05fec995e1f3c98eb8525f0f2ca8954afaf8e178730282fa1549a0a45b8b.png",
       "imageGold": "",
       "flavorText": "Reno taught her that blazing her own trail is a lot more fun than following someone else's map.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/97174ef88d7a637ccf71bddb169d4899ebe1b03a3e91a9649c748e9dce2f4b21.png",
@@ -834,11 +730,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41261,
@@ -861,11 +753,7 @@
       "flavorText": "She rules the emerald hive at the end of the yellow brick trail.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5242e6f63dba0967e189dfee392b731042daaa21a380a51deae45fd86bdbd595.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41309,
@@ -891,11 +779,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41834,
@@ -919,11 +803,7 @@
         32
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 40991,
@@ -960,11 +840,7 @@
         34
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41400,
@@ -990,11 +866,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41874,
@@ -1016,12 +888,11 @@
       "childIds": [
         41943
       ],
+      "keywordIds": [
+        34
+      ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41323,
@@ -1050,11 +921,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41107,
@@ -1080,11 +947,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41260,
@@ -1113,11 +976,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41427,
@@ -1145,11 +1004,7 @@
         31
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41151,
@@ -1173,11 +1028,7 @@
         42044
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 42009,
@@ -1200,11 +1051,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 41253,
@@ -1230,11 +1077,7 @@
         10
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 135,

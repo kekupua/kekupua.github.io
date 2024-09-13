@@ -24,11 +24,7 @@
         31
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53408,
@@ -55,11 +51,7 @@
         78
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54772,
@@ -83,11 +75,7 @@
         5
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54020,
@@ -114,11 +102,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53615,
@@ -143,11 +127,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54257,
@@ -172,11 +152,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53822,
@@ -201,11 +177,7 @@
         5
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53800,
@@ -231,11 +203,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54390,
@@ -257,11 +225,7 @@
       "flavorText": "Armored except for non-critical areas, such as the head, torso, fists and thighs.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5d521ea864b1e6acc1670c971659b5d59882dbbfc52894615c3f2c4d38e34d4.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53551,
@@ -284,11 +248,7 @@
         55329
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54311,
@@ -315,11 +275,7 @@
         31
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54314,
@@ -345,11 +301,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54269,
@@ -374,11 +326,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54296,
@@ -395,7 +343,7 @@
       "manaCost": 6,
       "name": "Blatant Decoy",
       "text": "<b>Deathrattle:</b> Each player summons the lowest Cost minion from their hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ef66746be1b152c28893ca219c2a80dbcf3f0ac1cac138e35eacf572a21e8ff.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8b1b24a3a9bee4916ff68fe15c485909d38d281fd170d1ec8237614cb2e650e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e73c1e5dbbb3e0f9493a514c980b958849d1e8557d2870420f68382c1089d25e.png",
       "flavorText": "\"Hah! You is being tricked by ME! Togwaggle!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e4c317f9fdc5c5fbe74770c54a4902b7f6b90a094206d8274200b6a5564d5e7.png",
@@ -403,11 +351,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54492,
@@ -432,11 +376,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54783,
@@ -463,11 +403,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54002,
@@ -494,11 +430,7 @@
         78
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53832,
@@ -520,11 +452,7 @@
       "flavorText": "Some paladins really Light it up.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4e63e02e20f0757e87940328797bccddb2ab9ec3439985f52937a8f219e7fb7.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54411,
@@ -553,11 +481,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53402,
@@ -583,11 +507,7 @@
         78
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54317,
@@ -607,11 +527,7 @@
       "flavorText": "\"It me! Togwaggle!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0ef86cabe44e7759ec2427a5ecdb20a3d9372199da2af325667b1b3e3bed208.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54493,
@@ -638,11 +554,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54495,
@@ -669,11 +581,7 @@
         78
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54280,
@@ -698,11 +606,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54369,
@@ -729,11 +633,7 @@
         31
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53545,
@@ -755,11 +655,7 @@
       "flavorText": "I won't ask about your mana curve if you don't ask where I got these.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f096ce7a055e8ddc1c6af2041cc122ec6a0ec7310dc81957fe8d6ed2e950b74.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53890,
@@ -795,11 +691,7 @@
         71
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54488,
@@ -825,11 +717,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54288,
@@ -851,11 +739,7 @@
       "flavorText": "The Obelisk of the Stars can hide an entire land from prying eyes! Or zap a rando.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/460742f0181ec7f58cf787c467815833374ca1b6056acb19c65e9042eaad01f4.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53860,
@@ -883,11 +767,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53926,
@@ -915,11 +795,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53889,
@@ -940,16 +816,12 @@
       "manaCost": 4,
       "name": "Diseased Vulture",
       "text": "Whenever your hero takes damage on your turn, summon a random 3-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbfd0d1bc077bf854025c6b4ca83b5c0d9e9f650b28e3426f1774165e7a9a4c2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0443b7ee55ea08b801d1f8e35b77e020bfc99a8fba677cca35b4244dbe64211.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b9eb811e23f7e749fd558cb3e2c45715612f57b7cdb227b287f8b1473b87dd2.png",
       "flavorText": "He's off the twig! He's kicked the bucket! THIS IS AN EX-VULTURE!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/069aa236adc5314f3e68ed73275478f629fd313ee52981ed1a204f668f637645.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54408,
@@ -971,11 +843,7 @@
       "flavorText": "Come for the magic show, stay for the sand castles.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2212f54550c449ee14f44db6e0a7f48882c4096bfbccb5e227374f194f68d519.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53343,
@@ -992,7 +860,7 @@
       "manaCost": 3,
       "name": "Dwarven Archaeologist",
       "text": "<b>Battlecry</b>: <b>Discover</b> a card. Reduce its Cost by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77a8dda83db2f43257c2c8841f0664efc2b6d633ea30110697563f51f1709bfa.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c04316134f87a2a629256dc2886401e180acb19ec9326b9d3b71cfa0edc34d0.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b86889aa5cbea0a922cd17596fe4bd145160ae468479d3367ebbda42317b4bd.png",
       "flavorText": "She's making great progress on paying off that advanced degree.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eead5b33cfcb2829bbef992527f616ebe85aad2f3846b077236d53c1868b0d4f.png",
@@ -1001,11 +869,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53884,
@@ -1042,11 +906,7 @@
         71
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54009,
@@ -1082,11 +942,7 @@
         71
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 54160,
@@ -1107,11 +963,7 @@
       "flavorText": "Shake it, sh-sh-sh-shake it like a Kalimdor fissure.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1190e834b5703045772c7f6796ccdc1ab5889827a31df9bfd8bf00c833758ce3.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53620,
@@ -1136,11 +988,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53932,
@@ -1163,11 +1011,7 @@
         78
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 53885,
@@ -1185,7 +1029,7 @@
       "manaCost": 2,
       "name": "Expired Merchant",
       "text": "<b>Battlecry:</b> Discard your highest Cost card. <b>Deathrattle:</b> Add 2 copies of it to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c9604a727c8223b66a8616068b83a1668b5eadce3dd6aeb7df8c2bc1f590239.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5686838bb2422af62e7c6bafd72edced392032514ce0e783398ba32180cf4199.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c868e269010f842ef2291bd672f06c72b05588fdb98ee62613cdd259bb0c54ae.png",
       "flavorText": "The \"best by\" date is more like a guideline.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b37443f923b6de503373ddcd208ac18dc34a0f5208bde595e0e8308a3b28796.png",
@@ -1194,11 +1038,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 135,

@@ -16,10 +16,10 @@
       "manaCost": 6,
       "name": "Aeon Reaver",
       "text": "<b>Battlecry:</b> Deal damage to a minion equal to its Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96745b4d55241c3051482fc0448484abf70f926c8c6f87bb369b7ba0c5b270e5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5423c9f0ab6c66a0b99527c9374cc981b5414a18a9c1e8f864e69fe6c40e0b57.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8de0142154cd6ae0ea9d3b3cb2f9d47040673bd3318cb8fac942e05891c48378.png",
       "flavorText": "Ripping centuries asunder helps him manage his busy schedule.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db27d1718d3cc4f4e7e0264fd0ac7ed48741a5856acea3b0785ff443d0f0a53f.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ba4e76eda9cd9081ae8cbceeda14461f731c3626360d9bae31823780f12c407.png",
       "keywordIds": [
         8
       ],
@@ -272,10 +272,10 @@
       "manaCost": 3,
       "name": "Dark Prophecy",
       "text": "<b>Discover</b> a 2-Cost minion. Summon it and give it +3 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/088672897ab785bb4004b99b7122ea9c74dd0669dfaee67546d6df9e98f33d41.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f87b3cfcc0e8946a28f20518fbe1f75b94c45d62c14e20ead2ce699200ed994.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a0a0ebaf4f61d55cc13c263f06ea966d51e74b450975f384d6fce3d35ca0e6f.png",
       "flavorText": "It's always a dark prophecy with Madame Lazul. Where's my happy, fluffy prophecy?!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9ba2f65c758462f077d3d0fa32b3e5db4dea3b7547140e6fd231b6c9bd1238d.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31b23ce3a023974af03440537622ba6245c3eca372d4509e1fb27684092847e8.png",
       "keywordIds": [
         21
       ],
@@ -720,10 +720,10 @@
       "manaCost": 3,
       "name": "Skydiving Instructor",
       "text": "<b>Battlecry:</b> Summon a 1-Cost minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a00ea88c4d74a73bcedc53e7e350172df9d58e0b6dcab70686b3955a62116ee.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31d9b2028d6a5d18444212e6b12e537cabe8317a1a152f5ed6f71c99f09a4068.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d00ab17a340192632cc2b5d4f16d68de302e9a1eee95e5e4b58284da07bc2c0.png",
       "flavorText": "\"Is it dangerous?\" \"For me? Not at all. Now jump!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9772cd0459f98ef6355294efb6c5ca586e12ab921de4944027099aa30354547e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b426f7898e92878e6810b531db4449b84abf2b4baff3caaf6bead6880c7b35ee.png",
       "keywordIds": [
         8
       ],
@@ -826,10 +826,10 @@
       "durability": 4,
       "name": "The Fist of Ra-den",
       "text": "After you cast a spell, summon a <b>Legendary</b> minion of that Cost. Lose 1 Durability.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6db8bac45704ed99591fac9e0b0e9d07b1d4db43bab431a389ca1771db06081f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/653c850d404ebe9a7b73b63f72b8d8532ccf8be1d70a986bcd20cdec9dfa8eec.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7473e4aebd169b554b5d8610c1a85fe06738388df4928ad845309711169ea5d1.png",
       "flavorText": "The mighty Ra-den was known as the Keeper of Storms. Unfortunately, he could not keep his fist.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed4dbe8118c6d24f3766617c1f96824e042d28d343f9b1f08418cfddbe0204e7.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca1372d399e3e268c746aaf7cfb51003c9418863f715f95fd152bd79041597c.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -870,10 +870,10 @@
       "manaCost": 2,
       "name": "Waxmancy",
       "text": "<b>Discover</b> a <b>Battlecry</b> minion. Reduce its Cost by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9aa6e4c3f2a24dba89f1aa635bb377cef9cad3e6b2f9cfdc73950fe3858ddaf3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b513cd9205fb4652f779a8ec71883feff9186d9bd9560855e1002934e3d0c73b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1f8207f5912b387d6fdc3a53361811851ad563e986182ebc6e6eaa76efb2980.png",
       "flavorText": "The waxmancer works with flame and form, giving shape to figures warm. Some think he's a crazy creeper, but crafting minions is simply cheaper.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ae56a084f911d31023a34145b487a1ce0a52b0e540429385a446f5c414a9900.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcb41f3203365beb934b740a2810b2325af9cfdaae986b852aeb5e6031eef72e.png",
       "keywordIds": [
         8,
         21
