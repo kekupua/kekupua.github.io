@@ -57,7 +57,7 @@ const data = {
   projects: [
     {
       image: '/images/snapchatLogo.png',
-      routerLink: 'https://business.snapchat.com/',
+      routerLink: 'https://forbusiness.snapchat.com/',
       heading: 'Snapchat BizX',
       subheading: '2022 - Present',
       description:
