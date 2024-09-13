@@ -6,5 +6,6 @@
     "isolatedModules": true,
     "target": "ESNext",
     "moduleResolution": "Bundler"
-  }
+  },
+  "exclude": ["node_modules"]
 }

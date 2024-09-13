@@ -10,11 +10,13 @@ export const App = () => {
     <div className='App'>
       <Router>
         <div>
+          {/* @ts-ignore: Side-effect loaded WC */}
           <st-nav>
             <HashLink to='/#about'>About</HashLink>
             <HashLink to='/#projects'>Projects</HashLink>
             <HashLink to='/#contact'>Contact</HashLink>
             <Link to={'/random-hearthstone'}>HRC</Link>
+            {/* @ts-ignore: Side-effect loaded WC */}
           </st-nav>
 
           <Routes>
@@ -26,6 +28,7 @@ export const App = () => {
           </Routes>
         </div>
       </Router>
+      {/* @ts-ignore: Side-effect loaded WC */}
       <st-footer id='contact' />
     </div>
   );
