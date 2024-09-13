@@ -21,7 +21,6 @@
       "keywordIds": [
         21
       ],
-      "copyOfCardId": 38913,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -45,7 +44,6 @@
       "imageGold": "",
       "flavorText": "With the help of his trusty sidekick Dreadscale, the giant jormungar Acidmaw is ready to face any knight!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23eec5da78fcfe901b5c66c10e162ab49ccea114b4201377f14d4005b32d914b.png",
-      "copyOfCardId": 2633,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -68,7 +66,6 @@
       "imageGold": "",
       "flavorText": "He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83ceae1ae6bf463ad0baf1d9a2d4e05db364470500c607e943e217d24ea9096c.png",
-      "copyOfCardId": 1659,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -92,7 +89,6 @@
       "imageGold": "",
       "flavorText": "Druids who spend too long in bear form are more susceptible to the whispers of the Old Gods. Right now they are whispering the lyrics to \"La Bamba\".",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4daec5db464da4ba8cd77d911d6deff30232d6e039657f87e4fdbde21b4f0797.png",
-      "copyOfCardId": 38916,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -150,7 +146,6 @@
       "keywordIds": [
         1
       ],
-      "copyOfCardId": 40574,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -176,7 +171,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 38897,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -206,7 +200,6 @@
       "keywordIds": [
         12
       ],
-      "copyOfCardId": 2586,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -229,7 +222,6 @@
       "imageGold": "",
       "flavorText": "Call her \"Tweety\". She'll find it real funny. I PROMISE.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd65340d6e87c4367fed8a83843b152433854275f3ddfe58911dceceb5da11c3.png",
-      "copyOfCardId": 2796,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -252,7 +244,6 @@
       "imageGold": "",
       "flavorText": "Once a lowly \"Stick Flinger\", he's been relentless on the path to his ultimate dream: \"Tauren Flinger\".",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db1c36574460fe9cdf710cfc596aaf6ff7dcfc1af96e6fd4be8264c0a61e6ca3.png",
-      "copyOfCardId": 2297,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -285,7 +276,6 @@
         26,
         28
       ],
-      "copyOfCardId": 40596,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -312,7 +302,6 @@
       "keywordIds": [
         12
       ],
-      "copyOfCardId": 2483,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -334,7 +323,6 @@
       "imageGold": "",
       "flavorText": "My advice to you is to avoid Doom, if possible.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74ffcf417e0708ae43fcf2b0c64c8ffffd70689753930d8ea000d940aaea3bbf.png",
-      "copyOfCardId": 23,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -353,7 +341,7 @@
       "manaCost": 2,
       "name": "Black Morass Imposter",
       "text": "Each turn this is in your hand, transform it into a random 2-Cost minion that gains <b>Spell Damage +1</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7e6acfa98411511d2001f4fe47b785c865a4a3b28f4581c936fd1d4c4a9ba12.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65715ac66f6b8712485b148511ae2e1d7662c93758c06db9d2f5694a929f7d46.png",
       "imageGold": "",
       "flavorText": "Does something seem off about Medivh's apprentice to you?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed00e1c5973a0bbd5f20b003951ff73323e2be97bb90136e1aa7939317006ad2.png",
@@ -385,7 +373,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 2409,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -411,7 +398,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 38861,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -466,7 +452,6 @@
       "imageGold": "",
       "flavorText": "Only goblins would think this was a good idea. Even they are starting to have their doubts.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a851fc62cbbb1d433f8069faa32e4b04e4b203f9efa371276304e4b47aaa877.png",
-      "copyOfCardId": 2018,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -489,7 +474,6 @@
       "imageGold": "",
       "flavorText": "For the goon that wants to make a fashion statement.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89924ecb3fa13a59f13defeaf4b5a3055b06e4a66b1844456d2a4539dee023fc.png",
-      "copyOfCardId": 40438,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -509,7 +493,7 @@
       "manaCost": 4,
       "name": "Bronze Dragonknight",
       "text": "<b>Taunt</b>. <b>Battlecry:</b> If this has 5 or more Attack, summon a copy of this.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3e3b4d19702e16f513d6cb06c5b810edfb45898f5fbaf6fdfac93633f79a040.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e8c9b2853c4ac16bb7b2b8dbebcf95bb63bda4182b3f430a9baefebccfee073.png",
       "imageGold": "",
       "flavorText": "He had been here before, and in some ways, he would always be fighting in Silithus.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b896b631d1c1346c041fa9fea7fc2ece29b0a4b92f4af5483c70cb6b8a298a98.png",
@@ -537,7 +521,6 @@
       "imageGold": "",
       "flavorText": "Yoink!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b648590a6be47b079963387ef0609fa9b95c8206cc05274526bc6e897b539b4.png",
-      "copyOfCardId": 2770,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -563,7 +546,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 38857,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -591,7 +573,6 @@
         3,
         8
       ],
-      "copyOfCardId": 38863,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -613,7 +594,6 @@
       "imageGold": "",
       "flavorText": "What's in there? I bet it's cookie recipes!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29e26d09fa16874a75ec4ede925d530b6da7d1f62c4dda13ffd583ac1526f6eb.png",
-      "copyOfCardId": 38418,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -637,7 +617,6 @@
       "childIds": [
         42223
       ],
-      "copyOfCardId": 40419,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -708,7 +687,6 @@
       "keywordIds": [
         12
       ],
-      "copyOfCardId": 2617,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -734,7 +712,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 38464,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -787,7 +764,6 @@
       "imageGold": "",
       "flavorText": "\"Cobra Shot\" hurts way, way, way more than \"Cobra Cuddle.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fdfe52714d645d4744e2e2a51ae1921eec52b0a21a16da1cdf4d643f67000147.png",
-      "copyOfCardId": 2041,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -814,7 +790,6 @@
         8,
         20
       ],
-      "copyOfCardId": 2556,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -835,7 +810,6 @@
       "imageGold": "",
       "flavorText": "\"Are you interested in... HEALTH benefits?!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a725f904f3dbe81718c3aab59804485a0e2b4c3a017502402f3499d5313672a.png",
-      "copyOfCardId": 2563,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -861,7 +835,6 @@
       "keywordIds": [
         1
       ],
-      "copyOfCardId": 38958,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -887,7 +860,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 38888,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -914,7 +886,6 @@
         2,
         20
       ],
-      "copyOfCardId": 2549,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -941,7 +912,6 @@
         1,
         8
       ],
-      "copyOfCardId": 38882,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -963,7 +933,6 @@
       "imageGold": "",
       "flavorText": "A prime example of lose-lose negotiating.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa6e01f47c9c39e886e226ac50cec3a287595e6230c0e524bcd81d201bca1eca.png",
-      "copyOfCardId": 2632,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -993,7 +962,6 @@
       "keywordIds": [
         8
       ],
-      "copyOfCardId": 2291,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1013,7 +981,7 @@
       "manaCost": 2,
       "name": "Dark Peddler",
       "text": "<b>Battlecry: Discover</b> a 1-Cost card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1704ae91e2edc1c4633ec4666baa7c8abb0243d1f5714adc816ed61602100897.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcb0bc01d1e8383793d6a0f3a1721947acb34f20e716e19e335d6afc182f9288.png",
       "imageGold": "",
       "flavorText": "I'm offering you a bargain here! This amazing vacuum cleaner for your soul!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0068301c3fc0f75de7dc11fd29d9631a5c23ef331f77283768407b238876174d.png",
@@ -1021,7 +989,6 @@
         8,
         21
       ],
-      "copyOfCardId": 2895,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     }

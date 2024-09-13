@@ -5,10 +5,10 @@
     "slug": "perils-in-paradise",
     "hyped": true,
     "type": "expansion",
-    "collectibleCount": 145,
-    "collectibleRevealedCount": 145,
-    "nonCollectibleCount": 117,
-    "nonCollectibleRevealedCount": 112
+    "collectibleCount": 183,
+    "collectibleRevealedCount": 183,
+    "nonCollectibleCount": 127,
+    "nonCollectibleRevealedCount": 123
   },
   {
     "id": 1897,
@@ -29,7 +29,7 @@
     "type": "expansion",
     "collectibleCount": 12,
     "collectibleRevealedCount": 12,
-    "nonCollectibleCount": 5,
+    "nonCollectibleCount": 6,
     "nonCollectibleRevealedCount": 0
   },
   {

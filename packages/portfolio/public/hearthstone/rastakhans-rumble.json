@@ -13,10 +13,10 @@
       "manaCost": 7,
       "name": "A New Challenger...",
       "text": "<b>Discover</b> a 6-Cost minion. Summon it with <b>Taunt</b> and <b>Divine Shield</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5f62832e57418fd63316211dbb38bd1556ad650582037f8a84686260ef46473.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd8521e4b251f81882c031c2f2620c0d9791309b490349269a6c8b783fab9de5.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a76dd7384eb97550f52418c72a8aea5c9ce5a780826f417e006d17db7228fb8.png",
       "flavorText": "… Arrives? Approaches? TELL US ALREADY!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a177c6c7bfff0c8290bb40bfe3158cdfff247d78f7dd065b401196c64e891aa0.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ade781a6845577e9348c56afcf0bde19c8efda321965351b411a3ea17ca4fcd.png",
       "keywordIds": [
         1,
         3,
@@ -505,7 +505,7 @@
       "manaCost": 7,
       "name": "Bwonsamdi, the Dead",
       "text": "<b>Battlecry:</b> Draw 1-Cost minions from your deck until your hand is full.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d77eeb2d01e2f560cc940eb210bc66c0715e9b08f0139633659273317db6293.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f20fc912965c0a3f179e6b2ae63c6689dbe887df1076ab1ea99b317987efb74c.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cfd2c386108792277eae111c19cb4b2fbf90cecf66fd22294651ef50dd4d676.png",
       "flavorText": "Everyone's dying to meet him.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f620fc23730d9d85de1353c30eec2cfd120cb34ff5121e4d902a34a3ad9bb9d3.png",
@@ -556,7 +556,8 @@
       "flavorText": "\"You three! Get in the cannon!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/141e96fc284f5197a599c8cb0590b17e6529ae94b4363ab2acb8c96bfb1a257a.png",
       "keywordIds": [
-        8
+        8,
+        53
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

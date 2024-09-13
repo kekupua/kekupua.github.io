@@ -110,10 +110,10 @@
       "manaCost": 7,
       "name": "Astromancer",
       "text": "<b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ac9c28485e967c0e4d42cced9b26d74f3e3ffec8d4a1b3be5a27ba06d43f5a0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161aea11ba8a2f74e0abc1a04ad3dbd431e244f9c16a04f37be84bda8195981b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbc0457513fbfad43506aae23212c8b45d57140c933c983a49764b36222988a9.png",
       "flavorText": "All signs point to Antonidas.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b743556ced955a1699ea17422adec0c9895c1594139c10808495ec8cde1a8cc.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b99dd32aa89db8416814d504e27126830b7569de5a863ab91d6fe12c9b12c9c.png",
       "keywordIds": [
         8
       ],
@@ -864,10 +864,10 @@
       "manaCost": 7,
       "name": "Dreampetal Florist",
       "text": "At the end of your turn, reduce the Cost of a random minion in your hand by (7).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cab040600207b0759fccb1fa7e14fbb7070907058693f7023ffbd2e231c49cc2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d206938e707966e9955042f8ed5cfc28ed979711c6f3cd807a1492d7442d7c7b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/594a155d3c98627b7757e0ac0a0f75a1ccb42ab8bcbf43eedd1e87a9f310073e.png",
       "flavorText": "Unlike gnomes, dreampetals grow more than 3 feet tall.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17822ab1a1ec3aaf36f11f3f458dd1927e8b6885eb12bc93e76da3ac31cb9fc9.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0d75207c6d890e6387e98e9c15949782af5a37fdfb5eaf6aa4744dcad8e8aea.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },

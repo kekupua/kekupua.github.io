@@ -19,11 +19,7 @@
       "flavorText": "*Happy Wisp noises*",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1a6966ec76e3705ebd0514f0af645a71e791da181da34e86d0eaefd15889de8.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72318,
@@ -47,11 +43,7 @@
         74927
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 73906,
@@ -78,11 +70,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 74907,
@@ -108,11 +96,7 @@
         231
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72314,
@@ -130,16 +114,12 @@
       "manaCost": 2,
       "name": "Anchored Totem",
       "text": "After you summon a 1-Cost minion, give it +2/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c09df34ce2775fe8022673746b81dd636f0b041945e01955afa0c186453c139.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bac2c0a5aa11fbd505675ead94028f1049a92366abc52f5baab0a67bbe1567e3.png",
       "imageGold": "",
       "flavorText": "The Naga devised the perfect retaliation to any pirates dropping anchor in their domain: vandalism.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf8d62aaa9ed39a81ac83a16294ee1f012437599409ade77dc18670643b87577.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76224,
@@ -165,11 +145,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 73774,
@@ -192,11 +168,7 @@
         232
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72657,
@@ -225,11 +197,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72336,
@@ -252,11 +220,7 @@
         72337
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72926,
@@ -286,11 +250,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 77374,
@@ -316,11 +276,7 @@
         15
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72896,
@@ -350,11 +306,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72254,
@@ -383,11 +335,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 77209,
@@ -413,11 +361,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72212,
@@ -446,11 +390,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 77016,
@@ -479,11 +419,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72113,
@@ -511,11 +447,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72111,
@@ -543,11 +475,7 @@
         6
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71701,
@@ -573,11 +501,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71705,
@@ -595,7 +519,7 @@
       "manaCost": 6,
       "name": "Barbaric Sorceress",
       "text": "<b>Taunt</b>. <b>Battlecry:</b> Swap the Cost of a random spell in each player's hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c453c4834e9f039f93323dff4b6fff6cc721188ff1d84affaa21e1e04dd7d053.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b74daf0538a7d93b1cfde52b4dd509265ec17fc60c80d42eafe5f5502d07c73.png",
       "imageGold": "",
       "flavorText": "Her four arms are for casting, and her forearms are for crushing.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a52b5c7bb33c4126cbdf070871e611e61769ab2484ff4bf9d9b4d06ef3d7d12f.png",
@@ -604,11 +528,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71709,
@@ -628,11 +548,7 @@
       "flavorText": "I caught'ya a dollar.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06e5ea7b00c45c4810f1213a9ed0bac52fb9cea5247a82aaaac1d66aaad057ff.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72316,
@@ -656,11 +572,7 @@
         2
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72120,
@@ -691,11 +603,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72488,
@@ -725,11 +633,7 @@
         231
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72007,
@@ -759,11 +663,7 @@
         16
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72473,
@@ -789,11 +689,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 76926,
@@ -811,7 +707,7 @@
       "manaCost": 3,
       "name": "Bloodscent Vilefin",
       "text": "<b>Battlecry:</b> <b>Dredge</b>. If it's a Murloc, change its Cost to Health instead of Mana.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebd00ed2a238a526b375bbce10ddf3439c6838ed751ae73701de0002b51aff25.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/901d2ad18ab90c266ffc79fab23ad87ce86c2af5684f49f444fd646998742aed.png",
       "imageGold": "",
       "flavorText": "Tired of eating Jellyfish and Peanut Butter fish, it’s moved on to more gruesome meals.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6fee7b085f88e9f7966ea51949f58dc725b81a8c67e9a299b8526b6706360be.png",
@@ -820,11 +716,7 @@
         232
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72117,
@@ -850,11 +742,7 @@
         232
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72480,
@@ -883,11 +771,7 @@
         13
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 73466,
@@ -913,11 +797,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 73428,
@@ -945,11 +825,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71646,
@@ -972,11 +848,7 @@
       "flavorText": "Prefers regular over diet shampoo.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/922f13cc813ebf1ba3569f42d97e1339636073c129b89242adb593e53c85329a.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 73443,
@@ -996,11 +868,7 @@
       "flavorText": "Time to go in for the krill.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff0a91761b918616055458a45ee4f549fcbb128cd39be8cd03bf1905a643851f.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 75633,
@@ -1023,11 +891,7 @@
         231
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 72417,
@@ -1057,11 +921,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 75589,
@@ -1087,11 +947,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 85810,
@@ -1117,11 +973,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71921,
@@ -1148,11 +1000,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 71712,
@@ -1182,11 +1030,7 @@
         231
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 75590,
@@ -1214,11 +1058,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 170,

@@ -21,11 +21,7 @@
       "flavorText": "He used to get work as a Spatial Anomaly, but he got tired of having his polarity reversed.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d04ddae9313a1d450af998ffe08689ecf12ec49ee9b435aac896fe9aec6d1fb.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39426,
@@ -47,11 +43,7 @@
       "flavorText": "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes’ cooking.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09245cf0e68b9bc6615e44d8515a2ccb1b7a46c31662002119caabdf599cf467.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39491,
@@ -80,11 +72,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39489,
@@ -111,11 +99,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39169,
@@ -140,11 +124,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39941,
@@ -169,11 +149,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39210,
@@ -199,11 +175,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39160,
@@ -230,11 +202,7 @@
         6
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39492,
@@ -259,11 +227,7 @@
         5
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39822,
@@ -291,11 +255,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39350,
@@ -318,11 +278,7 @@
       "flavorText": "Once upon a midnight restive, Medivh pondered, feeling festive!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/573b17580501e62cc6ae71461e607a6fce630f170fc264946df82a99d93135f8.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39700,
@@ -339,19 +295,15 @@
       "manaCost": 5,
       "name": "Ethereal Peddler",
       "text": "<b>Battlecry:</b> If you're holding any cards from another class, reduce their Cost by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2867cd49a09f3249d52046bc72342ceb8807e6fd26781a4692ad54de5ea89c4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a32b3995ea8a4c5da3f5d4e0df15b3d60ee4959ce725a6285bb95b96ecb13fc0.png",
       "imageGold": "",
       "flavorText": "Yeah, sure. That Ragnaros \"fell off the back of a truck\".",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/065585712d27d183bd2cc49f18cd4a749696f98335016beab21480f0bc471fd4.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e081b2f508bfcda76e80c2d38fd395bf3fdf4882e2795b62a8d176ab41664193.jpg",
       "keywordIds": [
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39715,
@@ -372,11 +324,7 @@
       "flavorText": "Come to beautiful Firelands! Where it's <i>\"Way nicer than the Abyssal Maw!\"</i>",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/127fa9d18bbe7cf42b11e81177b6165f9ae7ec221451698566d7d85172aa75a9.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39417,
@@ -398,11 +346,7 @@
       "flavorText": "A fool and his bane are soon parted.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76d29ae24efa3a62d44b0b28715c30857c2d1b7206250ece71f3e4c5d64124af.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39747,
@@ -418,16 +362,12 @@
       "manaCost": 4,
       "name": "Ironforge Portal",
       "text": "Gain 4 Armor. Summon a random 4-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ff2b45ca444a8c7c3f8984e8455342b42a0556061c5a7af366ea2aada2411cd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8adcd7af3bea50abde9441430beb7f7159019ff1ef6bf9a49767f11e72dd7e2.png",
       "imageGold": "",
       "flavorText": "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/314d8b7f525279f6b1098fb7a50ca2aa64999a0d0ba76375ea9f6c1b9c6015d5.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39439,
@@ -453,11 +393,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39197,
@@ -482,11 +418,7 @@
         39200
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39481,
@@ -515,11 +447,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39712,
@@ -535,16 +463,12 @@
       "manaCost": 2,
       "name": "Maelstrom Portal",
       "text": "Deal 1 damage to all enemy minions. Summon a random 1-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e8efada08e1259f6fdc2bc61799dc6d6d0a5260cc7a57b62fd65f60982eefe8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8acab443e52fcaa40a4f0c0fe28f606755e0a4b166bf5cbd13b7958905234e4.png",
       "imageGold": "",
       "flavorText": "They bill this as a popular resort attraction, but they try and get your money up front.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1f9e3c95c94871ef6a0323d1142c43bfd348916694d89a80b8f7e830e99274d.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/762711bf0195759afb0cb75d73dc3e2d372ecd1f648fd471641ed301fbd8f3d0.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39740,
@@ -567,11 +491,7 @@
       "flavorText": "Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0314852d75cbdbf8acde25afc807b5b90d822da53b0ab609ca021d19c52b3da0.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39767,
@@ -597,11 +517,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39841,
@@ -629,11 +545,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39269,
@@ -658,11 +570,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39696,
@@ -687,11 +595,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39465,
@@ -717,11 +621,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39714,
@@ -737,16 +637,12 @@
       "manaCost": 6,
       "name": "Moonglade Portal",
       "text": "Restore 6 Health. Summon a random 6-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b38a6bd6243a02c59ce4b8825261673417b19edbdd1a18683c8ca9f60d206c4b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ed73ca30a9a678cbf2cb2f34be30055c731c980c5f8d174466ff80ba328ab45.png",
       "imageGold": "",
       "flavorText": "Ain't no party like a Moonglade party ‘cause a Moonglade party got bears.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4e35e17514fd36fe45d6426682f30aed07b3ca054e52c793b1bfdf52d254b4f.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e39b4cd9418d3773da1bb4d8bee6e91da192b8438b49472747bdebd4b968ca4e.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39453,
@@ -774,11 +670,7 @@
         6
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39554,
@@ -804,11 +696,7 @@
         21
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39477,
@@ -836,11 +724,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39374,
@@ -865,11 +749,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39207,
@@ -899,11 +779,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39476,
@@ -928,11 +804,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39442,
@@ -954,11 +826,7 @@
       "flavorText": "Now that's a world champion cheesecake!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d241d9179736f184434dc64aaa3ddeb5c8bdd029c9815c877177edb1afd73a65.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39840,
@@ -985,11 +853,7 @@
       ],
       "bannedFromSideboard": 1,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39495,
@@ -1015,11 +879,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39468,
@@ -1043,11 +903,7 @@
         15
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39433,
@@ -1072,11 +928,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39716,
@@ -1097,11 +949,7 @@
       "flavorText": "What's Millhouse Manastorm doing in Silvermoon?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e0d3bf82ee4c2510200c74f9faff4bb4fad63d6c11e5575ba21476d267598d.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39380,
@@ -1123,11 +971,7 @@
       "flavorText": "From the secret research labs of the Swiss Army.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89aa46d678ff466abe171088caabe32479cfad1f08ae68b4f84a5aa20c9bb6b8.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 39694,
@@ -1152,11 +996,7 @@
         2
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 45,
