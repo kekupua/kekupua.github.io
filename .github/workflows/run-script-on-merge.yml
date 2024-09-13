@@ -21,6 +21,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Debug information
+        run: |
+          pwd
+          ls -R
+
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
         with:

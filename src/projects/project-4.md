@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/questboards.png
+image: images/qb.png
 title: Questboards Final Project
 permalink: projects/questboards
 # All dates must be YYYY-MM-DD format!

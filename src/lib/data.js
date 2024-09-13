@@ -1,4 +1,4 @@
-import questboardsHome from '../images/questboardsHome.png';
+import questboardsHome from '../images/qbHome.png';
 import bond from '../images/bond.jpg';
 import family_christmas from '../images/family_christmas.jpg';
 import hearthstone_puzzle from '../images/hearthstone_puzzle.jpg';
