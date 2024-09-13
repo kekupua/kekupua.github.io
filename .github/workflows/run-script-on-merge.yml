@@ -1,10 +1,12 @@
 name: CI/CD Pipeline on Merge to Main
 
 on:
+  pull_request:
+    branches:
+      - '*'
   push:
     branches:
       - main
-      - kekupua*
 
 jobs:
   ci-cd:
