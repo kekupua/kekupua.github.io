@@ -1,4 +1,4 @@
-import questboardsHome from '../images/questboardsHome.PNG';
+import questboardsHome from '../images/qbHome.png';
 import bond from '../images/bond.jpg';
 import family_christmas from '../images/family_christmas.jpg';
 import hearthstone_puzzle from '../images/hearthstone_puzzle.jpg';
@@ -57,7 +57,7 @@ const data = {
   projects: [
     {
       image: '/images/snapchatLogo.png',
-      routerLink: 'https://business.snapchat.com/',
+      routerLink: 'https://forbusiness.snapchat.com/',
       heading: 'Snapchat BizX',
       subheading: '2022 - Present',
       description:

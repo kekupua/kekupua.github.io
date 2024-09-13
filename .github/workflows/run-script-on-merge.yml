@@ -18,18 +18,28 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
 
       - name: Build
-        run: npm run build
+        run: pnpm --filter portfolio build
+
+      - name: Copy static files for deployment
+        run: cp -a ./packages/portfolio/public ./packages/portfolio/dist/public
 
       # Test stage not yet implemented
       # - name: Test
       #   run: npm test
 
-      - name: Deploy
-        if: success() # Only deploy if all previous steps succeeded
-        run: npm run deploy
-        env:
-          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+      # Only deploy if all previous steps succeeded
+      - name: Deploy Portfolio
+        uses: peaceiris/actions-gh-pages@v4
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./packages/portfolio/dist
