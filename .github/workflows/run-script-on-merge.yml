@@ -35,14 +35,15 @@ jobs:
               args: [--frozen-lockfile, --strict-peer-dependencies]
 
       - name: Build
-        run: pnpm build
+        run: pnpm --filter portfolio build
 
       # Test stage not yet implemented
       # - name: Test
       #   run: npm test
 
+      # Only deploy if all previous steps succeeded
       - name: Deploy
-        if: success() # Only deploy if all previous steps succeeded
-        run: pnpm deploy
+        if: success()
+        run: pnpm --filter portfolio deploy
         env:
           DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
