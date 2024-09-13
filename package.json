@@ -22,7 +22,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "typecheck": "tsc"
+    "typecheck": "tsc --noEmit"
   },
   "eslintConfig": {
     "extends": "react-app"
