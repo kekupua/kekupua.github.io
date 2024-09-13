@@ -32,6 +32,9 @@ jobs:
       - name: Build
         run: pnpm --filter portfolio build
 
+      - name: Copy static files for deployment
+        run: cp -a ./packages/portfolio/public ./packages/portfolio/dist/public
+
       # Test stage not yet implemented
       # - name: Test
       #   run: npm test
