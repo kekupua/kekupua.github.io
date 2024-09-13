@@ -16,12 +16,13 @@
     "vite-tsconfig-paths": "^4.3.2"
   },
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "build:hearthstone": "node tools/hearthstone/getCardSets.mjs",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build:hearthstone": "node tools/hearthstone/getCardSets.mjs"
+    "typecheck": "tsc"
   },
   "eslintConfig": {
     "extends": "react-app"
