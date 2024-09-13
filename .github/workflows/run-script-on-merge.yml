@@ -37,8 +37,9 @@ jobs:
       #   run: npm test
 
       # Only deploy if all previous steps succeeded
-      - name: Deploy
+      - name: Deploy Portfolio
+        uses: peaceiris/actions-gh-pages@v4
         if: success()
-        run: pnpm run --filter portfolio deploy
-        env:
-          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./packages/portfolio/dist
