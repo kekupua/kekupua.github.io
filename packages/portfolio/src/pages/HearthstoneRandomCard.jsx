@@ -68,7 +68,7 @@ const HearthstoneRandomCard = () => {
   useEffect(() => {
     mountCard();
   }, [mode]);
-  console.log(Wild);
+
   return (
     <st-section id='main-section'>
       <div id='card-section' ref={cardSectionRef}>

@@ -18,11 +18,7 @@
       "flavorText": "He soars through the air with the greatest of fleas.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69f4a3c44e797c10712140a34942b52cbb70246ce7f8d39e59f1481f409bd025.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61964,
@@ -46,11 +42,7 @@
         61465
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61970,
@@ -75,11 +67,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61283,
@@ -95,10 +83,10 @@
       "manaCost": 4,
       "name": "Auspicious Spirits",
       "text": "Summon a random 4-Cost minion. <b>Corrupt:</b> Summon a 7-Cost minion instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9bd09337c6dc76ce10a390d7dfaccefd5c1b31f2e02a0d3348259f251c5a7bb4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7eb5b84584645f1dc958ee96c6607359408df5aaaafa48bb473079ad48115c8d.png",
       "imageGold": "",
       "flavorText": "\"I'm not AWE-spicious, but I am a little spicious.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe52f1f6650a85ce0d9666f8cb2d2a961b4873783d54ce9acf2cad80e96f8c5a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbc95ed21818e5898f2caec00fecbb0bb18455d4e4e3a757bd940e5fe6bf1e49.png",
       "childIds": [
         61668
       ],
@@ -106,11 +94,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61971,
@@ -131,11 +115,7 @@
       "flavorText": "\"That's the last time I let an imp spit gasoline into my car.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a029be7c492ab4f7fb4568ed39ab72038e058ef96375cf827404da21f71b264.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61186,
@@ -161,11 +141,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61616,
@@ -193,11 +169,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61943,
@@ -226,11 +198,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61132,
@@ -256,11 +224,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61434,
@@ -286,11 +250,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61965,
@@ -310,11 +270,7 @@
       "flavorText": "On second thought, bolas aren't very good against flying worms.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b4639ee7df86eaf63b111269a06ca058c14360bb66bbb7e68b607be0f59861e.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61242,
@@ -344,11 +300,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61503,
@@ -382,11 +334,7 @@
       ],
       "bannedFromSideboard": 1,
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61226,
@@ -412,11 +360,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61188,
@@ -438,11 +382,7 @@
       "flavorText": "The barking initially confused faire-goers, so he switched to words.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ac22350a3d142d32444b85c25330813ad97ac49056d2de0f81f00a808e44de6.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 60926,
@@ -472,11 +412,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61581,
@@ -510,11 +446,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61254,
@@ -541,11 +473,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61604,
@@ -561,16 +489,12 @@
       "manaCost": 8,
       "name": "Cenarion Ward",
       "text": "Gain 8 Armor. Summon a random 8-Cost minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02dc4cd8a2e6cf4cdccb5e42f21a1b63a03655b3c759db1a00b69e0409c11df0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/025bf193c37f6f683dd9e6a04ba736838ab0959c3607257a202898904299d6cd.png",
       "imageGold": "",
       "flavorText": "Don't ask about his right hand. He's still growing into it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2fba81b6c90be02d8a7c90de6dec29ac255d68c979d61a6d945af38f4a7456e.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81299eae2cd5636028495406c5bfd358416c89acadea57b0b808620c96fb79ea.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61428,
@@ -596,11 +520,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 60979,
@@ -629,11 +549,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61626,
@@ -660,11 +576,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61154,
@@ -688,11 +600,7 @@
         6
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61176,
@@ -721,11 +629,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61957,
@@ -749,11 +653,7 @@
         61980
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61297,
@@ -778,11 +678,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61969,
@@ -809,11 +705,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61679,
@@ -843,11 +735,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61945,
@@ -864,21 +752,17 @@
       "manaCost": 5,
       "name": "Dark Inquisitor Xanesh",
       "text": "<b>Battlecry:</b> Reduce the Cost of all <b>Corrupt</b> and <b>Corrupted</b> cards in your hand and deck by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edccc87e8612155b116926a3532a4bf76181ff838c4a6d9d1a6cdd515d28a508.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccb1d9ef97402bfb6633e19a23db81a0ba4e21b5ea8094364d60b19c2f527ef6.png",
       "imageGold": "",
       "flavorText": "Fear is the mind-killer, and also the name of my wurm.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fafc01a6be7ad76f2054f901cd58d68b7116ba423936421b4c746301c245beea.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70e1b47dd37fcd4334bbc56afc0256ec0e2218beb2fba7f1a3138f876e8b4560.png",
       "keywordIds": [
         8,
         91,
         98
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61639,
@@ -909,11 +793,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61629,
@@ -940,11 +820,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61677,
@@ -972,11 +848,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61699,
@@ -1002,11 +874,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61218,
@@ -1033,11 +901,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61228,
@@ -1060,11 +924,7 @@
         63226
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61950,
@@ -1090,11 +950,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61885,
@@ -1115,11 +971,7 @@
       "flavorText": "Yeah, it's chaos, but it's organized chaos.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc2ccac16cb180c76799eb7d9d804bd6e36558d391e7aecfaaf0b7a34fb5975a.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61587,
@@ -1134,16 +986,12 @@
       "manaCost": 2,
       "name": "Deck of Lunacy",
       "text": "Transform spells in your deck into ones that cost (3) more. <i>(They keep their original Cost.)</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/831630ef21fce88d1eb4ed80470b539a94e97e122c8e65caa6d8bb9af5420ddf.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fac693adc28981bf3ac6fcbfcccc521853cd86b7c5af4ddfd885958dc86ed3e.png",
       "imageGold": "",
       "flavorText": "Voted \"Most Lunacy\" in Madness Monthly magazine.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e2fe715a6438255978dab1958604fd9f28c22624e3fac6871deefcffdf24b52.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 60892,
@@ -1172,11 +1020,7 @@
         53
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 61846,
@@ -1202,11 +1046,7 @@
         91
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 170,

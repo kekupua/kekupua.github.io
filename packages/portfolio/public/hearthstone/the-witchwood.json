@@ -91,7 +91,7 @@
       "manaCost": 9,
       "name": "Baku the Mooneater",
       "text": "<b>Start of Game:</b> If your deck has only odd- Cost cards, upgrade your Hero Power.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f6abf3ea370f7bcab9b259bb60537842aecb4e07fba0c3bc45bbe0770e37519.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ac7ca8043b31c8955f11fc7fd34e5928362eb21db16467407167564e07f4b2e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33560b88e57d51948fe9edc645d0d694b9132e21de1d07fa5115173b4910ea84.png",
       "flavorText": "In her defense, it did look like a cookie.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc292a0af280d18431799b1e2efe58fbde3c2754cb26f1de8f02bd1c291e3fa4.png",
@@ -105,7 +105,11 @@
         2742,
         2744,
         2745,
-        2746
+        485,
+        2763,
+        103221,
+        2746,
+        46054
       ],
       "keywordIds": [
         64
@@ -209,7 +213,7 @@
       "manaCost": 3,
       "name": "Black Cat",
       "text": "<b>Spell Damage +1</b> <b>Battlecry:</b> If your deck has only odd-Cost cards, draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dad32c906fe591f93fd9743b01455a89e08f09a1f7037912a6c488d0f471e055.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ed13d6750b9b609b6276a333ab2fd10ba3b3514566693e374e33252ae090690.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c44b70212c0ed65c38705ebe848b938244a23eb26c030f02c8bbed532c68e8eb.png",
       "flavorText": "She's so odd, you can't even.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0c5b32de9515ee7cbdb63ae1991209247391bad27d9d30136713682431c7e90.png",

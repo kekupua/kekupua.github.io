@@ -18,11 +18,7 @@
       "flavorText": "\"Hey! Ancestors!\" - Ancestor's call",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16191a5173ec97e97a874e58e00b97a1dec252a589fc05d04cb6605397fddd22.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2045,
@@ -45,11 +41,7 @@
       "flavorText": "The Dark Animus is evil and mysterious and huge and unable to write sentences that utilize proper grammar.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff9312f2504641dc765e3cb744f9f392b08c6dc76925791f8433d87543e10c2f.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2053,
@@ -76,11 +68,7 @@
         3
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2096,
@@ -109,11 +97,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2037,
@@ -139,11 +123,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2059,
@@ -170,11 +150,7 @@
         265
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2087,
@@ -200,11 +176,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2031,
@@ -226,11 +198,7 @@
       "flavorText": "Spoiler alert: Bolvar gets melted and then sits on an ice throne and everyone forgets about him.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5d5eb8c785b07bfd5ed7c826192b8e026b06fadec87abfb44f99334a77715dc.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2067,
@@ -255,11 +223,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2018,
@@ -279,11 +243,7 @@
       "flavorText": "Only goblins would think this was a good idea. Even they are starting to have their doubts.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb44a4681fe053104e9e1e0e361aeac71a48b0c9b18b9f7736728e16994705f0.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2036,
@@ -305,11 +265,7 @@
       "flavorText": "He's burly because he does CrossFit.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/badb70236df796c9da94ce3a527420e3431c3cfff4a72f060c0881055074cdab.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2094,
@@ -329,11 +285,7 @@
       "flavorText": "Real hunters tame hungry crabs.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/139a5d97abfa2fd719ef2752555c96cf39ad82858667ab1a8ac0ff21cde2785b.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2233,
@@ -356,11 +308,7 @@
       "flavorText": "He and Mountain Giant don't get along.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39c3fbe3ea73f620c0b5ba972ea92338775190023eac4f6f866e3aea03f7e872.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2050,
@@ -396,11 +344,7 @@
         19
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2030,
@@ -426,11 +370,7 @@
         3
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2041,
@@ -451,11 +391,7 @@
       "flavorText": "\"Cobra Shot\" hurts way, way, way more than \"Cobra Cuddle.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f3860ee4b054cf08cfc486ea056832ed2938e2b5ef1f2578064de0f43edde97.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2027,
@@ -482,11 +418,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1932,
@@ -508,11 +440,7 @@
       "flavorText": "After a while, you don't see the cogs and sprockets. All you see is a robot, a spider tank, a deathray...",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f8ad90a6f4148c0ba6f5ea6c7057ec73127607bbe332e470ef78d5a903baf44.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1989,
@@ -534,11 +462,7 @@
       "flavorText": "For tightening cogs and smashin' troggs!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b1b0c5e261ed3938d1f4f770034af9ed1fd166f9338d98cab4c1951a28a3c83.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2006,
@@ -562,11 +486,7 @@
         14
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2020,
@@ -586,11 +506,7 @@
       "flavorText": "Using this card on your enemies is one of the best things in life, according to some barbarians.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ea513c83e0a2571550e5640db1c0a538b98366950bf8af40e672a4d03733cde.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2009,
@@ -617,11 +533,7 @@
         1
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2093,
@@ -642,11 +554,7 @@
       "flavorText": "If you're looking to make an \"Emo\" deck, this card is perfect!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5a3bd7972390a464fc7587b87f6da83e27a0722949383bb915a35613de2bf14.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1985,
@@ -667,11 +575,7 @@
       "flavorText": "Virtually every member of the pro demon lobby is a warlock. Weird.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/adc4bb10fe1bc7fb158959406fa0665658010de113f7bb1fc4f51ad94c863b29.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2078,
@@ -699,11 +603,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2048,
@@ -731,11 +631,7 @@
         8
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2034,
@@ -761,11 +657,7 @@
         14
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1941,
@@ -781,16 +673,12 @@
       "manaCost": 4,
       "name": "Echo of Medivh",
       "text": "Put a copy of each friendly minion into your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a0f6c0e4ad7b2a6b0361d764bd8a260a6d232f1576c34a1cb66c9efec641979.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f1cac4fa7c6dc64c5cb53bccab0bd2672af6fad5310a5adcca2ee4527849ae7.png",
       "imageGold": "",
       "flavorText": "Medivh's echo haunts Karazhan, eternally cheating at chess and <i>Hearthstone</i>.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2e8565d8632fb7c3e9d67bc6eb34c035babdcc6c28da8dbf50bfae580c5c5e3.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa462271e65ca2879ac95397bae6a103564f2cc6f0a5fddb1e726170c1cbd92a.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2075,
@@ -819,11 +707,7 @@
         11
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2044,
@@ -852,11 +736,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1991,
@@ -879,11 +759,7 @@
         12
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1997,
@@ -906,11 +782,7 @@
       "flavorText": "The box says, \"New and improved, with 200% more fel!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7da22dc48943d96ac34c97e721b51264a7f9ca71ab10f8b1109afd6416fe095.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1982,
@@ -933,11 +805,7 @@
       "flavorText": "So reaver. Much fel. Wow.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0ff8b3d86ad05a98e2ed9619f6fd98cfeb42a4660e5d7aa5029b53ec5644a38.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1939,
@@ -960,14 +828,11 @@
       "flavorText": "Mimiron likes to take the Flame Leviathan out on some sweet joyrides.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a22753a7a1dc9cda3905aeab0f94d2de6fea161deffeacd3c8911542896169b.png",
       "keywordIds": [
-        53
+        53,
+        72
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 1927,
@@ -988,11 +853,7 @@
       "flavorText": "Calling something a flamecannon really doesn't do much to distinguish it from other goblin devices.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3a850593bb204071094c8be7df9ced0c348cc7d4603e7df8afe6822d9c30881.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2068,
@@ -1015,11 +876,7 @@
       "flavorText": "\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6b3f4f8d494b6734293486da1de110efbf07ce7e73ce9a2ce7f8aa4b2356056.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2052,
@@ -1045,11 +902,7 @@
         11
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2081,
@@ -1072,11 +925,7 @@
       "flavorText": "Foe reaping is really not so different from harvest reaping, at the end of the day.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7494245ea7b13ecf9a1396b9e679d66dbe60222c6cdd23ff28fcd7ff6dad434f.png",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2047,
@@ -1102,11 +951,7 @@
         3
       ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     },
     {
       "id": 2017,
@@ -1129,11 +974,7 @@
       "flavorText": "The Sen'jin High football team is The Gahz'rillas.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/271a61336ebadf67325e5d88f9efbf38549732136eb38d82488162fa31871e45.jpg",
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false,
-      "duels": {
-        "relevant": true,
-        "constructed": true
-      }
+      "isZilliaxCosmeticModule": false
     }
   ],
   "cardCount": 123,
