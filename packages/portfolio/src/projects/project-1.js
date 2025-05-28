@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react";
 
 export default {
-  layout: 'project-1',
-  images: ['images/tamagotchi_2.png'],
-  title: 'Tamagotchi',
-  date: '2017-05-01',
-  tags: ['Tamagotchi', 'OOP', 'C++'],
+  layout: "project-1",
+  images: ["images/tamagotchi_2.png"],
+  title: "Tamagotchi",
+  date: "2017-05-01",
+  tags: ["Tamagotchi", "OOP", "C++"],
   summary:
-    'My team developed a tamagotchi game for our Final Project in EE 205.',
+    "My team developed a tamagotchi game for our Final Project in EE 205.",
   content: () => {
     return (
       <React.Fragment>
         <div>
-          <img src='images/tamagotchi_1.png' alt='tamagotchi 1' />
-          <img src='images/tamagotchi_2.png' alt='tamagotchi 2' />
-          <img src='images/tamagotchi_3.png' alt='tamagotchi 3' />
+          <img src="images/tamagotchi_1.png" alt="tamagotchi 1" />
+          <img src="images/tamagotchi_2.png" alt="tamagotchi 2" />
+          <img src="images/tamagotchi_3.png" alt="tamagotchi 3" />
         </div>
         This project was a Final Project for our course in Object Oriented
         Programming, EE 205. This game follows the player as they try to care
@@ -56,8 +56,8 @@ export default {
         stages and items. This project also allowed me to practice my game
         design knowledge as I theorized how to create incentives for the player
         to play the game. As I move forward in my career, this project will
-        serve as a reminder of simpler times. You can view the source code on{' '}
-        <a href='https://github.com/kekupua/WDK-Homework/tree/master/Final%20Project'>
+        serve as a reminder of simpler times. You can view the source code on{" "}
+        <a href="https://github.com/kekupua/WDK-Homework/tree/master/Final%20Project">
           Github
         </a>
         .

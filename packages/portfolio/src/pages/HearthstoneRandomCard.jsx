@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Metadata from '../lib/hearthstone-set-metadata.json';
 import Groups from '../lib/hearthstone-set-group-metadata.json';
 import Standard from '../svgs/standard.svg';
@@ -70,7 +70,7 @@ const HearthstoneRandomCard = () => {
   }, [mode]);
 
   return (
-    <st-section id='main-section'>
+    <st-section id='main-section' style={{ width: '100%' }}>
       <div id='card-section' ref={cardSectionRef}>
         <div className='hs-controls'>
           <st-button icon='refresh' onClick={mountCard}></st-button>
