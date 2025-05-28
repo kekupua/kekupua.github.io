@@ -3,3 +3,11 @@ packages:
   - 'packages/*'
   # exclude packages that are inside test directories
   - '!**/test/**'
+
+catalog:
+  eslint: ^9.20.1
+  openai: ^4.76.0
+  tsx: ^4.19.2
+  typescript: ^5.7.3
+  vite: ^6.3.5
+  vite-tsconfig-paths: ^5.1.4

@@ -51,6 +51,12 @@ pnpm --filter portfolio dev
 
 The app will be available at `http://localhost:3000`.
 
+### FormattingTo format the codebase, you can use the following command:
+
+```bash
+pnpm format
+```
+
 ### Building for Production
 
 To create a production build, run the following command:
@@ -70,6 +76,16 @@ pnpm --filter portfolio preview
 ```
 
 This will serve the content from the `dist` folder.
+
+### Deployment
+
+Run the following script to deploy the portfolio to `seanteramae.com`:
+
+```bash
+pnpm --filter portfolio deploy
+```
+
+Running this script will use the latest code located in the portfolio folder and push a new build to gh-pages branch of this repo.
 
 ### Testing
 
