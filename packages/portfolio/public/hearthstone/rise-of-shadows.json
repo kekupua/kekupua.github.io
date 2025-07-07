@@ -148,6 +148,9 @@
         1,
         8
       ],
+      "copyOfCardId": [
+        111455
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -271,6 +274,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08701e2a59566173b3777b1eac50256178e8946f319db5d4b4fd1adea8ed983d.png",
       "keywordIds": [
         53
+      ],
+      "copyOfCardId": [
+        75953
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -447,6 +453,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03fc4892ddc2d3b968164afa510e19844a1dbdcc2847925ebc3278be6d9bc564.png",
       "flavorText": "She always manages to lift your spirits.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca205ad27d170095f683fa03e85db53b203834d706cfb725dcb2bb7e623e5f6d.png",
+      "copyOfCardId": [
+        102199
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -651,8 +660,8 @@
       "artistName": "Arthur Bozonnet",
       "manaCost": 2,
       "name": "Crystalsong Portal",
-      "text": "<b>Discover</b> a Druid minion. If your hand has no minions, keep all 3.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90ed328b33718fa848d6b7004664b6397e19c4ef60be44325c97acfd364ed9d5.png",
+      "text": "<b>Discover</b> a Druid minion. If your hand has no minions, keep all 3 instead.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb82631ba3c0c333bae247832161fd5090f74a0770d6250b877f87d1ed4ca0a5.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9564bdec4d11898324b7068fa5fc95ee540a3d37d7ec8e2945dcce31b22e7287.png",
       "flavorText": "Experience the draw of the wild!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f725db945454d0706b63f370e0871fbc66292c05576549ec32a815cee352c25e.png",

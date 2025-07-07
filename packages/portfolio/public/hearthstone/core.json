@@ -22,6 +22,10 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        242,
+        69761
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -44,6 +48,9 @@
       "imageGold": "",
       "flavorText": "\"I see dead people. A LOT of dead people.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/238a315587d9dacdcdd1141c1b1e9234d0318b9d92b12ac3066760494766862d.png",
+      "copyOfCardId": [
+        80089
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -66,31 +73,10 @@
       "imageGold": "",
       "flavorText": "He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83ceae1ae6bf463ad0baf1d9a2d4e05db364470500c607e943e217d24ea9096c.png",
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 113108,
-      "collectible": 1,
-      "slug": "113108-air-elemental",
-      "classId": 8,
-      "multiClassIds": [],
-      "minionTypeId": 18,
-      "cardTypeId": 4,
-      "cardSetId": 1637,
-      "rarityId": 1,
-      "artistName": "Evgeniy Dlinnov",
-      "health": 1,
-      "attack": 3,
-      "manaCost": 1,
-      "name": "Air Elemental",
-      "text": "<b>Elusive</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b7e0dccfccf739e8e31707c45e89831cd323576ac2287a111ad75bd93249bdd.png",
-      "imageGold": "",
-      "flavorText": "Makes a mean puff pastry.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de56e5d7dfeed4d517901f5299ff3aef42266b5f160dde5f50254efecb7ebe37.png",
-      "keywordIds": [
-        265
+      "copyOfCardId": [
+        1659,
+        106559,
+        69809
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -121,6 +107,10 @@
         4,
         11
       ],
+      "copyOfCardId": [
+        32,
+        70078
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -134,89 +124,50 @@
       "cardSetId": 1637,
       "rarityId": 1,
       "artistName": "J. Axer",
+      "health": 2,
       "attack": 2,
       "manaCost": 3,
-      "durability": 2,
       "name": "Aldrachi Warblades",
       "text": "<b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf9c5c4edcb4483c734c738e012917de2d78fa9160aeca5ce45b6bb50ba6b7a3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/368b65f2b7fbd0ea150fb29737648ce45e26b98cb7070b028aadd3a0f2340479.png",
       "imageGold": "",
       "flavorText": "The ancient Aldrachi were the greatest warriors in the universe. Imagine their power if they'd put the handle at the END of the blade.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cf4c3cb0619698a57f24fd88258fad238c12276634e800e679bb7a8f13ae9dd.png",
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        56583
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
     {
-      "id": 111467,
+      "id": 120427,
       "collectible": 1,
-      "slug": "111467-alexstrasza",
-      "classId": 12,
+      "slug": "120427-anachronos",
+      "classId": 5,
       "multiClassIds": [],
       "minionTypeId": 24,
       "cardTypeId": 4,
       "cardSetId": 1637,
       "rarityId": 5,
-      "artistName": "Raymond Swanland",
+      "artistName": "Nicola Saviori",
       "health": 8,
       "attack": 8,
-      "manaCost": 9,
-      "name": "Alexstrasza",
-      "text": "<b>Battlecry:</b> Set a hero's remaining Health to 15.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a28c56cc8af6a2b01194c8373edc836c4483b18faaeec21fbe6f2ee4dfcee72.png",
+      "manaCost": 7,
+      "name": "Anachronos",
+      "text": "<b>Battlecry:</b> Send all other minions 2 turns into the future.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9598b1e0890ea01aa03f44b40862b6d78bf16cd90e4060f938360ee55af39c3d.png",
       "imageGold": "",
-      "flavorText": "Alexstrasza the Life-Binder brings life and hope to everyone. Except Deathwing. And Malygos. And Nekros.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa289e65cf78c371ef12f181cfcfa847b88e5d0f9ca1fbc870ab435cd56efab9.png",
+      "flavorText": "\"That's it, you're all in time out!\"",
+      "cropImage": null,
       "keywordIds": [
         8
       ],
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 102246,
-      "collectible": 1,
-      "slug": "102246-ancestral-knowledge",
-      "classId": 8,
-      "multiClassIds": [],
-      "cardTypeId": 5,
-      "cardSetId": 1637,
-      "rarityId": 1,
-      "artistName": "Zoltan & Gabor",
-      "manaCost": 2,
-      "name": "Ancestral Knowledge",
-      "text": "Draw 2 cards. <b>Overload:</b> (1)",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7809b5d777fab69c8583b1da140a691c4cb6cfcee7eef9050872e038483d83b7.png",
-      "imageGold": "",
-      "flavorText": "MOMMMMMYYYYYYYYY!!!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5cb56dd44c92ebb5bf20aec568ad76a276e209bb514930d5dae0d49901847bd.png",
-      "keywordIds": [
-        14
+      "copyOfCardId": [
+        84399
       ],
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 76291,
-      "collectible": 1,
-      "slug": "76291-ancient-of-lore",
-      "classId": 2,
-      "multiClassIds": [],
-      "cardTypeId": 4,
-      "cardSetId": 1637,
-      "rarityId": 4,
-      "artistName": "Patrik Hjelm",
-      "health": 7,
-      "attack": 7,
-      "manaCost": 7,
-      "name": "Ancient of Lore",
-      "text": "<b>Choose One -</b> Draw 2 cards; or Restore 7 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da64351c2dd7816adfe505240c503324eb5d03392c4bfc3f7510e44031c90bf2.png",
-      "imageGold": "",
-      "flavorText": "Go ahead, carve your initials in him.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d9fbdf7f82803708d1eec63851c77a704e756262b2ee0c5826ab181277a0878.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -233,7 +184,7 @@
       "manaCost": 3,
       "name": "Animal Companion",
       "text": "Summon a random Beast Companion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/958402c6192bafcc469a546811ededd4ed6927b79b28522154282bd51042cf2d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa33c2ecbbf6e36d2b46fe3739d96ebef16d8e03cbd9e6825128d0b45a5a189e.png",
       "imageGold": "",
       "flavorText": "You could summon Misha, Leokk, or Huffer! Huffer is more trouble than he's worth.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22fc73c7151722277cb0a691116bcec0f8010a40faab859c0d1bc1c4aa0d0053.png",
@@ -241,6 +192,10 @@
         100,
         226,
         959
+      ],
+      "copyOfCardId": [
+        437,
+        68529
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -268,6 +223,9 @@
       "keywordIds": [
         1,
         3
+      ],
+      "copyOfCardId": [
+        2053
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -321,6 +279,9 @@
       "imageGold": "",
       "flavorText": "Ethereal armor dissipates in 6 hours which can cause extreme awkwardness for first time buyers.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a35cbd10417f211bdc94348c3104422381d4f5b0b828371d3814abf831eaae5.png",
+      "copyOfCardId": [
+        45590
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -342,6 +303,11 @@
       "imageGold": "",
       "flavorText": "Playing this card makes you SMARTER. And let's face it: we could all stand to be a little smarter.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85a8ede320262f60c650638a154107206f9ec6f99aa771e8df710f191ff16088.png",
+      "copyOfCardId": [
+        68192,
+        555,
+        68321
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -363,57 +329,39 @@
       "imageGold": "",
       "flavorText": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves. The resulting loss of jobs sent Stormwind into a minor recession.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62fcb73d4604263c722b2c3e23643d9a096e98fd29fb549d09d2ae793a6ae9b1.png",
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 69702,
-      "collectible": 1,
-      "slug": "69702-arcanologist",
-      "classId": 4,
-      "multiClassIds": [],
-      "cardTypeId": 4,
-      "cardSetId": 1637,
-      "rarityId": 1,
-      "artistName": "Eva Widermann",
-      "health": 3,
-      "attack": 2,
-      "manaCost": 2,
-      "name": "Arcanologist",
-      "text": "<b>Battlecry:</b> Draw a <b>Secret</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58676202ad867cf8f250e0d5fa63f096940e74e413d4cac3248e49e5b771f6fd.png",
-      "imageGold": "",
-      "flavorText": "What did you draw? Shhhh… it’s a secret.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e3b2917b989b7a25a10c3ad0516e50970c6d5b3f4c3e1184ddadebad20ff012.png",
-      "keywordIds": [
-        5,
-        8
+      "copyOfCardId": [
+        68193,
+        877,
+        68434
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
     {
-      "id": 111455,
+      "id": 120426,
       "collectible": 1,
-      "slug": "111455-arch-villain-rafaam",
-      "classId": 9,
+      "slug": "120426-archmage-antonidas",
+      "classId": 4,
       "multiClassIds": [],
       "cardTypeId": 4,
       "cardSetId": 1637,
       "rarityId": 5,
-      "artistName": "Alex Horley Orlandelli",
-      "health": 8,
-      "attack": 7,
+      "artistName": "Wayne Reynolds",
+      "health": 7,
+      "attack": 5,
       "manaCost": 7,
-      "name": "Arch-Villain Rafaam",
-      "text": "<b><b>Taunt</b> Battlecry:</b> Replace your hand and deck with <b>Legendary</b> minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f0457932457561ba33d38ba4641182e92fad66eec3aa95d45221dd8befa5404.png",
+      "name": "Archmage Antonidas",
+      "text": "Whenever you cast a spell, add a 'Fireball' spell to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b6ac9e7917e916cb353fdece8563b1cac9d4a27cc314e7beffa13e4d0b93a7d9.png",
       "imageGold": "",
-      "flavorText": "Minions must wash hands before being LIQUIDATED AND REPLACED BY SOMEONE BETTER.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1fb82729d88f80e9cd578031c2a2af8180ee55d9fe2745c1211164fe4aff323d.png",
-      "keywordIds": [
-        1,
-        8
+      "flavorText": "Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor. This was a big step up from being Grand Magus of Jelly Donuts.",
+      "cropImage": null,
+      "childIds": [
+        315
+      ],
+      "copyOfCardId": [
+        69975,
+        1080
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -441,30 +389,9 @@
         3,
         8
       ],
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 102223,
-      "collectible": 1,
-      "slug": "102223-armor-vendor",
-      "classId": 12,
-      "multiClassIds": [],
-      "cardTypeId": 4,
-      "cardSetId": 1637,
-      "rarityId": 3,
-      "artistName": "Maria Trepalina",
-      "health": 3,
-      "attack": 1,
-      "manaCost": 1,
-      "name": "Armor Vendor",
-      "text": "<b>Battlecry:</b> Give 4 Armor to each hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3fc8a82399be736befa263b3375842d8a4a40ed0800a4004928a8f9dcc530d37.png",
-      "imageGold": "",
-      "flavorText": "\"You look like the kind of person that would buy three sets of armor. One to wear, a spare, and a spare for the spare.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c84ad406356a49aa12cf814a47ba7ad2bed62377483b231a74173c8eb7237abf.png",
-      "keywordIds": [
-        8
+      "copyOfCardId": [
+        1022,
+        69936
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -483,7 +410,7 @@
       "manaCost": 5,
       "name": "Army of the Dead",
       "text": "Raise up to 5 <b>Corpses</b> as 2/2 Risen Ghouls with <b>Rush</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebec39896b9c2144f4beccdba3a8fd1d856bad6111f900bae7cc86360ac29871.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7454134a0d7bf16a04c7d899e0521082c6421813c6f807dd6385e5f351fa0d65.png",
       "imageGold": "",
       "flavorText": "Yesterday's army, today.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8895bffdb5f2b12549341a88e9c9bb28f187a59e4208dc8b339908dcd6ba10a4.png",
@@ -520,6 +447,9 @@
       "imageGold": "",
       "flavorText": "I find your abundance of Attack disturbing.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6842c6fa2a5684e669af77353faeec4bd82bba896c64d379aa0cc9d9cb437be.png",
+      "copyOfCardId": [
+        79503
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -540,28 +470,32 @@
       "imageGold": "",
       "flavorText": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91b0da729f9c6d5cbd5b9df1012809d5e3131c9b15ceaad41f36b5145a7071a6.png",
+      "copyOfCardId": [
+        68352,
+        345
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
     {
-      "id": 69700,
+      "id": 117307,
       "collectible": 1,
-      "slug": "69700-babbling-book",
+      "slug": "117307-babbling-bookcase",
       "classId": 4,
       "multiClassIds": [],
       "cardTypeId": 4,
       "cardSetId": 1637,
       "rarityId": 3,
-      "artistName": "A. J. Nazzaro",
-      "health": 2,
-      "attack": 1,
-      "manaCost": 1,
-      "name": "Babbling Book",
-      "text": "<b>Battlecry:</b> Add a random Mage spell to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4483f615ae9168b316a9756ef1af1c9ab2f5c62cfbfda86e96b740d70ab7bf95.png",
+      "artistName": "Tanamaes Leejierasaes",
+      "health": 4,
+      "attack": 2,
+      "manaCost": 3,
+      "name": "Babbling Bookcase",
+      "text": "<b>Battlecry:</b> Add 2 random Mage spells to your hand.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/60fa494683f89a33c70250092bc81c34f18ec841a05b14b4d268fb1bddab1b99.png",
       "imageGold": "",
-      "flavorText": "His idol is the Green Hills of Stranglethorn, and he won't shut up about it.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea0e216c08ed2fb57a0e4f566896b1783b869ab717a7b29c4e60b33384cea74e.png",
+      "flavorText": "Babbling Bookcase is quickly becoming one of my favorite cards. It's just so positive and generous. Practically costs nothing at all at three mana you drop him on the board and that chill guy gives you two spells to use later in the game.",
+      "cropImage": null,
       "keywordIds": [
         8
       ],
@@ -585,6 +519,10 @@
       "imageGold": "",
       "flavorText": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f3b84c7f6b752034eda6a3a968fbf86aee0e86c919c6d249a7b233498ee6199.png",
+      "copyOfCardId": [
+        68348,
+        180
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -611,6 +549,10 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        2483,
+        102544
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -636,29 +578,10 @@
       "keywordIds": [
         8
       ],
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
-      "id": 69674,
-      "collectible": 1,
-      "slug": "69674-baron-geddon",
-      "classId": 12,
-      "multiClassIds": [],
-      "minionTypeId": 18,
-      "cardTypeId": 4,
-      "cardSetId": 1637,
-      "rarityId": 5,
-      "artistName": "Ian Ameling",
-      "health": 7,
-      "attack": 7,
-      "manaCost": 7,
-      "name": "Baron Geddon",
-      "text": "At the end of your turn, deal 2 damage to ALL other characters.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/06a52fae78bec4ea04e22760b8e4b3bf46fc9e811aed257ff9d951dee976e073.png",
-      "imageGold": "",
-      "flavorText": "Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94a59f0dda79c84946d15842b4cc05e39c30488e3659f164f60c56a9f2c25193.png",
+      "copyOfCardId": [
+        84937,
+        63461
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -679,6 +602,9 @@
       "imageGold": "",
       "flavorText": "You might think bashing doesn't take a lot of practice. It doesn't.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cc1d54a84aa2c2b313ef59a4560725432e4d762bc2f070b1f4ec4bab0198573.png",
+      "copyOfCardId": [
+        2729
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -697,7 +623,7 @@
       "manaCost": 2,
       "name": "Battlefield Necromancer",
       "text": "At the end of your turn, raise a <b>Corpse</b> as a 1/3 Risen Footman with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9871177d1048c74a705c4d4da984b5200dbec2564897a024b143cde9349137c0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ea417ed7fc33d3cda9db69576adb42798d41752af9ad694f5ff833c4735d3c9.png",
       "imageGold": "",
       "flavorText": "Coming soon: the Hand Necromancer and the Deck Necromancer.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e72fab6c4ff1341386613d8a6be6aee506a68972b9b7faa406697f275a8a4634.png",
@@ -736,6 +662,9 @@
       "imageGold": "",
       "flavorText": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/921e1e77be3cf8747e3350503fbb01cd84e2c2a00bbb50ae6196b07a9dcf6c1f.png",
+      "copyOfCardId": [
+        58487
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -761,6 +690,39 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        54269
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 108357,
+      "collectible": 1,
+      "slug": "108357-best-in-shell",
+      "classId": 2,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1637,
+      "rarityId": 1,
+      "artistName": "Melvin Chan",
+      "manaCost": 6,
+      "name": "Best in Shell",
+      "text": "<b>Tradeable</b> Summon two 2/7 Turtles with <b>Taunt</b>.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76e8e360dd5b6eeea2ea02b63e2df91dc53f6a059656a27a50f1cc18bc14d079.png",
+      "imageGold": "",
+      "flavorText": "The agility course takes a while.",
+      "cropImage": null,
+      "childIds": [
+        70124
+      ],
+      "keywordIds": [
+        1,
+        97
+      ],
+      "copyOfCardId": [
+        64292
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -779,7 +741,7 @@
       "manaCost": 4,
       "name": "Big Game Hunter",
       "text": "<b>Tradeable</b> <b>Battlecry:</b> Destroy a minion with 7 or more Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19433e2f8b7ae3f373e0ff3fba1306e3004c0f5653139d01038334a1d1f2e950.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e420ec323e19df8ee51589eb5d2a2a5202fd0bb8bae97443f066db1a6428a156.png",
       "imageGold": "",
       "flavorText": "Mere devilsaurs no longer excite him. Soon he'll be trying to catch Onyxia with only a dull Krol Blade.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47d67114a47c9c3953921e1469ceb60b0dc24f1787e62765847acbadbb2a872e.png",
@@ -787,26 +749,38 @@
         8,
         97
       ],
+      "copyOfCardId": [
+        1657,
+        69807
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
     {
-      "id": 97332,
+      "id": 120572,
       "collectible": 1,
-      "slug": "97332-bladestorm",
-      "classId": 10,
+      "slug": "120572-blazing-invocation",
+      "classId": 8,
       "multiClassIds": [],
+      "spellSchoolId": 2,
       "cardTypeId": 5,
       "cardSetId": 1637,
-      "rarityId": 4,
-      "artistName": "Mauricio Herrera",
-      "manaCost": 2,
-      "name": "Bladestorm",
-      "text": "Deal 1 damage to all minions. Repeat until one dies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a00a285f633797b2985f3d436416a16b79805557cee418d9c50e5c02bc06eae5.png",
+      "rarityId": 3,
+      "artistName": "Dan Scott",
+      "manaCost": 1,
+      "name": "Blazing Invocation",
+      "text": "<b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/71b08c5a6aacf73ea0c8832400da8e68e7a483426d01462ed60affdc2d43e03e.png",
       "imageGold": "",
-      "flavorText": "Dear minions: Woosh, woosh, woosh, woosh, woosh. Best regards, Bladestorm",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a59ca433d16c8b81ce82e87f66a2475ec6f52eabebe112e69f712c77f04c458.png",
+      "flavorText": "A lot of shaman have started vaping their invocations.",
+      "cropImage": null,
+      "keywordIds": [
+        8,
+        21
+      ],
+      "copyOfCardId": [
+        48393
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -830,6 +804,10 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f75759db2424039acca6b90ba5821eb63d7126488a85c47a13321002f7501a6.png",
       "keywordIds": [
         10
+      ],
+      "copyOfCardId": [
+        457,
+        69747
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -855,6 +833,9 @@
       "keywordIds": [
         247
       ],
+      "copyOfCardId": [
+        80664
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
       "runeCost": {
@@ -864,25 +845,30 @@
       }
     },
     {
-      "id": 113309,
+      "id": 76303,
       "collectible": 1,
-      "slug": "113309-bloodbound-imp",
-      "classId": 9,
+      "slug": "76303-bloodhoof-brave",
+      "classId": 10,
       "multiClassIds": [],
-      "minionTypeId": 15,
       "cardTypeId": 4,
       "cardSetId": 1637,
       "rarityId": 1,
-      "artistName": "L. Lullabi & K. Turovec",
-      "health": 5,
+      "artistName": "Paul Mafayon",
+      "health": 6,
       "attack": 2,
-      "manaCost": 2,
-      "name": "Bloodbound Imp",
-      "text": "Whenever this attacks, deal 2 damage to your hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/addc6661f391af8ee48332ac7622c8437ae910ff5dfaa1cbb2e5bc02f9d4011f.png",
+      "manaCost": 4,
+      "name": "Bloodhoof Brave",
+      "text": "<b>Taunt</b> Has +3 Attack while damaged.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bdfba31b49a87818dfcf620fd81a73ff088ef00ad8018f283b09f368ec16063f.png",
       "imageGold": "",
-      "flavorText": "ALWAYS read the terms and conditions.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a63e307f06ccb49612b5a5aa8c7303f372a7bf7b1d1c228cf155fd6e49611446.png",
+      "flavorText": "He thought the set was called \"Flippers of the Old Cods\" and hungrily volunteered to be in it. He is definitely going to get his hearing checked.",
+      "cropImage": null,
+      "keywordIds": [
+        1
+      ],
+      "copyOfCardId": [
+        38738
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -910,6 +896,10 @@
         2,
         12
       ],
+      "copyOfCardId": [
+        749,
+        69813
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -935,6 +925,38 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d2bbe9530536c870140cf08d58114ab4179718e1230ab7cf220111280314ddf.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        999,
+        70082
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 120433,
+      "collectible": 1,
+      "slug": "120433-blowtorch-saboteur",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1637,
+      "rarityId": 4,
+      "artistName": "Ekaterina Shapovalova",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Blowtorch Saboteur",
+      "text": "<b>Battlecry:</b> Your opponent's next Hero Power costs (2) more.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af3107c1979bb5595208fe9531441ac85be4702c4a1411be3b62e94f63a69ba5.png",
+      "imageGold": "",
+      "flavorText": "Before he came along, we went through a lot of duct tape.",
+      "cropImage": null,
+      "keywordIds": [
+        8
+      ],
+      "copyOfCardId": [
+        56226
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -985,11 +1007,129 @@
       "imageGold": "",
       "flavorText": "\"ME HAVE GOOD STATS FOR THE COST\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b94b842a231f6b70bd15f339513f699994b7ee5ba6bbf6d6363ede6f6376c702.png",
+      "copyOfCardId": [
+        1686,
+        68203,
+        68406
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 69640,
+      "collectible": 1,
+      "slug": "69640-brawl",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 5,
+      "cardSetId": 1637,
+      "rarityId": 4,
+      "artistName": "Wayne Reynolds",
+      "manaCost": 5,
+      "name": "Brawl",
+      "text": "Destroy all minions except one. <i>(chosen randomly)</i>",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ba8518d0d5a688a31055c032baef90982e77c3af02227a18180cf07eaf198f4.png",
+      "imageGold": "",
+      "flavorText": "Do you know the first rule of Brawl Club?",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d9c38301384f729737b289cad66b6427f185b43d443708d9101218fa9da4421.png",
+      "copyOfCardId": [
+        75,
+        69952
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 86545,
+      "collectible": 1,
+      "slug": "86545-bronze-explorer",
+      "classId": 5,
+      "multiClassIds": [],
+      "minionTypeId": 24,
+      "cardTypeId": 4,
+      "cardSetId": 1637,
+      "rarityId": 1,
+      "artistName": "Max Grecke",
+      "health": 3,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Bronze Explorer",
+      "text": "<b>Lifesteal</b> <b>Battlecry:</b> <b>Discover</b> a Dragon.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d45e72b975fdf1c8e38134c7af20bf34971633f121c6b81f443ce3d411adb19.png",
+      "imageGold": "",
+      "flavorText": "Always ready to explore new friendships! Except with Deathwing.",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf1d533755266182bdc90818ba8fa45f45743696e02b56bb7ee49b194f99e988.png",
+      "keywordIds": [
+        8,
+        21,
+        38
+      ],
+      "copyOfCardId": [
+        55056
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 116718,
+      "collectible": 1,
+      "slug": "116718-bulwark-of-azzinoth",
+      "classId": 10,
+      "multiClassIds": [],
+      "cardTypeId": 7,
+      "cardSetId": 1637,
+      "rarityId": 5,
+      "artistName": "SARIYA",
+      "health": 4,
+      "attack": 1,
+      "manaCost": 3,
+      "name": "Bulwark of Azzinoth",
+      "text": "Whenever your hero would take damage, this loses 1 Durability instead.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b539769cd885e8a8715e19578b6380a7409770722a91ee3cd815350fff1f2b2.png",
+      "imageGold": "",
+      "flavorText": "This plate turned shield you shall wield, praying its powers fel will serve you well.",
+      "cropImage": null,
+      "copyOfCardId": [
+        57721
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 69667,
+      "collectible": 1,
+      "slug": "69667-cairne-bloodhoof",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1637,
+      "rarityId": 5,
+      "artistName": "Wayne Reynolds",
+      "health": 5,
+      "attack": 5,
+      "manaCost": 6,
+      "name": "Cairne Bloodhoof",
+      "text": "<b>Taunt</b> <b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30482fc29e7009ee8b91c5e16a142b8ee52b19357f254c00804fca2e5ad95bab.png",
+      "imageGold": "",
+      "flavorText": "Cairne was killed by Garrosh, so... don't put this guy in a Warrior deck. It's pretty insensitive.",
+      "cropImage": null,
+      "childIds": [
+        318
+      ],
+      "keywordIds": [
+        1,
+        12
+      ],
+      "copyOfCardId": [
+        420,
+        69851
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     }
   ],
-  "cardCount": 291,
+  "cardCount": 288,
   "pageCount": 8,
   "page": 1
 }

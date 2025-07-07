@@ -67,6 +67,9 @@
         1,
         3
       ],
+      "copyOfCardId": [
+        69718
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -242,6 +245,9 @@
       "imageGold": "",
       "flavorText": "Only goblins would think this was a good idea. Even they are starting to have their doubts.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb44a4681fe053104e9e1e0e361aeac71a48b0c9b18b9f7736728e16994705f0.png",
+      "copyOfCardId": [
+        103228
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -284,6 +290,9 @@
       "imageGold": "",
       "flavorText": "Real hunters tame hungry crabs.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/139a5d97abfa2fd719ef2752555c96cf39ad82858667ab1a8ac0ff21cde2785b.jpg",
+      "copyOfCardId": [
+        84938
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -307,6 +316,9 @@
       "imageGold": "",
       "flavorText": "He and Mountain Giant don't get along.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39c3fbe3ea73f620c0b5ba972ea92338775190023eac4f6f866e3aea03f7e872.png",
+      "copyOfCardId": [
+        69720
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -390,6 +402,9 @@
       "imageGold": "",
       "flavorText": "\"Cobra Shot\" hurts way, way, way more than \"Cobra Cuddle.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f3860ee4b054cf08cfc486ea056832ed2938e2b5ef1f2578064de0f43edde97.png",
+      "copyOfCardId": [
+        103196
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -403,15 +418,15 @@
       "cardSetId": 13,
       "rarityId": 4,
       "artistName": "Dany Orizio",
+      "health": 3,
       "attack": 2,
       "manaCost": 3,
-      "durability": 3,
       "name": "Coghammer",
       "text": "<b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/004f5be05dacb1b6ab029370b4044c180f504af7892600a8cde8a651d7922ba2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6115528cfede1a301cf409b9f83f12fa7a506e6e63f4b1fd4ec600dca2fbaeab.png",
       "imageGold": "",
       "flavorText": "So you ripped this out of a machine, carved some runes on it, stuck it on a handle, and now it's a weapon of great divine power? Seems legit.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d15a65a80d50ff515b83c6b3e098443b3a62943b515d8602a88cb9a38a6a1d44.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ef25aa5390e70696b9ac99ff9cca4d39d94283cabfaf5e45a214680bc289d99.png",
       "keywordIds": [
         1,
         3,
@@ -439,6 +454,9 @@
       "imageGold": "",
       "flavorText": "After a while, you don't see the cogs and sprockets. All you see is a robot, a spider tank, a deathray...",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f8ad90a6f4148c0ba6f5ea6c7057ec73127607bbe332e470ef78d5a903baf44.png",
+      "copyOfCardId": [
+        69715
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -452,15 +470,15 @@
       "cardSetId": 13,
       "rarityId": 4,
       "artistName": "Richard Wright",
+      "health": 3,
       "attack": 1,
       "manaCost": 3,
-      "durability": 3,
       "name": "Cogmaster's Wrench",
       "text": "Has +2 Attack while you have a Mech.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/616dd6829d251a5ce88cc02fadd01796d5f2f607cab6db09d6881e2269b2ef1f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3eec25ddf9df9f4fc79cc8ffa45bf00a4b099d0de6d79aebc9ab039aa53cb915.png",
       "imageGold": "",
       "flavorText": "For tightening cogs and smashin' troggs!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b1b0c5e261ed3938d1f4f770034af9ed1fd166f9338d98cab4c1951a28a3c83.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6ffc2c8fe18ee81902fae74f09112bcd541a4d5336dc2d87d3bb33180d46971.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -553,6 +571,9 @@
       "imageGold": "",
       "flavorText": "If you're looking to make an \"Emo\" deck, this card is perfect!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5a3bd7972390a464fc7587b87f6da83e27a0722949383bb915a35613de2bf14.png",
+      "copyOfCardId": [
+        102638
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -601,6 +622,9 @@
       ],
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102216
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -735,6 +759,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        69717
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -831,6 +858,9 @@
         53,
         72
       ],
+      "copyOfCardId": [
+        102563
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -871,7 +901,7 @@
       "manaCost": 5,
       "name": "Floating Watcher",
       "text": "Whenever your hero takes damage on your turn, gain +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d505619f12489c06b339d345c359baaa17711804b9888743cac3399bf6dc272d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ce548c800aeb6e8bd7deedb017d52070f1a5a3eddc1dd605c4dcbab83f6c7a6.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34cc18ee1a4d5573e2c386f91225c6cb1bf5aca8f276d76024f77013f0fb4227.png",
       "flavorText": "\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6b3f4f8d494b6734293486da1de110efbf07ce7e73ce9a2ce7f8aa4b2356056.png",

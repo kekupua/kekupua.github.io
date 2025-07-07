@@ -19,6 +19,9 @@
       "imageGold": "",
       "flavorText": "\"I see dead people. A LOT of dead people.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/238a315587d9dacdcdd1141c1b1e9234d0318b9d92b12ac3066760494766862d.png",
+      "copyOfCardId": [
+        111318
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -127,6 +130,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8c6ed0f0a739cf613f39c75cce62f428789a28fde75dd3695de1ef4cb77f119.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        120427
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -327,7 +333,7 @@
       "manaCost": 1,
       "name": "Arms Dealer",
       "text": "After you summon an Undead, give it +1 Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67a2630a8208604829ffb4dc4729b40bffa8d237e63c9d40622e2f7326086d57.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb68b974c2430b3a0c73990a1445dd0f28a522e4de3f13c80cb1e23d80c5e759.png",
       "imageGold": "",
       "flavorText": "Need a hand?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1d2d1f71b4b8ac5aefdc0f568da1510b7a27527cdc8553ee372f135b41898a2.png",
@@ -391,32 +397,6 @@
       "isZilliaxCosmeticModule": false
     },
     {
-      "id": 85651,
-      "collectible": 1,
-      "slug": "85651-banshee",
-      "classId": 12,
-      "multiClassIds": [],
-      "minionTypeId": 11,
-      "cardTypeId": 4,
-      "cardSetId": 1776,
-      "rarityId": 3,
-      "artistName": "Alex Stone",
-      "health": 1,
-      "attack": 2,
-      "manaCost": 1,
-      "name": "Banshee",
-      "text": "<b>Deathrattle:</b> Give a random friendly Undead +2/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be23f8d85e5f5c2364ffb12122fe578ef694693a01459372a4cef7a4a5867fb4.png",
-      "imageGold": "",
-      "flavorText": ":O",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd3a64947f40335b3e051c447f93a5c4b52b7d530e54594c58083daf1d9a2cbd.png",
-      "keywordIds": [
-        12
-      ],
-      "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
-    },
-    {
       "id": 85049,
       "collectible": 1,
       "slug": "85049-beetlemancy",
@@ -429,7 +409,7 @@
       "manaCost": 5,
       "name": "Beetlemancy",
       "text": "<b>Choose One</b> - Gain 12 Armor; or Summon two 3/3 Beetles with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/946b6464dedf44ba1bf7165d6efdf9afdd2be941aae3ddc49fd92780e61943bc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/085fc8be964b4746fefd93527aa9a3ede19f50d48013e311c8b497f856d96fb7.png",
       "imageGold": "",
       "flavorText": "Beetlemancy. Beetlemancy. Beetlemancy.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18c843e4a302d3e183567a9415ef3f87de7564e3bcb27fa7b2b99d378f61e157.png",
@@ -799,12 +779,12 @@
       "cardSetId": 1776,
       "rarityId": 3,
       "artistName": "Ishmael Hoover",
+      "health": 2,
       "attack": 1,
       "manaCost": 1,
-      "durability": 2,
       "name": "Calamity's Grasp",
       "text": "<b>Deathrattle:</b> Add a random <b>Outcast</b> card to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ba4eb4be9a0030977f496942cefaf7e7a0753a0566321077d000e66675c36f2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea61c9d9631f9cf20889aee336d4e84aa46f4cf4bf975f8d35832ce82c52bfab.png",
       "imageGold": "",
       "flavorText": "Kel'Thuzad's personal fidget spinner.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f47265bbe6018ba2572710cfee63d4dd68d83fd1feec10955272882c521251b7.png",
@@ -1027,6 +1007,9 @@
       "keywordIds": [
         247
       ],
+      "copyOfCardId": [
+        111334
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false,
       "runeCost": {
@@ -1057,6 +1040,31 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f979905f2500bede680f67f952ecf9f430257c571ccfa5d5edaafc65253b362b.png",
       "keywordIds": [
         1
+      ],
+      "isZilliaxFunctionalModule": false,
+      "isZilliaxCosmeticModule": false
+    },
+    {
+      "id": 86573,
+      "collectible": 1,
+      "slug": "86573-crystal-broker",
+      "classId": 12,
+      "multiClassIds": [],
+      "cardTypeId": 4,
+      "cardSetId": 1776,
+      "rarityId": 4,
+      "artistName": "Angelica Alieva",
+      "health": 2,
+      "attack": 3,
+      "manaCost": 3,
+      "name": "Crystal Broker",
+      "text": "<b>Manathirst (5):</b> Summon a random 3-Cost minion. <b>Manathirst (10):</b> Summon an 8-Cost minion instead.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e222fbd0be666beefaf0d3e6b52356ea19cc56e4d8e0d6a6cdbf3ed713568b5c.png",
+      "imageGold": "",
+      "flavorText": "Broke: Crystals Woke: Blueberry Fruit Gummies",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe7e5445e37a1f76e1a1aece3fbefd165c5d5e6bbbe50d3bd045ead6a7dda246.png",
+      "keywordIds": [
+        257
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

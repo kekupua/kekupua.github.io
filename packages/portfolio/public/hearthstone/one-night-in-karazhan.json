@@ -20,6 +20,10 @@
       "imageGold": "",
       "flavorText": "He used to get work as a Spatial Anomaly, but he got tired of having his polarity reversed.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d04ddae9313a1d450af998ffe08689ecf12ec49ee9b435aac896fe9aec6d1fb.png",
+      "copyOfCardId": [
+        71844,
+        69722
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -123,6 +127,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        69700
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -201,6 +208,9 @@
         5,
         6
       ],
+      "copyOfCardId": [
+        102190
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -225,6 +235,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/695ecea2c971c7259248f4c84ed672d929cdc703aee8ef211e8abdc079af28d3.png",
       "keywordIds": [
         5
+      ],
+      "copyOfCardId": [
+        76299
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -277,6 +290,9 @@
       "imageGold": "",
       "flavorText": "Once upon a midnight restive, Medivh pondered, feeling festive!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/573b17580501e62cc6ae71461e607a6fce630f170fc264946df82a99d93135f8.png",
+      "copyOfCardId": [
+        69687
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -323,6 +339,9 @@
       "imageGold": "",
       "flavorText": "Come to beautiful Firelands! Where it's <i>\"Way nicer than the Abyssal Maw!\"</i>",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/127fa9d18bbe7cf42b11e81177b6165f9ae7ec221451698566d7d85172aa75a9.png",
+      "copyOfCardId": [
+        97375
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -336,15 +355,15 @@
       "cardSetId": 23,
       "rarityId": 1,
       "artistName": "Anton Zemskov",
+      "health": 4,
       "attack": 3,
       "manaCost": 5,
-      "durability": 4,
       "name": "Fool's Bane",
       "text": "Unlimited attacks each turn. Can't attack heroes.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/064dc5c20b1141ec90aa483105de012639d16ada84e6a0b1e604572a4bfdd621.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca9baccf370b71529b8e60357fdc3fc9b92ecbee0599b09f227a54a82151e4c9.png",
       "imageGold": "",
       "flavorText": "A fool and his bane are soon parted.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76d29ae24efa3a62d44b0b28715c30857c2d1b7206250ece71f3e4c5d64124af.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/42b31b7929f46fecf9b0d15eae37048d24e23714ef3558e482171867eab357e6.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -366,6 +385,9 @@
       "imageGold": "",
       "flavorText": "Come to beautiful Ironforge! Where irons are forged and the forges are iron!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/314d8b7f525279f6b1098fb7a50ca2aa64999a0d0ba76375ea9f6c1b9c6015d5.png",
+      "copyOfCardId": [
+        103240
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -391,6 +413,9 @@
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        102572
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -467,6 +492,9 @@
       "imageGold": "",
       "flavorText": "They bill this as a popular resort attraction, but they try and get your money up front.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/762711bf0195759afb0cb75d73dc3e2d372ecd1f648fd471641ed301fbd8f3d0.png",
+      "copyOfCardId": [
+        76295
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -594,6 +622,10 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        103195,
+        69686
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -683,17 +715,20 @@
       "rarityId": 1,
       "artistName": "Ralph Horsley",
       "health": 3,
-      "attack": 1,
+      "attack": 2,
       "manaCost": 2,
       "name": "Netherspite Historian",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a70791a11455ee088012f7d40228d0bf9241c047778d687b1427755e19ed86e7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98cd5362016a1d26b1389535a239f92afcd4ce9382161e830d6f10d254f999bf.png",
       "imageGold": "",
       "flavorText": "She can tell you all about the history of people not STANDING IN THE GREEN BEAM!",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ff0dc15d7bd18fa86b8aae25a7755da823c904039103736b9eb1bafe2e864bb.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bec9bf9e65269662714be4651670cea687e404e80a4d33e56a107691e79f27fc.png",
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        120172
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -747,6 +782,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/394bf788dc7235a3c66689f78f038b5ff02d25a446d39171c7ebcef078d2d6c9.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102591
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -948,6 +986,10 @@
       "imageGold": "",
       "flavorText": "What's Millhouse Manastorm doing in Silvermoon?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e0d3bf82ee4c2510200c74f9faff4bb4fad63d6c11e5575ba21476d267598d.png",
+      "copyOfCardId": [
+        103212,
+        111367
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -970,6 +1012,9 @@
       "imageGold": "",
       "flavorText": "From the secret research labs of the Swiss Army.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89aa46d678ff466abe171088caabe32479cfad1f08ae68b4f84a5aa20c9bb6b8.png",
+      "copyOfCardId": [
+        102641
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -983,17 +1028,20 @@
       "cardSetId": 23,
       "rarityId": 1,
       "artistName": "Ralph Horsley",
+      "health": 3,
       "attack": 1,
       "manaCost": 1,
-      "durability": 3,
       "name": "Spirit Claws",
       "text": "Has +2 Attack while you have <b>Spell Damage</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/888a6330aef4d1a8fb77bec7f21b04394a497fa716d11d7644e4a8e67390250b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89b71242c65ef87e1591d605563ec5d5aae4ca4f320802a1c64489c417c39513.png",
       "imageGold": "",
       "flavorText": "They'll be MUCH easier to use once they add the spirit<i>thumb</i>.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8d395cd5d3764ce1f308397da6bc3bd733f0afe32188b1e50cbe3ad88c07a88.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c529e7186a24848988d2a5993a4da888642c63828e71c8af5b7dbf6052b20bee.png",
       "keywordIds": [
         2
+      ],
+      "copyOfCardId": [
+        111380
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

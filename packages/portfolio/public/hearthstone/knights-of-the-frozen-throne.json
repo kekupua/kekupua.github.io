@@ -23,6 +23,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        95633
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -48,6 +51,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27c367d387ece3595093dc59e590fa3a8047679423f621f053c7b0fb88aa45fe.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        95634
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -75,6 +81,9 @@
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        95635
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -97,6 +106,9 @@
       "imageGold": "",
       "flavorText": "He'd be a lot easier to animate if he would just stand still.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b87aa148cf1aab82f58bb2c25e961d13b8c3d0d3b2c61e2685eb90287eeb4c0.png",
+      "copyOfCardId": [
+        95636
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -122,6 +134,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        95637
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -144,7 +159,7 @@
       "manaCost": 4,
       "name": "Arfus",
       "text": "<b>Deathrattle:</b> Add a random <b>Lich King</b> card to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac3070c12f5e96a6198de4f2564818e47e9a966ffc71eb62f6cc762eea030cf2.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59701ac689e3805e1bd45e21333b1e2df9e8bf0c83cb7745b1e5b5aa4cecc3a8.png",
       "imageGold": "",
       "flavorText": "There must always be a Lick King.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d63555006d8e9f48b55965215fddec64cb6eeb34fce206ca183595bc661db330.png",
@@ -160,6 +175,9 @@
       ],
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        95638
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -190,6 +208,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        95639
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -213,6 +234,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2498c7ce727ae61c4d38fc2c3101d3a87d836d040e9cf257afb2cabdfdd7273.png",
       "keywordIds": [
         10
+      ],
+      "copyOfCardId": [
+        95640
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -243,6 +267,9 @@
       "keywordIds": [
         265
       ],
+      "copyOfCardId": [
+        69694
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -253,6 +280,9 @@
       "classId": 5,
       "multiClassIds": [],
       "minionTypeId": 11,
+      "multiTypeIds": [
+        2
+      ],
       "cardTypeId": 4,
       "cardSetId": 1001,
       "rarityId": 4,
@@ -262,10 +292,13 @@
       "manaCost": 6,
       "name": "Blackguard",
       "text": "Whenever your hero is healed, deal that much damage to a random enemy minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14881078c6d38251aa652f7e9eb19f1316d353a7b8c3d87778ac18c67222969d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e053cdec92ca5ccc36b52910be5460b8e475b81d87d8aad3e5b0d37e48d4024.png",
       "imageGold": "",
       "flavorText": "\"Did I ever tell you the story of when I single-handedly took down a 29/29 C'thun?\" - Reno Jackson",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7081bdf04c5ff57fd0d2d4feaefc86f5003f325457dc5dfeeb36c1cc2a74a7a6.png",
+      "copyOfCardId": [
+        95641
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -279,18 +312,21 @@
       "cardSetId": 1001,
       "rarityId": 1,
       "artistName": "Joe Wilson",
+      "health": 2,
       "attack": 2,
       "manaCost": 4,
-      "durability": 2,
       "name": "Blood Razor",
       "text": "<b>Battlecry and Deathrattle:</b> Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/606d33764331bea4c112cec4157a808aa5bf45dad4b10953c4dc73db148937f3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6531581c4ba3a18ea87618f2436865b4e2b69b536bf6372d2727ff861d7f5dc.png",
       "imageGold": "",
       "flavorText": "For the close shave that you've always wanted. Caution: Very sharp.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b98f4da801a7f18179a57ab39ffd9638840fc625deb8dd7b0e114d6b2f48b3a3.png",
       "keywordIds": [
         8,
         12
+      ],
+      "copyOfCardId": [
+        95642
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -318,6 +354,9 @@
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        95643
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -336,7 +375,7 @@
       "armor": 5,
       "name": "Bloodreaver Gul'dan",
       "text": "<b>Battlecry:</b> Summon all friendly Demons that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b2d721830fd51bef4624089a5b1becd41e94fba898e110243de49cee728703b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aeddb29d951dd5bbda15f6d53ba307ffe06b2d29503c93f7914f363ca54dc45.png",
       "imageGold": "",
       "flavorText": "\"Still you refuse to bend your knee? None can escape death, you old fool. And in death… all will serve me…\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3cd330c70d7f5d6401ea2b7c8dee3d5eea76b1120783fa8b904fdca661943ab.png",
@@ -345,6 +384,9 @@
       ],
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        95644
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -372,6 +414,9 @@
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        95645
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -397,6 +442,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebf58ad0f5c22825c9f88f998b62e97d1cd48fd18bc2807d182ec27af332e61c.png",
       "keywordIds": [
         3
+      ],
+      "copyOfCardId": [
+        95646
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -427,6 +475,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        95647
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -455,6 +506,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7cb9482939c6092c657b56618f89cf34c11318123a2ee321950c5bed0c29d0c6.png",
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        95648
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -486,6 +540,9 @@
         1,
         8
       ],
+      "copyOfCardId": [
+        95649
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -510,6 +567,9 @@
       "keywordIds": [
         10
       ],
+      "copyOfCardId": [
+        95650
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -530,6 +590,9 @@
       "imageGold": "",
       "flavorText": "Brrr, it's cold in here. Let's hope she doesn't have an Auctioneer!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fefc835ae0bc33d1a17254f7e50b46c61b6bafa32665b57b1bdeaeb0727ed4df.png",
+      "copyOfCardId": [
+        95651
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -560,6 +623,9 @@
         8,
         10
       ],
+      "copyOfCardId": [
+        95652
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -587,6 +653,9 @@
         4,
         38
       ],
+      "copyOfCardId": [
+        95653
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -610,6 +679,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/947104e7aacf6c15304d0987d39b9269e282b70a126751d572fd27031d6f9d02.png",
       "flavorText": "You get a sword! And you get a sword! Everybody gets a sword!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39819747d5a7274fbe86f39b204fe21960f6f7ecc1b60ab9e06f97cbd3650f9e.png",
+      "copyOfCardId": [
+        76330
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -629,13 +701,16 @@
       "manaCost": 3,
       "name": "Coldwraith",
       "text": "<b>Battlecry:</b> If an enemy is <b>Frozen</b>, draw a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21faee87c00283e529d251141f6d2e802706142c335e8ebea04b2919301cd5c9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b387b44efec789414f07e1c3b7f9a4caa8b964d9ee0cbb2597640f9ac347b98.png",
       "imageGold": "",
       "flavorText": "He's freezing his bones off!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b81e97737d327aa361e733f10a8fe5eba823eb219d45d6c12b880037f50cef8b.png",
       "keywordIds": [
         8,
         10
+      ],
+      "copyOfCardId": [
+        95674
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -662,6 +737,9 @@
       "keywordIds": [
         8,
         12
+      ],
+      "copyOfCardId": [
+        95675
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -691,6 +769,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/070c7347f9f986dfd251598185973b3bba5b9ac5e56e64089dd34418630af9fd.png",
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        95677
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -722,6 +803,9 @@
         11,
         38
       ],
+      "copyOfCardId": [
+        95678
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -745,6 +829,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d7fd2b5843a73861357aa6f3371cd84d73b80a5594e1eae2045062639ad707e.png",
       "keywordIds": [
         10
+      ],
+      "copyOfCardId": [
+        95679
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -772,6 +859,9 @@
       "keywordIds": [
         1
       ],
+      "copyOfCardId": [
+        95680
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -793,6 +883,9 @@
       "imageGold": "",
       "flavorText": "In his court, Uther is judge, jury, AND executioner…",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/043b1e74fd28d3073b5bb77c6c06393f974563e13880521ad470e5ac03a0db63.png",
+      "copyOfCardId": [
+        95681
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -813,6 +906,9 @@
       "imageGold": "",
       "flavorText": "I got two pair, Rags and Armorsmiths. What you got?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe298bed4e4196db24fc215a89c67f2c1fa183296e52881bb5ad47216aeeeaa8.png",
+      "copyOfCardId": [
+        95682
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -842,6 +938,9 @@
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        95683
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -867,6 +966,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/354a84905c309a7cc39db9c094fa98a3947945146605758ff9a98a84c5e37385.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        95684
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -895,6 +997,9 @@
         8,
         38
       ],
+      "copyOfCardId": [
+        95685
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -921,6 +1026,9 @@
       "keywordIds": [
         8,
         17
+      ],
+      "copyOfCardId": [
+        95686
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -957,6 +1065,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        95687
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -978,6 +1089,9 @@
       "imageGold": "",
       "flavorText": "This spell was originally designed to help warlocks clean up their hard drives.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2805fbb1581c53ed5561cb881dcd86b841cabcf0b1995a5f3312b0884fef203d.png",
+      "copyOfCardId": [
+        95688
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1002,6 +1116,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        95689
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1016,15 +1133,18 @@
       "cardSetId": 1001,
       "rarityId": 3,
       "artistName": "Konstantin Turovec",
-      "health": 5,
+      "health": 6,
       "attack": 4,
       "manaCost": 5,
       "name": "Despicable Dreadlord",
       "text": "At the end of your turn, deal 1 damage to all enemy minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a701988572fe9612668df893dce2b54b4d556e3cfd9022e1a5f995f017686303.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/532f41d10f44515e1d14171bc2234a12c373908266f3a8e1131f638910eea9cc.png",
       "imageGold": "",
       "flavorText": "He's deathspicable.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5334f725e2bc88c2e05e711c82569693541058d94ed9101a94e11de6c197cc4.png",
+      "copyOfCardId": [
+        95690
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1046,6 +1166,9 @@
       "imageGold": "",
       "flavorText": "A mind is a terrible thing to waste. Seconds, anyone?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/981fc3f78838918d73c096e27ec3117dcd19af48a244ffb9528ed73b245b7c6e.png",
+      "copyOfCardId": [
+        95691
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     }

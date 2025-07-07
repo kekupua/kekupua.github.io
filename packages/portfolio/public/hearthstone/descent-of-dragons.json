@@ -15,10 +15,10 @@
       "manaCost": 6,
       "name": "Abyssal Summoner",
       "text": "<b>Battlecry:</b> Summon a Demon with <b>Taunt</b> and stats equal to your hand size.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2006e7ca6f471fc9e7bb88c4c3f9fe22ad517a9b242b31419582ab4d26663317.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58a96bdd1abbceeeea9ea6ef9241bd1304bbad59a22829298fbd48e8c1fac884.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae167566b8eed0da9181fe9872e4987ae3bdb86038880f8160c3a16450dac5d3.png",
       "flavorText": "But gnomes have tiny hands...",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e68cf91832c42ee8a77fcea7a70b74a14d0b66be17c4c4ad35fe09b48a34bc2.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f39a56de1981881aed94e457737a24ab9e8172acfd4301dceab815bff78ddd53.png",
       "childIds": [
         54895
       ],
@@ -73,6 +73,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        86544
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -86,15 +89,15 @@
       "cardSetId": 1347,
       "rarityId": 5,
       "artistName": "Grace Liu",
+      "health": 2,
       "attack": 2,
       "manaCost": 3,
-      "durability": 2,
       "name": "Ancharrr",
       "text": "After your hero attacks, draw a Pirate from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7b7c7941b1001b8e92a07c11f95dddc5847099bc5d698b9249e0e02ed0d09b3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27022476078a420777520c974e6726114311233e41bac231071a74dc61abe540.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b9284fee26b0e46bceed85257250760ad7d9a15251f202462126f987afa409d.png",
       "flavorText": "The problem with anchors is they often end up sinking to the bottom of your deck.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90e49dc6ef9d919d83606d247ae0a8086344d27193cc578cc1b92fed11ee7875.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5ad02b4def07340970762f654108f30b682565865c84a13b92e9a39ad4b5a91.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -319,17 +322,20 @@
       "cardSetId": 1347,
       "rarityId": 4,
       "artistName": "Ekaterina Shapovalova",
-      "health": 4,
+      "health": 3,
       "attack": 3,
       "manaCost": 3,
       "name": "Blowtorch Saboteur",
-      "text": "<b>Battlecry:</b> Your opponent's next Hero Power costs (3).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3de5f275cc8d9ec30ca0e9fdb23dd23f5bc4a7fc08cc7ce156444adc7ba90e9.png",
+      "text": "<b>Battlecry:</b> Your opponent's next Hero Power costs (2) more.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb444243bc76d539df5a41589c2fa37bfd3926a4a3a2eb3299897afe9afc29ba.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6b7c434d02d895628f0bd8e612771c0931f9cfa12cf2319634182b00d5ac8a4.png",
       "flavorText": "Before he came along, we went through a lot of duct tape.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f62e162fb5ff4b7ed4b0ec55d1a8ab9bcc7ebed40ea7517cfe01a952d8bc5e60.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c52ae39dc63b31d147a28b6788e2d31639c953056ffa320859c202389ba0f35.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        120433
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -399,6 +405,9 @@
         8,
         21,
         38
+      ],
+      "copyOfCardId": [
+        86545
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -738,6 +747,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        111461
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -980,6 +992,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2989a48d7ea26bc71fd4030e9bdd9b5737c91bca86d1172403844969fa1860a1.png",
       "flavorText": "*Thunk* \"That wasn’t a dragon!\" *Thunk* \"THAT wasn’t a dragon!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c7adc862a59debd29099d4aac7ba9b500f696b641224ae6eaef4819eb45d00a.png",
+      "copyOfCardId": [
+        102191
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1023,6 +1038,7 @@
       "slug": "55280-dragoncaster",
       "classId": 4,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1347,
       "rarityId": 3,
@@ -1032,10 +1048,10 @@
       "manaCost": 6,
       "name": "Dragoncaster",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, your next spell this turn costs (0).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b36ca69bd416623f5a0fac9cf407267a3554547b405f2b0eb9a615e3dde6388d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fffd212fbb2e082ac4e0b7fea46d731cc7801e98133b52b7bbd6753250d76656.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/71301a4f04ebb245851746e145ec03680c6c735dbb2913bf96560930006240c1.png",
       "flavorText": "It’s challenging to perform magic on dragonback. It’s so easy to drop the rabbit.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69d7d767288938a15259d947c62798474b82b3323729ec759047ca2a587e4c6a.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b81dac801f8406de55aaeb3a872ed5aa1f426a3edca7fe014417ec6cfd4ae660.png",
       "keywordIds": [
         8
       ],

@@ -23,6 +23,10 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        75964,
+        76283
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -47,6 +51,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d5c34843de7781d652e64e8c5e6b29fc3d9ee63b910b1a95115c910fe2e76af.png",
       "keywordIds": [
         1
+      ],
+      "copyOfCardId": [
+        103242
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -146,7 +153,7 @@
       "manaCost": 6,
       "name": "Aya Blackpaw",
       "text": "<b>Battlecry and Deathrattle:</b> Summon a <b>Jade Golem</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00a438f429f8a4357a844c797bfb75bafc47c415d404c6a8b990c9c3f7fd2aec.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edb66a50dc6811539f2deb39f8c55c003c688e0409e083628f42a8be91e4b97d.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa6c8ceb2b865f09fb25df96865ee93b1f1c2406ec02be256d1c8e16cad14edd.png",
       "flavorText": "Though young, Aya took over as the leader of Jade Lotus through her charisma and strategic acumen when her predecessor was accidentally crushed by a jade golem.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ea629b6ee1f42d3d893f86627da5f0214c00bc4033a5cbb76abf914836ae829.png",
@@ -156,8 +163,14 @@
         26,
         28
       ],
+      "copyOfCardId": [
+        102681
+      ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
+      "isZilliaxCosmeticModule": false,
+      "factionId": [
+        483
+      ]
     },
     {
       "id": 40931,
@@ -252,6 +265,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c7eb62903ed1973feb2e9d6665ed5500a81967c2c5eb4886985f77f7b6c76d7.png",
       "flavorText": "There's a fine line between \"potion\" and \"grenade\". Wait. Actually, there's not.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/502525ac6378656dddf7837a635fc4167423d1202f6213aaca37f92fb9c79ade.png",
+      "copyOfCardId": [
+        75950
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -317,7 +333,7 @@
       "manaCost": 3,
       "name": "Blubber Baron",
       "text": "Whenever you summon a <b>Battlecry</b> minion while this is in your hand, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49a21cd7b78085597e2bd94ee3fd5c94558865e011f335274e7afd41313de2b0.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80cd5e1362f419ff671aef8dd1c3c2707f353d8af9934338edb16adfd51ee1e9.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cfd428e01b5f25e3816b9401671e35d8c30b5dc6eb430b8acd03c49080d66be.png",
       "flavorText": "When oil, railroad, steel, robber, and red are all already taken, your options are limited.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a9d54a4170fa35127e4e2734151cfb9b6f0cd8f18af965ded8d95f7753df26d.png",
@@ -363,15 +379,18 @@
       "cardSetId": 25,
       "rarityId": 4,
       "artistName": "Anton Kagounkina",
+      "health": 3,
       "attack": 2,
       "manaCost": 3,
-      "durability": 3,
       "name": "Brass Knuckles",
       "text": "After your hero attacks, give a random minion in your hand +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d61fe012953291c1d15d502f8c0afa4424f437cf21fa7602e4ecb7ec65873c13.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/172c860f199d698a98eb16d6a6fac5907c229222c581b30d6fefc1fea1e2b57e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7915036a4522094c9047ccf3c1b5ef6e06371d07db894f088b2673c4edc2baf.png",
       "flavorText": "For the goon that wants to make a fashion statement.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32b9c180200222e578e65b025b7064c91ad6787d837d159fd37504a311eafb63.png",
+      "copyOfCardId": [
+        103229
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -417,6 +436,9 @@
       "childIds": [
         42223
       ],
+      "copyOfCardId": [
+        102628
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -435,7 +457,7 @@
       "manaCost": 3,
       "name": "Celestial Dreamer",
       "text": "<b>Battlecry:</b> If you control a minion with 5 or more Attack, gain +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ff3e1e5f61ae1e987a5326eee17914e760a997137d457d3b145b9e0089ced06.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/54ac424b437e3f8489b2566b7ed97399de2c978e1cdfe5445c0003077bf3c424.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/def8c94899f424497466ea588b0e2a202dc8dc57757081937859307b1831caf9.png",
       "flavorText": "If you think her job is easy, YOU try falling asleep on cue.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/198f022eb98ec851ac660ef65a6e639a757edf7ff55d59fd676a4e09e3bbb75e.png",
@@ -497,6 +519,7 @@
       "slug": "40391-crystalweaver",
       "classId": 9,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 25,
       "rarityId": 1,
@@ -506,7 +529,7 @@
       "manaCost": 4,
       "name": "Crystalweaver",
       "text": "<b>Battlecry:</b> Give your Demons +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57c6f9819fdf0f1435d528ed4ea0d434b5200ba923984e639f72c4a4c9ae1d1c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0f4468e3f35a6dd10529a08db297ae0a010be94ea29be2a63877b08825417c5.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb705f2d7541911cbbcf93970a783925e88663dbac565828562a8e8de3ef10c5.png",
       "flavorText": "The trick is soaking the crystals in warm milk to soften them up.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18c2f71691948013c8c5806382e7b07fdb936fd9128d1da17a24edf32594cad5.png",
@@ -531,7 +554,7 @@
       "manaCost": 4,
       "name": "Daring Reporter",
       "text": "Whenever your opponent draws a card, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d57c930b3500c526e51c99adfc0f6ec4fce4c1001fc207584b9cc8d7cab44054.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a74c7c80752b615568a8d9453424205bedfd8d1482c580e43eae47a6aecc4b7.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c125d2c9f0434a128fd559410798665ce3bc317516df3bc3f6d2976b601eb7b8.png",
       "flavorText": "She's working on a story! While skydiving!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ac9984083a4b715b2a88da67bb78d50dd3d40c7f1589f8c356171ff4fce0f4d.png",
@@ -609,6 +632,9 @@
         1,
         8
       ],
+      "copyOfCardId": [
+        102225
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -657,7 +683,7 @@
       "manaCost": 5,
       "name": "Don Han'Cho",
       "text": "<b>Battlecry:</b> Give a random minion in your hand +5/+5.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9fd4b6b1cfda8b61f09df8bbdb2673cdda5540f1baf658c58fa99f5aa91a981c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c5c52bcaadc8e19ff901fe28787a2b2e61942a38ac87e0c4d00b9c9e022b45e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d54667667dff02059d85375317135c029f356adc48e395a6a830464ebde788da.png",
       "flavorText": "The brilliant mastermind of the Grimy Goons, Han sometimes thinks about ditching the idiot Cho, but that would just tear him apart.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9466723711797b3e0c37d5733174b952a01e9e1bb62046d19d79efc8ac5a279e.png",
@@ -665,8 +691,14 @@
         8,
         27
       ],
+      "copyOfCardId": [
+        102682
+      ],
       "isZilliaxFunctionalModule": false,
-      "isZilliaxCosmeticModule": false
+      "isZilliaxCosmeticModule": false,
+      "factionId": [
+        482
+      ]
     },
     {
       "id": 40953,
@@ -742,6 +774,9 @@
         8,
         21
       ],
+      "copyOfCardId": [
+        86535
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -785,6 +820,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/53063b19acc9f0b5f9b53f08e81d21900ce4a303526a8ea8b55559aa29f5b989.png",
       "flavorText": "Kazakus has a squad of imps bottling Felfire round-the-clock and he *still* can't keep up with demand.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a4b797e2ed8393b9995b98ed8c3716e43f13a24b6bda8db9dcace857da74ecc.png",
+      "copyOfCardId": [
+        75932
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -803,7 +841,7 @@
       "manaCost": 6,
       "name": "Fight Promoter",
       "text": "<b>Battlecry:</b> If you control a minion with 6 or more Health, draw two cards.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b35e37c7d869a7367b812ab1218f6124ad134c0d6cfb37d7acf10cdce1fb065a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78f0fe29d70082150cb606c30f13df6374d8fb6f20c7b053cb03b40d079294c6.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5721039d7c30faacff95f55fcd9f3558d81d620ff7d4ce9348257813d8a895d9.png",
       "flavorText": "\"Yeah, I can get you Knuckles. No, no, he's been clean for *weeks*.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c0cf02462fa7ac38ab9c7fe35f28e32be1d8a1d5484ca67d0acea84caadb02e.png",
@@ -848,17 +886,20 @@
       "cardSetId": 25,
       "rarityId": 5,
       "artistName": "Matt Dixon",
-      "health": 4,
-      "attack": 2,
+      "health": 5,
+      "attack": 3,
       "manaCost": 5,
       "name": "Finja, the Flying Star",
       "text": "<b>Stealth</b> Whenever this attacks and kills a minion, summon 2 Murlocs from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5147c2fd8335d12e08b9c542d0714198aa1af419016d411f5751f1e02e733be9.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a383055327bc364623282ef3fc43102405199d9a7fb79e6f2a282a202ce4a18f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0c52a89d643449d287aee0dfa8698f63dc1c7d5bc2f644faa3a0338dd931231.png",
       "flavorText": "The last true master of Finjitsu.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e07918b680bc6b6ceac99fd181365e355e975ae2cf2466dc41bf808880192677.png",
       "keywordIds": [
         6
+      ],
+      "copyOfCardId": [
+        120428
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

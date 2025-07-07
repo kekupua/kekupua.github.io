@@ -21,6 +21,9 @@
       "keywordIds": [
         21
       ],
+      "copyOfCardId": [
+        103236
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -66,6 +69,9 @@
       "imageGold": "",
       "flavorText": "Druids who spend too long in bear form are more susceptible to the whispers of the Old Gods. Right now they are whispering the lyrics to \"La Bamba\".",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4daec5db464da4ba8cd77d911d6deff30232d6e039657f87e4fdbde21b4f0797.png",
+      "copyOfCardId": [
+        102529
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -135,6 +141,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/744318e8d43bd84c7bf61eaed22ab3b48468c5e7b5f27cbda419a8c66361c5f3.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102655
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -261,12 +270,15 @@
       "manaCost": 7,
       "name": "Blade of C'Thun",
       "text": "<b>Battlecry:</b> Destroy a minion. Add its Attack and Health to your C'Thun's <i>(wherever it is).</i>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99b7e7f0973e2ba4ebae9131c83fe47f8458518277842f19accd64d7e1c73138.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef4eaf540cd192a9cb202ec7a7f873c33bfbd02561a97b9886a98bc7c8ae48b6.png",
       "imageGold": "",
       "flavorText": "C'Thun demands a sacrifice! Preferably a Deathwing.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ace7b58900e328ec6cfde42ee94dcdbeef1207131d14d3561cf27805e1a7a03d.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102611
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -292,6 +304,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf7d0d7c901d4f5f90c8fe9e4af39887dd796c8c0aa969d959795fec2084b755.png",
       "keywordIds": [
         13
+      ],
+      "copyOfCardId": [
+        69743
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -386,6 +401,9 @@
       "keywordIds": [
         1
       ],
+      "copyOfCardId": [
+        76303
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -462,6 +480,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        102680
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -489,6 +510,9 @@
         3,
         8
       ],
+      "copyOfCardId": [
+        102669
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -510,6 +534,9 @@
       "imageGold": "",
       "flavorText": "What's in there? I bet it's cookie recipes!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/269f3cbf14b43acc9e6d45d0515f75f7e6a9bb7c05d0076fcfce527ce2166c30.png",
+      "copyOfCardId": [
+        102562
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -582,6 +609,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/898613957ef88a491b0c0b8689c3f13635613ab4bd3db4d257c5ce8e3ec55473.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102648
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -660,6 +690,9 @@
       "keywordIds": [
         1
       ],
+      "copyOfCardId": [
+        102675
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -684,6 +717,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70598a51e178bf4d428ef115c0db31b53cae23647f908da7056ad948f7c1a150.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        103233
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -783,6 +819,9 @@
         1,
         8
       ],
+      "copyOfCardId": [
+        103194
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -807,6 +846,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0988175e7b2b42425f8f557a524fed2338da6087b15a6903cf953ba809c42a0.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        103218
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -855,6 +897,9 @@
       "keywordIds": [
         8,
         12
+      ],
+      "copyOfCardId": [
+        86538
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -956,6 +1001,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cf4d4b632ff864d0cf4cd5ecba58228184271df9cc8c29cade9ab20eb46f8f1.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        102671
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

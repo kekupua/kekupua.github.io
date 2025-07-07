@@ -22,6 +22,9 @@
       "keywordIds": [
         238
       ],
+      "copyOfCardId": [
+        118041
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -39,7 +42,7 @@
       "manaCost": 5,
       "name": "All Fel Breaks Loose",
       "text": "Summon a friendly Demon that died this game. <b>Infuse ( Demons):</b> Summon three instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0be24ad18989664228642d19ca1955cc7790a19703f9c9854c1f6459223fc25a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad72567d816b61559c878612a2156acaef42691501902697155ba42f1aa7b857.png",
       "imageGold": "",
       "flavorText": "Maybe we should have made the bars closer together…",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc65ebea5da0d518b803b35976f974f51fc61167bfa1eabaedf0fa0224e05ec2.png",
@@ -48,6 +51,9 @@
       ],
       "keywordIds": [
         238
+      ],
+      "copyOfCardId": [
+        118022
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -71,6 +77,9 @@
       "imageGold": "",
       "flavorText": "After we are done you're welcome to help yourself to cookies and apple juice. Thank you for your donation!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e2f4a5e25c3405d0917a56637bbf913f33085193c88d412bd363c61d766fdd.png",
+      "copyOfCardId": [
+        118084
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -96,6 +105,9 @@
       "keywordIds": [
         5,
         8
+      ],
+      "copyOfCardId": [
+        118137
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -128,6 +140,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        118098
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -149,6 +164,9 @@
       "imageGold": "",
       "flavorText": "We didn't start the fire!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3df59df9ac2d5ef4d5a2b5c8d0331608dcc086cbdbed37ebea2baa377ec0aef6.png",
+      "copyOfCardId": [
+        118012
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -183,6 +201,9 @@
         21,
         238
       ],
+      "copyOfCardId": [
+        118156
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -209,6 +230,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        118174
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -234,6 +258,9 @@
       "keywordIds": [
         15,
         17
+      ],
+      "copyOfCardId": [
+        118035
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -286,6 +313,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        118094
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -310,6 +340,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b82d3644f054f42420d3c1b92567985b1bb39193af8aa3324d5505913382a86.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        118117
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -340,6 +373,9 @@
         1,
         12
       ],
+      "copyOfCardId": [
+        118050
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -366,6 +402,9 @@
       ],
       "keywordIds": [
         1
+      ],
+      "copyOfCardId": [
+        118068
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -398,6 +437,9 @@
         8,
         238
       ],
+      "copyOfCardId": [
+        118172
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -414,7 +456,7 @@
       "manaCost": 4,
       "name": "Burden of Pride",
       "text": "Summon three 1/3 Jailers with <b>Taunt</b>. If you have 20 or less Health, give them +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15b3307d8956f91deae062b6df3fa37bf1fd330b9b4acc1ae45d79c2a80363c8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d293120c7418b33dda194c560235aa029196331465a0ece0e7dd4356cc321cbd.png",
       "imageGold": "",
       "flavorText": "A group of burdens is called a pride.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b7ba201eb1ec2fbc1606b469bb180a5e3b5507d88c4e227e6fac8753c208880.png",
@@ -423,6 +465,9 @@
       ],
       "keywordIds": [
         1
+      ],
+      "copyOfCardId": [
+        118086
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -444,6 +489,9 @@
       "imageGold": "",
       "flavorText": "Don't worry, there is a chair for you to sit in. It's very misleading.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcfde49446c365e7cdb53989bad416c8c7411b19c6dbe68f243adabdf2183b79.png",
+      "copyOfCardId": [
+        118037
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -457,9 +505,9 @@
       "cardSetId": 1691,
       "rarityId": 1,
       "artistName": "Sergey Tsvelykh",
+      "health": 3,
       "attack": 1,
       "manaCost": 2,
-      "durability": 3,
       "name": "Carving Chisel",
       "text": "After your hero attacks, summon a random basic Totem.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41cb32a5a368732df2e32faba7ba97abdb4394d7010e788386a341b12c060b27.png",
@@ -470,7 +518,10 @@
         537,
         850,
         764,
-        62320
+        458
+      ],
+      "copyOfCardId": [
+        118145
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -496,6 +547,9 @@
       "keywordIds": [
         53
       ],
+      "copyOfCardId": [
+        118097
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -517,6 +571,9 @@
       "imageGold": "",
       "flavorText": "You'll actually find more than one tonement here.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7952030ed6e5457956df1d5eb3867fe03854632f504598d7552ef47677a8ab24.png",
+      "copyOfCardId": [
+        118074
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -542,6 +599,9 @@
       "keywordIds": [
         5
       ],
+      "copyOfCardId": [
+        118118
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -551,6 +611,7 @@
       "slug": "79602-class-action-lawyer",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1691,
       "rarityId": 3,
@@ -560,12 +621,15 @@
       "manaCost": 2,
       "name": "Class Action Lawyer",
       "text": "<b>Battlecry:</b> If your deck has no Neutral cards, set a minion's stats to 1/1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/896269fd5d7323fd16f4ad701c3c46e0b662e6c18f33dc822d0a5ef3fd426d8a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc8651dd8184ca6cca7debb7bb892fb6d2edd1c8dc697ebfb1112fb13236594a.png",
       "imageGold": "",
       "flavorText": "\"Have you or a loved one ever been injured in a Consecration?\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf2dac96e4b7f1cfeb8e236376b76f868f9a7fe96229e3014186888db987745f.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        118027
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -594,6 +658,9 @@
       "keywordIds": [
         238
       ],
+      "copyOfCardId": [
+        118072
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -617,6 +684,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e41bd7b457d5af49e80f9494a6cc98d00ff177399d8ad96c8ad8fecb3049321.png",
       "keywordIds": [
         265
+      ],
+      "copyOfCardId": [
+        118031
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -642,6 +712,9 @@
       "childIds": [
         84169
       ],
+      "copyOfCardId": [
+        118111
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -662,6 +735,9 @@
       "imageGold": "",
       "flavorText": "1 + 2 + 2 + 1",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e7a5497e8e3623e6384ead5cf44438da6fa8bc5117cd4f766e8da31bdcb9f30.png",
+      "copyOfCardId": [
+        118101
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -682,6 +758,9 @@
       "imageGold": "",
       "flavorText": "Olgra, I love your new tapestry! Where did you get it?",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81082d6fcf5ea0bf110569f124e6ebb9212b87d88af5f25c6ad982b026205b1c.png",
+      "copyOfCardId": [
+        118151
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -706,6 +785,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e50069e640d8e05e9b2d40c4a796f5975855934c7c3a1160e6342afcaaa2e95e.png",
       "keywordIds": [
         5
+      ],
+      "copyOfCardId": [
+        118045
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -733,6 +815,9 @@
       "keywordIds": [
         238
       ],
+      "copyOfCardId": [
+        118146
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -754,6 +839,9 @@
       "imageGold": "",
       "flavorText": "The spirits prefer to convoke when there's some hot gossip to discuss.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a345dd6cff5233b3f82744931e6c711bb23f1e7293cf9f2ef85ae0cf7ece021.png",
+      "copyOfCardId": [
+        118100
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -779,6 +867,9 @@
       "keywordIds": [
         4
       ],
+      "copyOfCardId": [
+        118150
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -801,6 +892,9 @@
       "imageGold": "",
       "flavorText": "I do not like this painting, Harth. Its smug aura mocks me.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a428c2dbb307c239cdd6b6f98f002ef900785ee8d4621eddee2ad1ee15af41e5.png",
+      "copyOfCardId": [
+        118144
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -824,6 +918,9 @@
       "keywordIds": [
         14
       ],
+      "copyOfCardId": [
+        118122
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -846,6 +943,9 @@
       "imageGold": "",
       "flavorText": "There are many things not called poison which can kill a man. But in this case, it is poison.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/803fdffae7f75405e4a5d31d276c3ed76400beb49ae538bac8f1de1eb6a57617.png",
+      "copyOfCardId": [
+        118054
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -875,6 +975,9 @@
         1,
         8
       ],
+      "copyOfCardId": [
+        118155
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -901,6 +1004,9 @@
         8,
         12
       ],
+      "copyOfCardId": [
+        118077
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -924,6 +1030,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d521ddd20ac942a3b3746dfa39dee23f4da516bb25d5fccc84c9fc361257b54.png",
       "childIds": [
         84169
+      ],
+      "copyOfCardId": [
+        118136
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -949,6 +1058,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bf0cffb7f33fe82b62830bea64675614d3accef15d335847ae74ff7dfb45ae0.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        118153
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -978,6 +1090,9 @@
         12,
         21
       ],
+      "copyOfCardId": [
+        118021
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -1003,6 +1118,9 @@
       "keywordIds": [
         8,
         97
+      ],
+      "copyOfCardId": [
+        115971
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

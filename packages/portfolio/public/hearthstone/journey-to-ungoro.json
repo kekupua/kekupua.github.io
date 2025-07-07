@@ -59,6 +59,9 @@
       "keywordIds": [
         265
       ],
+      "copyOfCardId": [
+        113108
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -84,6 +87,9 @@
       "keywordIds": [
         5,
         8
+      ],
+      "copyOfCardId": [
+        69702
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -354,6 +360,7 @@
       "slug": "41406-cornered-sentry",
       "classId": 10,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 27,
       "rarityId": 3,
@@ -363,7 +370,7 @@
       "manaCost": 2,
       "name": "Cornered Sentry",
       "text": "<b>Taunt</b>. <b>Battlecry:</b> Summon three 1/1 Raptors for your opponent.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d62c427dfe6565c163413c72f4e5c16930121c5e6d8477bda6be14fd52846ef.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/522381505d777acd5df475486f9edcab7256e4d5d8a5d267320237b8db24ee87.png",
       "imageGold": "",
       "flavorText": "The Draenei are seriously considering cancelling \"Bring Your Murderous Pet to Work Day.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/529a9cf25bb31d07952447e342d6528d520bcead483f08b88cfe61d6edcbce65.png",
@@ -633,6 +640,9 @@
       "imageGold": "",
       "flavorText": "You can make your own Earthen Scales at home. Step 1: Roll around in the dirt. Step 2: Magic.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6775f42baf569ad67667f36229be1fc0499d39112e97cf0264f90588c2cbf16f.png",
+      "copyOfCardId": [
+        86234
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -920,6 +930,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        111469
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -963,17 +976,20 @@
       "cardSetId": 27,
       "rarityId": 1,
       "artistName": "Dan Scott",
-      "health": 3,
+      "health": 4,
       "attack": 3,
       "manaCost": 4,
       "name": "Fire Plume Phoenix",
       "text": "<b>Battlecry:</b> Deal 3 damage.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d0a4ccf0d31be884cbc606b2a701e5ebd2ccb4369894af652088b56f40bdb3a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/603f5c9577acdd4b9eaafb138edc30e94e5307ea1dd75bcca5c4037bde8699b9.png",
       "imageGold": "",
       "flavorText": "This is what happens when you use a volcano as a bird bath.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e0aa19a6dd641920994e4af1f17ce24d6c6a09dd44824b03fe8204a73f46dc6.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        120523
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -1026,6 +1042,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4335ab45272bd8bd5696ad00bfa24fe7a2fc4bcd6f62d72beb7337329d62166.png",
       "childIds": [
         42044
+      ],
+      "copyOfCardId": [
+        102194
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

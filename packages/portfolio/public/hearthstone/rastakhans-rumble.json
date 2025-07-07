@@ -190,6 +190,9 @@
       "classId": 6,
       "multiClassIds": [],
       "minionTypeId": 11,
+      "multiTypeIds": [
+        2
+      ],
       "cardTypeId": 4,
       "cardSetId": 1129,
       "rarityId": 4,
@@ -199,7 +202,7 @@
       "manaCost": 2,
       "name": "Auchenai Phantasm",
       "text": "<b>Battlecry:</b> This turn, your healing effects deal damage instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6dcc81b053267d804f5e91fa3b8f44b0a356c0435ebfd25717d7ff6c6c707ceb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d8ee406e3a334ba303f5b7904bf51f26ca4c5d8d133696387e71f38257b942ca.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e31f3a79556a507b6cb4c77fef830f84519452cd41fd355ba47c8eaa69099a.png",
       "flavorText": "“Okay kids did everyone remember to heal before we left?”",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f8f126e7965b826e91252a6ca5d454a03465e3511d9ec4d101007eeb7a973d0.png",
@@ -369,15 +372,15 @@
       "cardSetId": 1129,
       "rarityId": 1,
       "artistName": "Akkapoj T.",
+      "health": 2,
       "attack": 2,
       "manaCost": 1,
-      "durability": 2,
       "name": "Bloodclaw",
       "text": "<b>Battlecry:</b> Deal 5 damage to your hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74752f438d22a6fc7c26c47d196e7e64450da30387b54c56b2b40f3b5cc318a1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/709d0b040bdc76da83ce66dea11cedcafbbcdf538ca92b4cb4359a6386f2a02f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b0e81f248ba687aa745588fdac2c232ee019ac7c3b1ac64c41b96b90fff2fc3.png",
       "flavorText": "This weapon – ow! Requires a little – OWW! Finesse.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a4e748cc55a0f6536047727ac0a6d0159f8dda3442b1f5b81a8d64071236f26.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fc24087a138a145e0ee6ce912777cfe4f79495ca2a686deb5c8e9eba24eeee8.png",
       "keywordIds": [
         8
       ],
@@ -398,13 +401,12 @@
       "health": 1,
       "attack": 1,
       "manaCost": 2,
-      "durability": 0,
       "name": "Bloodsail Howler",
       "text": "<b>Rush</b> <b>Battlecry:</b> Gain +1/+1 for each other Pirate you control.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b70dc0627caa5949ef6a17736b111c3ed9d0796917c8aaca2d943b5522fecfc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2cb7bb3492f7d0a8fae0d27484684d5fa39e5a23982168665524267e35467692.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc41d7e13efb2f894ec3c72b3eb95ddbd1b80e95586b4c23b5331755f9d715cc.png",
       "flavorText": "They saw their fate a closin' Aboard a pirate ship On deck: The Howlin' Hozen About to let one rip.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d172e7f7f635327f1430b9534c695685531073c5957a27fd0996d4f9cd3dd86.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f8b24a9c4da0ca194be97fe35365ad2d4f5204f13c56e0037fe64bc7ca04434.png",
       "keywordIds": [
         8,
         53
@@ -505,7 +507,7 @@
       "manaCost": 7,
       "name": "Bwonsamdi, the Dead",
       "text": "<b>Battlecry:</b> Draw 1-Cost minions from your deck until your hand is full.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f20fc912965c0a3f179e6b2ae63c6689dbe887df1076ab1ea99b317987efb74c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7caf4caa0cb242eaad09a7658caa258f63a2ac01cafd23180f1f39d9b48a6253.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cfd2c386108792277eae111c19cb4b2fbf90cecf66fd22294651ef50dd4d676.png",
       "flavorText": "Everyone's dying to meet him.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f620fc23730d9d85de1353c30eec2cfd120cb34ff5121e4d902a34a3ad9bb9d3.png",
@@ -604,10 +606,10 @@
       "manaCost": 7,
       "name": "Crowd Roaster",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, deal 7 damage to an enemy minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3107badbe0e3d26071c2eb3c437300e0c0676e123b3729d93f5b211bffafed6d.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1cc2ba533bb46ea686ba466759c34fc02cf161af1b5a30319bb8b434d2c62f3f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0425a4e1da312533e63f7aabc67e2ede3d25e6160961928975c02ac6a63473f2.png",
       "flavorText": "Every major show has an opening act to warm up the crowd.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a54bb346099c076174e5621812af259a6f88ba1ce98a9d435aa6c521e9c8f8ae.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c5d28252472f0694ec7390a2c799d6d31900544943e439ed7e2fa3f92c3ec12.png",
       "keywordIds": [
         8
       ],
@@ -680,10 +682,10 @@
       "manaCost": 8,
       "name": "Demonbolt",
       "text": "Destroy a minion. Costs (1) less for each minion you control.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e33ef966d891bcea505713dd966deddb522a442d082ecf59ef7c36678fdfa919.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/949ce1778fe9f935b9909781230ae4edee64ec2e37207859faf3437a1bf8f74d.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf2a44927e875f6f0382ecf1232dceabd1fcc023df14deec6f7a196f85dc61ef.png",
       "flavorText": "Or as it’s known in troll, “De bolt, mon.”",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2229cbc1b0121d6a25d0d34e3ec48c13db36c9f189c1bef13cdb9792d71be824.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f87249a3c69ef33bb91154fb175693615e291946450ff2634e49b0afb5078ff.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -704,6 +706,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bae3fddb00d64a5b15f8c4cc369893311ae47fa0528e8d5ba1f69cffdffc5112.png",
       "flavorText": "No thanks, I already devast-ate.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75eb1478829dc02953ea9616a3dabd01b8b7dca5edec7d525ec28d5dd03e95b6.png",
+      "copyOfCardId": [
+        72886
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -742,10 +747,10 @@
       "manaCost": 2,
       "name": "Dragon Roar",
       "text": "Add 2 random Dragons to your hand.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/643f45d08b9b61ba0b1370b2c93a2130a9a5eca98831731b009f38ee4d8e2210.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d5ff06a9488870e8b4fe521827d0fa9dd53dd557ac374ab486ae9f404f0aeac.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f686580d30d2baa174b03274e0ba799b70ec620b8340f6049957de7421d4dbdf.png",
       "flavorText": "Not to be confused with Dragon Yodel.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7461debcd1074145a5c1452b74b3e9543175bd70e860766cdff880dc0e9e43e3.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b0df5cc416c8c30880f9831b159fc4172b16d7c0bf8e857b7ec5b9541cf9764.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -837,10 +842,10 @@
       "manaCost": 5,
       "name": "Emberscale Drake",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/455583b6a707620f066368b65f9ef9e570a115c0ce894ecdcb4b28b1b391ff80.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd436043c9651019dcfa6eabe3f7107ee6c3cb0f130e8b34fec16b07b9f8a665.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4063ab454feb8d860f52af1fc160e9a77f85e44504c0b0d77850d6c64892da36.png",
       "flavorText": "The third little dragon made his armor out of adamantite.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82ad23c217446a05f7940edf85f70526ad37e6062e915a8a1e6b52d525ca995b.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a2bd5580a58b772ce033fc56fb2be4a19255a25614739ee4f0a17cc736483f9.png",
       "keywordIds": [
         8
       ],
@@ -857,15 +862,15 @@
       "cardSetId": 1129,
       "rarityId": 3,
       "artistName": "M. Alvares & M. Azevedo",
+      "health": 3,
       "attack": 3,
       "manaCost": 5,
-      "durability": 3,
       "name": "Farraki Battleaxe",
       "text": "<b>Overkill:</b> Give a minion in your hand +2/+2.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9ebcb23735d94e1e7266230fb37846de4afe601c28f0ae85aafde6c36c773752.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58b03ef5c92ccddc60bc1d85bbca9b086c20da478d36705c8d80788fb5ae772f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/582a95901ad448735142a2b969b4de834767e39f310d6eebb047a076878da8d0.png",
       "flavorText": "Only two things in life are certain: death and axes.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/36a1e2885ecbad160b83be198f151538787f1ca7453c9323fe19ab6b39f96a83.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc198408f91907d1810e70718c787bcfa0a4b81e83903ee26523f22a094ddcf3.png",
       "keywordIds": [
         61
       ],
@@ -887,10 +892,10 @@
       "manaCost": 2,
       "name": "Firetree Witchdoctor",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a spell.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7b05ce0342ba607be35fbf7c73d0360c57dacd26a9d8221edb07469aab5d8b1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c85e1b695ed27a20bd9bcfc9c2c3eb10d75fd06741864daba6553d025882402e.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17d887454876a80017bece38e39c5d2da32f7fb015f0e29c550f1f87353e9f50.png",
       "flavorText": "If your tree is on fire - stop, drop, and troll.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83836934381456ed6124e095c5723e1b39268f960e382950e8809ed6887b1d34.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8cec75e9982b2b4b8913cecf52524d9f1789ddc349b9bf7a1a2bb445e5dd50b7.png",
       "keywordIds": [
         8,
         21
@@ -916,6 +921,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e558c1b5c443689efd56e4fcd441104bba766c7b426d2c05c52cf10de7a89cc8.png",
       "flavorText": "Hey! No cameras allowed!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d35ad78f51137d941f51a188f77da4a25eac5c09bffac864199543aadf46d78.png",
+      "copyOfCardId": [
+        76306
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },

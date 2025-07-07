@@ -100,6 +100,9 @@
         8,
         53
       ],
+      "copyOfCardId": [
+        75915
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -118,7 +121,7 @@
       "manaCost": 8,
       "name": "Archwitch Willow",
       "text": "<b>Battlecry:</b> Summon a random Demon from your hand and deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b9e5375ba16c7ff6f75292df82007be65f670c34c1f62bce77d4321f6e48705.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76bce26a35af50d68c605726f23d41e9e879dc4586e9df2e7aa1772c24c265a4.png",
       "imageGold": "",
       "flavorText": "One of the demons will do all the work while the other gets the same grade.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b88ace4b4d5a687fc5196cdcd9ce2b657d445ac9ecc1c638ee2f1c4f42e19c1.png",
@@ -134,6 +137,7 @@
       "slug": "59616-argent-braggart",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1443,
       "rarityId": 4,
@@ -143,7 +147,7 @@
       "manaCost": 2,
       "name": "Argent Braggart",
       "text": "<b>Battlecry:</b> Set this minion's Attack and Health to the highest in the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12ee443436ec70887f20d3149d75aa2ba25ad5428fb6e0da9becf143a6cbb197.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8cf79550e74286072e8dfb180a1084cfe874363dec0ada1120cec941ff3441a3.png",
       "imageGold": "",
       "flavorText": "Not sure why he's bragging, he's got the same stats as the next guy.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3540bbfda6987ecb3eed9939df0059ccd3e02848c5ade55ca300dce1cf1beba5.png",
@@ -173,6 +177,9 @@
       "keywordIds": [
         21,
         53
+      ],
+      "copyOfCardId": [
+        71544
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -246,7 +253,7 @@
       "manaCost": 5,
       "name": "Blood Herald",
       "text": "Whenever a friendly minion dies while this is in your hand, gain +1/+1.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d178c986ba8216ba25c4cbeec78034b296c1ed78bc052508ba08dda5d2783d7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2f862bcff96e1fa2c3029f6368ce691cbb8bf7a89eb53ecbd8dbf64dfbad1351.png",
       "imageGold": "",
       "flavorText": "\"Red Blood, it gives you wings.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a79e319d75761d5b0caf656b8832dc436136956c2a2731919eccb125b8a7e237.png",
@@ -268,7 +275,7 @@
       "manaCost": 2,
       "name": "Boneweb Egg",
       "text": "<b>Deathrattle:</b> Summon two 2/1 Spiders. If you discard this, trigger its <b>Deathrattle</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a22f360d4aaf47ebf3bec2d4fe54e0d2791b0c58d7c18b756407735e901d8170.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95417a7260821bce0768e292aea0de6fc9ac0f0daa91548af57a203c150def80.png",
       "imageGold": "",
       "flavorText": "Noblegarden is going to be really exciting this year!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14b4413e995d511cdb6520a18d20227a1fcc9cc75257f903df007f934e876292.png",
@@ -328,7 +335,7 @@
       "manaCost": 4,
       "name": "Brittlebone Destroyer",
       "text": "<b>Battlecry:</b> If your hero's Health changed this turn, destroy a minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c587c0338e430a5dddb07e0bc2523a5f173255b50f709a06e2b9675ca397ac53.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef90e257e26b6ef8d02e481f1c08046384d05a064a81927b6d9838423ba7aab9.png",
       "imageGold": "",
       "flavorText": "Broke many a leg in drama class.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f12ed99084c28a69effe58f27f529dc85c65d202ead528b5c81a045d4576859.png",
@@ -401,12 +408,12 @@
       "cardSetId": 1443,
       "rarityId": 4,
       "artistName": "MAR Studio",
+      "health": 2,
       "attack": 2,
       "manaCost": 3,
-      "durability": 2,
       "name": "Ceremonial Maul",
       "text": "<b>Spellburst</b>: Summon a Student with <b>Taunt</b> and stats equal to the spell's Cost.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b3ebf4a5481ac44bb7ac9145d46d547d9d4afe5d8a1d497613e309216888581.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cfe80ae024110137d6264b0fb253ab5b6c38aab4ae679ac0dd040b0d77ed7c31.png",
       "imageGold": "",
       "flavorText": "For the most discerning of hall monitors.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de0cdca7dbcb7cb128dc9e740f09a16621971f3b76e03c8403d97aa75ed4c5c0.png",
@@ -567,6 +574,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        102224
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -586,7 +596,7 @@
       "manaCost": 5,
       "name": "Cutting Class",
       "text": "Draw 2 cards. Costs (1) less per Attack of your weapon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ba512c7296d7025d6f428e1c16380b20cb0a5714163ebacaede32b5c520bebe.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94e07034d1d86a02a8b4397dbdbd81ce89001ed842e903a19b1eeb72cd72a7d4.png",
       "imageGold": "",
       "flavorText": "When you actually are the sharpest tool in the shed.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d0000014c3ca1ca5d7ebbf2883b2e556ae3da212e35ebd69a00f731b785cd1a.png",
@@ -632,7 +642,7 @@
       "manaCost": 1,
       "name": "Demon Companion",
       "text": "Summon a random Demon Companion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43c8be6400f83f4f8c9f25bff44a30e6ab5c77dc4bcbe68ca57fe30d7b5ad08c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e83dcbe57a8e6bcf34e65d3933dc9d4f00fc034a8d93c1972909c2850ff63019.png",
       "imageGold": "",
       "flavorText": "Owning a pet can be real hell at times.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5e763f688f561f8daaa84bccc589c8d74bf07e7c3b9de6e19ca51cebd7f66f4.png",
@@ -664,6 +674,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/58f853b53cc1c178178edfc74dc7f7c71f3c09a3e63841879db298f28a002799.png",
       "keywordIds": [
         21
+      ],
+      "copyOfCardId": [
+        111458
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -962,7 +975,7 @@
       "manaCost": 7,
       "name": "Fel Guardians",
       "text": "Summon three 1/2 Demons with <b>Taunt</b>. Costs (1) less whenever a friendly minion dies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aed825e408d8ece8dfb9251595423319519d1ac1598daaa887c4fb2bd8e227bb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0be8a4c80f561a0427ae9c2923d569a8c0ff4d3dda00cf9d101966250f4cddaa.png",
       "imageGold": "",
       "flavorText": "What happened after the guardians tripped? They Fel.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f956188f8d60c935054c4e24019d60d7b6f634606b2874f88a715e92c37e28c.png",

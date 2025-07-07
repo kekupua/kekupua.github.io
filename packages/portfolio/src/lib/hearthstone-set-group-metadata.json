@@ -1,5 +1,14 @@
 [
   {
+    "slug": "raptor",
+    "year": 2025,
+    "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/bltc2847b2e8b5f6f6b/67ad9a0283b578ebd1e90031/Raptor.svg",
+    "cardSets": [],
+    "name": "Year of the Raptor",
+    "standard": true,
+    "icon": "icon_cardset_yearoftheraptor"
+  },
+  {
     "slug": "Pegasus",
     "year": 2024,
     "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt0136a847fd5a5b74/65c55bcddc7247cae3e8f320/PegasusSVG.svg",
@@ -14,7 +23,7 @@
     "svg": "https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt436c5e93bf8faf2c/64079268ad9e38554653fb6b/YotW_SetIcon_Colored.svg",
     "cardSets": [],
     "name": "Year of the Wolf",
-    "standard": true,
+    "standard": false,
     "icon": "icon_cardset_yearoftheWolf"
   },
   {
@@ -25,7 +34,7 @@
       "voyage-to-the-sunken-city"
     ],
     "name": "Year of the Hydra",
-    "standard": true,
+    "standard": false,
     "icon": "icon_cardset_yearofthehydra"
   },
   {
@@ -126,12 +135,12 @@
   {
     "slug": "standard",
     "cardSets": [
+      "the-lost-city-of-ungoro",
+      "into-the-emerald-dream",
       "event",
+      "the-great-dark-beyond",
       "perils-in-paradise",
       "whizbangs-workshop",
-      "showdown-in-the-badlands",
-      "titans",
-      "festival-of-legends",
       "core"
     ],
     "name": "Standard Cards"
@@ -139,7 +148,10 @@
   {
     "slug": "wild",
     "cardSets": [
+      "the-lost-city-of-ungoro",
+      "into-the-emerald-dream",
       "event",
+      "the-great-dark-beyond",
       "perils-in-paradise",
       "caverns-of-time",
       "whizbangs-workshop",

@@ -193,6 +193,10 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        84937,
+        111357
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -387,7 +391,7 @@
       "manaCost": 5,
       "name": "Burning Blade Acolyte",
       "text": "<b>Deathrattle:</b> Summon a 5/8 Demonspawn with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce29ebf75155bb9cd146e118b597fe9b369b75c9e2100658dec8f06c8a612d9f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcc74b57889e5d73fc34914067f39898d0edd06892ab138bd8475635b1d0702c.png",
       "imageGold": "",
       "flavorText": "Wields a disappointingly normal looking blade.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b75cc044ac72f44535c1f4a60a21d3b671f926d4c330768c7ebc22ce27c8a3e.png",
@@ -445,7 +449,7 @@
       "manaCost": 4,
       "name": "Cariel Roame",
       "text": "<b>Rush</b>, <b>Divine Shield</b> Whenever this attacks, reduce the Cost of Holy spells in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63332a06156fb2cf8db3ee9f44a204d2668d229b44780e0de86a7eaced64297f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c56bfe38761cc3b8b4fe3ae979123eeb4a90fecb5f25f661702ae09cd6c09e4.png",
       "imageGold": "",
       "flavorText": "Cariel had pledged her honor to the Alliance, but when someone matching her long-lost sister's description was sighted at the Crossroads, Cariel did the unthinkable: she abandoned her post and set out across the Barrens.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2f3b975b072812cc7b8723a8f133853be2bd466de242ca224f654a2d69895ab.png",
@@ -765,7 +769,7 @@
       "manaCost": 8,
       "name": "Deviate Dreadfang",
       "text": "After you cast a Nature spell, summon a 4/2 Viper with <b>Rush</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2ad6a1a7d37252531cea078100405ca8a83992170b3457356dcf1ec0b59728b.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/830e07d9c2ff9a166e75619ccccdf4cf09e4666d1a53484927ebf314fa58fd20.png",
       "imageGold": "",
       "flavorText": "Even with wings, snakes STILL don't have legs.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d34a4bb3a0a960227908820e2ec97f63ae487da3104b1ed2871284897af5a67b.png",
@@ -852,7 +856,7 @@
       "manaCost": 3,
       "name": "Devout Dungeoneer",
       "text": "<b>Battlecry:</b> Draw a spell. If it's a Holy spell, reduce its Cost by (2).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5d66b2fcd251282cf93fc7e4f23ba8a301701486c847381268f3efed06d7ce7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/550a3282b1836e7d8de467055a794cee1956be637e2ce89de5b6f40fb9b6e39b.png",
       "imageGold": "",
       "flavorText": "\"Please do smaller pulls, this is my first time healing.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e60aa64e6af70917a21eeaf4d2ae43fd708d3379abf99d7b238480430672ecda.png",
@@ -1020,6 +1024,10 @@
       "keywordIds": [
         12,
         53
+      ],
+      "copyOfCardId": [
+        75925,
+        117030
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

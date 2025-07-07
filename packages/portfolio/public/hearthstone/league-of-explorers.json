@@ -144,6 +144,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        76312
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -181,9 +184,9 @@
       "cardSetId": 20,
       "rarityId": 3,
       "artistName": "Craig Mullins",
+      "health": 3,
       "attack": 2,
       "manaCost": 1,
-      "durability": 3,
       "name": "Cursed Blade",
       "text": "Double all damage dealt to your hero.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1303cc23f9f1a745226b90f639ff300f74e1c4f3cdbe02d166bb2a17e83d21d6.png",
@@ -216,6 +219,10 @@
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        102639,
+        120467
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -340,6 +347,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        76313
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -385,6 +395,9 @@
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        69701
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -449,6 +462,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3dac74f85256853352ee1af3cddc79a4f63b59141fc1f619aa2017257a3a58c9.png",
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        102545
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -560,6 +576,9 @@
         8,
         21
       ],
+      "copyOfCardId": [
+        86548
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -663,6 +682,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        103214
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -689,6 +711,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        86541
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -712,6 +737,9 @@
       "imageGold": "",
       "flavorText": "High mortality rate, from often being hugged to death.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/369df2167142771bbb910d376942ae0f34de681887368e796ae77a9cfb3270c1.png",
+      "copyOfCardId": [
+        69723
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -738,6 +766,9 @@
         8,
         12,
         21
+      ],
+      "copyOfCardId": [
+        102590
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -839,6 +870,9 @@
       "keywordIds": [
         21
       ],
+      "copyOfCardId": [
+        113109
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -888,6 +922,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3fc3412c8c352266413e687da37e0c02b3c6b4cbf2749b1df8f2748a6ae9fae.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        76314
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -981,6 +1018,9 @@
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        76311
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

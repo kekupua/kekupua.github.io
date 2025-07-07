@@ -114,6 +114,9 @@
       "keywordIds": [
         64
       ],
+      "copyOfCardId": [
+        111687
+      ],
       "bannedFromSideboard": 1,
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -284,14 +287,17 @@
       "artistName": "Dan Scott",
       "manaCost": 1,
       "name": "Blazing Invocation",
-      "text": "<b>Discover</b> a <b>Battlecry</b> minion.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0bedc139a2c20b8a26cf4d3fcef55d4e610f6a252586a43867edcdd9437f2049.png",
+      "text": "<b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b96c5b501c73427c259cba947cbe015ca5abb3e1710160cddb1d73c6733736f.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fd76a3313c3630614f5de97c745522794b3b0ee167e45a0388a59cbe392355f.png",
       "flavorText": "A lot of shaman have started vaping their invocations.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1924f0abb1cdc1bbc58d1be549146369c77870ec81419467f8cc745976b4872.png",
       "keywordIds": [
         8,
         21
+      ],
+      "copyOfCardId": [
+        120572
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -407,7 +413,7 @@
       "manaCost": 2,
       "name": "Book of Specters",
       "text": "Draw 3 cards. Discard any spells drawn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/380d6c3411042ae9424dfc2ae39938b4cc961486d24ea5028a387b76a2c41655.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f29d576e40e1281e029479017e8233555ba7ff771bc682eb4fb0bae998da8a12.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/335db087e530196226571f3ec5e2536f46f74ae985f22f0447730140877c9825.png",
       "flavorText": "Known throughout the land as the Spooky-nomicon.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4ca7f4a9f48fc723a7db9337e273e9501e27843f40d1cb25e6747c6a2b1f1f0.png",
@@ -457,7 +463,7 @@
       "manaCost": 2,
       "name": "Cathedral Gargoyle",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c833a9988875190d983c215843bbd35799cfaccef46da776c5c6cad2cf2f587.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19577a89df778d7ad71b8626f27bd6f75d7cb1f41ed4356c19bf5ffba5a39f20.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30fb5ac2e2f43ed975617e372e3c4d949e19341ab58710fa2544e3765aa33ed5.png",
       "flavorText": "Fly like an eagle, drop like a rock.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebf1401bb31b5f7e731e2711bf5442a92e208e671c4ea8a0e69072ba7c854dea.png",
@@ -705,6 +711,9 @@
       "keywordIds": [
         52
       ],
+      "copyOfCardId": [
+        75940
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -789,6 +798,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57866a75040a19f8e029e4375bb4f6ddbc166adc0d15761ce76b71b87b729dfc.png",
       "keywordIds": [
         53
+      ],
+      "copyOfCardId": [
+        76301
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -886,6 +898,9 @@
         8,
         38
       ],
+      "copyOfCardId": [
+        75927
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -927,10 +942,13 @@
       "manaCost": 4,
       "name": "Dire Frenzy",
       "text": "Give a Beast +3/+3. Shuffle 3 copies into your deck with +3/+3.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e138ba5689a4cba9af4a2c2d7425dbe9e307a9d61bff2f3f8fa9924bbfc16a8.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da52fc1a1ea07452915938ad6d1d51ace1152a180efcba38a6f8cbda17579baf.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d8e5fd94602814e54381e5cd0ce6f121518b8341b1b52c8480b76a5ccf3c2ca.png",
       "flavorText": "It's always Huffer. And Huffer. And Huffer. And Huffer.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ed4e48f119c0d42d17c63413cfb893add304cd3995ccb630e1586b8976d654b.png",
+      "copyOfCardId": [
+        69693
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },

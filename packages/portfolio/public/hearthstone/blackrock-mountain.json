@@ -19,6 +19,9 @@
       "imageGold": "",
       "flavorText": "Once a lowly \"Stick Flinger\", he's been relentless on the path to his ultimate dream: \"Tauren Flinger\".",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9571771612d4997d8ba698c16466b5109bfe2455ba0d2c353576cd5f7c6cd1e.png",
+      "copyOfCardId": [
+        103241
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -43,6 +46,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c36ae844634c88fa8d3e3a8e012c0b5f95f38e807b5982f35d0d062f5cf319d.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        103232
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -147,6 +153,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        102609
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -218,6 +227,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c5d4599327c7f2c83aa54290703b0be71377bdcb18139ebfdebfa49f421ae25.jpg",
       "childIds": [
         2436
+      ],
+      "copyOfCardId": [
+        75914
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -337,6 +349,9 @@
       "imageGold": "",
       "flavorText": "His second greatest regret is summoning an evil Firelord who enslaved his entire people.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e89828421e1a864137e37f9d0b1c163f46f6c4a241ecb2cfd4587e587e647a99.png",
+      "copyOfCardId": [
+        102677
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -382,7 +397,7 @@
       "manaCost": 3,
       "name": "Flamewaker",
       "text": "After you cast a spell, deal 2 damage randomly split among all enemies.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e406a07d5abfafdf9abe893fef8fba3051f794e0f947fd06402f097094c5a3a1.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcf58b1a919b4231a09bb47c3f4172be59d962461326a1948687f1c58296418f.png",
       "imageGold": "",
       "flavorText": "Flamewakers HATE being confused for Flamewalkers. They just wake up fire, they don’t walk on it. Walking on fire is CRAZY.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afa260f1bccce78830014bf7d0347d9c32cf3151ba0c900472d2548bed752df1.png",
@@ -454,6 +469,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        75943
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -479,6 +497,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0fd66f61e8a395a82d07653d195e5751110b17a92301ee4574d8760558db510.jpg",
       "childIds": [
         2779
+      ],
+      "copyOfCardId": [
+        76282
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -583,6 +604,9 @@
       "imageGold": "",
       "flavorText": "Han shot first.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4a5f9e09e9946df263a6be45ac14c446159e0efe8f80b986c9bce16d9e5912b.png",
+      "copyOfCardId": [
+        69691
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -721,6 +745,9 @@
       "imageGold": "",
       "flavorText": "Volcanic Drakes breathe lava instead of fire. The antacid vendor at Thorium Point does a brisk business with them.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/778b350330da1aecd94415ea8fa2b255414086134c5a1cbabe5b7e49ea8d3d04.jpg",
+      "copyOfCardId": [
+        75946
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },

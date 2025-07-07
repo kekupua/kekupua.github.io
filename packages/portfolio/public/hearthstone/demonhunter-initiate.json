@@ -42,6 +42,9 @@
       "imageGold": "",
       "flavorText": "Say what you like about my hatchet-headed hooligan, he’s my battle-friend.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/921e1e77be3cf8747e3350503fbb01cd84e2c2a00bbb50ae6196b07a9dcf6c1f.png",
+      "copyOfCardId": [
+        69586
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -158,6 +161,9 @@
         38,
         86
       ],
+      "copyOfCardId": [
+        69740
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -179,6 +185,9 @@
       "imageGold": "",
       "flavorText": "Nothing fills you up like soul food!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63c1456b344c49138d63083d688636aa623c24c0efa6916acf9a522938921fa0.png",
+      "copyOfCardId": [
+        69590
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -192,15 +201,18 @@
       "cardSetId": 1463,
       "rarityId": 4,
       "artistName": "Akkapoj T.",
+      "health": 3,
       "attack": 5,
       "manaCost": 7,
-      "durability": 3,
       "name": "Flamereaper",
       "text": "Also damages the minions next to whomever your hero attacks.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9684ce11f5a4cfa0c80e4aaf8a2decd2a4e56c4ad45d74957d38faf8de4e9a58.png",
       "imageGold": "",
       "flavorText": "Honestly it sows more flame than it reaps.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fed24703c1dfcf27cb78999aae5d02172013e2eff71c6c21938beb62b5df226.png",
+      "copyOfCardId": [
+        89699
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -326,6 +338,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        69588
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -370,6 +385,9 @@
       "childIds": [
         56935
       ],
+      "copyOfCardId": [
+        75721
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -383,9 +401,9 @@
       "cardSetId": 1463,
       "rarityId": 1,
       "artistName": "Kagi",
+      "health": 2,
       "attack": 1,
       "manaCost": 2,
-      "durability": 2,
       "name": "Umberwing",
       "text": "<b>Battlecry:</b> Summon two 1/1 Felwings.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/503320c16e2f9dcbc2033d04a92931b01d1ed7339e3871524320a793674c1584.png",
@@ -397,6 +415,9 @@
       ],
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        111349
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -450,6 +471,9 @@
       "imageGold": "",
       "flavorText": "If throwing glaives is what you crave; summon tokens and make 'em broken.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca8d41b80bf72b8b0f056d711a9f2e0e10a14ccb45def1a182fe64df82927d2.png",
+      "copyOfCardId": [
+        86547
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },

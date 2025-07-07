@@ -202,6 +202,9 @@
       "keywordIds": [
         1
       ],
+      "copyOfCardId": [
+        97326
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -324,6 +327,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cdf7a915c3057eba446642204ffc01848567b9a69e2c88691844249d91b2621.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        76318
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -526,6 +532,9 @@
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8256d295da4d3733fbd47b0b01dd973a2f37ffc8f100bde6c9c14ec48ba55262.png",
       "flavorText": "\"It me! Togwaggle!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0ef86cabe44e7759ec2427a5ecdb20a3d9372199da2af325667b1b3e3bed208.png",
+      "copyOfCardId": [
+        71011
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -751,12 +760,12 @@
       "cardSetId": 1158,
       "rarityId": 1,
       "artistName": "Jason Kang",
+      "health": 3,
       "attack": 1,
       "manaCost": 3,
-      "durability": 3,
       "name": "Desert Spear",
       "text": "After your hero attacks, summon a 1/1 Locust with <b>Rush</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0855c7dd672d6518ed63acde2a14b7d4d8c932e14308a28d3fd96c4cd8815024.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5b3c4897da7b944d07b32428a0980493288e57addce916a0c44705dbb1a382a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cdd8e0464f4f07a073aafd655755975cb0797137dfe271397fe1eade827517f8.png",
       "flavorText": "Goes on the right, next to the desert spoon.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/147074e8e279010cff0e79d06c3b739096f686da749804779da853b1501b5897.png",
@@ -886,7 +895,7 @@
       "manaCost": 3,
       "name": "EVIL Recruiter",
       "text": "<b>Battlecry:</b> Destroy a friendly <b>Lackey</b> to summon a 5/5 Demon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e25bbd5a0e607142e57dd228b1c95124ce3b11d8d5e7eceaaefade82415a5555.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e4bf4d0cb05b9d5f3b903f7c8d6beb16706a907f4df5b4cfde75d6739cfcbb1.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59c6c9415d0ce60fbcb17e6a587b55725d9ae214ecfbcc216793b11f428c150e.png",
       "flavorText": "I'm starting to think the lackeys aren't evil, just taken advantage of.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81bfe4742480c7b802fdcf7cdd8e003bb3a72c65e7f06826eb9c489334572455.png",

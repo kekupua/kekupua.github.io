@@ -153,12 +153,12 @@
       "cardSetId": 1578,
       "rarityId": 3,
       "artistName": "SARIYA ",
+      "health": 2,
       "attack": 2,
       "manaCost": 2,
-      "durability": 2,
       "name": "Auctionhouse Gavel",
       "text": "After your hero attacks, reduce the Cost of a <b>Battlecry</b> minion in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e59e6aaffdf9eb401cc6c78afc67c717ed56bdd49bbbb74f10f223667418fb93.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e94d7e2bd0e10876c101954c6ade2c06fa1557d6e52ba6a1e98362f835dfec5b.png",
       "imageGold": "",
       "flavorText": "\"I want to be a judge! Or an auctioneer! Look, all I want is one of those sweet, tiny hammers.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e442ebc2d285200930e1d95089471585535c57f15c7ef5274ee9b08d683b374.png",
@@ -217,6 +217,9 @@
         1,
         97
       ],
+      "copyOfCardId": [
+        108357
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -230,9 +233,9 @@
       "cardSetId": 1578,
       "rarityId": 3,
       "artistName": "Akkapoj T.",
+      "health": 1,
       "attack": 5,
       "manaCost": 4,
-      "durability": 1,
       "name": "Blacksmithing Hammer",
       "text": "<b>Tradeable</b> After you <b>Trade</b> this, gain +2 Durability.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa9adbd751e1ef31fc8631d9e58c94a78746cca73511d0b4ce0db1698758068f.png",
@@ -255,12 +258,12 @@
       "cardSetId": 1578,
       "rarityId": 1,
       "artistName": "Jason Kang",
+      "health": 2,
       "attack": 2,
       "manaCost": 1,
-      "durability": 2,
       "name": "Blackwater Cutlass",
       "text": "<b>Tradeable</b> After you <b>Trade</b> this, reduce the Cost of a spell in your hand by (1).",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0446b240df28a96549ab6f1b3c7b048936b10bc2916aafd3e39ca63e9840d90c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4df613f20e4eca57e89849b25f47c66a0585f72a091575925f50b40e943e6628.png",
       "imageGold": "",
       "flavorText": "Popular around Stormwind for slashing prices.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f56d1324ffa3f6e542ee261fbcc33875ec2862a5e1f3bb6037b89e88cc5cea41.png",
@@ -316,6 +319,9 @@
       "imageGold": "",
       "flavorText": "ALWAYS read the terms and conditions.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a63e307f06ccb49612b5a5aa8c7303f372a7bf7b1d1c228cf155fd6e49611446.png",
+      "copyOfCardId": [
+        113309
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -443,6 +449,9 @@
       "imageGold": "",
       "flavorText": "*Arrrrrmor",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/97320b7ae434f5a48dd3c52981b43ea85b950a43b1bfecc8aa72dc3623d467d8.png",
+      "copyOfCardId": [
+        113117
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -482,12 +491,11 @@
       "cardSetId": 1578,
       "rarityId": 3,
       "artistName": "Jason Kang",
-      "attack": 0,
+      "health": 2,
       "manaCost": 2,
-      "durability": 2,
       "name": "Celestial Ink Set",
       "text": "After you spend 5 Mana on spells, reduce the Cost of a spell in your hand by (5). Lose 1 Durability.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2fd3c1097829156d62fd69b33a2b07b73595d10ca56f5c375859d977488701d4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08dd1cb4fc5fcb4bd27e934dd99800b5228dba04acccbf682d4727fabb88b1ba.png",
       "imageGold": "",
       "flavorText": "\"Dear Mother, I have a lot of spells and burst in my hand. You should maybe run more armor and healing next time. Cordially, Your child\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99708d6f58318c7d767f36e17483c2f259e3ae2e9dffd72cdccb8e9933ae368e.png",
@@ -776,6 +784,9 @@
       "imageGold": "",
       "flavorText": "Raised two perfectly normal daughters. Then one died and brought doom to Stormwind.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7daf48ce15cbb886cff6db34199c9cfc1ab3661ed089bdb528913f5a1ebb798d.png",
+      "copyOfCardId": [
+        120882
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -789,12 +800,12 @@
       "cardSetId": 1578,
       "rarityId": 4,
       "artistName": "SARIYA ",
+      "health": 2,
       "attack": 4,
       "manaCost": 4,
-      "durability": 2,
       "name": "Counterfeit Blade",
       "text": "<b>Battlecry</b>: Get a copy of a random friendly <b>Deathrattle</b> minion that died this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5f3a118fbc92c2540b9f954ee40a37048f1915f2e623d7c2477d0205fce4157.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7152b0ddf72b349b4dbe1096150936fe92aca766819e6f35d856e3891c87fa32.png",
       "imageGold": "",
       "flavorText": "Don't worry, the blade retracts into the handle!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/777b263764c02000fa19f626cd7504f3bc6440e1c43cbbc04770ec5bf323f2a9.png",
@@ -873,12 +884,18 @@
       "manaCost": 4,
       "name": "Dark Alley Pact",
       "text": "Summon a Fiend with <b>Taunt</b> and stats equal to your hand size.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23d5919accbfa0705cabbb4beaafc2a54d59610aa8b79e17d70d8d7293038516.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a30b6e2d33ea30667db29966aa2a41ed5bc3d7b6218b6216046178e2ba54cbce.png",
       "imageGold": "",
       "flavorText": "\"With your help, I can finally install some proper lighting in this alley.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/850ad3de7025748fe3bafacebb3467ed0f419acb3e997bc820b6a1ac3f1c6f76.png",
       "childIds": [
         67810
+      ],
+      "keywordIds": [
+        1
+      ],
+      "copyOfCardId": [
+        111454
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -907,6 +924,9 @@
       ],
       "keywordIds": [
         64
+      ],
+      "copyOfCardId": [
+        102718
       ],
       "bannedFromSideboard": 1,
       "isZilliaxFunctionalModule": false,

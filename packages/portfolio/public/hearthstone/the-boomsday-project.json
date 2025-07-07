@@ -63,10 +63,10 @@
       "manaCost": 6,
       "name": "Arcane Dynamo",
       "text": "<b>Battlecry:</b> <b>Discover</b> a spell that costs (5) or more.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f46dbe0701bc8d682257612ca1ff8dd8dd39d5df0a8c32e45901c18916bee82.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4946a0ba9f42be49d8296590d15181215e54307bb4a4e083deb9488313079f37.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8540c2a35fd866802376228fe3f5f4721f24c32f03b3c2b16f0c6d5ba975e9d4.png",
       "flavorText": "We ran out of jars, so we started putting brains in other stuff.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6621c818e1fa1171b423d2d350bddb1197db7cf7d3f21b9eb4a54d0ac5c18034.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d866730be31281cbfc786b84ad189003b4e3f174b7f673c9a8e2772fff4b7429.png",
       "keywordIds": [
         8,
         21
@@ -373,6 +373,9 @@
         1,
         66
       ],
+      "copyOfCardId": [
+        102219
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -646,10 +649,10 @@
       "manaCost": 2,
       "name": "Cybertech Chip",
       "text": "Give your minions \"<b>Deathrattle:</b> Add a random Mech to your hand.\"",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01f7058daabe9466c3c00d1759a8045f72e85ad7ef6c78f93a7b39dc3ac141fd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04c1b12e61c14553cc67dc0c68b62b2ecd8a6a3d541e4026d7d45440b537c454.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b01dab6f4d1d2930e0c6113e9a7f891d3227209c1161f9c2d5f43813925e193d.png",
       "flavorText": "Goes great with Cyber-Salsa.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8f6db85de0bc29f30483e2292bf59cedd102ec3ade1df6c999c6e08ff3338e18.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eed7890aa3485a96f0cfc04d5f64c8c037b8ea0efaa4c659a0e201fa65b9a33f.png",
       "keywordIds": [
         12
       ],
@@ -705,7 +708,7 @@
       "manaCost": 2,
       "name": "Dead Ringer",
       "text": "<b>Deathrattle:</b> Draw a <b>Deathrattle</b> minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aaa597c08e17f56794b4668d86fd85c07d661dfa04708b27bccdce7aaab5003.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10c5504b1413dff1475bec2507fe06be73482016db8127ca8ba935c6827994e4.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab02c4bf9d1eeadb17659369942fcb338cba1348211ca18b16aac6419d1182d4.png",
       "flavorText": "Shortstop on N'zoth's softball team.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59c022b2b85380004bb8890438411ec838263823c3fba291fc214567528e43c9.png",
@@ -729,10 +732,10 @@
       "manaCost": 2,
       "name": "Demonic Project",
       "text": "Each player transforms a random minion in their hand into a Demon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94d24b09bfabb5a26c097d093be84e116c74228cd160c79d8510d6b9df537c2a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0287b0458bccb76dbc61dc3f4518e66565f292f985e34db7f25190fca4bba87c.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/90cafa64fdeab7c945e712862efccf646f43a102717ba8f9130192173b96c154.png",
       "flavorText": "Another group project where Jaraxxus doesn't do any work.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/094d4d1e1d64573176e806888d342943d9d8446aa996638163af9039f3a49a32.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85d2052914d6d52fb64dd2e888c2d924713c4796ceccb1f975985cbbfd1b1b43.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -751,10 +754,10 @@
       "manaCost": 2,
       "name": "Dendrologist",
       "text": "<b>Battlecry:</b> If you control a Treant, <b>Discover</b> a spell.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4573f30b03832710e19f8e0314f9be5ab0d9eb3b41537eaa65a90b813728d19.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f8aaf80b5a5fe1cb1f99817cd619e6d428d54422c4afae72f497d4320e692d69.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf6894abd2b77a1f56c96d026f6643fb3ee0931f594d47fcde093274b8096a09.png",
       "flavorText": "He's teaching his little buddy to talk, but all it says is, \"I am Gloop.\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca5d98f54e4936d9ba150deef291f69e02567df9ddcfed723750f271659ae8f2.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bdf4b539d523c9ded528c83d4e6a5cefb74adaa3d256d375597bd5be32bafa92.png",
       "keywordIds": [
         8,
         21
@@ -894,6 +897,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        97329
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -912,10 +918,10 @@
       "manaCost": 5,
       "name": "E.M.P. Operative",
       "text": "<b>Battlecry:</b> Destroy a Mech.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/babd632826cb90b1026cbf906ab7713dceb7725184de42fade07253d86b86978.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac01e7f6b7d4f622f4cba435c9913f997bb575a5c7dd1d71ea8b599ca7339ae9.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/736db4f18ad4eaf6e0b6be4f664c7ccee12131d2df9fbbf525e99b9530d25378.png",
       "flavorText": "\"I said this looks like a job for me So everybody just follow me 'Cause we need a little E.M.P. 'Cause it feels so mechy without me…\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bb8455d1be572a08a0d10fc5d4d1049fbcc35047e385ea9bbc651cef287c148.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ba2c84f241f74d524455bf9ec1d5cca34b6ee13597d9eede3604fd4c52660d9.png",
       "keywordIds": [
         8
       ],

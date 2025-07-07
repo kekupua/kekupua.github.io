@@ -66,6 +66,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        102223
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -216,12 +219,15 @@
       "manaCost": 6,
       "name": "Bladed Lady",
       "text": "<b>Rush</b> Costs (1) if your hero has 6 or more Attack.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f8b9f13fdf899df0d4610384c3be9462e169d68de73aaaa7b09d85fa6516cb4.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b932e2186343512cde3170de475d589f7ae4e83f63ec4e58029dfdb63897ec5.png",
       "imageGold": "",
       "flavorText": "While you were busy learning magic, she studied the blade.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fd7379ac0e62bea77d48c2151e5d2e46e60df95908e9f40a217cdd9398dc2cd.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/846504374da1ce2125f5d4230953ac804f57703b941d79cb58266813ef5b4d2d.png",
       "keywordIds": [
         53
+      ],
+      "copyOfCardId": [
+        75949
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

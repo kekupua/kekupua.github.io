@@ -6,6 +6,7 @@
       "slug": "56530-akama",
       "classId": 7,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1414,
       "rarityId": 5,
@@ -15,7 +16,7 @@
       "manaCost": 3,
       "name": "Akama",
       "text": "<b>Stealth</b> <b>Deathrattle:</b> Shuffle 'Akama Prime' into your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/baa38a67dac44eac6d353a4655535c54c05d52d652d564cf598b6cf0cb7950b7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c96e72c7cfbcf7c7d8437ff34bad86ba7d6a87405788ea59f44287137e2e9707.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2de8b637b4b6a25f02138b8a62c56091b4b3dfd43769c0800344e102c09820ee.png",
       "flavorText": "\"To many of my people, I am known as a traitor... as Illidan's lapdog. I will remain in the shadows, for now... Actually, maybe I'll just remain in the shadows forever.\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad7fb6c795bca7b49e725058ec7d0500f80e29c86445cf738d8e7b0f55c2320b.png",
@@ -67,6 +68,7 @@
       "slug": "56445-aldor-attendant",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1414,
       "rarityId": 1,
@@ -76,7 +78,7 @@
       "manaCost": 1,
       "name": "Aldor Attendant",
       "text": "<b>Battlecry:</b> Reduce the Cost of your Librams by (1) this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/973ed15a0c103b14d745b99e04febc00adacfcd39861760e92c064a18f1d74fb.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f02a2679c40ac5a4e6beb869f6f4b4d7ba09f62c281a87d269bdc3c6ea7c76d0.png",
       "imageGold": "",
       "flavorText": "Will check to make sure you have a valid libramary card.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37cc5562c88dfd81381d816c20acc507d5bb67ec72eff2137917fb5fd0fd96fb.png",
@@ -101,6 +103,7 @@
       "slug": "56556-aldor-truthseeker",
       "classId": 5,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1414,
       "rarityId": 3,
@@ -110,7 +113,7 @@
       "manaCost": 5,
       "name": "Aldor Truthseeker",
       "text": "<b>Taunt</b>. <b>Battlecry:</b> Reduce the Cost of your Librams by (2) this game.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a35e78f42d0e82e3e06ba4a387fafebb29b06e531df5807913e924fc98b1fc7f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/909dc5199c9a7c8b6485d1a0a8549d60b9e3e3d1f0aea28b55117dc146d22181.png",
       "imageGold": "",
       "flavorText": "It’s under 'T.'",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83cc787f985026973631eb4b78c1341accc5abd16ce678d06f8d2c956e0e4868.png",
@@ -153,6 +156,9 @@
       "keywordIds": [
         5,
         32
+      ],
+      "copyOfCardId": [
+        102202
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -224,6 +230,9 @@
       "keywordIds": [
         38
       ],
+      "copyOfCardId": [
+        77213
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -265,6 +274,7 @@
       "slug": "56860-ashtongue-battlelord",
       "classId": 14,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1414,
       "rarityId": 1,
@@ -274,13 +284,16 @@
       "manaCost": 4,
       "name": "Ashtongue Battlelord",
       "text": "<b>Taunt</b> <b>Lifesteal</b>",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d3c91aab2b5669a682fefc4f2eed0cad24c3d52ade3f1ea6ebaf90a62b602cc.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d5416107ac2b06e00bc2c6d3844e17e7fae223208d6110b377ead2e3412ef2c.png",
       "imageGold": "",
       "flavorText": "Demons have destroyed the lives of the Ashtongue draenei. Now he’s got a shoulder-axe to grind.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4dd545354930fe5eab0fb378e289ed26075622836103b79496c35779015bb3a.png",
       "keywordIds": [
         1,
         38
+      ],
+      "copyOfCardId": [
+        69681
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -291,6 +304,7 @@
       "slug": "56378-ashtongue-slayer",
       "classId": 7,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1414,
       "rarityId": 3,
@@ -300,7 +314,7 @@
       "manaCost": 2,
       "name": "Ashtongue Slayer",
       "text": "<b>Battlecry:</b> Give a <b><b>Stealth</b>ed</b> minion +3 Attack and <b>Immune</b> this turn.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0767e128e66928d6924aa2570302ec0df8477631991eec63a94ac9523ba5eb96.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/670e4b64d6b9b66f8a7e582541b4a1df6bb725f76555471d564e53eb5317e373.png",
       "imageGold": "",
       "flavorText": "Her other hand attachments include a corkscrew and a bottle opener.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c7418b167bdc47e74640649733c2b7cad0ab5b8a8843be3c97389105e47db04.png",
@@ -461,6 +475,9 @@
       "imageGold": "",
       "flavorText": "Dear minions: Woosh, woosh, woosh, woosh, woosh. Best regards, Bladestorm",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a59ca433d16c8b81ce82e87f66a2475ec6f52eabebe112e69f712c77f04c458.png",
+      "copyOfCardId": [
+        97332
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -531,6 +548,9 @@
       "imageGold": "",
       "flavorText": "Some think the mysterious bright lights in the bog are alien invaders, others think they're just swamp gas. Turns out, it's just druids.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/923ac8da7157b1e0d329b37ca16917ee364a1bce896595970dc61a86a28a8e25.png",
+      "copyOfCardId": [
+        108356
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -544,12 +564,12 @@
       "cardSetId": 1414,
       "rarityId": 4,
       "artistName": "Grace Liu",
+      "health": 2,
       "attack": 4,
       "manaCost": 5,
-      "durability": 2,
       "name": "Boggspine Knuckles",
       "text": "After your hero attacks, transform your minions into random ones that cost (1) more.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe6aaf727b0aea8a0d66ca3ab5f75f5fa61faea582c91b813f79eaa1d7f1d98f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2f67e8036c0b011d2e4a5bbfdfcd3c14ff90e013778b4ef7d6dbce949b6d8a3.png",
       "imageGold": "",
       "flavorText": "I would NOT want to put my hand in there. It's... SQUISHY.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78f7431ede94181ae5a784d0140d456e2026bb20083bad6f3d775f994ca709f3.png",
@@ -629,6 +649,9 @@
         8,
         53
       ],
+      "copyOfCardId": [
+        75936
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -654,6 +677,9 @@
       "keywordIds": [
         1
       ],
+      "copyOfCardId": [
+        75937
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -667,15 +693,18 @@
       "cardSetId": 1414,
       "rarityId": 5,
       "artistName": "SARIYA",
+      "health": 4,
       "attack": 1,
       "manaCost": 3,
-      "durability": 4,
       "name": "Bulwark of Azzinoth",
       "text": "Whenever your hero would take damage, this loses 1 Durability instead.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/660d62f79fca0ff2c09875211589e346e37792cf6e0a34a7cdf5af48029ac930.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f65a7687271ff700c312a82e8a7f7b1f3667475369a4a6bf7fdf5c0eaeaa0ba3.png",
       "imageGold": "",
       "flavorText": "This plate turned shield you shall wield, praying its powers fel will serve you well.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe37f16c302b1a5b57d2aad8504abe11c23892efe94a9b7fda5382df3f4d606d.png",
+      "copyOfCardId": [
+        116718
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -779,6 +808,9 @@
       "keywordIds": [
         86
       ],
+      "copyOfCardId": [
+        69683
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -826,11 +858,17 @@
       "attack": 3,
       "manaCost": 3,
       "name": "Darkglare",
-      "text": "After your hero takes damage, refresh a Mana Crystal.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9cf06251fe146e14aa9a523c1f37a9c858f7cae692f26414d1a523b91b673461.png",
+      "text": "<b>Battlecry:</b> If your hero took damage this turn, refresh 3 Mana Crystals.",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c255bbc06a0dc015493c5f65f8e56c460915210a3dae76f0875f2766a6757b9b.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ef6292117c5b678d6b82be4b013de30cde72c1868566e2e39b73245f6990f2.png",
       "flavorText": "He's got a dark glare, but he sees crystal clear!",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ce4856ce6d620a97aaa57c59d37581638151ffa777da19a7ac0791443cb2bde.png",
+      "keywordIds": [
+        8
+      ],
+      "copyOfCardId": [
+        75948
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -900,7 +938,7 @@
       "manaCost": 4,
       "name": "Disguised Wanderer",
       "text": "<b>Deathrattle:</b> Summon a 9/1 Inquisitor.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/322f4930e83e2a23b62ce53aaf6bfb4b3203adb877043f30d29afe4330c2f1a3.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/24d27ac98360bd58c0ec9c981e2a435a6207a4d821aa51bae11c8ce06c96c7b9.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26d2c7b56a3449b95d9583e65ce0255edc4db8885546b85139d40568f371f175.png",
       "flavorText": "He wanders east... always into the east.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abcb43c68817ca4d3441a9d5cacf0bd40638cc96fb77177f78d90b50b46e9f32.png",
@@ -950,7 +988,7 @@
       "manaCost": 2,
       "name": "Dragonmaw Sentinel",
       "text": "<b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Lifesteal</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161fcddc29fb39a8fa26ab6ab5373027b7bbf55fd61d21ef9bb7b972f1f0839f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9f71bfc95b352e4386a4d58d3fcb3acab0be85c9a35b3c7ff71e7883d73fd30.png",
       "imageGold": "",
       "flavorText": "On the side, she's training for the annual Dragonmaw hammer throw tournament.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd9d194f73ae7a80d14a45c049cabf1f46861a65ba5a3f4e7f5c7315ef8177b5.png",
@@ -1006,7 +1044,7 @@
       "manaCost": 8,
       "name": "Enhanced Dreadlord",
       "text": "<b>Taunt</b> <b>Deathrattle:</b> Summon a 5/5 Dreadlord with <b>Lifesteal</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d997a7afa24a0aba9e93e2853cf04bb1de4832d9547266a3084c8dcc4a104669.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b9988385aa21388865243c3448001e4c543c51542b0aab279e44a2fcdd84d84.png",
       "imageGold": "",
       "flavorText": "Photo actually taken across the street in the reflection of a doorknob.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a924777b72fc82ebca9b242bc94756c4b72285b24f363383044c6a7d0ca86120.png",
@@ -1017,6 +1055,9 @@
         1,
         12,
         38
+      ],
+      "copyOfCardId": [
+        97346
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

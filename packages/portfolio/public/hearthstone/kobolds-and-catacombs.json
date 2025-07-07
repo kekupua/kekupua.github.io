@@ -10,9 +10,8 @@
       "cardSetId": 1004,
       "rarityId": 5,
       "artistName": "Izzy Hoover",
-      "attack": 0,
+      "health": 3,
       "manaCost": 6,
-      "durability": 3,
       "name": "Aluneth",
       "text": "At the end of your turn, draw 3 cards.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d94373aa22a1136af6898f9ce31d8d6ee0fbb18a0cc9c7e3c3c3f3cafaa94e3.png",
@@ -42,6 +41,9 @@
       "imageGold": "",
       "flavorText": "Ethereal armor dissipates in 6 hours which can cause extreme awkwardness for first time buyers.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a35cbd10417f211bdc94348c3104422381d4f5b0b828371d3814abf831eaae5.png",
+      "copyOfCardId": [
+        97374
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -148,12 +150,11 @@
       "cardSetId": 1004,
       "rarityId": 4,
       "artistName": "Luca Zontini",
-      "attack": 0,
+      "health": 2,
       "manaCost": 2,
-      "durability": 2,
       "name": "Bladed Gauntlet",
       "text": "Has Attack equal to your Armor. Can't attack heroes.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e847338a5f5eca2e1dda0dc1b374c08eb0b7cfe2ebcce71aa143503255b1fbd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82f433ecd44f36e0465be8669b9693f756869f72a616f4555384ba26c8a8a4af.png",
       "imageGold": "",
       "flavorText": "CAUTION: DO NOT SCRATCH NOSE.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49c540d23979b5f0f2e08bd763cfe1816df252dea05dfb36633c2557574a3b86.png",
@@ -243,9 +244,9 @@
       "cardSetId": 1004,
       "rarityId": 1,
       "artistName": "Anton Kagounkin",
+      "health": 3,
       "attack": 1,
       "manaCost": 1,
-      "durability": 3,
       "name": "Candleshot",
       "text": "Your hero is <b>Immune</b> while attacking.",
       "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/68b322790563db696fdbb3536a3b7aa45be796fefea9c13a805be59d69337c7f.png",
@@ -254,6 +255,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ddfa5c36f47dcc0c9d13df9bad97e051a3b43f8e61f868b4fd983f2751b075ed.png",
       "keywordIds": [
         17
+      ],
+      "copyOfCardId": [
+        86543
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -372,6 +376,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9635bff8b47d720c9ddcc0493d134c64f8b421647ccb5472b9fe45999c539c40.png",
       "keywordIds": [
         5
+      ],
+      "copyOfCardId": [
+        102203
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -598,12 +605,11 @@
       "cardSetId": 1004,
       "rarityId": 5,
       "artistName": "Tyler Walpole",
-      "attack": 0,
+      "health": 3,
       "manaCost": 3,
-      "durability": 3,
       "name": "Dragon Soul",
       "text": "After you cast 3 spells in a turn, summon a 5/5 Dragon.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/310005f2ab2317d64b8eef91c3ce9c3227ccd3fe49d98220a09071cc907ea6a7.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44a37b8587afc2fe885ea9dfa8aa4f292a8953bdcb925bc2b355a5cfae35ef1a.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa11d1cb1015600003a682ba917ea939ee1a058310f27e29a523cccd2fb2eff9.png",
       "flavorText": "Crafted by Deathwing's goblin horde, but the dragon added the rainbow sparkles himself.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4cde232ec88f85a7fe9aae6e792b757702ac26d193887cad3486e3bb8664b55.png",
@@ -785,6 +791,9 @@
       "keywordIds": [
         8
       ],
+      "copyOfCardId": [
+        75944
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -836,6 +845,9 @@
       "keywordIds": [
         13
       ],
+      "copyOfCardId": [
+        97344
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -884,6 +896,9 @@
       "keywordIds": [
         5
       ],
+      "copyOfCardId": [
+        86235
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -912,6 +927,9 @@
       ],
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        111379
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false

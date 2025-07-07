@@ -1,9 +1,42 @@
 [
   {
+    "id": 1952,
+    "name": "The Lost City of Un'Goro",
+    "slug": "the-lost-city-of-ungoro",
+    "hyped": true,
+    "type": "",
+    "collectibleCount": 145,
+    "collectibleRevealedCount": 145,
+    "nonCollectibleCount": 101,
+    "nonCollectibleRevealedCount": 99
+  },
+  {
+    "id": 1946,
+    "name": "Into the Emerald Dream",
+    "slug": "into-the-emerald-dream",
+    "hyped": false,
+    "type": "",
+    "collectibleCount": 183,
+    "collectibleRevealedCount": 183,
+    "nonCollectibleCount": 99,
+    "nonCollectibleRevealedCount": 78
+  },
+  {
+    "id": 1935,
+    "name": "The Great Dark Beyond",
+    "slug": "the-great-dark-beyond",
+    "hyped": false,
+    "type": "expansion",
+    "collectibleCount": 194,
+    "collectibleRevealedCount": 194,
+    "nonCollectibleCount": 95,
+    "nonCollectibleRevealedCount": 55
+  },
+  {
     "id": 1905,
     "name": "Perils in Paradise",
     "slug": "perils-in-paradise",
-    "hyped": true,
+    "hyped": false,
     "type": "expansion",
     "collectibleCount": 183,
     "collectibleRevealedCount": 183,
@@ -27,10 +60,10 @@
     "slug": "event",
     "hyped": false,
     "type": "expansion",
-    "collectibleCount": 12,
-    "collectibleRevealedCount": 12,
-    "nonCollectibleCount": 6,
-    "nonCollectibleRevealedCount": 0
+    "collectibleCount": 5,
+    "collectibleRevealedCount": 5,
+    "nonCollectibleCount": 12,
+    "nonCollectibleRevealedCount": 4
   },
   {
     "id": 1892,
@@ -40,8 +73,8 @@
     "type": "expansion",
     "collectibleCount": 183,
     "collectibleRevealedCount": 183,
-    "nonCollectibleCount": 90,
-    "nonCollectibleRevealedCount": 87
+    "nonCollectibleCount": 88,
+    "nonCollectibleRevealedCount": 85
   },
   {
     "id": 1858,
@@ -62,8 +95,8 @@
     "type": "expansion",
     "collectibleCount": 183,
     "collectibleRevealedCount": 183,
-    "nonCollectibleCount": 75,
-    "nonCollectibleRevealedCount": 61
+    "nonCollectibleCount": 73,
+    "nonCollectibleRevealedCount": 60
   },
   {
     "id": 1898,
@@ -84,8 +117,8 @@
     "type": "expansion",
     "collectibleCount": 183,
     "collectibleRevealedCount": 183,
-    "nonCollectibleCount": 137,
-    "nonCollectibleRevealedCount": 64
+    "nonCollectibleCount": 131,
+    "nonCollectibleRevealedCount": 62
   },
   {
     "id": 1869,
@@ -110,17 +143,6 @@
     "nonCollectibleRevealedCount": 53
   },
   {
-    "id": 1646,
-    "name": "Classic Cards",
-    "slug": "classic-cards",
-    "hyped": false,
-    "type": "",
-    "collectibleCount": 382,
-    "collectibleRevealedCount": 382,
-    "nonCollectibleCount": 96,
-    "nonCollectibleRevealedCount": 63
-  },
-  {
     "id": 1658,
     "name": "Voyage to the Sunken City",
     "slug": "voyage-to-the-sunken-city",
@@ -129,7 +151,7 @@
     "collectibleCount": 170,
     "collectibleRevealedCount": 170,
     "nonCollectibleCount": 522,
-    "nonCollectibleRevealedCount": 78
+    "nonCollectibleRevealedCount": 80
   },
   {
     "id": 1626,
@@ -139,7 +161,7 @@
     "type": "expansion",
     "collectibleCount": 170,
     "collectibleRevealedCount": 170,
-    "nonCollectibleCount": 380,
+    "nonCollectibleCount": 382,
     "nonCollectibleRevealedCount": 107
   },
   {
@@ -194,8 +216,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 91,
-    "nonCollectibleRevealedCount": 55
+    "nonCollectibleCount": 89,
+    "nonCollectibleRevealedCount": 54
   },
   {
     "id": 1463,
@@ -227,7 +249,7 @@
     "type": "expansion",
     "collectibleCount": 140,
     "collectibleRevealedCount": 140,
-    "nonCollectibleCount": 61,
+    "nonCollectibleCount": 63,
     "nonCollectibleRevealedCount": 54
   },
   {
@@ -238,7 +260,7 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 50,
+    "nonCollectibleCount": 44,
     "nonCollectibleRevealedCount": 28
   },
   {
@@ -249,8 +271,8 @@
     "type": "expansion",
     "collectibleCount": 136,
     "collectibleRevealedCount": 136,
-    "nonCollectibleCount": 55,
-    "nonCollectibleRevealedCount": 40
+    "nonCollectibleCount": 52,
+    "nonCollectibleRevealedCount": 38
   },
   {
     "id": 1129,
@@ -271,8 +293,8 @@
     "type": "expansion",
     "collectibleCount": 136,
     "collectibleRevealedCount": 136,
-    "nonCollectibleCount": 32,
-    "nonCollectibleRevealedCount": 25
+    "nonCollectibleCount": 28,
+    "nonCollectibleRevealedCount": 21
   },
   {
     "id": 1125,
@@ -282,8 +304,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 32,
-    "nonCollectibleRevealedCount": 26
+    "nonCollectibleCount": 28,
+    "nonCollectibleRevealedCount": 24
   },
   {
     "id": 1004,
@@ -293,8 +315,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 85,
-    "nonCollectibleRevealedCount": 75
+    "nonCollectibleCount": 83,
+    "nonCollectibleRevealedCount": 74
   },
   {
     "id": 1001,
@@ -304,8 +326,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 127,
-    "nonCollectibleRevealedCount": 53
+    "nonCollectibleCount": 115,
+    "nonCollectibleRevealedCount": 48
   },
   {
     "id": 27,
@@ -315,8 +337,8 @@
     "type": "expansion",
     "collectibleCount": 135,
     "collectibleRevealedCount": 135,
-    "nonCollectibleCount": 57,
-    "nonCollectibleRevealedCount": 57
+    "nonCollectibleCount": 55,
+    "nonCollectibleRevealedCount": 55
   },
   {
     "id": 25,
@@ -326,8 +348,8 @@
     "type": "expansion",
     "collectibleCount": 132,
     "collectibleRevealedCount": 132,
-    "nonCollectibleCount": 93,
-    "nonCollectibleRevealedCount": 84
+    "nonCollectibleCount": 90,
+    "nonCollectibleRevealedCount": 82
   },
   {
     "id": 23,
@@ -349,7 +371,7 @@
     "collectibleCount": 134,
     "collectibleRevealedCount": 134,
     "nonCollectibleCount": 40,
-    "nonCollectibleRevealedCount": 26
+    "nonCollectibleRevealedCount": 25
   },
   {
     "id": 20,
@@ -359,8 +381,8 @@
     "type": "adventure",
     "collectibleCount": 45,
     "collectibleRevealedCount": 45,
-    "nonCollectibleCount": 188,
-    "nonCollectibleRevealedCount": 15
+    "nonCollectibleCount": 185,
+    "nonCollectibleRevealedCount": 13
   },
   {
     "id": 15,
@@ -381,7 +403,7 @@
     "type": "adventure",
     "collectibleCount": 31,
     "collectibleRevealedCount": 31,
-    "nonCollectibleCount": 175,
+    "nonCollectibleCount": 176,
     "nonCollectibleRevealedCount": 10
   },
   {
@@ -392,8 +414,8 @@
     "type": "expansion",
     "collectibleCount": 123,
     "collectibleRevealedCount": 123,
-    "nonCollectibleCount": 33,
-    "nonCollectibleRevealedCount": 20
+    "nonCollectibleCount": 29,
+    "nonCollectibleRevealedCount": 17
   },
   {
     "id": 12,
@@ -403,7 +425,7 @@
     "type": "adventure",
     "collectibleCount": 30,
     "collectibleRevealedCount": 30,
-    "nonCollectibleCount": 118,
+    "nonCollectibleCount": 117,
     "nonCollectibleRevealedCount": 114
   },
   {
@@ -416,10 +438,10 @@
     ],
     "hyped": false,
     "type": "",
-    "collectibleCount": 450,
-    "collectibleRevealedCount": 445,
-    "nonCollectibleCount": 174,
-    "nonCollectibleRevealedCount": 127
+    "collectibleCount": 467,
+    "collectibleRevealedCount": 467,
+    "nonCollectibleCount": 166,
+    "nonCollectibleRevealedCount": 123
   },
   {
     "id": 1637,
@@ -427,9 +449,9 @@
     "slug": "core",
     "hyped": false,
     "type": "",
-    "collectibleCount": 291,
-    "collectibleRevealedCount": 291,
-    "nonCollectibleCount": 59,
-    "nonCollectibleRevealedCount": 12
+    "collectibleCount": 288,
+    "collectibleRevealedCount": 288,
+    "nonCollectibleCount": 58,
+    "nonCollectibleRevealedCount": 18
   }
 ]

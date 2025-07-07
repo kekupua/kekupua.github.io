@@ -47,6 +47,9 @@
       "keywordIds": [
         5
       ],
+      "copyOfCardId": [
+        69704
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -73,6 +76,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        69714
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -91,7 +97,7 @@
       "manaCost": 3,
       "name": "Dancing Swords",
       "text": "<b>Deathrattle:</b> Your opponent draws a card.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4ba8f5218b9942c4667af0d87f82ef6c111395dc1a50b79adcef0f86a2ace99.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e173eebcd3d1278eec8f1e2ac0d12f5730a888a7ad93e06edd382ee9465f34e.png",
       "imageGold": "",
       "flavorText": "They like to dance to reggae.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4bf81bfc465fe3ef5e65ae4a18b1afed5b8017615448cbae0ae05654eb163d4.png",
@@ -116,7 +122,7 @@
       "manaCost": 3,
       "name": "Dark Cultist",
       "text": "<b>Deathrattle:</b> Give a random friendly minion +3 Health.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07a69d042a4c94020777e2fafe826d2a127d67064ed6ff6d9a533cd8360de7e5.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/05b23491a216b3b923a3cb75ff82e979e177243aeb97743df9d85c34ddd8e23d.png",
       "imageGold": "",
       "flavorText": "The Cult of the Damned has found it's best not to mention their name when recruiting new cultists.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e06012e1c9eac55842d2a389fe42a199a848ecac16f8054a973d9a3e0cc2412.png",
@@ -136,15 +142,15 @@
       "cardSetId": 12,
       "rarityId": 1,
       "artistName": "Jim Nelson",
+      "health": 2,
       "attack": 4,
       "manaCost": 4,
-      "durability": 2,
       "name": "Death's Bite",
       "text": "<b>Deathrattle:</b> Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf283874be2684e0a8466c6e5341f9056a53fb54217a73ae05ae2d8c10c1d82c.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ab99d637c7f852037298f97695fd499f0cfdfde2fdca98dc7edeb31b3b7b8d7.png",
       "imageGold": "",
       "flavorText": "\"Take a bite outta Death.\" - McScruff the Deathlord",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35db7b0fdc18f0345f8956989c0df6eac14d82f54df2099b0cee84ff97266783.jpg",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9c69aaa801911c5cab28d2e5de90cc5988a9220328b38832d14511638b33e13.png",
       "keywordIds": [
         12
       ],
@@ -243,7 +249,7 @@
       "manaCost": 5,
       "name": "Feugen",
       "text": "<b>Deathrattle:</b> If Stalagg also died this game, summon Thaddius.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f07b742b50139e0ab88a4d1ab6d0a59d0d7a900ea7da14166741c62cf0ce5bd.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a24d6684211771d3a155b5022d663b2eb1a595d963097b4590b1bca59469ad24.png",
       "imageGold": "",
       "flavorText": "Feugen is sad because everyone likes Stalagg better.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc33fec94486f4839c5337338b48efd3699727c12c2dc8a1eb41c80e53e2b525.png",
@@ -273,7 +279,7 @@
       "manaCost": 2,
       "name": "Haunted Creeper",
       "text": "<b>Deathrattle:</b> Summon two 1/1 Spectral Spiders.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9221e3fc92cfe8ec34ae2db0ab779ce6032602c0a1e442462010a45a9a7b69e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f35e91c15c6ba21c2be65cb956356315edbb619ae2ab45a31c2d1fd894509445.png",
       "imageGold": "",
       "flavorText": "Arachnofauxbia: Fear of fake spiders.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1037dca0651ef4f59d143353f3b106d6362a87acc7dcbd873ceba0c4d69f7aa.png",
@@ -331,6 +337,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/483a1864c2e1ebae5846a1ba6ded9ef13c8b975e5330aafdeb3e8ebb13e706aa.png",
       "keywordIds": [
         8
+      ],
+      "copyOfCardId": [
+        120998
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -439,6 +448,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        69713
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -456,7 +468,7 @@
       "manaCost": 4,
       "name": "Poison Seeds",
       "text": "Destroy all minions and summon 2/2 Treants to replace them.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62170e2c028b1c906c133bca9d143fc954b0f53371f8e0d9e4fa3a9f90f7af60.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/88872321d5fa99f20150a6d0bc24a70277e86da6e537faa47edfe36d2c490df2.png",
       "imageGold": "",
       "flavorText": "\"Poisonseed Bagel\" is the least popular bagel at McTiggin's Druidic Bagel Emporium.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57e68a0a5de662901e1e6e24a3f8e24276a8021a3a25b867ea86e59475021750.png",
@@ -484,6 +496,9 @@
       "imageGold": "",
       "flavorText": "It's like birth, except you're an adult and you were just dead a second ago.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ff8b642d86a634f385eef91b3844f4cca78b1e853b1f49e71d68a6b6b897351.png",
+      "copyOfCardId": [
+        103238
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -529,7 +544,7 @@
       "manaCost": 5,
       "name": "Sludge Belcher",
       "text": "<b>Taunt</b> <b>Deathrattle:</b> Summon a 1/2 Slime with <b>Taunt</b>.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0423b49cefc4203a24a46ee967d28117d1e133620b2c94af7dc124ae1f51a24a.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a4d6ec95de25ca1d34ce662fe29d91106aac33c61a0fb1e4120c109d2219035.png",
       "imageGold": "",
       "flavorText": "DO NOT GIVE HIM A ROOT BEER.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4ec48d1e239bec003b078d524baa95ae9b0a057d8c449f32b48e6e26544ccff1.png",
@@ -539,6 +554,9 @@
       "keywordIds": [
         1,
         12
+      ],
+      "copyOfCardId": [
+        102672
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -664,7 +682,7 @@
       "manaCost": 2,
       "name": "Unstable Ghoul",
       "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 1 damage to all minions.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4c3560d81f0093550220de525cc1d0b38d526f0dc92dab412e059485e58469f.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc37fe8974729c37345948f1835d2d5a2454075e87720a290f0873d146923076.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99787a0a6c1bea2d7a52f8139f7390da078fa6ea66f655d193bd79bd421792c7.png",
       "flavorText": "Filling your Ghouls with Rocket Fuel is all the rage at Necromancer school.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a332ea65366b5df56a419e8ac735548e25768c4035b99ff5213a1eeb34749cf3.png",
@@ -691,12 +709,15 @@
       "manaCost": 4,
       "name": "Voidcaller",
       "text": "<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af7ea9ddef99d6d4332e9496534b04d0abd1e0c399b31058edea485091cc5e14.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/124b62673c7cb0f4ed89bd5b3e140e5fba9f743bfc279691ad0a250d594471f8.png",
       "imageGold": "",
       "flavorText": "\"Void! Here, void! Here, buddy!\"",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c38c865cb6437b5855309f980e0ffae6053aee34b6457e97c070054f54fdf480.png",
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        102211
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -751,6 +772,9 @@
       "keywordIds": [
         12
       ],
+      "copyOfCardId": [
+        69692
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -770,7 +794,7 @@
       "manaCost": 1,
       "name": "Zombie Chow",
       "text": "<b>Deathrattle:</b> Restore 5 Health to the enemy hero.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1d73b508c4a22f60b747a950b4bf74a18d14cf98447e4a5659947947b024d1e.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bcc1bfdb43ca6213eeeac1515bb0f3ec10f0e1e469357a40ea83e67e1401c683.png",
       "imageGold": "",
       "flavorText": "Zombie. It's what's for dinner.",
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc3b4a472fd8b8b63dac0b955253f23d7b62899f0e77439c079d074904754fd5.png",

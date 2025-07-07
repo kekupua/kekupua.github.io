@@ -305,6 +305,9 @@
       "keywordIds": [
         6
       ],
+      "copyOfCardId": [
+        89354
+      ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
@@ -379,6 +382,9 @@
       "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11b9ef4b03e6e801075e1f25c273808097bec78a506e53c6b594b16a1914d116.png",
       "keywordIds": [
         12
+      ],
+      "copyOfCardId": [
+        117061
       ],
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
@@ -711,6 +717,7 @@
       "slug": "56116-skydiving-instructor",
       "classId": 12,
       "multiClassIds": [],
+      "minionTypeId": 2,
       "cardTypeId": 4,
       "cardSetId": 1403,
       "rarityId": 1,
@@ -720,10 +727,10 @@
       "manaCost": 3,
       "name": "Skydiving Instructor",
       "text": "<b>Battlecry:</b> Summon a 1-Cost minion from your deck.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31d9b2028d6a5d18444212e6b12e537cabe8317a1a152f5ed6f71c99f09a4068.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c83e60ed3c15270d23ac8375696cbedb8685df956f58f94ae1aabadacaed6cf1.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d00ab17a340192632cc2b5d4f16d68de302e9a1eee95e5e4b58284da07bc2c0.png",
       "flavorText": "\"Is it dangerous?\" \"For me? Not at all. Now jump!\"",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b426f7898e92878e6810b531db4449b84abf2b4baff3caaf6bead6880c7b35ee.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9772cd0459f98ef6355294efb6c5ca586e12ab921de4944027099aa30354547e.png",
       "keywordIds": [
         8
       ],
@@ -821,15 +828,15 @@
       "cardSetId": 1403,
       "rarityId": 5,
       "artistName": "Katherine Fortune",
+      "health": 4,
       "attack": 1,
       "manaCost": 4,
-      "durability": 4,
       "name": "The Fist of Ra-den",
       "text": "After you cast a spell, summon a <b>Legendary</b> minion of that Cost. Lose 1 Durability.",
-      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/653c850d404ebe9a7b73b63f72b8d8532ccf8be1d70a986bcd20cdec9dfa8eec.png",
+      "image": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/132b9903d4829a420d0f09524c638a2b3d9e2e249a1560b50879c9cd4077a853.png",
       "imageGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7473e4aebd169b554b5d8610c1a85fe06738388df4928ad845309711169ea5d1.png",
       "flavorText": "The mighty Ra-den was known as the Keeper of Storms. Unfortunately, he could not keep his fist.",
-      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca1372d399e3e268c746aaf7cfb51003c9418863f715f95fd152bd79041597c.png",
+      "cropImage": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed4dbe8118c6d24f3766617c1f96824e042d28d343f9b1f08418cfddbe0204e7.png",
       "isZilliaxFunctionalModule": false,
       "isZilliaxCosmeticModule": false
     },
