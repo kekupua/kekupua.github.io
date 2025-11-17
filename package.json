@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "dependencies": {
-    "pnpm": "^9.10.0"
+  "engines": {
+    "pnpm": ">=10"
   },
   "scripts": {
     "format": "pnpm -r format",
@@ -19,6 +19,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-unused-imports": "^4.1.4",
+    "pnpm": "^10.22.0",
     "openai": "catalog:",
     "tsx": "catalog:"
   }

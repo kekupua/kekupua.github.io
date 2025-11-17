@@ -4,6 +4,8 @@ import Groups from '../lib/hearthstone-set-group-metadata.json';
 import Standard from '../svgs/standard.svg';
 import Wild from '../svgs/wild.svg';
 import '../styles/Hearthstone.css';
+import { Section } from '../components/section';
+import { Header } from '../components/Header';
 
 const getRandomSet = (sets) => {
   const slug = sets[Math.floor(Math.random() * sets.length)];
@@ -70,7 +72,7 @@ const HearthstoneRandomCard = () => {
   }, [mode]);
 
   return (
-    <st-section id='main-section' style={{ width: '100%' }}>
+    <Section id='main-section' className='h-full w-full pt-20'>
       <div id='card-section' ref={cardSectionRef}>
         <div className='hs-controls'>
           <st-button icon='refresh' onClick={mountCard}></st-button>
@@ -96,16 +98,14 @@ const HearthstoneRandomCard = () => {
           alt={chosenCard.name}
           style={{ maxWidth: '100%' }}
         />
-        <st-header layout='center' style={{ margin: 'var(--size-300) auto' }}>
-          <h2 className='st-text-400' slot='heading'>
-            {chosenSet.name}
-          </h2>
-          <p className='st-text-200' slot='description'>
+        <Header layout='center'>
+          <h2 className='st-text-400'>{chosenSet.name}</h2>
+          <p className='st-text-200'>
             <em>{chosenCard.flavorText}</em>
           </p>
-        </st-header>
+        </Header>
       </div>
-    </st-section>
+    </Section>
   );
 };
 export default HearthstoneRandomCard;

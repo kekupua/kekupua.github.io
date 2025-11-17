@@ -4,20 +4,21 @@ import LandingPage from './pages/LandingPage';
 import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { RecipeDetailPage } from './pages/Recipe/RecipeDetailPage';
+import { RecipeListPage } from './pages/Recipe/RecipeListPage';
 
 export const App = () => {
   return (
     <div className='App'>
       <Router>
         <div>
-          {/* @ts-ignore: Side-effect loaded WC */}
-          <st-nav>
+          <nav className='flex gap-6 justify-center py-4 st-text-100'>
             <HashLink to='/#about'>About</HashLink>
             <HashLink to='/#projects'>Projects</HashLink>
             <HashLink to='/#contact'>Contact</HashLink>
             <Link to={'/random-hearthstone'}>HRC</Link>
-            {/* @ts-ignore: Side-effect loaded WC */}
-          </st-nav>
+            <Link to={'/recipesByGpt'}>Recipes</Link>
+          </nav>
 
           <Routes>
             <Route path='/' element={<LandingPage />} />
@@ -25,6 +26,8 @@ export const App = () => {
               path='/random-hearthstone'
               element={<HearthstoneRandomCard />}
             />
+            <Route path='/recipesByGpt' element={<RecipeListPage />} />
+            <Route path='/recipesByGpt/:id' element={<RecipeDetailPage />} />
           </Routes>
         </div>
       </Router>

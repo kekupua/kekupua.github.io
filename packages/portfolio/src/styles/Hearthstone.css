@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.App.isHearthstone div:first-of-type {
+  flex: 1;
+}
+
 #main-section {
   position: relative;
   flex: 1;
