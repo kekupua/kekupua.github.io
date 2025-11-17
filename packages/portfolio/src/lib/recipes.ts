@@ -4,6 +4,7 @@ export const recipes: Recipe[] = [
   {
     id: 'quick-bulgogi',
     title: 'Quick Bulgogi',
+    imageUrl: '/images/recipes/quickBulgogi.png',
     description:
       'A fast and flavorful Korean beef dish made with thinly sliced marinated beef, perfect for a weeknight dinner.',
     prepTime: '10 minutes',
@@ -43,6 +44,7 @@ export const recipes: Recipe[] = [
   {
     id: 'cajun-salmon',
     title: 'Cajun Salmon',
+    imageUrl: '/images/recipes/cajunSalmon.png',
     description:
       'A simple but incredible Cajun salmon recipe that hits all the right notes - smoky, spicy, buttery, and juicy inside with a perfect crust.',
     prepTime: '10 minutes',

@@ -20,7 +20,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
           src={recipe.imageUrl ?? 'https://picsum.photos/500/600'}
           alt={recipe.title}
         />
-        <div className='absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-opacity duration-300'></div>
+        <div className='absolute inset-0 bg-black opacity-20 group-hover:opacity-10 transition-opacity duration-300'></div>
       </div>
       <div className='p-6'>
         <h2 className='text-2xl font-bold text-text-primary mb-2 group-hover:text-brand-primary transition-colors duration-300'>
