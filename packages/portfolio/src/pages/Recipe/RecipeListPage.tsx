@@ -1,7 +1,7 @@
 import React from 'react';
 import { recipes } from '../../lib/recipes';
 import RecipeCard from '../../components/Recipe/RecipeCard';
-import { Section } from '../../components/section';
+import { Section } from '../../components/Section';
 import { Header } from '../../components/Header';
 
 export const RecipeListPage: React.FC = () => {
