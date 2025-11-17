@@ -4,7 +4,7 @@ import Groups from '../lib/hearthstone-set-group-metadata.json';
 import Standard from '../svgs/standard.svg';
 import Wild from '../svgs/wild.svg';
 import '../styles/Hearthstone.css';
-import { Section } from '../components/section';
+import { Section } from '../components/Section';
 import { Header } from '../components/Header';
 
 const getRandomSet = (sets) => {

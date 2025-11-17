@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../lib/data';
 import { Link } from 'react-router-dom';
-import { Section } from '../components/section';
+import { Section } from '../components/Section';
 import { Header } from '../components/Header';
 import '../styles/LandingPage.css';
 
