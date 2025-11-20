@@ -1,3 +1,4 @@
+import { Code2, Cpu, Database, Layout, Server } from 'lucide-react';
 import bond from '../images/bond.jpg';
 import family_christmas from '../images/family_christmas.jpg';
 import hearthstone_puzzle from '../images/hearthstone_puzzle.jpg';
@@ -6,9 +7,40 @@ import korea from '../images/korea.jpg';
 import mom from '../images/mom.jpg';
 import questboardsHome from '../images/qbHome.png';
 import sophie from '../images/sophie.jpg';
-import sue_sean from '../images/sue_sean.jpg';
 
-const data = {
+export const ABOUT_TEXT = `
+  I am a passionate Senior Frontend Engineer with over 10 years of experience building scalable web applications. 
+  My journey began with a curiosity for how things work on the web, which quickly evolved into a career dedicated to crafting intuitive and performant user experiences.
+  I'm originally from Honolulu, Hawaii and I graduated from the University of Hawaii at Manoa. I currently am employed in Irvine, CA working on exciting web technologies at NVIDIA.
+  
+  When I'm not coding, I'm enjoying life with my wife and two dogs, experimenting with new cooking recipes, or playing some of my favorite games such as Marvel Snap.
+  I believe in the power of continuous learning and am currently diving into the world of Generative AI.
+`;
+
+export const SKILLS = [
+  {
+    name: 'React 18+',
+    icon: <Code2 className='w-5 h-5' />,
+    category: 'frontend',
+  },
+  {
+    name: 'TypeScript',
+    icon: <Layout className='w-5 h-5' />,
+    category: 'frontend',
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: <Layout className='w-5 h-5' />,
+    category: 'frontend',
+  },
+  {
+    name: 'Node.js',
+    icon: <Server className='w-5 h-5' />,
+    category: 'backend',
+  },
+];
+
+export const data = {
   intro: `Hi! My name is Sean Teramae. I'm originally from Honolulu, Hawaii and I graduated from the University of Hawaii at Manoa.\n
     I currently am employed in Irvine, CA working on exciting web technologies at NVIDIA.
     `,
@@ -48,11 +80,6 @@ const data = {
       title: 'Sophie',
       caption: 'Our mix Labrador named Sophie!',
     },
-    {
-      src: sue_sean,
-      title: 'Dinner Date',
-      caption: 'My girlfriend and I out to dinner (pre-pandemic)',
-    },
   ],
   projects: [
     {
@@ -65,7 +92,7 @@ const data = {
     },
     {
       image: '/images/snapchatLogo.png',
-      routerLink: 'https://forbusiness.snapchat.com/',
+      href: 'https://forbusiness.snapchat.com/',
       heading: 'Snapchat BizX',
       subheading: '2022 - Present',
       description:
@@ -180,4 +207,3 @@ const data = {
   ],
 };
 
-export default data;

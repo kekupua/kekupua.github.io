@@ -11,4 +11,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+
+@theme {
+  --color-brand-DEFAULT: #19647e;
+  --color-brand-50: #eef7f9;
+  --color-brand-100: #d5ebf0;
+  --color-brand-200: #afdbe5;
+  --color-brand-300: #7cc3d4;
+  --color-brand-400: #4fa4bd;
+  --color-brand-500: #2f88a4;
+  --color-brand-600: #19647e;
+  --color-brand-700: #175268;
+  --color-brand-800: #184557;
+  --color-brand-900: #173a49;
+  --font-sans: 'Inter', sans-serif;
+  --animation-fade-in-up: fadeInUp 0.3s ease-out forwards;
+  --keyframe-fadeInUp-0: { opacity: 0; transform: translateY(10px); }
+  --keyframe-fadeInUp-100: { opacity: 1; transform: translateY(0); }
 }
