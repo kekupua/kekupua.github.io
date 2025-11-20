@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { recipes } from '../../lib/recipes';
 import { ClockIcon } from '../../components/Recipe/icons/ClockIcon';
 import { UsersIcon } from '../../components/Recipe/icons/UsersIcon';
+import { HashLink } from 'react-router-hash-link';
 
 export const RecipeDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -15,12 +16,12 @@ export const RecipeDetailPage: React.FC = () => {
         <p className='text-text-secondary mb-8'>
           Sorry, we couldn't find the recipe you're looking for.
         </p>
-        <Link
+        <HashLink
           to='/recipesByGpt'
           className='bg-brand-primary font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-colors'
         >
           Back to Recipes
-        </Link>
+        </HashLink>
       </div>
     );
   }
@@ -28,12 +29,12 @@ export const RecipeDetailPage: React.FC = () => {
   return (
     <div className='max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden p-4 sm:p-8'>
       <div className='flex flex-col items-center gap-4 mb-8'>
-        <Link
+        <HashLink
           to='/recipesByGpt'
           className='text-brand-primary hover:underline mb-6 inline-block'
         >
           &larr; Back to all recipes
-        </Link>
+        </HashLink>
         <h1 className='text-4xl sm:text-5xl font-extrabold text-text-primary mb-4'>
           {recipe.title}
         </h1>

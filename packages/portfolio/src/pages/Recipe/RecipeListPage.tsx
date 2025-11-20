@@ -3,10 +3,17 @@ import { recipes } from '../../lib/recipes';
 import RecipeCard from '../../components/Recipe/RecipeCard';
 import { Section } from '../../components/Section';
 import { Header } from '../../components/Header';
+import { HashLink } from 'react-router-hash-link';
 
 export const RecipeListPage: React.FC = () => {
   return (
     <Section className='animate-fade-in'>
+      <HashLink
+        to='/'
+        className='text-brand-primary hover:underline mb-6 inline-block'
+      >
+        &larr; Back to portfolio
+      </HashLink>
       <Header>
         <h1>Our Recipe Collection</h1>
         <p className='st-text-200'>

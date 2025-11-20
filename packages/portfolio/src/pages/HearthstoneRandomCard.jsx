@@ -6,6 +6,7 @@ import Wild from '../svgs/wild.svg';
 import '../styles/Hearthstone.css';
 import { Section } from '../components/Section';
 import { Header } from '../components/Header';
+import { HashLink } from 'react-router-hash-link';
 
 const getRandomSet = (sets) => {
   const slug = sets[Math.floor(Math.random() * sets.length)];
@@ -105,6 +106,12 @@ const HearthstoneRandomCard = () => {
           </p>
         </Header>
       </div>
+      <HashLink
+        to='/'
+        className='text-brand-primary hover:underline mb-6 inline-block'
+      >
+        &larr; Back to portfolio
+      </HashLink>
     </Section>
   );
 };

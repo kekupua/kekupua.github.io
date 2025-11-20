@@ -1,9 +1,18 @@
 import { ExternalLink, Github, Link } from "lucide-react";
 import { data } from "../lib/data";
 import { HashLink } from "react-router-hash-link";
+import { useNavigate } from "react-router-dom";
 
 export const Projects: React.FC = () => {
+  const navigate = useNavigate();
   const PROJECTS = data.projects;
+  const onCardClick = (project: typeof PROJECTS[number]) => () => {
+    if (project.routerLink) {
+      navigate(project.routerLink);
+    } else if (project.href) {
+      window.open(project.href, "_blank", "noopener noreferrer");
+    }
+  }
   return (
     <section id="projects" className="py-24 bg-slate-50">
       <div className="container mx-auto px-6">
@@ -21,7 +30,8 @@ export const Projects: React.FC = () => {
           {PROJECTS.map((project) => (
             <div
               key={project.heading}
-              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group flex flex-col"
+              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group flex flex-col cursor-pointer"
+              onClick={onCardClick(project)}
             >
               {/* Image Area */}
               <div className="relative h-48 overflow-hidden">
