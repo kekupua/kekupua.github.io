@@ -2,7 +2,7 @@ import '@kekupua/web-components';
 import './styles/App.css';
 import LandingPage from './pages/LandingPage';
 import HearthstoneRandomCard from './pages/HearthstoneRandomCard';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { Route, Link, Routes, HashRouter } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { RecipeDetailPage } from './pages/Recipe/RecipeDetailPage';
 import { RecipeListPage } from './pages/Recipe/RecipeListPage';
@@ -10,7 +10,7 @@ import { RecipeListPage } from './pages/Recipe/RecipeListPage';
 export const App = () => {
   return (
     <div className='App'>
-      <Router>
+      <HashRouter>
         <div>
           <nav className='flex gap-6 justify-center py-4 st-text-100'>
             <HashLink to='/#about'>About</HashLink>
@@ -30,7 +30,7 @@ export const App = () => {
             <Route path='/recipesByGpt/:id' element={<RecipeDetailPage />} />
           </Routes>
         </div>
-      </Router>
+      </HashRouter>
       {/* @ts-ignore: Side-effect loaded WC */}
       <st-footer id='contact' />
     </div>

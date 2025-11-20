@@ -53,13 +53,15 @@ export const RecipeDetailPage: React.FC = () => {
             <span>{recipe.prepTime}</span>
           </div>
         </div>
-        <div className='flex items-center gap-2 text-lg'>
-          <ClockIcon className='h-6 w-6 text-brand-primary' />
-          <div>
-            <span className='font-bold block'>Cook Time</span>
-            <span>{recipe.cookTime}</span>
+        {recipe.cookTime && (
+          <div className='flex items-center gap-2 text-lg'>
+            <ClockIcon className='h-6 w-6 text-brand-primary' />
+            <div>
+              <span className='font-bold block'>Cook Time</span>
+              <span>{recipe.cookTime}</span>
+            </div>
           </div>
-        </div>
+        )}
         <div className='flex items-center gap-2 text-lg'>
           <UsersIcon className='h-6 w-6 text-brand-primary' />
           <div>
@@ -74,7 +76,7 @@ export const RecipeDetailPage: React.FC = () => {
           <h2 className='text-3xl font-bold mb-4 border-b-4 border-brand-primary pb-2'>
             Ingredients
           </h2>
-          <ul className='list-disc list-inside space-y-2 text-text-secondary text-lg'>
+          <ul className='list-disc list-inside space-y-2 text-text-secondary text-lg whitespace-pre-wrap'>
             {recipe.ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
             ))}
