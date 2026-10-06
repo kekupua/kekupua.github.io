@@ -163,7 +163,7 @@ export const MealPrepPage = () => {
           <h1 className='mt-3 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl'>
             Weekly Meal Prep
           </h1>
-          <p className='mt-3 max-w-3xl text-lg text-slate-600'>
+          <p className='mx-auto! mt-3! max-w-3xl text-lg text-slate-600'>
             Pick the recipes you want, build one combined shopping list, or tell us
             what is already in your kitchen to see what you can make.
           </p>
@@ -172,7 +172,7 @@ export const MealPrepPage = () => {
         <div className='grid gap-8 lg:grid-cols-[1.35fr_0.65fr]'>
           <section className='rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-6'>
             <div className='flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between'>
-              <div>
+              <div className='flex flex-col gap-1 text-left'>
                 <h2 className='text-2xl font-bold text-slate-900'>Choose recipes</h2>
                 <p className='mt-1 text-sm text-slate-500'>
                   {selectedRecipes.length} selected
@@ -198,9 +198,8 @@ export const MealPrepPage = () => {
                     key={recipe.id}
                     type='button'
                     onClick={() => toggleRecipe(recipe.id)}
-                    className={`overflow-hidden rounded-2xl border text-left transition hover:-translate-y-0.5 hover:shadow-md ${
-                      selected ? 'border-brand-500 ring-2 ring-brand-100' : 'border-slate-200'
-                    }`}
+                    className={`overflow-hidden rounded-2xl border text-left transition hover:-translate-y-0.5 hover:shadow-md ${selected ? 'border-brand-500 ring-2 ring-brand-100' : 'border-slate-200'
+                      }`}
                   >
                     {recipe.imageUrl && (
                       <img src={recipe.imageUrl} alt='' className='h-36 w-full object-cover' />
@@ -218,9 +217,8 @@ export const MealPrepPage = () => {
                         {recipe.description}
                       </p>
                       {pantry.size > 0 && (
-                        <span className={`mt-3 inline-flex rounded-full border px-2.5 py-1 text-xs font-semibold ${
-                          availabilityClasses(ratio)
-                        }`}>
+                        <span className={`mt-3 inline-flex rounded-full border px-2.5 py-1 text-xs font-semibold ${availabilityClasses(ratio)
+                          }`}>
                           {availabilityLabel(ratio)}
                         </span>
                       )}
@@ -232,13 +230,15 @@ export const MealPrepPage = () => {
           </section>
 
           <section className='rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-6'>
-            <div className='flex items-center gap-2'>
-              <ShoppingCart className='h-6 w-6 text-brand-600' />
-              <h2 className='text-2xl font-bold text-slate-900'>Shopping list</h2>
+            <div className='flex flex-col gap-1 text-left'>
+              <div className='flex items-center gap-2'>
+                <ShoppingCart className='h-6 w-6 text-brand-600' />
+                <h2 className='text-2xl font-bold text-slate-900'>Shopping list</h2>
+              </div>
+              <p className='mt-1 text-sm text-slate-500'>
+                Combined ingredients from your selected recipes.
+              </p>
             </div>
-            <p className='mt-1 text-sm text-slate-500'>
-              Combined ingredients from your selected recipes.
-            </p>
 
             {selectedRecipes.length === 0 ? (
               <div className='mt-8 rounded-xl border border-dashed border-slate-300 p-6 text-center text-sm text-slate-500'>
@@ -297,7 +297,7 @@ export const MealPrepPage = () => {
 
         <section className='mt-8 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-6'>
           <div className='flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between'>
-            <div>
+            <div className='flex flex-col gap-1 text-left'>
               <h2 className='text-2xl font-bold text-slate-900'>What can I make?</h2>
               <p className='mt-1 text-sm text-slate-500'>
                 Enter ingredients you already have, separated by commas or new lines.
@@ -320,11 +320,10 @@ export const MealPrepPage = () => {
                   type='button'
                   onClick={() => togglePantryTag(ingredient)}
                   aria-pressed={active}
-                  className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${
-                    active
-                      ? 'border-brand-600 bg-brand-600 text-white shadow-sm'
-                      : 'border-slate-300 bg-white text-slate-700 hover:border-brand-400 hover:bg-brand-50'
-                  }`}
+                  className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${active
+                    ? 'border-brand-600 bg-brand-600 text-white shadow-sm'
+                    : 'border-slate-300 bg-white text-slate-700 hover:border-brand-400 hover:bg-brand-50'
+                    }`}
                 >
                   {ingredient}
                 </button>
@@ -357,14 +356,13 @@ export const MealPrepPage = () => {
                 return (
                   <article
                     key={recipe.id}
-                    className={`rounded-2xl border p-4 transition ${
-                      pantry.size ? availabilityClasses(ratio) : 'border-slate-200 bg-white'
-                    }`}
+                    className={`rounded-2xl border p-4 transition ${pantry.size ? availabilityClasses(ratio) : 'border-slate-200 bg-white'
+                      }`}
                   >
                     <div className='flex items-start justify-between gap-3'>
                       <h3 className='font-bold'>{recipe.title}</h3>
                       <span className='whitespace-nowrap rounded-full bg-white/70 px-2 py-1 text-xs font-bold'>
-                        {pantry.size ? availabilityLabel(ratio) : 'Add pantry items'}
+                        {pantry.size ? availabilityLabel(ratio) : null}
                       </span>
                     </div>
                     <div className='mt-3 h-2 overflow-hidden rounded-full bg-white/70'>
