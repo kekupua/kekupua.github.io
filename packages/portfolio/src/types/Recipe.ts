@@ -1,11 +1,16 @@
+export interface Ingredient {
+  name: string;
+  amount: string;
+}
+
 export interface Recipe {
   id: string;
   title: string;
   description: string;
   imageUrl?: string;
-  prepTime: string; // e.g., "15 minutes"
-  cookTime?: string; // e.g., "30 minutes"
+  prepTime: string;
+  cookTime?: string;
   servings: string;
-  ingredients: string[];
+  ingredients: Ingredient[];
   instructions: string[];
 }

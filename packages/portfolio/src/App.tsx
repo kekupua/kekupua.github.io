@@ -7,6 +7,7 @@ import { HashLink } from 'react-router-hash-link';
 import { RecipeDetailPage } from './pages/Recipe/RecipeDetailPage';
 import { RecipeListPage } from './pages/Recipe/RecipeListPage';
 import { Footer } from './components/Footer';
+import { MealPrepPage } from './pages/Recipe/MealPrepPage';
 
 export const App = () => {
   return (
@@ -20,6 +21,7 @@ export const App = () => {
           />
           <Route path='/recipesByGpt' element={<RecipeListPage />} />
           <Route path='/recipesByGpt/:id' element={<RecipeDetailPage />} />
+          <Route path='/meal-prep' element={<MealPrepPage />} />
         </Routes>
       </HashRouter>
       <Footer />

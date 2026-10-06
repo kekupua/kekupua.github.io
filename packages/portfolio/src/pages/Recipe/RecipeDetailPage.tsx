@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { recipes } from '../../lib/recipes';
 import { ClockIcon } from '../../components/Recipe/icons/ClockIcon';
 import { UsersIcon } from '../../components/Recipe/icons/UsersIcon';
@@ -77,9 +77,11 @@ export const RecipeDetailPage: React.FC = () => {
           <h2 className='text-3xl font-bold mb-4 border-b-4 border-brand-primary pb-2'>
             Ingredients
           </h2>
-          <ul className='list-disc list-inside space-y-2 text-text-secondary text-lg whitespace-pre-wrap'>
-            {recipe.ingredients.map((ingredient, index) => (
-              <li key={index}>{ingredient}</li>
+          <ul className='list-disc list-inside space-y-2 text-text-secondary text-lg'>
+            {recipe.ingredients.map((ingredient) => (
+              <li key={ingredient.name}>
+                <strong>{ingredient.amount}</strong> {ingredient.name}
+              </li>
             ))}
           </ul>
         </div>

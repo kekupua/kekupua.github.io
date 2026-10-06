@@ -10,13 +10,13 @@ export const recipes: Recipe[] = [
     prepTime: '5 minutes',
     servings: '1-2',
     ingredients: [
-      '1.5 cups frozen mango cubes',
-      '1 cup plain yogurt (Greek yogurt = thicker, regular = more classic)',
-      '½ cup milk (or water if you want it lighter)',
-      '1-2 tbsp sugar, honey, or agave (adjust to taste)',
-      'A small pinch of salt (optional but boosts flavor)',
-      'A few drops of vanilla extract (optional replacement for cardamom aroma)',
-      'Ice cubes (optional — usually not needed since mango is frozen)',
+      { name: 'frozen mango cubes', amount: '1.5 cups' },
+      { name: 'plain yogurt', amount: '1 cup' },
+      { name: 'milk', amount: '½ cup' },
+      { name: 'sugar, honey, or agave', amount: '1-2 tbsp' },
+      { name: 'salt', amount: 'a small pinch' },
+      { name: 'vanilla extract', amount: 'a few drops' },
+      { name: 'ice cubes', amount: 'optional' },
     ],
     instructions: [
       'Thaw mango slightly (optional): Let the frozen cubes sit for 5-10 minutes so they blend smoother.',
@@ -33,36 +33,26 @@ export const recipes: Recipe[] = [
     description:
       'A fast and flavorful Korean beef dish made with thinly sliced marinated beef, perfect for a weeknight dinner.',
     prepTime: '10 minutes',
-    cookTime: '10 minutes ',
+    cookTime: '10 minutes',
     servings: '2-3',
     ingredients: [
-      '~1 lb thinly sliced beef roll (ribeye or brisket style)',
-
-      '3 tbsp soy sauce',
-
-      '1 tbsp sugar (or honey)',
-
-      '1 tbsp sesame oil',
-
-      '2 tsp minced garlic',
-
-      '1 tsp minced ginger (optional)',
-
-      "1 tbsp mirin (or a splash of water if you don't have it)",
-
-      '½ small onion, thinly sliced',
-
-      '1 green onion, chopped',
-
-      '½ small pear or apple, grated (optional — helps tenderize and sweeten)',
-
-      'Sesame seeds, for garnish',
+      { name: 'thinly sliced beef', amount: '~1 lb' },
+      { name: 'soy sauce', amount: '3 tbsp' },
+      { name: 'sugar or honey', amount: '1 tbsp' },
+      { name: 'sesame oil', amount: '1 tbsp' },
+      { name: 'minced garlic', amount: '2 tsp' },
+      { name: 'minced ginger', amount: '1 tsp' },
+      { name: 'mirin', amount: '1 tbsp' },
+      { name: 'onion', amount: '½ small' },
+      { name: 'green onion', amount: '1' },
+      { name: 'pear or apple', amount: '½ small' },
+      { name: 'sesame seeds', amount: 'for garnish' },
     ],
     instructions: [
       'Marinate: In a bowl, mix soy sauce, sugar, sesame oil, garlic, ginger, mirin, and grated pear/apple. Add beef and sliced onion + green onion. Mix well. Let it sit for 10-15 minutes (or overnight for deeper flavor).',
       "Cook: Heat a pan or skillet over medium-high heat. Add the beef mixture (no need for extra oil if it's fatty). Stir-fry for 5-7 minutes until browned and caramelized.",
       'Finish: Sprinkle sesame seeds and a drizzle of sesame oil before serving.',
-      'Serve with steamed rice, kimchi, and lettuce leaves for wraps (ssam style)',
+      'Serve with steamed rice, kimchi, and lettuce leaves for wraps (ssam style).',
       'You can also toss it into fried rice or top it on noodles for a fast meal.',
     ],
   },
@@ -73,17 +63,16 @@ export const recipes: Recipe[] = [
     description:
       'A simple but incredible Cajun salmon recipe that hits all the right notes - smoky, spicy, buttery, and juicy inside with a perfect crust.',
     prepTime: '10 minutes',
-    cookTime: '15 minutes ',
+    cookTime: '15 minutes',
     servings: '2-4',
     ingredients: [
-      '2 salmon fillets (6-8 oz each), skin on or off',
-      '1½ tbsp Cajun seasoning (store-bought or homemade — recipe below)',
-      '1 tbsp olive oil',
-      '1 tbsp butter',
-      '2 cloves garlic, minced',
-      '1 tsp lemon juice (plus wedges for serving)',
-      'Optional: chopped parsley or green onion for garnish',
-      'Homemade Cajun Seasoning: \nMix and keep in a jar (makes about 3 tbsp):\n1 tbsp paprika (smoked or regular)\n1 tsp garlic powder\n1 tsp onion powder\n1 tsp dried oregano\n½ tsp dried thyme\n½ tsp black pepper\n½ tsp salt\n½ tsp cayenne pepper (adjust to heat preference)',
+      { name: 'salmon fillets', amount: '2 (6-8 oz each)' },
+      { name: 'Cajun seasoning', amount: '1½ tbsp' },
+      { name: 'olive oil', amount: '1 tbsp' },
+      { name: 'butter', amount: '1 tbsp' },
+      { name: 'garlic', amount: '2 cloves' },
+      { name: 'lemon juice', amount: '1 tsp' },
+      { name: 'parsley or green onion', amount: 'optional, for garnish' },
     ],
     instructions: [
       'Pat the salmon dry. This helps get a good sear. Then rub olive oil over both sides.',

@@ -22,6 +22,14 @@ export const RecipeListPage: React.FC = () => {
           meal here.
         </p>
       </Header>
+      <div className='mb-8 flex justify-end'>
+        <HashLink
+          to='/meal-prep'
+          className='rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-sm hover:bg-brand-700'
+        >
+          Plan my week &rarr;
+        </HashLink>
+      </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
         {recipes.map((recipe) => (
           <RecipeCard key={recipe.id} recipe={recipe} />
