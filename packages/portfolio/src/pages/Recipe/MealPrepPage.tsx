@@ -63,6 +63,27 @@ export const MealPrepPage = () => {
   const [checked, setChecked] = useState<Set<string>>(new Set());
   const [copied, setCopied] = useState(false);
 
+  const ingredientTags = useMemo(() => {
+    const ingredients = new Map<string, string>();
+    recipes.forEach((recipe) => {
+      recipe.ingredients.forEach((ingredient) => {
+        const key = normalize(ingredient.name);
+        if (!ingredients.has(key)) ingredients.set(key, ingredient.name);
+      });
+    });
+    return [...ingredients.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  }, []);
+
+  const togglePantryTag = (ingredient: string) => {
+    const key = normalize(ingredient);
+    const current = new Set(pantry);
+    if (current.has(key)) current.delete(key);
+    else current.add(key);
+    setPantryText([...current].join(', '));
+  };
+
+  const clearPantry = () => setPantryText('');
+
   const selectedRecipes = useMemo(
     () => recipes.filter((recipe) => selectedIds.includes(recipe.id)),
     [selectedIds],
@@ -288,6 +309,36 @@ export const MealPrepPage = () => {
               <span className='rounded-full bg-orange-100 px-2.5 py-1 text-orange-800'>Some</span>
               <span className='rounded-full bg-red-200 px-2.5 py-1 text-red-900'>None</span>
             </div>
+          </div>
+
+          <div className='mt-4 flex flex-wrap gap-2'>
+            {ingredientTags.map(([key, ingredient]) => {
+              const active = pantry.has(key);
+              return (
+                <button
+                  key={key}
+                  type='button'
+                  onClick={() => togglePantryTag(ingredient)}
+                  aria-pressed={active}
+                  className={`rounded-full border px-3 py-1.5 text-sm font-medium transition ${
+                    active
+                      ? 'border-brand-600 bg-brand-600 text-white shadow-sm'
+                      : 'border-slate-300 bg-white text-slate-700 hover:border-brand-400 hover:bg-brand-50'
+                  }`}
+                >
+                  {ingredient}
+                </button>
+              );
+            })}
+            {pantry.size > 0 && (
+              <button
+                type='button'
+                onClick={clearPantry}
+                className='rounded-full px-3 py-1.5 text-sm font-semibold text-slate-500 hover:bg-slate-100'
+              >
+                Clear all
+              </button>
+            )}
           </div>
 
           <textarea
