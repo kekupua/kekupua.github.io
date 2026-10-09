@@ -262,3 +262,40 @@ test("Overpass HTTP 200 partial timeout is rejected; repeated requests are throt
     Date.now = originalNow;
   }
 });
+
+test("busy responses respect Retry-After before another network request", async () => {
+  const fetchBefore = globalThis.fetch;
+  const nowBefore = Date.now;
+  let clock = nowBefore() + 40000;
+  Date.now = () => clock;
+  let calls = 0;
+  globalThis.fetch = async () => {
+    calls++;
+    return new Response("busy", {
+      status: 429,
+      headers: { "Retry-After": "60" },
+    });
+  };
+  try {
+    await assert.rejects(
+      discoverRestaurants(center, 5, new AbortController().signal),
+      /busy/,
+    );
+    clock += 11000;
+    await assert.rejects(
+      discoverRestaurants(center, 10, new AbortController().signal),
+      /49 seconds/,
+    );
+    assert.equal(calls, 1);
+    clock += 50000;
+    globalThis.fetch = async () => {
+      calls++;
+      return new Response(JSON.stringify({ elements: [] }));
+    };
+    await discoverRestaurants(center, 5, new AbortController().signal);
+    assert.equal(calls, 2);
+  } finally {
+    globalThis.fetch = fetchBefore;
+    Date.now = nowBefore;
+  }
+});

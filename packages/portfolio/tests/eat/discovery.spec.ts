@@ -200,6 +200,9 @@ test("surprise cycles choices and eliminates without repeats; dialog supports ke
   await expect(dialog.locator("h3")).toHaveText(first);
   await page.keyboard.press("Escape");
   await expect(dialog).toHaveCount(0);
+  await expect(
+    page.getByRole("button", { name: "Surprise Me", exact: true }),
+  ).toBeFocused();
   await expect(page.locator(".eat-card")).toHaveCount(1);
 });
 test("empty, error, loading, strict budget, and missing-data states", async ({

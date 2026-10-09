@@ -144,7 +144,8 @@ export default function App() {
   function surprise(options = filtered, priorSeen = seen) {
     const next = chooseRestaurant(options, priorSeen);
     if (!next) return;
-    surpriseTrigger.current = document.activeElement as HTMLElement;
+    if (!choice && !rolling)
+      surpriseTrigger.current = document.activeElement as HTMLElement;
     setRolling(true);
     setChoice(undefined);
     clearTimeout(timer.current);

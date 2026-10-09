@@ -6,6 +6,7 @@ import {
   type Restaurant,
 } from "./model";
 export const OVERPASS = "https://overpass-api.de/api/interpreter";
+let busyUntil = 0;
 export type OsmElement = {
   type: string;
   id: number;
@@ -15,13 +16,26 @@ export type OsmElement = {
   tags?: Record<string, string>;
 };
 async function fetchJson(url: string, signal: AbortSignal, init?: RequestInit) {
-  const response = await fetch(url, { ...init, signal });
+  let response: Response;
+  try {
+    response = await fetch(url, { ...init, signal });
+  } catch (error) {
+    if (signal.aborted) throw error;
+    throw new Error(
+      "Could not reach the location or restaurant service. Check your connection and try again.",
+    );
+  }
   if (!response.ok) {
     if (response.status === 404)
       throw new Error(
         "That ZIP code was not found. Try a different US ZIP code.",
       );
-    if ([429, 504].includes(response.status))
+    if (url === OVERPASS && [406, 429].includes(response.status)) {
+      const retry = response.headers.get("Retry-After");
+      const seconds = retry && /^\d+$/.test(retry) ? Number(retry) : 30;
+      busyUntil = Date.now() + Math.max(30000, seconds * 1000);
+    }
+    if ([406, 429, 504].includes(response.status))
       throw new Error(
         "The restaurant service is busy. Please wait a minute before trying again.",
       );
@@ -29,7 +43,13 @@ async function fetchJson(url: string, signal: AbortSignal, init?: RequestInit) {
       "The location or restaurant service is unavailable. Please try again shortly.",
     );
   }
-  return response.json();
+  try {
+    return await response.json();
+  } catch {
+    throw new Error(
+      "The location or restaurant service returned an unreadable response. Please try again shortly.",
+    );
+  }
 }
 export async function resolveZip(
   zip: string,
@@ -149,6 +169,10 @@ export async function discoverRestaurants(
     Array.isArray(cache.restaurants)
   )
     return { ...cache, cached: true };
+  if (Date.now() < busyUntil)
+    throw new Error(
+      `The restaurant service asked us to pause. Try again in ${Math.ceil((busyUntil - Date.now()) / 1000)} seconds.`,
+    );
   if (Date.now() - lastRequest < 10000)
     throw new Error(
       "Please wait ten seconds between new area searches. Preference changes use the results already loaded.",
