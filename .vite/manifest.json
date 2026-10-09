@@ -1,0 +1,65 @@
+{
+  "_client-CmeWf7bw.js": {
+    "file": "assets/client-CmeWf7bw.js",
+    "name": "client"
+  },
+  "index.html": {
+    "file": "assets/portfolio-Dqv0ANRJ.js",
+    "name": "portfolio",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_client-CmeWf7bw.js"
+    ],
+    "css": [
+      "assets/portfolio-Bg0lZVVB.css"
+    ],
+    "assets": [
+      "assets/qbHome-C6zrn5pd.png"
+    ]
+  },
+  "learn/index.html": {
+    "file": "assets/learn-CHjwm09r.js",
+    "name": "learn",
+    "src": "learn/index.html",
+    "isEntry": true,
+    "imports": [
+      "_client-CmeWf7bw.js"
+    ],
+    "css": [
+      "assets/learn-Br7tQsgA.css"
+    ]
+  },
+  "src/images/bond.jpg": {
+    "file": "assets/bond-CssyM3B0.jpg",
+    "src": "src/images/bond.jpg"
+  },
+  "src/images/family_christmas.jpg": {
+    "file": "assets/family_christmas-DIuQhlg7.jpg",
+    "src": "src/images/family_christmas.jpg"
+  },
+  "src/images/hearthstone_puzzle.jpg": {
+    "file": "assets/hearthstone_puzzle-DkID4V8q.jpg",
+    "src": "src/images/hearthstone_puzzle.jpg"
+  },
+  "src/images/hike.jpg": {
+    "file": "assets/hike-BN-SmcrL.jpg",
+    "src": "src/images/hike.jpg"
+  },
+  "src/images/korea.jpg": {
+    "file": "assets/korea-CCLvcZLQ.jpg",
+    "src": "src/images/korea.jpg"
+  },
+  "src/images/mom.jpg": {
+    "file": "assets/mom-B_e7fc-2.jpg",
+    "src": "src/images/mom.jpg"
+  },
+  "src/images/qbHome.png": {
+    "file": "assets/qbHome-C6zrn5pd.png",
+    "src": "src/images/qbHome.png"
+  },
+  "src/images/sophie.jpg": {
+    "file": "assets/sophie-CoW3AnhP.jpg",
+    "src": "src/images/sophie.jpg"
+  }
+}
