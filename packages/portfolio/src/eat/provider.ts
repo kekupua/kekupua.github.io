@@ -154,7 +154,7 @@ export async function discoverRestaurants(
       "Please wait ten seconds between new area searches. Preference changes use the results already loaded.",
     );
   lastRequest = Date.now();
-  const query = `[out:json][timeout:25][maxsize:33554432];(${["restaurant", "fast_food", "food_court"].map((kind) => `nwr["amenity"="${kind}"]["name"](around:${Math.round(radius * 1609.344)},${center.lat},${center.lon});`).join("")});out center tags;`;
+  const query = `[out:json][timeout:25][maxsize:33554432];(${["restaurant", "fast_food", "food_court"].map((kind) => `nwr[amenity=${kind}][name](around:${Math.round(radius * 1609.344)},${center.lat},${center.lon});`).join("")});out center;`;
   const json = await fetchJson(OVERPASS, signal, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },

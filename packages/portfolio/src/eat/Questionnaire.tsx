@@ -47,7 +47,7 @@ export default function Questionnaire({
         <span className="eat-eyebrow">LESS SCROLLING. MORE EATING.</span>
         <h1>
           A little hungry.
-          <br />A little undecided.
+          <br /> A little undecided.
         </h1>
         <p>A few quick picks, then let’s find your next meal.</p>
         <div className="eat-food-art" aria-hidden="true">

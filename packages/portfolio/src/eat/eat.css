@@ -934,8 +934,8 @@ small {
   font-size: 0.62rem;
 }
 .eat-reveal-actions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 9px;
   justify-content: center;
 }

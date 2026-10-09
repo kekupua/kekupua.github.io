@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { test, expect, type Page } from "@playwright/test";
 // Synthetic records exist only in the test runner, never in the shipped app.
 const elements = [
@@ -250,14 +251,16 @@ test("default preferences screenshot and reduced-motion behavior", async ({
   expect(duration).toBe("none");
   await page.screenshot({
     path: info.outputPath("surprise.png"),
-    fullPage: true,
+    fullPage: false,
   });
 });
 
 test("real OSM snapshot screenshots (frozen community data, not live opening guarantees)", async ({
   page,
 }, info) => {
-  const snapshot = await import("./redmond-osm.json");
+  const snapshot = JSON.parse(
+    readFileSync(new URL("./redmond-osm.json", import.meta.url), "utf-8"),
+  );
   await mockData(page, snapshot.elements as unknown as typeof elements);
   await page.unroute("https://tile.openstreetmap.org/**");
   await page.goto("/eat/");

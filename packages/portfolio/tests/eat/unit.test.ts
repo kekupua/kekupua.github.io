@@ -189,8 +189,58 @@ test("ZIP resolver validates and caches successful real-shaped responses", async
     globalThis.fetch = original;
   }
 });
+test("discovery query preserves node coordinates and caches the normalized search", async () => {
+  const originalFetch = globalThis.fetch;
+  const originalSession = globalThis.sessionStorage;
+  const memory = new Map<string, string>();
+  globalThis.sessionStorage = {
+    getItem: (k: string) => memory.get(k),
+    setItem: (k: string, v: string) => {
+      memory.set(k, v);
+    },
+  } as unknown as Storage;
+  let calls = 0;
+  globalThis.fetch = async (_url, init) => {
+    calls++;
+    const query = new URLSearchParams(String(init.body)).get("data");
+    assert.ok(query.endsWith("out center;"));
+    assert.ok(query.includes("nwr[amenity=restaurant][name]"));
+    return new Response(
+      JSON.stringify({
+        elements: [
+          {
+            type: "node",
+            id: 1,
+            ...center,
+            tags: { name: "Real-shaped test record", amenity: "restaurant" },
+          },
+        ],
+      }),
+    );
+  };
+  try {
+    const result = await discoverRestaurants(
+      center,
+      5,
+      new AbortController().signal,
+    );
+    assert.equal(result.restaurants[0].lat, center.lat);
+    const cached = await discoverRestaurants(
+      center,
+      5,
+      new AbortController().signal,
+    );
+    assert.equal(cached.cached, true);
+    assert.equal(calls, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+    globalThis.sessionStorage = originalSession;
+  }
+});
 test("Overpass HTTP 200 partial timeout is rejected; repeated requests are throttled", async () => {
   const original = globalThis.fetch;
+  const originalNow = Date.now;
+  Date.now = () => originalNow() + 20000;
   globalThis.fetch = async () =>
     new Response(
       JSON.stringify({
@@ -209,5 +259,6 @@ test("Overpass HTTP 200 partial timeout is rejected; repeated requests are throt
     );
   } finally {
     globalThis.fetch = original;
+    Date.now = originalNow;
   }
 });

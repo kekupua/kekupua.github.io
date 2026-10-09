@@ -106,7 +106,16 @@ export default function RestaurantMap({
       popup.append(name, distance);
       marker.bindPopup(popup);
       marker.on("click", () => callback.current(r.id));
+      // Leaflet's default Enter behavior opens the popup without emitting click.
+      // Explicitly select the card for keyboard activation too.
+      marker.on("keydown", (event: L.LeafletKeyboardEvent) => {
+        if (["Enter", " "].includes(event.originalEvent.key)) {
+          event.originalEvent.preventDefault();
+          callback.current(r.id);
+        }
+      });
       marker.addTo(group);
+      marker.getElement()?.setAttribute("aria-label", `Select ${r.name}`);
       markers.current.set(r.id, marker);
     });
     const bounds = restaurants.length

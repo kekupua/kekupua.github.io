@@ -44,9 +44,11 @@ export default function App() {
       ? stored
           .filter(
             (r) =>
+              r &&
               typeof r.id === "string" &&
               typeof r.name === "string" &&
               Array.isArray(r.cuisine) &&
+              r.cuisine.every((c) => typeof c === "string") &&
               Number.isFinite(r.lat) &&
               Number.isFinite(r.lon),
           )
@@ -161,7 +163,10 @@ export default function App() {
   }
   function dismissChoice() {
     setChoice(undefined);
-    surpriseTrigger.current?.focus();
+    requestAnimationFrame(() => {
+      content.current?.removeAttribute("inert");
+      surpriseTrigger.current?.focus();
+    });
   }
   async function search(p: Preferences, location?: Center) {
     clearTimeout(timer.current);
