@@ -28,3 +28,24 @@ jobs:
 
       - name: Typecheck
         run: pnpm typecheck
+
+      - name: Lint learning app
+        run: pnpm --filter portfolio lint:learn
+
+      - name: Build portfolio and learning app
+        run: pnpm --filter portfolio build
+
+      - name: Install test browser
+        run: pnpm --filter portfolio exec playwright install --with-deps chromium
+
+      - name: Test learning activities and offline behavior
+        run: pnpm --filter portfolio test:learn
+
+      - name: Upload browser test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: learn-browser-tests
+          path: |
+            packages/portfolio/playwright-report
+            packages/portfolio/test-results

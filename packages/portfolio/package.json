@@ -4,14 +4,17 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && node tools/learn/build-offline.mjs",
     "build:hearthstone": "node tools/hearthstone/getCardSets.mjs",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "format": "eslint --fix .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:learn": "playwright test",
+    "lint:learn": "eslint --config eslint.learn.config.mjs src/learn tools/learn tests/learn playwright.config.ts",
+    "audio:learn": "node --import tsx tools/learn/generate-audio.ts"
   },
   "browserslist": {
     "production": [
@@ -40,6 +43,7 @@
     "vite-tsconfig-paths": "catalog:"
   },
   "devDependencies": {
+    "@playwright/test": "1.58.2",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.0",
