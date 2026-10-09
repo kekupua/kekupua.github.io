@@ -1,6 +1,6 @@
 /* Generated after Vite build. Only learning dependencies are cached. */
-const CACHE = "little-wonders-f06fae609632d754";
-const ASSETS = ["/learn/","/learn/index.html","/assets/learn-CHjwm09r.js","/assets/learn-Br7tQsgA.css","/assets/client-CmeWf7bw.js","/learn/animals/cat.webp","/learn/animals/cow.webp","/learn/animals/dog.webp","/learn/animals/duck.webp","/learn/animals/elephant.webp","/learn/animals/lion.webp","/learn/audio/correct.mp3","/learn/audio/navigate.mp3","/learn/audio/reward-music.mp3","/learn/audio/tap.mp3","/learn/icon-180.png","/learn/icon-192.png","/learn/icon-512.png","/learn/icon.svg","/learn/manifest.webmanifest"];
+const CACHE = "little-wonders-41de071883a9d6f4";
+const ASSETS = ["/learn/","/learn/index.html","/assets/learn-CIAo-9bN.js","/assets/learn-Br7tQsgA.css","/assets/client-BL59Oi6A.js","/assets/index-ec0exYlB.js","/learn/animals/cat.webp","/learn/animals/cow.webp","/learn/animals/dog.webp","/learn/animals/duck.webp","/learn/animals/elephant.webp","/learn/animals/lion.webp","/learn/audio/correct.mp3","/learn/audio/navigate.mp3","/learn/audio/reward-music.mp3","/learn/audio/tap.mp3","/learn/icon-180.png","/learn/icon-192.png","/learn/icon-512.png","/learn/icon.svg","/learn/manifest.webmanifest"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });

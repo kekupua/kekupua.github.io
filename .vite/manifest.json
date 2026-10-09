@@ -1,33 +1,69 @@
 {
-  "_client-CmeWf7bw.js": {
-    "file": "assets/client-CmeWf7bw.js",
+  "_client-BL59Oi6A.js": {
+    "file": "assets/client-BL59Oi6A.js",
     "name": "client"
   },
+  "_index-ec0exYlB.js": {
+    "file": "assets/index-ec0exYlB.js",
+    "name": "index",
+    "imports": [
+      "_client-BL59Oi6A.js"
+    ]
+  },
+  "eat/index.html": {
+    "file": "assets/eat-DMUhiBm6.js",
+    "name": "eat",
+    "src": "eat/index.html",
+    "isEntry": true,
+    "imports": [
+      "_client-BL59Oi6A.js"
+    ],
+    "dynamicImports": [
+      "src/eat/RestaurantMap.tsx"
+    ],
+    "css": [
+      "assets/eat-BkdXFtdy.css"
+    ]
+  },
   "index.html": {
-    "file": "assets/portfolio-Dqv0ANRJ.js",
+    "file": "assets/portfolio-DxlYzMbL.js",
     "name": "portfolio",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_client-CmeWf7bw.js"
+      "_client-BL59Oi6A.js",
+      "_index-ec0exYlB.js"
     ],
     "css": [
-      "assets/portfolio-Bg0lZVVB.css"
+      "assets/portfolio-fgSaBWIo.css"
     ],
     "assets": [
       "assets/qbHome-C6zrn5pd.png"
     ]
   },
   "learn/index.html": {
-    "file": "assets/learn-CHjwm09r.js",
+    "file": "assets/learn-CIAo-9bN.js",
     "name": "learn",
     "src": "learn/index.html",
     "isEntry": true,
     "imports": [
-      "_client-CmeWf7bw.js"
+      "_client-BL59Oi6A.js",
+      "_index-ec0exYlB.js"
     ],
     "css": [
       "assets/learn-Br7tQsgA.css"
+    ]
+  },
+  "src/eat/RestaurantMap.tsx": {
+    "file": "assets/RestaurantMap-BK5B2JsP.js",
+    "name": "RestaurantMap",
+    "src": "src/eat/RestaurantMap.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-BL59Oi6A.js"
+    ],
+    "css": [
+      "assets/RestaurantMap-CIGW-MKW.css"
     ]
   },
   "src/images/bond.jpg": {
