@@ -292,7 +292,8 @@ export default function App() {
                     disabled={rolling || !filtered.length || savedOnly}
                     onClick={() => surprise()}
                   >
-                    ✦ {rolling ? "Choosing…" : "Surprise Me"}
+                    <span aria-hidden="true">✦</span>{" "}
+                    {rolling ? "Choosing…" : "Surprise Me"}
                   </button>
                 </div>
               </section>
