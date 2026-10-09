@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-import { content } from "../../src/learn/content";
+import { animals } from "../../src/learn/content";
 
 test("installation assets, full offline cache, deep refresh, and audio byte ranges", async ({
   page,
@@ -29,22 +29,20 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
       await page.goto(`/learn/#/${category}/${mode}`);
       await page.reload();
       await expect(page.locator("h1")).toBeVisible();
-      await page.getByRole("button", { name: "Hear again" }).click();
+      await expect(
+        page.getByRole("button", { name: "Hear again" }),
+      ).toHaveCount(0);
     }
   }
-  // Every prompt is available even if the activity was never visited online.
-  const ids = Object.entries(content).flatMap(([category, items]) =>
-    items.flatMap((item) =>
-      ["explore", "find", "retry"].map(
-        (mode) => `${mode}-${category}-${item.id}`,
-      ),
-    ),
-  );
+  // Every local effect, music track, and photo is cached before first use.
+  const ids = ["navigate", "tap", "correct", "reward-music"]
+    .map((id) => `/learn/audio/${id}.mp3`)
+    .concat(animals.map((animal) => animal.image!));
   const results = await page.evaluate(
     async (ids) =>
       Promise.all(
         ids.map(async (id) => {
-          const response = await fetch(`/learn/audio/${id}.mp3`);
+          const response = await fetch(id);
           return (
             response.ok && (await response.arrayBuffer()).byteLength > 1000
           );
@@ -54,7 +52,7 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
   );
   expect(results.every(Boolean)).toBeTruthy();
   const range = await page.evaluate(async () => {
-    const response = await fetch("/learn/audio/explore-animals-dog.mp3", {
+    const response = await fetch("/learn/audio/reward-music.mp3", {
       headers: { Range: "bytes=0-99" },
     });
     return {
@@ -69,13 +67,14 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
   const duration = await page.evaluate(
     () =>
       new Promise<number>((resolve, reject) => {
-        const audio = new Audio("/learn/audio/explore-animals-dog.mp3");
+        const audio = new Audio("/learn/audio/reward-music.mp3");
         audio.onloadedmetadata = () => resolve(audio.duration);
         audio.onerror = () =>
           reject(new Error("Offline audio could not decode"));
       }),
   );
-  expect(duration).toBeGreaterThan(1);
+  expect(duration).toBeGreaterThan(7);
+  expect(duration).toBeLessThan(9);
   await page.goto("/learn/#/letters/find");
   await page.getByRole("button", { name: "Letter A" }).click();
   await expect(page.getByRole("status")).toContainText("You found it!");

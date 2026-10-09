@@ -14,7 +14,7 @@
     "typecheck": "tsc --noEmit",
     "test:learn": "playwright test",
     "lint:learn": "eslint --config eslint.learn.config.mjs src/learn tools/learn tests/learn playwright.config.ts",
-    "audio:learn": "node --import tsx tools/learn/generate-audio.ts"
+    "audio:learn": "python3 tools/learn/generate-sounds.py"
   },
   "browserslist": {
     "production": [

@@ -12,19 +12,6 @@ for (const category of categories) {
   test(`${category.id}: explore every item and navigation boundaries`, async ({
     page,
   }) => {
-    await page.addInitScript(() => {
-      const original = HTMLMediaElement.prototype.play;
-      HTMLMediaElement.prototype.play = function () {
-        const result = original.call(this);
-        const src = this.src;
-        result
-          .then(() => {
-            document.documentElement.dataset.playingAudio = src;
-          })
-          .catch(() => {});
-        return result;
-      };
-    });
     await page.goto(`/learn/#/${category.id}/explore`);
     await expect(
       page.getByRole("heading", { name: activityNames[category.id][0] }),
@@ -38,10 +25,9 @@ for (const category of categories) {
           ? `${items[i].letter} for ${items[i].name}`
           : items[i].name;
       await page.getByRole("button", { name, exact: true }).click();
-      await expect(page.locator("html")).toHaveAttribute(
-        "data-playing-audio",
-        `http://127.0.0.1:4173/learn/audio/explore-${category.id}-${items[i].id}.mp3`,
-      );
+      await expect(
+        page.getByRole("button", { name, exact: true }),
+      ).toBeVisible();
       if (i < items.length - 1)
         await page.getByRole("button", { name: "Next", exact: true }).click();
     }
@@ -97,16 +83,18 @@ for (const category of categories) {
   });
 }
 
-test("home tiles, category menus, replay, mute, and browser history", async ({
+test("home tiles, category menus, mute, and browser history", async ({
   page,
 }) => {
   await page.goto("/learn");
   await page.getByRole("button", { name: "LETTERS", exact: true }).click();
   await page.getByRole("button", { name: /Explore the Alphabet/ }).click();
   await page.getByRole("button", { name: "Turn sound off" }).click();
-  await expect(page.getByRole("button", { name: "Hear again" })).toBeDisabled();
+  await expect(
+    page.getByRole("button", { name: "Turn sound on" }),
+  ).toHaveAttribute("aria-pressed", "true");
   await page.getByRole("button", { name: "Turn sound on" }).click();
-  await expect(page.getByRole("button", { name: "Hear again" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "Hear again" })).toHaveCount(0);
   await page.getByRole("button", { name: "Next", exact: true }).click();
   await page.goBack();
   await expect(
@@ -145,8 +133,23 @@ test("touch layout, reduced motion, safety, and screenshots", async ({
     const dimensions = await page.evaluate(() => ({
       width: document.documentElement.clientWidth,
       scroll: document.documentElement.scrollWidth,
+      height: document.documentElement.clientHeight,
+      scrollHeight: document.documentElement.scrollHeight,
     }));
     expect(dimensions.scroll).toBeLessThanOrEqual(dimensions.width);
+    expect(dimensions.scrollHeight).toBeLessThanOrEqual(dimensions.height + 1);
+    const mainBox = await page.locator("main").boundingBox();
+    expect(mainBox!.height).toBeGreaterThan(dimensions.height * 0.7);
+    const images = await page
+      .locator("img.animal-photo")
+      .evaluateAll((images) =>
+        images.every(
+          (image) =>
+            (image as HTMLImageElement).complete &&
+            (image as HTMLImageElement).naturalWidth > 0,
+        ),
+      );
+    expect(images).toBeTruthy();
     for (const button of await page.getByRole("button").all()) {
       const box = await button.boundingBox();
       expect(box!.width).toBeGreaterThanOrEqual(44);
@@ -192,4 +195,123 @@ test("deep-link changes reset an exhausted alphabet and unknown URLs go home", a
     page.getByRole("heading", { name: "Let’s play & learn" }),
   ).toBeVisible();
   expect(errors).toEqual([]);
+});
+
+test("nonverbal effects, success-only music, silent retries, and stopping music", async ({
+  page,
+}) => {
+  await page.addInitScript(() => {
+    const players: HTMLAudioElement[] = [];
+    (window as unknown as { learnPlayers: HTMLAudioElement[] }).learnPlayers =
+      players;
+    const Original = window.Audio;
+    window.Audio = class extends Original {
+      constructor(src?: string) {
+        super(src);
+        players.push(this);
+      }
+    };
+  });
+  await page.goto("/learn/#/letters/find");
+  await expect(page.locator(".target-letter")).toHaveText("A");
+  expect(
+    await page.evaluate(() =>
+      (
+        window as unknown as { learnPlayers: HTMLAudioElement[] }
+      ).learnPlayers.every((player) => !player.src),
+    ),
+  ).toBeTruthy();
+  await page.getByRole("button", { name: "Letter B", exact: true }).click();
+  expect(
+    await page.evaluate(() =>
+      (
+        window as unknown as { learnPlayers: HTMLAudioElement[] }
+      ).learnPlayers.every((player) => !player.src),
+    ),
+  ).toBeTruthy();
+  await page.getByRole("button", { name: "Letter A", exact: true }).click();
+  await expect
+    .poll(() =>
+      page.evaluate(() =>
+        (
+          window as unknown as { learnPlayers: HTMLAudioElement[] }
+        ).learnPlayers.map((player) => ({
+          name: player.src.split("/").pop(),
+          paused: player.paused,
+        })),
+      ),
+    )
+    .toEqual([
+      { name: "correct.mp3", paused: false },
+      { name: "reward-music.mp3", paused: false },
+    ]);
+  await page.getByRole("button", { name: "Next", exact: true }).click();
+  expect(
+    await page.evaluate(
+      () =>
+        (window as unknown as { learnPlayers: HTMLAudioElement[] })
+          .learnPlayers[1].paused,
+    ),
+  ).toBeTruthy();
+  await page.getByRole("button", { name: "Letter B", exact: true }).click();
+  await page.getByRole("button", { name: "Turn sound off" }).click();
+  expect(
+    await page.evaluate(() =>
+      (
+        window as unknown as { learnPlayers: HTMLAudioElement[] }
+      ).learnPlayers.every((player) => player.paused),
+    ),
+  ).toBeTruthy();
+  await page.getByRole("button", { name: "Next", exact: true }).click();
+  await page.getByRole("button", { name: "Letter C", exact: true }).click();
+  await expect(page.getByRole("status")).toContainText("You found it!");
+  expect(
+    await page.evaluate(() =>
+      (
+        window as unknown as { learnPlayers: HTMLAudioElement[] }
+      ).learnPlayers.every((player) => player.paused),
+    ),
+  ).toBeTruthy();
+  await page.getByRole("button", { name: "Home", exact: true }).click();
+  expect(
+    await page.evaluate(() =>
+      (
+        window as unknown as { learnPlayers: HTMLAudioElement[] }
+      ).learnPlayers.every((player) => player.paused),
+    ),
+  ).toBeTruthy();
+});
+
+test("small phone uses the viewport without clipping activity controls", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 375, height: 667 });
+  for (const path of [
+    "",
+    "animals",
+    "letters/explore",
+    "animals/explore",
+    "colors/explore",
+    "letters/find",
+    "animals/find",
+    "colors/find",
+  ]) {
+    await page.goto(`/learn/#/${path}`);
+    const size = await page.evaluate(() => ({
+      height: innerHeight,
+      scroll: document.documentElement.scrollHeight,
+    }));
+    expect(size.scroll).toBeLessThanOrEqual(size.height + 1);
+    if (path.endsWith("/find")) {
+      const correct = path.startsWith("letters")
+        ? "Letter A"
+        : path.startsWith("animals")
+          ? "Dog"
+          : "Red";
+      await page.getByRole("button", { name: correct, exact: true }).click();
+      await expect(
+        page.getByRole("button", { name: "Next", exact: true }),
+      ).toBeInViewport();
+    }
+  }
 });

@@ -5,7 +5,7 @@ export type Item = {
   art: string;
   letter?: string;
   color?: string;
-  sound?: string;
+  image?: string;
 };
 const objects = [
   "Apple",
@@ -42,13 +42,18 @@ export const letters: Item[] = objects.map((name, i) => ({
   art: name.toLowerCase().replaceAll(" ", "-"),
 }));
 export const animals: Item[] = [
-  { id: "dog", name: "Dog", art: "dog", sound: "Woof, woof!" },
-  { id: "cat", name: "Cat", art: "cat", sound: "Meow!" },
-  { id: "cow", name: "Cow", art: "cow", sound: "Moo!" },
-  { id: "duck", name: "Duck", art: "duck", sound: "Quack, quack!" },
-  { id: "elephant", name: "Elephant", art: "elephant", sound: "Pawoo!" },
-  { id: "lion", name: "Lion", art: "lion", sound: "Roar!" },
-];
+  "Dog",
+  "Cat",
+  "Cow",
+  "Duck",
+  "Elephant",
+  "Lion",
+].map((name) => ({
+  id: name.toLowerCase(),
+  name,
+  art: name.toLowerCase(),
+  image: `/learn/animals/${name.toLowerCase()}.webp`,
+}));
 export const colors: Item[] = [
   ["red", "Red", "#e8444a"],
   ["blue", "Blue", "#2375d8"],

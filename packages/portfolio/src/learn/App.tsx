@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 import { Art } from "./Art";
-import { playAudio, setMuted, stopAudio } from "./audio";
+import { playSound, setMuted, stopAudio } from "./audio";
 import { activityNames, categories, choicesFor, content } from "./content";
 import type { Category, Item } from "./content";
+import { CategoryArt, Visual } from "./Visual";
 
 export function Icon({
   name,
@@ -46,33 +47,21 @@ export function Icon({
   );
 }
 function AudioControl({
-  onReplay,
   muted,
   onMute,
 }: {
-  onReplay: () => void;
   muted: boolean;
   onMute: () => void;
 }) {
   return (
-    <div className="audio-controls">
-      <button
-        className="icon-button speaker"
-        onClick={onReplay}
-        aria-label="Hear again"
-        disabled={muted}
-      >
-        <Icon name="speaker" />
-      </button>
-      <button
-        className="icon-button mute"
-        onClick={onMute}
-        aria-label={muted ? "Turn sound on" : "Turn sound off"}
-        aria-pressed={muted}
-      >
-        <Icon name={muted ? "mute" : "speaker"} />
-      </button>
-    </div>
+    <button
+      className="icon-button sound-toggle"
+      onClick={onMute}
+      aria-label={muted ? "Turn sound on" : "Turn sound off"}
+      aria-pressed={muted}
+    >
+      <Icon name={muted ? "mute" : "speaker"} />
+    </button>
   );
 }
 export function Celebration({
@@ -120,7 +109,7 @@ function LearningCard({
       {category === "letters" ? (
         <span className="big-letter">{item.letter}</span>
       ) : (
-        <Art kind={item.art} color={item.color} />
+        <Visual item={item} />
       )}
       <span className="card-label">
         {category === "letters" ? item.letter : item.name}
@@ -143,7 +132,7 @@ function ActivityTile({
   return (
     <button className={`activity-tile ${category.id}`} onClick={onClick}>
       <span className="tile-title">{category.title}</span>
-      <Art kind={category.art} />
+      <CategoryArt kind={category.art} />
       <span className="tile-action" aria-hidden="true">
         <Icon name="next" />
       </span>
@@ -162,8 +151,6 @@ export function LearnApp() {
   const [message, setMessage] = useState("");
   const [offline, setOffline] = useState(false);
   const [cacheError, setCacheError] = useState(false);
-  const speak = (id: string) =>
-    playAudio(id, () => setMessage("Tap the speaker to try sound again."));
   useEffect(() => {
     window.addEventListener("popstate", stopAudio);
     return () => {
@@ -199,43 +186,26 @@ export function LearnApp() {
   const index = Math.min(exploreIndex, Math.max(0, items.length - 1));
   const item = items[index];
   const question = category ? choicesFor(items, round) : undefined;
-  const prompt = !category
-    ? "welcome"
-    : !activity
-      ? `${category}-menu`
-      : activity === "find"
-        ? `find-${category}-${question!.answer.id}`
-        : `explore-${category}-${item.id}`;
   function go(path: string) {
-    stopAudio();
+    playSound("navigate");
     setMessage("");
     navigate(path);
-    const [, nextCategory, nextMode] = path.split("/");
-    if (!nextCategory) speak("welcome");
-    else if (!nextMode) speak(`${nextCategory}-menu`);
-    else {
-      const nextItems = content[nextCategory as Category];
-      speak(
-        `${nextMode === "find" ? "find" : "explore"}-${nextCategory}-${nextItems[0].id}`,
-      );
-    }
   }
   function select(id: string) {
     if (!question || correct) return;
     if (id === question.answer.id) {
       setCorrect(true);
       setMessage("You found it!");
-      speak("hooray");
+      playSound("correct");
     } else {
       setMessage("Let’s try again!");
-      speak(`retry-${category}-${question.answer.id}`);
     }
   }
   function nextRound() {
     setCorrect(false);
     setMessage("");
     setRound(round + 1);
-    speak(`find-${category}-${choicesFor(items, round + 1).answer.id}`);
+    playSound("navigate");
   }
   return (
     <div className={`learn-app ${category || "home"}`}>
@@ -253,11 +223,9 @@ export function LearnApp() {
         </div>
         <AudioControl
           muted={muted}
-          onReplay={() => speak(prompt)}
           onMute={() => {
             updateMuted(!muted);
             setMuted(!muted);
-            if (muted) speak(prompt);
           }}
         />
       </header>
@@ -299,7 +267,7 @@ export function LearnApp() {
                   key={m}
                   onClick={() => go(`/${category}/${m}`)}
                 >
-                  <Art
+                  <CategoryArt
                     kind={
                       m === "explore"
                         ? categories.find((c) => c.id === category)!.art
@@ -308,9 +276,7 @@ export function LearnApp() {
                   />
                   <span>{activityNames[category][i]}</span>
                   <small>
-                    {m === "explore"
-                      ? "Tap, listen & discover"
-                      : "Look, listen & find"}
+                    {m === "explore" ? "Tap & discover" : "Look & match"}
                   </small>
                   <Icon name="next" />
                 </button>
@@ -320,7 +286,7 @@ export function LearnApp() {
         ) : activity === "explore" ? (
           <section className="explore-screen">
             <h1>{activityNames[category][0]}</h1>
-            <p>Tap to listen</p>
+            <p>Tap to play</p>
             <div className="explore-layout">
               <button
                 className="icon-button arrow"
@@ -329,7 +295,7 @@ export function LearnApp() {
                 onClick={() => {
                   setIndex(index - 1);
                   setMessage("");
-                  speak(`explore-${category}-${items[index - 1].id}`);
+                  playSound("navigate");
                 }}
               >
                 <Icon name="back" />
@@ -341,7 +307,7 @@ export function LearnApp() {
                     ? `${item.letter} for ${item.name}`
                     : item.name
                 }
-                onClick={() => speak(prompt)}
+                onClick={() => playSound("tap")}
               >
                 {category === "letters" && (
                   <span className="giant-letter">
@@ -349,7 +315,7 @@ export function LearnApp() {
                     <small>{item.letter!.toLowerCase()}</small>
                   </span>
                 )}
-                <Art kind={item.art} color={item.color} />
+                <Visual item={item} />
                 <span className="explore-label">
                   {category === "letters"
                     ? `${item.letter} is for ${item.name}`
@@ -363,7 +329,7 @@ export function LearnApp() {
                 onClick={() => {
                   setIndex(index + 1);
                   setMessage("");
-                  speak(`explore-${category}-${items[index + 1].id}`);
+                  playSound("navigate");
                 }}
               >
                 <Icon name="next" />
@@ -389,16 +355,18 @@ export function LearnApp() {
                 ? "Find the matching color"
                 : `Find ${category === "letters" ? "the letter" : "the"} ${category === "letters" ? question!.answer.letter : question!.answer.name.toLowerCase()}`}
             </h1>
-            <p>Tap the speaker, then choose a picture</p>
-            {category === "colors" && (
-              <div
-                className="color-target"
-                aria-label={`Match ${question!.answer.name}`}
-              >
-                <Art kind="ball" color={question!.answer.color} />
-                <span>{question!.answer.name}</span>
-              </div>
-            )}
+            <p>Find the same one</p>
+            <div
+              className={`match-target ${category}`}
+              aria-label={`Match ${category === "letters" ? question!.answer.letter : question!.answer.name}`}
+            >
+              {category === "letters" ? (
+                <span className="target-letter">{question!.answer.letter}</span>
+              ) : (
+                <Visual item={question!.answer} />
+              )}
+              {category !== "letters" && <span>{question!.answer.name}</span>}
+            </div>
             <div className="choice-grid">
               {question!.choices.map((choice) => (
                 <LearningCard
