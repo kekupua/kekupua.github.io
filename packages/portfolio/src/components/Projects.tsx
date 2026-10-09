@@ -7,7 +7,9 @@ export const Projects: React.FC = () => {
   const navigate = useNavigate();
   const PROJECTS = data.projects;
   const onCardClick = (project: typeof PROJECTS[number]) => () => {
-    if (project.routerLink) {
+    if (project.localHref) {
+      window.location.assign(project.localHref);
+    } else if (project.routerLink) {
       navigate(project.routerLink);
     } else if (project.href) {
       window.open(project.href, "_blank", "noopener noreferrer");
@@ -40,7 +42,10 @@ export const Projects: React.FC = () => {
                   alt={project.heading}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-brand-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                <div className="absolute inset-0 bg-brand-900/80 opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                  {project.localHref && <a className="p-3 bg-white rounded-full text-brand-900 hover:bg-brand-50 transition-colors" href={project.localHref} aria-label={`Open ${project.heading}`} onClick={(event) => event.stopPropagation()}>
+                    <Link className="w-5 h-5" />
+                  </a>}
                   {project.routerLink && <HashLink className="p-2 bg-white rounded-full text-brand-900 hover:bg-brand-50 transition-colors" to={project.routerLink}>
                     <Link className="w-5 h-5" />
                   </HashLink>}

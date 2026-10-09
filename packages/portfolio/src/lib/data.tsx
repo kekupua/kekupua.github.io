@@ -83,6 +83,13 @@ export const data = {
   ],
   projects: [
     {
+      image: '/images/eat-project.jpg',
+      localHref: '/eat/',
+      heading: 'What Should We Eat?',
+      description: 'Find your next meal together. Discover nearby restaurants, explore the map, save a shortlist, or let a surprise pick decide.',
+      tags: ['react', 'typescript', 'Leaflet', 'OpenStreetMap', 'food'],
+    },
+    {
       image: '/images/recipesByGpt.png',
       routerLink: '/recipesByGpt',
       heading: 'Recipes By GPT',
