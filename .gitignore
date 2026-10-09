@@ -27,3 +27,6 @@ yarn-error.log*
 # Browser validation outputs
 **/test-results/
 **/playwright-report/
+
+**/test-results-eat/
+**/playwright-eat-report/

@@ -14,7 +14,9 @@
     "typecheck": "tsc --noEmit",
     "test:learn": "playwright test",
     "lint:learn": "eslint --config eslint.learn.config.mjs src/learn tools/learn tests/learn playwright.config.ts",
-    "audio:learn": "python3 tools/learn/generate-sounds.py"
+    "audio:learn": "python3 tools/learn/generate-sounds.py",
+    "test:eat:unit": "node --import tsx --test tests/eat/unit.test.ts",
+    "test:eat": "playwright test --config playwright.eat.config.ts"
   },
   "browserslist": {
     "production": [
@@ -33,12 +35,14 @@
     "@kekupua/web-components": "^1.3.5",
     "@tailwindcss/vite": "^4.1.17",
     "@vitejs/plugin-react": "catalog:",
+    "leaflet": "^1.9.4",
     "react": "catalog:",
     "react-dom": "catalog:",
     "react-router-dom": "^6.0.0",
     "react-router-hash-link": "^2.4.3",
     "styled-components": "catalog:",
     "tailwindcss": "^4.1.17",
+    "tz-lookup": "^6.1.25",
     "vite": "catalog:",
     "vite-tsconfig-paths": "catalog:"
   },
@@ -48,10 +52,12 @@
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
+    "@types/leaflet": "^1.9.22",
     "@types/node": "^24.10.1",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "@types/react-router-hash-link": "^2.4.9",
+    "@types/tz-lookup": "^6.1.2",
     "blizzard.js": "^4.5.0",
     "gh-pages": "^6.1.1",
     "lucide-react": "^0.554.0",
