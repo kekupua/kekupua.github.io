@@ -29,6 +29,9 @@ jobs:
       - name: Typecheck
         run: pnpm typecheck
 
+      - name: Test restaurant discovery logic
+        run: pnpm --filter portfolio test:eat:unit
+
       - name: Lint learning app
         run: pnpm --filter portfolio lint:learn
 
@@ -40,6 +43,18 @@ jobs:
 
       - name: Test learning activities and offline behavior
         run: pnpm --filter portfolio test:learn
+
+      - name: Test restaurant discovery on desktop and iPhone
+        run: pnpm --filter portfolio test:eat
+
+      - name: Upload restaurant screenshots and browser report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eat-browser-tests-and-screenshots
+          path: |
+            packages/portfolio/playwright-eat-report
+            packages/portfolio/test-results-eat
 
       - name: Upload browser test report
         if: always()

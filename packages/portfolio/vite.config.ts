@@ -7,8 +7,8 @@ import tailwindcss from '@tailwindcss/vite';
 // GitHub Pages redirects directory URLs. Mirror that behavior in dev/preview.
 const learnDirectory: Connect.NextHandleFunction = (req, res, next) => {
   const url = new URL(req.url || '/', 'http://localhost');
-  if (url.pathname === '/learn') {
-    res.writeHead(308, { Location: `/learn/${url.search}` });
+  if (['/learn', '/eat'].includes(url.pathname)) {
+    res.writeHead(308, { Location: `${url.pathname}/${url.search}` });
     res.end();
   } else next();
 };
@@ -25,7 +25,7 @@ export default defineConfig({
   },
   build: {
     manifest: true,
-    rollupOptions: { input: { portfolio: 'index.html', learn: 'learn/index.html' } },
+    rollupOptions: { input: { portfolio: 'index.html', learn: 'learn/index.html', eat: 'eat/index.html' } },
   },
   assetsInclude: ['**/*.svg'],
 });
