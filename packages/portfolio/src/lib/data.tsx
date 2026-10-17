@@ -83,6 +83,13 @@ export const data = {
   ],
   projects: [
     {
+      image: '/images/mortgage-home.svg',
+      localHref: '/mortgage/',
+      heading: 'Room to Grow',
+      description: 'A calmer way to plan for home. Explore monthly housing costs, estimate upfront cash, and compare mortgage scenarios together.',
+      tags: ['react', 'typescript', 'finance', 'calculator'],
+    },
+    {
       image: '/images/eat-project.jpg',
       localHref: '/eat/',
       heading: 'What Should We Eat?',

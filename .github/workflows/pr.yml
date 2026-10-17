@@ -32,6 +32,9 @@ jobs:
       - name: Test restaurant discovery logic
         run: pnpm --filter portfolio test:eat:unit
 
+      - name: Test mortgage calculations
+        run: pnpm --filter portfolio test:mortgage:unit
+
       - name: Lint learning app
         run: pnpm --filter portfolio lint:learn
 
@@ -46,6 +49,19 @@ jobs:
 
       - name: Test restaurant discovery on desktop and iPhone
         run: pnpm --filter portfolio test:eat
+
+      - name: Test mortgage calculator on desktop and iPhone
+        run: pnpm --filter portfolio test:mortgage
+
+      - name: Upload mortgage screenshots and browser report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mortgage-browser-tests-and-screenshots
+          path: |
+            packages/portfolio/playwright-mortgage-report
+            packages/portfolio/test-results-mortgage
+            docs/mortgage/screenshots
 
       - name: Upload restaurant screenshots and browser report
         if: always()
