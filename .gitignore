@@ -30,3 +30,6 @@ yarn-error.log*
 
 **/test-results-eat/
 **/playwright-eat-report/
+
+**/test-results-mortgage/
+**/playwright-mortgage-report/
