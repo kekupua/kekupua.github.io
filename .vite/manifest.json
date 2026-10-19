@@ -18,7 +18,7 @@
     ]
   },
   "eat/index.html": {
-    "file": "assets/eat-DMUhiBm6.js",
+    "file": "assets/eat-BWA70fNH.js",
     "name": "eat",
     "src": "eat/index.html",
     "isEntry": true,
@@ -29,11 +29,11 @@
       "src/eat/RestaurantMap.tsx"
     ],
     "css": [
-      "assets/eat-BkdXFtdy.css"
+      "assets/eat-e5sXNrR4.css"
     ]
   },
   "index.html": {
-    "file": "assets/portfolio-CD-e6_mV.js",
+    "file": "assets/portfolio-BG_DPpuG.js",
     "name": "portfolio",
     "src": "index.html",
     "isEntry": true,
@@ -43,7 +43,7 @@
       "_index-ec0exYlB.js"
     ],
     "css": [
-      "assets/portfolio-D3kQR_IM.css"
+      "assets/portfolio-DIGVb3Su.css"
     ],
     "assets": [
       "assets/qbHome-C6zrn5pd.png"
