@@ -1130,7 +1130,7 @@ small {
     overflow: visible;
     padding: 0;
   }
-  .eat-workspace.view-map .eat-list {
+  .eat-workspace.view-map:not(.has-status) .eat-list {
     display: none;
   }
   .eat-workspace.view-list .eat-map-shell {

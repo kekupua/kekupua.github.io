@@ -5,8 +5,19 @@ import {
   type Center,
   type Restaurant,
 } from "./model";
-export const OVERPASS = "https://overpass-api.de/api/interpreter";
+export const OVERPASS = "https://overpass.private.coffee/api/interpreter";
+export const OVERPASS_FALLBACK = "https://overpass-api.de/api/interpreter";
+const endpoints = [OVERPASS, OVERPASS_FALLBACK];
+const attemptTimeout = 25000;
 let busyUntil = 0;
+class ServiceError extends Error {
+  constructor(
+    message: string,
+    readonly retryable = false,
+  ) {
+    super(message);
+  }
+}
 export type OsmElement = {
   type: string;
   id: number;
@@ -21,34 +32,85 @@ async function fetchJson(url: string, signal: AbortSignal, init?: RequestInit) {
     response = await fetch(url, { ...init, signal });
   } catch (error) {
     if (signal.aborted) throw error;
-    throw new Error(
+    throw new ServiceError(
       "Could not reach the location or restaurant service. Check your connection and try again.",
+      true,
     );
   }
   if (!response.ok) {
-    if (response.status === 404)
+    if (response.status === 404 && !endpoints.includes(url))
       throw new Error(
         "That ZIP code was not found. Try a different US ZIP code.",
       );
-    if (url === OVERPASS && [406, 429].includes(response.status)) {
+    if (endpoints.includes(url) && [406, 429].includes(response.status)) {
       const retry = response.headers.get("Retry-After");
-      const seconds = retry && /^\d+$/.test(retry) ? Number(retry) : 30;
-      busyUntil = Date.now() + Math.max(30000, seconds * 1000);
+      const until =
+        retry && /^\d+$/.test(retry)
+          ? Date.now() + Number(retry) * 1000
+          : Date.parse(retry || "");
+      busyUntil = Math.max(
+        Date.now() + 30000,
+        Number.isFinite(until) ? until : 0,
+      );
     }
     if ([406, 429, 504].includes(response.status))
-      throw new Error(
+      throw new ServiceError(
         "The restaurant service is busy. Please wait a minute before trying again.",
+        response.status === 504,
       );
-    throw new Error(
+    throw new ServiceError(
       "The location or restaurant service is unavailable. Please try again shortly.",
+      response.status >= 500,
     );
   }
   try {
     return await response.json();
-  } catch {
-    throw new Error(
+  } catch (error) {
+    if (signal.aborted) throw error;
+    throw new ServiceError(
       "The location or restaurant service returned an unreadable response. Please try again shortly.",
+      true,
     );
+  }
+}
+async function fetchRestaurants(query: string, signal: AbortSignal) {
+  // At most two sequential attempts. Never switch servers to evade a cooldown,
+  // retry an invalid query, or accept an HTTP-200 partial result as complete.
+  for (const [index, endpoint] of endpoints.entries()) {
+    signal.throwIfAborted();
+    const attempt = new AbortController();
+    const cancel = () => attempt.abort(signal.reason);
+    signal.addEventListener("abort", cancel, { once: true });
+    const timeout = setTimeout(() => attempt.abort("timeout"), attemptTimeout);
+    try {
+      const json = await fetchJson(endpoint, attempt.signal, {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({ data: query }).toString(),
+      });
+      attempt.signal.throwIfAborted();
+      if (json?.remark || !Array.isArray(json?.elements))
+        throw new Error(
+          "The restaurant search could not finish. Try a smaller radius, or wait a minute and retry.",
+        );
+      return json;
+    } catch (error) {
+      signal.throwIfAborted();
+      const timedOut = attempt.signal.aborted;
+      if (
+        index === endpoints.length - 1 ||
+        !(timedOut || (error instanceof ServiceError && error.retryable))
+      ) {
+        if (timedOut)
+          throw new Error(
+            "The restaurant search timed out. Try a smaller radius or retry shortly.",
+          );
+        throw error;
+      }
+    } finally {
+      clearTimeout(timeout);
+      signal.removeEventListener("abort", cancel);
+    }
   }
 }
 export async function resolveZip(
@@ -68,13 +130,18 @@ export async function resolveZip(
   )
     return cached.center;
   const json = await fetchJson(`https://api.zippopotam.us/us/${zip}`, signal);
-  const place = json.places?.[0];
+  const place = json?.places?.[0];
   const center = {
-    lat: Number(place?.latitude),
-    lon: Number(place?.longitude),
+    lat: place?.latitude?.trim() ? Number(place.latitude) : NaN,
+    lon: place?.longitude?.trim() ? Number(place.longitude) : NaN,
     label: `${place?.["place name"]}, ${place?.["state abbreviation"]} ${zip}`,
   };
-  if (!Number.isFinite(center.lat) || !Number.isFinite(center.lon))
+  if (
+    !Number.isFinite(center.lat) ||
+    !Number.isFinite(center.lon) ||
+    Math.abs(center.lat) > 90 ||
+    Math.abs(center.lon) > 180
+  )
     throw new Error("No geographic center was available for that ZIP code.");
   writeLocal(`eat:zip:${zip}`, { time: Date.now(), center });
   return center;
@@ -146,6 +213,7 @@ export async function discoverRestaurants(
   radius: number,
   signal: AbortSignal,
 ): Promise<{ restaurants: Restaurant[]; time: number; cached: boolean }> {
+  signal.throwIfAborted();
   if (
     ![2, 5, 10, 15, 25].includes(radius) ||
     !Number.isFinite(center.lat) ||
@@ -178,18 +246,8 @@ export async function discoverRestaurants(
       "Please wait ten seconds between new area searches. Preference changes use the results already loaded.",
     );
   lastRequest = Date.now();
-  const query = `[out:json][timeout:25][maxsize:33554432];(${["restaurant", "fast_food", "food_court"].map((kind) => `nwr[amenity=${kind}][name](around:${Math.round(radius * 1609.344)},${center.lat},${center.lon});`).join("")});out center;`;
-  const json = await fetchJson(OVERPASS, signal, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({ data: query }).toString(),
-  });
-  // Overpass may return HTTP 200 with partial results on timeout. Never present
-  // that response as a complete successful search.
-  if (json.remark || !Array.isArray(json.elements))
-    throw new Error(
-      "The restaurant search could not finish. Try a smaller radius, or wait a minute and retry.",
-    );
+  const query = `[out:json][timeout:20][maxsize:33554432];nwr[amenity~"^(restaurant|fast_food|food_court)$"][name](around:${Math.round(radius * 1609.344)},${center.lat},${center.lon});out center;`;
+  const json = await fetchRestaurants(query, signal);
   const restaurants = normalizeElements(json.elements);
   const time = Date.now();
   try {
