@@ -12,6 +12,8 @@ import {
   normalizeElements,
   discoverRestaurants,
   resolveZip,
+  OVERPASS,
+  OVERPASS_FALLBACK,
 } from "../../src/eat/provider";
 const center = { lat: 47.6718, lon: -122.1232, label: "Redmond" };
 const make = (id: string, overrides: Partial<Restaurant> = {}): Restaurant => ({
@@ -204,7 +206,11 @@ test("discovery query preserves node coordinates and caches the normalized searc
     calls++;
     const query = new URLSearchParams(String(init.body)).get("data");
     assert.ok(query.endsWith("out center;"));
-    assert.ok(query.includes("nwr[amenity=restaurant][name]"));
+    assert.ok(
+      query.includes(
+        'nwr[amenity~"^(restaurant|fast_food|food_court)$"][name]',
+      ),
+    );
     return new Response(
       JSON.stringify({
         elements: [
@@ -297,5 +303,226 @@ test("busy responses respect Retry-After before another network request", async 
   } finally {
     globalThis.fetch = fetchBefore;
     Date.now = nowBefore;
+  }
+});
+
+let scenarioTime = Date.now() + 86400000;
+async function providerScenario(
+  fetcher: typeof fetch,
+  run: () => Promise<void>,
+) {
+  const originalFetch = globalThis.fetch;
+  const originalNow = Date.now;
+  const originalSession = globalThis.sessionStorage;
+  const memory = new Map<string, string>();
+  scenarioTime += 3600000;
+  Date.now = () => scenarioTime;
+  globalThis.fetch = fetcher;
+  globalThis.sessionStorage = {
+    getItem: (key: string) => memory.get(key) || null,
+    setItem: (key: string, value: string) => {
+      memory.set(key, value);
+    },
+  } as Storage;
+  try {
+    await run();
+  } finally {
+    globalThis.fetch = originalFetch;
+    Date.now = originalNow;
+    globalThis.sessionStorage = originalSession;
+  }
+}
+
+test("DNS, server, and invalid JSON failures fall back once, then cache the result", async () => {
+  for (const failure of ["dns", "json", 502, 503, 504] as const) {
+    const calls: string[] = [];
+    await providerScenario(
+      async (url) => {
+        calls.push(String(url));
+        if (calls.length === 1) {
+          if (failure === "dns") throw new TypeError("Failed to fetch");
+          if (failure === "json")
+            return new Response("<html>proxy error</html>");
+          return new Response("unavailable", { status: failure });
+        }
+        return Response.json({
+          elements: [
+            {
+              type: "node",
+              id: 7,
+              ...center,
+              tags: { name: "Recovered restaurant", amenity: "restaurant" },
+            },
+          ],
+        });
+      },
+      async () => {
+        const result = await discoverRestaurants(
+          center,
+          5,
+          new AbortController().signal,
+        );
+        assert.equal(result.restaurants[0].name, "Recovered restaurant");
+        assert.equal(
+          (await discoverRestaurants(center, 5, new AbortController().signal))
+            .cached,
+          true,
+        );
+        assert.deepEqual(calls, [OVERPASS, OVERPASS_FALLBACK]);
+      },
+    );
+  }
+});
+
+test("client errors and rate limits never trigger another provider", async () => {
+  for (const status of [400, 403, 404, 406, 429]) {
+    let calls = 0;
+    await providerScenario(
+      async () => {
+        calls++;
+        return new Response("unavailable", {
+          status,
+          headers: { "Retry-After": "60" },
+        });
+      },
+      async () => {
+        await assert.rejects(
+          discoverRestaurants(center, 5, new AbortController().signal),
+        );
+        if ([406, 429].includes(status)) {
+          scenarioTime += 11000;
+          await assert.rejects(
+            discoverRestaurants(center, 10, new AbortController().signal),
+            /49 seconds/,
+          );
+        }
+        assert.equal(calls, 1);
+      },
+    );
+  }
+});
+
+test("fallback failures stop after two attempts and do not cache an empty success", async () => {
+  const calls: string[] = [];
+  await providerScenario(
+    async (url) => {
+      calls.push(String(url));
+      throw new TypeError("Failed to fetch");
+    },
+    async () => {
+      await assert.rejects(
+        discoverRestaurants(center, 5, new AbortController().signal),
+        /Could not reach/,
+      );
+      assert.equal(sessionStorage.getItem("eat:search:v1"), null);
+      await assert.rejects(
+        discoverRestaurants(center, 5, new AbortController().signal),
+        /ten seconds/,
+      );
+      assert.deepEqual(calls, [OVERPASS, OVERPASS_FALLBACK]);
+    },
+  );
+});
+
+test("an unresponsive endpoint is aborted before trying the fallback", async (t) => {
+  t.mock.timers.enable({ apis: ["setTimeout"] });
+  let firstSignal: AbortSignal;
+  const calls: string[] = [];
+  await providerScenario(
+    async (url, init) => {
+      calls.push(String(url));
+      if (calls.length === 1) {
+        firstSignal = init.signal;
+        return new Promise<Response>((_, reject) => {
+          init.signal.addEventListener(
+            "abort",
+            () => reject(init.signal.reason),
+            { once: true },
+          );
+        });
+      }
+      return Response.json({ elements: [] });
+    },
+    async () => {
+      const request = discoverRestaurants(
+        center,
+        5,
+        new AbortController().signal,
+      );
+      t.mock.timers.tick(25000);
+      await request;
+      assert.equal(firstSignal.aborted, true);
+      assert.deepEqual(calls, [OVERPASS, OVERPASS_FALLBACK]);
+    },
+  );
+});
+
+test("cancelling a search aborts the active request without a fallback or cache write", async () => {
+  let calls = 0;
+  await providerScenario(
+    async (_url, init) => {
+      calls++;
+      return new Promise<Response>((_, reject) => {
+        init.signal.addEventListener(
+          "abort",
+          () => reject(init.signal.reason),
+          { once: true },
+        );
+      });
+    },
+    async () => {
+      const controller = new AbortController();
+      const request = discoverRestaurants(center, 5, controller.signal);
+      controller.abort();
+      await assert.rejects(request, /aborted/);
+      assert.equal(calls, 1);
+      assert.equal(sessionStorage.getItem("eat:search:v1"), null);
+    },
+  );
+});
+
+test("HTTP-date Retry-After is honored even when the fallback is rate limited", async () => {
+  let calls = 0;
+  await providerScenario(
+    async () => {
+      calls++;
+      if (calls === 1) return new Response("unavailable", { status: 503 });
+      return new Response("busy", {
+        status: 429,
+        headers: {
+          "Retry-After": new Date(scenarioTime + 120000).toUTCString(),
+        },
+      });
+    },
+    async () => {
+      await assert.rejects(
+        discoverRestaurants(center, 5, new AbortController().signal),
+        /busy/,
+      );
+      scenarioTime += 60000;
+      await assert.rejects(
+        discoverRestaurants(center, 5, new AbortController().signal),
+        /60 seconds/,
+      );
+      assert.equal(calls, 2);
+    },
+  );
+});
+
+test("ZIP responses without valid coordinates never resolve to the equator", async () => {
+  const original = globalThis.fetch;
+  try {
+    for (const coords of [
+      { latitude: "", longitude: "" },
+      { latitude: "91", longitude: "-122" },
+    ]) {
+      globalThis.fetch = async () => Response.json({ places: [coords] });
+      await assert.rejects(
+        resolveZip("00000", new AbortController().signal),
+        /No geographic center/,
+      );
+    }
+  } finally {
+    globalThis.fetch = original;
   }
 });

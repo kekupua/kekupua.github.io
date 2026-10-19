@@ -183,20 +183,21 @@ export default function App() {
     setError("");
     setSelected(undefined);
     setRestaurants([]);
+    setFetchedAt(0);
     controller.current?.abort();
     const request = new AbortController();
     controller.current = request;
-    const timeout = setTimeout(() => request.abort("timeout"), 35000);
+    const timeout = setTimeout(() => request.abort("timeout"), 60000);
     try {
       const nextCenter = location || (await resolveZip(p.zip, request.signal));
-      if (request.signal.aborted) return;
+      request.signal.throwIfAborted();
       setCenter(nextCenter);
       const data = await discoverRestaurants(
         nextCenter,
         p.radius,
         request.signal,
       );
-      if (request.signal.aborted) return;
+      request.signal.throwIfAborted();
       setRestaurants(data.restaurants);
       setFetchedAt(data.time);
       setTime(Date.now());
@@ -323,7 +324,9 @@ export default function App() {
                 <span aria-live="polite">
                   {state === "loading" && !savedOnly
                     ? "Finding real places nearby…"
-                    : `${results.length} ${savedOnly ? "saved places" : "matches"}`}
+                    : state === "error" && !savedOnly
+                      ? "Search unavailable"
+                      : `${results.length} ${savedOnly ? "saved places" : "matches"}`}
                 </span>
                 <label>
                   Sort{" "}
@@ -350,7 +353,9 @@ export default function App() {
                   </button>
                 </div>
               </div>
-              <div className={`eat-workspace view-${view}`}>
+              <div
+                className={`eat-workspace view-${view}${!results.length ? " has-status" : ""}`}
+              >
                 <section className="eat-list" aria-label="Restaurant results">
                   {state === "loading" && !savedOnly && (
                     <div className="eat-state" role="status">
@@ -360,7 +365,7 @@ export default function App() {
                       <h2>Looking for something delicious…</h2>
                       <p>
                         Searching real OpenStreetMap listings. Larger areas can
-                        take up to 35 seconds.
+                        take up to a minute.
                       </p>
                     </div>
                   )}

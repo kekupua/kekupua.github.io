@@ -1,5 +1,8 @@
 import { readFileSync } from "node:fs";
 import { test, expect, type Page } from "@playwright/test";
+import { OVERPASS, OVERPASS_FALLBACK } from "../../src/eat/provider";
+const overpassRoute =
+  /https:\/\/(overpass-api\.de|overpass\.private\.coffee)\/api\/interpreter/;
 // Synthetic records exist only in the test runner, never in the shipped app.
 const elements = [
   {
@@ -72,7 +75,7 @@ async function mockData(page: Page, data = elements) {
       },
     }),
   );
-  await page.route("https://overpass-api.de/**", (route) =>
+  await page.route(overpassRoute, (route) =>
     route.fulfill({ json: { elements: data } }),
   );
   // Honor tile policy: deterministic tests do not bulk-request public tiles.
@@ -216,7 +219,7 @@ test("empty, error, loading, strict budget, and missing-data states", async ({
   ).toBeVisible();
   await page.evaluate(() => sessionStorage.clear());
   await page.reload();
-  await page.route("https://overpass-api.de/**", (route) =>
+  await page.route(OVERPASS, (route) =>
     route.fulfill({ status: 429, body: "busy" }),
   );
   await questions(page);
@@ -265,7 +268,6 @@ test("real OSM snapshot screenshots (frozen community data, not live opening gua
     readFileSync(new URL("./redmond-osm.json", import.meta.url), "utf-8"),
   );
   await mockData(page, snapshot.elements as unknown as typeof elements);
-  await page.unroute("https://tile.openstreetmap.org/**");
   await page.goto("/eat/");
   await questions(page);
   await expect(page.locator(".eat-card").first()).toBeVisible();
@@ -295,7 +297,7 @@ test("location permission is opt-in and device center is sent to the search", as
   await expect(
     page.getByRole("button", { name: /Using current location/ }),
   ).toBeVisible();
-  const request = page.waitForRequest("https://overpass-api.de/**");
+  const request = page.waitForRequest(OVERPASS);
   await questions(page);
   expect(decodeURIComponent((await request).postData() || "")).toContain(
     "47.67,-122.12",
@@ -309,7 +311,7 @@ test("loading, ZIP lookup failure, cached re-filtering, and sort interactions", 
 }) => {
   await mockData(page);
   await page.goto("/eat/");
-  await page.route("https://overpass-api.de/**", async (route) => {
+  await page.route(OVERPASS, async (route) => {
     await new Promise((r) => setTimeout(r, 1000));
     await route.fulfill({ json: { elements } });
   });
@@ -324,7 +326,7 @@ test("loading, ZIP lookup failure, cached re-filtering, and sort interactions", 
   );
   let newCalls = 0;
   page.on("request", (r) => {
-    if (r.url().includes("overpass-api.de")) newCalls++;
+    if (overpassRoute.test(r.url())) newCalls++;
   });
   await page.getByRole("button", { name: "Edit preferences" }).click();
   await questions(page, "Japanese");
@@ -340,4 +342,85 @@ test("loading, ZIP lookup failure, cached re-filtering, and sort interactions", 
   );
   await questions(page);
   await expect(page.getByRole("alert")).toContainText("ZIP code was not found");
+});
+
+test("a DNS failure falls back once and renders selectable restaurant markers", async ({
+  page,
+}) => {
+  await mockData(page);
+  const calls: string[] = [];
+  await page.route(overpassRoute, (route) => {
+    const url = route.request().url();
+    calls.push(url);
+    return url === OVERPASS
+      ? route.abort("namenotresolved")
+      : route.fulfill({ json: { elements } });
+  });
+  await page.goto("/eat/");
+  await questions(page);
+  await expect(page.locator(".eat-card")).toHaveCount(4);
+  expect(calls).toEqual([OVERPASS, OVERPASS_FALLBACK]);
+  await page.getByRole("button", { name: "Show Test Sushi on map" }).click();
+  await expect(page.locator(".leaflet-marker-icon")).toHaveCount(4);
+  await expect(page.locator(".leaflet-popup-content")).toContainText(
+    "Test Sushi",
+  );
+});
+
+test("map view keeps loading, errors, and retry controls visible without bypassing cooldown", async ({
+  page,
+}, info) => {
+  await mockData(page);
+  let release!: () => void;
+  const pending = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  let calls = 0;
+  await page.route(overpassRoute, async (route) => {
+    calls++;
+    await pending;
+    await route.fulfill({
+      status: 429,
+      headers: { "Retry-After": "60" },
+      body: "busy",
+    });
+  });
+  await page.goto("/eat/");
+  await questions(page);
+  try {
+    if (info.project.name === "iphone")
+      await page.getByRole("button", { name: "Map", exact: true }).click();
+    await expect(
+      page.getByRole("heading", { name: "Looking for something delicious…" }),
+    ).toBeVisible();
+  } finally {
+    release();
+  }
+  await expect(page.getByRole("alert")).toContainText("busy");
+  await expect(
+    page.getByText("Search unavailable", { exact: true }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Try search again" }).click();
+  await expect(page.getByRole("alert")).toContainText("asked us to pause");
+  expect(calls).toBe(1);
+  await page.screenshot({
+    path: info.outputPath("map-search-error.png"),
+    fullPage: true,
+  });
+});
+
+test("empty map results keep the filter recovery actions visible", async ({
+  page,
+}, info) => {
+  await mockData(page, []);
+  await page.goto("/eat/");
+  await questions(page);
+  if (info.project.name === "iphone")
+    await page.getByRole("button", { name: "Map", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "No matches this time." }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("button", { name: "Clear filters" }),
+  ).toBeVisible();
 });
