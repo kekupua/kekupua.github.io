@@ -1,4 +1,5 @@
 import type { EvidenceKind, Source } from "../types";
+import { mobSources } from "./mobs";
 
 const checked = "2026-10-19";
 const source = (
@@ -12,6 +13,35 @@ const source = (
 ): Source => ({ id, title, publisher, url, kind, version, checked, note });
 
 export const sources: Source[] = [
+  ...mobSources,
+  source(
+    "mob-index",
+    "Classic World monster stats",
+    "MapleClassic Wiki",
+    "https://mapleclassic.wiki/wiki/Monsters",
+    "community",
+    "0.9.0 · listed roster",
+    "Level, HP, and EXP for the selected Warrior-route mobs. No historical v83 values are substituted.",
+  ),
+  source(
+    "drop-method",
+    "Player drop-reporting method",
+    "MapleClassic Wiki",
+    "https://mapleclassic.wiki/wiki/MapleWiki:Report_an_item_drop",
+    "community",
+    "Community observation method",
+    "Player kill/drop observations, not official server probabilities. Sample sizes and confidence intervals are not supplied in the mob tables; estimates may be low-confidence.",
+  ),
+  source(
+    "official-gallery",
+    "Classic World promotional artwork & gallery",
+    "Nexon",
+    "https://www.nexon.com/mscw/pre-launch-sales",
+    "official",
+    "Classic World promotional site · Oct 2026",
+    "Character artwork and historical gameplay screenshots from Nexon’s official CDN. Visual context only, not a source for current drop tables or gameplay mechanics.",
+  ),
+
   source(
     "access",
     "Founder's Packages FAQ",

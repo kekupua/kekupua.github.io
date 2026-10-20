@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 const sectionIds = [
   "overview",
-  "stats",
+  "mobs",
   "skills",
   "gear",
   "quests",
@@ -38,14 +38,14 @@ test("direct route, search, history, and portfolio discovery", async ({
   ).toBeVisible();
   await page.getByRole("button", { name: "Clear search" }).click();
   await page.goto("/maple/#skills");
-  await page.goto("/maple/#stats");
+  await page.goto("/maple/#mobs");
   await page.goBack();
   await expect(
     page.getByRole("heading", { name: "Skills", exact: true }),
   ).toBeVisible();
   await page.goForward();
   await expect(
-    page.getByRole("heading", { name: "Stats & AP", exact: true }),
+    page.getByRole("heading", { name: "Mobs & drops", exact: true }),
   ).toBeVisible();
   await page.goto("/");
   await page
@@ -88,7 +88,7 @@ test("mobile menu reaches all sections, closes on selection, and supports Escape
   ).toBeVisible();
 });
 
-test("skill and stat references retain prerequisites and disputed values without calculators", async ({
+test("skill references retain prerequisites and disputed values without calculators", async ({
   page,
 }) => {
   await page.addInitScript(() =>
@@ -110,7 +110,7 @@ test("skill and stat references retain prerequisites and disputed values without
     has: page.getByRole("heading", { name: "Max HP Increase", exact: true }),
   });
   await expect(hp).toContainText("Requires Improved HP Recovery 3");
-  for (const id of ["skills", "stats", "quests", "gear"]) {
+  for (const id of ["skills", "mobs", "quests", "gear"]) {
     await page.goto(`/maple/#${id}`);
     await expect(page.getByRole("slider")).toHaveCount(0);
     await expect(page.getByRole("spinbutton")).toHaveCount(0);
@@ -183,12 +183,15 @@ test("unpublished job tiles are disabled and bundled artwork loads", async ({
     expect(response.ok()).toBe(true);
     expect(response.headers()["content-type"]).toMatch(/^image\//);
   }
-  for (const img of await page.locator("main img").all())
+  for (const img of await page.locator("main img").all()) {
+    await img.scrollIntoViewIfNeeded();
+    await expect(img).toHaveJSProperty("complete", true);
     expect(
       await img.evaluate(
         (el: HTMLImageElement) => el.complete && el.naturalWidth > 0,
       ),
     ).toBe(true);
+  }
 });
 
 test("every section fits narrow screens and renders without runtime errors", async ({
@@ -207,12 +210,101 @@ test("every section fits narrow screens and renders without runtime errors", asy
         ),
         `${id} at ${width}px`,
       ).toBe(true);
-      if (["overview", "skills", "quests"].includes(id))
+      if (["overview", "skills", "quests", "mobs"].includes(id)) {
+        for (const image of await page.locator("main img").all()) {
+          await image.scrollIntoViewIfNeeded();
+          await expect(image).toHaveJSProperty("complete", true);
+        }
+        if (id === "mobs")
+          await page
+            .locator('.mob-index-options button[aria-pressed="true"]')
+            .scrollIntoViewIfNeeded();
+        await page.evaluate(() => window.scrollTo(0, 0));
         await page.screenshot({
           path: `test-results-maple/${info.project.name}-${width}-${id}.png`,
           fullPage: true,
         });
+      }
     }
   }
   expect(errors).toEqual([]);
+});
+
+test("mob search finds items, honors rarity and type filters, and preserves unknown rates", async ({
+  page,
+}) => {
+  await page.goto("/maple/#mobs");
+  await expect
+    .poll(() =>
+      page
+        .locator('.mob-index-options button[aria-pressed="true"]')
+        .evaluate((button) => {
+          const selected = button.getBoundingClientRect();
+          const index = button.parentElement!.getBoundingClientRect();
+          return (
+            selected.left >= index.left - 1 && selected.right <= index.right + 1
+          );
+        }),
+    )
+    .toBe(true);
+  await page
+    .getByRole("searchbox", { name: "Find a mob or drop" })
+    .fill("Green Mushroom");
+  await expect(
+    page.getByRole("heading", { name: "Green Mushroom", exact: true }),
+  ).toBeVisible();
+  await page.getByLabel("Item type").selectOption("Equipment");
+  await page.getByLabel("Drop rarity").selectOption("Rare");
+  await expect(page.locator(".drop-table tbody tr")).toHaveCount(2);
+  await expect(page.locator(".drop-table")).toContainText("~0.16%");
+  await expect(page.locator(".drop-table .rarity-badge")).toHaveText([
+    "Rare",
+    "Rare",
+  ]);
+  await page.getByLabel("Item type").selectOption("Quest");
+  await page.getByLabel("Drop rarity").selectOption("Unknown");
+  await expect(page.locator(".drop-table tbody tr")).toHaveCount(1);
+  await expect(page.locator(".drop-table")).toContainText("Animal Fossil");
+  await expect(page.locator(".drop-chance")).toHaveText("Not reported");
+  await expect(page.locator(".quest-drop-condition")).toContainText(
+    "Requires the relevant quest",
+  );
+  await page
+    .getByRole("button", { name: "Reset filters", exact: true })
+    .click();
+  await page
+    .getByRole("searchbox", { name: "Find a mob or drop" })
+    .fill("zzz-no-drop");
+  await expect(
+    page.getByRole("heading", { name: "No matching mobs or drops" }),
+  ).toBeVisible();
+});
+
+test("global item search selects its mob and missing drop data stays explicitly incomplete", async ({
+  page,
+}) => {
+  await page
+    .getByRole("searchbox", { name: "Search the guide" })
+    .fill("Animal Fossil");
+  await page.getByRole("link", { name: "Mobs & drops Green Mushroom" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Green Mushroom", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".drop-table")).toContainText("Animal Fossil");
+  await page
+    .getByRole("searchbox", { name: "Find a mob or drop" })
+    .fill("Curse Eye");
+  await expect(
+    page.getByRole("heading", { name: "No drop list in the reviewed source" }),
+  ).toBeVisible();
+  await expect(page.locator(".drop-data-missing")).toContainText(
+    "does not mean the monster drops nothing",
+  );
+  await page.goto("/maple/#stats");
+  await expect(
+    page.getByRole("heading", { name: "Mobs & drops", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByText("Before you spend AP", { exact: true }),
+  ).toHaveCount(0);
 });

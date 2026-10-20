@@ -32,6 +32,76 @@
       "source": "https://g.nexonstatic.com/media/pgtfk5sl/540x304-global-maplestory-classic-world-founders-access-release-notes.png",
       "sha256": "654c939f648c865d5b31b36d68b94488e9212cc635b1807c3a5d522460acab0c",
       "processing": "Original file"
+    },
+    {
+      "file": "/images/maple/official-adventurer.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/char-boy-pig-DxOcZsJH.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "96e613a4d1c5771450285ac6b1eb6f86b4c1aac8e414b94eb2536affc47fe90c",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-mapler.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/char-girl-BRZO_uCN.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "7ee78400bc7f1154170c3b93e39437e1d050d47dcc6385ace238d8a07783db5b",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-slime-spore.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/char-slime-spore-BNuw3xQS.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "da5a8a0133780c15f1000aa7814953e4e06ed9c612b9d79f2c86f3919ef55658",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-snail-mush.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/char-snail-mush-D2LSqMTs.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "0e6d398b0c8b409f178c9a9df52c5af0d42a6c2fce96ae7efd4288066733884b",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-manji.png",
+      "source": "https://g.nexonstatic.com/mscw/assets/manji-char-ioOwYJcZ.png",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "e51d94face29b70939d3bc803b3d74a9b7702464ccb83a80ade6a026ed9c0705",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-victoria-scene.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/screenshot2-C28B0WZO.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "d80e2b13879671e1bb83219f77ad653ab709232856b3a6aea6d8ce7ac0364850",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
+    },
+    {
+      "file": "/images/maple/official-kerning-scene.webp",
+      "source": "https://g.nexonstatic.com/mscw/assets/screenshot3-CcB6cfPL.webp",
+      "sourcePage": "https://www.nexon.com/mscw/pre-launch-sales",
+      "rightsHolder": "Nexon",
+      "retrieved": "2026-10-19",
+      "sha256": "7577e825bf9014ed58d7d7262955cc3eda8e961cda34cc5b69621c27fd16c13f",
+      "processing": "Original file",
+      "note": "Nexon promotional artwork; gameplay screenshots are illustrative, not verification of current map layouts or mechanics."
     }
   ]
 }

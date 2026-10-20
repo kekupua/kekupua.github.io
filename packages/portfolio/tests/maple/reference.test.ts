@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { test } from "node:test";
 import { branches, guides, warrior } from "../../src/maple/data/warrior";
 import { sources, sourceById } from "../../src/maple/data/sources";
@@ -82,6 +83,7 @@ test("training covers levels 1–55 once and gear includes every Warrior weapon 
 test("all section hashes resolve, invalid hashes return home, and unpublished jobs have no destination", () => {
   for (const section of sections)
     assert.equal(sectionFromHash(`#${section.id}`), section.id);
+  assert.equal(sectionFromHash("#stats"), "mobs");
   for (const hash of ["", "#missing", "#guide-content"])
     assert.equal(sectionFromHash(hash), "overview");
   assert.deepEqual(
@@ -107,6 +109,28 @@ test("bundled image assets exist and do not rely on third-party runtime hosts", 
         new URL(`../../public/images/maple/${asset}`, import.meta.url),
       ),
       asset,
+    );
+  }
+});
+
+test("Nexon artwork is bundled unchanged with precise CDN provenance", () => {
+  const manifest = JSON.parse(
+    readFileSync(
+      new URL("../../../../docs/maple/assets.json", import.meta.url),
+      "utf8",
+    ),
+  );
+  const official = manifest.assets.filter(
+    (entry: { source: string }) =>
+      new URL(entry.source).hostname === "g.nexonstatic.com",
+  );
+  assert.ok(official.length >= 8);
+  for (const entry of official) {
+    const local = new URL(`../../public${entry.file}`, import.meta.url);
+    assert.ok(existsSync(local), entry.file);
+    assert.equal(
+      createHash("sha256").update(readFileSync(local)).digest("hex"),
+      entry.sha256,
     );
   }
 });
