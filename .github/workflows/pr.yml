@@ -32,6 +32,9 @@ jobs:
       - name: Test restaurant discovery logic
         run: pnpm --filter portfolio test:eat:unit
 
+      - name: Test Maple Fieldguide data, planner, and rendered guide
+        run: pnpm --filter portfolio test:maple
+
       - name: Test mortgage calculations
         run: pnpm --filter portfolio test:mortgage:unit
 
@@ -50,8 +53,20 @@ jobs:
       - name: Test restaurant discovery on desktop and iPhone
         run: pnpm --filter portfolio test:eat
 
+      - name: Test Maple Fieldguide on desktop and iPhone
+        run: pnpm --filter portfolio test:maple:browser
+
       - name: Test mortgage calculator on desktop and iPhone
         run: pnpm --filter portfolio test:mortgage
+
+      - name: Upload Maple Fieldguide screenshots and browser report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maple-browser-tests-and-screenshots
+          path: |
+            packages/portfolio/playwright-maple-report
+            packages/portfolio/test-results-maple
 
       - name: Upload mortgage screenshots and browser report
         if: always()
