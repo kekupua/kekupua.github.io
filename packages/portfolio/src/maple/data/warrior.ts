@@ -12,10 +12,8 @@ export const warrior: JobGuide = {
       max: 20,
       symbol: "sword",
       category: "Single target",
-      description:
-        "A focused weapon attack against one enemy. Public Release reference: 260% damage at max rank.",
-      advice:
-        "Take one point to open Slash Blast. Add more if your routine favors single enemies.",
+      description: "Single-target attack. 260% damage at max rank.",
+      advice: "Take 1 point to unlock Slash Blast.",
       kind: "client",
       sources: ["warrior"],
     },
@@ -25,11 +23,13 @@ export const warrior: JobGuide = {
       max: 20,
       symbol: "swords",
       category: "Mobbing",
-      requires: { skill: "power", rank: 1 },
+      requires: {
+        skill: "power",
+        rank: 1,
+      },
       description:
-        "An area attack that consumes HP and MP. The newer reference lists six targets and 130% damage at max; an older wiki description lists four targets.",
-      advice:
-        "Our first mobbing priority. Gather enemies within reach, while leaving yourself room to retreat.",
+        "Area attack; costs HP and MP. Max: 130% damage. Newer export: 6 targets; older wiki: 4.",
+      advice: "Mobbing priority in the example route.",
       kind: "disputed",
       sources: ["slash", "wiki-warrior"],
     },
@@ -39,10 +39,8 @@ export const warrior: JobGuide = {
       max: 15,
       symbol: "target",
       category: "Passive · accuracy",
-      description:
-        "Increases accuracy and critical rate. Reference at max: +20 accuracy and +5% critical rate.",
-      advice:
-        "Try this when misses interrupt your training. We do not invent values for intermediate ranks.",
+      description: "Max: +20 accuracy and +5% critical rate.",
+      advice: "Prioritize when misses slow your training.",
       kind: "client",
       sources: ["precise"],
     },
@@ -52,10 +50,8 @@ export const warrior: JobGuide = {
       max: 15,
       symbol: "heart",
       category: "Recovery",
-      description:
-        "Supports natural HP regeneration and recovery from healing items. Rank 3 unlocks Max HP Increase.",
-      advice:
-        "Three points open the HP path. Compare healing costs before committing additional points.",
+      description: "Improves natural HP recovery and healing from items.",
+      advice: "Rank 3 unlocks Max HP Increase.",
       kind: "community",
       sources: ["wiki-warrior"],
     },
@@ -65,11 +61,14 @@ export const warrior: JobGuide = {
       max: 15,
       symbol: "shield",
       category: "Passive · survivability",
-      requires: { skill: "recovery", rank: 3 },
+      requires: {
+        skill: "recovery",
+        rank: 3,
+      },
       description:
-        "Raises maximum HP; the Public Release reference reports +25% at max. This is not the historical level-up HP-growth skill.",
+        "Max: +25% HP. This is not the historical level-up HP-growth skill.",
       advice:
-        "A survivability option. Rank-by-rank effects are not reliably exposed; verify the live tooltip before spending.",
+        "A survival option. Check intermediate ranks in the live tooltip.",
       kind: "client",
       sources: ["hp"],
     },
@@ -79,11 +78,12 @@ export const warrior: JobGuide = {
       max: 20,
       symbol: "shield",
       category: "Defense buff",
-      requires: { skill: "hp", rank: 3 },
-      description:
-        "A temporary weapon-defense buff, unlocked by Max HP Increase rank 3.",
-      advice:
-        "Optional in our first-job route. Its points compete with attacks, accuracy, and HP.",
+      requires: {
+        skill: "hp",
+        rank: 3,
+      },
+      description: "Temporary weapon-defense buff.",
+      advice: "Optional; competes with attack, accuracy, and HP skills.",
       kind: "community",
       sources: ["wiki-warrior"],
     },
@@ -99,8 +99,7 @@ export const warrior: JobGuide = {
       dex: 0,
       price: 3000,
       acquisition: "River · Perion Weapon Store",
-      advice:
-        "A modest one-handed starting option. Keep enough mesos for potions and travel.",
+      advice: "Budget one-handed starter. Save mesos for potions.",
       kind: "client",
       sources: ["long-sword"],
     },
@@ -114,8 +113,7 @@ export const warrior: JobGuide = {
       dex: 10,
       price: 5000,
       acquisition: "River · Perion Weapon Store",
-      advice:
-        "A simple sword upgrade if your current weapon is holding you back.",
+      advice: "Early sword upgrade when your current weapon feels weak.",
       kind: "community",
       sources: ["gear"],
     },
@@ -129,8 +127,7 @@ export const warrior: JobGuide = {
       dex: 10,
       price: 5000,
       acquisition: "River · Perion Weapon Store",
-      advice:
-        "An axe option before a Fighter choice. Check attack speed alongside the attack stat.",
+      advice: "Early axe option. Compare speed as well as attack.",
       kind: "community",
       sources: ["gear"],
     },
@@ -144,8 +141,7 @@ export const warrior: JobGuide = {
       dex: 15,
       price: 10500,
       acquisition: "River · Perion Weapon Store",
-      advice:
-        "Check the DEX requirement before buying. A usable upgrade beats one stuck in your bag.",
+      advice: "Check the DEX requirement before buying.",
       kind: "client",
       sources: ["machete"],
     },
@@ -159,7 +155,7 @@ export const warrior: JobGuide = {
       dex: 20,
       price: 13500,
       acquisition: "River · Perion Weapon Store",
-      advice: "Uses both hands; budget for the weapon rather than a shield.",
+      advice: "Two-handed: cannot use a shield.",
       kind: "community",
       sources: ["gear"],
     },
@@ -173,8 +169,7 @@ export const warrior: JobGuide = {
       dex: 30,
       price: 22000,
       acquisition: "River · Perion Weapon Store",
-      advice:
-        "A shared sword option for Fighter or Page. Attack is the base reference; individual rolls can vary.",
+      advice: "Shared sword option for Fighter or Page. Item rolls vary.",
       kind: "client",
       sources: ["gladius"],
     },
@@ -188,7 +183,7 @@ export const warrior: JobGuide = {
       dex: 0,
       price: 7000,
       acquisition: "River · Perion Weapon Store",
-      advice: "An early spear reference to try before committing to Spearman.",
+      advice: "Early spear to try before choosing Spearman.",
       kind: "community",
       sources: ["gear"],
     },
@@ -202,8 +197,7 @@ export const warrior: JobGuide = {
       dex: 30,
       price: 26000,
       acquisition: "River · community-recorded listing",
-      advice:
-        "A second-job spear candidate; compare it with a polearm before choosing mastery.",
+      advice: "Compare with a polearm before choosing mastery.",
       kind: "client",
       sources: ["warrior", "gear"],
     },
@@ -217,8 +211,7 @@ export const warrior: JobGuide = {
       dex: 20,
       price: 13500,
       acquisition: "River · community-recorded listing",
-      advice:
-        "Newer export base attack is 42; the older gear table says 39. Check the actual item before buying.",
+      advice: "Newer export: 42 ATT; older guide: 39. Inspect before buying.",
       kind: "disputed",
       sources: ["warrior", "gear"],
     },
@@ -232,8 +225,7 @@ export const warrior: JobGuide = {
       dex: 25,
       price: 22000,
       acquisition: "River · community-recorded listing",
-      advice:
-        "A one-handed blunt option for Page. Compare the weapon speed with your current setup.",
+      advice: "One-handed blunt option for Page. Check attack speed.",
       kind: "client",
       sources: ["warrior", "gear"],
     },
@@ -246,8 +238,7 @@ export const warrior: JobGuide = {
       str: 70,
       dex: 30,
       acquisition: "Acquisition needs live confirmation",
-      advice:
-        "A later sword candidate in the older equipment table. Verify the item and its source in game.",
+      advice: "Later sword candidate. Confirm the acquisition source in game.",
       kind: "community",
       sources: ["gear"],
     },
@@ -259,21 +250,19 @@ export const warrior: JobGuide = {
       str: 30,
       dex: 10,
       acquisition: "Smithing · older reference tier 4",
-      advice:
-        "The older reference lists +2 accuracy. Inspect the live recipe and stat roll before crafting.",
+      advice: "Older reference: +2 accuracy. Check the live recipe and roll.",
       kind: "community",
       sources: ["gear"],
     },
     {
       id: "armor",
-      name: "Armor that fills your stat gap",
+      name: "STR / DEX armor",
       level: 10,
       family: "Armor",
       str: 0,
       dex: 0,
       acquisition: "Harry · Perion; Smithing for selected pieces",
-      advice:
-        "Compare STR or DEX variants. Preserve potion money before replacing every slot.",
+      advice: "Choose STR or DEX to fill a gap. Keep potion money.",
       kind: "community",
       sources: ["gear"],
     },
@@ -285,8 +274,7 @@ export const warrior: JobGuide = {
       str: 0,
       dex: 0,
       acquisition: "Weaponcrafting · check the in-game recipe list",
-      advice:
-        "Pick your second-job family first. This is a shopping lead, not a promise of a specific recipe or drop.",
+      advice: "Choose a weapon family first. Verify recipes in game.",
       kind: "community",
       sources: ["gear"],
     },
@@ -299,10 +287,9 @@ export const warrior: JobGuide = {
       npc: "Dances with Balrog",
       location: "Perion · Warriors’ Sanctuary",
       objective:
-        "Reach level 10, travel from Maple Island to Victoria Island, and speak to your instructor in Perion. Check any additional requirement in the live dialogue.",
+        "At level 10, speak to Dances with Balrog in Perion. Confirm additional requirements in his dialogue.",
       reward: "Warrior job and first-job skills",
-      reason:
-        "Your first stop at level 10; do it before settling into a training route.",
+      reason: "Advance before starting your Warrior training route.",
       kind: "client",
       sources: ["warrior"],
     },
@@ -313,10 +300,9 @@ export const warrior: JobGuide = {
       npc: "Jane",
       location: "Lith Harbor",
       objective:
-        "Defeat 30 Blue Mushrooms and 30 Horny Mushrooms; bring 15 caps of each kind.",
+        "Defeat 30 Blue and 30 Horny Mushrooms. Bring 15 caps of each.",
       reward: "1,610 EXP · 658 mesos · one random Intermediate weapon scroll",
-      reason:
-        "Accept before a mushroom session so kills and drops work toward the same goal.",
+      reason: "Accept before training on mushrooms.",
       kind: "community",
       sources: ["jane"],
     },
@@ -327,10 +313,9 @@ export const warrior: JobGuide = {
       npc: "Lakelis",
       location: "Kerning City",
       objective:
-        "Form a party, collect the exact coupon count requested by Cloto, pass the stage puzzles, and face King Slime. Confirm entry limits and channels with Lakelis.",
+        "Form a party, collect Cloto’s requested coupons, solve the stages, and defeat King Slime.",
       reward: "Party experience and a cooperative break from solo training",
-      reason:
-        "Good for learning party coordination. An old 21–30 level cap is not assumed here.",
+      reason: "Confirm current entry limits and channels with Lakelis.",
       kind: "community",
       sources: ["kpq"],
     },
@@ -340,9 +325,9 @@ export const warrior: JobGuide = {
       level: 30,
       npc: "Dances with Balrog",
       location: "Perion · Warriors’ Sanctuary",
-      objective: "Speak to Dances with Balrog to start the second-job chain.",
+      objective: "Speak to Dances with Balrog to begin the second-job chain.",
       reward: "Opens Finding the Instructor",
-      reason: "Make the second advancement your priority at level 30.",
+      reason: "Prioritize second advancement at level 30.",
       kind: "client",
       sources: ["journey"],
     },
@@ -354,9 +339,9 @@ export const warrior: JobGuide = {
       location: "West Rocky Mountain IV",
       prerequisite: "The Warrior’s Next Journey",
       objective:
-        "Take Dances with Balrog’s Letter and follow the quest log to the Warrior Job Instructor.",
+        "Take Dances with Balrog’s Letter to the Warrior Job Instructor.",
       reward: "Opens Test of Qualification",
-      reason: "Restock before leaving town; the next stage involves combat.",
+      reason: "Restock potions before leaving town.",
       kind: "client",
       sources: ["instructor", "wiki-warrior"],
     },
@@ -368,10 +353,9 @@ export const warrior: JobGuide = {
       location: "Warrior advancement area",
       prerequisite: "Finding the Instructor",
       objective:
-        "Enter the test area and collect 30 Dark Marbles. Follow the current quest log for turn-in.",
+        "Enter the test area and collect 30 Dark Marbles. Follow the quest log for turn-in.",
       reward: "Opens Proof of Qualification",
-      reason:
-        "Use safe pulls and keep healing available while you collect the quest items.",
+      reason: "Keep healing ready during the test.",
       kind: "client",
       sources: ["test"],
     },
@@ -383,9 +367,9 @@ export const warrior: JobGuide = {
       location: "Advancement area → Perion",
       prerequisite: "Test of Qualification",
       objective:
-        "Finish the instructor’s proof step, then return to Dances with Balrog and choose Fighter, Page, or Spearman.",
+        "Complete the proof step. Return to Dances with Balrog and choose Fighter, Page, or Spearman.",
       reward: "Second-job specialization",
-      reason: "Compare the branches below before confirming your choice.",
+      reason: "Compare job paths before confirming.",
       kind: "community",
       sources: ["proof", "wiki-warrior"],
     },
@@ -396,11 +380,9 @@ export const warrior: JobGuide = {
       npc: "Maya",
       location: "Henesys Townstreet",
       prerequisite: "Delivering the Weird Medicine",
-      objective:
-        "Bring 20 each of Orange, Green, Blue, and Horny Mushroom Caps.",
+      objective: "Bring 20 each: Orange, Green, Blue, and Horny Mushroom Caps.",
       reward: "4,780 EXP · 965 mesos · 30 Orange Potions",
-      reason:
-        "Set the caps aside while training if you plan to complete the prerequisite.",
+      reason: "Save caps while training after accepting the prerequisite.",
       kind: "community",
       sources: ["maya"],
     },
@@ -411,10 +393,9 @@ export const warrior: JobGuide = {
       npc: "Mr. Wetbottom → Ronnie",
       location: "Sleepywood VIP Sauna → forest near Ellinia",
       objective:
-        "Start with Mr. Wetbottom, then report to Ronnie at The Tree Tunnel At the Forest Up North.",
+        "Speak to Mr. Wetbottom, then Ronnie at The Tree Tunnel At the Forest Up North.",
       reward: "5,850 EXP · 1,023 mesos · starts a longer chain",
-      reason:
-        "Combine the trip with Ellinia training rather than making a separate journey.",
+      reason: "Combine with an Ellinia trip.",
       kind: "community",
       sources: ["book"],
     },
@@ -427,8 +408,7 @@ export const warrior: JobGuide = {
       map: "Maple Island quest route",
       town: "Maple Island",
       monsters: "Snails, Stumps, and early mushrooms",
-      advice:
-        "Follow island quests, keep potion money, and aim for the level-10 advancement.",
+      advice: "Follow island quests; save potion money for level 10.",
       kind: "community",
       sources: ["training"],
     },
@@ -439,8 +419,7 @@ export const warrior: JobGuide = {
       map: "Tree Dungeon, Forest Up North IV",
       town: "Ellinia",
       monsters: "Slimes · Green Mushrooms",
-      advice:
-        "Start on targets you hit consistently; move to mushrooms when kills become comfortable.",
+      advice: "Start with Slimes; try mushrooms when kills feel consistent.",
       kind: "community",
       sources: ["training"],
     },
@@ -451,8 +430,7 @@ export const warrior: JobGuide = {
       map: "Line 1 (Area 1)",
       town: "Kerning City",
       monsters: "Bubblings",
-      advice:
-        "Try short mobbing loops. Compare potion spending with the forest before committing.",
+      advice: "Use short mobbing loops. Compare potion costs with the forest.",
       kind: "community",
       sources: ["training"],
     },
@@ -464,7 +442,7 @@ export const warrior: JobGuide = {
       town: "Sleepywood",
       monsters: "Stirges · Horny / Zombie Mushrooms",
       advice:
-        "Use the mushroom platforms if flying enemies waste your swings. Kerning PQ is an alternative.",
+        "Try mushroom platforms if flying enemies slow you down. Kerning PQ is an alternative.",
       kind: "community",
       sources: ["training"],
     },
@@ -475,8 +453,7 @@ export const warrior: JobGuide = {
       map: "Ant Tunnel III",
       town: "Sleepywood",
       monsters: "Horny Mushrooms · Zombie Mushrooms",
-      advice:
-        "Test clustered pulls with Slash Blast. Return to Perion for second job at 30.",
+      advice: "Use Slash Blast on clusters. Return to Perion at level 30.",
       kind: "community",
       sources: ["training"],
     },
@@ -488,7 +465,7 @@ export const warrior: JobGuide = {
       town: "Ellinia",
       monsters: "Curse Eyes",
       advice:
-        "Reassess your new weapon and mastery choice. Keep the easier route if misses are frequent.",
+        "Recheck your weapon and mastery. Stay on easier targets if you miss.",
       kind: "community",
       sources: ["training"],
     },
@@ -499,8 +476,7 @@ export const warrior: JobGuide = {
       map: "Line 2 (Area 1)",
       town: "Kerning City",
       monsters: "Jr. Wraiths",
-      advice:
-        "Try a short session before a long trip. Check that the live map matches this reference.",
+      advice: "Try a short session and confirm the live map layout.",
       kind: "community",
       sources: ["training"],
     },
@@ -511,8 +487,7 @@ export const warrior: JobGuide = {
       map: "Tree Dungeon, Monkey Forest II",
       town: "Ellinia",
       monsters: "Zombie Lupins · Curse Eyes",
-      advice:
-        "Pay attention to ranged damage and healing costs, not just the experience per monster.",
+      advice: "Watch ranged damage and healing costs.",
       kind: "community",
       sources: ["training"],
     },
@@ -524,14 +499,14 @@ export const warrior: JobGuide = {
       town: "Kerning City",
       monsters: "Wraiths",
       advice:
-        "Restock for the deeper subway trip. This guide stops at 55 until later routes receive a source review.",
+        "Restock before the deeper subway trip. Later routes are outside this guide.",
       kind: "community",
       sources: ["training"],
     },
   ],
 };
 
-// Add other jobs as separate data modules. The guide shell and tools consume this registry.
+// Register published job data here; future-job tiles are separate in navigation.ts.
 export const guides: JobGuide[] = [warrior];
 export const branches = [
   {
@@ -539,10 +514,8 @@ export const branches = [
     name: "Fighter",
     weapons: "Swords & axes",
     style: "Keep the pressure on.",
-    description:
-      "Rage supports party attack. The Public Release reference also lists Rush as a gap closer.",
-    advice:
-      "Our pick if you enjoy direct offense. Choose one weapon mastery line before spreading SP.",
+    description: "Party attack from Rage; Rush is listed as a gap closer.",
+    advice: "Direct offense. Choose one mastery line first.",
     sources: ["fighter"],
   },
   {
@@ -551,9 +524,8 @@ export const branches = [
     weapons: "Swords & blunt weapons",
     style: "Control the encounter.",
     description:
-      "Threaten weakens nearby monsters; the blunt mastery line adds a critical-damage angle.",
-    advice:
-      "Our pick for a debuff-focused style. Base the choice on the current second-job kit.",
+      "Threaten weakens nearby monsters. Blunt mastery adds critical damage.",
+    advice: "Debuff-focused play. Compare the current second-job kit.",
     sources: ["page"],
   },
   {
@@ -562,9 +534,8 @@ export const branches = [
     weapons: "Spears & polearms",
     style: "Make room for your reach.",
     description:
-      "Iron Will supports defense and knockback resistance. Polearm mastery offers movement speed.",
-    advice:
-      "Our pick if reach and steadier positioning appeal to you. Compare each weapon’s feel in game.",
+      "Iron Will supports defense and knockback resistance. Polearm mastery adds movement speed.",
+    advice: "Reach and positioning. Try both weapon families.",
     sources: ["spearman"],
   },
 ];

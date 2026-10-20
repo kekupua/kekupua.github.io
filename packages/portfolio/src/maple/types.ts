@@ -70,4 +70,3 @@ export interface JobGuide {
   quests: Quest[];
   training: TrainingSpot[];
 }
-export type Allocation = Record<string, number>;

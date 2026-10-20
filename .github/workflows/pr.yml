@@ -32,7 +32,7 @@ jobs:
       - name: Test restaurant discovery logic
         run: pnpm --filter portfolio test:eat:unit
 
-      - name: Test Maple Fieldguide data, planner, and rendered guide
+      - name: Test Maple Fieldguide references and rendered pages
         run: pnpm --filter portfolio test:maple
 
       - name: Test mortgage calculations

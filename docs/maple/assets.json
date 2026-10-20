@@ -1,0 +1,37 @@
+{
+  "rightsHolder": "Nexon",
+  "retrieved": "2026-10-19",
+  "note": "Publicly available legacy artwork for this independent fan reference; no open-source license for game artwork is asserted.",
+  "assets": [
+    {
+      "file": "/images/maple/victoria-sky.webp",
+      "source": "https://github.com/liwenone/maplestory/blob/63c163adeae6088d329bb445ebf11bbbe41ec197/bg/bg_0.png",
+      "sha256": "4e9b3b2596bfe1eef52071f9e5bda2565820054f3ee65c6b51f00bc41c8604c1",
+      "processing": "WebP format conversion, quality 92"
+    },
+    {
+      "file": "/images/maple/orange-mushroom.png",
+      "source": "https://github.com/liwenone/maplestory/blob/63c163adeae6088d329bb445ebf11bbbe41ec197/monster/huamogu/stand_0.png",
+      "sha256": "9557540d5822ac51503872dd692482f3a80212b091965fd79fdec16e1f915191",
+      "processing": "Lossless PNG optimization"
+    },
+    {
+      "file": "/images/maple/slime.png",
+      "source": "https://github.com/liwenone/maplestory/blob/63c163adeae6088d329bb445ebf11bbbe41ec197/monster/lvshuilingqiu/stand_0.png",
+      "sha256": "482e5a6755104b06ddcf62128cdeb5f91689444294b568853ad2e18cbeaa4f11",
+      "processing": "Lossless PNG optimization"
+    },
+    {
+      "file": "/images/maple/blue-snail.png",
+      "source": "https://github.com/liwenone/maplestory/blob/63c163adeae6088d329bb445ebf11bbbe41ec197/monster/lanwoniu/stand_0.png",
+      "sha256": "9c41e9a568faec9d29f22ecafc8d436ed23286c174f1322197667f0babb50daf",
+      "processing": "Lossless PNG optimization"
+    },
+    {
+      "file": "/images/maple/classic-world.png",
+      "source": "https://g.nexonstatic.com/media/pgtfk5sl/540x304-global-maplestory-classic-world-founders-access-release-notes.png",
+      "sha256": "654c939f648c865d5b31b36d68b94488e9212cc635b1807c3a5d522460acab0c",
+      "processing": "Original file"
+    }
+  ]
+}
