@@ -5,6 +5,16 @@ import { test } from "node:test";
 import { branches, guides, warrior } from "../../src/maple/data/warrior";
 import { sources, sourceById } from "../../src/maple/data/sources";
 import { skillRoute } from "../../src/maple/data/reference";
+import { gameImages } from "../../src/maple/data/images";
+import { mobs } from "../../src/maple/data/mobs";
+import {
+  branchWeapons,
+  chapterImages,
+  equipmentIllustrations,
+  questMaterials,
+  questNpcs,
+  trainingMonsters,
+} from "../../src/maple/data/artwork";
 import {
   jobTiles,
   sectionFromHash,
@@ -130,6 +140,50 @@ test("Nexon artwork is bundled unchanged with precise CDN provenance", () => {
     assert.ok(existsSync(local), entry.file);
     assert.equal(
       createHash("sha256").update(readFileSync(local)).digest("hex"),
+      entry.sha256,
+    );
+  }
+});
+
+test("every illustrated reference has a local game image with verified bytes and wiki provenance", () => {
+  const manifest = JSON.parse(
+    readFileSync(
+      new URL("../../../../docs/maple/assets.json", import.meta.url),
+      "utf8",
+    ),
+  );
+  const wiki = manifest.assets.filter(
+    (entry: { source: string }) =>
+      new URL(entry.source).hostname === "mapleclassic.wiki",
+  );
+  const names = [
+    "Warrior",
+    ...warrior.skills.map((entry) => entry.name),
+    ...warrior.equipment.map(
+      (entry) => equipmentIllustrations[entry.id] || entry.name,
+    ),
+    ...mobs.flatMap((mob) => [mob.name, ...mob.drops.map((drop) => drop.name)]),
+    ...warrior.quests.map((quest) => questNpcs[quest.id]),
+    ...warrior.training.flatMap((spot) => trainingMonsters[spot.id]),
+    ...Object.values(questMaterials).flat(),
+    ...Object.values(branchWeapons),
+    ...Object.values(chapterImages),
+  ];
+  for (const name of names)
+    assert.ok(gameImages[name], `Missing art for ${name}`);
+  assert.equal(wiki.length, Object.keys(gameImages).length);
+  for (const [name, image] of Object.entries(gameImages)) {
+    const entry = wiki.find((entry: { name: string }) => entry.name === name);
+    assert.ok(entry, `Missing provenance for ${name}`);
+    assert.equal(entry.file, image.src);
+    assert.match(entry.sourcePage, /^https:\/\/mapleclassic\.wiki\/wiki\//);
+    assert.equal(entry.rightsHolder, "Nexon");
+    assert.ok(image.width > 0 && image.height > 0);
+    const bytes = readFileSync(
+      new URL(`../../public${image.src}`, import.meta.url),
+    );
+    assert.equal(
+      createHash("sha256").update(bytes).digest("hex"),
       entry.sha256,
     );
   }

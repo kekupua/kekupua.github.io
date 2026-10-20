@@ -14,6 +14,33 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/maple/");
 });
 
+test("Warrior tile opens skills by click or keyboard and supports history and reload", async ({
+  page,
+}) => {
+  const tile = page.getByRole("link", { name: "Warrior guide", exact: true });
+  await expect(tile).toHaveAttribute("href", "#skills");
+  await tile.click();
+  await expect(page).toHaveURL(/#skills$/);
+  await expect(
+    page.getByRole("heading", { name: "Skills", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("main")).toBeFocused();
+  await page.goBack();
+  await expect(
+    page.getByRole("heading", { name: /Your Warrior/ }),
+  ).toBeVisible();
+  await tile.focus();
+  await tile.press("Enter");
+  await expect(page).toHaveURL(/#skills$/);
+  await page.reload();
+  await expect(page.locator(".skill-card img.game-image")).toHaveCount(6);
+  await page.goBack();
+  await page.goForward();
+  await expect(
+    page.getByRole("heading", { name: "Skills", exact: true }),
+  ).toBeVisible();
+});
+
 test("direct route, search, history, and portfolio discovery", async ({
   page,
 }) => {
@@ -183,7 +210,7 @@ test("unpublished job tiles are disabled and bundled artwork loads", async ({
     expect(response.ok()).toBe(true);
     expect(response.headers()["content-type"]).toMatch(/^image\//);
   }
-  for (const img of await page.locator("main img").all()) {
+  for (const img of await page.locator("main img:visible").all()) {
     await img.scrollIntoViewIfNeeded();
     await expect(img).toHaveJSProperty("complete", true);
     expect(
@@ -210,8 +237,18 @@ test("every section fits narrow screens and renders without runtime errors", asy
         ),
         `${id} at ${width}px`,
       ).toBe(true);
-      if (["overview", "skills", "quests", "mobs"].includes(id)) {
-        for (const image of await page.locator("main img").all()) {
+      if (
+        [
+          "overview",
+          "skills",
+          "gear",
+          "quests",
+          "mobs",
+          "training",
+          "branches",
+        ].includes(id)
+      ) {
+        for (const image of await page.locator("main img:visible").all()) {
           await image.scrollIntoViewIfNeeded();
           await expect(image).toHaveJSProperty("complete", true);
         }
@@ -228,6 +265,57 @@ test("every section fits narrow screens and renders without runtime errors", asy
     }
   }
   expect(errors).toEqual([]);
+});
+
+test("entity artwork loads across reference pages and remains visible on phones", async ({
+  page,
+}) => {
+  async function checkImages(selector: string, count: number) {
+    const images = page.locator(selector);
+    await expect(images).toHaveCount(count);
+    for (const img of await images.all()) {
+      await img.scrollIntoViewIfNeeded();
+      await expect(img).toBeVisible();
+      await expect
+        .poll(() =>
+          img.evaluate(
+            (el: HTMLImageElement) => el.complete && el.naturalWidth > 0,
+          ),
+        )
+        .toBe(true);
+      await expect(img).toHaveAttribute("src", /^\/images\/maple\/wiki\//);
+    }
+  }
+  await page.goto("/maple/#skills");
+  await checkImages(".skill-card img.game-image", 6);
+  await page.goto("/maple/#gear");
+  await checkImages(".equipment-card img.game-image", 14);
+  await expect(page.locator(".art-caption")).toHaveText([
+    "Illustrated: Bronze Helmet",
+    "Illustrated: Scimitar",
+  ]);
+  await page.goto("/maple/#quests");
+  await checkImages(".quest-portrait img.game-image", 9);
+  await page
+    .locator(".quest-card > summary")
+    .filter({ hasText: "Jane and the Mushroom" })
+    .click();
+  await checkImages(".quest-card[open] .quest-materials img", 2);
+  await page.goto("/maple/#mobs");
+  await checkImages(".mob-index img.game-image", 15);
+  for (const name of ["Green Mushroom", "Slime"]) {
+    await page
+      .locator(".mob-index button")
+      .filter({ has: page.getByText(name, { exact: true }) })
+      .click();
+    await expect(
+      page.getByRole("heading", { name, exact: true }),
+    ).toBeVisible();
+    await checkImages(".mob-portrait img.game-image", 1);
+    const count = await page.locator(".drop-table tbody tr").count();
+    expect(count).toBeGreaterThan(0);
+    await checkImages(".drop-sprite img.game-image", count);
+  }
 });
 
 test("mob search finds items, honors rarity and type filters, and preserves unknown rates", async ({

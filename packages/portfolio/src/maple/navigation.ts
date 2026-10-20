@@ -71,7 +71,12 @@ export function sectionFromHash(hash: string): SectionId {
 
 // Only published guides receive an href. Future jobs never lead to an empty page.
 export const jobTiles = [
-  { id: "warrior", name: "Warrior", detail: "STR · Melee", href: "#overview" },
+  {
+    id: "warrior",
+    name: "Warrior",
+    detail: "Skills · builds · gear",
+    href: "#skills",
+  },
   { id: "magician", name: "Magician", detail: "Coming soon", href: null },
   { id: "bowman", name: "Bowman", detail: "Coming soon", href: null },
   { id: "thief", name: "Thief", detail: "Coming soon", href: null },

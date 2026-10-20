@@ -49,7 +49,6 @@ export const mobs: Mob[] = [
         quantity: null,
       },
     ],
-    image: "blue-snail.png",
   },
   {
     id: "stump",
@@ -180,7 +179,6 @@ export const mobs: Mob[] = [
         quantity: null,
       },
     ],
-    image: "slime.png",
   },
   {
     id: "orange-mushroom",
@@ -229,7 +227,6 @@ export const mobs: Mob[] = [
         quantity: null,
       },
     ],
-    image: "orange-mushroom.png",
     questIds: ["maya"],
   },
   {

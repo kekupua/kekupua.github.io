@@ -27,6 +27,12 @@ export const gearPriorities = [
 
 export const artworkCredits = [
   {
+    title: "Skill, monster, item, equipment & NPC images",
+    publisher: "Nexon · via MapleClassic Wiki",
+    url: "https://mapleclassic.wiki/wiki/Warrior",
+    note: "Original game images bundled locally. Exact image URLs, source pages, dimensions, and hashes are recorded in docs/maple/assets.json. Artwork remains © Nexon; the wiki’s CC BY-NC-SA text license does not grant ownership of game art.",
+  },
+  {
     title: "Classic World character artwork & gameplay gallery",
     publisher: "Nexon · official promotional site",
     url: "https://www.nexon.com/mscw/pre-launch-sales",
