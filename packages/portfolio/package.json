@@ -12,6 +12,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "typecheck": "tsc --noEmit",
+    "test:maple:browser": "playwright test --config playwright.maple.config.ts",
+    "test:maple": "node --import tsx --test tests/maple/*.test.ts tests/maple/*.test.tsx",
     "test:learn": "playwright test",
     "lint:learn": "eslint --config eslint.learn.config.mjs src/learn tools/learn tests/learn playwright.config.ts",
     "audio:learn": "python3 tools/learn/generate-sounds.py",

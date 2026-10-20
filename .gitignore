@@ -33,3 +33,6 @@ yarn-error.log*
 
 **/test-results-mortgage/
 **/playwright-mortgage-report/
+
+**/test-results-maple/
+**/playwright-maple-report/

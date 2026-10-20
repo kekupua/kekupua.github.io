@@ -83,6 +83,13 @@ export const data = {
   ],
   projects: [
     {
+      image: '/images/maple-perion.svg',
+      localHref: '/maple/',
+      heading: 'Maple Fieldguide',
+      description: 'An extensible MapleStory Classic World companion, starting with Warrior: plan skills, compare equipment requirements, and track quests with versioned sources.',
+      tags: ['react', 'typescript', 'gaming', 'interactive guide'],
+    },
+    {
       image: '/images/mortgage-home.svg',
       localHref: '/mortgage/',
       heading: 'Room to Grow',
