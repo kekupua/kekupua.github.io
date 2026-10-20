@@ -1,6 +1,6 @@
-import{c as o}from"./check-AGFQjWer.js";/**
+import{c}from"./chevron-down-DmuIjx06.js";/**
  * @license lucide-react v0.554.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const n=[["path",{d:"m6 9 6 6 6-6",key:"qrunsl"}]],e=o("chevron-down",n);export{e as C};
+ */const e=[["path",{d:"M20 6 9 17l-5-5",key:"1gmf2c"}]],t=c("check",e);export{t as C};
