@@ -86,7 +86,7 @@ export const data = {
       image: '/images/maple/victoria-sky.webp',
       localHref: '/maple/',
       heading: 'Maple Fieldguide',
-      description: 'A nostalgic MapleStory Classic World reference: Warrior stats, skills, equipment, quests, and training routes.',
+      description: 'A nostalgic MapleStory Classic World reference: Warrior mobs, drop rarity, skills, equipment, quests, and training routes.',
       tags: ['react', 'typescript', 'gaming', 'reference guide'],
     },
     {

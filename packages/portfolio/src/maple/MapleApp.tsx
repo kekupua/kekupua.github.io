@@ -22,13 +22,10 @@ import {
   X,
 } from "lucide-react";
 import { branches, guides } from "./data/warrior";
+import { mobs } from "./data/mobs";
+import { MobsPage } from "./MobsPage";
 import { evidenceLabels, sourceById, sources } from "./data/sources";
-import {
-  artworkCredits,
-  gearPriorities,
-  skillRoute,
-  statPriorities,
-} from "./data/reference";
+import { artworkCredits, gearPriorities, skillRoute } from "./data/reference";
 import { jobTiles, sectionFromHash, sections } from "./navigation";
 import type { SectionId } from "./navigation";
 import type { Evidence } from "./types";
@@ -97,6 +94,7 @@ export function MapleApp() {
     sectionFromHash(window.location.hash),
   );
   const [query, setQuery] = useState("");
+  const [focusedMob, setFocusedMob] = useState("slime");
   const [menuOpen, setMenuOpen] = useState(false);
   const [family, setFamily] = useState("All equipment");
   const [questFilter, setQuestFilter] = useState("All levels");
@@ -162,11 +160,12 @@ export function MapleApp() {
       body: `${item.weapons} ${item.description}`,
       section: "branches" as SectionId,
     })),
-    {
-      title: "STR, DEX & accuracy",
-      body: "stats AP ability points weapon requirements",
-      section: "stats" as SectionId,
-    },
+    ...mobs.map((mob) => ({
+      title: mob.name,
+      body: `${mob.locations.join(" ")} ${mob.drops.map((drop) => drop.name).join(" ")}`,
+      section: "mobs" as SectionId,
+      mobId: mob.id,
+    })),
   ];
   const term = query.trim();
   const matches = searchEntries.filter((item) =>
@@ -378,7 +377,7 @@ export function MapleApp() {
                 >
                   {matches.length
                     ? `${matches.length} matches in the Warrior guide.`
-                    : "Try a skill, NPC, item, or map name."}
+                    : "Try a mob, drop, skill, NPC, or map name."}
                 </PageHeading>
                 <div className="search-results">
                   {matches.map((item) => (
@@ -387,6 +386,8 @@ export function MapleApp() {
                       href={`#${item.section}`}
                       onClick={(event) => {
                         event.preventDefault();
+                        if ("mobId" in item && typeof item.mobId === "string")
+                          setFocusedMob(item.mobId);
                         navigate(item.section);
                       }}
                     >
@@ -424,7 +425,7 @@ export function MapleApp() {
                             <em>adventure starts here.</em>
                           </h1>
                           <p>
-                            Stats, skills, gear, and quests.
+                            Mobs, skills, gear, and quests.
                             <br />
                             Everything you need for the road from Perion.
                           </p>
@@ -440,15 +441,22 @@ export function MapleApp() {
                         <div
                           className="hero-scene"
                           role="img"
-                          aria-label="Classic MapleStory scenery with an Orange Mushroom, Slime, and Blue Snail"
+                          aria-label="Classic MapleStory scenery with Nexon’s adventurer, pig, Slime, and Spore artwork"
                         >
                           <div className="scene-label">
                             VICTORIA ISLAND<span>BEGINNER → WARRIOR</span>
                           </div>
                           <div className="scene-monsters">
-                            <img src={asset("blue-snail.png")} alt="" />
-                            <img src={asset("slime.png")} alt="" />
-                            <img src={asset("orange-mushroom.png")} alt="" />
+                            <img
+                              className="official-hero-maplers"
+                              src={asset("official-adventurer.webp")}
+                              alt=""
+                            />
+                            <img
+                              className="official-hero-mobs"
+                              src={asset("official-slime-spore.webp")}
+                              alt=""
+                            />
                           </div>
                           <span className="scene-caption">
                             A familiar world. A new adventure.
@@ -571,6 +579,22 @@ export function MapleApp() {
                       </div>
                     </section>
 
+                    <figure className="official-scene-card">
+                      <img
+                        src={asset("official-victoria-scene.webp")}
+                        alt="Nexon promotional gameplay screenshot showing a busy Victoria Island hunting map"
+                        width="680"
+                        height="384"
+                        loading="lazy"
+                      />
+                      <figcaption>
+                        <strong>A familiar hunting ground</strong>
+                        <span>
+                          Nexon promotional gallery · historical visual
+                          reference
+                        </span>
+                      </figcaption>
+                    </figure>
                     <div className="notice-board">
                       <Sparkles size={20} aria-hidden="true" />
                       <div>
@@ -591,62 +615,12 @@ export function MapleApp() {
                   </>
                 )}
 
-                {section === "stats" && (
-                  <>
-                    <PageHeading
-                      kicker="WARRIOR / ABILITY POINTS"
-                      title="Stats & AP"
-                    >
-                      Prioritize STR. Add DEX for requirements and consistent
-                      hits.
-                    </PageHeading>
-                    <div className="stat-priorities">
-                      {statPriorities.map((item) => (
-                        <article
-                          className="reference-card stat-card"
-                          key={item.stat}
-                        >
-                          <span className="stat-symbol">{item.stat}</span>
-                          <h2>{item.title}</h2>
-                          <p>{item.text}</p>
-                        </article>
-                      ))}
-                    </div>
-                    <section className="reference-card">
-                      <h2>Before you spend AP</h2>
-                      <ol className="plain-steps">
-                        <li>
-                          Choose your next weapon and check its level, STR, and
-                          DEX requirements.
-                        </li>
-                        <li>Include stats from your equipped gear.</li>
-                        <li>
-                          If you keep missing, try accuracy gear or Precise
-                          Strikes.
-                        </li>
-                        <li>Put remaining AP into STR.</li>
-                      </ol>
-                      <EvidenceNote
-                        kind="client"
-                        sources={["warrior", "precise"]}
-                      />
-                    </section>
-                    <div className="note-strip">
-                      <Target size={19} aria-hidden="true" />
-                      <p>
-                        No fixed DEX formula: your weapon and accuracy needs
-                        decide the amount.
-                      </p>
-                    </div>
-                    {sectionLink(
-                      "gear",
-                      <>
-                        View weapon requirements{" "}
-                        <ArrowRight size={16} aria-hidden="true" />
-                      </>,
-                      "maple-button secondary",
-                    )}
-                  </>
+                {section === "mobs" && (
+                  <MobsPage
+                    initialMob={focusedMob}
+                    onQuests={() => navigate("quests")}
+                    onTraining={() => navigate("training")}
+                  />
                 )}
 
                 {section === "skills" && (
@@ -844,6 +818,31 @@ export function MapleApp() {
                       </select>
                       <span>Expand a quest for details</span>
                     </div>
+                    <div className="npc-note">
+                      <img
+                        src={asset("official-mapler.webp")}
+                        width="117"
+                        height="180"
+                        alt="Nexon artwork of an adventurer"
+                        loading="lazy"
+                      />
+                      <div>
+                        <strong>Pick up quests before you hunt.</strong>
+                        <p>
+                          Blue and Horny Mushroom caps count toward Jane’s
+                          collection. Check the mob reference for their reported
+                          drops.
+                        </p>
+                        {sectionLink(
+                          "mobs",
+                          <>
+                            Find quest materials{" "}
+                            <ArrowRight size={13} aria-hidden="true" />
+                          </>,
+                          "text-link",
+                        )}
+                      </div>
+                    </div>
                     <div className="quest-list">
                       {guide.quests
                         .filter(
@@ -906,6 +905,22 @@ export function MapleApp() {
                       Map candidates from level 1 to 55. Move on when hits and
                       kills feel consistent.
                     </PageHeading>
+                    <figure className="official-scene-card training-scene">
+                      <img
+                        src={asset("official-kerning-scene.webp")}
+                        alt="Nexon promotional gameplay screenshot of Kerning City and its subway entrance"
+                        width="680"
+                        height="384"
+                        loading="lazy"
+                      />
+                      <figcaption>
+                        <strong>Kerning City · your subway hub</strong>
+                        <span>
+                          Nexon promotional gallery · historical visual
+                          reference
+                        </span>
+                      </figcaption>
+                    </figure>
                     <div className="training-list">
                       {guide.training.map((spot) => (
                         <article className="training-card" key={spot.id}>
@@ -943,6 +958,23 @@ export function MapleApp() {
                     >
                       Pick the weapon family and playstyle you enjoy.
                     </PageHeading>
+                    <div className="npc-note perion-note">
+                      <img
+                        src={asset("official-manji.png")}
+                        width="158"
+                        height="108"
+                        alt="Nexon character artwork of Manji"
+                        loading="lazy"
+                      />
+                      <div>
+                        <strong>Back to Perion at level 30.</strong>
+                        <p>
+                          Your advancement starts with Dances with Balrog.
+                          Compare weapon families before committing to a path.
+                        </p>
+                        <small>Manji artwork · Nexon</small>
+                      </div>
+                    </div>
                     <div className="branch-grid">
                       {branches.map((branch, index) => (
                         <article

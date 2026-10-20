@@ -6,7 +6,7 @@ import {
   Shield,
   Sword,
   Swords,
-  Target,
+  Bug,
 } from "lucide-react";
 
 export const sections = [
@@ -17,10 +17,10 @@ export const sections = [
     description: "The essentials, at a glance",
   },
   {
-    id: "stats",
-    label: "Stats & AP",
-    icon: Target,
-    description: "STR, DEX & accuracy",
+    id: "mobs",
+    label: "Mobs & drops",
+    icon: Bug,
+    description: "Monsters, loot & observed rarity",
   },
   {
     id: "skills",
@@ -63,6 +63,7 @@ export const sections = [
 export type SectionId = (typeof sections)[number]["id"];
 export function sectionFromHash(hash: string): SectionId {
   const id = hash.replace(/^#/, "");
+  if (id === "stats") return "mobs"; // Keep old bookmarks useful after removing the AP page.
   return sections.some((section) => section.id === id)
     ? (id as SectionId)
     : "overview";

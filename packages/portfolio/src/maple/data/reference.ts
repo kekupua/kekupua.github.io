@@ -10,24 +10,6 @@ export const skillRoute = [
   { skill: "power", add: 7 },
 ] as const;
 
-export const statPriorities = [
-  {
-    stat: "STR",
-    title: "Main damage stat",
-    text: "Put spare AP here after meeting your next weapon’s requirements.",
-  },
-  {
-    stat: "DEX",
-    title: "Requirements & accuracy",
-    text: "Add only what your weapon and hit consistency need. Count DEX from gear.",
-  },
-  {
-    stat: "INT / LUK",
-    title: "No routine investment",
-    text: "Neither is a priority for this Warrior route.",
-  },
-] as const;
-
 export const gearPriorities = [
   {
     title: "Weapon first",
@@ -44,6 +26,12 @@ export const gearPriorities = [
 ] as const;
 
 export const artworkCredits = [
+  {
+    title: "Classic World character artwork & gameplay gallery",
+    publisher: "Nexon · official promotional site",
+    url: "https://www.nexon.com/mscw/pre-launch-sales",
+    note: "Seven additional images downloaded from Nexon’s CDN: character compositions, Manji, and historical gameplay screenshots. Used for visual context, not to verify current maps or mechanics.",
+  },
   {
     title: "Victoria Island backdrop & monster sprites",
     publisher: "Nexon · public MapleSimulator asset mirror",

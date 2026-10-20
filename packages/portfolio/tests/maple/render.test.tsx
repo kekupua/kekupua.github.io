@@ -16,7 +16,7 @@ Object.defineProperty(testGlobal, "localStorage", {
 });
 for (const [section, heading] of Object.entries({
   overview: "adventure starts here.",
-  stats: "Stats &amp; AP",
+  mobs: "Mobs &amp; drops",
   skills: "Skills",
   gear: "Equipment",
   quests: "Quests",

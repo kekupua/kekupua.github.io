@@ -1,21 +1,21 @@
 # Maple Fieldguide
 
-A MapleStory Classic World reference at `/maple/` in the portfolio. Warrior includes stats, six first-job skills, fourteen equipment leads, nine quests, training through level 55, and Fighter/Page/Spearman comparisons.
+A MapleStory Classic World reference at `/maple/` in the portfolio. Warrior includes a 15-mob field reference with 77 listed drop associations, six first-job skills, fourteen equipment leads, nine quests, training through level 55, and Fighter/Page/Spearman comparisons.
 
 ## Reading the guide
 
 - Desktop chapter navigation; mobile quick tabs and a collapsible full menu.
 - Direct section URLs such as `/maple/#skills`, including reload and browser history.
-- Search by skill, item, NPC, quest, or map. Equipment and quest lists have simple category filters.
-- Static skill effects, prerequisites, SP example, and weapon requirements. No calculators, point allocation, character-level inputs, quest tracking, or storage dependency.
+- Search by mob, drop, skill, item, NPC, quest, or map. Global item search opens the matching mob; the mob reference has item-name, map, level, category, and rarity filters.
+- Static skill effects, prerequisites, SP example, weapon requirements, and observed mob drop tables. No calculators, point allocation, character-level inputs, quest tracking, or storage dependency.
 - Magician, Bowman, and Thief tiles are disabled until guides are published.
 - Expand an entry’s **Source** or **Sources differ** disclosure for its references.
 
-The earlier planner and storage code has been removed. Existing saved browser data is left untouched and is no longer read.
+The Stats & AP page has been replaced by Mobs & drops; old `#stats` bookmarks open the mob reference. The earlier planner and storage code has been removed. Existing saved browser data is left untouched and is no longer read.
 
 ## Content and research
 
-Gameplay snapshot: **October 19, 2026**. This redesign shortens existing content; it does not claim a fresh in-game mechanics review. All 24 gameplay sources retain their original review dates and limitations in `src/maple/data/sources.ts`.
+Gameplay snapshot: **October 19, 2026**. This redesign shortens existing content; it does not claim a fresh in-game mechanics review. The original gameplay sources retain their review dates and limitations. New mob/drop sources and the official art gallery are separately registered in `src/maple/data/sources.ts`. See [drop research notes](drops.md) for scope and rarity semantics.
 
 Official posts establish scope. Community client exports and guides provide the numerical references. Client records do not prove live availability; the current game takes priority. The official release-note body could not be independently extracted in the original review.
 
@@ -34,6 +34,9 @@ src/maple/
   types.ts           shared content and evidence types
   navigation.ts      chapter registry and published/disabled job tiles
   data/warrior.ts    sourced Warrior reference records
+  data/mobs.ts       15 mobs, observed drops, and pinned wiki revisions
+  drops.ts           deterministic rarity bands and composable filters
+  MobsPage.tsx       mobile-friendly mob/item browser
   data/reference.ts editorial reference blocks and artwork credits
   data/sources.ts   dated gameplay source registry
   MapleApp.tsx       responsive reference views
@@ -45,7 +48,7 @@ To add a job, create a typed `JobGuide` module and register it in `guides`. Add 
 
 ## Artwork
 
-Legacy MapleStory backdrop and monster sprites are bundled locally from the public `liwenone/maplestory` repository, whose README credits MapleSimulator. One official Classic World news illustration comes from Nexon. Exact source paths, commit, and file hashes are in [`assets.json`](assets.json). The backdrop and sprites are decorative, not proof of Classic World layouts or spawns.
+Legacy MapleStory backdrop and monster sprites are bundled locally from the public `liwenone/maplestory` repository, whose README credits MapleSimulator. Eight images come directly from Nexon’s CDN: the existing news illustration plus seven official character compositions and promotional gameplay images. Historical screenshots are labeled visual references, not current mechanics evidence. Exact source paths, commit, and file hashes are in [`assets.json`](assets.json). The backdrop and sprites are decorative, not proof of Classic World layouts or spawns. Official character art now appears on the overview, mob, quest, and job-path pages; gallery screenshots add context on overview and training.
 
 The artwork remains © Nexon; no ownership or open-source license for game art is asserted. The original leaf SVG is portfolio artwork. The UI uses CSS and system fonts, with no runtime image or font service dependency. Source links and attribution appear in the guide’s Sources page and footer. This is an independent fan project.
 
@@ -61,4 +64,4 @@ pnpm --filter portfolio exec playwright install chromium
 pnpm --filter portfolio test:maple:browser
 ```
 
-Node checks cover provenance, reference prerequisites and point totals, training coverage, weapon families, disabled job destinations, local assets, and all eight page renders with storage blocked. Browser checks cover desktop and emulated iPhone navigation, search, history/reload, disclosures, filters, disabled tiles, bundled images, runtime errors, and all sections at 320px and 390px. CI uploads overview, skills, and quests screenshots in `maple-browser-tests-and-screenshots`. Emulation is not a physical iOS Safari test.
+Node checks cover provenance, drop/rarity boundaries, filtering, unknown versus missing data, quest references, unchanged official asset hashes, reference prerequisites and point totals, training coverage, weapon families, disabled job destinations, and all eight page renders with storage blocked. Browser checks cover desktop and emulated iPhone navigation, search, history/reload, disclosures, item/rarity filters, global search-to-mob selection, old bookmark compatibility, disabled tiles, bundled images, runtime errors, and all sections at 320px and 390px. CI uploads overview, mobs, skills, and quests screenshots in `maple-browser-tests-and-screenshots`. Emulation is not a physical iOS Safari test.

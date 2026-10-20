@@ -18,6 +18,29 @@ export interface Evidence {
   kind: EvidenceKind;
   sources: string[];
 }
+export type DropCategory = "Currency" | "Equipment" | "Use" | "Etc." | "Quest";
+export type DropRarity = "Common" | "Uncommon" | "Rare" | "Unknown";
+export interface MobDrop {
+  name: string;
+  category: DropCategory;
+  /** Approximate displayed ~1/N player estimate. null is unreported, never zero. */
+  oneIn: number | null;
+  quantity: string | null;
+  condition?: string;
+  questIds?: string[];
+}
+export interface Mob {
+  id: string;
+  name: string;
+  level: number;
+  hp: number;
+  exp: number;
+  locations: string[];
+  revision: number;
+  image?: string;
+  questIds?: string[];
+  drops: MobDrop[];
+}
 export interface Skill extends Evidence {
   id: string;
   name: string;
