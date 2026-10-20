@@ -83,11 +83,11 @@ export const data = {
   ],
   projects: [
     {
-      image: '/images/maple-perion.svg',
+      image: '/images/maple/victoria-sky.webp',
       localHref: '/maple/',
       heading: 'Maple Fieldguide',
-      description: 'An extensible MapleStory Classic World companion, starting with Warrior: plan skills, compare equipment requirements, and track quests with versioned sources.',
-      tags: ['react', 'typescript', 'gaming', 'interactive guide'],
+      description: 'A nostalgic MapleStory Classic World reference: Warrior stats, skills, equipment, quests, and training routes.',
+      tags: ['react', 'typescript', 'gaming', 'reference guide'],
     },
     {
       image: '/images/mortgage-home.svg',
