@@ -706,8 +706,8 @@ export function MapleApp() {
                         <span>Editorial · 61 SP</span>
                       </div>
                       <p>
-                        Read left to right. Adjust for accuracy and survival;
-                        this is not a tested meta build.
+                        Follow the numbered steps. Adjust for accuracy and
+                        survival; this is not a tested meta build.
                       </p>
                       <ol className="skill-route">
                         {skillRoute.map((step, index) => (

@@ -102,13 +102,13 @@ test("skill and stat references retain prerequisites and disputed values without
   await page.reload();
   await expect(page.locator(".sp-note")).toContainText("61 first-job points");
   await expect(
-    page.locator(".skill-card").filter({ hasText: "Slash Blast" }).first(),
+    page.locator(".skill-card").filter({
+      has: page.getByRole("heading", { name: "Slash Blast", exact: true }),
+    }),
   ).toContainText("6 targets; older wiki: 4");
-  const hp = page
-    .locator(".skill-card")
-    .filter({
-      has: page.getByRole("heading", { name: "Max HP Increase", exact: true }),
-    });
+  const hp = page.locator(".skill-card").filter({
+    has: page.getByRole("heading", { name: "Max HP Increase", exact: true }),
+  });
   await expect(hp).toContainText("Requires Improved HP Recovery 3");
   for (const id of ["skills", "stats", "quests", "gear"]) {
     await page.goto(`/maple/#${id}`);
@@ -152,13 +152,11 @@ test("quest reference filters levels and reveals prerequisites and rewards", asy
     page.locator(".quest-reward").filter({ hasText: "1,610 EXP" }),
   ).toBeVisible();
   await page.getByLabel("Quest level").selectOption("30+");
-  const instructor = page
-    .locator(".quest-card")
-    .filter({
-      has: page.locator("summary strong", {
-        hasText: "Finding the Instructor",
-      }),
-    });
+  const instructor = page.locator(".quest-card").filter({
+    has: page.locator("summary strong", {
+      hasText: "Finding the Instructor",
+    }),
+  });
   await instructor.locator("summary").first().click();
   await expect(instructor.locator(".quest-prerequisite")).toContainText(
     "The Warrior’s Next Journey",
