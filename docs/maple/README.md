@@ -8,7 +8,7 @@ A MapleStory Classic World reference at `/maple/` in the portfolio. Warrior incl
 - Direct section URLs such as `/maple/#skills`, including reload and browser history.
 - Search by mob, drop, skill, item, NPC, quest, or map. Global item search opens the matching mob; the mob reference has item-name, map, level, category, and rarity filters.
 - Static skill effects, prerequisites, SP example, weapon requirements, and observed mob drop tables. No calculators, point allocation, character-level inputs, quest tracking, or storage dependency.
-- Magician, Bowman, and Thief tiles are disabled until guides are published.
+- The Warrior tile opens Skills directly, with a bookmarkable `#skills` URL and browser-history support. Magician, Bowman, and Thief tiles are disabled until guides are published.
 - Expand an entry’s **Source** or **Sources differ** disclosure for its references.
 
 The Stats & AP page has been replaced by Mobs & drops; old `#stats` bookmarks open the mob reference. The earlier planner and storage code has been removed. Existing saved browser data is left untouched and is no longer read.
@@ -47,6 +47,12 @@ src/maple/
 To add a job, create a typed `JobGuide` module and register it in `guides`. Add job selection/routing and job-specific copy before enabling its tile in `navigation.ts`; the current guide shell selects Warrior. Give every new record stable IDs and source references. Do not enable an unfinished destination or reuse Warrior’s editorial SP example for another job.
 
 ## Artwork
+
+**Entity artwork update (October 20, 2026):** 86 original game images from MapleClassic Wiki are bundled under `public/images/maple/wiki/` (about 225 KiB total). All six first-job skills, 15 mobs, 44 distinct loot names, 12 named equipment pieces, six quest NPCs, the Warrior job illustration, and two representative equipment examples have exact source-page/image URLs, dimensions, and SHA-256 hashes in [`assets.json`](assets.json).
+
+`data/images.ts` is the shared name-to-image registry; `GameImage.tsx` renders local, lazy-loaded images with explicit dimensions. `data/artwork.ts` maps quests, training routes, chapters, and representative gear to those names. Monster portraits and index entries now use each monster’s own sprite; loot icons remain visible at phone widths. Equipment categories explicitly label the pictured Bronze Helmet and Scimitar as illustrations. Branches use representative weapons rather than claiming to depict job portraits. Gameplay records, source review dates, and rarity estimates are unchanged.
+
+The wiki is the image distributor, not the rights holder: the assets are Nexon game artwork. The wiki’s text/data license is not represented as a license to Nexon’s art. Credits appear on the Sources page. No runtime image requests go to the wiki.
 
 Legacy MapleStory backdrop and monster sprites are bundled locally from the public `liwenone/maplestory` repository, whose README credits MapleSimulator. Eight images come directly from Nexon’s CDN: the existing news illustration plus seven official character compositions and promotional gameplay images. Historical screenshots are labeled visual references, not current mechanics evidence. Exact source paths, commit, and file hashes are in [`assets.json`](assets.json). The backdrop and sprites are decorative, not proof of Classic World layouts or spawns. Official character art now appears on the overview, mob, quest, and job-path pages; gallery screenshots add context on overview and training.
 

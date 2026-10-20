@@ -4,13 +4,9 @@ import {
   BookOpen,
   Bug,
   ChevronDown,
-  Coins,
-  Diamond,
   ExternalLink,
-  FlaskConical,
   MapPin,
   Search,
-  Shield,
   X,
 } from "lucide-react";
 import { mobs } from "./data/mobs";
@@ -23,15 +19,8 @@ import {
   matchingMobs,
 } from "./drops";
 import type { MobFilters } from "./drops";
-import type { DropCategory } from "./types";
+import { GameImage } from "./GameImage";
 
-const icons = {
-  Currency: Coins,
-  Equipment: Shield,
-  Use: FlaskConical,
-  "Etc.": Diamond,
-  Quest: BookOpen,
-};
 const defaults: MobFilters = {
   query: "",
   levels: "All levels",
@@ -172,7 +161,14 @@ export function MobsPage({
                 })
               }
             >
-              {["All items", ...Object.keys(icons)].map((value) => (
+              {[
+                "All items",
+                "Currency",
+                "Equipment",
+                "Use",
+                "Etc.",
+                "Quest",
+              ].map((value) => (
                 <option key={value}>{value}</option>
               ))}
             </select>
@@ -290,14 +286,7 @@ export function MobsPage({
                         : "Drops not documented"}
                     </small>
                   </span>
-                  {mob.image && (
-                    <img
-                      src={`/images/maple/${mob.image}`}
-                      alt=""
-                      width="35"
-                      height="35"
-                    />
-                  )}
+                  <GameImage name={mob.name} />
                 </button>
               ))}
             </div>
@@ -324,19 +313,9 @@ export function MobsPage({
                   </div>
                 </dl>
               </div>
-              {active.image ? (
-                <div className="mob-portrait">
-                  <img
-                    src={`/images/maple/${active.image}`}
-                    alt={`${active.name} game sprite`}
-                  />
-                </div>
-              ) : (
-                <div className="mob-number" aria-hidden="true">
-                  <Bug size={24} />
-                  <span>LV. {active.level}</span>
-                </div>
-              )}
+              <div className="mob-portrait">
+                <GameImage name={active.name} decorative={false} />
+              </div>
             </div>
             <div className="mob-locations">
               <MapPin size={15} aria-hidden="true" />
@@ -370,16 +349,13 @@ export function MobsPage({
                   </thead>
                   <tbody>
                     {drops.map((drop) => {
-                      const Icon = icons[drop.category as DropCategory];
                       const rarity = dropRarity(drop.oneIn);
                       return (
                         <tr key={drop.name}>
                           <td>
                             <div className="drop-item">
-                              <span
-                                className={`drop-type type-${drop.category.replace(/\W/g, "").toLowerCase()}`}
-                              >
-                                <Icon size={16} aria-hidden="true" />
+                              <span className="drop-sprite">
+                                <GameImage name={drop.name} />
                               </span>
                               <div>
                                 <strong>{drop.name}</strong>

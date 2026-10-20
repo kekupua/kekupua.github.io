@@ -37,7 +37,6 @@ export interface Mob {
   exp: number;
   locations: string[];
   revision: number;
-  image?: string;
   questIds?: string[];
   drops: MobDrop[];
 }

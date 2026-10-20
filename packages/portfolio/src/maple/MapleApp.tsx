@@ -7,7 +7,6 @@ import {
   ChevronDown,
   ChevronRight,
   ExternalLink,
-  Heart,
   Leaf,
   LockKeyhole,
   Menu,
@@ -16,7 +15,6 @@ import {
   Sparkles,
   Sword,
   Swords,
-  Target,
   VenetianMask,
   WandSparkles,
   X,
@@ -24,6 +22,15 @@ import {
 import { branches, guides } from "./data/warrior";
 import { mobs } from "./data/mobs";
 import { MobsPage } from "./MobsPage";
+import { GameImage } from "./GameImage";
+import {
+  branchWeapons,
+  chapterImages,
+  equipmentIllustrations,
+  questMaterials,
+  questNpcs,
+  trainingMonsters,
+} from "./data/artwork";
 import { evidenceLabels, sourceById, sources } from "./data/sources";
 import { artworkCredits, gearPriorities, skillRoute } from "./data/reference";
 import { jobTiles, sectionFromHash, sections } from "./navigation";
@@ -31,13 +38,6 @@ import type { SectionId } from "./navigation";
 import type { Evidence } from "./types";
 
 const guide = guides[0];
-const skillIcons = {
-  sword: Sword,
-  swords: Swords,
-  shield: Shield,
-  heart: Heart,
-  target: Target,
-};
 const jobIcons = {
   warrior: Sword,
   magician: WandSparkles,
@@ -497,13 +497,17 @@ export function MapleApp() {
                           const content = (
                             <>
                               <span className={`tile-emblem ${job.id}`}>
-                                <Icon size={25} aria-hidden="true" />
+                                {job.id === "warrior" ? (
+                                  <GameImage name="Warrior" />
+                                ) : (
+                                  <Icon size={25} aria-hidden="true" />
+                                )}
                               </span>
                               <strong>{job.name}</strong>
                               <small>{job.detail}</small>
                               {job.href ? (
                                 <span className="tile-state">
-                                  GUIDE OPEN{" "}
+                                  OPEN GUIDE{" "}
                                   <ArrowRight size={11} aria-hidden="true" />
                                 </span>
                               ) : (
@@ -520,10 +524,9 @@ export function MapleApp() {
                               href={job.href}
                               className="job-tile available"
                               aria-label="Warrior guide"
-                              aria-current="page"
                               onClick={(event) => {
                                 event.preventDefault();
-                                navigate("overview");
+                                navigate(sectionFromHash(job.href));
                               }}
                             >
                               {content}
@@ -552,30 +555,31 @@ export function MapleApp() {
                       <div className="chapter-grid">
                         {sections
                           .slice(1, 7)
-                          .map(
-                            ({ id, label, icon: Icon, description }, index) => (
-                              <a
-                                key={id}
-                                href={`#${id}`}
-                                onClick={(event) => {
-                                  event.preventDefault();
-                                  navigate(id);
-                                }}
-                              >
-                                <span className="chapter-number">
-                                  0{index + 1}
-                                </span>
-                                <Icon size={21} aria-hidden="true" />
-                                <h3>{label}</h3>
-                                <p>{description}</p>
-                                <ArrowRight
-                                  className="chapter-arrow"
-                                  size={16}
-                                  aria-hidden="true"
-                                />
-                              </a>
-                            ),
-                          )}
+                          .map(({ id, label, description }, index) => (
+                            <a
+                              key={id}
+                              href={`#${id}`}
+                              onClick={(event) => {
+                                event.preventDefault();
+                                navigate(id);
+                              }}
+                            >
+                              <span className="chapter-number">
+                                0{index + 1}
+                              </span>
+                              <GameImage
+                                name={chapterImages[id]}
+                                className="chapter-image"
+                              />
+                              <h3>{label}</h3>
+                              <p>{description}</p>
+                              <ArrowRight
+                                className="chapter-arrow"
+                                size={16}
+                                aria-hidden="true"
+                              />
+                            </a>
+                          ))}
                       </div>
                     </section>
 
@@ -641,9 +645,6 @@ export function MapleApp() {
                     </div>
                     <div className="skill-grid">
                       {guide.skills.map((skill) => {
-                        const Icon =
-                          skillIcons[skill.symbol as keyof typeof skillIcons] ||
-                          Sword;
                         const prerequisite = skill.requires
                           ? `${guide.skills.find((item) => item.id === skill.requires!.skill)!.name} ${skill.requires.rank}`
                           : "None";
@@ -654,7 +655,7 @@ export function MapleApp() {
                           >
                             <div className="skill-heading">
                               <span className={`skill-emblem ${skill.symbol}`}>
-                                <Icon size={24} aria-hidden="true" />
+                                <GameImage name={skill.name} />
                               </span>
                               <div>
                                 <small>{skill.category}</small>
@@ -764,7 +765,24 @@ export function MapleApp() {
                               </span>
                               <span>{item.family}</span>
                             </div>
-                            <h2>{item.name}</h2>
+                            <div className="equipment-identity">
+                              <span className="inventory-slot">
+                                <GameImage
+                                  name={
+                                    equipmentIllustrations[item.id] || item.name
+                                  }
+                                />
+                              </span>
+                              <div>
+                                <h2>{item.name}</h2>
+                                {equipmentIllustrations[item.id] && (
+                                  <small className="art-caption">
+                                    Illustrated:{" "}
+                                    {equipmentIllustrations[item.id]}
+                                  </small>
+                                )}
+                              </div>
+                            </div>
                             <dl className="item-stats">
                               {item.attack != null && (
                                 <div>
@@ -857,18 +875,32 @@ export function MapleApp() {
                         .map((quest) => (
                           <details className="quest-card" key={quest.id}>
                             <summary>
-                              <span className="level-badge">
-                                LV.<strong>{quest.level}</strong>
+                              <span className="quest-portrait">
+                                <GameImage name={questNpcs[quest.id]} />
                               </span>
-                              <span>
+                              <span className="quest-identity">
                                 <strong>{quest.name}</strong>
                                 <small>
-                                  {quest.npc} · {quest.location}
+                                  Lv. {quest.level} · {quest.npc} ·{" "}
+                                  {quest.location}
                                 </small>
                               </span>
                               <ChevronDown size={18} aria-hidden="true" />
                             </summary>
                             <div className="quest-body">
+                              {questMaterials[quest.id] && (
+                                <ul
+                                  className="quest-materials"
+                                  aria-label="Materials to collect"
+                                >
+                                  {questMaterials[quest.id].map((name) => (
+                                    <li key={name}>
+                                      <GameImage name={name} />
+                                      <span>{name}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
                               {quest.prerequisite && (
                                 <p className="quest-prerequisite">
                                   <strong>Prerequisite:</strong>{" "}
@@ -933,6 +965,14 @@ export function MapleApp() {
                           <div>
                             <span className="eyebrow">{spot.town}</span>
                             <h2>{spot.map}</h2>
+                            <div
+                              className="training-sprites"
+                              aria-hidden="true"
+                            >
+                              {trainingMonsters[spot.id].map((name) => (
+                                <GameImage key={name} name={name} />
+                              ))}
+                            </div>
                             <p className="training-monsters">{spot.monsters}</p>
                             <p>{spot.advice}</p>
                             <EvidenceNote {...spot} />
@@ -976,19 +1016,16 @@ export function MapleApp() {
                       </div>
                     </div>
                     <div className="branch-grid">
-                      {branches.map((branch, index) => (
+                      {branches.map((branch) => (
                         <article
                           className="reference-card branch-card"
                           key={branch.id}
                         >
                           <span className="branch-emblem">
-                            {index === 0 ? (
-                              <Swords size={33} aria-hidden="true" />
-                            ) : index === 1 ? (
-                              <Shield size={33} aria-hidden="true" />
-                            ) : (
-                              <Sword size={33} aria-hidden="true" />
-                            )}
+                            <GameImage
+                              name={branchWeapons[branch.id]}
+                              decorative={false}
+                            />
                           </span>
                           <small>SECOND JOB</small>
                           <h2>{branch.name}</h2>
