@@ -319,7 +319,7 @@ export function MapleApp() {
                 value={level}
                 onChange={(event) => changeLevel(Number(event.target.value))}
               />
-              <span className="save-status">
+              <span className="save-status" aria-live="polite">
                 <Check size={13} />
                 {storage}
               </span>
@@ -485,8 +485,7 @@ export function MapleApp() {
                           <Sparkles size={22} />
                           <small>A TIP FOR THE ROAD</small>
                           <h3>
-                            Missing more?
-                            <br />
+                            Missing more? <br />
                             Check accuracy first.
                           </h3>
                           <p>

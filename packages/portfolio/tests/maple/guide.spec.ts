@@ -114,9 +114,10 @@ test("quest completion persists and filters keep a useful empty state", async ({
     page.getByRole("heading", { name: "No quests in this view." }),
   ).toBeVisible();
   await page.getByLabel("Show quests").selectOption("Available by level");
+  // Completion removes the row from this filter; assert the resulting checklist state.
   await page
     .getByRole("checkbox", { name: "Mark Become a Warrior complete" })
-    .check();
+    .click();
   await expect(page.locator(".quest-progress")).toContainText(
     "1 of 9 completed",
   );
@@ -174,9 +175,11 @@ test("the guide remains usable with unavailable browser storage", async ({
     });
   });
   await page.goto("/maple/#quests");
+  // Hash-only navigation keeps the old document. Reload to apply the init script.
+  await page.reload();
   await expect(
     page.getByText("Session only · storage unavailable"),
-  ).toBeAttached();
+  ).toBeVisible();
   await page
     .getByRole("checkbox", { name: "Mark Become a Warrior complete" })
     .check();
