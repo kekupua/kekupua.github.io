@@ -10,6 +10,7 @@ export function dropRarity(oneIn: number | null): DropRarity {
 export function formatDropChance(oneIn: number | null): string {
   if (dropRarity(oneIn) === "Unknown") return "Not reported";
   const percent = 100 / oneIn!;
+  if (percent < 0.01) return "<0.01%";
   return `~${percent.toLocaleString("en-US", { maximumFractionDigits: percent < 1 ? 2 : 1 })}%`;
 }
 

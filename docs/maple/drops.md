@@ -4,7 +4,7 @@ Reviewed **October 19, 2026**. Scope: 15 mobs along the Warrior guide’s early/
 
 ## Sources and limits
 
-`src/maple/data/mobs.ts` records displayed `~1/N` estimates from individual MapleClassic Wiki monster pages. Each mob links to the exact `oldid` revision reviewed. Level, HP, and EXP are sourced from the wiki’s Classic World monster roster, not a historical v83 stat table. The source registry includes both the roster and the wiki’s drop-reporting method.
+`src/maple/data/mobs.ts` records displayed `~1/N` estimates from individual MapleClassic Wiki monster pages. Each mob links to the `oldid` page revision reviewed. The copied values also live in the data module as the dated snapshot; a page revision link alone should not be treated as an immutable copy of a rendered drop table. Level, HP, and EXP are sourced from the wiki’s Classic World monster roster, not a historical v83 stat table. The source registry includes both the roster and the wiki’s drop-reporting method.
 
 These are **player-observed community estimates**, not official probabilities. The reference tables do not provide sample sizes or confidence intervals. Small samples can change substantially. Do not treat the displayed precision as evidence of statistical confidence. No official Classic World per-mob drop probability table was verified in this review.
 

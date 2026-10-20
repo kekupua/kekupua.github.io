@@ -215,6 +215,10 @@ test("every section fits narrow screens and renders without runtime errors", asy
           await image.scrollIntoViewIfNeeded();
           await expect(image).toHaveJSProperty("complete", true);
         }
+        if (id === "mobs")
+          await page
+            .locator('.mob-index-options button[aria-pressed="true"]')
+            .scrollIntoViewIfNeeded();
         await page.evaluate(() => window.scrollTo(0, 0));
         await page.screenshot({
           path: `test-results-maple/${info.project.name}-${width}-${id}.png`,
@@ -230,6 +234,19 @@ test("mob search finds items, honors rarity and type filters, and preserves unkn
   page,
 }) => {
   await page.goto("/maple/#mobs");
+  await expect
+    .poll(() =>
+      page
+        .locator('.mob-index-options button[aria-pressed="true"]')
+        .evaluate((button) => {
+          const selected = button.getBoundingClientRect();
+          const index = button.parentElement!.getBoundingClientRect();
+          return (
+            selected.left >= index.left - 1 && selected.right <= index.right + 1
+          );
+        }),
+    )
+    .toBe(true);
   await page
     .getByRole("searchbox", { name: "Find a mob or drop" })
     .fill("Green Mushroom");

@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   BookOpen,
@@ -51,9 +51,30 @@ export function MobsPage({
   const [filters, setFilters] = useState(defaults);
   const [selected, setSelected] = useState(initialMob);
   const detailRef = useRef<HTMLElement>(null);
+  const indexRef = useRef<HTMLDivElement>(null);
   const visible = matchingMobs(mobs, filters);
   const active = visible.find((mob) => mob.id === selected) || visible[0];
   const drops = active ? matchingDrops(active, filters) : [];
+  const indexSignature = visible.map((mob) => mob.id).join("|");
+  useEffect(() => {
+    const index = indexRef.current;
+    const selectedButton = index?.querySelector<HTMLButtonElement>(
+      'button[aria-pressed="true"]',
+    );
+    if (
+      !index ||
+      !selectedButton ||
+      !window.matchMedia("(max-width: 700px)").matches
+    )
+      return;
+    // Move only the index, so initial selection never jumps the whole page.
+    index.scrollLeft = Math.max(
+      0,
+      selectedButton.offsetLeft -
+        (index.clientWidth - selectedButton.offsetWidth) / 2,
+    );
+  }, [active?.id, indexSignature]);
+
   const filtered =
     filters.query.trim() ||
     filters.levels !== defaults.levels ||
@@ -251,7 +272,7 @@ export function MobsPage({
                 {visible.length} / {mobs.length}
               </span>
             </div>
-            <div className="mob-index-options">
+            <div className="mob-index-options" ref={indexRef}>
               {visible.map((mob) => (
                 <button
                   key={mob.id}

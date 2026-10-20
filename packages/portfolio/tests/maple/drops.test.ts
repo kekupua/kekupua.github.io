@@ -28,6 +28,7 @@ test("drop bands obey boundaries and unknown or invalid input never becomes a ze
   assert.equal(dropRarity(100), "Uncommon");
   assert.equal(dropRarity(100.001), "Rare");
   assert.equal(formatDropChance(620), "~0.16%");
+  assert.equal(formatDropChance(1000000), "<0.01%");
   assert.equal(formatDropChance(1.4), "~71.4%");
 });
 
