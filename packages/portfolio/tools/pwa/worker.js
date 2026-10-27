@@ -5,6 +5,22 @@ const RUNTIME = `${PREFIX}runtime-${CONFIG.version}`;
 const shellPaths = new Set(CONFIG.shell);
 let writes = Promise.resolve();
 let messages = Promise.resolve();
+let runtimeSizes;
+
+async function runtimeIndex(cache) {
+  if (!runtimeSizes) {
+    runtimeSizes = new Map();
+    for (const request of await cache.keys()) {
+      const response = await cache.match(request);
+      if (response)
+        runtimeSizes.set(
+          request.url,
+          Number(response.headers.get("x-portfolio-bytes") || 0),
+        );
+    }
+  }
+  return runtimeSizes;
+}
 
 const isLearn = (path) => path === "/learn" || path.startsWith("/learn/");
 const pagePath = (path) =>
@@ -66,20 +82,23 @@ function store(request, response) {
       headers.delete("content-length");
       headers.set("x-portfolio-bytes", String(bytes.byteLength));
       const cache = await caches.open(RUNTIME);
+      // Read persisted sizes once per worker lifetime, rather than scanning
+      // every cached response again for every image downloaded by a page.
+      const sizes = await runtimeIndex(cache);
+      const url = new URL(
+        typeof request === "string" ? request : request.url,
+        self.location.origin,
+      ).href;
       await cache.delete(request);
       await cache.put(request, new Response(bytes, { headers, status: 200 }));
-      const keys = await cache.keys();
-      let total = 0;
-      for (const key of keys)
-        total += Number(
-          (await cache.match(key)).headers.get("x-portfolio-bytes") || 0,
-        );
-      while (keys.length > CONFIG.maxEntries || total > CONFIG.maxBytes) {
-        const key = keys.shift();
-        total -= Number(
-          (await cache.match(key)).headers.get("x-portfolio-bytes") || 0,
-        );
+      sizes.delete(url);
+      sizes.set(url, bytes.byteLength);
+      let total = [...sizes.values()].reduce((sum, size) => sum + size, 0);
+      while (sizes.size > CONFIG.maxEntries || total > CONFIG.maxBytes) {
+        const key = sizes.keys().next().value;
+        total -= sizes.get(key);
         await cache.delete(key);
+        sizes.delete(key);
       }
     })
     .catch(() => {
@@ -170,6 +189,7 @@ self.addEventListener("message", (event) => {
       else if (event.data?.type === "CLEAR_PROJECT_CACHE") {
         await writes;
         await caches.delete(RUNTIME);
+        runtimeSizes = undefined;
       } else if (event.data?.type !== "CACHE_STATUS") return;
       await writes;
       const cache = await caches.open(RUNTIME);
