@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build && node tools/learn/build-offline.mjs",
+    "build": "vite build && node tools/learn/build-offline.mjs && node tools/pwa/build-pwa.mjs",
     "build:hearthstone": "node tools/hearthstone/getCardSets.mjs",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -20,7 +20,9 @@
     "test:eat:unit": "node --import tsx --test tests/eat/unit.test.ts",
     "test:eat": "playwright test --config playwright.eat.config.ts",
     "test:mortgage:unit": "node --import tsx --test tests/mortgage/unit.test.ts",
-    "test:mortgage": "playwright test --config playwright.mortgage.config.ts"
+    "test:mortgage": "playwright test --config playwright.mortgage.config.ts",
+    "test:pwa": "playwright test --config playwright.pwa.config.ts",
+    "test:pwa:unit": "node --test tests/pwa/*.test.mjs"
   },
   "browserslist": {
     "production": [

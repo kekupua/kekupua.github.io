@@ -84,7 +84,7 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
   ).toBeVisible();
 });
 
-test("worker scope leaves existing portfolio routes uncontrolled", async ({
+test("learning worker yields portfolio routes to the portfolio worker", async ({
   page,
   context,
 }) => {
@@ -101,8 +101,13 @@ test("worker scope leaves existing portfolio routes uncontrolled", async ({
   ]) {
     await other.goto(route);
     await expect(other.locator("#root")).not.toBeEmpty();
+    await expect
+      .poll(() =>
+        other.evaluate(() => navigator.serviceWorker.controller?.scriptURL),
+      )
+      .toContain("/sw.js");
     expect(
-      await other.evaluate(() => navigator.serviceWorker.controller),
-    ).toBeNull();
+      await other.evaluate(() => navigator.serviceWorker.controller?.scriptURL),
+    ).not.toContain("/learn/sw.js");
   }
 });
