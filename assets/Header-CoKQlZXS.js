@@ -1,0 +1,1 @@
+import{j as t}from"./client-Dlbw7WXd.js";const l=({children:s,...e})=>{const a=e.className?`p-4 flex align-center flex-col justify-center gap-4 ${e.className}`:"p-4 flex align-center flex-col justify-center gap-4";return t.jsx("section",{...e,className:a,children:s})},n=({children:s,...e})=>t.jsx("header",{className:"st-text-500",...e,children:s});export{n as H,l as S};
