@@ -87,6 +87,10 @@ pnpm --filter portfolio deploy
 
 Running this script will use the latest code located in the portfolio folder and push a new build to gh-pages branch of this repo.
 
+### Progressive web app
+
+See [PWA storage and offline behavior](docs/pwa/README.md).
+
 ### Testing
 
 ```bash

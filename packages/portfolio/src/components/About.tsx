@@ -13,6 +13,8 @@ export const About: React.FC = () => {
             <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[4/3]">
               <img
                 src="/images/sue_sean2.jpg"
+                loading="lazy"
+                decoding="async"
                 alt="Me and my wife"
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
               />

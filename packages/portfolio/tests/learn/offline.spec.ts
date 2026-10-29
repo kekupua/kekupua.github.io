@@ -1,30 +1,86 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Page } from "@playwright/test";
 
-import { animals } from "../../src/learn/content";
+async function ready(page: Page, url = "/learn/") {
+  await page.goto(url);
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await expect
+    .poll(() =>
+      page.evaluate(() => navigator.serviceWorker.controller?.scriptURL),
+    )
+    .toBe("http://127.0.0.1:4173/sw.js");
+  await settled(page);
+}
 
-test("installation assets, full offline cache, deep refresh, and audio byte ranges", async ({
+async function settled(page: Page) {
+  await page.evaluate(async () => {
+    const registration = await navigator.serviceWorker.ready;
+    await new Promise<void>((resolve) => {
+      const channel = new MessageChannel();
+      channel.port1.onmessage = () => {
+        channel.port1.close();
+        resolve();
+      };
+      registration.active!.postMessage({ type: "CACHE_STATUS" }, [
+        channel.port2,
+      ]);
+    });
+  });
+}
+
+async function saved(page: Page) {
+  return page.evaluate(async () => {
+    const paths: string[] = [];
+    for (const name of await caches.keys())
+      if (name.startsWith("sean-portfolio-runtime-"))
+        for (const request of await (await caches.open(name)).keys())
+          paths.push(new URL(request.url).pathname);
+    return paths;
+  });
+}
+
+test("shared installation, on-demand media, offline deep links, and audio ranges", async ({
   page,
   context,
   request,
 }) => {
-  await page.goto("/learn/");
-  await expect(page.getByRole("status")).toHaveText("✓ Ready to play offline", {
-    timeout: 30000,
+  const downloads: string[] = [];
+  page.on("request", (r) => downloads.push(new URL(r.url()).pathname));
+  await ready(page);
+  await expect(page.getByRole("status")).toContainText(
+    "Saved files may be removed",
+  );
+  expect(downloads).not.toContain("/learn/animals/lion.webp");
+  expect(downloads).not.toContain("/learn/audio/reward-music.mp3");
+  expect(await saved(page)).not.toContain("/learn/animals/lion.webp");
+  const manifestUrl = await page
+    .locator('link[rel="manifest"]')
+    .evaluate((link: HTMLLinkElement) => link.href);
+  expect(manifestUrl).toBe(new URL("/manifest.json", page.url()).href);
+  const manifest = await (await request.get(manifestUrl!)).json();
+  expect(manifest).toMatchObject({
+    scope: "/",
+    start_url: "/",
+    display: "standalone",
   });
-  await page.reload();
-  expect(
-    await page.evaluate(() => navigator.serviceWorker.controller?.scriptURL),
-  ).toContain("/learn/sw.js");
-  const manifest = await (
-    await request.get("/learn/manifest.webmanifest")
-  ).json();
-  expect(manifest.scope).toBe("/learn/");
-  expect(manifest.start_url).toBe("/learn/");
-  expect(manifest.display).toBe("standalone");
   for (const icon of manifest.icons)
     expect((await request.get(icon.src)).ok()).toBeTruthy();
+
+  // Only media actually requested after opening the app enters the shared cache.
+  await page.evaluate(async () => {
+    await fetch("/learn/animals/dog.webp");
+    await fetch("/learn/audio/reward-music.mp3", {
+      headers: { Range: "bytes=0-99" },
+    });
+  });
+  await settled(page);
+  expect(await saved(page)).toContain("/learn/animals/dog.webp");
+  expect(await saved(page)).toContain("/learn/audio/reward-music.mp3");
+  expect(await saved(page)).not.toContain("/learn/animals/lion.webp");
+  // Block worker-owned network requests too: browser offline emulation alone
+  // can leave the service worker online in some Chromium versions.
+  await context.route("**/*", (route) => route.abort("internetdisconnected"));
   await context.setOffline(true);
-  for (const category of ["letters", "animals", "colors"]) {
+  for (const category of ["letters", "animals", "colors"])
     for (const mode of ["explore", "find"]) {
       await page.goto(`/learn/#/${category}/${mode}`);
       await page.reload();
@@ -33,24 +89,6 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
         page.getByRole("button", { name: "Hear again" }),
       ).toHaveCount(0);
     }
-  }
-  // Every local effect, music track, and photo is cached before first use.
-  const ids = ["navigate", "tap", "correct", "reward-music"]
-    .map((id) => `/learn/audio/${id}.mp3`)
-    .concat(animals.map((animal) => animal.image!));
-  const results = await page.evaluate(
-    async (ids) =>
-      Promise.all(
-        ids.map(async (id) => {
-          const response = await fetch(id);
-          return (
-            response.ok && (await response.arrayBuffer()).byteLength > 1000
-          );
-        }),
-      ),
-    ids,
-  );
-  expect(results.every(Boolean)).toBeTruthy();
   const range = await page.evaluate(async () => {
     const response = await fetch("/learn/audio/reward-music.mp3", {
       headers: { Range: "bytes=0-99" },
@@ -84,14 +122,11 @@ test("installation assets, full offline cache, deep refresh, and audio byte rang
   ).toBeVisible();
 });
 
-test("worker scope leaves existing portfolio routes uncontrolled", async ({
+test("learning and portfolio routes use the same root worker", async ({
   page,
   context,
 }) => {
-  await page.goto("/learn/");
-  await expect(page.getByRole("status")).toHaveText("✓ Ready to play offline", {
-    timeout: 30000,
-  });
+  await ready(page);
   const other = await context.newPage();
   for (const route of [
     "/",
@@ -99,10 +134,7 @@ test("worker scope leaves existing portfolio routes uncontrolled", async ({
     "/#/recipesByGpt",
     "/#/random-hearthstone",
   ]) {
-    await other.goto(route);
+    await ready(other, route);
     await expect(other.locator("#root")).not.toBeEmpty();
-    expect(
-      await other.evaluate(() => navigator.serviceWorker.controller),
-    ).toBeNull();
   }
 });

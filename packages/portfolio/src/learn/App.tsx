@@ -149,30 +149,11 @@ export function LearnApp() {
   const [round, setRound] = useState(0);
   const [correct, setCorrect] = useState(false);
   const [message, setMessage] = useState("");
-  const [offline, setOffline] = useState(false);
-  const [cacheError, setCacheError] = useState(false);
   useEffect(() => {
     window.addEventListener("popstate", stopAudio);
     return () => {
       stopAudio();
       window.removeEventListener("popstate", stopAudio);
-    };
-  }, []);
-  useEffect(() => {
-    let active = true;
-    if ("serviceWorker" in navigator && import.meta.env.PROD) {
-      navigator.serviceWorker
-        .register("/learn/sw.js", { scope: "/learn/" })
-        .then(() => navigator.serviceWorker.ready)
-        .then(() => {
-          if (active) setOffline(true);
-        })
-        .catch(() => {
-          if (active) setCacheError(true);
-        });
-    }
-    return () => {
-      active = false;
     };
   }, []);
   // Hash deep links and browser back always start a fresh, predictable activity.
@@ -395,13 +376,8 @@ export function LearnApp() {
       </main>
       {!category && (
         <footer className="learn-footer" role="status">
-          {offline
-            ? "✓ Ready to play offline"
-            : cacheError
-              ? "Offline saving unavailable. Ask a grown-up to reopen online."
-              : import.meta.env.PROD
-                ? "Getting ready for offline play…"
-                : "Preview · offline saving starts in the production build"}
+          Open activities online to save their files. Saved files may be removed
+          to free space; some pictures and sounds may need a connection.
         </footer>
       )}
     </div>

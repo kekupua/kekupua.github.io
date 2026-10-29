@@ -4,11 +4,11 @@ A self-contained preschool learning app at `/learn/`. `/learn` redirects to the 
 
 ## Activities
 
-| Category | Explore | Find / Match |
-| --- | --- | --- |
-| Letters | All 26 uppercase/lowercase letters and illustrated objects | Match a large visual letter target to three choices; unlimited retries |
-| Animals | Dog, cat, cow, duck, elephant, lion; real locally bundled photographs | Match a photo target to three animal photographs |
-| Colors | Red, blue, yellow, green, orange, purple | Match the target ball to one of three colored balls |
+| Category | Explore                                                               | Find / Match                                                           |
+| -------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Letters  | All 26 uppercase/lowercase letters and illustrated objects            | Match a large visual letter target to three choices; unlimited retries |
+| Animals  | Dog, cat, cow, duck, elephant, lion; real locally bundled photographs | Match a photo target to three animal photographs                       |
+| Colors   | Red, blue, yellow, green, orange, purple                              | Match the target ball to one of three colored balls                    |
 
 Correct answers get a gentle star celebration, a short chime, and an original eight-second musical reward. The child taps Next to continue; no timers, scores, negative sounds, or automatic round changes. Incorrect answers stay silent and allow unlimited retries. There is no spoken audio, animal-sound imitation, or audio replay button. The sound toggle mutes both effects and music, and music stops immediately on Next, Home, other navigation, or mute. Visual letter/photo/color targets make matching understandable without speech or reading.
 
@@ -33,11 +33,26 @@ Production/offline preview: `pnpm --filter portfolio preview --host 127.0.0.1 --
 
 ## Installation and offline use
 
-After an approved merge/deployment, a grown-up should open `/learn/` online and wait for **Ready to play offline**. On iOS Safari, use Share → Add to Home Screen → Add (enable Open as Web App where offered). On Android Chrome, use Install app / Add to Home screen. Launch the installed icon once online, wait for the same ready message, then check it in airplane mode. A first visit or first install requires network access.
+Little Wonders uses the same portfolio manifest and root service worker as the
+other projects. On iOS Safari, use Share → Add to Home Screen; on Android, use the
+browser's install menu. New installations open the portfolio, with Little Wonders
+available at `/learn/`. Existing learning shortcuts and their legacy manifest/icons
+remain available.
 
-The manifest uses start URL, ID, and scope `/learn/`, standalone display, 192/512 PNG icons, a maskable 512 icon, and an iOS 180 touch icon. `dist/learn/sw.js` is generated after Vite builds by walking the learning entry's dependency graph plus local learning assets. The worker scope is `/learn/`; it caches the learning HTML, its JS/CSS dependencies, all icons, all six animal photos, and all four nonverbal audio files. It does not cache portfolio images or HTML. Shared React/router JS can live under `/assets/`; the worker handles those dependencies only for its controlled learning pages. Hashed cache versions change when any learning dependency changes. An update waits for old learning windows to close; it does not force a running game to reload. Cleanup removes only caches beginning `little-wonders-`.
+Open activities online first. Only the visited entry's eager JS/CSS and requested
+pictures/sounds are cached; opening Little Wonders does not download every photo
+or sound. All projects share **64 runtime entries / 12 MiB**, with **2 MiB per
+file** and oldest-entry eviction. The portfolio's clear-downloads control clears
+learning downloads too, while retaining preferences and the home shell. Offline
+availability is best effort; the footer no longer claims the whole app is ready.
+See [PWA storage and updates](../pwa/README.md) for the shared policy.
 
-The bundled audio consists of three short original bell effects (`navigate`, `tap`, `correct`) and a short original musical reward (`reward-music`). Music starts exclusively from a correct-answer tap, plays once at a quiet volume, and stops when moving on. The worker handles MP3 byte ranges for offline playback. No speech synthesis or voice assets remain. There are no remote image/font/sound requests, API calls, analytics, or tracking at runtime. The separate HTML entry excludes the portfolio's footer, Google fonts, and Ionicons CDN scripts. Its content security policy limits resource requests to the same origin. The app has buttons and internal hash navigation, with no anchors, forms, embeds, or controls leading back to the portfolio.
+The old `/learn/sw.js` now retires its registration and `little-wonders-*` caches.
+The shared registration also unregisters that exact legacy worker. Existing users
+should close old learning windows and reopen online after an update. Unrelated
+workers, caches, and preferences are retained.
+
+The bundled audio consists of three short original bell effects (`navigate`, `tap`, `correct`) and a short original musical reward (`reward-music`). Music starts exclusively from a correct-answer tap, plays once at a quiet volume, and stops when moving on. The shared worker handles MP3 byte ranges for requested, retained audio. No speech synthesis or voice assets remain. There are no remote image/font/sound requests, API calls, analytics, or tracking at runtime. The separate HTML entry excludes the portfolio's footer, Google fonts, and Ionicons CDN scripts. Its content security policy limits resource requests to the same origin. The app has buttons and internal hash navigation, with no anchors, forms, embeds, or controls leading back to the portfolio.
 
 ## Content and asset authoring
 
@@ -53,9 +68,9 @@ Additional items need only a local SVG/art key or local photo path; there are no
 
 ## Validation and limits
 
-Browser coverage includes all 26 letter cards and every animal/color; action effects, success-only music, silent retries, and stopping/muting playback; exploration boundaries; repeated wrong answers, success and manual next; category/home navigation and browser history; mute; all activity layouts; minimum control sizes, viewport-height filling, no horizontal/vertical overflow at standard phone sizes; reduced motion; absence of external requests, links, forms and embeds; full offline cache including unvisited photos and all sound files; all six offline deep-link reloads; MP3 decoding and range responses; scoped manifest/icons; and the existing landing, meal-prep, recipe, and Hearthstone routes remaining outside worker control.
+Browser coverage includes all 26 letter cards and every animal/color; action effects, success-only music, silent retries, and stopping/muting playback; exploration boundaries; repeated wrong answers, success and manual next; category/home navigation and browser history; mute; all activity layouts; minimum control sizes, viewport-height filling, no horizontal/vertical overflow at standard phone sizes; reduced motion; absence of external requests, links, forms and embeds; on-demand media caching without unvisited-photo/audio downloads; all six offline deep-link reloads; MP3 decoding and range responses; shared manifest/icons; and the existing landing, meal-prep, recipe, and Hearthstone routes using the same root worker.
 
-Tests run in Chromium with desktop (1280×900), iPhone 13 (390×844, touch), and iPad (810×1080, touch) profiles, plus 375×667 small-phone checks. All 39 browser checks passed locally. This is viewport/device emulation, not a physical Safari/iOS test. Manifest and icons were checked; real iOS/Android installation, speaker volume, and Safari behavior still need device confirmation. Effects/music start only from appropriate taps; an initial page or deep link stays silent. A device can evict offline storage; reopen online and wait for Ready to play offline if needed. Native browser/OS navigation is outside the app's control.
+Tests run in Chromium with desktop (1280×900), iPhone 13 (390×844, touch), and iPad (810×1080, touch) profiles, plus 375×667 small-phone checks. This is viewport/device emulation, not a physical Safari/iOS test. Manifest and icons were checked; real iOS/Android installation, speaker volume, and Safari behavior still need device confirmation. Effects/music start only from appropriate taps; an initial page or deep link stays silent. A device can evict offline storage; reopen the needed activity online if files are missing. Native browser/OS navigation is outside the app's control.
 
 No live deployment was performed. Main's existing workflow still builds the same portfolio and deploys to the existing gh-pages branch after an approved merge.
 
@@ -63,11 +78,11 @@ No live deployment was performed. Main's existing workflow still builds the same
 
 [Desktop home](home.png) · [iPhone home](home-iphone.png) · [iPad home](home-ipad.png)
 
-| Activity | Desktop | iPhone | iPad |
-| --- | --- | --- | --- |
-| Alphabet | [View](letters-explore.png) | [View](letters-explore-iphone.png) | [View](letters-explore-ipad.png) |
-| Find letter | [View](letters-find.png) | [View](letters-find-iphone.png) | [View](letters-find-ipad.png) |
-| Meet animals | [View](animals-explore.png) | [View](animals-explore-iphone.png) | [View](animals-explore-ipad.png) |
-| Find animal | [View](animals-find.png) | [View](animals-find-iphone.png) | [View](animals-find-ipad.png) |
-| Explore colors | [View](colors-explore.png) | [View](colors-explore-iphone.png) | [View](colors-explore-ipad.png) |
-| Color matching | [View](colors-find.png) | [View](colors-find-iphone.png) | [View](colors-find-ipad.png) |
+| Activity       | Desktop                     | iPhone                             | iPad                             |
+| -------------- | --------------------------- | ---------------------------------- | -------------------------------- |
+| Alphabet       | [View](letters-explore.png) | [View](letters-explore-iphone.png) | [View](letters-explore-ipad.png) |
+| Find letter    | [View](letters-find.png)    | [View](letters-find-iphone.png)    | [View](letters-find-ipad.png)    |
+| Meet animals   | [View](animals-explore.png) | [View](animals-explore-iphone.png) | [View](animals-explore-ipad.png) |
+| Find animal    | [View](animals-find.png)    | [View](animals-find-iphone.png)    | [View](animals-find-ipad.png)    |
+| Explore colors | [View](colors-explore.png)  | [View](colors-explore-iphone.png)  | [View](colors-explore-ipad.png)  |
+| Color matching | [View](colors-find.png)     | [View](colors-find-iphone.png)     | [View](colors-find-ipad.png)     |

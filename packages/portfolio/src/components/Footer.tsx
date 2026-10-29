@@ -1,4 +1,5 @@
 import React from 'react';
+import { PwaControls } from '../pwa/PwaControls';
 import { Linkedin, Twitter, Github, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
@@ -34,6 +35,7 @@ export const Footer: React.FC = () => {
             </a>
           </div>
         </div>
+        <PwaControls />
       </div>
     </footer>
   );

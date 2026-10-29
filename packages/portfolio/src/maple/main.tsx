@@ -1,3 +1,4 @@
+import { registerPortfolioPwa } from "../pwa/register";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { MapleApp } from "./MapleApp";
@@ -8,3 +9,5 @@ createRoot(document.getElementById("root")!).render(
     <MapleApp />
   </React.StrictMode>,
 );
+
+void registerPortfolioPwa();

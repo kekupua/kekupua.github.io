@@ -39,6 +39,8 @@ export const Projects: React.FC = () => {
               <div className="relative h-48 overflow-hidden">
                 <img
                   src={project.image}
+                  loading="lazy"
+                  decoding="async"
                   alt={project.heading}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />

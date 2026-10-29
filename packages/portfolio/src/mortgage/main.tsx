@@ -1,3 +1,4 @@
+import { registerPortfolioPwa } from "../pwa/register";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { MortgageApp } from "./MortgageApp";
@@ -8,3 +9,5 @@ createRoot(document.getElementById("root")!).render(
     <MortgageApp />
   </React.StrictMode>,
 );
+
+void registerPortfolioPwa();
