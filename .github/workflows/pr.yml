@@ -44,7 +44,7 @@ jobs:
       - name: Build portfolio and learning app
         run: pnpm --filter portfolio build
 
-      - name: Test PWA cache policy and push handlers
+      - name: Test PWA cache policy
         run: pnpm --filter portfolio test:pwa:unit
 
       - name: Install test browser

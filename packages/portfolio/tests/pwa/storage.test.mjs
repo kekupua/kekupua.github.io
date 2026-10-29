@@ -61,6 +61,7 @@ function harness(limits = {}) {
     URL,
     Headers,
     Response,
+    Request,
     fetch: async () => networkResponse.clone(),
   });
   async function load(path, body = "123456", init = {}, requestInit = {}) {
@@ -106,10 +107,6 @@ test("entry limit and sensitive/error response exclusions apply independently", 
   await w.load("/failed.js", "error", { status: 500 });
   assert.deepEqual(w.entries(), ["/b.js", "/c.js"]);
   assert.equal(await w.load("/c.js?token=example"), undefined);
-  assert.equal(
-    await w.load("/range.js", "x", {}, { headers: { Range: "bytes=0-1" } }),
-    undefined,
-  );
 });
 
 test("storage and quota failures still return the live response", async () => {
@@ -119,4 +116,49 @@ test("storage and quota failures still return the live response", async () => {
   assert.deepEqual(w.entries(), []);
   w.options.failReads = true;
   assert.equal(await (await w.load("/no-storage.js")).text(), "123456");
+});
+
+test("on-demand ranges store a full bounded asset and serve cached ranges", async () => {
+  const w = harness();
+  const response = await w.load(
+    "/learn/audio/tap.mp3",
+    "123456",
+    {},
+    {
+      headers: { Range: "bytes=1-3" },
+    },
+  );
+  assert.equal(response.status, 206);
+  assert.equal(await response.text(), "234");
+  assert.equal(response.headers.get("content-range"), "bytes 1-3/6");
+  assert.deepEqual(w.entries(), ["/learn/audio/tap.mp3"]);
+  const suffix = await w.load(
+    "/learn/audio/tap.mp3",
+    "unused",
+    {},
+    {
+      headers: { Range: "bytes=-2" },
+    },
+  );
+  assert.equal(await suffix.text(), "56");
+  const invalid = await w.load(
+    "/learn/audio/tap.mp3",
+    "unused",
+    {},
+    {
+      headers: { Range: "bytes=99-" },
+    },
+  );
+  assert.equal(invalid.status, 416);
+  assert.equal(
+    await w.load(
+      "/large.mp3",
+      "123456789",
+      {},
+      {
+        headers: { Range: "bytes=0-1" },
+      },
+    ),
+    undefined,
+  );
 });

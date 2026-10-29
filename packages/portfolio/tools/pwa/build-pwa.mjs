@@ -15,6 +15,7 @@ const pages = Object.fromEntries(
   [
     ["/", "index.html"],
     ["/eat/", "eat/index.html"],
+    ["/learn/", "learn/index.html"],
     ["/maple/", "maple/index.html"],
     ["/mortgage/", "mortgage/index.html"],
   ].map(([url, key]) => [url, [url, ...dependencies(key)]]),
@@ -43,9 +44,11 @@ async function walk(dir = "") {
   for (const entry of await readdir(`dist/${dir}`, { withFileTypes: true })) {
     const path = `${dir}${entry.name}`;
     if (entry.isDirectory()) {
-      if (!["learn", ".vite"].includes(path)) await walk(`${path}/`);
+      if (path !== ".vite") await walk(`${path}/`);
     } else if (
-      /\.(?:js|css|png|jpe?g|webp|svg|ico|woff2?|json|html)$/.test(path)
+      /\.(?:js|css|png|jpe?g|webp|svg|ico|woff2?|json|webmanifest|mp3|html)$/.test(
+        path,
+      )
     ) {
       files.push(`/${path}`);
     }
@@ -53,7 +56,7 @@ async function walk(dir = "") {
 }
 await walk();
 // Only known build output is eligible. API responses, map tiles and remote images
-// never enter Cache Storage. /learn/ keeps its separate offline worker and cache.
+// never enter Cache Storage. All projects share the same runtime budget.
 const sizes = {};
 const hash = createHash("sha256");
 for (const url of files.sort()) {

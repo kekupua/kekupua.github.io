@@ -89,7 +89,7 @@ Running this script will use the latest code located in the portfolio folder and
 
 ### Progressive web app
 
-See [PWA storage, offline behavior, and future mobile push](docs/pwa/README.md).
+See [PWA storage and offline behavior](docs/pwa/README.md).
 
 ### Testing
 

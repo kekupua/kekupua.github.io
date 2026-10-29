@@ -92,6 +92,11 @@ test("install shell excludes project bundles and media; home works offline", asy
   ).toBe(false);
   expect(shell.some((path) => path.startsWith("/images/"))).toBe(false);
   expect(cached).not.toContain("/maple/");
+  for (const files of Object.values(config.pages) as string[][])
+    for (const file of files.filter((file) => !config.shell.includes(file))) {
+      expect(cached).not.toContain(file);
+      expect(scripts).not.toContain(file);
+    }
   await context.setOffline(true);
   await page.reload();
   await expect(
@@ -154,7 +159,7 @@ test("unvisited lazy project has a recovery screen offline", async ({
   ).toBeVisible();
 });
 
-test("cache bounds, private URL exclusions, clear control, and worker coexistence", async ({
+test("cache bounds, private URL exclusions, clear control, and shared learning storage", async ({
   page,
   context,
 }) => {
@@ -200,18 +205,16 @@ test("cache bounds, private URL exclusions, clear control, and worker coexistenc
     }, prefix),
   ).toBe(false);
   const other = await context.newPage();
-  await other.goto("/learn/");
-  await expect(other.getByRole("status")).toHaveText(
-    "✓ Ready to play offline",
-    { timeout: 30000 },
-  );
+  await ready(other, "/learn/");
   expect(
     await other.evaluate(() => navigator.serviceWorker.controller?.scriptURL),
-  ).toContain("/learn/sw.js");
-  const learnNames = await page.evaluate(async () =>
-    (await caches.keys()).filter((name) => name.startsWith("little-wonders-")),
-  );
-  // Clearing the portfolio runtime does not erase a separate app or user data.
+  ).toBe("http://127.0.0.1:4173/sw.js");
+  await other.evaluate(() => fetch("/learn/animals/cow.webp"));
+  await command(other);
+  expect(await paths(page)).toContain("/learn/animals/cow.webp");
+  // Learning downloads share the same budget and clear control as every project.
+  expect((await command(page)).entries).toBeLessThanOrEqual(config.maxEntries);
+  expect((await command(page)).bytes).toBeLessThanOrEqual(config.maxBytes);
   await page.getByText("Install & offline storage", { exact: true }).click();
   await expect(
     page.getByRole("button", { name: "Clear downloaded project files" }),
@@ -226,23 +229,21 @@ test("cache bounds, private URL exclusions, clear control, and worker coexistenc
   expect(
     await page.evaluate(() => localStorage.getItem("pwa-test-preference")),
   ).toBe("keep");
-  expect(
-    await page.evaluate(async () =>
-      (await caches.keys()).filter((name) =>
-        name.startsWith("little-wonders-"),
-      ),
-    ),
-  ).toEqual(learnNames);
+  expect(await paths(page)).not.toContain("/learn/animals/cow.webp");
   await context.setOffline(true);
   await other.reload();
-  await expect(other.locator("h1")).toBeVisible();
+  await expect(
+    other.getByRole("heading", { name: "Open this project online first" }),
+  ).toBeVisible();
   await page.reload();
   await expect(
     page.getByRole("heading", { name: /Sean Teramae/, level: 1 }),
   ).toBeVisible();
 });
 
-test("activation deletes only old portfolio caches", async ({ page }) => {
+test("activation deletes old portfolio and legacy learning caches only", async ({
+  page,
+}) => {
   await page.goto("/offline.html");
   await page.evaluate(async () => {
     await caches.open("sean-portfolio-runtime-old");
@@ -252,6 +253,6 @@ test("activation deletes only old portfolio caches", async ({ page }) => {
   await ready(page);
   const names = await page.evaluate(() => caches.keys());
   expect(names).not.toContain("sean-portfolio-runtime-old");
-  expect(names).toContain("little-wonders-test");
+  expect(names).not.toContain("little-wonders-test");
   expect(names).toContain("unrelated-project");
 });

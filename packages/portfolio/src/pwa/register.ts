@@ -5,8 +5,26 @@ export function registerPortfolioPwa() {
   if (registration) return registration;
   if (!import.meta.env.PROD || !("serviceWorker" in navigator))
     return Promise.resolve(null);
-  registration = navigator.serviceWorker
-    .register("/sw.js", { scope: "/", updateViaCache: "none" })
+  registration = (async () => {
+    // Retire the former project-specific worker before the root claims clients.
+    const registrations = await navigator.serviceWorker.getRegistrations();
+    for (const existing of registrations) {
+      const worker = existing.active || existing.waiting || existing.installing;
+      if (
+        new URL(existing.scope).pathname === "/learn/" &&
+        worker &&
+        new URL(worker.scriptURL).pathname === "/learn/sw.js"
+      ) {
+        await existing.unregister();
+        for (const name of await caches.keys())
+          if (name.startsWith("little-wonders-")) await caches.delete(name);
+      }
+    }
+    return navigator.serviceWorker.register("/sw.js", {
+      scope: "/",
+      updateViaCache: "none",
+    });
+  })()
     .then(async (reg) => {
       if (!reg.active) {
         await new Promise<void>((resolve, reject) => {

@@ -40,8 +40,8 @@ export function PwaControls() {
         </p>
         <p>
           Clear downloaded project files below to free space. Your saved
-          preferences, the portfolio home, and Little Wonders stay on this
-          device.
+          preferences and the portfolio home stay on this device. This also
+          clears Little Wonders downloads.
         </p>
         <button
           type="button"

@@ -22,7 +22,6 @@ async function runtimeIndex(cache) {
   return runtimeSizes;
 }
 
-const isLearn = (path) => path === "/learn" || path.startsWith("/learn/");
 const pagePath = (path) =>
   path === "/index.html" ? "/" : path.replace(/index\.html$/, "");
 function eligible(request) {
@@ -31,8 +30,6 @@ function eligible(request) {
     request.method === "GET" &&
     url.origin === self.location.origin &&
     !url.search &&
-    !isLearn(url.pathname) &&
-    !request.headers.has("range") &&
     Object.hasOwn(CONFIG.sizes, url.pathname)
   );
 }
@@ -52,7 +49,8 @@ self.addEventListener("activate", (event) => {
         names
           .filter(
             (name) =>
-              name.startsWith(PREFIX) && name !== SHELL && name !== RUNTIME,
+              (name.startsWith(PREFIX) && name !== SHELL && name !== RUNTIME) ||
+              name.startsWith("little-wonders-"),
           )
           .map((name) => caches.delete(name)),
       );
@@ -107,27 +105,56 @@ function store(request, response) {
   return writes;
 }
 
+// Audio players can request byte ranges even on first play. Fetch a complete
+// small build asset on demand, then serve the range from that bounded response.
+// Partial responses never enter the cache; this policy is shared by every app.
+async function byteRange(response, range) {
+  if (!range || response.status !== 200) return response;
+  const bytes = await response.arrayBuffer();
+  const match = /^bytes=(\d*)-(\d*)$/.exec(range);
+  let start = match?.[1] ? Number(match[1]) : 0;
+  let end = match?.[2] ? Number(match[2]) : bytes.byteLength - 1;
+  if (match && !match[1] && match[2]) {
+    start = Math.max(0, bytes.byteLength - Number(match[2]));
+    end = bytes.byteLength - 1;
+  }
+  end = Math.min(end, bytes.byteLength - 1);
+  if (
+    !match ||
+    (!match[1] && !match[2]) ||
+    start > end ||
+    start >= bytes.byteLength
+  )
+    return new Response(null, {
+      status: 416,
+      headers: { "Content-Range": `bytes */${bytes.byteLength}` },
+    });
+  const headers = new Headers(response.headers);
+  headers.delete("content-encoding");
+  headers.set("Content-Length", String(end - start + 1));
+  headers.set("Content-Range", `bytes ${start}-${end}/${bytes.byteLength}`);
+  headers.set("Accept-Ranges", "bytes");
+  return new Response(bytes.slice(start, end + 1), { status: 206, headers });
+}
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   const url = new URL(request.url);
   if (
     url.origin !== self.location.origin ||
     request.method !== "GET" ||
-    url.search ||
-    isLearn(url.pathname)
+    url.search
   )
     return;
+  const range = request.headers.get("range");
+  // Leave large range downloads to the network without retaining them.
+  if (range && CONFIG.sizes[url.pathname] > CONFIG.maxFileBytes) return;
   const page = pagePath(url.pathname);
   const navigation =
     request.mode === "navigate" && Object.hasOwn(CONFIG.pages, page);
   if (!navigation && !eligible(request)) return;
   event.respondWith(
     (async () => {
-      const client = event.clientId
-        ? await self.clients.get(event.clientId)
-        : null;
-      if (client && isLearn(new URL(client.url).pathname))
-        return fetch(request);
       const key = navigation ? page : url.pathname;
       let shell;
       try {
@@ -135,16 +162,20 @@ self.addEventListener("fetch", (event) => {
         const runtime = await caches.open(RUNTIME);
         // Cache-first HTML and hashed assets keep a visited app on one build.
         const cached = (await shell.match(key)) || (await runtime.match(key));
-        if (cached) return cached;
+        if (cached) return byteRange(cached, range);
       } catch {
         // Storage can become unavailable even after a successful installation.
         return fetch(request);
       }
       try {
-        const response = await fetch(request);
+        const headers = new Headers(request.headers);
+        headers.delete("range");
+        const response = await fetch(
+          range ? new Request(request, { headers }) : request,
+        );
         // Query-bearing requests are network-only; never cache personalized URLs.
         if (!url.search) event.waitUntil(store(key, response));
-        return response;
+        return byteRange(response, range);
       } catch {
         if (navigation) return shell.match("/offline.html");
         return Response.error();
@@ -158,8 +189,7 @@ async function saveVisitedPage(event) {
   if (!client?.url) return;
   const url = new URL(client.url);
   const page = pagePath(url.pathname);
-  if (url.origin !== self.location.origin || url.search || isLearn(page))
-    return;
+  if (url.origin !== self.location.origin || url.search) return;
   const files = new Set(CONFIG.pages[page] || []);
   if (page === "/") {
     const route = url.hash.slice(1).split("?")[0];
@@ -205,63 +235,4 @@ self.addEventListener("message", (event) => {
     }
   });
   event.waitUntil(messages);
-});
-
-// Future projects can reuse this registration for standards-based Web Push.
-// A separate backend must store subscriptions and send VAPID-signed messages.
-function notificationUrl(value) {
-  try {
-    const url = new URL(
-      typeof value === "string" ? value : "/",
-      self.location.origin,
-    );
-    return url.origin === self.location.origin
-      ? url.href
-      : `${self.location.origin}/`;
-  } catch {
-    return `${self.location.origin}/`;
-  }
-}
-self.addEventListener("push", (event) => {
-  let payload = {};
-  try {
-    payload = event.data?.json() || {};
-  } catch {
-    /* Use a safe default. */
-  }
-  if (typeof payload !== "object" || payload === null) payload = {};
-  event.waitUntil(
-    self.registration.showNotification(
-      typeof payload.title === "string"
-        ? payload.title.slice(0, 100)
-        : "Sean Teramae",
-      {
-        body:
-          typeof payload.body === "string"
-            ? payload.body.slice(0, 500)
-            : "You have a new update.",
-        icon: "/192.png",
-        tag:
-          typeof payload.tag === "string"
-            ? `portfolio-${payload.tag.slice(0, 100)}`
-            : undefined,
-        data: { url: notificationUrl(payload.url) },
-      },
-    ),
-  );
-});
-self.addEventListener("notificationclick", (event) => {
-  event.notification.close();
-  const url = notificationUrl(event.notification.data?.url);
-  event.waitUntil(
-    (async () => {
-      const windows = await self.clients.matchAll({
-        type: "window",
-        includeUncontrolled: true,
-      });
-      const existing = windows.find((client) => client.url === url);
-      if (existing) await existing.focus();
-      else await self.clients.openWindow(url);
-    })(),
-  );
 });
