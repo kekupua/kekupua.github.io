@@ -76,6 +76,9 @@ test("shared installation, on-demand media, offline deep links, and audio ranges
   expect(await saved(page)).toContain("/learn/animals/dog.webp");
   expect(await saved(page)).toContain("/learn/audio/reward-music.mp3");
   expect(await saved(page)).not.toContain("/learn/animals/lion.webp");
+  // Block worker-owned network requests too: browser offline emulation alone
+  // can leave the service worker online in some Chromium versions.
+  await context.route("**/*", (route) => route.abort("internetdisconnected"));
   await context.setOffline(true);
   for (const category of ["letters", "animals", "colors"])
     for (const mode of ["explore", "find"]) {

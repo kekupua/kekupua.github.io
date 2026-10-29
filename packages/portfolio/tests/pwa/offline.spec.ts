@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type BrowserContext, type Page } from "@playwright/test";
 import { readFile } from "node:fs/promises";
 
 const config = JSON.parse(await readFile("dist/.vite/pwa.json", "utf8"));
@@ -17,6 +17,12 @@ async function command(page: Page, type = "CACHE_STATUS") {
       },
     );
   }, type);
+}
+async function goOffline(context: BrowserContext) {
+  // Block worker-owned network requests too: browser offline emulation alone
+  // can leave the service worker online in some Chromium versions.
+  await context.route("**/*", (route) => route.abort("internetdisconnected"));
+  await context.setOffline(true);
 }
 async function ready(page: Page, url = "/") {
   await page.goto(url);
@@ -97,7 +103,7 @@ test("install shell excludes project bundles and media; home works offline", asy
       expect(cached).not.toContain(file);
       expect(scripts).not.toContain(file);
     }
-  await context.setOffline(true);
+  await goOffline(context);
   await page.reload();
   await expect(
     page.getByRole("heading", { name: /Sean Teramae/, level: 1 }),
@@ -119,7 +125,7 @@ test("lazy hash project downloads when visited and survives offline reload", asy
   const cached = await paths(page);
   for (const path of config.routes["/meal-prep"])
     expect(cached).toContain(path);
-  await context.setOffline(true);
+  await goOffline(context);
   await page.reload();
   await expect(
     page.getByRole("heading", { name: "This project could not load" }),
@@ -135,7 +141,7 @@ test("direct project first visit caches its eager graph without a reload", async
   await command(page);
   for (const path of config.pages["/mortgage/"])
     expect(await paths(page)).toContain(path);
-  await context.setOffline(true);
+  await goOffline(context);
   await page.reload();
   await expect(page.locator("h1")).toBeVisible();
   expect(await page.title()).toContain("Room to Grow");
@@ -146,7 +152,7 @@ test("unvisited lazy project has a recovery screen offline", async ({
   context,
 }) => {
   await ready(page);
-  await context.setOffline(true);
+  await goOffline(context);
   await page.goto("/#/meal-prep");
   await expect(
     page.getByRole("heading", { name: "This project could not load" }),
@@ -230,7 +236,7 @@ test("cache bounds, private URL exclusions, clear control, and shared learning s
     await page.evaluate(() => localStorage.getItem("pwa-test-preference")),
   ).toBe("keep");
   expect(await paths(page)).not.toContain("/learn/animals/cow.webp");
-  await context.setOffline(true);
+  await goOffline(context);
   await other.reload();
   await expect(
     other.getByRole("heading", { name: "Open this project online first" }),
