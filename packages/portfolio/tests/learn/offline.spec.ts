@@ -54,8 +54,8 @@ test("shared installation, on-demand media, offline deep links, and audio ranges
   expect(await saved(page)).not.toContain("/learn/animals/lion.webp");
   const manifestUrl = await page
     .locator('link[rel="manifest"]')
-    .getAttribute("href");
-  expect(manifestUrl).toBe("/manifest.json");
+    .evaluate((link: HTMLLinkElement) => link.href);
+  expect(manifestUrl).toBe(new URL("/manifest.json", page.url()).href);
   const manifest = await (await request.get(manifestUrl!)).json();
   expect(manifest).toMatchObject({
     scope: "/",
